@@ -1,0 +1,29 @@
+{% comment %}
+    Custom Collection Page - Displays products with collection-based URLs
+{% endcomment %}
+
+<section class="collection">
+  <h1>{{ collection.title }}</h1>
+  
+  {% if collection.description != blank %}
+    <p>{{ collection.description }}</p>
+  {% endif %}
+
+  <div class="collection-products">
+    {% for product in collection.products %}
+      <div class="product-item">
+        <a href="/collections/{{ collection.handle }}/products/{{ product.handle }}">
+          <img src="{{ product.featured_image | img_url: 'medium' }}" alt="{{ product.title }}">
+          <h2>{{ product.title }}</h2>
+          <p>{{ product.price | money }}</p>
+        </a>
+      </div>
+    {% endfor %}
+  </div>
+</section>
+
+{% if paginate.pages > 1 %}
+  <div class="pagination">
+    {{ paginate | default_pagination }}
+  </div>
+{% endif %}
