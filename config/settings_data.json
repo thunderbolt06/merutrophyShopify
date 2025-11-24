@@ -144,11 +144,6 @@
     },
     "content_for_index": [],
     "blocks": {
-      "8170924994765517213": {
-        "type": "shopify://apps/tepo-product-options/blocks/app-embed/906ef57c-14e4-45d8-8b53-3ba7349d56a6",
-        "disabled": false,
-        "settings": {}
-      },
       "15683396631634586217": {
         "type": "shopify://apps/inbox/blocks/chat/841fc607-4181-4ad1-842d-e24d7f8bad6b",
         "disabled": false,
@@ -162,6 +157,11 @@
           "button_vertical_position": "lowest",
           "greeting_message": "Thanks for your message! We'll be with you as soon as we can. \nYou can reach out to us on 7892207252"
         }
+      },
+      "8170924994765517213": {
+        "type": "shopify://apps/tepo-product-options/blocks/app-embed/906ef57c-14e4-45d8-8b53-3ba7349d56a6",
+        "disabled": true,
+        "settings": {}
       }
     },
     "color_schemes": {
