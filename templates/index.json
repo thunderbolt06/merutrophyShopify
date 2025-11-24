@@ -1,1 +1,402 @@
-{"sections":{"image_banner":{"type":"image-banner","blocks":{"heading":{"type":"heading","settings":{"heading":"Celebrating with you!","heading_size":"h0"}},"button":{"type":"buttons","settings":{"button_label_1":"Gallery","button_link_1":"shopify:\/\/pages\/gallery","button_style_secondary_1":true,"button_label_2":"Call 7892207252","button_link_2":"tel:+91-7892207252","button_style_secondary_2":true,"button_label_3":"Download Catalogue","button_link_3":"https:\/\/drive.google.com\/file\/d\/1kB3gzKZ0j9PDyd9ulu0Nb4MyMdBFoSGJ\/view","button_style_secondary_3":true,"button_label_4":"Whatsapp Now","button_link_4":"https:\/\/wa.me\/+917892207252?text=Hi","button_style_secondary_4":true}}},"block_order":["heading","button"],"settings":{"image":"shopify:\/\/shop_images\/IMG20240422121417.jpg","image_overlay_opacity":70,"image_height":"small","desktop_content_position":"bottom-center","show_text_box":false,"desktop_content_alignment":"center","color_scheme":"scheme-3","image_behavior":"fixed","mobile_content_alignment":"center","stack_images_on_mobile":false,"show_text_below":false}},"collection_list_8wgwHj":{"type":"collection-list","blocks":{"featured_collection_Fjjkke":{"type":"featured_collection","settings":{"collection":"crystal-trophies"}},"featured_collection_MUebeg":{"type":"featured_collection","settings":{"collection":"corporate-and-college-premium-trophies"}},"featured_collection_4iwmBG":{"type":"featured_collection","settings":{"collection":"customised-medals"}},"featured_collection_tjtCAf":{"type":"featured_collection","settings":{"collection":"metal-sports-trophies"}},"featured_collection_WyijLC":{"type":"featured_collection","settings":{"collection":"wooden-mementos"}},"featured_collection_BiLHxt":{"type":"featured_collection","settings":{"collection":"fibre-trophies"}},"featured_collection_8qbxBU":{"type":"featured_collection","settings":{"collection":"medals"}},"featured_collection_gtm8yc":{"type":"featured_collection","settings":{"collection":"acrylic-trophies"}}},"block_order":["featured_collection_Fjjkke","featured_collection_MUebeg","featured_collection_4iwmBG","featured_collection_tjtCAf","featured_collection_WyijLC","featured_collection_BiLHxt","featured_collection_8qbxBU","featured_collection_gtm8yc"],"settings":{"title":"","heading_size":"h2","image_ratio":"square","columns_desktop":4,"color_scheme":"scheme-3","show_view_all":false,"columns_mobile":"2","swipe_on_mobile":false,"padding_top":36,"padding_bottom":36}},"multicolumn_jGUAMw":{"type":"multicolumn","blocks":{"column_GrKQee":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/Kalyan_Jewellers_logo_svg.png","title":"","text":"","link_label":"","link":""}},"column_fAdyDH":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/ITC_Limited_Logo_svg.png","title":"","text":"","link_label":"","link":""}},"column_nKrzQ9":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/Lifestyle-Stores-Logo-1160x1739-1-800x1199.webp","title":"","text":"","link_label":"","link":""}},"column_zTEQmL":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/images.jpg","title":"","text":"","link_label":"","link":""}},"column_B6cwQF":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/images.png","title":"","text":"","link_label":"","link":""}},"column_pTDPNP":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/logojpg.webp","title":"","text":"","link_label":"","link":""}}},"block_order":["column_GrKQee","column_fAdyDH","column_nKrzQ9","column_zTEQmL","column_B6cwQF","column_pTDPNP"],"settings":{"title":"Our Clients","heading_size":"h1","image_width":"full","image_ratio":"adapt","columns_desktop":3,"column_alignment":"center","background_style":"primary","button_label":"","button_link":"","color_scheme":"scheme-2","columns_mobile":"2","swipe_on_mobile":false,"padding_top":36,"padding_bottom":36}},"featured_collection_DBjkMx":{"type":"featured-collection","settings":{"title":"{{ section.settings.collection.title }}","heading_size":"h2","description":"","show_description":false,"description_style":"subtitle","collection":"metal-sports-trophies","products_to_show":6,"columns_desktop":6,"full_width":false,"show_view_all":true,"view_all_style":"link","enable_desktop_slider":true,"color_scheme":"scheme-3","image_ratio":"portrait","image_shape":"default","show_secondary_image":true,"show_vendor":false,"show_rating":false,"quick_add":"bulk","columns_mobile":"2","swipe_on_mobile":true,"padding_top":8,"padding_bottom":8}},"featured_collection_BiAnHm":{"type":"featured-collection","settings":{"title":"{{ section.settings.collection.title }}","heading_size":"h2","description":"","show_description":false,"description_style":"subtitle","collection":"corporate-and-college-premium-trophies","products_to_show":6,"columns_desktop":6,"full_width":false,"show_view_all":true,"view_all_style":"link","enable_desktop_slider":true,"color_scheme":"scheme-3","image_ratio":"portrait","image_shape":"default","show_secondary_image":false,"show_vendor":false,"show_rating":false,"quick_add":"bulk","columns_mobile":"2","swipe_on_mobile":true,"padding_top":8,"padding_bottom":8}},"featured_collection_fTB3NU":{"type":"featured-collection","settings":{"title":"{{ section.settings.collection.title }}","heading_size":"h2","description":"","show_description":false,"description_style":"subtitle","collection":"medals","products_to_show":6,"columns_desktop":6,"full_width":false,"show_view_all":true,"view_all_style":"link","enable_desktop_slider":true,"color_scheme":"scheme-3","image_ratio":"portrait","image_shape":"default","show_secondary_image":false,"show_vendor":false,"show_rating":false,"quick_add":"bulk","columns_mobile":"2","swipe_on_mobile":true,"padding_top":8,"padding_bottom":8}},"featured_collection_YUtf8Q":{"type":"featured-collection","settings":{"title":"{{ section.settings.collection.title }}","heading_size":"h2","description":"","show_description":false,"description_style":"subtitle","collection":"crystal-trophies","products_to_show":6,"columns_desktop":6,"full_width":false,"show_view_all":true,"view_all_style":"link","enable_desktop_slider":true,"color_scheme":"scheme-3","image_ratio":"portrait","image_shape":"default","show_secondary_image":false,"show_vendor":false,"show_rating":false,"quick_add":"bulk","columns_mobile":"2","swipe_on_mobile":true,"padding_top":8,"padding_bottom":8}},"featured_collection_Lyj6gR":{"type":"featured-collection","settings":{"title":"{{ section.settings.collection.title }}","heading_size":"h2","description":"","show_description":false,"description_style":"subtitle","collection":"wooden-mementos","products_to_show":6,"columns_desktop":6,"full_width":false,"show_view_all":true,"view_all_style":"link","enable_desktop_slider":true,"color_scheme":"scheme-3","image_ratio":"portrait","image_shape":"default","show_secondary_image":false,"show_vendor":false,"show_rating":false,"quick_add":"bulk","columns_mobile":"2","swipe_on_mobile":true,"padding_top":8,"padding_bottom":8}},"featured_collection_iA3n7A":{"type":"featured-collection","settings":{"title":"{{ section.settings.collection.title }}","heading_size":"h2","description":"","show_description":false,"description_style":"subtitle","collection":"fibre-trophies","products_to_show":6,"columns_desktop":6,"full_width":false,"show_view_all":true,"view_all_style":"link","enable_desktop_slider":true,"color_scheme":"scheme-3","image_ratio":"portrait","image_shape":"default","show_secondary_image":false,"show_vendor":false,"show_rating":false,"quick_add":"bulk","columns_mobile":"2","swipe_on_mobile":true,"padding_top":8,"padding_bottom":8}}},"order":["image_banner","collection_list_8wgwHj","multicolumn_jGUAMw","featured_collection_DBjkMx","featured_collection_BiAnHm","featured_collection_fTB3NU","featured_collection_YUtf8Q","featured_collection_Lyj6gR","featured_collection_iA3n7A"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "image_banner": {
+      "type": "image-banner",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Celebrating with you!",
+            "heading_size": "h0"
+          }
+        },
+        "button": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Gallery",
+            "button_link_1": "shopify://pages/gallery",
+            "button_style_secondary_1": true,
+            "button_label_2": "Call 7483900892",
+            "button_link_2": "tel:+91-7483900892",
+            "button_style_secondary_2": true,
+            "button_label_3": "Download Catalogue",
+            "button_link_3": "https://drive.google.com/file/d/1kB3gzKZ0j9PDyd9ulu0Nb4MyMdBFoSGJ/view",
+            "button_style_secondary_3": true,
+            "button_label_4": "Whatsapp Now",
+            "button_link_4": "https://wa.me/+917483900892?text=Hi",
+            "button_style_secondary_4": true
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "button"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/IMG20240422121417.jpg",
+        "image_overlay_opacity": 70,
+        "image_height": "small",
+        "desktop_content_position": "bottom-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "scheme-3",
+        "image_behavior": "fixed",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": false,
+        "show_text_below": false
+      }
+    },
+    "collection_list_8wgwHj": {
+      "type": "collection-list",
+      "blocks": {
+        "featured_collection_Fjjkke": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "crystal-trophies"
+          }
+        },
+        "featured_collection_MUebeg": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "corporate-and-college-premium-trophies"
+          }
+        },
+        "featured_collection_4iwmBG": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "customised-medals"
+          }
+        },
+        "featured_collection_tjtCAf": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "metal-sports-trophies"
+          }
+        },
+        "featured_collection_WyijLC": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "wooden-mementos"
+          }
+        },
+        "featured_collection_BiLHxt": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "fibre-trophies"
+          }
+        },
+        "featured_collection_8qbxBU": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "medals"
+          }
+        },
+        "featured_collection_gtm8yc": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "acrylic-trophies"
+          }
+        }
+      },
+      "block_order": [
+        "featured_collection_Fjjkke",
+        "featured_collection_MUebeg",
+        "featured_collection_4iwmBG",
+        "featured_collection_tjtCAf",
+        "featured_collection_WyijLC",
+        "featured_collection_BiLHxt",
+        "featured_collection_8qbxBU",
+        "featured_collection_gtm8yc"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h2",
+        "image_ratio": "square",
+        "columns_desktop": 4,
+        "color_scheme": "scheme-3",
+        "show_view_all": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "multicolumn_jGUAMw": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_GrKQee": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Kalyan_Jewellers_logo_svg.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_fAdyDH": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/ITC_Limited_Logo_svg.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_nKrzQ9": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Lifestyle-Stores-Logo-1160x1739-1-800x1199.webp",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_zTEQmL": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/images.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_B6cwQF": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/images.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_pTDPNP": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/logojpg.webp",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_GrKQee",
+        "column_fAdyDH",
+        "column_nKrzQ9",
+        "column_zTEQmL",
+        "column_B6cwQF",
+        "column_pTDPNP"
+      ],
+      "settings": {
+        "title": "Our Clients",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "scheme-2",
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "featured_collection_DBjkMx": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "{{ section.settings.collection.title }}",
+        "heading_size": "h2",
+        "description": "",
+        "show_description": false,
+        "description_style": "subtitle",
+        "collection": "metal-sports-trophies",
+        "products_to_show": 6,
+        "columns_desktop": 6,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "link",
+        "enable_desktop_slider": true,
+        "color_scheme": "scheme-3",
+        "image_ratio": "portrait",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "quick_add": "bulk",
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 8,
+        "padding_bottom": 8
+      }
+    },
+    "featured_collection_BiAnHm": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "{{ section.settings.collection.title }}",
+        "heading_size": "h2",
+        "description": "",
+        "show_description": false,
+        "description_style": "subtitle",
+        "collection": "corporate-and-college-premium-trophies",
+        "products_to_show": 6,
+        "columns_desktop": 6,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "link",
+        "enable_desktop_slider": true,
+        "color_scheme": "scheme-3",
+        "image_ratio": "portrait",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "quick_add": "bulk",
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 8,
+        "padding_bottom": 8
+      }
+    },
+    "featured_collection_fTB3NU": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "{{ section.settings.collection.title }}",
+        "heading_size": "h2",
+        "description": "",
+        "show_description": false,
+        "description_style": "subtitle",
+        "collection": "medals",
+        "products_to_show": 6,
+        "columns_desktop": 6,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "link",
+        "enable_desktop_slider": true,
+        "color_scheme": "scheme-3",
+        "image_ratio": "portrait",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "quick_add": "bulk",
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 8,
+        "padding_bottom": 8
+      }
+    },
+    "featured_collection_YUtf8Q": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "{{ section.settings.collection.title }}",
+        "heading_size": "h2",
+        "description": "",
+        "show_description": false,
+        "description_style": "subtitle",
+        "collection": "crystal-trophies",
+        "products_to_show": 6,
+        "columns_desktop": 6,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "link",
+        "enable_desktop_slider": true,
+        "color_scheme": "scheme-3",
+        "image_ratio": "portrait",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "quick_add": "bulk",
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 8,
+        "padding_bottom": 8
+      }
+    },
+    "featured_collection_Lyj6gR": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "{{ section.settings.collection.title }}",
+        "heading_size": "h2",
+        "description": "",
+        "show_description": false,
+        "description_style": "subtitle",
+        "collection": "wooden-mementos",
+        "products_to_show": 6,
+        "columns_desktop": 6,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "link",
+        "enable_desktop_slider": true,
+        "color_scheme": "scheme-3",
+        "image_ratio": "portrait",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "quick_add": "bulk",
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 8,
+        "padding_bottom": 8
+      }
+    },
+    "featured_collection_iA3n7A": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "{{ section.settings.collection.title }}",
+        "heading_size": "h2",
+        "description": "",
+        "show_description": false,
+        "description_style": "subtitle",
+        "collection": "fibre-trophies",
+        "products_to_show": 6,
+        "columns_desktop": 6,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "link",
+        "enable_desktop_slider": true,
+        "color_scheme": "scheme-3",
+        "image_ratio": "portrait",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "quick_add": "bulk",
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 8,
+        "padding_bottom": 8
+      }
+    }
+  },
+  "order": [
+    "image_banner",
+    "collection_list_8wgwHj",
+    "multicolumn_jGUAMw",
+    "featured_collection_DBjkMx",
+    "featured_collection_BiAnHm",
+    "featured_collection_fTB3NU",
+    "featured_collection_YUtf8Q",
+    "featured_collection_Lyj6gR",
+    "featured_collection_iA3n7A"
+  ]
+}
