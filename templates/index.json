@@ -140,7 +140,7 @@
             "video_2": "shopify://files/videos/Video-541.mp4",
             "video_3": "shopify://files/videos/Video-232.mp4",
             "autoplay": true,
-            "loop": false,
+            "loop": true,
             "muted": true,
             "controls": true,
             "gap": 16,
