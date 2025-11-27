@@ -140,12 +140,12 @@
             "video_2": "shopify://files/videos/Video-541.mp4",
             "video_3": "shopify://files/videos/Video-232.mp4",
             "autoplay": true,
-            "loop": true,
+            "loop": false,
             "muted": true,
-            "controls": false,
+            "controls": true,
             "gap": 16,
             "padding": 20,
-            "border_radius": 0,
+            "border_radius": 10,
             "background_color": "#ffffff",
             "columns_mobile": "1",
             "gap_mobile": 8,
@@ -156,18 +156,46 @@
         "ai_gen_block_b5ba1e8_LLBgjC": {
           "type": "ai_gen_block_b5ba1e8",
           "settings": {
-            "aspect_ratio": "1/1",
-            "gap": 8,
-            "border_radius": 0,
+            "image_1": "shopify://shop_images/IMG20251107111718.jpg",
+            "image_2": "shopify://shop_images/IMG20251127125425.jpg",
+            "image_3": "shopify://shop_images/IMG20251119164602.jpg",
+            "image_4": "shopify://shop_images/IMG20251120141820.jpg",
+            "image_5": "shopify://shop_images/IMG20251111200310.jpg",
+            "image_6": "shopify://shop_images/IMG20251125175710.jpg",
+            "aspect_ratio": "3/4",
+            "gap": 20,
+            "border_radius": 10,
             "columns_mobile": "2",
             "gap_mobile": 4
+          },
+          "blocks": {}
+        },
+        "ai_gen_block_27738f2_UkAEmQ": {
+          "type": "ai_gen_block_27738f2",
+          "settings": {
+            "title": "Our Clients",
+            "button_text": "see more",
+            "button_link": "",
+            "background_color": "#f3f3f3",
+            "text_color": "#121212",
+            "title_size": 18,
+            "vertical_padding": 16,
+            "horizontal_padding": 40,
+            "button_background": "#121212",
+            "button_hover_background": "#242833",
+            "button_text_color": "#ffffff",
+            "button_text_size": 14,
+            "button_padding_vertical": 8,
+            "button_padding_horizontal": 16,
+            "button_radius": 4
           },
           "blocks": {}
         }
       },
       "block_order": [
         "ai_gen_block_0719592_pR8Pyy",
-        "ai_gen_block_b5ba1e8_LLBgjC"
+        "ai_gen_block_b5ba1e8_LLBgjC",
+        "ai_gen_block_27738f2_UkAEmQ"
       ],
       "settings": {}
     },
