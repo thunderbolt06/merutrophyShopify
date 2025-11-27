@@ -1,1 +1,185 @@
-{"sections":{"main":{"type":"main-page","disabled":true,"settings":{"padding_top":28,"padding_bottom":28}},"multicolumn_TDWVtT":{"type":"multicolumn","blocks":{"column_wBYVkh":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/IMG20241211125323.jpg","title":"","text":"","link_label":"","link":""}},"column_7FPbQd":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/WhatsApp_Image_2024-12-13_at_7.04.01_PM_2.jpg","title":"","text":"","link_label":"","link":""}},"column_pBj3wU":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/WhatsApp_Image_2024-12-13_at_7.04.01_PM.jpg","title":"","text":"","link_label":"","link":""}},"column_FFLc3b":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/WhatsApp_Image_2024-12-18_at_4.37.12_PM.jpg","title":"","text":"","link_label":"","link":""}},"column_mHBKjx":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/WhatsApp_Image_2024-12-13_at_7.04.01_PM_1.jpg","title":"","text":"","link_label":"","link":""}},"column_WRVQcn":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/IMG20241211114211.jpg","title":"","text":"","link_label":"","link":""}}},"block_order":["column_wBYVkh","column_7FPbQd","column_pBj3wU","column_FFLc3b","column_mHBKjx","column_WRVQcn"],"settings":{"title":"Our Past Work","heading_size":"h1","image_width":"full","image_ratio":"adapt","columns_desktop":3,"column_alignment":"left","background_style":"primary","button_label":"","button_link":"","color_scheme":"scheme-3","columns_mobile":"1","swipe_on_mobile":false,"padding_top":36,"padding_bottom":36}},"rich_text_VXfbjx":{"type":"rich-text","blocks":{"text_tKm7re":{"type":"text","settings":{"text":"<p><a href=\"https:\/\/drive.google.com\/file\/d\/15QE17OSwU9LipXX_Z9lSSP7gI0rkj_ml\/view\" target=\"_blank\" title=\"https:\/\/drive.google.com\/file\/d\/15QE17OSwU9LipXX_Z9lSSP7gI0rkj_ml\/view\">Checkout our complete client work here<\/a><\/p>"}},"button_NCDyFC":{"type":"button","settings":{"button_label":"View More","button_link":"https:\/\/drive.google.com\/file\/d\/15QE17OSwU9LipXX_Z9lSSP7gI0rkj_ml\/view","button_style_secondary":true,"button_label_2":"","button_link_2":"","button_style_secondary_2":false}}},"block_order":["text_tKm7re","button_NCDyFC"],"settings":{"desktop_content_position":"center","content_alignment":"center","color_scheme":"scheme-3","full_width":true,"padding_top":40,"padding_bottom":52}}},"order":["main","multicolumn_TDWVtT","rich_text_VXfbjx"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "multicolumn_TDWVtT": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_wBYVkh": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/IMG20241211125323.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_7FPbQd": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/WhatsApp_Image_2024-12-13_at_7.04.01_PM_2.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_pBj3wU": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/WhatsApp_Image_2024-12-13_at_7.04.01_PM.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_FFLc3b": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/WhatsApp_Image_2024-12-18_at_4.37.12_PM.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_mHBKjx": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/WhatsApp_Image_2024-12-13_at_7.04.01_PM_1.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_WRVQcn": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/IMG20241211114211.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_wBYVkh",
+        "column_7FPbQd",
+        "column_pBj3wU",
+        "column_FFLc3b",
+        "column_mHBKjx",
+        "column_WRVQcn"
+      ],
+      "settings": {
+        "title": "Our Past Work",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "scheme-3",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "176426256723a76f29": {
+      "type": "_blocks",
+      "blocks": {
+        "ai_gen_block_f03222f_eVfF7E": {
+          "type": "ai_gen_block_f03222f",
+          "settings": {
+            "enable_infinite_scroll": true,
+            "max_width": 1200,
+            "section_padding": 40,
+            "horizontal_padding": 20,
+            "grid_gap": 16,
+            "columns_mobile": "2",
+            "image_aspect_ratio": "1/1",
+            "image_border_radius": 0,
+            "image_1": "shopify://shop_images/IMG20251127125425.jpg",
+            "image_2": "shopify://shop_images/IMG20251120141820.jpg",
+            "image_3": "shopify://shop_images/IMG20251126105519.jpg",
+            "image_4": "shopify://shop_images/IMG20251125175710.jpg",
+            "image_5": "shopify://shop_images/IMG20251119164602.jpg",
+            "image_6": "shopify://shop_images/IMG20251126115132.jpg",
+            "image_7": "shopify://shop_images/IMG20251117163411.jpg",
+            "image_8": "shopify://shop_images/IMG20251024171951.jpg",
+            "image_9": "shopify://shop_images/IMG20251125151622.jpg",
+            "image_10": "shopify://shop_images/IMG20251125124520.jpg",
+            "image_11": "shopify://shop_images/IMG20251117140046.jpg",
+            "image_12": "shopify://shop_images/IMG20251125132659.jpg"
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "ai_gen_block_f03222f_eVfF7E"
+      ],
+      "settings": {}
+    },
+    "rich_text_VXfbjx": {
+      "type": "rich-text",
+      "blocks": {
+        "text_tKm7re": {
+          "type": "text",
+          "settings": {
+            "text": "<p><a href=\"https://drive.google.com/file/d/15QE17OSwU9LipXX_Z9lSSP7gI0rkj_ml/view\" target=\"_blank\" title=\"https://drive.google.com/file/d/15QE17OSwU9LipXX_Z9lSSP7gI0rkj_ml/view\">Checkout our complete client work here</a></p>"
+          }
+        },
+        "button_NCDyFC": {
+          "type": "button",
+          "settings": {
+            "button_label": "View More",
+            "button_link": "https://drive.google.com/file/d/15QE17OSwU9LipXX_Z9lSSP7gI0rkj_ml/view",
+            "button_style_secondary": true,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "text_tKm7re",
+        "button_NCDyFC"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-3",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    }
+  },
+  "order": [
+    "main",
+    "multicolumn_TDWVtT",
+    "176426256723a76f29",
+    "rich_text_VXfbjx"
+  ]
+}

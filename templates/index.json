@@ -130,6 +130,47 @@
         "padding_bottom": 36
       }
     },
+    "1764261957abd8dd2b": {
+      "type": "_blocks",
+      "blocks": {
+        "ai_gen_block_0719592_pR8Pyy": {
+          "type": "ai_gen_block_0719592",
+          "settings": {
+            "video_1": "shopify://files/videos/Video-515.mp4",
+            "video_2": "shopify://files/videos/Video-541.mp4",
+            "video_3": "shopify://files/videos/Video-232.mp4",
+            "autoplay": true,
+            "loop": true,
+            "muted": true,
+            "controls": false,
+            "gap": 16,
+            "padding": 20,
+            "border_radius": 0,
+            "background_color": "#ffffff",
+            "columns_mobile": "1",
+            "gap_mobile": 8,
+            "padding_mobile": 16
+          },
+          "blocks": {}
+        },
+        "ai_gen_block_b5ba1e8_LLBgjC": {
+          "type": "ai_gen_block_b5ba1e8",
+          "settings": {
+            "aspect_ratio": "1/1",
+            "gap": 8,
+            "border_radius": 0,
+            "columns_mobile": "2",
+            "gap_mobile": 4
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "ai_gen_block_0719592_pR8Pyy",
+        "ai_gen_block_b5ba1e8_LLBgjC"
+      ],
+      "settings": {}
+    },
     "multicolumn_jGUAMw": {
       "type": "multicolumn",
       "blocks": {
@@ -203,7 +244,7 @@
         "column_pTDPNP"
       ],
       "settings": {
-        "title": "Our Clients",
+        "title": "",
         "heading_size": "h1",
         "image_width": "full",
         "image_ratio": "adapt",
@@ -391,6 +432,7 @@
   "order": [
     "image_banner",
     "collection_list_8wgwHj",
+    "1764261957abd8dd2b",
     "multicolumn_jGUAMw",
     "featured_collection_DBjkMx",
     "featured_collection_BiAnHm",
