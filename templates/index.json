@@ -175,7 +175,7 @@
           "settings": {
             "title": "Our Clients",
             "button_text": "see more",
-            "button_link": "",
+            "button_link": "shopify://pages/gallery",
             "background_color": "#f3f3f3",
             "text_color": "#121212",
             "title_size": 18,
@@ -183,7 +183,7 @@
             "horizontal_padding": 40,
             "button_background": "#121212",
             "button_hover_background": "#242833",
-            "button_text_color": "#ffffff",
+            "button_text_color": "#f3f3f3",
             "button_text_size": 14,
             "button_padding_vertical": 8,
             "button_padding_horizontal": 16,
