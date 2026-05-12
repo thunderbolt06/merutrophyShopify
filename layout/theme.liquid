@@ -586,6 +586,94 @@
       })();
     </script>
 
+    <style>
+      .cart__whatsapp-button {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 8px;
+        width: 100%;
+        margin-top: 10px;
+        padding: 14px 20px;
+        background-color: #25D366;
+        color: #fff;
+        font-weight: 600;
+        font-size: 15px;
+        border: none;
+        cursor: pointer;
+        box-shadow: 0 2px 8px rgba(0,0,0,0.12);
+        transition: background-color 0.2s ease, transform 0.1s ease;
+      }
+      .cart__whatsapp-button:hover:not([disabled]) { background-color: #1ebe5d; }
+      .cart__whatsapp-button:active:not([disabled]) { transform: scale(0.98); }
+      .cart__whatsapp-button[disabled] { opacity: 0.5; cursor: not-allowed; }
+      .cart__whatsapp-button svg { flex-shrink: 0; }
+    </style>
+    <script>
+      (function () {
+        function formatMoney(cents) {
+          var rupees = (cents / 100).toLocaleString('en-IN', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+          return '₹' + rupees;
+        }
+        async function buildAndOpen(btn) {
+          var originalText = btn.querySelector('span') ? btn.querySelector('span').textContent : '';
+          if (btn.querySelector('span')) btn.querySelector('span').textContent = 'Preparing…';
+          btn.setAttribute('disabled', 'disabled');
+          try {
+            var resp = await fetch('/cart.js', { headers: { 'Accept': 'application/json' }, cache: 'no-store' });
+            var cart = await resp.json();
+            if (!cart.items || cart.items.length === 0) {
+              alert('Your cart is empty. Please add items before sending via WhatsApp.');
+              return;
+            }
+            var lines = [];
+            lines.push('Hi! I would like to place this order from merutrophy.in:');
+            lines.push('');
+            cart.items.forEach(function (item, idx) {
+              var title = item.product_title;
+              if (item.variant_title && item.variant_title !== 'Default Title') {
+                title += ' (' + item.variant_title + ')';
+              }
+              lines.push((idx + 1) + '. ' + title);
+              lines.push('   Qty: ' + item.quantity + ' × ' + formatMoney(item.price) + ' = ' + formatMoney(item.final_line_price));
+              if (item.properties) {
+                Object.keys(item.properties).forEach(function (k) {
+                  if (k.charAt(0) === '_') return;
+                  var v = item.properties[k];
+                  if (v) lines.push('   ' + k + ': ' + v);
+                });
+              }
+              lines.push('');
+            });
+            lines.push('Subtotal: ' + formatMoney(cart.items_subtotal_price));
+            lines.push('Total: ' + formatMoney(cart.total_price));
+            if (cart.note && cart.note.trim()) {
+              lines.push('');
+              lines.push('Order Note:');
+              lines.push(cart.note);
+            }
+            lines.push('');
+            lines.push('Please confirm availability, customisation options, and delivery timeline.');
+            var message = lines.join('\n');
+            var url = 'https://wa.me/+919480150888?text=' + encodeURIComponent(message);
+            window.open(url, '_blank', 'noopener,noreferrer');
+          } catch (err) {
+            console.error('WhatsApp order error:', err);
+            alert('Could not fetch cart. Please try again.');
+          } finally {
+            btn.removeAttribute('disabled');
+            if (btn.querySelector('span') && originalText) btn.querySelector('span').textContent = originalText;
+          }
+        }
+        document.addEventListener('click', function (e) {
+          var btn = e.target.closest('[data-whatsapp-order-btn]');
+          if (!btn || btn.hasAttribute('disabled')) return;
+          e.preventDefault();
+          buildAndOpen(btn);
+        });
+      })();
+    </script>
+
     <a
       href="https://wa.me/+919480150888?text=Hi"
       target="_blank"

@@ -117,6 +117,7 @@
                 >
                   {{ 'sections.cart.checkout' | t }}
                 </button>
+                {%- render 'whatsapp-order-button', context: 'cart-page' -%}
               </div>
 
               {%- if additional_checkout_buttons -%}
