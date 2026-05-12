@@ -6,6 +6,11 @@
   assign auto_lat = ''
   assign auto_lng = ''
   assign auto_areas = ''
+  assign delivery_days = '5-7 business days'
+  assign top_industries = 'corporates, schools, sports clubs, government departments'
+  assign popular_occasions = 'annual day awards, sports tournaments, retirement gifts, corporate recognition events'
+  assign key_institutions = 'leading schools, colleges, and IT companies'
+  assign local_note = ''
   case handle
     when 'trophies-in-bangalore'
       assign auto_city = 'Bangalore'
@@ -14,6 +19,11 @@
       assign auto_lat = '12.9716'
       assign auto_lng = '77.5946'
       assign auto_areas = 'Whitefield, Koramangala, Indiranagar, Electronic City, HSR Layout, BTM Layout, Marathahalli, Hebbal, JP Nagar, Jayanagar, MG Road, Sarjapur, Bellandur, Yelahanka, RT Nagar'
+      assign delivery_days = 'same-day pickup or 1-2 day delivery (we are headquartered in Gandhinagar, Bangalore)'
+      assign top_industries = 'IT corporates (Infosys, Wipro, IBM, Accenture, Microsoft), biotech firms, defence labs (DRDO, HAL, ISRO), and education institutions (IISc, IIM-B, RV College, Christ University)'
+      assign popular_occasions = 'IT corporate annual days, hackathon prizes, college fest awards, school sports days, retirement felicitations at temple committees, and religious function gifts'
+      assign key_institutions = 'IISc, IIM Bangalore, RV College of Engineering, Christ University, BMS Engineering, Infosys, Wipro campuses, Bangalore Cricket Stadium'
+      assign local_note = 'As our headquarters, Bangalore customers enjoy free local delivery on orders above ₹2,000, same-day collection from Gandhinagar, and walk-in design consultations at our SC Road showroom near Annamma Temple.'
     when 'trophies-in-hyderabad'
       assign auto_city = 'Hyderabad'
       assign auto_local = 'Hyderabad'
@@ -21,6 +31,11 @@
       assign auto_lat = '17.3850'
       assign auto_lng = '78.4867'
       assign auto_areas = 'Hitec City, Madhapur, Gachibowli, Kondapur, Banjara Hills, Jubilee Hills, Secunderabad, Kukatpally, Begumpet, Ameerpet, Miyapur, Uppal'
+      assign delivery_days = '3-5 business days from our Bangalore facility via road or courier'
+      assign top_industries = 'Cyberabad IT companies (Microsoft, Google, Amazon, Facebook offices in Madhapur and Gachibowli), pharma giants (Dr. Reddy''s, Aurobindo, Divi''s Labs), and T-Hub startups'
+      assign popular_occasions = 'IIIT-H Felicity fest awards, ISB convocation gifts, school sports day medals in Banjara Hills, college prize days, and pharma-sector annual awards'
+      assign key_institutions = 'IIIT Hyderabad, ISB, BITS Hyderabad, Osmania University, Microsoft India HQ, T-Hub'
+      assign local_note = 'Hyderabad orders typically reach Hitec City and Gachibowli within 3-4 days. For urgent fest deliveries (Felicity, college sports days), WhatsApp us 7+ days before your event for guaranteed dispatch.'
     when 'trophies-in-delhi'
       assign auto_city = 'Delhi'
       assign auto_local = 'New Delhi'
@@ -28,6 +43,11 @@
       assign auto_lat = '28.6139'
       assign auto_lng = '77.2090'
       assign auto_areas = 'Connaught Place, Karol Bagh, Lajpat Nagar, Saket, Vasant Kunj, Dwarka, Rohini, Gurgaon, Noida, Faridabad, Ghaziabad'
+      assign delivery_days = '4-6 business days via surface, or 1-2 days via air courier (additional cost)'
+      assign top_industries = 'central PSUs (NTPC, ONGC, GAIL, SAIL, BHEL), media houses (NDTV, Times of India, India Today), Big-4 consulting firms in Gurgaon, and IT MNCs in Noida'
+      assign popular_occasions = 'Republic Day and Independence Day government awards, IIT-Delhi convocations, Delhi University college days, corporate conferences at ITC Maurya, Taj Palace, and Hyatt'
+      assign key_institutions = 'IIT Delhi, Delhi University, JNU, AIIMS, FMS Delhi, NTPC, ONGC headquarters, India Habitat Centre'
+      assign local_note = 'We frequently ship to Gurgaon Cyber Hub, Noida Sectors 15-65, and central Delhi venues. For government department orders requiring GST invoices and bulk consignments, our admin team handles tender-style documentation.'
     when 'trophies-in-mumbai'
       assign auto_city = 'Mumbai'
       assign auto_local = 'Mumbai'
@@ -35,6 +55,11 @@
       assign auto_lat = '19.0760'
       assign auto_lng = '72.8777'
       assign auto_areas = 'Bandra, Andheri East, Andheri West, Powai, Lower Parel, BKC, Worli, Nariman Point, Navi Mumbai, Vashi, Belapur, Thane'
+      assign delivery_days = '4-6 business days from Bangalore via road or air cargo'
+      assign top_industries = 'BFSI giants (HDFC Bank, ICICI Bank, Kotak Mahindra, JP Morgan), media and entertainment (Star, Sony, Yash Raj Films), pharma HQs (Sun Pharma, Lupin, Cipla), and advertising agencies'
+      assign popular_occasions = 'BFSI annual award nights at BKC and Nariman Point, film fraternity recognition events, IIT-B convocations, Diwali corporate gifting season (October-November), and NMIMS prize distributions'
+      assign key_institutions = 'IIT Bombay, JBIMS, NMIMS, BSE, NSE, Yash Raj Studios, Sun Pharma HQ'
+      assign local_note = 'Mumbai BFSI clients in BKC, Worli, and Nariman Point often order custom crystal awards in volumes of 200-500+ for year-end recognition. Diwali season demand is highest — order at least 3 weeks ahead for October-November deliveries.'
   endcase
 -%}
 {% assign city = section.settings.city_name | default: auto_city | default: "Bangalore" %}
@@ -45,104 +70,112 @@
 {% assign longitude = section.settings.longitude | default: auto_lng | default: "77.5946" %}
 
 {%- style -%}
+  /* Theme uses 62.5% root font scaling (1rem ≈ 10px), so we use explicit px throughout. */
   .city-hero {
     background-color: #242833;
-    color: #ffffff;
-    padding: 80px 20px 70px;
+    padding: 90px 24px 80px;
     text-align: center;
   }
   .city-hero__inner {
-    max-width: 860px;
+    max-width: 900px;
     margin: 0 auto;
   }
-  .city-hero h1 {
-    font-size: clamp(1.6rem, 4vw, 2.6rem);
+  .city-hero h1,
+  .city-hero h1.collection-hero__title,
+  .city-hero .collection-hero__title {
+    font-size: 48px;
     font-weight: 800;
-    line-height: 1.25;
-    margin: 0 0 20px;
+    line-height: 1.2;
+    margin: 0 0 24px;
+    color: #ffffff !important;
     font-family: var(--font-heading-family, var(--font-body-family, inherit));
+    letter-spacing: -0.5px;
+  }
+  @media (max-width: 749px) {
+    .city-hero h1 { font-size: 32px; }
+    .city-hero { padding: 60px 20px 56px; }
   }
   .city-hero__sub {
-    font-size: clamp(1rem, 2vw, 1.2rem);
-    opacity: 0.85;
-    max-width: 680px;
-    margin: 0 auto 36px;
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.88);
+    max-width: 720px;
+    margin: 0 auto 40px;
     line-height: 1.6;
+  }
+  @media (max-width: 749px) {
+    .city-hero__sub { font-size: 16px; }
   }
   .city-hero__ctas {
     display: flex;
     flex-wrap: wrap;
-    gap: 14px;
+    gap: 16px;
     justify-content: center;
   }
+  .btn-browse,
+  .btn-whatsapp {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 16px 36px;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: background 0.2s, color 0.2s, transform 0.1s;
+  }
   .btn-browse {
-    display: inline-block;
-    padding: 14px 32px;
     border: 2px solid #ffffff;
     color: #ffffff;
     background: transparent;
-    border-radius: 4px;
-    font-size: 1rem;
-    font-weight: 600;
-    text-decoration: none;
-    transition: background 0.2s, color 0.2s;
   }
   .btn-browse:hover {
     background: #ffffff;
     color: #242833;
   }
   .btn-whatsapp {
-    display: inline-block;
-    padding: 14px 32px;
     background: #25D366;
     color: #ffffff;
     border: 2px solid #25D366;
-    border-radius: 4px;
-    font-size: 1rem;
-    font-weight: 600;
-    text-decoration: none;
-    transition: background 0.2s;
   }
   .btn-whatsapp:hover {
     background: #1ebe5b;
     border-color: #1ebe5b;
+    color: #ffffff;
   }
+  .btn-whatsapp:active,
+  .btn-browse:active { transform: scale(0.98); }
   .btn-whatsapp svg,
   .btn-whatsapp-lg svg {
-    width: 20px;
-    height: 20px;
-    vertical-align: middle;
-    margin-right: 6px;
+    width: 22px;
+    height: 22px;
     fill: currentColor;
   }
 
   /* Why Choose Us Strip */
   .city-why {
     background: #f7f7f7;
-    padding: 44px 20px;
+    padding: 56px 24px;
   }
   .city-why__grid {
-    max-width: 960px;
+    max-width: 1080px;
     margin: 0 auto;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 24px;
+    gap: 32px;
     text-align: center;
   }
   @media (max-width: 720px) {
-    .city-why__grid {
-      grid-template-columns: repeat(2, 1fr);
-    }
+    .city-why__grid { grid-template-columns: repeat(2, 1fr); gap: 24px; }
   }
   .city-why__item {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 10px;
+    gap: 14px;
   }
   .city-why__icon {
-    width: 52px;
-    height: 52px;
+    width: 64px;
+    height: 64px;
     background: #242833;
     border-radius: 50%;
     display: flex;
@@ -151,256 +184,287 @@
     flex-shrink: 0;
   }
   .city-why__icon svg {
-    width: 26px;
-    height: 26px;
+    width: 30px;
+    height: 30px;
     fill: #ffffff;
   }
   .city-why__label {
-    font-size: 0.95rem;
+    font-size: 17px;
     font-weight: 700;
     color: #242833;
     line-height: 1.3;
   }
   .city-why__desc {
-    font-size: 0.82rem;
+    font-size: 14px;
     color: #555;
-    line-height: 1.4;
+    line-height: 1.5;
   }
 
   /* Local Description */
   .city-about {
-    max-width: 820px;
+    max-width: 880px;
     margin: 0 auto;
-    padding: 52px 20px 20px;
-    font-size: 1rem;
+    padding: 64px 24px 24px;
+    font-size: 17px;
     line-height: 1.75;
-    color: var(--color-foreground, #333);
+    color: #1a1a1a;
   }
+  .city-about p { font-size: 17px; line-height: 1.75; margin-bottom: 16px; color: #2a2a2a; }
   .city-about h2 {
-    font-size: 1.5rem;
+    font-size: 30px;
     font-weight: 700;
-    margin-bottom: 16px;
+    margin: 0 0 20px;
     color: #242833;
+    line-height: 1.25;
+  }
+  .city-about h3 {
+    font-size: 22px;
+    font-weight: 700;
+    margin: 28px 0 12px;
+    color: #242833;
+    line-height: 1.3;
+  }
+  .city-about ul { margin: 12px 0 18px; padding-left: 24px; }
+  .city-about ul li { font-size: 17px; line-height: 1.7; margin-bottom: 6px; color: #2a2a2a; }
+  .city-about strong { color: #1a1a1a; font-weight: 700; }
+  @media (max-width: 749px) {
+    .city-about { padding: 44px 20px 16px; font-size: 16px; }
+    .city-about p, .city-about ul li { font-size: 16px; }
+    .city-about h2 { font-size: 24px; }
+    .city-about h3 { font-size: 19px; }
   }
 
   /* Products Section */
   .city-products {
-    padding: 48px 20px 56px;
+    padding: 64px 24px 72px;
     background: #fff;
   }
   .city-section-title {
     text-align: center;
-    font-size: 1.6rem;
+    font-size: 30px;
     font-weight: 700;
-    margin-bottom: 32px;
+    margin: 0 0 36px;
     color: #242833;
+    line-height: 1.25;
+  }
+  @media (max-width: 749px) {
+    .city-section-title { font-size: 24px; margin-bottom: 28px; }
+    .city-products { padding: 44px 20px 52px; }
   }
   .city-products__grid {
-    max-width: 1100px;
+    max-width: 1180px;
     margin: 0 auto;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 20px;
+    gap: 24px;
   }
   @media (max-width: 860px) {
-    .city-products__grid {
-      grid-template-columns: repeat(2, 1fr);
-    }
+    .city-products__grid { grid-template-columns: repeat(2, 1fr); }
   }
   @media (max-width: 440px) {
-    .city-products__grid {
-      grid-template-columns: repeat(2, 1fr);
-      gap: 12px;
-    }
+    .city-products__grid { gap: 14px; }
   }
   .city-product-card {
     border: 1px solid #e8e8e8;
-    border-radius: 8px;
+    border-radius: 10px;
     overflow: hidden;
     text-decoration: none;
     color: inherit;
     display: block;
-    transition: box-shadow 0.2s;
+    transition: box-shadow 0.2s, transform 0.15s;
     background: #fff;
   }
   .city-product-card:hover {
-    box-shadow: 0 4px 18px rgba(0,0,0,0.1);
+    box-shadow: 0 6px 24px rgba(0,0,0,0.1);
+    transform: translateY(-2px);
   }
   .city-product-card__img {
     width: 100%;
     aspect-ratio: 1 / 1;
     object-fit: contain;
     background: #f7f7f7;
-    padding: 10px;
+    padding: 12px;
   }
   .city-product-card__body {
-    padding: 12px 14px 16px;
+    padding: 14px 16px 18px;
   }
   .city-product-card__title {
-    font-size: 0.9rem;
+    font-size: 15px;
     font-weight: 600;
-    line-height: 1.35;
-    margin-bottom: 6px;
+    line-height: 1.4;
+    margin: 0 0 8px;
     color: #242833;
   }
   .city-product-card__price {
-    font-size: 0.88rem;
-    color: #666;
+    font-size: 15px;
+    color: #444;
+    font-weight: 600;
   }
   .city-product-card__price s {
-    opacity: 0.55;
-    margin-left: 6px;
+    opacity: 0.5;
+    margin-left: 8px;
+    font-weight: 400;
   }
 
   /* Delivery Areas */
   .city-delivery {
     background: #f0f4f8;
-    padding: 48px 20px;
+    padding: 56px 24px;
   }
   .city-delivery__inner {
-    max-width: 860px;
+    max-width: 940px;
     margin: 0 auto;
   }
+  .city-delivery h2 { font-size: 30px; font-weight: 700; color: #242833; margin: 0 0 12px; line-height: 1.25; }
+  .city-delivery > .city-delivery__inner > p { font-size: 17px; color: #2a2a2a; line-height: 1.6; }
   .city-delivery__areas {
     display: flex;
     flex-wrap: wrap;
-    gap: 10px;
-    margin-top: 20px;
+    gap: 12px;
+    margin-top: 24px;
   }
   .city-delivery__tag {
     background: #242833;
     color: #fff;
-    border-radius: 20px;
-    padding: 6px 16px;
-    font-size: 0.85rem;
+    border-radius: 24px;
+    padding: 10px 20px;
+    font-size: 14px;
     font-weight: 500;
+    letter-spacing: 0.1px;
+  }
+  @media (max-width: 749px) {
+    .city-delivery h2 { font-size: 24px; }
+    .city-delivery { padding: 44px 20px; }
   }
 
   /* FAQ Section */
   .city-faq {
-    padding: 56px 20px 64px;
+    padding: 64px 24px 72px;
     background: #fff;
   }
   .city-faq__inner {
-    max-width: 820px;
+    max-width: 880px;
     margin: 0 auto;
   }
   .city-faq__list {
-    margin-top: 28px;
+    margin-top: 32px;
     display: flex;
     flex-direction: column;
     gap: 0;
     border: 1px solid #e0e0e0;
-    border-radius: 8px;
+    border-radius: 10px;
     overflow: hidden;
   }
   .city-faq__item {
     border-bottom: 1px solid #e0e0e0;
   }
-  .city-faq__item:last-child {
-    border-bottom: none;
-  }
+  .city-faq__item:last-child { border-bottom: none; }
   .city-faq__q {
     width: 100%;
     background: none;
     border: none;
-    padding: 20px 24px;
+    padding: 22px 26px;
     text-align: left;
-    font-size: 1rem;
+    font-size: 18px;
     font-weight: 600;
     color: #242833;
     cursor: pointer;
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    gap: 12px;
+    gap: 14px;
     font-family: var(--font-body-family, inherit);
-    line-height: 1.4;
+    line-height: 1.45;
   }
-  .city-faq__q:hover {
-    background: #fafafa;
-  }
+  .city-faq__q:hover { background: #fafafa; }
   .city-faq__q-icon {
     flex-shrink: 0;
-    width: 22px;
-    height: 22px;
+    width: 28px;
+    height: 28px;
     border-radius: 50%;
     background: #242833;
     color: #fff;
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 1rem;
+    font-size: 18px;
     line-height: 1;
     transition: transform 0.2s;
     margin-top: 2px;
   }
-  .city-faq__item.open .city-faq__q-icon {
-    transform: rotate(45deg);
-  }
+  .city-faq__item.open .city-faq__q-icon { transform: rotate(45deg); }
   .city-faq__a {
     display: none;
-    padding: 0 24px 20px 24px;
-    font-size: 0.95rem;
-    color: #444;
+    padding: 0 26px 22px 26px;
+    font-size: 16px;
+    color: #3a3a3a;
     line-height: 1.7;
   }
-  .city-faq__item.open .city-faq__a {
-    display: block;
+  .city-faq__item.open .city-faq__a { display: block; }
+  @media (max-width: 749px) {
+    .city-faq { padding: 44px 20px 52px; }
+    .city-faq__q { font-size: 16px; padding: 18px 20px; }
+    .city-faq__a { font-size: 15px; padding: 0 20px 18px; }
   }
 
   /* Contact Section */
   .city-contact {
     background: #242833;
-    color: #fff;
-    padding: 56px 20px;
+    padding: 72px 24px;
     text-align: center;
   }
   .city-contact__inner {
-    max-width: 640px;
+    max-width: 720px;
     margin: 0 auto;
   }
   .city-contact h2 {
-    font-size: 1.6rem;
+    font-size: 32px;
     font-weight: 700;
-    margin-bottom: 12px;
+    margin: 0 0 14px;
+    color: #ffffff !important;
+    line-height: 1.25;
   }
   .city-contact__sub {
-    opacity: 0.8;
-    margin-bottom: 32px;
-    font-size: 1rem;
+    margin: 0 0 36px;
+    font-size: 18px;
     line-height: 1.6;
+    color: rgba(255,255,255,0.88);
+  }
+  @media (max-width: 749px) {
+    .city-contact h2 { font-size: 24px; }
+    .city-contact__sub { font-size: 16px; }
+    .city-contact { padding: 56px 20px; }
   }
   .btn-whatsapp-lg {
-    display: inline-block;
-    padding: 16px 40px;
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    padding: 18px 44px;
     background: #25D366;
     color: #ffffff;
-    border-radius: 4px;
-    font-size: 1.05rem;
+    border-radius: 6px;
+    font-size: 18px;
     font-weight: 700;
     text-decoration: none;
-    transition: background 0.2s;
-    margin-bottom: 28px;
+    transition: background 0.2s, transform 0.1s;
+    margin-bottom: 32px;
   }
-  .btn-whatsapp-lg:hover {
-    background: #1ebe5b;
-  }
+  .btn-whatsapp-lg:hover { background: #1ebe5b; color: #ffffff; }
+  .btn-whatsapp-lg:active { transform: scale(0.98); }
   .city-contact__details {
     display: flex;
     flex-direction: column;
-    gap: 8px;
-    font-size: 0.95rem;
-    opacity: 0.85;
+    gap: 10px;
+    font-size: 16px;
+    color: rgba(255,255,255,0.88);
     line-height: 1.6;
   }
   .city-contact__details a {
     color: #ffffff;
     text-decoration: none;
+    font-weight: 500;
   }
-  .city-contact__details a:hover {
-    text-decoration: underline;
-  }
+  .city-contact__details a:hover { text-decoration: underline; }
 {%- endstyle -%}
 
 <!-- ============================================================
@@ -470,7 +534,7 @@
   {%- render 'read-more-wrapper',
     content: rm_city_content,
     id: 'city-seo-readmore',
-    collapsed_height: 220
+    collapsed_height: 380
   -%}
 </div>
 {%- endif -%}
@@ -534,7 +598,7 @@
 <section class="city-faq" id="faq">
   <div class="city-faq__inner">
     <h2 class="city-section-title" style="text-align:left;">Frequently Asked Questions — Trophies in {{ city }}</h2>
-    <p style="color:#555;font-size:0.93rem;margin-bottom:4px;">Everything you need to know about ordering custom trophies, medals, and awards in {{ city }}.</p>
+    <p style="color:#555;font-size:17px;line-height:1.6;margin-bottom:4px;">Everything you need to know about ordering custom trophies, medals, and awards in {{ city }}.</p>
 
     <div class="city-faq__list">
 
@@ -545,7 +609,7 @@
         </button>
         <div class="city-faq__a" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
           <div itemprop="text">
-            You can order custom trophies in {{ city }} directly from Meru Trophy at <strong>merutrophy.in</strong>. We are a Bangalore-based trophy manufacturer with over 20 years of experience, and we deliver Pan India including all areas in {{ city }}. Browse our full collection online, customise your order, and we'll deliver to your doorstep. You can also call us at +91 7892207252 or WhatsApp +91 9480150888 to discuss bulk or corporate orders.
+            You can order custom trophies in {{ city }} directly from <strong>Meru Trophy</strong> at merutrophy.in. We are a Bangalore-based trophy manufacturer (since 2000) trusted by customers across {{ city_local }} including {{ key_institutions }}. We deliver to all {{ city }} neighbourhoods. Browse our full collection online, customise your order, and we'll deliver to your doorstep. Call +91 7892207252 or WhatsApp +91 9480150888 for bulk or corporate orders.
           </div>
         </div>
       </div>
@@ -569,7 +633,7 @@
         </button>
         <div class="city-faq__a" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
           <div itemprop="text">
-            Standard delivery to {{ city }} takes 3–7 business days after your order is confirmed and artwork is approved. For urgent requirements — such as a sports event or corporate function — we offer expedited production. Please WhatsApp us at +91 9480150888 with your event date, quantity, and design requirements so we can confirm the fastest possible turnaround for your location in {{ city }}.
+            Standard delivery to {{ city }} takes <strong>{{ delivery_days }}</strong> after your order is confirmed and artwork is approved. {{ local_note }} For urgent requirements — sports events, corporate functions, college fests — we offer expedited production. WhatsApp us at +91 9480150888 with your event date, quantity, and design so we can confirm the fastest possible turnaround for your location in {{ city }}.
           </div>
         </div>
       </div>
@@ -605,7 +669,7 @@
         </button>
         <div class="city-faq__a" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
           <div itemprop="text">
-            Absolutely. Bulk orders are our specialty. We regularly fulfill orders of 50 to 5,000+ pieces for corporate award nights, school annual days, marathons, cricket tournaments, and government events across {{ city_state }}. Bulk customers in {{ city }} receive volume discounts, dedicated account support, and consistent quality across every piece. WhatsApp us at +91 9480150888 with your quantity and event date to get a bulk quote within a few hours.
+            Absolutely. Bulk orders are our specialty. In {{ city }}, we regularly fulfill orders of 50 to 5,000+ pieces for events including <strong>{{ popular_occasions }}</strong>. Bulk customers in {{ city }} receive volume discounts, dedicated account support, GST invoices, and consistent quality across every piece. WhatsApp us at +91 9480150888 with your quantity and event date to get a bulk quote within a few hours.
           </div>
         </div>
       </div>
@@ -617,7 +681,7 @@
         </button>
         <div class="city-faq__a" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
           <div itemprop="text">
-            Yes. Many corporates, IT companies, startups, and MNCs in {{ city }} order custom corporate gifts from Meru Trophy. Our corporate gift range includes branded crystal paperweights, engraved metal plaques, wooden desk mementos, acrylic shields, and gift sets — all customisable with your company logo and employee names. We also provide GST invoices. Email us at merutrophy@gmail.com or call +91 7892207252 to discuss your corporate gifting requirements in {{ city }}.
+            Yes. Our regular {{ city }} corporate customers include <strong>{{ top_industries }}</strong>. Our corporate gift range includes branded crystal paperweights, engraved metal plaques, wooden desk mementos, acrylic shields, and gift sets — all customisable with your company logo and employee names. We also provide GST invoices. Email us at merutrophy@gmail.com or call +91 7892207252 to discuss your corporate gifting requirements in {{ city }}.
           </div>
         </div>
       </div>
