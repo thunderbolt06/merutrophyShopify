@@ -17,8 +17,15 @@
         {{- collection.title | escape -}}
       </h1>
 
-      {%- if section.settings.show_collection_description -%}
-        <div class="collection-hero__description rte">{{ collection.description }}</div>
+      {%- if section.settings.show_collection_description and collection.description != blank -%}
+        {%- capture rm_content -%}
+          <div class="collection-hero__description rte">{{ collection.description }}</div>
+        {%- endcapture -%}
+        {%- render 'read-more-wrapper',
+          content: rm_content,
+          id: 'collection-desc-readmore',
+          collapsed_height: 200
+        -%}
       {%- endif -%}
     </div>
 

@@ -425,7 +425,14 @@
 {%- if section.settings.local_seo_paragraph != blank -%}
 <div class="city-about">
   <h2>Custom Trophy Makers in {{ city }}, {{ city_state }}</h2>
-  {{ section.settings.local_seo_paragraph }}
+  {%- capture rm_city_content -%}
+    {{ section.settings.local_seo_paragraph }}
+  {%- endcapture -%}
+  {%- render 'read-more-wrapper',
+    content: rm_city_content,
+    id: 'city-seo-readmore',
+    collapsed_height: 220
+  -%}
 </div>
 {%- endif -%}
 

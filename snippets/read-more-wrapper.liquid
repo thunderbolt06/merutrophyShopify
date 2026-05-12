@@ -1,0 +1,73 @@
+{% comment %}
+  Wraps long content with a collapsible "Read more / Read less" toggle.
+  Accepts:
+    - content: the HTML to wrap
+    - id: unique id for the wrapper
+    - collapsed_height: px height when collapsed (default 180)
+{% endcomment %}
+{%- assign rm_id = id | default: 'rm-' | append: 'auto' -%}
+{%- assign rm_height = collapsed_height | default: 180 -%}
+
+<div class="readmore" id="{{ rm_id }}" data-collapsed-height="{{ rm_height }}">
+  <div class="readmore__content" style="max-height: {{ rm_height }}px;">
+    {{ content }}
+  </div>
+  <div class="readmore__fade" aria-hidden="true"></div>
+  <button
+    type="button"
+    class="readmore__toggle"
+    aria-expanded="false"
+    aria-controls="{{ rm_id }}-content"
+    onclick="
+      var w=this.closest('.readmore');
+      var c=w.querySelector('.readmore__content');
+      var f=w.querySelector('.readmore__fade');
+      var open=w.classList.toggle('readmore--open');
+      this.setAttribute('aria-expanded', open);
+      if(open){c.style.maxHeight=c.scrollHeight+'px';f.style.display='none';this.textContent='Read less ▲';}
+      else{c.style.maxHeight=w.dataset.collapsedHeight+'px';f.style.display='block';this.textContent='Read more ▼';window.scrollTo({top:w.getBoundingClientRect().top+window.scrollY-100,behavior:'smooth'});}
+    "
+  >Read more ▼</button>
+</div>
+
+<style>
+  .readmore { position: relative; margin-bottom: 1.5rem; }
+  .readmore__content {
+    overflow: hidden;
+    transition: max-height 0.4s ease;
+    position: relative;
+  }
+  .readmore__fade {
+    position: absolute;
+    left: 0; right: 0;
+    bottom: 44px;
+    height: 60px;
+    background: linear-gradient(to bottom, rgba(255,255,255,0), rgba(255,255,255,0.95));
+    pointer-events: none;
+  }
+  .readmore--open .readmore__fade { display: none; }
+  .readmore__toggle {
+    display: inline-block;
+    margin-top: 0.75rem;
+    padding: 8px 18px;
+    background: transparent;
+    border: 1.5px solid currentColor;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    color: inherit;
+    transition: background 0.2s ease, color 0.2s ease;
+  }
+  .readmore__toggle:hover {
+    background: currentColor;
+  }
+  .readmore__toggle:hover {
+    color: #fff;
+  }
+  .color-scheme-3 .readmore__fade,
+  [class*="color-scheme-3"] .readmore__fade,
+  [class*="scheme-3"] .readmore__fade {
+    background: linear-gradient(to bottom, rgba(36,40,51,0), rgba(36,40,51,0.95));
+  }
+</style>
