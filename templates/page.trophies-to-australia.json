@@ -1,0 +1,25 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "country-landing": {
+      "type": "country-landing",
+      "settings": {
+        "country_name": "Australia",
+        "country_flag": "🇦🇺",
+        "local_currency": "AUD",
+        "shipping_days": "8-12 business days via DHL Express or FedEx International",
+        "key_cities": "Sydney, Melbourne, Brisbane, Perth, Adelaide, Canberra, Gold Coast, Parramatta, Liverpool, Dandenong, Sunshine West, Blacktown, Endeavour Hills, Craigieburn",
+        "hero_heading": "Custom Trophies Shipped to Australia — Indian Trophy Maker | Meru Trophy",
+        "hero_subheading": "Order crystal, metal, and acrylic trophies from India for Australian Indian community Diwali events, cricket club tournaments, cultural association award nights, and multicultural school programs. Delivered across Australia in 8-12 business days.",
+        "local_seo_paragraph": "<h2>Meru Trophy — Shipping Custom Trophies to Australia</h2>\n<p>Meru Trophy ships custom crystal trophies, metal awards, wooden mementos, medals, and plaques from Bangalore, India, to <strong>Australia</strong>. The Indian diaspora in Australia — over 780,000 strong and growing fast — has an active community of cultural associations, temple trusts, and cricket clubs that order custom handcrafted trophies from India for their annual events and felicitations. Shipments reach Sydney, Melbourne, Brisbane, and Perth within <strong>8-12 business days</strong>.</p>\n<h3>Who orders from us in Australia</h3>\n<ul>\n<li><strong>Indian community associations</strong> — Federation of Indian Associations Australia (FIAA), Gujarati associations in Melbourne and Sydney, Telugu and Tamil community groups ordering Diwali gala and annual day trophies</li>\n<li><strong>Cricket clubs</strong> — Indian-Australian cricket leagues affiliated with VCCA (Victorian Cricket Community Association) and NSWCA ordering season and tournament trophies</li>\n<li><strong>Temple trusts</strong> — BAPS Swaminarayan centres in Melbourne, Sydney, and Brisbane ordering volunteer recognition and cultural event awards</li>\n<li><strong>Multicultural schools</strong> — Hindi schools Australia and Indian-origin parent communities ordering cultural day awards, language competition prizes, and school sports trophies</li>\n<li><strong>Indian-led businesses</strong> — Indian-origin entrepreneurs and IT professionals ordering corporate recognition trophies for team events and business anniversaries</li>\n</ul>\n<h3>Why order from Meru Trophy for Australian events</h3>\n<p>Indian-manufactured crystal and metal trophies offer substantially better value than Australian retail equivalents, particularly for volume orders of 30+ pieces. With crystal trophies starting at ₹500 (~AUD 10) and premium pieces up to ₹5,000 (~AUD 95), custom Indian craftsmanship at Indian prices is a compelling option for diaspora community budgets. Custom engraving in English, Hindi, Gujarati, Tamil, Telugu, and other scripts is included.</p>\n<h3>Shipping and customs to Australia</h3>\n<p>Australian shipments are dispatched via <strong>DHL Express or FedEx International</strong> and typically arrive in <strong>8-12 business days</strong>. Australian Border Force (ABF) may apply import duties and GST on commercial shipments — trophies classified under HS Code 9705 may attract 5% GST on top of the shipping and product value. We provide complete customs documentation including a commercial invoice, HS code, and country-of-origin declaration.</p>\n<p>WhatsApp us at <strong>+91 9480150888</strong> or email <strong>merutrophy@gmail.com</strong> for a quote and shipping estimate to your Australian address.</p>"
+      }
+    }
+  },
+  "order": [
+    "country-landing"
+  ]
+}

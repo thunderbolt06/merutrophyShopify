@@ -1,0 +1,746 @@
+{%- comment -%} v1-2026-05-12 country landing page {%- endcomment -%}
+{%- liquid
+  assign handle = page.handle | default: ''
+  assign auto_country = ''
+  assign auto_country_code = ''
+  assign auto_currency = ''
+  assign auto_shipping_days = '10-14 business days'
+  assign auto_flag = ''
+  assign auto_areas = ''
+  assign auto_diaspora_note = ''
+  assign auto_popular_occasions = 'community cultural festivals, cricket club events, corporate recognition programs, diaspora association award nights'
+  assign auto_key_buyers = 'Indian community associations, diaspora clubs, Indian-origin owned businesses'
+  assign auto_local_note = ''
+  case handle
+    when 'trophies-to-usa', 'custom-trophies-usa', 'trophy-shop-usa'
+      assign auto_country = 'United States'
+      assign auto_country_code = 'US'
+      assign auto_currency = 'USD'
+      assign auto_flag = '🇺🇸'
+      assign auto_shipping_days = '7-12 business days via DHL/FedEx Express from India'
+      assign auto_areas = 'New York, San Francisco Bay Area, Chicago, Houston, Los Angeles, Seattle, Austin, Dallas, New Jersey, Atlanta, Boston, Washington DC'
+      assign auto_popular_occasions = 'Diwali gala award nights, cultural association annual felicitations, cricket club tournaments, BAPS and ISKCON temple events, IT company Indo-American leadership awards'
+      assign auto_key_buyers = 'IANA (Indian American communities), BAPS temples, Gujarati Samaj USA, Telugu Association of North America (TANA), Kerala Associations, sports and cricket clubs'
+      assign auto_diaspora_note = 'The Indian diaspora in the US — over 4 million strong — orders custom trophies and mementos for cultural associations, community events, and diaspora-owned businesses across New York, New Jersey, the Bay Area, and Chicago.'
+      assign auto_local_note = 'US shipments are sent via DHL Express or FedEx International Priority. Most US orders arrive in 7-10 business days. Customs duties may apply on import — please check US Customs for applicable rates on trophy/gift imports from India.'
+    when 'trophies-to-dubai', 'custom-trophies-dubai', 'trophy-shop-dubai', 'trophies-to-uae'
+      assign auto_country = 'Dubai & UAE'
+      assign auto_country_code = 'AE'
+      assign auto_currency = 'AED'
+      assign auto_flag = '🇦🇪'
+      assign auto_shipping_days = '4-7 business days via DHL/FedEx from India'
+      assign auto_areas = 'Dubai, Abu Dhabi, Sharjah, Ajman, Ras Al Khaimah, DIFC, Business Bay, JLT, Dubai Marina, Deira, Al Quoz, Bur Dubai'
+      assign auto_popular_occasions = 'Indian community Diwali and Holi events, cricket tournaments in Dubai, EXPO legacy corporate awards, gold and jewellery sector felicitations, Pravasi Bharatiya community events, company annual days for Indian-led businesses'
+      assign auto_key_buyers = 'Indian Business and Professional Council (IBPC Dubai), Gujarat Samachar Dubai, Keralites associations, Indian cricket clubs, Gold Souk and jewellery trade bodies'
+      assign auto_diaspora_note = 'Dubai and UAE host over 3.5 million Indians — the largest diaspora community in the Emirates. Meru Trophy ships custom crystal, metal, and acrylic trophies to Dubai for cultural events, cricket tournaments, Diwali galas, and corporate award nights organised by the Indian business community.'
+      assign auto_local_note = 'Dubai/UAE shipments arrive in 4-7 business days. UAE typically charges 5% VAT on imports — recipients may pay a small customs handling fee on arrival. We ship via DHL or FedEx with full tracking and commercial invoice.'
+    when 'trophies-to-australia', 'custom-trophies-australia'
+      assign auto_country = 'Australia'
+      assign auto_country_code = 'AU'
+      assign auto_currency = 'AUD'
+      assign auto_flag = '🇦🇺'
+      assign auto_shipping_days = '8-12 business days via DHL/FedEx from India'
+      assign auto_areas = 'Sydney, Melbourne, Brisbane, Perth, Adelaide, Canberra, Gold Coast, Parramatta, Liverpool, Dandenong, Sunshine, Blacktown'
+      assign auto_popular_occasions = 'Diwali and Navratri cultural events, Indian community association annual days, cricket club tournaments (SACA, VCCA leagues), BAPS temple events, multicultural school award ceremonies'
+      assign auto_key_buyers = 'Federation of Indian Associations Australia, BAPS temples across Australia, Indian cricket associations (NSWCA, VCCA), Hindi school Australia, state-level Indian community councils'
+      assign auto_diaspora_note = "Australia is home to over 780,000 people of Indian origin, making it one of the world's largest Indian diaspora communities. Meru Trophy has shipped crystal, metal, and wooden mementos to Indian community associations, cricket clubs, and cultural societies in Sydney, Melbourne, Brisbane, and beyond."
+      assign auto_local_note = 'Australia shipments arrive in 8-12 business days. Australian Customs may apply import duties on commercial shipments. For cultural or non-profit community events, gifting exemptions may apply — please check with your local customs authority.'
+    when 'trophies-to-uk', 'custom-trophies-uk', 'trophy-shop-uk'
+      assign auto_country = 'United Kingdom'
+      assign auto_country_code = 'GB'
+      assign auto_currency = 'GBP'
+      assign auto_flag = '🇬🇧'
+      assign auto_shipping_days = '7-10 business days via DHL/FedEx from India'
+      assign auto_areas = 'London, Birmingham, Leicester, Manchester, Coventry, Wolverhampton, Leeds, Bradford, Southall, Wembley, Harrow, East Ham'
+      assign auto_popular_occasions = 'Diwali in Trafalgar Square and Leicester Square, community association annual gala award nights, cricket club trophies for British-Asian leagues, Navratri garba events, school cultural day awards, Hindu temple events (BAPS, Hindu Council UK)'
+      assign auto_key_buyers = 'Hindu Council UK, Federation of Hindu Organisations, Gujarati community associations in Leicester and Wembley, British Tamil associations, BAPS Swaminarayan Sanstha UK'
+      assign auto_diaspora_note = "The UK has one of the world's most established Indian diaspora communities — over 1.6 million people of Indian origin, particularly in Leicester, Birmingham, London, and Manchester. Meru Trophy ships crystal, metal, and acrylic trophies and mementos for Diwali events, cricket club awards, and community association felicitations across Great Britain."
+      assign auto_local_note = 'UK shipments arrive in 7-10 business days. Post-Brexit, imports from India to the UK may attract UK import duties and VAT. We provide a commercial invoice and Harmonised System (HS) code documentation for smooth customs clearance.'
+    when 'trophies-to-thailand', 'custom-trophies-thailand'
+      assign auto_country = 'Thailand'
+      assign auto_country_code = 'TH'
+      assign auto_currency = 'THB'
+      assign auto_flag = '🇹🇭'
+      assign auto_shipping_days = '5-8 business days via DHL/FedEx from India'
+      assign auto_areas = 'Bangkok, Phuket, Pattaya, Chiang Mai, Hua Hin, Nonthaburi, Pathum Thani'
+      assign auto_popular_occasions = 'Indian community events in Bangkok, MICE conference and hospitality sector awards, Indian temple trust events (Bangkok Hindu Samaj), cricket and sports club trophies'
+      assign auto_key_buyers = 'Indian Association of Thailand (IAT), Bangkok Hindu Samaj, Indian Businessmen Association Thailand, hospitality and MICE sector companies ordering conference awards'
+      assign auto_diaspora_note = "Thailand has a small but active Indian diaspora community, particularly in Bangkok's Pahurat district (Little India). Meru Trophy ships custom trophies for Indian community associations, cultural events, MICE conference awards, and hospitality sector recognition programs in Bangkok and beyond."
+      assign auto_local_note = 'Thailand shipments typically arrive in 5-8 business days via DHL or FedEx. Thai Customs may apply import duties and VAT on incoming goods. We provide full commercial documentation for smooth customs processing.'
+    when 'trophies-to-singapore', 'custom-trophies-singapore'
+      assign auto_country = 'Singapore'
+      assign auto_country_code = 'SG'
+      assign auto_currency = 'SGD'
+      assign auto_flag = '🇸🇬'
+      assign auto_shipping_days = '4-6 business days via DHL/FedEx from India'
+      assign auto_areas = 'Little India (Serangoon), Marina Bay, Jurong, Changi, Tampines, Woodlands, Queenstown, Toa Payoh, Ang Mo Kio'
+      assign auto_popular_occasions = 'Deepavali celebrations in Little India, Indian community association annual gala awards, corporate recognition events for Indian-led IT companies, Hindu Endowment Board temple events, cricket club trophies'
+      assign auto_key_buyers = 'Singapore Indian Development Association (SINDA), Singapore Indian Fine Arts Society, Hindu Endowment Board, Nalanda Centre, Indian cricket associations Singapore'
+      assign auto_diaspora_note = "Singapore has a vibrant Indian community — around 350,000 Tamil, Telugu, Hindi, and Malayali speakers. Deepavali on Serangoon Road is one of Asia's grandest Indian festivals. Meru Trophy ships custom crystal, metal, and acrylic trophies to Indian community associations, corporate events, and cultural societies in Singapore."
+      assign auto_local_note = "Singapore shipments arrive in 4-6 business days. Singapore generally has low import duties, and cultural or gifting items often attract minimal or zero duty. We provide full HS-code documentation for Singapore Customs clearance."
+    when 'trophies-to-canada', 'custom-trophies-canada'
+      assign auto_country = 'Canada'
+      assign auto_country_code = 'CA'
+      assign auto_currency = 'CAD'
+      assign auto_flag = '🇨🇦'
+      assign auto_shipping_days = '8-12 business days via DHL/FedEx from India'
+      assign auto_areas = 'Toronto, Mississauga, Brampton, Vancouver, Calgary, Edmonton, Ottawa, Winnipeg, Surrey BC, Montreal'
+      assign auto_popular_occasions = 'Diwali and Navratri gala events, Indian community association annual days, Punjabi cultural events, cricket club tournaments, BAPS temple events, multicultural school award ceremonies'
+      assign auto_key_buyers = 'Canada India Foundation, various regional Indian associations (TAFO - Tamil Association, Gujarati Association of Ontario), BAPS Canada, Punjabi associations in Brampton, Indian cricket clubs'
+      assign auto_diaspora_note = 'Canada is home to over 1.8 million people of Indian origin — the second-largest South Asian diaspora population globally. Major concentrations in Brampton, Mississauga, Toronto, and Surrey BC. Meru Trophy ships custom trophies and mementos for community cultural festivals, cricket club events, and diaspora association award programs across Canada.'
+      assign auto_local_note = "Canada shipments arrive in 8-12 business days. Canadian Customs may apply duties and HST/GST on imports. We provide a commercial invoice and HS code documentation for customs clearance. The CEPA agreement between India and Canada does not currently provide duty-free status for trophy imports."
+  endcase
+-%}
+{%- assign country = section.settings.country_name | default: auto_country | default: 'United States' -%}
+{%- assign country_code = auto_country_code | default: 'US' -%}
+{%- assign flag = section.settings.country_flag | default: auto_flag | default: '🌍' -%}
+{%- assign currency = section.settings.local_currency | default: auto_currency | default: 'USD' -%}
+{%- assign shipping_days = section.settings.shipping_days | default: auto_shipping_days | default: '10-14 business days' -%}
+{%- assign key_areas = section.settings.key_cities | default: auto_areas -%}
+{%- assign popular_occasions = auto_popular_occasions -%}
+{%- assign key_buyers = auto_key_buyers -%}
+{%- assign diaspora_note = auto_diaspora_note -%}
+{%- assign local_note = auto_local_note -%}
+
+{%- style -%}
+  /* Country landing — explicit px (theme uses 62.5% root font scaling) */
+  .ctry-hero {
+    background: linear-gradient(135deg, #1a1e2e 0%, #242833 100%);
+    padding: 90px 24px 80px;
+    text-align: center;
+  }
+  .ctry-hero__inner { max-width: 920px; margin: 0 auto; }
+  .ctry-hero__flag {
+    font-size: 56px;
+    line-height: 1;
+    margin-bottom: 20px;
+    display: block;
+  }
+  .ctry-hero h1,
+  .ctry-hero h1.collection-hero__title {
+    font-size: 46px;
+    font-weight: 800;
+    line-height: 1.2;
+    margin: 0 0 22px;
+    color: #ffffff !important;
+    font-family: var(--font-heading-family, var(--font-body-family, inherit));
+    letter-spacing: -0.4px;
+  }
+  @media (max-width: 749px) {
+    .ctry-hero h1 { font-size: 30px; }
+    .ctry-hero { padding: 60px 20px 56px; }
+    .ctry-hero__flag { font-size: 44px; }
+  }
+  .ctry-hero__sub {
+    font-size: 19px;
+    color: rgba(255,255,255,0.88);
+    max-width: 740px;
+    margin: 0 auto 40px;
+    line-height: 1.65;
+  }
+  @media (max-width: 749px) { .ctry-hero__sub { font-size: 16px; } }
+  .ctry-hero__ctas {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    justify-content: center;
+  }
+  .ctry-btn-browse,
+  .ctry-btn-wa {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 16px 34px;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: background 0.2s, color 0.2s, transform 0.1s;
+  }
+  .ctry-btn-browse {
+    border: 2px solid #fff;
+    color: #fff;
+    background: transparent;
+  }
+  .ctry-btn-browse:hover { background: #fff; color: #242833; }
+  .ctry-btn-wa {
+    background: #25D366;
+    color: #fff;
+    border: 2px solid #25D366;
+  }
+  .ctry-btn-wa:hover { background: #1ebe5b; border-color: #1ebe5b; color: #fff; }
+  .ctry-btn-wa svg { width: 22px; height: 22px; fill: currentColor; }
+  .ctry-btn-browse:active,
+  .ctry-btn-wa:active { transform: scale(0.98); }
+
+  /* Shipping info strip */
+  .ctry-shipping {
+    background: #f0f4f8;
+    padding: 48px 24px;
+  }
+  .ctry-shipping__inner {
+    max-width: 1080px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 28px;
+    text-align: center;
+  }
+  @media (max-width: 720px) {
+    .ctry-shipping__inner { grid-template-columns: repeat(2, 1fr); gap: 20px; }
+  }
+  .ctry-ship-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+  }
+  .ctry-ship-icon {
+    width: 60px; height: 60px;
+    background: #242833;
+    border-radius: 50%;
+    display: flex; align-items: center; justify-content: center;
+    flex-shrink: 0;
+  }
+  .ctry-ship-icon svg { width: 28px; height: 28px; fill: #fff; }
+  .ctry-ship-label { font-size: 16px; font-weight: 700; color: #242833; line-height: 1.3; }
+  .ctry-ship-desc { font-size: 13px; color: #555; line-height: 1.5; }
+
+  /* About section */
+  .ctry-about {
+    max-width: 880px; margin: 0 auto;
+    padding: 64px 24px 24px;
+    font-size: 17px; line-height: 1.75; color: #1a1a1a;
+  }
+  .ctry-about p { font-size: 17px; line-height: 1.75; margin-bottom: 16px; color: #2a2a2a; }
+  .ctry-about h2 { font-size: 30px; font-weight: 700; margin: 0 0 20px; color: #242833; line-height: 1.25; }
+  .ctry-about h3 { font-size: 22px; font-weight: 700; margin: 28px 0 12px; color: #242833; line-height: 1.3; }
+  .ctry-about ul { margin: 12px 0 18px; padding-left: 24px; }
+  .ctry-about ul li { font-size: 17px; line-height: 1.7; margin-bottom: 6px; color: #2a2a2a; }
+  .ctry-about strong { color: #1a1a1a; font-weight: 700; }
+  @media (max-width: 749px) {
+    .ctry-about { padding: 44px 20px 16px; font-size: 16px; }
+    .ctry-about p, .ctry-about ul li { font-size: 16px; }
+    .ctry-about h2 { font-size: 24px; }
+    .ctry-about h3 { font-size: 19px; }
+  }
+
+  /* Products section */
+  .ctry-products { padding: 64px 24px 72px; background: #fff; }
+  .ctry-section-title {
+    text-align: center; font-size: 30px; font-weight: 700; margin: 0 0 36px; color: #242833; line-height: 1.25;
+  }
+  @media (max-width: 749px) { .ctry-section-title { font-size: 24px; margin-bottom: 28px; } .ctry-products { padding: 44px 20px 52px; } }
+  .ctry-products__grid {
+    max-width: 1180px; margin: 0 auto;
+    display: grid; grid-template-columns: repeat(4, 1fr); gap: 24px;
+  }
+  @media (max-width: 860px) { .ctry-products__grid { grid-template-columns: repeat(2, 1fr); } }
+  .ctry-product-card {
+    border: 1px solid #e8e8e8; border-radius: 10px; overflow: hidden;
+    text-decoration: none; color: inherit; display: block;
+    transition: box-shadow 0.2s, transform 0.15s; background: #fff;
+  }
+  .ctry-product-card:hover { box-shadow: 0 6px 24px rgba(0,0,0,0.1); transform: translateY(-2px); }
+  .ctry-product-card__img { width: 100%; aspect-ratio: 1/1; object-fit: contain; background: #f7f7f7; padding: 12px; }
+  .ctry-product-card__body { padding: 14px 16px 18px; }
+  .ctry-product-card__title { font-size: 15px; font-weight: 600; line-height: 1.4; margin: 0 0 8px; color: #242833; }
+  .ctry-product-card__price { font-size: 15px; color: #444; font-weight: 600; }
+  .ctry-product-card__price s { opacity: 0.5; margin-left: 8px; font-weight: 400; }
+
+  /* Coverage areas */
+  .ctry-coverage { background: #f0f4f8; padding: 56px 24px; }
+  .ctry-coverage__inner { max-width: 940px; margin: 0 auto; }
+  .ctry-coverage h2 { font-size: 30px; font-weight: 700; color: #242833; margin: 0 0 12px; line-height: 1.25; }
+  .ctry-coverage__areas { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 24px; }
+  .ctry-coverage__tag {
+    background: #242833; color: #fff; border-radius: 24px;
+    padding: 10px 20px; font-size: 14px; font-weight: 500;
+  }
+  @media (max-width: 749px) { .ctry-coverage h2 { font-size: 24px; } .ctry-coverage { padding: 44px 20px; } }
+
+  /* FAQ section */
+  .ctry-faq { padding: 64px 24px 72px; background: #fff; }
+  .ctry-faq__inner { max-width: 880px; margin: 0 auto; }
+  .ctry-faq__list {
+    margin-top: 32px; display: flex; flex-direction: column; gap: 0;
+    border: 1px solid #e0e0e0; border-radius: 10px; overflow: hidden;
+  }
+  .ctry-faq__item { border-bottom: 1px solid #e0e0e0; }
+  .ctry-faq__item:last-child { border-bottom: none; }
+  .ctry-faq__q {
+    width: 100%; background: none; border: none; padding: 22px 26px; text-align: left;
+    font-size: 18px; font-weight: 600; color: #242833; cursor: pointer;
+    display: flex; justify-content: space-between; align-items: flex-start; gap: 14px;
+    font-family: var(--font-body-family, inherit); line-height: 1.45;
+  }
+  .ctry-faq__q:hover { background: #fafafa; }
+  .ctry-faq__q-icon {
+    flex-shrink: 0; width: 28px; height: 28px; border-radius: 50%;
+    background: #242833; color: #fff;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 18px; line-height: 1; transition: transform 0.2s; margin-top: 2px;
+  }
+  .ctry-faq__item.open .ctry-faq__q-icon { transform: rotate(45deg); }
+  .ctry-faq__a {
+    display: none; padding: 0 26px 22px 26px; font-size: 16px; color: #3a3a3a; line-height: 1.7;
+  }
+  .ctry-faq__item.open .ctry-faq__a { display: block; }
+  @media (max-width: 749px) {
+    .ctry-faq { padding: 44px 20px 52px; }
+    .ctry-faq__q { font-size: 16px; padding: 18px 20px; }
+    .ctry-faq__a { font-size: 15px; padding: 0 20px 18px; }
+  }
+
+  /* Contact CTA */
+  .ctry-contact { background: #242833; padding: 72px 24px; text-align: center; }
+  .ctry-contact__inner { max-width: 720px; margin: 0 auto; }
+  .ctry-contact h2 { font-size: 32px; font-weight: 700; margin: 0 0 14px; color: #ffffff !important; line-height: 1.25; }
+  .ctry-contact__sub { margin: 0 0 36px; font-size: 18px; line-height: 1.6; color: rgba(255,255,255,0.88); }
+  @media (max-width: 749px) { .ctry-contact h2 { font-size: 24px; } .ctry-contact { padding: 56px 20px; } }
+  .ctry-btn-wa-lg {
+    display: inline-flex; align-items: center; gap: 10px;
+    padding: 18px 44px; background: #25D366; color: #fff;
+    border-radius: 6px; font-size: 18px; font-weight: 700;
+    text-decoration: none; transition: background 0.2s, transform 0.1s; margin-bottom: 32px;
+  }
+  .ctry-btn-wa-lg:hover { background: #1ebe5b; color: #fff; }
+  .ctry-btn-wa-lg:active { transform: scale(0.98); }
+  .ctry-btn-wa-lg svg { width: 22px; height: 22px; fill: currentColor; }
+  .ctry-contact__details {
+    display: flex; flex-direction: column; gap: 10px;
+    font-size: 16px; color: rgba(255,255,255,0.88); line-height: 1.6;
+  }
+  .ctry-contact__details a { color: #fff; text-decoration: none; font-weight: 500; }
+  .ctry-contact__details a:hover { text-decoration: underline; }
+{%- endstyle -%}
+
+<!-- HERO -->
+<section class="ctry-hero">
+  <div class="ctry-hero__inner">
+    <span class="ctry-hero__flag" aria-hidden="true">{{ flag }}</span>
+    <h1>{{ section.settings.hero_heading }}</h1>
+    {%- if section.settings.hero_subheading != blank -%}
+      <p class="ctry-hero__sub">{{ section.settings.hero_subheading }}</p>
+    {%- endif -%}
+    <div class="ctry-hero__ctas">
+      <a href="/collections/all" class="ctry-btn-browse">Browse Trophies</a>
+      <a href="https://wa.me/+919480150888?text=Hi%2C+I+want+to+order+trophies+to+{{ country | url_encode }}" class="ctry-btn-wa" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+        WhatsApp Us
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- SHIPPING STRIP -->
+<section class="ctry-shipping">
+  <div class="ctry-shipping__inner">
+    <div class="ctry-ship-item">
+      <div class="ctry-ship-icon">
+        <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M20 8h-3V4H3c-1.1 0-2 .9-2 2v11h2c0 1.66 1.34 3 3 3s3-1.34 3-3h6c0 1.66 1.34 3 3 3s3-1.34 3-3h2v-5l-3-4zM6 18.5c-.83 0-1.5-.67-1.5-1.5S5.17 15.5 6 15.5 7.5 16.17 7.5 17 6.83 18.5 6 18.5zm13.5-9l1.96 2.5H17V9.5h2.5zm-1.5 9c-.83 0-1.5-.67-1.5-1.5s.67-1.5 1.5-1.5 1.5.67 1.5 1.5-.67 1.5-1.5 1.5z"/></svg>
+      </div>
+      <span class="ctry-ship-label">International Shipping</span>
+      <span class="ctry-ship-desc">{{ shipping_days }} via DHL / FedEx Express</span>
+    </div>
+    <div class="ctry-ship-item">
+      <div class="ctry-ship-icon">
+        <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4zm0 10.99h7c-.53 4.12-3.28 7.79-7 8.94V12H5V6.3l7-3.11v8.8z"/></svg>
+      </div>
+      <span class="ctry-ship-label">Secure Packaging</span>
+      <span class="ctry-ship-desc">Bubble-wrapped, foam-lined for international transit</span>
+    </div>
+    <div class="ctry-ship-item">
+      <div class="ctry-ship-icon">
+        <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M3 17.25V21h3.75L17.81 9.94l-3.75-3.75L3 17.25zM20.71 7.04c.39-.39.39-1.02 0-1.41l-2.34-2.34c-.39-.39-1.02-.39-1.41 0l-1.83 1.83 3.75 3.75 1.83-1.83z"/></svg>
+      </div>
+      <span class="ctry-ship-label">Custom Engraving</span>
+      <span class="ctry-ship-desc">Names, logos &amp; messages on every piece</span>
+    </div>
+    <div class="ctry-ship-item">
+      <div class="ctry-ship-icon">
+        <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>
+      </div>
+      <span class="ctry-ship-label">Full Documentation</span>
+      <span class="ctry-ship-desc">Commercial invoice &amp; HS code for customs</span>
+    </div>
+  </div>
+</section>
+
+<!-- LOCAL SEO CONTENT -->
+{%- if section.settings.local_seo_paragraph != blank -%}
+<div class="ctry-about">
+  <h2>Meru Trophy — Shipping to {{ country }}</h2>
+  {%- capture rm_ctry_content -%}
+    {{ section.settings.local_seo_paragraph }}
+  {%- endcapture -%}
+  {%- render 'read-more-wrapper',
+    content: rm_ctry_content,
+    id: 'ctry-seo-readmore',
+    collapsed_height: 380
+  -%}
+</div>
+{%- endif -%}
+
+<!-- FEATURED PRODUCTS -->
+<section class="ctry-products">
+  <h2 class="ctry-section-title">Popular Trophies — Shipped Internationally</h2>
+  <div class="ctry-products__grid">
+    {%- for product in collections.all.products limit: 8 -%}
+      <a href="{{ product.url }}" class="ctry-product-card">
+        {%- if product.featured_image -%}
+          <img
+            class="ctry-product-card__img"
+            src="{{ product.featured_image | image_url: width: 400 }}"
+            alt="{{ product.featured_image.alt | escape | default: product.title | escape }}"
+            width="400" height="400" loading="lazy"
+          >
+        {%- endif -%}
+        <div class="ctry-product-card__body">
+          <div class="ctry-product-card__title">{{ product.title | escape }}</div>
+          <div class="ctry-product-card__price">
+            {{ product.price | money }}
+            {%- if product.compare_at_price > product.price -%}
+              <s>{{ product.compare_at_price | money }}</s>
+            {%- endif -%}
+          </div>
+        </div>
+      </a>
+    {%- endfor -%}
+  </div>
+</section>
+
+<!-- COVERAGE AREAS -->
+{%- if key_areas != blank -%}
+<section class="ctry-coverage">
+  <div class="ctry-coverage__inner">
+    <h2 class="ctry-section-title" style="text-align:left;margin-bottom:8px;">Delivering to {{ country }} — Key Cities &amp; Areas</h2>
+    <p style="color:#555;font-size:17px;line-height:1.6;">We ship custom trophies, medals, and corporate gifts to Indian community associations and businesses across {{ country }}.</p>
+    {%- assign areas = key_areas | split: "," -%}
+    <div class="ctry-coverage__areas">
+      {%- for area in areas -%}
+        <span class="ctry-coverage__tag">{{ area | strip }}</span>
+      {%- endfor -%}
+    </div>
+  </div>
+</section>
+{%- endif -%}
+
+<!-- FAQ -->
+<section class="ctry-faq" id="faq">
+  <div class="ctry-faq__inner">
+    <h2 class="ctry-section-title" style="text-align:left;">FAQ — Ordering Trophies from India to {{ country }}</h2>
+    <p style="color:#555;font-size:17px;line-height:1.6;margin-bottom:4px;">Everything you need to know about international trophy orders from Meru Trophy, Bangalore, India.</p>
+    <div class="ctry-faq__list">
+
+      <div class="ctry-faq__item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+        <button class="ctry-faq__q" aria-expanded="false">
+          <span itemprop="name">Can Meru Trophy ship custom trophies to {{ country }}?</span>
+          <span class="ctry-faq__q-icon" aria-hidden="true">+</span>
+        </button>
+        <div class="ctry-faq__a" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+          <div itemprop="text">
+            Yes. Meru Trophy ships internationally including to {{ country }}. We are a Bangalore, India-based manufacturer of custom trophies, medals, shields, plaques, and corporate gifts with over 20 years of experience. For international orders, we use DHL Express, FedEx International Priority, or Speed Post India Post, depending on destination and urgency. {{ local_note }}
+          </div>
+        </div>
+      </div>
+
+      <div class="ctry-faq__item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+        <button class="ctry-faq__q" aria-expanded="false">
+          <span itemprop="name">How long does shipping to {{ country }} take?</span>
+          <span class="ctry-faq__q-icon" aria-hidden="true">+</span>
+        </button>
+        <div class="ctry-faq__a" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+          <div itemprop="text">
+            Standard production and shipping to {{ country }} typically takes <strong>{{ shipping_days }}</strong> from the date of order confirmation and artwork approval. This includes 3-5 business days for production and engraving, plus international transit time. For urgent orders, please WhatsApp us at +91 9480150888 with your event date so we can advise on the fastest dispatch option available.
+          </div>
+        </div>
+      </div>
+
+      <div class="ctry-faq__item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+        <button class="ctry-faq__q" aria-expanded="false">
+          <span itemprop="name">What is the cost of shipping trophies from India to {{ country }}?</span>
+          <span class="ctry-faq__q-icon" aria-hidden="true">+</span>
+        </button>
+        <div class="ctry-faq__a" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+          <div itemprop="text">
+            International shipping charges depend on the total weight and dimensions of the package, and the destination city in {{ country }}. DHL Express and FedEx International Priority are the fastest and most reliable options. We calculate exact shipping costs at the time of quotation. For large bulk orders (50+ trophies), we can often consolidate into a single shipment to reduce per-unit shipping cost. Please WhatsApp us at +91 9480150888 for a shipping quote to your location in {{ country }}.
+          </div>
+        </div>
+      </div>
+
+      <div class="ctry-faq__item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+        <button class="ctry-faq__q" aria-expanded="false">
+          <span itemprop="name">Will there be customs duties on trophies arriving in {{ country }}?</span>
+          <span class="ctry-faq__q-icon" aria-hidden="true">+</span>
+        </button>
+        <div class="ctry-faq__a" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+          <div itemprop="text">
+            {{ local_note }} As a general guide, trophies and awards (HS Code 9705/9706 or similar) may be subject to import duties in the destination country. We provide a full commercial invoice, product description, HS code, and country-of-origin certificate with every international shipment to facilitate smooth customs clearance. Please consult your local customs authority or the courier's import team for the specific duty applicable in {{ country }}.
+          </div>
+        </div>
+      </div>
+
+      <div class="ctry-faq__item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+        <button class="ctry-faq__q" aria-expanded="false">
+          <span itemprop="name">How do Indian diaspora communities in {{ country }} order trophies from Meru Trophy?</span>
+          <span class="ctry-faq__q-icon" aria-hidden="true">+</span>
+        </button>
+        <div class="ctry-faq__a" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+          <div itemprop="text">
+            {{ diaspora_note }} To place an order: WhatsApp us at +91 9480150888 or email merutrophy@gmail.com with your trophy type, quantity, engraving text, and delivery address in {{ country }}. We will share a design proof, quote, and shipping estimate within 24-48 hours. We accept international payments via bank transfer, Wise (international), or in some cases PayPal.
+          </div>
+        </div>
+      </div>
+
+      <div class="ctry-faq__item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+        <button class="ctry-faq__q" aria-expanded="false">
+          <span itemprop="name">What types of trophies can be ordered for delivery to {{ country }}?</span>
+          <span class="ctry-faq__q-icon" aria-hidden="true">+</span>
+        </button>
+        <div class="ctry-faq__a" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+          <div itemprop="text">
+            All our product categories are available for international shipping to {{ country }}: Crystal Trophies, Metal Trophies, Fibre Trophies, Acrylic Trophies, Wooden Mementos, Medals, Shields, Plaques, and Corporate Gift Sets. Crystal trophies are the most popular for diaspora community award events as they are elegant, lightweight (important for international shipping costs), and durable in transit. Custom engraving with names, event titles, logos, and dates is included.
+          </div>
+        </div>
+      </div>
+
+      <div class="ctry-faq__item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+        <button class="ctry-faq__q" aria-expanded="false">
+          <span itemprop="name">Can I customise trophies for my organisation's event in {{ country }}?</span>
+          <span class="ctry-faq__q-icon" aria-hidden="true">+</span>
+        </button>
+        <div class="ctry-faq__a" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+          <div itemprop="text">
+            Yes. Custom engraving, logo printing, and bespoke shapes are available for all international orders. Many Indian diaspora associations in {{ country }} order trophies with their organisation's logo on the base, recipient names on the face, and event year/title. Our design team shares a digital proof via WhatsApp or email before production begins. We support English, Hindi, Gujarati, Tamil, Telugu, Malayalam, and Punjabi script engraving.
+          </div>
+        </div>
+      </div>
+
+      <div class="ctry-faq__item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+        <button class="ctry-faq__q" aria-expanded="false">
+          <span itemprop="name">What occasions do Indian community associations in {{ country }} order trophies for?</span>
+          <span class="ctry-faq__q-icon" aria-hidden="true">+</span>
+        </button>
+        <div class="ctry-faq__a" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+          <div itemprop="text">
+            Common occasions include: {{ popular_occasions }}. Indian associations, temple trusts, and diaspora-owned businesses across {{ country }} regularly order from Meru Trophy for these annual events. We have experience packaging trophies securely for international transit and ensuring they arrive in perfect condition for prestigious community events.
+          </div>
+        </div>
+      </div>
+
+      <div class="ctry-faq__item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+        <button class="ctry-faq__q" aria-expanded="false">
+          <span itemprop="name">How are trophies packaged for international shipping to {{ country }}?</span>
+          <span class="ctry-faq__q-icon" aria-hidden="true">+</span>
+        </button>
+        <div class="ctry-faq__a" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+          <div itemprop="text">
+            Each trophy is individually wrapped in bubble wrap and foam padding, placed in a rigid cardboard inner box, and then packed in a sturdy outer shipping carton. For fragile crystal trophies, we use additional foam inserts and double-wall cartons. All international packages include a packing list, commercial invoice, and HS code declaration for smooth customs clearance. We have successfully shipped hundreds of orders to {{ country }} and other international destinations.
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section class="ctry-contact">
+  <div class="ctry-contact__inner">
+    <h2>Order Trophies — Ship to {{ country }}</h2>
+    <p class="ctry-contact__sub">
+      WhatsApp us with your requirements — quantity, material, engraving text, and delivery address in {{ country }}.
+      We will send a design proof, quote, and shipping estimate within 24 hours.
+    </p>
+    <a href="https://wa.me/+919480150888?text=Hi%2C+I+want+to+order+trophies+for+delivery+to+{{ country | url_encode }}" class="ctry-btn-wa-lg" target="_blank" rel="noopener">
+      <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+      WhatsApp Us Now
+    </a>
+    <div class="ctry-contact__details">
+      <span>
+        <a href="tel:+917892207252">+91 7892207252</a> &nbsp;|&nbsp;
+        <a href="tel:+919480150888">+91 9480150888</a>
+      </span>
+      <span><a href="mailto:merutrophy@gmail.com">merutrophy@gmail.com</a></span>
+      <span>#273/2, SC Road, 2nd Cross, 1st Floor, Gandhinagar, Bangalore – 560 009, India</span>
+    </div>
+  </div>
+</section>
+
+<!-- JSON-LD -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "OnlineStore",
+      "@id": "https://merutrophy.in/#store",
+      "name": "Meru Trophy",
+      "url": "https://merutrophy.in",
+      "logo": "https://merutrophy.in/cdn/shop/files/Meru_New_Logo_1.jpg",
+      "description": "Meru Trophy is a Bangalore-based manufacturer of custom trophies, medals, shields, plaques, and corporate gifts. We ship internationally to {{ country | escape }} and worldwide.",
+      "telephone": "+917892207252",
+      "email": "merutrophy@gmail.com",
+      "openingHours": "Mo-Sa 09:00-19:00",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "#273/2, SC Road, 2nd Cross, 1st Floor, Gandhinagar",
+        "addressLocality": "Bangalore",
+        "addressRegion": "Karnataka",
+        "postalCode": "560009",
+        "addressCountry": "IN"
+      },
+      "areaServed": [
+        {"@type": "Country", "name": "India"},
+        {"@type": "Country", "name": "{{ country | escape }}"}
+      ],
+      "sameAs": ["https://wa.me/+919480150888", "https://merutrophy.in"]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Can Meru Trophy ship custom trophies to {{ country | escape }}?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Meru Trophy ships internationally to {{ country | escape }}. We are a Bangalore-based manufacturer with 20+ years of experience. We ship via DHL Express, FedEx International Priority, and include full commercial documentation for customs."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How long does trophy shipping to {{ country | escape }} take?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Shipping to {{ country | escape }} typically takes {{ shipping_days | escape }} from order confirmation and artwork approval. Contact us at +91 9480150888 for expedited options."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What types of trophies can be shipped to {{ country | escape }}?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "All product categories are available for international shipping: Crystal Trophies, Metal Trophies, Acrylic Trophies, Wooden Mementos, Medals, Shields, and Plaques. Custom engraving in English and Indian regional scripts is available."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How are trophies packaged for international shipping?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Each trophy is individually bubble-wrapped and foam-padded, packed in rigid cardboard boxes. Full commercial invoice and HS code documentation is included for smooth customs clearance in {{ country | escape }}."
+          }
+        }
+      ]
+    }
+  ]
+}
+</script>
+
+<!-- FAQ Accordion JS -->
+<script>
+(function () {
+  var items = document.querySelectorAll('.ctry-faq__item');
+  items.forEach(function (item) {
+    var btn = item.querySelector('.ctry-faq__q');
+    if (!btn) return;
+    btn.addEventListener('click', function () {
+      var isOpen = item.classList.contains('open');
+      items.forEach(function (i) {
+        i.classList.remove('open');
+        var b = i.querySelector('.ctry-faq__q'); if (b) b.setAttribute('aria-expanded', 'false');
+      });
+      if (!isOpen) { item.classList.add('open'); btn.setAttribute('aria-expanded', 'true'); }
+    });
+  });
+})();
+</script>
+
+{% schema %}
+{
+  "name": "Country Landing Page",
+  "tag": "section",
+  "class": "country-landing-section",
+  "settings": [
+    {
+      "type": "header",
+      "content": "Country Information"
+    },
+    {
+      "type": "text",
+      "id": "country_name",
+      "label": "Country Name",
+      "default": "United States",
+      "info": "Full country name used throughout the page"
+    },
+    {
+      "type": "text",
+      "id": "country_flag",
+      "label": "Flag Emoji",
+      "default": "🇺🇸",
+      "info": "Country flag emoji shown in the hero"
+    },
+    {
+      "type": "text",
+      "id": "local_currency",
+      "label": "Local Currency Code",
+      "default": "USD",
+      "info": "3-letter currency code, e.g. USD, AED, GBP"
+    },
+    {
+      "type": "text",
+      "id": "shipping_days",
+      "label": "Shipping Time",
+      "default": "7-12 business days via DHL/FedEx Express",
+      "info": "Estimated shipping time to this country"
+    },
+    {
+      "type": "textarea",
+      "id": "key_cities",
+      "label": "Key Cities / Areas (comma-separated)",
+      "info": "Cities or regions in this country we deliver to"
+    },
+    {
+      "type": "header",
+      "content": "Hero Section"
+    },
+    {
+      "type": "text",
+      "id": "hero_heading",
+      "label": "Hero Heading (H1)",
+      "default": "Custom Trophies Shipped to USA — Meru Trophy India",
+      "info": "Main H1 heading for this country page"
+    },
+    {
+      "type": "textarea",
+      "id": "hero_subheading",
+      "label": "Hero Subheading",
+      "info": "Supporting text shown below the H1."
+    },
+    {
+      "type": "header",
+      "content": "SEO Content"
+    },
+    {
+      "type": "richtext",
+      "id": "local_seo_paragraph",
+      "label": "Country Description (Rich Text)",
+      "info": "2-4 paragraphs about shipping to this country, diaspora community, and use cases."
+    }
+  ],
+  "presets": [
+    {
+      "name": "Country Landing Page",
+      "settings": {
+        "country_name": "United States",
+        "country_flag": "🇺🇸",
+        "local_currency": "USD",
+        "shipping_days": "7-12 business days via DHL/FedEx Express from India",
+        "hero_heading": "Custom Trophies Shipped to USA — Indian Trophy Maker | Meru Trophy",
+        "hero_subheading": "Order crystal, metal, and acrylic trophies from India for US-based Indian community events, cultural associations, Diwali galas, and cricket club tournaments. Custom engraving in English, Hindi, Gujarati, and more."
+      }
+    }
+  ]
+}
+{% endschema %}

@@ -1,0 +1,25 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "country-landing": {
+      "type": "country-landing",
+      "settings": {
+        "country_name": "United States",
+        "country_flag": "🇺🇸",
+        "local_currency": "USD",
+        "shipping_days": "7-12 business days via DHL Express or FedEx International Priority",
+        "key_cities": "New York, New Jersey, San Francisco Bay Area, Chicago, Houston, Los Angeles, Seattle, Austin, Dallas, Atlanta, Boston, Washington DC, San Jose, Fremont, Edison NJ",
+        "hero_heading": "Custom Trophies Shipped to USA — Indian Trophy Maker | Meru Trophy",
+        "hero_subheading": "Order crystal, metal, and acrylic trophies from India for US-based Indian community events, Diwali galas, cricket club tournaments, and corporate award programs. Delivered across USA in 7-12 business days with full customs documentation.",
+        "local_seo_paragraph": "<h2>Meru Trophy — Shipping Custom Trophies to the United States</h2>\n<p>Meru Trophy ships custom crystal trophies, metal awards, wooden mementos, medals, and plaques directly from Bangalore, India, to the <strong>United States</strong>. With over 4 million people of Indian origin living across the USA — and a vibrant network of cultural associations, temple trusts, and diaspora-owned businesses — demand for high-quality Indian-crafted trophies is strong across New York, New Jersey, the Bay Area, Chicago, Houston, and beyond.</p>\n<h3>Who orders from us in the USA</h3>\n<ul>\n<li><strong>Indian community associations</strong> — Gujarati Samaj, Telugu Association of North America (TANA), Kerala associations, Tamil Sangams, and regional groups ordering Diwali gala awards and annual felicitation trophies</li>\n<li><strong>Temple trusts</strong> — BAPS Swaminarayan temples, ISKCON temples, and Hindu community centres ordering event participation trophies and volunteer recognition awards</li>\n<li><strong>Cricket clubs</strong> — Indian American cricket leagues across New Jersey, Chicago, Houston, and the Bay Area ordering season-end trophies and player-of-the-tournament awards</li>\n<li><strong>Indian-led technology companies</strong> — Silicon Valley and Indian-American-founded firms ordering custom crystal awards for employee recognition programs and leadership felicitations</li>\n<li><strong>Cultural events</strong> — Diwali galas, Navratri garba competitions, Independence Day cultural shows, and school-level cultural competitions organised by diaspora associations</li>\n</ul>\n<h3>Why order from Meru Trophy (India) for a US event</h3>\n<p>Indian trophy manufacturers like Meru Trophy offer <strong>significantly better value</strong> than US-based suppliers for handcrafted crystal and metal trophies, especially for small to medium batch orders (20-500 pieces). Our prices start at ₹150 per medal (~$2) and go up to ₹5,000 (~$60) for premium crystal pieces — substantially below equivalent US retail prices. Custom engraving in English, Hindi, Gujarati, Tamil, Telugu, Malayalam, and Punjabi script is included at no extra charge.</p>\n<h3>Shipping and customs</h3>\n<p>US shipments are dispatched via <strong>DHL Express or FedEx International Priority</strong> and typically arrive in <strong>7-12 business days</strong>. We provide a commercial invoice, HS code declaration (HS 9705 for trophies/awards), packing list, and country-of-origin certificate with every shipment. US Customs may assess import duties on commercial shipments — consult CBP.gov or your local customs broker for specific tariff rates applicable.</p>\n<p>To order, WhatsApp us at <strong>+91 9480150888</strong> or email <strong>merutrophy@gmail.com</strong> with your trophy type, quantity, engraving text, and US delivery address. We accept bank transfers (SWIFT), Wise international transfers, and can discuss other payment options.</p>"
+      }
+    }
+  },
+  "order": [
+    "country-landing"
+  ]
+}

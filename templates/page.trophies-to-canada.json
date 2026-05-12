@@ -1,0 +1,25 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "country-landing": {
+      "type": "country-landing",
+      "settings": {
+        "country_name": "Canada",
+        "country_flag": "🇨🇦",
+        "local_currency": "CAD",
+        "shipping_days": "8-12 business days via DHL Express or FedEx International Priority",
+        "key_cities": "Toronto, Mississauga, Brampton, Vancouver, Calgary, Edmonton, Ottawa, Winnipeg, Surrey BC, Montreal, Markham, Richmond Hill, Scarborough, Burnaby",
+        "hero_heading": "Custom Trophies Shipped to Canada — Indian Trophy Maker | Meru Trophy",
+        "hero_subheading": "Order crystal, metal, and acrylic trophies from India for Canada's Indian community Diwali galas, Navratri events, cricket club tournaments, and cultural association awards. Delivered across Canada in 8-12 business days.",
+        "local_seo_paragraph": "<h2>Meru Trophy — Shipping Custom Trophies to Canada</h2>\n<p>Meru Trophy ships custom crystal trophies, metal awards, wooden mementos, medals, and plaques from Bangalore, India, to <strong>Canada</strong>. Canada is home to over 1.8 million people of Indian origin — the second-largest South Asian diaspora globally — with major concentrations in Brampton, Mississauga, Toronto, Surrey BC, and Calgary. The Indian diaspora in Canada hosts vibrant Diwali galas, Navratri events, Baisakhi celebrations, and community association award programs that regularly feature custom Indian-crafted trophies.</p>\n<h3>Who orders from us in Canada</h3>\n<ul>\n<li><strong>Indian community associations</strong> — Canada India Foundation, Gujarati Association of Ontario, Tamil Association of Toronto, and regional Indian cultural groups ordering annual Diwali gala and community day trophies</li>\n<li><strong>BAPS and temple trusts</strong> — BAPS Swaminarayan temples in Etobicoke and Burnaby, Hindu temples across Ontario and BC ordering volunteer recognition and cultural event awards</li>\n<li><strong>Punjabi associations</strong> — Brampton's large Punjabi community hosts Vaisakhi events and gurdwara functions that include cultural felicitations and sports event trophies</li>\n<li><strong>Indian cricket associations Canada</strong> — Cricket Ontario, Cricket Canada leagues and affiliated clubs ordering season-end trophies and tournament prizes</li>\n<li><strong>Technology and business community</strong> — Indian-origin tech professionals in Mississauga and Markham ordering corporate recognition awards for company events</li>\n</ul>\n<h3>Shipping and customs to Canada</h3>\n<p>Canada shipments are dispatched via <strong>DHL Express or FedEx International Priority</strong> and arrive in <strong>8-12 business days</strong>. Canada Border Services Agency (CBSA) may apply customs duties and HST/GST on imports. Trophies and awards (HS Code 9705/9706) may attract applicable Most Favoured Nation (MFN) duty rates from India. We provide full commercial documentation — invoice, HS code, and country-of-origin certificate — for smooth CBSA clearance. DHL or FedEx will handle import brokerage on the recipient's behalf.</p>\n<p>WhatsApp us at <strong>+91 9480150888</strong> or email <strong>merutrophy@gmail.com</strong> for a quote and shipping estimate to your Canadian address.</p>"
+      }
+    }
+  },
+  "order": [
+    "country-landing"
+  ]
+}

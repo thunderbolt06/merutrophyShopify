@@ -1,0 +1,25 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "country-landing": {
+      "type": "country-landing",
+      "settings": {
+        "country_name": "Thailand",
+        "country_flag": "🇹🇭",
+        "local_currency": "THB",
+        "shipping_days": "5-8 business days via DHL Express or FedEx International",
+        "key_cities": "Bangkok, Phuket, Pattaya, Chiang Mai, Hua Hin, Nonthaburi, Pathum Thani, Khon Kaen, Udon Thani",
+        "hero_heading": "Custom Trophies Shipped to Thailand — Indian Trophy Maker | Meru Trophy",
+        "hero_subheading": "Order crystal, metal, and acrylic trophies from India for Thailand's Indian community events, MICE conference awards, hospitality sector recognition, and cricket club trophies. Delivered across Thailand in 5-8 business days.",
+        "local_seo_paragraph": "<h2>Meru Trophy — Shipping Custom Trophies to Thailand</h2>\n<p>Meru Trophy ships custom crystal trophies, metal awards, wooden mementos, medals, and plaques from Bangalore, India, to <strong>Thailand</strong>. Bangkok is home to a small but active Indian diaspora community, particularly in the Pahurat district (Little India) and Silom/Sukhumvit areas. Additionally, Thailand's MICE (Meetings, Incentives, Conferences, and Exhibitions) industry frequently uses custom awards for international conferences, and Indian-led hospitality businesses order customised recognition trophies. Shipments reach Bangkok and other Thai cities within <strong>5-8 business days</strong>.</p>\n<h3>Who orders from us in Thailand</h3>\n<ul>\n<li><strong>Indian community associations</strong> — The Indian Association of Thailand (IAT) and Bangkok Hindu Samaj ordering Diwali and cultural event trophies and felicitation awards</li>\n<li><strong>MICE and hospitality sector</strong> — Bangkok conference organisers, incentive travel companies, and hotel groups ordering custom crystal awards for international business conferences and incentive programs</li>\n<li><strong>Indian-origin businesses in Bangkok</strong> — Textile merchants in Pahurat, Indian jewellery businesses in Silom, and Indian-origin entrepreneurs ordering corporate recognition awards</li>\n<li><strong>Indian Businessmen Association Thailand</strong> — An active body that hosts annual award functions for members of the Indian business community in Thailand</li>\n<li><strong>Cricket and sports clubs</strong> — Indian expat cricket leagues and sports clubs in Bangkok ordering tournament trophies and participation awards</li>\n</ul>\n<h3>Shipping and customs to Thailand</h3>\n<p>Thailand shipments are dispatched via <strong>DHL Express or FedEx International</strong> and typically arrive in <strong>5-8 business days</strong>. Thai Customs may apply import duties and VAT (7%) on incoming goods. Trophies and awards under certain HS codes may attract duty rates of 0-20% depending on materials. We provide a full commercial invoice, HS code declaration, and packing list for smooth Thai Customs clearance.</p>\n<p>WhatsApp us at <strong>+91 9480150888</strong> or email <strong>merutrophy@gmail.com</strong> to order trophies for delivery to Thailand.</p>"
+      }
+    }
+  },
+  "order": [
+    "country-landing"
+  ]
+}
