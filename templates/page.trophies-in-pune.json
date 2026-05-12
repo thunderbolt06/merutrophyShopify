@@ -1,0 +1,30 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "city-landing": {
+      "type": "city-landing",
+      "settings": {
+        "city_name": "Pune",
+        "city_name_local": "Pune",
+        "city_state": "Maharashtra",
+        "delivery_areas": "Hinjawadi, Kharadi, Wakad, Viman Nagar, Koregaon Park, Pimpri-Chinchwad, Aundh, Baner, Hadapsar, Magarpatta, Shivajinagar, Kothrud, Deccan, Katraj, Kondhwa",
+        "hero_heading": "Trophy Shop in Pune — Custom Trophies & Awards | Meru Trophy",
+        "hero_subheading": "Pune's preferred trophy and award supplier for IT corporates, automotive companies, colleges, and schools. Custom crystal, metal, and acrylic trophies with laser engraving. Delivered across Pune, Pimpri-Chinchwad, and Hinjawadi IT Park within days.",
+        "local_seo_paragraph": "<h2>Custom Trophy Makers Delivering to Pune, Maharashtra</h2>\n<p>Meru Trophy is a Bangalore-based manufacturer with over 20 years of experience crafting custom trophies, medals, shields, plaques, and corporate gifts for customers across India. <strong>Pune</strong> — Maharashtra's IT, automotive, and education capital — is one of our fastest-growing delivery markets, with orders regularly shipped to Hinjawadi, Kharadi, Pimpri-Chinchwad, Viman Nagar, and Koregaon Park within 3–5 business days of artwork approval.</p>\n<h3>Why Pune companies choose Meru Trophy</h3>\n<ul>\n<li><strong>IT park delivery</strong> — direct to Hinjawadi Phase I/II/III, Kharadi, EON IT Park, and Magarpatta corporate campuses</li>\n<li>Crystal, metal, acrylic, wooden, and fibre trophy options — starting from <strong>₹150 per medal</strong></li>\n<li>In-house <strong>laser engraving and UV printing</strong> — recipient names, logos, and custom artwork</li>\n<li>Bulk order speciality — 50 to 5,000+ pieces with volume discount pricing</li>\n<li>GST invoices provided for all B2B corporate orders</li>\n</ul>\n<h3>Industries and institutions we serve in Pune</h3>\n<p>Meru Trophy regularly supplies to <strong>IT and technology companies in Hinjawadi and Kharadi</strong> — including Infosys, TCS, Capgemini, Cognizant, and numerous product startups — for annual recognition programs, employee-of-the-month awards, hackathon prizes, and farewell mementos. The <strong>automotive belt of Pimpri-Chinchwad</strong> (Bajaj Auto, Tata Motors, Mercedes-Benz India R&amp;D, Force Motors) is another key sector, ordering custom crystal and metal awards for annual days and safety award ceremonies. Premier educational institutions — <strong>Symbiosis International University, COEP, Pune University, Deccan College, and multiple engineering colleges</strong> — are frequent customers for convocation, sports day, and academic excellence awards.</p>\n<h3>Popular occasions for trophy ordering in Pune</h3>\n<ul>\n<li>IT company annual day awards and long-service recognition</li>\n<li>Hackathon and ideathon prizes at startup hubs in Koregaon Park and Baner</li>\n<li>Symbiosis, COEP, and Pune University convocations</li>\n<li>Pune Marathon and Pimpri-Chinchwad Half Marathon awards</li>\n<li>MIDC industrial sports events and safety recognition programs</li>\n<li>School and college sports days across Deccan, Shivajinagar, and Hadapsar</li>\n</ul>\n<p>To order custom trophies delivered to Pune, WhatsApp us at <strong>+91 94801 50888</strong> or call <strong>+91 78922 07252</strong>. Share your requirements — quantity, material, engraving text, and event date — and our team will respond with a design proof and quote within 24 hours.</p>",
+        "latitude": "18.5204",
+        "longitude": "73.8567"
+      }
+    }
+  },
+  "order": [
+    "city-landing"
+  ]
+}

@@ -1,0 +1,30 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "city-landing": {
+      "type": "city-landing",
+      "settings": {
+        "city_name": "Bhubaneswar",
+        "city_name_local": "Bhubaneswar",
+        "city_state": "Odisha",
+        "delivery_areas": "Saheed Nagar, Chandrasekharpur, Khandagiri, Nayapalli, Patia, Infocity, Mancheswar, Unit 9, Rasulgarh, Jaydev Vihar, Bomikhal, Niladri Vihar, Pokhariput, Dumduma",
+        "hero_heading": "Trophy Shop in Bhubaneswar — Custom Trophies & Awards | Meru Trophy",
+        "hero_subheading": "Bhubaneswar's trophy supplier for IT, government, mining, and sports sectors. Custom crystal, metal, acrylic, and wooden awards with engraving. Delivered across Bhubaneswar and Odisha in 5–6 business days.",
+        "local_seo_paragraph": "<h2>Custom Trophies Delivered to Bhubaneswar, Odisha</h2>\n<p>Meru Trophy manufactures and delivers custom trophies, medals, shields, plaques, and corporate gifts to <strong>Bhubaneswar</strong> — Odisha's capital and the \"Temple City of India.\" Bhubaneswar combines state government institutions, a growing IT sector (Infocity), and proximity to major mining and steel operations across Odisha. Orders reach Saheed Nagar, Chandrasekharpur, Infocity, and Patia within <strong>5–6 business days</strong> from our Bangalore facility.</p>\n<h3>Why Bhubaneswar institutions choose Meru Trophy</h3>\n<ul>\n<li>Experienced with <strong>Odisha government and PSU procurement</strong> — GST invoices, purchase orders, CPWD-type documentation</li>\n<li>Full range: crystal, metal, acrylic, wooden mementos, medals, shields, and plaques</li>\n<li>Starting from ₹150 per medal; crystal and metal trophies from ₹500+</li>\n<li>In-house laser engraving — Odia script text and logo engraving supported</li>\n<li>NALCO, SAIL, and mining sector volume order specialists</li>\n</ul>\n<h3>Industries and institutions we serve in Bhubaneswar</h3>\n<p>The <strong>Odisha government secretariat and state departments</strong> order institutional shields and award trophies for state government award programs. <strong>NALCO (National Aluminium Company) HQ</strong> in Bhubaneswar orders employee recognition, safety, and long-service awards in volume. <strong>IIT Bhubaneswar and KIIT University</strong> are key academic clients for convocation and fest prizes. <strong>Odisha FC</strong> (Indian Super League football club) orders winner and participant trophies for youth football development programs. The <strong>Infocity Bhubaneswar</strong> IT cluster (Infosys, TCS, Tech Mahindra) orders annual-day and employee recognition trophies.</p>\n<h3>Popular occasions for trophy ordering in Bhubaneswar</h3>\n<ul>\n<li>Odisha government department annual award functions</li>\n<li>IIT Bhubaneswar and KIIT University convocations and fests</li>\n<li>NALCO and mining sector employee safety and recognition awards</li>\n<li>Odisha FC football development program awards</li>\n<li>Rath Yatra and cultural community felicitations</li>\n<li>School and college sports days across Chandrasekharpur and Nayapalli</li>\n</ul>\n<p>Order custom trophies for Bhubaneswar delivery — WhatsApp <strong>+91 94801 50888</strong> or call <strong>+91 78922 07252</strong>.</p>",
+        "latitude": "20.2961",
+        "longitude": "85.8245"
+      }
+    }
+  },
+  "order": [
+    "city-landing"
+  ]
+}

@@ -1,0 +1,30 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "city-landing": {
+      "type": "city-landing",
+      "settings": {
+        "city_name": "Chandigarh",
+        "city_name_local": "Chandigarh",
+        "city_state": "Punjab & Haryana",
+        "delivery_areas": "Sector 17, Sector 22, Sector 34, Sector 43, Sector 8, Panchkula, Mohali, IT Park Chandigarh, Sector 62 Mohali, Zirakpur, Kharar, Derabassi, Aerocity Mohali",
+        "hero_heading": "Trophy Shop in Chandigarh — Custom Trophies & Awards | Meru Trophy",
+        "hero_subheading": "Chandigarh and Mohali trophy supplier for IT companies, universities, government, and sports events. Custom crystal, metal, and acrylic awards with engraving. Delivered to Chandigarh, Mohali, and Panchkula in 5–6 business days.",
+        "local_seo_paragraph": "<h2>Custom Trophies Delivered to Chandigarh & Mohali</h2>\n<p>Meru Trophy manufactures and delivers custom trophies, medals, shields, plaques, and corporate gifts to <strong>Chandigarh, Mohali, and Panchkula</strong> — the tri-city region serving as the capital of Punjab and Haryana. Orders reach Sector 17, Sector 34, IT Park Chandigarh, and Mohali Sector 62 within <strong>5–6 business days</strong> from our Bangalore facility.</p>\n<h3>Why Chandigarh and Mohali customers choose Meru Trophy</h3>\n<ul>\n<li>IT park delivery — <strong>Chandigarh IT Park and Mohali Sector 62</strong> tech companies served regularly</li>\n<li>Full range: crystal, metal, acrylic, wooden mementos, medals, shields, and plaques</li>\n<li>Starting from ₹150 per medal; crystal and metal trophies from ₹500+</li>\n<li>In-house laser engraving — Punjabi (Gurmukhi script) and Hindi text supported</li>\n<li>Government and defence institutional billing support available</li>\n</ul>\n<h3>Industries and institutions we serve in Chandigarh</h3>\n<p>The <strong>Chandigarh IT Park and Mohali Sector 62</strong> IT corridor hosts IT companies like Quark, Infosys BPO, DLF IT Park tenants, and numerous tech startups that order annual-day and employee recognition trophies. <strong>Punjab Engineering College, Chandigarh University (Mohali), and Panjab University</strong> are major institutional clients for convocation, sports day, and academic awards. The <strong>PGIMER</strong> orders medical excellence and research award trophies. PCA cricket stadium events and <strong>Indian Air Force Chandigarh base</strong> order sports and ceremonial awards.</p>\n<h3>Popular occasions for trophy ordering in Chandigarh</h3>\n<ul>\n<li>IT company annual day awards at Chandigarh IT Park and Mohali</li>\n<li>Chandigarh University and PU annual prize distributions</li>\n<li>PCA stadium cricket tournament awards</li>\n<li>Punjab and Haryana state government department award functions</li>\n<li>Indian Air Force and NCC prize distributions</li>\n<li>School sports days across all Sectors and Panchkula</li>\n</ul>\n<p>Order custom trophies for Chandigarh and Mohali delivery — WhatsApp <strong>+91 94801 50888</strong> or call <strong>+91 78922 07252</strong>.</p>",
+        "latitude": "30.7333",
+        "longitude": "76.7794"
+      }
+    }
+  },
+  "order": [
+    "city-landing"
+  ]
+}

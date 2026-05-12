@@ -1,0 +1,30 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "city-landing": {
+      "type": "city-landing",
+      "settings": {
+        "city_name": "Kochi",
+        "city_name_local": "Kochi",
+        "city_state": "Kerala",
+        "delivery_areas": "Kakkanad, Marine Drive, Edappally, Aluva, Tripunithura, Fort Kochi, Ernakulam, Kalamassery, Palarivattom, Infopark, SmartCity, Kaloor, Vytilla, Maradu, Thripunithura",
+        "hero_heading": "Trophy Shop in Kochi — Custom Trophies & Awards | Meru Trophy",
+        "hero_subheading": "Kochi's trophy and award supplier for IT companies, port sector, and cultural events. Crystal, metal, acrylic, and wooden trophies with engraving. Delivered to Kochi — Kakkanad, Infopark, and Ernakulam — in 4–5 business days.",
+        "local_seo_paragraph": "<h2>Custom Trophies Delivered to Kochi, Kerala</h2>\n<p>Meru Trophy manufactures and delivers custom trophies, medals, shields, plaques, and corporate gifts to <strong>Kochi</strong> — Kerala's commercial capital and one of India's premier IT and logistics hubs. Orders placed from Kochi typically reach Kakkanad, Ernakulam, Infopark, and SmartCity within <strong>4–5 business days</strong> from our Bangalore manufacturing facility.</p>\n<h3>Why Kochi businesses choose Meru Trophy</h3>\n<ul>\n<li><strong>Infopark and SmartCity IT campus delivery</strong> — TCS, Wipro, UST Global, and tech MNCs served</li>\n<li>Full range: crystal, metal, acrylic, wooden, fibre trophies, medals, shields, and plaques</li>\n<li>Starting from ₹150 per medal; crystal trophies from ₹500+</li>\n<li>In-house laser engraving — Malayalam text engraving supported</li>\n<li>Onam gifting specialists — bulk corporate hamper packs with custom engraved mementos</li>\n</ul>\n<h3>Industries and institutions we serve in Kochi</h3>\n<p>Kochi's <strong>Infopark and SmartCity</strong> IT campuses are our primary corporate market — companies like TCS, Wipro, UST Global, Ernst &amp; Young, and numerous technology firms order annual-recognition trophies, farewell mementos, and Onam gifting packs from us. The <strong>Cochin Port Trust</strong> and shipping logistics sector order institutional plaques for officer recognition. <strong>CUSAT (Cochin University of Science and Technology)</strong> and <strong>NIT Calicut</strong> are key educational clients for convocation and academic achievement awards. The Nehru Trophy Boat Race committee orders participation and winner trophies through us.</p>\n<h3>Popular occasions for trophy ordering in Kochi</h3>\n<ul>\n<li>Onam corporate gifting and employee recognition (August-September)</li>\n<li>IT company annual day award nights at Infopark and SmartCity</li>\n<li>Nehru Trophy Boat Race and Kerala water sports event awards</li>\n<li>CUSAT and NIT Calicut college fests and sports day prizes</li>\n<li>Cochin Port Trust and logistics sector employee felicitations</li>\n<li>School and college events across Ernakulam, Kaloor, and Aluva</li>\n</ul>\n<p>Order custom trophies for Kochi delivery — WhatsApp <strong>+91 94801 50888</strong> or call <strong>+91 78922 07252</strong>. Onam season orders should be placed 3 weeks in advance to meet the August-September rush.</p>",
+        "latitude": "9.9312",
+        "longitude": "76.2673"
+      }
+    }
+  },
+  "order": [
+    "city-landing"
+  ]
+}

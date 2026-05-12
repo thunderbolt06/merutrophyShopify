@@ -1,0 +1,30 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "city-landing": {
+      "type": "city-landing",
+      "settings": {
+        "city_name": "Chennai",
+        "city_name_local": "Chennai",
+        "city_state": "Tamil Nadu",
+        "delivery_areas": "Anna Nagar, T. Nagar, Adyar, Velachery, OMR, Perungudi, Guindy, Nungambakkam, Egmore, Ambattur, Sholinganallur, Tidel Park, Porur, Medavakkam, Tambaram, Chromepet",
+        "hero_heading": "Trophy Shop in Chennai — Custom Trophies & Awards | Meru Trophy",
+        "hero_subheading": "Chennai IT, automotive, and education sector trophy supplier. Crystal, metal, acrylic, and wooden awards with custom engraving. Delivered across Chennai — Anna Nagar, OMR, T. Nagar, and Sholinganallur — in 4–5 business days.",
+        "local_seo_paragraph": "<h2>Custom Trophies Delivered to Chennai, Tamil Nadu</h2>\n<p>Meru Trophy manufactures and delivers custom trophies, medals, corporate gifts, shields, and plaques to <strong>Chennai</strong> — Tamil Nadu's capital and one of India's leading IT, automotive, and manufacturing hubs. Orders from Chennai are shipped from our Bangalore facility and typically arrive at OMR, Anna Nagar, T. Nagar, and Sholinganallur within <strong>4–5 business days</strong> of order confirmation and artwork approval.</p>\n<h3>Why Chennai businesses trust Meru Trophy</h3>\n<ul>\n<li><strong>OMR IT corridor delivery</strong> — TCS, HCL, Wipro, Cognizant, Infosys campuses and tech parks served regularly</li>\n<li>Full range: crystal, metal, fibre, acrylic, wooden mementos, medals, shields, and plaques</li>\n<li>Prices starting from <strong>₹150 for medals</strong>, crystal trophies from ₹500</li>\n<li>In-house laser engraving and UV printing on all materials</li>\n<li>Bulk order specialists — 50 to 5,000+ pieces with corporate pricing</li>\n</ul>\n<h3>Industries and institutions we serve in Chennai</h3>\n<p>The <strong>Old Mahabalipuram Road (OMR) IT corridor</strong> is our strongest Chennai market — we regularly fulfill annual-day award orders for companies like TCS, HCL Technologies Sholinganallur, Wipro, and Cognizant. The <strong>automotive sector</strong> (Hyundai India at Irungattukottai, Ford India at Maraimalai Nagar, BMW plant at Sriperumbudur) orders safety awards, employee recognition trophies, and farewell mementos in volume. <strong>IIT Madras, Anna University, Madras University, and BITS Pilani Chennai</strong> campus are key institutional clients for convocation shields and academic excellence trophies.</p>\n<h3>Popular occasions for trophy ordering in Chennai</h3>\n<ul>\n<li>IT corporate annual day award nights on OMR and in Tidel Park</li>\n<li>IIT Madras Shaastra and Saarang fest prizes</li>\n<li>TCS, HCL, Wipro employee recognition and long-service awards</li>\n<li>Hyundai and Ford India employee award ceremonies</li>\n<li>School and college sports days across Anna Nagar, T. Nagar, and Velachery</li>\n<li>Tamil Nadu government department award events</li>\n</ul>\n<p>Contact Meru Trophy for custom trophy delivery to Chennai — WhatsApp <strong>+91 94801 50888</strong> or call <strong>+91 78922 07252</strong>. Share your event details and we will send a design proof and quote within 24 hours.</p>",
+        "latitude": "13.0827",
+        "longitude": "80.2707"
+      }
+    }
+  },
+  "order": [
+    "city-landing"
+  ]
+}

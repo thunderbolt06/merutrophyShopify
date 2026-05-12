@@ -1,0 +1,30 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "city-landing": {
+      "type": "city-landing",
+      "settings": {
+        "city_name": "Bhopal",
+        "city_name_local": "Bhopal",
+        "city_state": "Madhya Pradesh",
+        "delivery_areas": "MP Nagar, Arera Colony, Kolar Road, Habibganj, Bairagarh, Govindpura, Berasia Road, Awadhpuri, Shahpura, Misrod, Lalghati, Danish Hills, Kolar, Bawadiya Kalan",
+        "hero_heading": "Trophy Shop in Bhopal — Custom Trophies & Awards | Meru Trophy",
+        "hero_subheading": "Bhopal's trophy and award supplier for MP government, defence, education, and corporate sectors. Custom crystal, metal, and acrylic trophies with engraving. Delivered across Bhopal in 4–5 business days.",
+        "local_seo_paragraph": "<h2>Custom Trophies Delivered to Bhopal, Madhya Pradesh</h2>\n<p>Meru Trophy manufactures and delivers custom trophies, medals, shields, plaques, and corporate gifts to <strong>Bhopal</strong> — Madhya Pradesh's state capital and the \"City of Lakes.\" As a major government, defence, and education hub, Bhopal has strong demand for institutional trophies and award plaques. Orders reach MP Nagar, Arera Colony, Habibganj, and Govindpura within <strong>4–5 business days</strong> from our Bangalore facility.</p>\n<h3>Why Bhopal institutions choose Meru Trophy</h3>\n<ul>\n<li>Experienced with <strong>government and defence sector procurement</strong> — GST invoices, purchase orders, institutional billing</li>\n<li>Full range: crystal, metal, acrylic, wooden mementos, medals, shields, and plaques</li>\n<li>Starting from ₹150 per medal; crystal and metal trophies from ₹500+</li>\n<li>In-house laser engraving — Hindi text and logo engraving supported</li>\n<li>BHEL, defence, and PSU tender documentation support available</li>\n</ul>\n<h3>Industries and institutions we serve in Bhopal</h3>\n<p>The <strong>Madhya Pradesh government secretariat</strong> and state departments order institutional plaques and citation trophies for state award programs. <strong>BHEL Bhopal</strong> — one of India's largest heavy engineering units — orders employee recognition, safety, and performance awards. <strong>MANIT Bhopal, IIT Bhopal, AIIMS Bhopal, and NLU Bhopal</strong> are key academic institutional clients. The <strong>Mhow Military Academy</strong> (40 km from Bhopal) and NCC Bhopal directorate order ceremonial passing-out parade trophies and recognition shields.</p>\n<h3>Popular occasions for trophy ordering in Bhopal</h3>\n<ul>\n<li>MP government department annual award functions</li>\n<li>MANIT Bhopal, IIT Bhopal, and AIIMS Bhopal convocations</li>\n<li>BHEL Bhopal employee felicitations and safety award ceremonies</li>\n<li>NCC Bhopal directorate prize distributions</li>\n<li>School and college annual days across Arera Colony and MP Nagar</li>\n<li>NLU Bhopal moot court and academic competition prizes</li>\n</ul>\n<p>Order custom trophies for Bhopal delivery — WhatsApp <strong>+91 94801 50888</strong> or call <strong>+91 78922 07252</strong>. Government and PSU institutional orders with procurement documentation can be coordinated with our admin team.</p>",
+        "latitude": "23.2599",
+        "longitude": "77.4126"
+      }
+    }
+  },
+  "order": [
+    "city-landing"
+  ]
+}

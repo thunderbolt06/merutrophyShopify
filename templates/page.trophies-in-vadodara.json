@@ -1,0 +1,30 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "city-landing": {
+      "type": "city-landing",
+      "settings": {
+        "city_name": "Vadodara",
+        "city_name_local": "Vadodara",
+        "city_state": "Gujarat",
+        "delivery_areas": "Alkapuri, Fatehgunj, Karelibaug, Subhanpura, Manjalpur, Akota, Vasna, Ajwa Road, Gorwa, Savli, Waghodia Road, Kalali, Old Padra Road, Nizampura, Makarpura",
+        "hero_heading": "Trophy Shop in Vadodara — Custom Trophies & Awards | Meru Trophy",
+        "hero_subheading": "Vadodara's trophy supplier for L&T, GAIL, HAL, and education sectors. Custom crystal, metal, acrylic, and wooden awards with engraving. Delivered across Vadodara in 3–4 business days with GST invoices.",
+        "local_seo_paragraph": "<h2>Custom Trophies Delivered to Vadodara (Baroda), Gujarat</h2>\n<p>Meru Trophy manufactures and delivers custom trophies, medals, shields, plaques, and corporate gifts to <strong>Vadodara (Baroda)</strong> — Gujarat's cultural capital and a major hub for heavy engineering, petrochemicals, and defence manufacturing. Orders reach Alkapuri, Fatehgunj, Makarpura, and Gorwa within <strong>3–4 business days</strong> from our Bangalore facility — among the fastest in Gujarat.</p>\n<h3>Why Vadodara industries choose Meru Trophy</h3>\n<ul>\n<li>Serving <strong>L&T, GAIL, ONGC, and HAL Vadodara</strong> institutional orders regularly</li>\n<li>Full range: crystal, metal, acrylic, wooden mementos, medals, shields, and plaques</li>\n<li>Starting from ₹150 per medal; crystal and metal trophies from ₹500+</li>\n<li>In-house laser engraving — Gujarati text and logo engraving supported</li>\n<li>GST invoices with HSN codes for PSU and corporate procurement compliance</li>\n</ul>\n<h3>Industries and institutions we serve in Vadodara</h3>\n<p><strong>Larsen &amp; Toubro (L&T) Vadodara</strong> — one of the company's largest heavy engineering facilities — orders employee recognition, safety, and milestone awards in volume. <strong>GAIL India Vadodara</strong> orders annual performance and safety trophies. <strong>HAL Vadodara</strong> (Hindustan Aeronautics Limited) orders ceremonial and recognition awards for defence manufacturing excellence. The <strong>IOCL Gujarat Refinery township</strong> at Jawaharnagar (near Vadodara) orders family-day and sports event trophies. <strong>MS University of Baroda</strong> — one of India's leading universities — is a key academic client for convocation, sports day, and academic excellence trophies.</p>\n<h3>Popular occasions for trophy ordering in Vadodara</h3>\n<ul>\n<li>L&T Vadodara annual employee recognition and safety award events</li>\n<li>GAIL and ONGC Vadodara performance and safety trophies</li>\n<li>MS University of Baroda convocations and sports day prizes</li>\n<li>HAL Vadodara ceremonial award events</li>\n<li>Navratri cultural competition prizes across Vadodara</li>\n<li>School and college sports days across Alkapuri and Fatehgunj</li>\n</ul>\n<p>Order custom trophies for Vadodara delivery — WhatsApp <strong>+91 94801 50888</strong> or call <strong>+91 78922 07252</strong>.</p>",
+        "latitude": "22.3072",
+        "longitude": "73.1812"
+      }
+    }
+  },
+  "order": [
+    "city-landing"
+  ]
+}

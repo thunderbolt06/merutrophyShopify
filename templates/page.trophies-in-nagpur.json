@@ -1,0 +1,30 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "city-landing": {
+      "type": "city-landing",
+      "settings": {
+        "city_name": "Nagpur",
+        "city_name_local": "Nagpur",
+        "city_state": "Maharashtra",
+        "delivery_areas": "Dharampeth, Sitabuldi, Wardha Road, Wadi, MIDC Nagpur, Hingna, Civil Lines, Sadar, Byramji Town, Amravati Road, Kamptee Road, Trimurti Nagar, Manish Nagar, Pratap Nagar",
+        "hero_heading": "Trophy Shop in Nagpur — Custom Trophies & Awards | Meru Trophy",
+        "hero_subheading": "Nagpur's trophy supplier for railways, government, education, and sports sectors. Crystal, metal, and acrylic awards with engraving. Delivered to Nagpur in 4–5 business days with GST invoices.",
+        "local_seo_paragraph": "<h2>Custom Trophies Delivered to Nagpur, Maharashtra</h2>\n<p>Meru Trophy manufactures and delivers custom trophies, medals, shields, plaques, and corporate gifts to <strong>Nagpur</strong> — India's geographic centre and Maharashtra's \"winter capital.\" Orders from Nagpur reach Dharampeth, Wardha Road, Hingna MIDC, and Civil Lines within <strong>4–5 business days</strong> from our Bangalore facility.</p>\n<h3>Why Nagpur institutions choose Meru Trophy</h3>\n<ul>\n<li>Experience with <strong>Central Railway and government department</strong> institutional procurement</li>\n<li>Full range: crystal, metal, acrylic, wooden mementos, medals, shields, and plaques</li>\n<li>Starting from ₹150 per medal; crystal and metal trophies from ₹500+</li>\n<li>In-house laser engraving — Hindi and Marathi text supported</li>\n<li>GST invoices and bulk pricing for corporate and government orders</li>\n</ul>\n<h3>Industries and institutions we serve in Nagpur</h3>\n<p>The <strong>Central Railway Zone headquartered in Nagpur</strong> is one of the largest institutional clients, ordering employee recognition shields, retirement plaques, and performance awards across rail zones. <strong>Western Coalfields Limited (WCL)</strong> orders safety and excellence trophies for its mining operations. <strong>VNIT Nagpur and Nagpur University</strong> are key academic clients. The <strong>Vidarbha Cricket Association</strong> orders event trophies and participation medals for first-class cricket and domestic tournaments at VCA Stadium. Maharashtra Legislature's winter session (November-January) brings government institutional orders.</p>\n<h3>Popular occasions for trophy ordering in Nagpur</h3>\n<ul>\n<li>Central Railway annual employee recognition events</li>\n<li>Vidarbha Cricket Association (VCA) tournament trophies</li>\n<li>VNIT Nagpur and Nagpur University prize days</li>\n<li>WCL coal sector safety and excellence awards</li>\n<li>Maharashtra Legislature winter session government awards</li>\n<li>School and college sports days across Dharampeth and Civil Lines</li>\n</ul>\n<p>Order custom trophies for Nagpur delivery — WhatsApp <strong>+91 94801 50888</strong> or call <strong>+91 78922 07252</strong>. Maharashtra winter session ordering (Oct-Nov) should be placed 2 weeks in advance.</p>",
+        "latitude": "21.1458",
+        "longitude": "79.0882"
+      }
+    }
+  },
+  "order": [
+    "city-landing"
+  ]
+}

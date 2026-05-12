@@ -1,0 +1,30 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "city-landing": {
+      "type": "city-landing",
+      "settings": {
+        "city_name": "Indore",
+        "city_name_local": "Indore",
+        "city_state": "Madhya Pradesh",
+        "delivery_areas": "Vijay Nagar, Palasia, Sapna Sangeeta, Bhanwarkuan, Rau, Sanwer Road, LIG Square, MR-10 Road, AB Road, Rajendra Nagar, South Tukoganj, New Palasia, Scheme 54, Nipania",
+        "hero_heading": "Trophy Shop in Indore — Custom Trophies & Awards | Meru Trophy",
+        "hero_subheading": "Indore's trophy supplier for IT, pharma, education, and industrial sectors. Custom crystal, metal, acrylic, and wooden awards with engraving. Delivered across Indore in 4–5 business days.",
+        "local_seo_paragraph": "<h2>Custom Trophies Delivered to Indore, Madhya Pradesh</h2>\n<p>Meru Trophy manufactures and delivers custom trophies, medals, shields, plaques, and corporate gifts to <strong>Indore</strong> — Madhya Pradesh's commercial capital and India's cleanest city (consecutive Swachh Bharat rankings). Indore is home to IIM Indore, IIT Indore, and a growing IT and pharmaceutical sector. Orders reach Vijay Nagar, Palasia, AB Road, and Bhanwarkuan within <strong>4–5 business days</strong> from our Bangalore facility.</p>\n<h3>Why Indore businesses choose Meru Trophy</h3>\n<ul>\n<li><strong>IIM Indore and IIT Indore</strong> are among our regular institutional clients in central India</li>\n<li>Full range: crystal, metal, acrylic, wooden, fibre trophies, medals, shields, and plaques</li>\n<li>Starting from ₹150 per medal; crystal trophies from ₹500+</li>\n<li>In-house laser engraving — Hindi text and logo engraving supported</li>\n<li>GST invoices for industrial, corporate, and educational sector orders</li>\n</ul>\n<h3>Industries and institutions we serve in Indore</h3>\n<p><strong>IIM Indore</strong> orders convocation shields and academic excellence trophies annually. <strong>IIT Indore</strong> orders prizes for Fluxus (cultural fest) and Momentum (technical fest). The <strong>pharma sector</strong> — Cipla and Lupin manufacturing facilities near Indore — orders annual employee recognition awards. The <strong>textile and garment industry</strong> in the Sanwer Road industrial area orders bulk MSME recognition awards. Mhow Military Academy, a premier defence establishment near Indore, orders ceremonial passing-out parade awards and recognition plaques.</p>\n<h3>Popular occasions for trophy ordering in Indore</h3>\n<ul>\n<li>IIM Indore and IIT Indore convocations and academic prize days</li>\n<li>Pharma sector annual employee recognition events</li>\n<li>School and college annual days across Vijay Nagar and Palasia</li>\n<li>DAVV University and Symbiosis Indore prize distributions</li>\n<li>Indore Marathon and Narmada Cyclathon participation awards</li>\n<li>Textile and garment sector industrial felicitations</li>\n</ul>\n<p>Order custom trophies for Indore delivery — WhatsApp <strong>+91 94801 50888</strong> or call <strong>+91 78922 07252</strong>.</p>",
+        "latitude": "22.7196",
+        "longitude": "75.8577"
+      }
+    }
+  },
+  "order": [
+    "city-landing"
+  ]
+}

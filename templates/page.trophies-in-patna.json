@@ -1,0 +1,30 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "city-landing": {
+      "type": "city-landing",
+      "settings": {
+        "city_name": "Patna",
+        "city_name_local": "Patna",
+        "city_state": "Bihar",
+        "delivery_areas": "Boring Road, Kankarbagh, Anisabad, Danapur, Rajendra Nagar, Exhibition Road, Fraser Road, Patna Sahib, Kurji, Gandhi Maidan, Bailey Road, Patliputra Colony, Ashiyana Nagar",
+        "hero_heading": "Trophy Shop in Patna — Custom Trophies & Awards | Meru Trophy",
+        "hero_subheading": "Patna's trophy supplier for government, education, and institutional events. Custom crystal, metal, and acrylic trophies with Hindi engraving. Delivered to Patna in 5–7 business days with GST invoices.",
+        "local_seo_paragraph": "<h2>Custom Trophies Delivered to Patna, Bihar</h2>\n<p>Meru Trophy manufactures and delivers custom trophies, medals, shields, plaques, and corporate gifts to <strong>Patna</strong> — Bihar's state capital and one of the world's oldest continuously inhabited cities. As a government, education, and coaching-institute hub, Patna has significant demand for institutional awards. Orders reach Boring Road, Kankarbagh, Rajendra Nagar, and Bailey Road within <strong>5–7 business days</strong> from our Bangalore facility.</p>\n<h3>Why Patna institutions choose Meru Trophy</h3>\n<ul>\n<li>Experienced with <strong>Bihar government and public sector procurement</strong> — GST invoices, purchase orders, and tender documentation</li>\n<li>Full range: crystal, metal, acrylic, wooden mementos, medals, shields, and plaques</li>\n<li>Starting from ₹150 per medal; crystal and metal trophies from ₹500+</li>\n<li>In-house laser engraving — Hindi text and logo engraving supported</li>\n<li>Coaching institute volume orders with student name personalisation</li>\n</ul>\n<h3>Industries and institutions we serve in Patna</h3>\n<p>The <strong>Bihar government secretariat and state departments</strong> order institutional shields, citation plaques, and award trophies for Bihar state award programs and Bihari Diwas celebrations. <strong>IIT Patna and NIT Patna</strong> are academic clients for convocation shields and technical fest prizes. The <strong>civil services coaching ecosystem</strong> (Super 30, PT's IAS, Khan GS Institute, and numerous local institutes near Gandhi Maidan) order felicitation trophies and merit awards for UPSC/BPSC toppers. <strong>AIIMS Patna and Patna Medical College</strong> order medical excellence recognition trophies.</p>\n<h3>Popular occasions for trophy ordering in Patna</h3>\n<ul>\n<li>Bihar government department annual award functions</li>\n<li>IIT Patna and NIT Patna convocations and prize days</li>\n<li>Coaching institute merit and felicitation awards (IIT-JEE, NEET, UPSC toppers)</li>\n<li>Chhath Puja community cultural event awards</li>\n<li>AIIMS Patna and medical college prize distributions</li>\n<li>School sports days and annual days across Patna</li>\n</ul>\n<p>Order custom trophies for Patna delivery — WhatsApp <strong>+91 94801 50888</strong> or call <strong>+91 78922 07252</strong>. Government department orders with procurement documentation can be coordinated with our admin team.</p>",
+        "latitude": "25.5941",
+        "longitude": "85.1376"
+      }
+    }
+  },
+  "order": [
+    "city-landing"
+  ]
+}

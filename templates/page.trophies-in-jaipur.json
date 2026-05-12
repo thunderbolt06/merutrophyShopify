@@ -1,0 +1,30 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "city-landing": {
+      "type": "city-landing",
+      "settings": {
+        "city_name": "Jaipur",
+        "city_name_local": "Jaipur",
+        "city_state": "Rajasthan",
+        "delivery_areas": "MI Road, Malviya Nagar, Vaishali Nagar, Mansarovar, Bani Park, C-Scheme, Sitapura Industrial Area, Sanganer, Nirman Nagar, Raja Park, Tilak Nagar, Ajmer Road, Jagatpura",
+        "hero_heading": "Trophy Shop in Jaipur — Custom Trophies & Awards | Meru Trophy",
+        "hero_subheading": "Jaipur's trophy and award supplier for jewellery, education, IT, and sports sectors. Crystal, metal, and acrylic trophies with laser engraving. Delivered across Jaipur in 5–6 business days.",
+        "local_seo_paragraph": "<h2>Custom Trophies Delivered to Jaipur, Rajasthan</h2>\n<p>Meru Trophy manufactures and delivers custom trophies, medals, shields, plaques, and corporate gifts to <strong>Jaipur</strong> — the Pink City and Rajasthan's capital. Known for its jewellery and gemstone industry, prestigious educational institutions, and a growing IT sector, Jaipur has a strong demand for premium crystal and metal awards. Orders reach MI Road, Malviya Nagar, C-Scheme, and Sitapura within <strong>5–6 business days</strong> from our Bangalore facility.</p>\n<h3>Why Jaipur customers choose Meru Trophy</h3>\n<ul>\n<li><strong>Gemstone sector awards</strong> — crystal trophies in sync with Jaipur's jewellery heritage</li>\n<li>Full range: crystal, metal, acrylic, wooden, fibre trophies, medals, shields, and plaques</li>\n<li>Starting from ₹150 per medal; crystal trophies from ₹500+</li>\n<li>In-house laser engraving — Hindi text and logo engraving supported</li>\n<li>GST invoices for B2B and institutional orders</li>\n</ul>\n<h3>Industries and institutions we serve in Jaipur</h3>\n<p>Jaipur's <strong>gemstone and jewellery industry</strong> — one of the world's largest — orders premium crystal and glass trophies for annual trade felicitations and export excellence awards. The <strong>IT and tech sector</strong> (Infosys Jaipur campus on Ajmer Road, HCL, and numerous startups in Sitapura) orders annual-day recognition trophies. <strong>BITS Pilani Jaipur campus and Manipal University Jaipur</strong> are key institutional clients. Jaipur's vibrant <strong>coaching institute ecosystem</strong> (Allen, Resonance, Bansal Classes) orders recognition trophies for student achievers.</p>\n<h3>Popular occasions for trophy ordering in Jaipur</h3>\n<ul>\n<li>Gem &amp; Jewellery Skill Council annual felicitations</li>\n<li>BITS Pilani Jaipur campus fests — APOGEE and OASIS</li>\n<li>Pink City Marathon and Jaipur Literature Festival prizes</li>\n<li>Rajasthan Royals IPL team awards and fan events</li>\n<li>IT company annual days on Ajmer Road and Sitapura</li>\n<li>School and college sports days across Vaishali Nagar and Mansarovar</li>\n</ul>\n<p>Order custom trophies for Jaipur delivery — WhatsApp <strong>+91 94801 50888</strong> or call <strong>+91 78922 07252</strong>. IPL season and Pink City Marathon orders should be placed 2 weeks in advance.</p>",
+        "latitude": "26.9124",
+        "longitude": "75.7873"
+      }
+    }
+  },
+  "order": [
+    "city-landing"
+  ]
+}

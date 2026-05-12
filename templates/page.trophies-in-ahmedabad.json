@@ -1,0 +1,30 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "city-landing": {
+      "type": "city-landing",
+      "settings": {
+        "city_name": "Ahmedabad",
+        "city_name_local": "Ahmedabad",
+        "city_state": "Gujarat",
+        "delivery_areas": "SG Highway, Prahlad Nagar, Bodakdev, Ashram Road, Navrangpura, Maninagar, Vastrapur, Satellite, Chandkheda, Gota, Bopal, Thaltej, Shela, Sola, Science City Road",
+        "hero_heading": "Trophy Shop in Ahmedabad — Custom Trophies & Awards | Meru Trophy",
+        "hero_subheading": "Ahmedabad pharma, textile, and education sector trophy supplier. Custom crystal, metal, acrylic, and wooden awards with engraving. Delivered across Ahmedabad — SG Highway, Navrangpura, and Bopal — in 3–4 business days.",
+        "local_seo_paragraph": "<h2>Custom Trophies Delivered to Ahmedabad, Gujarat</h2>\n<p>Meru Trophy manufactures and delivers premium custom trophies, medals, corporate gifts, and plaques to <strong>Ahmedabad</strong> — Gujarat's largest city and commercial capital. As one of the fastest-growing trophy markets in western India, Ahmedabad has become a key delivery destination for us, with orders typically reaching SG Highway, Navrangpura, Bodakdev, and Satellite within <strong>3–4 business days</strong> from our Bangalore facility.</p>\n<h3>Why Ahmedabad businesses choose Meru Trophy</h3>\n<ul>\n<li>Crystal trophies preferred by <strong>pharma giants</strong> like Zydus Cadila, Torrent Pharma, and Cadila Healthcare for corporate recognition</li>\n<li>Full range: crystal, metal, acrylic, wooden, fibre trophies, medals, shields, and plaques</li>\n<li>Starting from ₹150 per medal; crystal trophies from ₹500+</li>\n<li>In-house laser engraving — Gujarati and Hindi text supported</li>\n<li>GST invoices and bulk pricing for corporate and trade sector orders</li>\n</ul>\n<h3>Industries and institutions we serve in Ahmedabad</h3>\n<p>The <strong>pharmaceutical sector</strong> — Zydus Cadila, Torrent Pharma, Cadila Healthcare, and Sun Pharma — orders crystal and metal awards for annual employee recognition events and sales excellence programs. The <strong>Adani Group headquarters</strong> at Shantigram and corporate offices in Bodakdev order premium custom awards for leadership recognition. <strong>IIM Ahmedabad and NID Ahmedabad</strong> are prestigious institutional clients for convocation and academic excellence trophies. The city's vibrant <strong>diamond and textile trade</strong> sector orders volume awards for annual felicitations.</p>\n<h3>Popular occasions for trophy ordering in Ahmedabad</h3>\n<ul>\n<li>Vibrant Gujarat Summit awards and trade body felicitations</li>\n<li>IIM Ahmedabad and CEPT University convocations</li>\n<li>Pharma sector annual employee recognition events</li>\n<li>Gujarat Titans IPL and Navratri cultural competition prizes</li>\n<li>Gujarat Chamber of Commerce industry award events</li>\n<li>School and college annual days across Navrangpura, Bopal, and Satellite</li>\n</ul>\n<p>Order custom trophies for Ahmedabad delivery — WhatsApp <strong>+91 94801 50888</strong> or call <strong>+91 78922 07252</strong>. Navratri and Gujarat-specific festival bulk orders should be placed 10+ days in advance.</p>",
+        "latitude": "23.0225",
+        "longitude": "72.5714"
+      }
+    }
+  },
+  "order": [
+    "city-landing"
+  ]
+}

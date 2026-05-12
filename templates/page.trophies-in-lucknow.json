@@ -1,0 +1,30 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "city-landing": {
+      "type": "city-landing",
+      "settings": {
+        "city_name": "Lucknow",
+        "city_name_local": "Lucknow",
+        "city_state": "Uttar Pradesh",
+        "delivery_areas": "Hazratganj, Gomti Nagar, Indira Nagar, Aliganj, Vibhuti Khand, Chinhat, Kanpur Road, Alambagh, Mahanagar, Nishatganj, Aashiana, Butler Palace, Sahara Ganj area",
+        "hero_heading": "Trophy Shop in Lucknow — Custom Trophies & Awards | Meru Trophy",
+        "hero_subheading": "Lucknow's trophy supplier for government departments, educational institutions, and corporate events. Custom crystal, metal, and acrylic awards with engraving. Delivered to all Lucknow areas in 5–6 business days.",
+        "local_seo_paragraph": "<h2>Custom Trophies Delivered to Lucknow, Uttar Pradesh</h2>\n<p>Meru Trophy manufactures and delivers custom trophies, medals, shields, plaques, and corporate gifts to <strong>Lucknow</strong> — the City of Nawabs and Uttar Pradesh's capital. With India's second-largest population state as its hinterland, Lucknow's demand for institutional and government trophies is substantial. Orders reach Hazratganj, Gomti Nagar, Indira Nagar, and Aliganj within <strong>5–6 business days</strong> from our Bangalore facility.</p>\n<h3>Why Lucknow institutions choose Meru Trophy</h3>\n<ul>\n<li>Experienced with <strong>government department procurement</strong> — GST invoices, purchase order support, tender documentation</li>\n<li>Full range: crystal, metal, acrylic, wooden mementos, medals, shields, and plaques</li>\n<li>Starting from ₹150 per medal; crystal and metal trophies from ₹500+</li>\n<li>In-house laser engraving — Hindi and Urdu script engraving supported</li>\n<li>Bulk order specialists — 100 to 5,000+ pieces for large institutional events</li>\n</ul>\n<h3>Industries and institutions we serve in Lucknow</h3>\n<p>The <strong>Uttar Pradesh government secretariat</strong> and various state departments order institutional plaques, shields, and citation trophies for government awards programs. <strong>IIM Lucknow</strong> (Noida campus) is a prestigious client for convocation and academic achievement awards. Medical institutions — <strong>KGMU, SGPGI, and ERA Medical College</strong> — order awards for annual prize days and excellence recognition. The <strong>civil services coaching ecosystem</strong> (Vision IAS, Drishti IAS, and local institutes in Hazratganj) order recognition trophies for student toppers.</p>\n<h3>Popular occasions for trophy ordering in Lucknow</h3>\n<ul>\n<li>UP government department annual award functions</li>\n<li>IIM Lucknow convocation and academic excellence awards</li>\n<li>KGMU and SGPGI medical college prize days</li>\n<li>Civil services coaching centre student felicitations</li>\n<li>Lucknow Super Giants IPL team events</li>\n<li>School and college annual days across Gomti Nagar and Indira Nagar</li>\n</ul>\n<p>Order custom trophies for Lucknow delivery — WhatsApp <strong>+91 94801 50888</strong> or call <strong>+91 78922 07252</strong>. Government department orders with tender documentation can be discussed with our admin team.</p>",
+        "latitude": "26.8467",
+        "longitude": "80.9462"
+      }
+    }
+  },
+  "order": [
+    "city-landing"
+  ]
+}

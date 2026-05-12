@@ -1,0 +1,30 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "city-landing": {
+      "type": "city-landing",
+      "settings": {
+        "city_name": "Coimbatore",
+        "city_name_local": "Coimbatore",
+        "city_state": "Tamil Nadu",
+        "delivery_areas": "RS Puram, Peelamedu, Saibaba Colony, Gandhipuram, Singanallur, Hopes College Road, Kuniyamuthur, Race Course, Ramanathapuram, Ganapathy, Thudiyalur, Vadavalli, Ukkadam",
+        "hero_heading": "Trophy Shop in Coimbatore — Custom Trophies & Awards | Meru Trophy",
+        "hero_subheading": "Coimbatore's trophy supplier for textile, engineering, and education sectors. Crystal, metal, acrylic, and wooden trophies with laser engraving. Delivered to Coimbatore and surrounding areas in 4–5 business days.",
+        "local_seo_paragraph": "<h2>Custom Trophies Delivered to Coimbatore, Tamil Nadu</h2>\n<p>Meru Trophy manufactures and delivers custom trophies, medals, shields, plaques, and corporate gifts to <strong>Coimbatore</strong> — Tamil Nadu's second-largest city and the \"Manchester of South India.\" Renowned for its textile spinning mills, precision engineering, and pump manufacturing, Coimbatore has a vibrant industrial sector that regularly orders bulk awards for trade meets and annual functions. Orders reach RS Puram, Peelamedu, and Gandhipuram within <strong>4–5 business days</strong> from our Bangalore facility.</p>\n<h3>Why Coimbatore industries choose Meru Trophy</h3>\n<ul>\n<li>Bulk trophy specialist for <strong>textile and engineering sector</strong> annual meets and trade felicitations</li>\n<li>Full range: crystal, metal, acrylic, wooden, fibre trophies, medals, shields, and plaques</li>\n<li>Starting from ₹150 per medal; crystal trophies from ₹500+</li>\n<li>In-house laser engraving — Tamil text and brand logo engraving supported</li>\n<li>GST invoices with HSN coding for MSME and industrial sector procurement</li>\n</ul>\n<h3>Industries and institutions we serve in Coimbatore</h3>\n<p>Coimbatore's <strong>spinning mills and weaving factories</strong> — concentrated in Peelamedu and Singanallur — order bulk recognition trophies and plaques for annual industry meets organised by CODISSIA and CII Tamil Nadu. The <strong>precision engineering and pump industry</strong> (Coimbatore is the world's second-largest pump manufacturer cluster) orders safety and excellence awards. <strong>PSG College of Technology and Amrita Vishwa Vidyapeetham</strong> are major academic clients for convocation shields and sports day medals. Nearby auto components factories on the Avinashi Road corridor also order bulk corporate awards.</p>\n<h3>Popular occasions for trophy ordering in Coimbatore</h3>\n<ul>\n<li>CODISSIA Trade Fair and industrial sector felicitations</li>\n<li>PSG College of Technology and Amrita Institute annual days</li>\n<li>Coimbatore Medical College and Government Arts College prize days</li>\n<li>Textile and garment export sector annual meets</li>\n<li>School and college sports days across RS Puram, Gandhipuram, and Race Course</li>\n<li>CII Tamil Nadu chapter industry award events</li>\n</ul>\n<p>Order custom trophies for Coimbatore delivery — WhatsApp <strong>+91 94801 50888</strong> or call <strong>+91 78922 07252</strong>.</p>",
+        "latitude": "11.0168",
+        "longitude": "76.9558"
+      }
+    }
+  },
+  "order": [
+    "city-landing"
+  ]
+}

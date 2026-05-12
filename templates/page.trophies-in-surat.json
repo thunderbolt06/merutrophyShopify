@@ -1,0 +1,30 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "city-landing": {
+      "type": "city-landing",
+      "settings": {
+        "city_name": "Surat",
+        "city_name_local": "Surat",
+        "city_state": "Gujarat",
+        "delivery_areas": "Adajan, Vesu, Athwa, Udhna, Katargam, Rander, Piplod, Dumas, Pal, Varachha, Sarthana, Amroli, Althan, Citylight, Puna Kumbharia",
+        "hero_heading": "Trophy Shop in Surat — Custom Trophies & Awards | Meru Trophy",
+        "hero_subheading": "Surat's trophy and award supplier for diamond, textile, and trade industries. Custom crystal, metal, and acrylic trophies with engraving. Delivered across Surat in 3–5 business days with GST invoices.",
+        "local_seo_paragraph": "<h2>Custom Trophies Delivered to Surat, Gujarat</h2>\n<p>Meru Trophy manufactures and delivers custom trophies, medals, corporate gifts, and shields to <strong>Surat</strong> — Gujarat's second-largest city and the world's diamond processing capital. With the <strong>Surat Diamond Bourse</strong> now operational and the city's booming textile trade, demand for premium crystal and metal awards for industry felicitations has grown significantly. Orders reach Adajan, Vesu, Katargam, and Varachha within <strong>3–5 business days</strong> from our Bangalore facility.</p>\n<h3>Why Surat trade and industry chooses Meru Trophy</h3>\n<ul>\n<li><strong>Crystal trophies</strong> — the preferred choice for Surat diamond and jewellery industry felicitations</li>\n<li>Full range: crystal, metal, acrylic, wooden mementos, medals, shields, and plaques</li>\n<li>Starting from ₹150 per medal; premium crystal trophies from ₹500 to ₹5,000+</li>\n<li>In-house laser engraving — Gujarati text and brand logo engraving supported</li>\n<li>GST invoices with HSN codes for all B2B trade and manufacturing sector orders</li>\n</ul>\n<h3>Industries and institutions we serve in Surat</h3>\n<p>The <strong>diamond cutting and polishing industry</strong> — which processes over 90% of the world's cut diamonds — is Surat's signature sector. Diamond bourse members, diamond manufacturers, and gem traders order crystal and glass trophies for annual trade recognition events at the <strong>Surat Diamond Bourse, Mahidharpura, and Varachha</strong> diamond markets. The <strong>synthetic textile and fabric trade</strong> — centred around Ring Road and Udhna — orders volume awards for annual meets. <strong>SVNIT (NIT Surat) and South Gujarat University</strong> order institutional trophies for academic and sports events.</p>\n<h3>Popular occasions for trophy ordering in Surat</h3>\n<ul>\n<li>Diamond industry annual felicitations and trade award nights</li>\n<li>Textile and fabric export sector MSME award events</li>\n<li>Diwali corporate gifting season (October-November)</li>\n<li>SVNIT (NIT Surat) college fest and sports day awards</li>\n<li>Surat International Marathon and cricket tournament prizes</li>\n<li>School sports days across Adajan, Vesu, and Citylight</li>\n</ul>\n<p>Order custom trophies for Surat delivery — WhatsApp <strong>+91 94801 50888</strong> or call <strong>+91 78922 07252</strong>. Diwali bulk orders should be placed 3 weeks in advance for guaranteed delivery.</p>",
+        "latitude": "21.1702",
+        "longitude": "72.8311"
+      }
+    }
+  },
+  "order": [
+    "city-landing"
+  ]
+}

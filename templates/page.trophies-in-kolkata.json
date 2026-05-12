@@ -1,0 +1,30 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "city-landing": {
+      "type": "city-landing",
+      "settings": {
+        "city_name": "Kolkata",
+        "city_name_local": "Kolkata",
+        "city_state": "West Bengal",
+        "delivery_areas": "Salt Lake Sector V, New Town, Rajarhat, Park Street, Ballygunge, Alipore, Howrah, Durgapur, Asansol, Behala, Jadavpur, Tollygunge, Dum Dum, Baguiati, Barasat",
+        "hero_heading": "Trophy Shop in Kolkata — Custom Trophies & Awards | Meru Trophy",
+        "hero_subheading": "Kolkata's trusted trophy supplier for FMCG corporations, PSUs, educational institutions, and cricket events. Crystal, metal, and acrylic awards with laser engraving. Pan Bengal delivery in 5–6 business days.",
+        "local_seo_paragraph": "<h2>Custom Trophies Delivered to Kolkata, West Bengal</h2>\n<p>Meru Trophy is a leading manufacturer of custom trophies, medals, shields, plaques, and corporate gifts, delivering to <strong>Kolkata</strong> — the cultural capital of India and home to major corporates, public sector enterprises, and premier educational institutions. Orders placed from Kolkata and surrounding West Bengal districts arrive within <strong>5–6 business days</strong> from our Bangalore manufacturing facility.</p>\n<h3>Why Kolkata customers choose Meru Trophy</h3>\n<ul>\n<li>Serving <strong>ITC Limited HQ, Coal India, and ONGC</strong> Kolkata office orders regularly</li>\n<li>Full range: crystal trophies, metal awards, wooden mementos, medals, shields, acrylic plaques</li>\n<li>Prices starting from ₹150 for medals; crystal trophies from ₹500 to ₹5,000+</li>\n<li>Laser engraving and UV printing on all materials — Bengali text supported</li>\n<li>Bulk corporate and institutional pricing for 50+ pieces</li>\n</ul>\n<h3>Industries and institutions we serve in Kolkata</h3>\n<p>Kolkata's <strong>FMCG giant ITC Limited</strong> (headquartered at Virginia House) is one of the city's largest corporate award buyers. The <strong>public sector</strong> — Coal India HQ, ONGC Eastern Region, SAIL offices, and various Central Government PSUs — regularly orders institutional plaques and employee recognition trophies. <strong>Salt Lake Sector V</strong> IT companies (TCS, Infosys, Wipro, IBM) order annual-day trophies. Premier academic institutions — <strong>IIM Calcutta, Jadavpur University, IIT Kharagpur</strong> — are key clients for convocation shields and academic awards.</p>\n<h3>Popular occasions for trophy ordering in Kolkata</h3>\n<ul>\n<li>Durga Puja corporate gifting season (September-October)</li>\n<li>IIM Calcutta convocations and prize distributions</li>\n<li>Coal India and SAIL annual employee felicitations</li>\n<li>Eden Gardens cricket event awards and Kolkata Knight Riders IPL recognition</li>\n<li>IIEST Shibpur and Jadavpur University college fests</li>\n<li>School annual days and sports days across South Kolkata, Ballygunge, and New Town</li>\n</ul>\n<p>Order custom trophies for Kolkata delivery — WhatsApp <strong>+91 94801 50888</strong> or call <strong>+91 78922 07252</strong>. Durga Puja season bulk orders should be placed at least 3 weeks in advance.</p>",
+        "latitude": "22.5726",
+        "longitude": "88.3639"
+      }
+    }
+  },
+  "order": [
+    "city-landing"
+  ]
+}

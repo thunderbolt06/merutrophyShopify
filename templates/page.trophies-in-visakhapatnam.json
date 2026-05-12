@@ -1,0 +1,30 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "city-landing": {
+      "type": "city-landing",
+      "settings": {
+        "city_name": "Visakhapatnam",
+        "city_name_local": "Visakhapatnam",
+        "city_state": "Andhra Pradesh",
+        "delivery_areas": "MVP Colony, Madhurawada, Steel Plant Area, Gajuwaka, Siripuram, Dwaraka Nagar, Bheemunipatnam, Rushikonda, Seethammadhara, Akkayyapalem, Waltair, Kommadi, Pendurthi",
+        "hero_heading": "Trophy Shop in Visakhapatnam — Custom Trophies & Awards | Meru Trophy",
+        "hero_subheading": "Visakhapatnam's trophy supplier for steel, naval, pharma, and education sectors. Custom crystal, metal, acrylic, and wooden awards with engraving. Delivered to Vizag in 5–6 business days.",
+        "local_seo_paragraph": "<h2>Custom Trophies Delivered to Visakhapatnam (Vizag), Andhra Pradesh</h2>\n<p>Meru Trophy manufactures and delivers custom trophies, medals, shields, plaques, and corporate gifts to <strong>Visakhapatnam (Vizag)</strong> — Andhra Pradesh's largest city and a hub for steel, petroleum, naval, and pharmaceutical industries. Orders reach MVP Colony, Madhurawada, Steel Plant Area, and Siripuram within <strong>5–6 business days</strong> from our Bangalore manufacturing facility.</p>\n<h3>Why Vizag industries choose Meru Trophy</h3>\n<ul>\n<li>Serving <strong>RINL Vizag Steel, HPCL, Eastern Naval Command</strong> orders regularly</li>\n<li>Full range: crystal, metal, acrylic, wooden mementos, medals, shields, and plaques</li>\n<li>Starting from ₹150 per medal; crystal and metal trophies from ₹500+</li>\n<li>In-house laser engraving — Telugu text and logo engraving supported</li>\n<li>GST invoices, HSN coding, and institutional procurement documentation available</li>\n</ul>\n<h3>Industries and institutions we serve in Visakhapatnam</h3>\n<p><strong>RINL (Rashtriya Ispat Nigam Limited) Vizag Steel Plant</strong> is one of our key institutional clients, ordering employee recognition, safety, and long-service awards for a workforce of 17,000+. The <strong>Eastern Naval Command</strong> at INS Dolphin and INS Circars orders ceremonial passing-out parade trophies and Navy Day recognition awards. <strong>HPCL Visakhapatnam Refinery</strong> and BPCL order corporate safety and performance trophies. <strong>GITAM University and AU College of Engineering</strong> are key academic clients for convocation and sports awards.</p>\n<h3>Popular occasions for trophy ordering in Vizag</h3>\n<ul>\n<li>RINL Vizag Steel annual employee recognition events</li>\n<li>Eastern Naval Command Navy Day and ceremonial awards</li>\n<li>GITAM University and AU Engineering convocations</li>\n<li>Vizag Half Marathon participation and prize trophies</li>\n<li>HPCL and BPCL refinery safety award ceremonies</li>\n<li>School and college sports days across MVP Colony and Madhurawada</li>\n</ul>\n<p>Order custom trophies for Visakhapatnam delivery — WhatsApp <strong>+91 94801 50888</strong> or call <strong>+91 78922 07252</strong>.</p>",
+        "latitude": "17.6868",
+        "longitude": "83.2185"
+      }
+    }
+  },
+  "order": [
+    "city-landing"
+  ]
+}
