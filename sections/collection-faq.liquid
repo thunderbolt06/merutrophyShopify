@@ -1,0 +1,365 @@
+{%- liquid
+  assign collection_handle = collection.handle | downcase
+
+  if collection_handle == 'crystal-trophies'
+    assign faq_set = 'crystal'
+  elsif collection_handle == 'medals' or collection_handle == 'medals-and-medallions'
+    assign faq_set = 'medals'
+  elsif collection_handle == 'corporate-gifts' or collection_handle == 'corporate-and-college-premium-trophies'
+    assign faq_set = 'corporate'
+  elsif collection_handle == 'acrylic-trophies'
+    assign faq_set = 'acrylic'
+  else
+    assign faq_set = 'default'
+  endif
+-%}
+
+{%- comment -%} ── CRYSTAL TROPHIES FAQs ── {%- endcomment -%}
+{%- if faq_set == 'crystal' -%}
+  {%- assign faq_q1 = 'What type of crystal is used in Meru Trophy crystal trophies?' -%}
+  {%- assign faq_a1 = 'Meru Trophy uses premium K9 optical crystal — the same grade used in high-end awards worldwide. K9 crystal offers exceptional clarity, a brilliant glass-like finish, and superior resistance to yellowing over time. Each piece is precision-cut and polished, making it ideal for lifetime achievement awards, corporate recognition, and commemorative gifts.' -%}
+
+  {%- assign faq_q2 = 'How is the name or logo engraved on crystal trophies?' -%}
+  {%- assign faq_a2 = 'We use deep-subsurface laser engraving technology that etches text and logos directly inside the crystal block without touching the surface. This results in a 3D frosted effect that is permanent, scratch-proof, and highly legible. You can engrave recipient names, company logos, award titles, event dates, or custom messages. Vector artwork (AI, EPS, SVG) gives the sharpest results, but we also work with high-resolution PNG or JPEG files.' -%}
+
+  {%- assign faq_q3 = 'What is the price range for crystal trophies at Meru Trophy?' -%}
+  {%- assign faq_a3 = 'Crystal trophy prices at Meru Trophy start from approximately ₹500 for small desk-size pieces and go up to ₹5,000 or more for large premium awards with LED bases or complex engravings. Most popular corporate recognition awards fall in the ₹800–₹2,500 range. Bulk orders of 25 pieces or more receive a discounted rate — contact us at +91 7892207252 for a custom quote.' -%}
+
+  {%- assign faq_q4 = 'Are crystal trophies suitable for corporate annual-day awards?' -%}
+  {%- assign faq_a4 = 'Yes. Crystal trophies are one of the most preferred choices for corporate annual-day events, employee-of-the-year awards, long-service recognitions, and sales-performance rewards. Their premium look conveys prestige and value. Meru Trophy offers branded packaging, company-logo engraving, and bulk pricing, making them a turnkey solution for HR and admin teams in Bangalore and across India.' -%}
+
+  {%- assign faq_q5 = 'Can I order crystal trophies for a wedding or retirement gift?' -%}
+  {%- assign faq_a5 = 'Absolutely. Crystal trophies and mementos make elegant, personalised wedding gifts, retirement keepsakes, and anniversary presents. We can engrave couple names, wedding dates, heartfelt messages, or even a miniature portrait etched inside the crystal. Custom shapes — hearts, ovals, rounds — are available in addition to our standard award designs.' -%}
+
+  {%- assign faq_q6 = 'What is the minimum order quantity (MOQ) for crystal trophies?' -%}
+  {%- assign faq_a6 = 'There is no minimum order quantity for crystal trophies at Meru Trophy — you can order even a single piece. However, bulk discounts kick in at 10 pieces and increase further at 25, 50, and 100 pieces. For large corporate orders (100+), we provide dedicated account management and can meet tight event deadlines with priority production.' -%}
+
+  {%- assign faq_q7 = 'How long does it take to deliver customised crystal trophies?' -%}
+  {%- assign faq_a7 = 'Standard production and delivery for customised crystal trophies is 5–7 business days within Bangalore and 7–10 business days for pan-India delivery. Rush orders can be accommodated in 2–3 business days for an express fee. We ship across all Indian states via trusted courier partners with tracking. WhatsApp us at https://wa.me/+919480150888 to confirm timelines for your event date.' -%}
+
+  {%- assign faq_q8 = 'Do crystal trophies come with a base or stand?' -%}
+  {%- assign faq_a8 = 'Yes. Most Meru Trophy crystal awards come with a complementary wooden or acrylic base. Optional LED illuminated bases are available for select designs, creating a striking display effect for boardrooms and reception desks. The base can also be engraved or branded with your company name.' -%}
+
+{%- endif -%}
+
+{%- comment -%} ── MEDALS FAQs ── {%- endcomment -%}
+{%- if faq_set == 'medals' -%}
+  {%- assign faq_q1 = 'What materials are Meru Trophy custom medals made from?' -%}
+  {%- assign faq_a1 = 'Meru Trophy manufactures medals in three primary materials: zinc alloy (die-cast, lightweight, ideal for high-volume school and sports events), iron (heavier, more substantial feel preferred for marathon and athletics events), and brass (premium finish, suited for national-level or prestige competitions). Each material can be plated in gold, silver, or bronze and given a polished, antique, or matte finish.' -%}
+
+  {%- assign faq_q2 = 'Can I get custom ribbon colours on medals?' -%}
+  {%- assign faq_a2 = 'Yes. We offer fully customisable ribbon colours to match your school, college, club, or event brand identity. Choose from a wide palette of single-colour, striped, or tri-colour ribbons. Custom ribbon printing with event name or logo is available for orders above 50 pieces. Standard ribbon width is 20 mm; wider 25 mm or 32 mm ribbons are available on request.' -%}
+
+  {%- assign faq_q3 = 'What is the price range for custom medals at Meru Trophy?' -%}
+  {%- assign faq_a3 = 'Medal prices start from as low as ₹150 per piece for zinc-alloy stock designs with standard ribbon, making them budget-friendly for school sports days and college fests. Custom die-cast brass medals with detailed artwork and premium ribbon range from ₹350–₹800 per piece. Prices decrease significantly with volume; we provide itemised quotes for orders of 50, 100, 250, and 500 pieces.' -%}
+
+  {%- assign faq_q4 = 'How are logos or event names added to medals?' -%}
+  {%- assign faq_a4 = 'We use die-casting and stamping to create raised or recessed logos and text directly in the medal mould for large runs, ensuring crisp, durable detail. For smaller quantities or one-off customisation, laser engraving and UV printing on the medal surface are used. Both methods produce professional results. Please share artwork in vector format (AI, EPS, PDF) for best reproduction quality.' -%}
+
+  {%- assign faq_q5 = 'What is the minimum order quantity (MOQ) for custom medals?' -%}
+  {%- assign faq_a5 = 'For stock-design medals with standard engraving, the MOQ is just 10 pieces. For fully custom die-cast medals with a unique mould, the MOQ is typically 100 pieces, as a new die is created for your specific design. We can advise on the best cost-effective option based on your quantity and budget — call us on +91 7892207252.' -%}
+
+  {%- assign faq_q6 = 'Are Meru Trophy medals suitable for school prize-day and sports events?' -%}
+  {%- assign faq_a6 = 'Yes, medals are one of our most popular products for schools, colleges, and sports academies across India. We regularly supply medals for annual sports days, inter-school tournaments, district athletics meets, and university cultural fests. We understand the time pressure around event schedules and offer reliable bulk production with fast turnaround — typically 5–8 business days for orders up to 200 pieces.' -%}
+
+  {%- assign faq_q7 = 'What sizes do custom medals come in?' -%}
+  {%- assign faq_a7 = 'Standard medal diameters are 50 mm, 65 mm, and 75 mm. Custom sizes from 40 mm to 100 mm can be produced on request. Medal thickness is typically 3–5 mm for zinc alloy and 4–6 mm for brass. Larger, heavier medallion-style pieces (80 mm+) are popular for championship events and make a more impactful statement on the podium.' -%}
+
+  {%- assign faq_q8 = 'Can medals be delivered pan India for outstation events?' -%}
+  {%- assign faq_a8 = 'Yes. Meru Trophy ships medals to all Indian states and union territories. We are based in Bangalore, Karnataka, and dispatch via reputable courier partners with full tracking. For outstation events, we recommend placing orders at least 10–12 business days before the event date to allow for production and transit time. Express dispatch is available for urgent requirements.' -%}
+
+{%- endif -%}
+
+{%- comment -%} ── CORPORATE GIFTS FAQs ── {%- endcomment -%}
+{%- if faq_set == 'corporate' -%}
+  {%- assign faq_q1 = 'What types of corporate gifts and trophies does Meru Trophy offer?' -%}
+  {%- assign faq_a1 = 'Meru Trophy offers a comprehensive range of corporate gifting solutions including branded crystal trophies, acrylic awards, wooden mementos, desk plaques, customised pen-drive sets, leather diaries, engraved glassware, and employee recognition kits. For college and premium institutional events, we also supply convocation shields, academic excellence trophies, and chancellor awards. All items can be personalised with company logos, recipient names, and custom messages.' -%}
+
+  {%- assign faq_q2 = 'What is the price range for corporate gifts and employee awards?' -%}
+  {%- assign faq_a2 = 'Corporate gift prices at Meru Trophy range from ₹200 for simple branded merchandise items to ₹5,000+ for premium crystal or metal awards. A popular employee-of-the-month crystal plaque with logo engraving costs approximately ₹600–₹1,200. Bulk corporate gift sets for 50+ employees can be structured to fit budgets from ₹300 to ₹1,500 per piece. We provide itemised quotes for procurement teams and accept purchase orders from corporates.' -%}
+
+  {%- assign faq_q3 = 'Can Meru Trophy engrave company logos on corporate awards?' -%}
+  {%- assign faq_a3 = 'Yes. Logo engraving and branding is a core part of our corporate gifting service. We support laser engraving on crystal, acrylic, wood, and metal surfaces, as well as UV printing for full-colour logo reproduction on acrylic and glass items. Please share your logo in vector format (AI, EPS, SVG) or high-resolution PNG (minimum 300 DPI). Our in-house design team can also recreate logos from lower-resolution files at no extra charge for bulk orders.' -%}
+
+  {%- assign faq_q4 = 'What is the lead time for bulk corporate orders?' -%}
+  {%- assign faq_a4 = 'Standard lead time for bulk corporate orders (50–200 pieces) is 7–10 business days from artwork approval. For larger orders (200–500 pieces), allow 12–15 business days. If you are planning for an annual day, conference, or product launch event, we recommend engaging with us 3–4 weeks in advance for a smooth experience. Rush production within 3–5 business days is available for select product types.' -%}
+
+  {%- assign faq_q5 = 'Does Meru Trophy supply awards for conferences and product launch events?' -%}
+  {%- assign faq_a5 = 'Yes. We regularly supply speaker gifts, sponsor recognition awards, best-booth trophies, and delegate gift sets for corporate conferences, trade shows, and product launches. Our team can work from your event theme and brand guide to create cohesive, on-brand award designs. We provide branded packaging options including custom gift boxes and velvet pouches to elevate the unboxing experience.' -%}
+
+  {%- assign faq_q6 = 'Is there a minimum order quantity for corporate gifts?' -%}
+  {%- assign faq_a6 = 'Most corporate gift products have no strict MOQ — you can order as few as 1 piece for a special individual award. However, volume-based pricing becomes significant at 25 pieces, and further discounts are available at 50, 100, and 250 pieces. For new clients, we can also produce a paid sample before committing to a full production run, typically within 2–3 business days.' -%}
+
+  {%- assign faq_q7 = 'Does Meru Trophy offer pan-India delivery for corporate orders?' -%}
+  {%- assign faq_a7 = 'Yes. We deliver corporate orders to all major Indian cities and smaller towns via trusted courier partners including DTDC, Delhivery, and Blue Dart. Shipments include tracking numbers. For large Bangalore-based orders, we also offer in-person delivery and installation. Contact us at +91 7892207252 or WhatsApp https://wa.me/+919480150888 to discuss logistics for your specific requirement.' -%}
+
+  {%- assign faq_q8 = 'Can I get a custom design or unique trophy shape for a corporate award?' -%}
+  {%- assign faq_a8 = 'Absolutely. Custom trophy design is one of our specialties. We create bespoke award shapes — company logo as a trophy, industry-specific motifs (gears, buildings, computers, hands), and abstract artistic forms. Our design team will work with your brief and provide 2D design proofs before production. Custom moulds are available for orders above a certain quantity; we will advise based on your design and budget during consultation.' -%}
+
+{%- endif -%}
+
+{%- comment -%} ── ACRYLIC TROPHIES FAQs ── {%- endcomment -%}
+{%- if faq_set == 'acrylic' -%}
+  {%- assign faq_q1 = 'What makes acrylic trophies a good choice compared to glass or crystal awards?' -%}
+  {%- assign faq_a1 = 'Acrylic trophies offer a modern, sleek aesthetic at a more budget-friendly price point than crystal or glass awards. They are significantly lighter (important for shipping and travel), shatter-resistant, and available in a wide range of colours including transparent, frosted, coloured, and fluorescent. For companies and schools seeking a contemporary look without the crystal price tag, acrylic is the ideal material.' -%}
+
+  {%- assign faq_q2 = 'What printing and engraving methods are used on acrylic trophies?' -%}
+  {%- assign faq_a2 = 'Meru Trophy uses two main techniques on acrylic awards: UV flatbed printing, which reproduces full-colour logos, photographs, and artwork directly on the acrylic surface with vivid, permanent results; and laser engraving, which etches crisp text and line-art into the surface with a frosted appearance. Both methods can be combined on the same piece — for example, a colour-printed logo with engraved text below.' -%}
+
+  {%- assign faq_q3 = 'What colour options are available for acrylic trophies?' -%}
+  {%- assign faq_a3 = 'Our acrylic sheets come in over 20 standard colours including clear, white, black, red, blue, green, gold, silver, and fluorescent variants. Custom colour matching is possible for large orders. Acrylic thickness options are 5 mm, 8 mm, and 10 mm — thicker acrylic provides a more premium, weighty feel and is preferred for top-tier awards.' -%}
+
+  {%- assign faq_q4 = 'How much do acrylic trophies cost at Meru Trophy?' -%}
+  {%- assign faq_a4 = 'Acrylic trophy prices start from around ₹250 for simple laser-engraved desk awards and range up to ₹1,500 for large, multi-layer acrylic pieces with full-colour UV printing and a wooden base. The most popular corporate and sports acrylic awards fall in the ₹400–₹900 range. Volume discounts are available from 20 pieces onwards. Call us at +91 7892207252 for a tailored quote.' -%}
+
+  {%- assign faq_q5 = 'What is the minimum order quantity for acrylic trophies?' -%}
+  {%- assign faq_a5 = 'There is no minimum order quantity for standard acrylic trophy designs at Meru Trophy — a single piece is welcome. For custom-shaped acrylic awards requiring cutting from a new template, a small setup fee may apply for single orders but is waived for orders of 10 or more pieces. Bulk pricing starts at 20 pieces.' -%}
+
+  {%- assign faq_q6 = 'Are acrylic trophies durable? Will the printing fade over time?' -%}
+  {%- assign faq_a6 = 'UV printing on acrylic is highly durable under normal indoor conditions — the inks are cured at the molecular level and resist fading for years when kept out of prolonged direct sunlight. Laser engraving is permanent and cannot fade or peel. Acrylic itself does not rust or corrode, making it suitable for long-term display in offices, homes, and schools. We recommend occasional gentle cleaning with a soft damp cloth.' -%}
+
+  {%- assign faq_q7 = 'Can acrylic trophies be made in custom shapes?' -%}
+  {%- assign faq_a7 = 'Yes. One of the biggest advantages of acrylic is how easily it can be cut into any shape using laser cutting or CNC routing. We can create trophies shaped like your company logo, a map of India, a product silhouette, or any custom outline. Custom-shaped acrylic awards are very popular for brand-themed events, product launches, and creative industry awards. Share your design and we will provide a quote within 24 hours.' -%}
+
+  {%- assign faq_q8 = 'How long does delivery take for acrylic trophies?' -%}
+  {%- assign faq_a8 = 'Standard production and delivery for customised acrylic trophies is 4–6 business days within Bangalore and 6–9 business days for pan-India delivery. Because production is faster than crystal or metal awards, acrylic trophies are a great option when you have a tight timeline. Express orders can sometimes be turned around in 2 business days for simple designs. WhatsApp us at https://wa.me/+919480150888 to check availability.' -%}
+
+{%- endif -%}
+
+{%- comment -%} ── DEFAULT / GENERIC FAQs ── {%- endcomment -%}
+{%- if faq_set == 'default' -%}
+  {%- assign faq_q1 = 'What products does Meru Trophy manufacture and supply?' -%}
+  {%- assign faq_a1 = 'Meru Trophy is a Bangalore-based trophy and award manufacturer offering crystal trophies, acrylic trophies, metal and fibre sports trophies, wooden mementos, medals, medallions, shields, and corporate gifts. We cater to corporates, schools, colleges, sports organisations, and event companies. All products can be customised with your logo, name, and message, and we deliver pan India.' -%}
+
+  {%- assign faq_q2 = 'How can I place a custom trophy or award order with Meru Trophy?' -%}
+  {%- assign faq_a2 = 'You can place an order by calling us at +91 7892207252, messaging us on WhatsApp at https://wa.me/+919480150888, or using the contact form on our website. Share your requirements — product type, quantity, artwork (logo/text), event date, and delivery address — and our team will send you a quote within a few hours on business days.' -%}
+
+  {%- assign faq_q3 = 'What is the price range for trophies and awards at Meru Trophy?' -%}
+  {%- assign faq_a3 = 'Prices at Meru Trophy range from ₹150 for budget medals to ₹5,000+ for large premium crystal or metal trophies. Most popular awards for schools, colleges, and corporate events fall between ₹300 and ₹2,000 per piece. We offer volume discounts for bulk orders of 20 pieces or more and can tailor solutions to your budget.' -%}
+
+  {%- assign faq_q4 = 'Does Meru Trophy offer pan-India delivery?' -%}
+  {%- assign faq_a4 = 'Yes. We ship to all Indian states and union territories from our manufacturing base in Bangalore, Karnataka. We use reliable courier partners with full shipment tracking. Delivery typically takes 5–10 business days depending on destination and product type. For Bangalore-area orders, we can arrange direct pick-up or local delivery.' -%}
+
+  {%- assign faq_q5 = 'Can I order a single custom trophy, or is there a minimum order?' -%}
+  {%- assign faq_a5 = 'You can order as few as one piece for most products at Meru Trophy. There is no mandatory minimum order quantity for standard designs. Custom-mould products (e.g., fully unique die-cast medals) require a higher MOQ to recover tooling costs — we will advise during the consultation. Volume discounts begin at 10–20 pieces depending on the product.' -%}
+
+  {%- assign faq_q6 = 'How long does it take to produce and deliver a customised award?' -%}
+  {%- assign faq_a6 = 'Standard production takes 5–8 business days after artwork is approved, plus 2–4 business days for courier delivery outside Bangalore. We recommend placing orders at least 10–12 business days before your event. Express production is available for urgent requirements — contact us to check feasibility for your deadline.' -%}
+
+  {%- assign faq_q7 = 'What customisation options are available on trophies and awards?' -%}
+  {%- assign faq_a7 = 'We offer laser engraving (text and logos etched into crystal, acrylic, wood, and metal), UV printing (full-colour artwork on flat surfaces), deep-subsurface crystal engraving (3D logo inside crystal), and custom moulding for unique shapes. You can personalise awards with recipient names, company logos, award titles, event dates, motivational quotes, and even photographs.' -%}
+
+  {%- assign faq_q8 = 'Are Meru Trophy products suitable for both corporate and educational institutions?' -%}
+  {%- assign faq_a8 = 'Yes. Meru Trophy serves a wide range of clients including IT companies, banks, manufacturing firms, hospitals, schools, colleges, universities, sports clubs, and government organisations. We understand the different requirements — corporate events demand premium finish and branding, while schools and colleges need cost-effective solutions for large prize-giving ceremonies. Our product range and pricing caters to both.' -%}
+
+{%- endif -%}
+
+{%- comment -%} ── BUILD FAQ ARRAY ── {%- endcomment -%}
+{%- assign faq_questions = faq_q1 | append: '|||' | append: faq_q2 | append: '|||' | append: faq_q3 | append: '|||' | append: faq_q4 | append: '|||' | append: faq_q5 | append: '|||' | append: faq_q6 | append: '|||' | append: faq_q7 | append: '|||' | append: faq_q8 -%}
+{%- assign faq_answers   = faq_a1 | append: '|||' | append: faq_a2 | append: '|||' | append: faq_a3 | append: '|||' | append: faq_a4 | append: '|||' | append: faq_a5 | append: '|||' | append: faq_a6 | append: '|||' | append: faq_a7 | append: '|||' | append: faq_a8 -%}
+{%- assign faq_q_arr = faq_questions | split: '|||' -%}
+{%- assign faq_a_arr = faq_answers   | split: '|||' -%}
+
+{%- comment -%} ── HTML RENDER ── {%- endcomment -%}
+<section
+  class="collection-faq color-{{ section.settings.color_scheme }} gradient"
+  aria-label="Frequently Asked Questions"
+>
+  <div class="collection-faq__inner page-width">
+    <h2 class="collection-faq__heading">Frequently Asked Questions</h2>
+
+    <div class="collection-faq__list">
+      {%- for question in faq_q_arr -%}
+        {%- assign answer = faq_a_arr[forloop.index0] -%}
+        {%- if question != blank and answer != blank -%}
+          <details class="collection-faq__item">
+            <summary class="collection-faq__question">
+              <span>{{ question }}</span>
+              <svg
+                class="collection-faq__icon"
+                xmlns="http://www.w3.org/2000/svg"
+                width="20"
+                height="20"
+                viewBox="0 0 20 20"
+                fill="none"
+                aria-hidden="true"
+                focusable="false"
+              >
+                <path
+                  class="collection-faq__icon-plus"
+                  d="M10 4v12M4 10h12"
+                  stroke="currentColor"
+                  stroke-width="1.8"
+                  stroke-linecap="round"
+                />
+                <path
+                  class="collection-faq__icon-minus"
+                  d="M4 10h12"
+                  stroke="currentColor"
+                  stroke-width="1.8"
+                  stroke-linecap="round"
+                />
+              </svg>
+            </summary>
+            <div class="collection-faq__answer">
+              <p>{{ answer }}</p>
+            </div>
+          </details>
+        {%- endif -%}
+      {%- endfor -%}
+    </div>
+  </div>
+</section>
+
+{%- comment -%} ── FAQPage JSON-LD Schema ── {%- endcomment -%}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {%- for question in faq_q_arr -%}
+      {%- assign answer = faq_a_arr[forloop.index0] -%}
+      {%- if question != blank and answer != blank -%}
+        {%- unless forloop.first -%},{%- endunless -%}
+        {
+          "@type": "Question",
+          "name": {{ question | json }},
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": {{ answer | json }}
+          }
+        }
+      {%- endif -%}
+    {%- endfor -%}
+  ]
+}
+</script>
+
+{%- comment -%} ── STYLES ── {%- endcomment -%}
+<style>
+  .collection-faq {
+    padding: 4rem 0;
+  }
+
+  .collection-faq__inner {
+    max-width: 860px;
+    margin: 0 auto;
+  }
+
+  .collection-faq__heading {
+    font-size: clamp(1.5rem, 2.5vw, 2rem);
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 2.5rem;
+    color: inherit;
+  }
+
+  .collection-faq__list {
+    border-top: 1px solid rgba(var(--color-foreground), 0.15);
+  }
+
+  .collection-faq__item {
+    border-bottom: 1px solid rgba(var(--color-foreground), 0.15);
+  }
+
+  .collection-faq__question {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    padding: 1.25rem 0.5rem;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.5;
+    color: inherit;
+    list-style: none;
+    user-select: none;
+    -webkit-user-select: none;
+  }
+
+  .collection-faq__question::-webkit-details-marker {
+    display: none;
+  }
+
+  .collection-faq__question span {
+    flex: 1;
+  }
+
+  .collection-faq__icon {
+    flex-shrink: 0;
+    transition: transform 0.25s ease;
+    color: inherit;
+  }
+
+  .collection-faq__icon-minus {
+    display: none;
+  }
+
+  .collection-faq__item[open] .collection-faq__icon-plus {
+    display: none;
+  }
+
+  .collection-faq__item[open] .collection-faq__icon-minus {
+    display: block;
+  }
+
+  .collection-faq__item[open] .collection-faq__icon {
+    transform: rotate(0deg);
+  }
+
+  .collection-faq__answer {
+    padding: 0 0.5rem 1.5rem;
+    animation: faqFadeIn 0.2s ease forwards;
+  }
+
+  .collection-faq__answer p {
+    font-size: 0.9375rem;
+    line-height: 1.7;
+    color: inherit;
+    opacity: 0.85;
+    margin: 0;
+  }
+
+  @keyframes faqFadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(-4px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  @media screen and (max-width: 750px) {
+    .collection-faq {
+      padding: 3rem 0;
+    }
+
+    .collection-faq__question {
+      font-size: 0.9375rem;
+    }
+  }
+</style>
+
+{% schema %}
+{
+  "name": "Collection FAQ",
+  "tag": "section",
+  "class": "section",
+  "settings": [
+    {
+      "type": "color_scheme",
+      "id": "color_scheme",
+      "label": "t:sections.all.colors.label",
+      "default": "scheme-1"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Collection FAQ"
+    }
+  ]
+}
+{% endschema %}

@@ -1,0 +1,899 @@
+{% assign city = section.settings.city_name | default: "Bangalore" %}
+{% assign city_local = section.settings.city_name_local | default: city %}
+{% assign city_state = section.settings.city_state | default: "Karnataka" %}
+{% assign delivery_areas = section.settings.delivery_areas | default: "Whitefield, Koramangala, Indiranagar, Electronic City, HSR Layout, BTM Layout, Marathahalli, Hebbal" %}
+{% assign latitude = section.settings.latitude | default: "12.9716" %}
+{% assign longitude = section.settings.longitude | default: "77.5946" %}
+
+{%- style -%}
+  .city-hero {
+    background-color: #242833;
+    color: #ffffff;
+    padding: 80px 20px 70px;
+    text-align: center;
+  }
+  .city-hero__inner {
+    max-width: 860px;
+    margin: 0 auto;
+  }
+  .city-hero h1 {
+    font-size: clamp(1.6rem, 4vw, 2.6rem);
+    font-weight: 800;
+    line-height: 1.25;
+    margin: 0 0 20px;
+    font-family: var(--font-heading-family, var(--font-body-family, inherit));
+  }
+  .city-hero__sub {
+    font-size: clamp(1rem, 2vw, 1.2rem);
+    opacity: 0.85;
+    max-width: 680px;
+    margin: 0 auto 36px;
+    line-height: 1.6;
+  }
+  .city-hero__ctas {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 14px;
+    justify-content: center;
+  }
+  .btn-browse {
+    display: inline-block;
+    padding: 14px 32px;
+    border: 2px solid #ffffff;
+    color: #ffffff;
+    background: transparent;
+    border-radius: 4px;
+    font-size: 1rem;
+    font-weight: 600;
+    text-decoration: none;
+    transition: background 0.2s, color 0.2s;
+  }
+  .btn-browse:hover {
+    background: #ffffff;
+    color: #242833;
+  }
+  .btn-whatsapp {
+    display: inline-block;
+    padding: 14px 32px;
+    background: #25D366;
+    color: #ffffff;
+    border: 2px solid #25D366;
+    border-radius: 4px;
+    font-size: 1rem;
+    font-weight: 600;
+    text-decoration: none;
+    transition: background 0.2s;
+  }
+  .btn-whatsapp:hover {
+    background: #1ebe5b;
+    border-color: #1ebe5b;
+  }
+  .btn-whatsapp svg,
+  .btn-whatsapp-lg svg {
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+    margin-right: 6px;
+    fill: currentColor;
+  }
+
+  /* Why Choose Us Strip */
+  .city-why {
+    background: #f7f7f7;
+    padding: 44px 20px;
+  }
+  .city-why__grid {
+    max-width: 960px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 24px;
+    text-align: center;
+  }
+  @media (max-width: 720px) {
+    .city-why__grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  .city-why__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+  .city-why__icon {
+    width: 52px;
+    height: 52px;
+    background: #242833;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+  }
+  .city-why__icon svg {
+    width: 26px;
+    height: 26px;
+    fill: #ffffff;
+  }
+  .city-why__label {
+    font-size: 0.95rem;
+    font-weight: 700;
+    color: #242833;
+    line-height: 1.3;
+  }
+  .city-why__desc {
+    font-size: 0.82rem;
+    color: #555;
+    line-height: 1.4;
+  }
+
+  /* Local Description */
+  .city-about {
+    max-width: 820px;
+    margin: 0 auto;
+    padding: 52px 20px 20px;
+    font-size: 1rem;
+    line-height: 1.75;
+    color: var(--color-foreground, #333);
+  }
+  .city-about h2 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 16px;
+    color: #242833;
+  }
+
+  /* Products Section */
+  .city-products {
+    padding: 48px 20px 56px;
+    background: #fff;
+  }
+  .city-section-title {
+    text-align: center;
+    font-size: 1.6rem;
+    font-weight: 700;
+    margin-bottom: 32px;
+    color: #242833;
+  }
+  .city-products__grid {
+    max-width: 1100px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+  }
+  @media (max-width: 860px) {
+    .city-products__grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  @media (max-width: 440px) {
+    .city-products__grid {
+      grid-template-columns: repeat(2, 1fr);
+      gap: 12px;
+    }
+  }
+  .city-product-card {
+    border: 1px solid #e8e8e8;
+    border-radius: 8px;
+    overflow: hidden;
+    text-decoration: none;
+    color: inherit;
+    display: block;
+    transition: box-shadow 0.2s;
+    background: #fff;
+  }
+  .city-product-card:hover {
+    box-shadow: 0 4px 18px rgba(0,0,0,0.1);
+  }
+  .city-product-card__img {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    object-fit: contain;
+    background: #f7f7f7;
+    padding: 10px;
+  }
+  .city-product-card__body {
+    padding: 12px 14px 16px;
+  }
+  .city-product-card__title {
+    font-size: 0.9rem;
+    font-weight: 600;
+    line-height: 1.35;
+    margin-bottom: 6px;
+    color: #242833;
+  }
+  .city-product-card__price {
+    font-size: 0.88rem;
+    color: #666;
+  }
+  .city-product-card__price s {
+    opacity: 0.55;
+    margin-left: 6px;
+  }
+
+  /* Delivery Areas */
+  .city-delivery {
+    background: #f0f4f8;
+    padding: 48px 20px;
+  }
+  .city-delivery__inner {
+    max-width: 860px;
+    margin: 0 auto;
+  }
+  .city-delivery__areas {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 20px;
+  }
+  .city-delivery__tag {
+    background: #242833;
+    color: #fff;
+    border-radius: 20px;
+    padding: 6px 16px;
+    font-size: 0.85rem;
+    font-weight: 500;
+  }
+
+  /* FAQ Section */
+  .city-faq {
+    padding: 56px 20px 64px;
+    background: #fff;
+  }
+  .city-faq__inner {
+    max-width: 820px;
+    margin: 0 auto;
+  }
+  .city-faq__list {
+    margin-top: 28px;
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  .city-faq__item {
+    border-bottom: 1px solid #e0e0e0;
+  }
+  .city-faq__item:last-child {
+    border-bottom: none;
+  }
+  .city-faq__q {
+    width: 100%;
+    background: none;
+    border: none;
+    padding: 20px 24px;
+    text-align: left;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #242833;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 12px;
+    font-family: var(--font-body-family, inherit);
+    line-height: 1.4;
+  }
+  .city-faq__q:hover {
+    background: #fafafa;
+  }
+  .city-faq__q-icon {
+    flex-shrink: 0;
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    background: #242833;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1rem;
+    line-height: 1;
+    transition: transform 0.2s;
+    margin-top: 2px;
+  }
+  .city-faq__item.open .city-faq__q-icon {
+    transform: rotate(45deg);
+  }
+  .city-faq__a {
+    display: none;
+    padding: 0 24px 20px 24px;
+    font-size: 0.95rem;
+    color: #444;
+    line-height: 1.7;
+  }
+  .city-faq__item.open .city-faq__a {
+    display: block;
+  }
+
+  /* Contact Section */
+  .city-contact {
+    background: #242833;
+    color: #fff;
+    padding: 56px 20px;
+    text-align: center;
+  }
+  .city-contact__inner {
+    max-width: 640px;
+    margin: 0 auto;
+  }
+  .city-contact h2 {
+    font-size: 1.6rem;
+    font-weight: 700;
+    margin-bottom: 12px;
+  }
+  .city-contact__sub {
+    opacity: 0.8;
+    margin-bottom: 32px;
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+  .btn-whatsapp-lg {
+    display: inline-block;
+    padding: 16px 40px;
+    background: #25D366;
+    color: #ffffff;
+    border-radius: 4px;
+    font-size: 1.05rem;
+    font-weight: 700;
+    text-decoration: none;
+    transition: background 0.2s;
+    margin-bottom: 28px;
+  }
+  .btn-whatsapp-lg:hover {
+    background: #1ebe5b;
+  }
+  .city-contact__details {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    font-size: 0.95rem;
+    opacity: 0.85;
+    line-height: 1.6;
+  }
+  .city-contact__details a {
+    color: #ffffff;
+    text-decoration: none;
+  }
+  .city-contact__details a:hover {
+    text-decoration: underline;
+  }
+{%- endstyle -%}
+
+<!-- ============================================================
+     HERO
+     ============================================================ -->
+<section class="city-hero">
+  <div class="city-hero__inner">
+    <h1>{{ section.settings.hero_heading }}</h1>
+    {%- if section.settings.hero_subheading != blank -%}
+      <p class="city-hero__sub">{{ section.settings.hero_subheading }}</p>
+    {%- endif -%}
+    <div class="city-hero__ctas">
+      <a href="/collections/all" class="btn-browse">Browse Trophies</a>
+      <a href="https://wa.me/+919480150888?text=Hi" class="btn-whatsapp" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+        WhatsApp Us
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     WHY CHOOSE US STRIP
+     ============================================================ -->
+<section class="city-why">
+  <div class="city-why__grid">
+    <div class="city-why__item">
+      <div class="city-why__icon">
+        <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path d="M20 8h-3V4H3c-1.1 0-2 .9-2 2v11h2c0 1.66 1.34 3 3 3s3-1.34 3-3h6c0 1.66 1.34 3 3 3s3-1.34 3-3h2v-5l-3-4zM6 18.5c-.83 0-1.5-.67-1.5-1.5S5.17 15.5 6 15.5 7.5 16.17 7.5 17 6.83 18.5 6 18.5zm13.5-9l1.96 2.5H17V9.5h2.5zm-1.5 9c-.83 0-1.5-.67-1.5-1.5s.67-1.5 1.5-1.5 1.5.67 1.5 1.5-.67 1.5-1.5 1.5z"/></svg>
+      </div>
+      <span class="city-why__label">Pan India Delivery</span>
+      <span class="city-why__desc">Fast shipping to {{ city }} &amp; all major cities</span>
+    </div>
+    <div class="city-why__item">
+      <div class="city-why__icon">
+        <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4zm0 10.99h7c-.53 4.12-3.28 7.79-7 8.94V12H5V6.3l7-3.11v8.8z"/></svg>
+      </div>
+      <span class="city-why__label">20+ Years Experience</span>
+      <span class="city-why__desc">Trusted trophy maker since 2000</span>
+    </div>
+    <div class="city-why__item">
+      <div class="city-why__icon">
+        <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path d="M3 17.25V21h3.75L17.81 9.94l-3.75-3.75L3 17.25zM20.71 7.04c.39-.39.39-1.02 0-1.41l-2.34-2.34c-.39-.39-1.02-.39-1.41 0l-1.83 1.83 3.75 3.75 1.83-1.83z"/></svg>
+      </div>
+      <span class="city-why__label">Custom Engraving</span>
+      <span class="city-why__desc">Names, logos &amp; messages on every piece</span>
+    </div>
+    <div class="city-why__item">
+      <div class="city-why__icon">
+        <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path d="M16 11c1.66 0 2.99-1.34 2.99-3S17.66 5 16 5c-1.66 0-3 1.34-3 3s1.34 3 3 3zm-8 0c1.66 0 2.99-1.34 2.99-3S9.66 5 8 5C6.34 5 5 6.34 5 8s1.34 3 3 3zm0 2c-2.33 0-7 1.17-7 3.5V19h14v-2.5c0-2.33-4.67-3.5-7-3.5zm8 0c-.29 0-.62.02-.97.05 1.16.84 1.97 1.97 1.97 3.45V19h6v-2.5c0-2.33-4.67-3.5-7-3.5z"/></svg>
+      </div>
+      <span class="city-why__label">Bulk Orders Welcome</span>
+      <span class="city-why__desc">Special pricing for 50+ pieces</span>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     LOCAL SEO PARAGRAPH
+     ============================================================ -->
+{%- if section.settings.local_seo_paragraph != blank -%}
+<div class="city-about">
+  <h2>Custom Trophy Makers in {{ city }}, {{ city_state }}</h2>
+  {{ section.settings.local_seo_paragraph }}
+</div>
+{%- endif -%}
+
+<!-- ============================================================
+     FEATURED PRODUCTS
+     ============================================================ -->
+<section class="city-products">
+  <h2 class="city-section-title">Trophies &amp; Awards — Popular Picks</h2>
+  <div class="city-products__grid">
+    {%- for product in collections.all.products limit: 8 -%}
+      <a href="{{ product.url }}" class="city-product-card">
+        {%- if product.featured_image -%}
+          <img
+            class="city-product-card__img"
+            src="{{ product.featured_image | image_url: width: 400 }}"
+            alt="{{ product.featured_image.alt | escape | default: product.title | escape }}"
+            width="400"
+            height="400"
+            loading="lazy"
+          >
+        {%- else -%}
+          <div class="city-product-card__img" style="display:flex;align-items:center;justify-content:center;color:#aaa;font-size:0.8rem;">No image</div>
+        {%- endif -%}
+        <div class="city-product-card__body">
+          <div class="city-product-card__title">{{ product.title | escape }}</div>
+          <div class="city-product-card__price">
+            {{ product.price | money }}
+            {%- if product.compare_at_price > product.price -%}
+              <s>{{ product.compare_at_price | money }}</s>
+            {%- endif -%}
+          </div>
+        </div>
+      </a>
+    {%- endfor -%}
+  </div>
+</section>
+
+<!-- ============================================================
+     DELIVERY COVERAGE
+     ============================================================ -->
+<section class="city-delivery">
+  <div class="city-delivery__inner">
+    <h2 class="city-section-title" style="text-align:left;margin-bottom:8px;">Trophy Delivery Coverage in {{ city }}</h2>
+    <p style="color:#555;font-size:0.95rem;line-height:1.6;">
+      We deliver trophies, medals, and corporate gifts to all major areas across {{ city }}.
+      Order online and receive your customised awards at your doorstep — typically within 3–7 business days.
+    </p>
+    {%- assign areas = delivery_areas | split: "," -%}
+    <div class="city-delivery__areas">
+      {%- for area in areas -%}
+        <span class="city-delivery__tag">{{ area | strip }}</span>
+      {%- endfor -%}
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     FAQ — VISIBLE HTML
+     ============================================================ -->
+<section class="city-faq" id="faq">
+  <div class="city-faq__inner">
+    <h2 class="city-section-title" style="text-align:left;">Frequently Asked Questions — Trophies in {{ city }}</h2>
+    <p style="color:#555;font-size:0.93rem;margin-bottom:4px;">Everything you need to know about ordering custom trophies, medals, and awards in {{ city }}.</p>
+
+    <div class="city-faq__list">
+
+      <div class="city-faq__item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+        <button class="city-faq__q" aria-expanded="false">
+          <span itemprop="name">Where can I buy custom trophies in {{ city }}?</span>
+          <span class="city-faq__q-icon" aria-hidden="true">+</span>
+        </button>
+        <div class="city-faq__a" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+          <div itemprop="text">
+            You can order custom trophies in {{ city }} directly from Meru Trophy at <strong>merutrophy.in</strong>. We are a Bangalore-based trophy manufacturer with over 20 years of experience, and we deliver Pan India including all areas in {{ city }}. Browse our full collection online, customise your order, and we'll deliver to your doorstep. You can also call us at +91 7892207252 or WhatsApp +91 9480150888 to discuss bulk or corporate orders.
+          </div>
+        </div>
+      </div>
+
+      <div class="city-faq__item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+        <button class="city-faq__q" aria-expanded="false">
+          <span itemprop="name">What is the price of a custom trophy in {{ city }}?</span>
+          <span class="city-faq__q-icon" aria-hidden="true">+</span>
+        </button>
+        <div class="city-faq__a" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+          <div itemprop="text">
+            Trophy prices in {{ city }} at Meru Trophy start from as low as ₹150 for simple medals and go up to ₹5,000+ for premium crystal or metal trophies with custom engraving. Factors that affect the price include the material (crystal, metal, acrylic, fibre, wood), size, engraving complexity, and quantity. Bulk orders of 50 or more pieces qualify for special discounted pricing. Contact us for a quote tailored to your event and budget.
+          </div>
+        </div>
+      </div>
+
+      <div class="city-faq__item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+        <button class="city-faq__q" aria-expanded="false">
+          <span itemprop="name">How long does trophy delivery take in {{ city }}?</span>
+          <span class="city-faq__q-icon" aria-hidden="true">+</span>
+        </button>
+        <div class="city-faq__a" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+          <div itemprop="text">
+            Standard delivery to {{ city }} takes 3–7 business days after your order is confirmed and artwork is approved. For urgent requirements — such as a sports event or corporate function — we offer expedited production. Please WhatsApp us at +91 9480150888 with your event date, quantity, and design requirements so we can confirm the fastest possible turnaround for your location in {{ city }}.
+          </div>
+        </div>
+      </div>
+
+      <div class="city-faq__item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+        <button class="city-faq__q" aria-expanded="false">
+          <span itemprop="name">Can I get engraving on trophies ordered from {{ city }}?</span>
+          <span class="city-faq__q-icon" aria-hidden="true">+</span>
+        </button>
+        <div class="city-faq__a" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+          <div itemprop="text">
+            Yes. All trophies, medals, shields, and plaques ordered through Meru Trophy can be engraved with recipient names, event titles, dates, serial numbers, or your company logo. We support laser engraving and UV printing on crystal, metal, acrylic, and wooden mementos. Simply provide the text or artwork file (JPG, PNG, or PDF) when placing your order, and our design team will share a proof before production begins.
+          </div>
+        </div>
+      </div>
+
+      <div class="city-faq__item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+        <button class="city-faq__q" aria-expanded="false">
+          <span itemprop="name">What types of trophies are available for delivery in {{ city }}?</span>
+          <span class="city-faq__q-icon" aria-hidden="true">+</span>
+        </button>
+        <div class="city-faq__a" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+          <div itemprop="text">
+            Meru Trophy ships the following award categories to {{ city }}: Crystal Trophies, Metal Trophies, Fibre Trophies, Acrylic Trophies, Wooden Mementos, Medals, Shields, Plaques, and Corporate Gifts. Whether you need awards for a school sports day, cricket tournament, corporate recognition ceremony, employee of the month, or farewell event, we have a product to suit every occasion and budget.
+          </div>
+        </div>
+      </div>
+
+      <div class="city-faq__item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+        <button class="city-faq__q" aria-expanded="false">
+          <span itemprop="name">Does Meru Trophy accept bulk trophy orders for events in {{ city }}?</span>
+          <span class="city-faq__q-icon" aria-hidden="true">+</span>
+        </button>
+        <div class="city-faq__a" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+          <div itemprop="text">
+            Absolutely. Bulk orders are our specialty. We regularly fulfill orders of 50 to 5,000+ pieces for corporate award nights, school annual days, marathons, cricket tournaments, and government events across {{ city_state }}. Bulk customers in {{ city }} receive volume discounts, dedicated account support, and consistent quality across every piece. WhatsApp us at +91 9480150888 with your quantity and event date to get a bulk quote within a few hours.
+          </div>
+        </div>
+      </div>
+
+      <div class="city-faq__item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+        <button class="city-faq__q" aria-expanded="false">
+          <span itemprop="name">Can companies in {{ city }} order corporate gifts from Meru Trophy?</span>
+          <span class="city-faq__q-icon" aria-hidden="true">+</span>
+        </button>
+        <div class="city-faq__a" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+          <div itemprop="text">
+            Yes. Many corporates, IT companies, startups, and MNCs in {{ city }} order custom corporate gifts from Meru Trophy. Our corporate gift range includes branded crystal paperweights, engraved metal plaques, wooden desk mementos, acrylic shields, and gift sets — all customisable with your company logo and employee names. We also provide GST invoices. Email us at merutrophy@gmail.com or call +91 7892207252 to discuss your corporate gifting requirements in {{ city }}.
+          </div>
+        </div>
+      </div>
+
+      <div class="city-faq__item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+        <button class="city-faq__q" aria-expanded="false">
+          <span itemprop="name">How do I place a trophy order online for delivery in {{ city }}?</span>
+          <span class="city-faq__q-icon" aria-hidden="true">+</span>
+        </button>
+        <div class="city-faq__a" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+          <div itemprop="text">
+            Ordering is simple. Visit merutrophy.in, browse the collections, select your product, add it to cart, and checkout. During checkout, enter your {{ city }} delivery address and provide engraving details in the order notes. Alternatively, for custom or bulk orders, WhatsApp us at +91 9480150888 with your requirements — quantity, material, engraving text, and event date — and our team will send you a quote and design proof within 24 hours.
+          </div>
+        </div>
+      </div>
+
+      <div class="city-faq__item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+        <button class="city-faq__q" aria-expanded="false">
+          <span itemprop="name">Which is the best material for a trophy in {{ city }}'s climate?</span>
+          <span class="city-faq__q-icon" aria-hidden="true">+</span>
+        </button>
+        <div class="city-faq__a" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+          <div itemprop="text">
+            For {{ city }}'s warm and occasionally humid climate, crystal and acrylic trophies are the most durable options as they are moisture-resistant and do not tarnish. Metal trophies (zinc alloy or aluminium) are also excellent for long-term display. Wooden mementos are beautiful but should be stored away from direct moisture. For outdoor events or long-term shelf display, we recommend crystal, acrylic, or powder-coated metal trophies. Our team can advise on the best material for your specific use case.
+          </div>
+        </div>
+      </div>
+
+      <div class="city-faq__item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+        <button class="city-faq__q" aria-expanded="false">
+          <span itemprop="name">Does Meru Trophy deliver to all areas in {{ city }}?</span>
+          <span class="city-faq__q-icon" aria-hidden="true">+</span>
+        </button>
+        <div class="city-faq__a" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+          <div itemprop="text">
+            Yes. We deliver to all pin codes across {{ city }} including areas like {{ delivery_areas }}. Orders are shipped via reliable courier partners (BlueDart, DTDC, Delhivery) with tracking. If you are in a distant suburb or smaller town near {{ city }}, please confirm your pin code with us to get an accurate delivery estimate. For bulk orders, we also arrange dedicated freight where needed.
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     CONTACT
+     ============================================================ -->
+<section class="city-contact">
+  <div class="city-contact__inner">
+    <h2>Order Trophies in {{ city }} — Get in Touch</h2>
+    <p class="city-contact__sub">
+      Talk to our team for custom quotes, bulk orders, or design assistance.
+      We're available Monday–Saturday, 9 AM to 7 PM.
+    </p>
+    <a href="https://wa.me/+919480150888?text=Hi%2C+I+want+to+order+trophies+in+{{ city | url_encode }}" class="btn-whatsapp-lg" target="_blank" rel="noopener">
+      <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+      WhatsApp Us Now
+    </a>
+    <div class="city-contact__details">
+      <span>
+        <a href="tel:+917892207252">+91 7892207252</a> &nbsp;|&nbsp;
+        <a href="tel:+919480150888">+91 9480150888</a>
+      </span>
+      <span><a href="mailto:merutrophy@gmail.com">merutrophy@gmail.com</a></span>
+      <span>#273/2, SC Road, 2nd Cross, 1st Floor, Near Annamma Temple,<br>Gandhinagar, Bangalore – 560 009</span>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     JSON-LD: LocalBusiness + FAQPage
+     ============================================================ -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "LocalBusiness",
+      "@id": "https://merutrophy.in/#localbusiness",
+      "name": "Meru Trophy",
+      "url": "https://merutrophy.in",
+      "logo": "https://merutrophy.in/cdn/shop/files/Meru_New_Logo_1.jpg",
+      "image": "https://merutrophy.in/cdn/shop/files/Meru_New_Logo_1.jpg",
+      "description": "Meru Trophy is a leading manufacturer and supplier of custom trophies, medals, shields, plaques, corporate gifts, and mementos in Bangalore, India. We deliver Pan India.",
+      "telephone": "+917892207252",
+      "email": "merutrophy@gmail.com",
+      "priceRange": "₹₹",
+      "openingHours": "Mo-Sa 09:00-19:00",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "#273/2, SC Road, 2nd Cross, 1st Floor, Near Annamma Temple, Gandhinagar",
+        "addressLocality": "{{ city | escape }}",
+        "addressRegion": "{{ city_state | escape }}",
+        "postalCode": "560009",
+        "addressCountry": "IN"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": "{{ latitude | escape }}",
+        "longitude": "{{ longitude | escape }}"
+      },
+      "sameAs": [
+        "https://wa.me/+919480150888",
+        "https://merutrophy.in"
+      ],
+      "areaServed": {
+        "@type": "City",
+        "name": "{{ city | escape }}"
+      }
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Where can I buy custom trophies in {{ city | escape }}?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "You can order custom trophies in {{ city | escape }} directly from Meru Trophy at merutrophy.in. We are a Bangalore-based trophy manufacturer with over 20 years of experience, delivering Pan India including all areas in {{ city | escape }}. Call +91 7892207252 or WhatsApp +91 9480150888."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the price of a custom trophy in {{ city | escape }}?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Trophy prices at Meru Trophy start from ₹150 for simple medals and go up to ₹5,000+ for premium crystal or metal trophies with custom engraving. Bulk orders of 50+ pieces qualify for special discounted pricing."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How long does trophy delivery take in {{ city | escape }}?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Standard delivery to {{ city | escape }} takes 3–7 business days after order confirmation and artwork approval. Expedited production is available for urgent requirements. WhatsApp +91 9480150888 with your event date for a faster turnaround estimate."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I get engraving on trophies ordered from {{ city | escape }}?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. All trophies, medals, shields, and plaques can be engraved with names, event titles, dates, or company logos. We support laser engraving and UV printing on crystal, metal, acrylic, and wooden mementos."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What types of trophies are available for delivery in {{ city | escape }}?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Meru Trophy ships Crystal Trophies, Metal Trophies, Fibre Trophies, Acrylic Trophies, Wooden Mementos, Medals, Shields, Plaques, and Corporate Gifts to {{ city | escape }}."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does Meru Trophy accept bulk trophy orders for events in {{ city | escape }}?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. We regularly fulfill orders of 50 to 5,000+ pieces for corporate award nights, school annual days, marathons, and tournaments across {{ city_state | escape }}. Bulk customers receive volume discounts and dedicated support. Contact +91 9480150888."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can companies in {{ city | escape }} order corporate gifts from Meru Trophy?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Corporates, IT companies, and MNCs in {{ city | escape }} order branded crystal paperweights, engraved metal plaques, wooden desk mementos, acrylic shields, and gift sets from Meru Trophy. GST invoices are provided. Email merutrophy@gmail.com or call +91 7892207252."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do I place a trophy order online for delivery in {{ city | escape }}?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Visit merutrophy.in, browse the collections, add to cart, and checkout with your {{ city | escape }} delivery address. For custom or bulk orders, WhatsApp +91 9480150888 with your requirements and we will send a quote and design proof within 24 hours."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Which is the best material for a trophy in {{ city | escape }}'s climate?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Crystal and acrylic trophies are the most durable for {{ city | escape }}'s warm, humid climate as they are moisture-resistant and do not tarnish. Metal trophies are also excellent for long-term display. Wooden mementos should be stored away from direct moisture."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does Meru Trophy deliver to all areas in {{ city | escape }}?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. We deliver to all pin codes across {{ city | escape }} including {{ delivery_areas | escape }}. Orders are shipped via reliable couriers (BlueDart, DTDC, Delhivery) with tracking."
+          }
+        }
+      ]
+    }
+  ]
+}
+</script>
+
+<!-- FAQ Accordion JS -->
+<script>
+(function () {
+  var items = document.querySelectorAll('.city-faq__item');
+  items.forEach(function (item) {
+    var btn = item.querySelector('.city-faq__q');
+    if (!btn) return;
+    btn.addEventListener('click', function () {
+      var isOpen = item.classList.contains('open');
+      // close all
+      items.forEach(function (i) {
+        i.classList.remove('open');
+        var b = i.querySelector('.city-faq__q');
+        if (b) b.setAttribute('aria-expanded', 'false');
+      });
+      if (!isOpen) {
+        item.classList.add('open');
+        btn.setAttribute('aria-expanded', 'true');
+      }
+    });
+  });
+})();
+</script>
+
+{% schema %}
+{
+  "name": "City Landing Page",
+  "tag": "section",
+  "class": "city-landing-section",
+  "settings": [
+    {
+      "type": "header",
+      "content": "City Information"
+    },
+    {
+      "type": "text",
+      "id": "city_name",
+      "label": "City Name",
+      "default": "Bangalore",
+      "info": "Primary city name used throughout the page, e.g. Bangalore"
+    },
+    {
+      "type": "text",
+      "id": "city_name_local",
+      "label": "City Local Name",
+      "default": "Bengaluru",
+      "info": "Local or alternate name for the city, e.g. Bengaluru"
+    },
+    {
+      "type": "text",
+      "id": "city_state",
+      "label": "State",
+      "default": "Karnataka",
+      "info": "State where the city is located"
+    },
+    {
+      "type": "textarea",
+      "id": "delivery_areas",
+      "label": "Delivery Areas (comma-separated)",
+      "default": "Whitefield, Koramangala, Indiranagar, Electronic City, HSR Layout, BTM Layout, Marathahalli, Hebbal",
+      "info": "List of delivery areas shown as tags. Separate each area with a comma."
+    },
+    {
+      "type": "header",
+      "content": "Hero Section"
+    },
+    {
+      "type": "text",
+      "id": "hero_heading",
+      "label": "Hero Heading (H1)",
+      "default": "Trophy Shop in Bangalore — Custom Trophies & Medals | Meru Trophy",
+      "info": "Main H1 heading for this city page. Include the city name for best SEO."
+    },
+    {
+      "type": "textarea",
+      "id": "hero_subheading",
+      "label": "Hero Subheading",
+      "default": "Order crystal trophies, metal trophies, medals, shields & corporate gifts with custom engraving. Pan India delivery from Bangalore.",
+      "info": "Supporting text shown below the H1."
+    },
+    {
+      "type": "header",
+      "content": "Local SEO Content"
+    },
+    {
+      "type": "richtext",
+      "id": "local_seo_paragraph",
+      "label": "City Description (Rich Text)",
+      "info": "Write a 2–4 paragraph city-specific description. Include local landmarks, event types, and relevant keywords for best SEO performance."
+    },
+    {
+      "type": "header",
+      "content": "Geo Coordinates (for LocalBusiness schema)"
+    },
+    {
+      "type": "text",
+      "id": "latitude",
+      "label": "Latitude",
+      "default": "12.9716",
+      "info": "Decimal latitude of the city centre or your branch, e.g. 12.9716"
+    },
+    {
+      "type": "text",
+      "id": "longitude",
+      "label": "Longitude",
+      "default": "77.5946",
+      "info": "Decimal longitude of the city centre or your branch, e.g. 77.5946"
+    }
+  ],
+  "presets": [
+    {
+      "name": "City Landing Page",
+      "settings": {
+        "city_name": "Bangalore",
+        "city_name_local": "Bengaluru",
+        "city_state": "Karnataka",
+        "delivery_areas": "Whitefield, Koramangala, Indiranagar, Electronic City, HSR Layout, BTM Layout, Marathahalli, Hebbal",
+        "hero_heading": "Trophy Shop in Bangalore — Custom Trophies & Medals | Meru Trophy",
+        "hero_subheading": "Order crystal trophies, metal trophies, medals, shields & corporate gifts with custom engraving. Pan India delivery from Bangalore.",
+        "latitude": "12.9716",
+        "longitude": "77.5946"
+      }
+    }
+  ]
+}
+{% endschema %}

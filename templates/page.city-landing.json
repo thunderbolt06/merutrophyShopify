@@ -1,0 +1,9 @@
+{
+  "sections": {
+    "city-landing": {
+      "type": "city-landing",
+      "settings": {}
+    }
+  },
+  "order": ["city-landing"]
+}
