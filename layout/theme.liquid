@@ -566,7 +566,27 @@
       <script src="{{ 'cart-drawer.js' | asset_url }}" defer="defer"></script>
     {%- endif -%}
 
-    <a
+    <script>
+      (function () {
+        function fixInboxCloseButton() {
+          var inbox = document.getElementById('ShopifyChat');
+          if (!inbox || !inbox.shadowRoot) return;
+          var existing = inbox.shadowRoot.querySelector('#meru-close-fix');
+          if (existing) return;
+          var style = document.createElement('style');
+          style.id = 'meru-close-fix';
+          style.textContent = '.chat-app--close-button { opacity: 1 !important; }';
+          inbox.shadowRoot.appendChild(style);
+        }
+        var observer = new MutationObserver(function () {
+          fixInboxCloseButton();
+        });
+        observer.observe(document.documentElement, { childList: true, subtree: true });
+        window.addEventListener('load', fixInboxCloseButton);
+      })();
+    </script>
+
+    <
       href="https://wa.me/+919480150888?text=Hi"
       target="_blank"
       rel="noopener noreferrer"
