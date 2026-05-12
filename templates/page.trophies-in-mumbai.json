@@ -1,0 +1,21 @@
+{
+  "sections": {
+    "city-landing": {
+      "type": "city-landing",
+      "settings": {
+        "city_name": "Mumbai",
+        "city_name_local": "Mumbai",
+        "city_state": "Maharashtra",
+        "delivery_areas": "Bandra, Andheri East, Andheri West, Powai, Lower Parel, BKC, Worli, Nariman Point, Colaba, Dadar, Navi Mumbai (Vashi, Belapur, Nerul), Thane, Mulund, Borivali, Pune corridor",
+        "hero_heading": "Trophy Shop in Mumbai — Custom Trophies & Medals | Meru Trophy",
+        "hero_subheading": "Premium crystal trophies, acrylic awards and corporate gifts shipped from Bangalore to Mumbai in 4-6 days. Trusted by BFSI majors in BKC, media houses in Andheri, IIT Bombay and pharma HQs across Lower Parel and Worli.",
+        "local_seo_paragraph": "<h2>Buying Trophies in Mumbai — What You Need to Know</h2><p>Meru Trophy ships customised trophies, mementos, medals and corporate gifts from our <strong>Bangalore manufacturing facility at Gandhinagar</strong> to every part of Mumbai and the wider Mumbai Metropolitan Region. Dispatch via road cargo or surface courier reaches Mumbai in <strong>4-6 working days</strong>, and air-courier options are available when an awards night or convocation date does not allow margin for delay. As a direct manufacturer, we offer Mumbai's BFSI, media and pharma clients factory-direct pricing without the markups that local resellers add.</p><h3>Why Mumbai customers choose Meru Trophy</h3><ul><li>Manufacturer pricing — medals from <strong>Rs 150</strong>, crystal awards <strong>Rs 500 to Rs 5,000+</strong></li><li>In-house <strong>laser engraving (2D and 3D), UV printing and logo die-casting</strong></li><li>Low MOQs — <strong>10 pieces stock, 100 pieces custom</strong> — ideal for boutique agencies and film events</li><li>Pan-India shipping with proof-of-design approval on WhatsApp before production</li><li>Bulk Diwali corporate-gifting orders accepted from August onward</li></ul><h3>Areas we deliver across Mumbai</h3><p>We ship to all of South and Central Mumbai — <strong>Nariman Point, Colaba, Worli, Lower Parel, Dadar</strong> — the western suburbs of <strong>Bandra, Andheri East, Andheri West and BKC</strong>, the IT and corporate hub of <strong>Powai</strong>, and the satellite cities of <strong>Navi Mumbai (Vashi, Belapur, Nerul), Thane, Mulund and Borivali</strong>. We also serve the <strong>Pune corridor</strong> on the same dispatch schedule.</p><h3>Popular among Mumbai's biggest industries</h3><p>Mumbai is India's <strong>financial capital</strong>, and Meru Trophy supplies engraved crystal awards to <strong>HDFC Bank, ICICI Bank, Kotak Mahindra and JP Morgan India</strong> for their annual top-performer and long-service recognition. <strong>Media and entertainment houses — Star India, Sony Pictures, Yash Raj Films</strong> — order custom acrylic trophies for film festivals and internal award nights, and the <strong>Bollywood fraternity</strong> occasionally commissions bespoke pieces for private events. <strong>Pharma headquarters in Mumbai — Sun Pharma, Lupin and Cipla</strong> — are repeat clients for R&D and sales excellence awards. We also serve the <strong>BSE and NSE communities, leading advertising agencies (Ogilvy, JWT, FCB)</strong> and premier educational institutions including <strong>IIT Bombay, JBIMS and NMIMS</strong> for convocation and prize-day mementos.</p><h3>Common occasions in Mumbai</h3><ul><li>BFSI annual top-performer and long-service awards</li><li>Diwali corporate gifting peaks in October and November</li><li>Film festival and media award nights in Andheri and Bandra</li><li>Pharma R&D and sales excellence recognition</li><li>Convocation and prize-day awards at IIT Bombay, NMIMS, JBIMS</li><li>Advertising agency client and creative-team felicitations</li></ul><p>For sample images, a bulk quote or a Diwali corporate-gifting catalogue, WhatsApp <strong>+91 78922 07252</strong> or call <strong>+91 94801 50888</strong> — we share design proofs the same day and dispatch within 48 hours of approval.</p>",
+        "latitude": "19.0760",
+        "longitude": "72.8777"
+      }
+    }
+  },
+  "order": [
+    "city-landing"
+  ]
+}

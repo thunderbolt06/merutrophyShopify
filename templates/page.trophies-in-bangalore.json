@@ -1,0 +1,21 @@
+{
+  "sections": {
+    "city-landing": {
+      "type": "city-landing",
+      "settings": {
+        "city_name": "Bangalore",
+        "city_name_local": "Bengaluru",
+        "city_state": "Karnataka",
+        "delivery_areas": "Whitefield, Koramangala, Indiranagar, Electronic City, HSR Layout, BTM Layout, Marathahalli, Hebbal, JP Nagar, Jayanagar, MG Road, Sarjapur Road, Bellandur, Yelahanka, Banashankari, Rajajinagar, Malleshwaram",
+        "hero_heading": "Trophy Shop in Bangalore — Custom Trophies & Medals | Meru Trophy",
+        "hero_subheading": "Bangalore's trusted trophy and award manufacturer since two decades. Same-day pickup in Bengaluru, free delivery within city on orders above Rs 2,000, and laser-engraved customisation done in-house at our Gandhinagar workshop.",
+        "local_seo_paragraph": "<h2>Buying Trophies in Bangalore — What You Need to Know</h2><p>Meru Trophy is headquartered at <strong>#273/2, SC Road, 2nd Cross, Gandhinagar, Bangalore 560 009</strong>, a five-minute walk from the Annamma Temple and a short auto ride from Majestic and the City Railway Station. Being a <strong>Bengaluru-based manufacturer</strong> rather than a reseller means every crystal trophy, acrylic award, metal sports cup, wooden memento and medal is produced, engraved and quality-checked in our own facility. Walk-in customers can pick designs, approve laser-engraving proofs and collect orders the same day — something importers and online-only sellers simply cannot match.</p><h3>Why Bangalore customers choose Meru Trophy</h3><ul><li><strong>Same-day pickup</strong> from Gandhinagar for stock trophies and medals</li><li><strong>Free delivery</strong> across Bengaluru on orders above Rs 2,000</li><li>In-house <strong>2D and 3D laser engraving</strong>, UV printing and logo die-casting</li><li>Low MOQs — 10 pieces from stock, 100 pieces for fully custom designs</li><li>Transparent pricing — medals from <strong>Rs 150</strong>, crystal trophies <strong>Rs 500 to Rs 5,000+</strong></li></ul><h3>Areas we deliver across Bengaluru</h3><p>We serve every major neighbourhood including <strong>Whitefield, Koramangala, Indiranagar, Electronic City, HSR Layout, BTM Layout, Marathahalli, Hebbal, JP Nagar, Jayanagar, MG Road, Sarjapur Road and Bellandur</strong>, plus the outer corridors of Yelahanka, Banashankari and Rajajinagar. Bulk corporate orders for the IT corridor are dispatched within 24-48 hours of artwork approval.</p><h3>Popular among Bangalore's biggest industries</h3><p>Meru Trophy is a preferred supplier to <strong>IT corporates</strong> — Infosys, Wipro, IBM, Accenture and Microsoft India offices regularly order crystal trophies for retirement and long-service awards. We supply hackathon prizes to early-stage startups in Koramangala and HSR, sports trophies to Indian Cricket School and Karnataka State sporting bodies, and engraved mementos to <strong>premier institutions like IISc, IIM Bangalore, RV College of Engineering, Christ University and BMS College of Engineering</strong>. Defence and research clients with ties to DRDO, HAL and ISRO order specialised die-cast metal awards from us each year.</p><h3>Common occasions in Bangalore</h3><ul><li>Annual day awards and long-service recognition at MNC campuses</li><li>Hackathon, ideathon and demo-day prizes for startups</li><li>School and college sports day medals and trophies</li><li>Convocation and academic excellence awards</li><li>Religious functions and temple felicitations</li><li>Cricket and corporate tournament cups</li></ul><p>Message us on WhatsApp at <strong>+91 78922 07252</strong> or call <strong>+91 94801 50888</strong> for a quote, design samples and same-day pickup from our Gandhinagar showroom.</p>",
+        "latitude": "12.9716",
+        "longitude": "77.5946"
+      }
+    }
+  },
+  "order": [
+    "city-landing"
+  ]
+}

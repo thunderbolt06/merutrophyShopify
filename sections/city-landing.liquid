@@ -1,9 +1,48 @@
-{% assign city = section.settings.city_name | default: "Bangalore" %}
-{% assign city_local = section.settings.city_name_local | default: city %}
-{% assign city_state = section.settings.city_state | default: "Karnataka" %}
-{% assign delivery_areas = section.settings.delivery_areas | default: "Whitefield, Koramangala, Indiranagar, Electronic City, HSR Layout, BTM Layout, Marathahalli, Hebbal" %}
-{% assign latitude = section.settings.latitude | default: "12.9716" %}
-{% assign longitude = section.settings.longitude | default: "77.5946" %}
+{%- liquid
+  assign handle = page.handle | default: ''
+  assign auto_city = ''
+  assign auto_local = ''
+  assign auto_state = ''
+  assign auto_lat = ''
+  assign auto_lng = ''
+  assign auto_areas = ''
+  case handle
+    when 'trophies-in-bangalore'
+      assign auto_city = 'Bangalore'
+      assign auto_local = 'Bengaluru'
+      assign auto_state = 'Karnataka'
+      assign auto_lat = '12.9716'
+      assign auto_lng = '77.5946'
+      assign auto_areas = 'Whitefield, Koramangala, Indiranagar, Electronic City, HSR Layout, BTM Layout, Marathahalli, Hebbal, JP Nagar, Jayanagar, MG Road, Sarjapur, Bellandur, Yelahanka, RT Nagar'
+    when 'trophies-in-hyderabad'
+      assign auto_city = 'Hyderabad'
+      assign auto_local = 'Hyderabad'
+      assign auto_state = 'Telangana'
+      assign auto_lat = '17.3850'
+      assign auto_lng = '78.4867'
+      assign auto_areas = 'Hitec City, Madhapur, Gachibowli, Kondapur, Banjara Hills, Jubilee Hills, Secunderabad, Kukatpally, Begumpet, Ameerpet, Miyapur, Uppal'
+    when 'trophies-in-delhi'
+      assign auto_city = 'Delhi'
+      assign auto_local = 'New Delhi'
+      assign auto_state = 'Delhi NCR'
+      assign auto_lat = '28.6139'
+      assign auto_lng = '77.2090'
+      assign auto_areas = 'Connaught Place, Karol Bagh, Lajpat Nagar, Saket, Vasant Kunj, Dwarka, Rohini, Gurgaon, Noida, Faridabad, Ghaziabad'
+    when 'trophies-in-mumbai'
+      assign auto_city = 'Mumbai'
+      assign auto_local = 'Mumbai'
+      assign auto_state = 'Maharashtra'
+      assign auto_lat = '19.0760'
+      assign auto_lng = '72.8777'
+      assign auto_areas = 'Bandra, Andheri East, Andheri West, Powai, Lower Parel, BKC, Worli, Nariman Point, Navi Mumbai, Vashi, Belapur, Thane'
+  endcase
+-%}
+{% assign city = section.settings.city_name | default: auto_city | default: "Bangalore" %}
+{% assign city_local = section.settings.city_name_local | default: auto_local | default: city %}
+{% assign city_state = section.settings.city_state | default: auto_state | default: "Karnataka" %}
+{% assign delivery_areas = section.settings.delivery_areas | default: auto_areas | default: "Whitefield, Koramangala, Indiranagar, Electronic City, HSR Layout, BTM Layout, Marathahalli, Hebbal" %}
+{% assign latitude = section.settings.latitude | default: auto_lat | default: "12.9716" %}
+{% assign longitude = section.settings.longitude | default: auto_lng | default: "77.5946" %}
 
 {%- style -%}
   .city-hero {

@@ -1,0 +1,21 @@
+{
+  "sections": {
+    "city-landing": {
+      "type": "city-landing",
+      "settings": {
+        "city_name": "Delhi",
+        "city_name_local": "Dilli",
+        "city_state": "Delhi NCR",
+        "delivery_areas": "Connaught Place, Karol Bagh, Lajpat Nagar, Saket, Vasant Kunj, Dwarka, Rohini, Pitampura, Gurgaon (Cyber Hub, Udyog Vihar, Golf Course Road), Noida (Sectors 15-65), Greater Noida, Faridabad, Ghaziabad",
+        "hero_heading": "Trophy Shop in Delhi — Custom Trophies & Medals | Meru Trophy",
+        "hero_subheading": "Pan-India trophy and award manufacturer serving Delhi NCR — Gurgaon, Noida, Faridabad and Ghaziabad — with custom crystal, acrylic and metal trophies delivered in 4-6 days from our Bangalore factory. Trusted by ministries, PSUs, IIT Delhi and top consulting firms.",
+        "local_seo_paragraph": "<h2>Buying Trophies in Delhi NCR — What You Need to Know</h2><p>Meru Trophy supplies engraved trophies, medals and corporate awards to every corner of the National Capital Region. Orders are dispatched from our <strong>Bangalore headquarters at Gandhinagar</strong> and reach Delhi, Gurgaon, Noida, Faridabad and Ghaziabad within <strong>4-6 working days</strong> via road logistics, or <strong>1-2 days via air courier</strong> for time-critical conferences and convocations. Because we are the manufacturer, our NCR clients get factory-direct pricing with no reseller margin added.</p><h3>Why Delhi NCR customers choose Meru Trophy</h3><ul><li>Direct-from-factory rates — medals from <strong>Rs 150</strong>, crystal trophies <strong>Rs 500 to Rs 5,000+</strong></li><li><strong>2D and 3D laser engraving, UV printing, logo die-casting</strong> all done in-house</li><li>Bulk-friendly MOQs — <strong>10 stock pieces, 100 for custom designs</strong> with volume discounts</li><li>Air-courier dispatch available for last-minute prize-day and conference orders</li><li>Government and PSU billing support with GST invoicing and PO acceptance</li></ul><h3>Areas we deliver across Delhi NCR</h3><p>We ship across central Delhi — <strong>Connaught Place, Karol Bagh, Lajpat Nagar, Saket, Vasant Kunj, Dwarka, Rohini and Pitampura</strong> — and cover the full NCR including <strong>Gurgaon (Cyber Hub, Udyog Vihar, Golf Course Road, Sohna Road), Noida (Sectors 15 to 65), Greater Noida, Faridabad and Ghaziabad</strong>. Hotel-direct deliveries to ITC Maurya, Taj Palace, The Leela and Hyatt Regency are routine for our annual conference clients.</p><h3>Popular among Delhi NCR's biggest industries</h3><p>Delhi is India's policy and PSU capital, and Meru Trophy is a regular supplier to <strong>government departments and public-sector undertakings — NTPC, ONGC, GAIL, SAIL, BHEL and IOCL</strong> — for Republic Day, Independence Day and annual recognition functions. <strong>Major media houses</strong> including NDTV, The Times of India and India Today order custom acrylic trophies for their award nights. The Big-4 <strong>consulting firms (Deloitte, EY, PwC, KPMG)</strong> in Gurgaon and the IT clusters in Noida are repeat clients for long-service and quarterly performance awards. Premier institutions such as <strong>IIT Delhi, Delhi University, JNU, AIIMS and FMS Delhi</strong> commission engraved mementos for convocations and prize-day ceremonies.</p><h3>Common occasions in Delhi NCR</h3><ul><li>Republic Day and Independence Day government awards</li><li>PSU long-service and retirement felicitations</li><li>Corporate annual conferences at ITC Maurya, Taj Palace and Hyatt</li><li>Convocation and academic excellence awards at IIT/DU/JNU</li><li>Media and advertising award nights</li><li>NGO and advocacy recognition events</li></ul><p>For bulk quotes, GST-compliant invoicing or rush delivery to NCR, WhatsApp <strong>+91 78922 07252</strong> or call <strong>+91 94801 50888</strong> — our team handles PO-based orders and ships pan-India daily.</p>",
+        "latitude": "28.6139",
+        "longitude": "77.2090"
+      }
+    }
+  },
+  "order": [
+    "city-landing"
+  ]
+}

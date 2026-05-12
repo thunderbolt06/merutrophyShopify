@@ -47,23 +47,27 @@
   }
   .readmore--open .readmore__fade { display: none; }
   .readmore__toggle {
-    display: inline-block;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
     margin-top: 0.75rem;
-    padding: 8px 18px;
-    background: transparent;
-    border: 1.5px solid currentColor;
+    padding: 9px 20px;
+    background: #25D366;
+    border: 1.5px solid #25D366;
     border-radius: 4px;
     font-size: 14px;
     font-weight: 600;
     cursor: pointer;
-    color: inherit;
-    transition: background 0.2s ease, color 0.2s ease;
+    color: #ffffff;
+    transition: background-color 0.2s ease, border-color 0.2s ease, transform 0.1s ease;
   }
   .readmore__toggle:hover {
-    background: currentColor;
+    background: #1ebe5d;
+    border-color: #1ebe5d;
+    color: #ffffff;
   }
-  .readmore__toggle:hover {
-    color: #fff;
+  .readmore__toggle:active {
+    transform: scale(0.98);
   }
   .color-scheme-3 .readmore__fade,
   [class*="color-scheme-3"] .readmore__fade,
