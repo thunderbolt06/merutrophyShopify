@@ -1,0 +1,206 @@
+{%- comment -%}
+  WhatsApp Expert Modal
+  Shows a centered popup after 15 seconds of viewing the page, inviting the visitor
+  to chat with our trophy expert on WhatsApp.
+  Accepts (optional):
+    - product: {Object} product object — used to pre-fill the WhatsApp message
+{%- endcomment -%}
+
+{%- liquid
+  assign wa_product_title = product.title | default: ''
+  if wa_product_title != blank
+    assign wa_text = 'Hi%2C+I+am+looking+at+' | append: wa_product_title | url_encode | append: '+on+merutrophy.in.+Can+you+help+me+with+customisation%2C+pricing%2C+and+delivery+timeline%3F'
+  else
+    assign wa_text = 'Hi%2C+I+need+help+choosing+the+right+trophy.+Can+you+guide+me+on+options%2C+customisation%2C+and+delivery%3F'
+  endif
+-%}
+
+<style>
+  .meru-wa-modal-overlay {
+    position: fixed;
+    inset: 0;
+    background: rgba(15, 18, 28, 0.66);
+    z-index: 999998;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    opacity: 0;
+    transition: opacity 0.25s ease;
+    backdrop-filter: blur(2px);
+    -webkit-backdrop-filter: blur(2px);
+  }
+  .meru-wa-modal-overlay.is-open {
+    display: flex;
+    opacity: 1;
+  }
+  .meru-wa-modal {
+    position: relative;
+    width: 100%;
+    max-width: 460px;
+    background: #ffffff;
+    border-radius: 14px;
+    padding: 32px 28px 28px;
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.28);
+    transform: scale(0.96);
+    transition: transform 0.25s ease;
+    text-align: center;
+    font-family: var(--font-body-family, inherit);
+  }
+  .meru-wa-modal-overlay.is-open .meru-wa-modal { transform: scale(1); }
+  .meru-wa-modal__close {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    width: 32px;
+    height: 32px;
+    border: none;
+    background: #f3f3f3;
+    color: #333;
+    border-radius: 50%;
+    font-size: 18px;
+    line-height: 1;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background 0.15s ease;
+  }
+  .meru-wa-modal__close:hover { background: #e6e6e6; }
+  .meru-wa-modal__icon {
+    width: 60px;
+    height: 60px;
+    background: #25D366;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 16px;
+  }
+  .meru-wa-modal__icon svg { width: 32px; height: 32px; fill: #ffffff; }
+  .meru-wa-modal__title {
+    font-size: 22px;
+    font-weight: 700;
+    color: #1a1a1a;
+    margin: 0 0 10px;
+    line-height: 1.3;
+  }
+  .meru-wa-modal__body {
+    font-size: 15px;
+    color: #444;
+    line-height: 1.6;
+    margin: 0 0 22px;
+  }
+  .meru-wa-modal__cta {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    width: 100%;
+    padding: 14px 22px;
+    background: #25D366;
+    color: #ffffff !important;
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration: none;
+    border-radius: 8px;
+    box-shadow: 0 4px 14px rgba(37, 211, 102, 0.30);
+    transition: background 0.15s ease, transform 0.1s ease;
+  }
+  .meru-wa-modal__cta:hover { background: #1ebe5b; color: #ffffff !important; }
+  .meru-wa-modal__cta:active { transform: scale(0.98); }
+  .meru-wa-modal__cta svg { width: 22px; height: 22px; fill: #ffffff; }
+  .meru-wa-modal__small {
+    margin: 14px 0 0;
+    font-size: 12px;
+    color: #888;
+  }
+  @media (max-width: 480px) {
+    .meru-wa-modal { padding: 28px 22px 22px; border-radius: 12px; }
+    .meru-wa-modal__title { font-size: 19px; }
+    .meru-wa-modal__body { font-size: 14px; }
+    .meru-wa-modal__cta { font-size: 15px; padding: 13px 18px; }
+  }
+</style>
+
+<div class="meru-wa-modal-overlay" id="meru-wa-expert-modal" role="dialog" aria-modal="true" aria-labelledby="meru-wa-modal-title" aria-hidden="true">
+  <div class="meru-wa-modal">
+    <button type="button" class="meru-wa-modal__close" aria-label="Close popup" id="meru-wa-modal-close">&times;</button>
+    <span class="meru-wa-modal__icon" aria-hidden="true">
+      <svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg"><path d="M16 3C9.373 3 4 8.373 4 15c0 2.385.668 4.61 1.832 6.502L4 29l7.701-1.814A11.94 11.94 0 0016 27c6.627 0 12-5.373 12-12S22.627 3 16 3zm0 22a9.95 9.95 0 01-5.078-1.393l-.364-.217-4.573 1.077 1.099-4.461-.237-.376A9.953 9.953 0 016 15c0-5.514 4.486-10 10-10s10 4.486 10 10-4.486 10-10 10zm5.422-7.355c-.297-.148-1.757-.867-2.03-.967-.272-.099-.47-.148-.668.148-.198.297-.767.967-.94 1.166-.173.198-.347.223-.644.074-.297-.148-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.457.13-.605.133-.133.297-.347.446-.52.148-.173.198-.297.297-.495.099-.198.05-.372-.025-.52-.074-.148-.668-1.611-.915-2.207-.241-.579-.486-.5-.668-.51l-.57-.01c-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479s1.065 2.876 1.213 3.074c.148.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.227 1.36.195 1.872.118.571-.085 1.757-.718 2.006-1.413.248-.694.248-1.29.173-1.413-.074-.124-.272-.198-.57-.347z"/></svg>
+    </span>
+    <h3 class="meru-wa-modal__title" id="meru-wa-modal-title">Connect with our trophy expert</h3>
+    <p class="meru-wa-modal__body">
+      Talk to us directly over WhatsApp. Our team will understand your requirements and guide you on product selection, customisation, availability, and delivery timelines.
+    </p>
+    <a
+      href="https://wa.me/+919480150888?text={{ wa_text }}"
+      target="_blank"
+      rel="noopener noreferrer"
+      class="meru-wa-modal__cta"
+      id="meru-wa-modal-cta"
+      data-wa-source="expert-modal"
+      {% if product %}data-wa-product-title="{{ product.title | escape }}" data-wa-product-id="{{ product.id }}"{% endif %}
+    >
+      <svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path d="M16 3C9.373 3 4 8.373 4 15c0 2.385.668 4.61 1.832 6.502L4 29l7.701-1.814A11.94 11.94 0 0016 27c6.627 0 12-5.373 12-12S22.627 3 16 3zm5.422 14.645c-.297-.148-1.757-.867-2.03-.967-.272-.099-.47-.148-.668.148-.198.297-.767.967-.94 1.166-.173.198-.347.223-.644.074-.297-.148-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.457.13-.605.133-.133.297-.347.446-.52.148-.173.198-.297.297-.495.099-.198.05-.372-.025-.52-.074-.148-.668-1.611-.915-2.207-.241-.579-.486-.5-.668-.51l-.57-.01c-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479s1.065 2.876 1.213 3.074c.148.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.227 1.36.195 1.872.118.571-.085 1.757-.718 2.006-1.413.248-.694.248-1.29.173-1.413z"/></svg>
+      Chat with our expert on WhatsApp
+    </a>
+    <p class="meru-wa-modal__small">Typically replies within minutes &middot; Mon–Sat, 9 AM – 7 PM IST</p>
+  </div>
+</div>
+
+<script>
+(function () {
+  var overlay = document.getElementById('meru-wa-expert-modal');
+  if (!overlay) return;
+  var closeBtn = document.getElementById('meru-wa-modal-close');
+  var cta = document.getElementById('meru-wa-modal-cta');
+  var DELAY_MS = 15000;
+  var STORAGE_KEY = 'meru-wa-expert-modal-shown';
+
+  function open() {
+    if (sessionStorage.getItem(STORAGE_KEY) === '1') return;
+    overlay.classList.add('is-open');
+    overlay.setAttribute('aria-hidden', 'false');
+    document.body.style.overflow = 'hidden';
+    sessionStorage.setItem(STORAGE_KEY, '1');
+    if (window.gtag) {
+      window.gtag('event', 'whatsapp_expert_modal_open', {
+        event_category: 'whatsapp',
+        event_label: 'product_page_expert_modal'
+      });
+    }
+  }
+
+  function close() {
+    overlay.classList.remove('is-open');
+    overlay.setAttribute('aria-hidden', 'true');
+    document.body.style.overflow = '';
+  }
+
+  if (closeBtn) closeBtn.addEventListener('click', close);
+  overlay.addEventListener('click', function (e) {
+    if (e.target === overlay) close();
+  });
+  document.addEventListener('keydown', function (e) {
+    if (e.key === 'Escape' && overlay.classList.contains('is-open')) close();
+  });
+  if (cta) {
+    cta.addEventListener('click', function () {
+      if (window.gtag) {
+        window.gtag('event', 'whatsapp_click_expert_modal', {
+          event_category: 'whatsapp',
+          event_label: 'product_page_expert_modal'
+        });
+        window.gtag('event', 'whatsapp_click_all', {
+          event_category: 'whatsapp',
+          source: 'expert-modal',
+          event_label: 'product_page'
+        });
+      }
+    });
+  }
+
+  setTimeout(open, DELAY_MS);
+})();
+</script>
