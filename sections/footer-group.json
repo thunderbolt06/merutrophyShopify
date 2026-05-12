@@ -1,1 +1,63 @@
-{"name":"t:sections.footer.name","type":"footer","sections":{"footer":{"type":"footer","blocks":{"link_list_HPLjtq":{"type":"link_list","settings":{"heading":"","menu":"footer"}},"text_cities":{"type":"text","settings":{"heading":"Cities We Serve","subtext":"<p><a href=\"/pages/trophies-in-bangalore\"><strong>Trophy Shop in Bangalore</strong></a></p><p><a href=\"/pages/trophies-in-hyderabad\"><strong>Trophy Shop in Hyderabad</strong></a></p><p><a href=\"/pages/trophies-in-delhi\"><strong>Trophy Shop in Delhi</strong></a></p><p><a href=\"/pages/trophies-in-mumbai\"><strong>Trophy Shop in Mumbai</strong></a></p><p>Pan India delivery with same-day pickup in Bangalore.</p>"}},"text_JWppNG":{"type":"text","settings":{"heading":"Contact Us","subtext":"<p>Phone number: <strong>+91 7892207252<\/strong><\/p><p>Alternate Phone:<strong> +91 9480150888<\/strong><\/p><p>Email: <a href=\"mailto:merutrophy@gmail.com\" target=\"_blank\"><span style=\"text-decoration:underline\"><strong>merutrophy@gmail.com<\/strong><\/span><\/a><\/p><p>Address: #273\/2, SC Road, 2nd Cross, 1st Floor,<br\/>Near Annamma Temple, Gandhinagar, Bangalore - 560 009.<br\/><br\/>Maps: https:\/\/maps.app.goo.gl\/i8tmRdXttcSA27UE6 <\/p>"}}},"block_order":["link_list_HPLjtq","text_cities","text_JWppNG"],"settings":{"color_scheme":"scheme-3","newsletter_enable":false,"newsletter_heading":"Subscribe to our emails","enable_follow_on_shop":true,"show_social":true,"enable_country_selector":true,"enable_language_selector":true,"payment_enable":true,"show_policy":true,"margin_top":0,"padding_top":36,"padding_bottom":36}}},"order":["footer"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "name": "t:sections.footer.name",
+  "type": "footer",
+  "sections": {
+    "footer": {
+      "type": "footer",
+      "blocks": {
+        "link_list_HPLjtq": {
+          "type": "link_list",
+          "settings": {
+            "heading": "",
+            "menu": "footer"
+          }
+        },
+        "text_cities": {
+          "type": "text",
+          "settings": {
+            "heading": "Cities We Serve",
+            "subtext": "<p><a href=\"/pages/trophies-in-bangalore\"><strong>Trophy Shop in Bangalore</strong></a></p><p><a href=\"/pages/trophies-in-hyderabad\"><strong>Trophy Shop in Hyderabad</strong></a></p><p><a href=\"/pages/trophies-in-delhi\"><strong>Trophy Shop in Delhi</strong></a></p><p><a href=\"/pages/trophies-in-mumbai\"><strong>Trophy Shop in Mumbai</strong></a></p><p>Pan India delivery with same-day pickup in Bangalore.</p>"
+          }
+        },
+        "text_JWppNG": {
+          "type": "text",
+          "settings": {
+            "heading": "Contact Us",
+            "subtext": "<p>Phone number: <strong>+91 7892207252</strong></p><p>Alternate Phone:<strong> +91 9480150888</strong></p><p>Email: <a href=\"mailto:merutrophy@gmail.com\" target=\"_blank\"><span style=\"text-decoration:underline\"><strong>merutrophy@gmail.com</strong></span></a></p><p>Address: #273/2, SC Road, 2nd Cross, 1st Floor,<br/>Near Annamma Temple, Gandhinagar, Bangalore - 560 009.<br/><br/>Maps: https://maps.app.goo.gl/i8tmRdXttcSA27UE6 </p>"
+          }
+        }
+      },
+      "block_order": [
+        "link_list_HPLjtq",
+        "text_cities",
+        "text_JWppNG"
+      ],
+      "settings": {
+        "color_scheme": "scheme-3",
+        "newsletter_enable": false,
+        "newsletter_heading": "Subscribe to our emails",
+        "enable_follow_on_shop": true,
+        "show_social": true,
+        "enable_country_selector": true,
+        "enable_language_selector": true,
+        "payment_enable": true,
+        "show_policy": true,
+        "margin_top": 0,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "footer"
+  ]
+}
