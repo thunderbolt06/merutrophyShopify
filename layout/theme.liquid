@@ -565,5 +565,33 @@
     {%- if settings.cart_type == 'drawer' -%}
       <script src="{{ 'cart-drawer.js' | asset_url }}" defer="defer"></script>
     {%- endif -%}
+
+    <a
+      href="https://wa.me/+919480150888?text=Hi"
+      target="_blank"
+      rel="noopener noreferrer"
+      aria-label="Chat on WhatsApp"
+      style="
+        position: fixed;
+        bottom: 90px;
+        right: 20px;
+        z-index: 9999;
+        width: 56px;
+        height: 56px;
+        border-radius: 50%;
+        background-color: #25D366;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        box-shadow: 0 4px 12px rgba(0,0,0,0.25);
+        transition: transform 0.2s ease, box-shadow 0.2s ease;
+      "
+      onmouseover="this.style.transform='scale(1.1)';this.style.boxShadow='0 6px 16px rgba(0,0,0,0.35)'"
+      onmouseout="this.style.transform='scale(1)';this.style.boxShadow='0 4px 12px rgba(0,0,0,0.25)'"
+    >
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32" fill="white">
+        <path d="M16 3C9.373 3 4 8.373 4 15c0 2.385.668 4.61 1.832 6.502L4 29l7.701-1.814A11.94 11.94 0 0016 27c6.627 0 12-5.373 12-12S22.627 3 16 3zm0 22a9.95 9.95 0 01-5.078-1.393l-.364-.217-4.573 1.077 1.099-4.461-.237-.376A9.953 9.953 0 016 15c0-5.514 4.486-10 10-10s10 4.486 10 10-4.486 10-10 10zm5.422-7.355c-.297-.148-1.757-.867-2.03-.967-.272-.099-.47-.148-.668.148-.198.297-.767.967-.94 1.166-.173.198-.347.223-.644.074-.297-.148-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.457.13-.605.133-.133.297-.347.446-.52.148-.173.198-.297.297-.495.099-.198.05-.372-.025-.52-.074-.148-.668-1.611-.915-2.207-.241-.579-.486-.5-.668-.51l-.57-.01c-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479s1.065 2.876 1.213 3.074c.148.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.227 1.36.195 1.872.118.571-.085 1.757-.718 2.006-1.413.248-.694.248-1.29.173-1.413-.074-.124-.272-.198-.57-.347z"/>
+      </svg>
+    </a>
   </body>
 </html>
