@@ -28,6 +28,13 @@
             "subtext": "<p><a href=\"/pages/trophies-in-bangalore\"><strong>Trophy Shop in Bangalore</strong></a></p><p><a href=\"/pages/trophies-in-hyderabad\"><strong>Trophy Shop in Hyderabad</strong></a></p><p><a href=\"/pages/trophies-in-delhi\"><strong>Trophy Shop in Delhi</strong></a></p><p><a href=\"/pages/trophies-in-mumbai\"><strong>Trophy Shop in Mumbai</strong></a></p><p>Pan India delivery with same-day pickup in Bangalore.</p>"
           }
         },
+        "text_reviews": {
+          "type": "text",
+          "settings": {
+            "heading": "Customer Reviews",
+            "subtext": "<p><a href=\"/pages/reviews\"><strong>Read 442+ Google Reviews</strong></a></p><p>Rated <strong>4.9 ★</strong> by our customers across India.</p><p><a href=\"https://share.google/Fhoc3O7ymZtYxuCZF\" target=\"_blank\" rel=\"noopener\"><strong>Write a Review on Google</strong></a></p>"
+          }
+        },
         "text_JWppNG": {
           "type": "text",
           "settings": {
@@ -39,6 +46,7 @@
       "block_order": [
         "link_list_HPLjtq",
         "text_cities",
+        "text_reviews",
         "text_JWppNG"
       ],
       "settings": {
