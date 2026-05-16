@@ -24,16 +24,16 @@
           "settings": {
             "button_label_1": "Gallery",
             "button_link_1": "shopify://pages/gallery",
-            "button_style_secondary_1": true,
+            "button_style_secondary_1": false,
             "button_label_2": "Call 7483900892",
             "button_link_2": "tel:+91-7483900892",
-            "button_style_secondary_2": true,
+            "button_style_secondary_2": false,
             "button_label_3": "Download Catalogue",
             "button_link_3": "https://drive.google.com/file/d/1vVlkVoEyYstc6lwJChRMgMuh7Yl5qEbA/view",
-            "button_style_secondary_3": true,
+            "button_style_secondary_3": false,
             "button_label_4": "Whatsapp Now",
             "button_link_4": "https://wa.me/+917483900892?text=Hi",
-            "button_style_secondary_4": true
+            "button_style_secondary_4": false
           }
         }
       },
@@ -237,18 +237,102 @@
     "clients_marquee_main": {
       "type": "clients-marquee",
       "blocks": {
-        "logo_tY7XFD": { "type": "logo", "settings": { "image": "shopify://shop_images/download_1.png", "alt": "Client logo" } },
-        "logo_EwF8bQ": { "type": "logo", "settings": { "image": "shopify://shop_images/download_2.png", "alt": "Client logo" } },
-        "logo_GeBzed": { "type": "logo", "settings": { "image": "shopify://shop_images/download_6efba9b5-e34a-4406-8c3a-21cae2e63847.png", "alt": "Client logo" } },
-        "logo_7ngaDr": { "type": "logo", "settings": { "image": "shopify://shop_images/download_3.png", "alt": "Client logo" } },
-        "logo_rnmRfA": { "type": "logo", "settings": { "image": "shopify://shop_images/download_4.png", "alt": "Client logo" } },
-        "logo_6fkcnY": { "type": "logo", "settings": { "image": "shopify://shop_images/Titan_logo1.png", "alt": "Titan" } },
-        "logo_GrKQee": { "type": "logo", "settings": { "image": "shopify://shop_images/Kalyan_Jewellers_logo_svg.png", "alt": "Kalyan Jewellers" } },
-        "logo_fAdyDH": { "type": "logo", "settings": { "image": "shopify://shop_images/ITC_Limited_Logo_svg.png", "alt": "ITC" } },
-        "logo_nKrzQ9": { "type": "logo", "settings": { "image": "shopify://shop_images/Lifestyle-Stores-Logo-1160x1739-1-800x1199.webp", "alt": "Lifestyle" } },
-        "logo_zTEQmL": { "type": "logo", "settings": { "image": "shopify://shop_images/images.jpg", "alt": "Client logo" } },
-        "logo_B6cwQF": { "type": "logo", "settings": { "image": "shopify://shop_images/images.png", "alt": "Client logo" } },
-        "logo_pTDPNP": { "type": "logo", "settings": { "image": "shopify://shop_images/logojpg.webp", "alt": "Client logo" } }
+        "logo_tY7XFD": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/download_1.png",
+            "alt": "Client logo",
+            "link": ""
+          }
+        },
+        "logo_EwF8bQ": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/download_2.png",
+            "alt": "Client logo",
+            "link": ""
+          }
+        },
+        "logo_GeBzed": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/download_6efba9b5-e34a-4406-8c3a-21cae2e63847.png",
+            "alt": "Client logo",
+            "link": ""
+          }
+        },
+        "logo_7ngaDr": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/download_3.png",
+            "alt": "Client logo",
+            "link": ""
+          }
+        },
+        "logo_rnmRfA": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/download_4.png",
+            "alt": "Client logo",
+            "link": ""
+          }
+        },
+        "logo_6fkcnY": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/Titan_logo1.png",
+            "alt": "Titan",
+            "link": ""
+          }
+        },
+        "logo_GrKQee": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/Kalyan_Jewellers_logo_svg.png",
+            "alt": "Kalyan Jewellers",
+            "link": ""
+          }
+        },
+        "logo_fAdyDH": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/ITC_Limited_Logo_svg.png",
+            "alt": "ITC",
+            "link": ""
+          }
+        },
+        "logo_nKrzQ9": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/Lifestyle-Stores-Logo-1160x1739-1-800x1199.webp",
+            "alt": "Lifestyle",
+            "link": ""
+          }
+        },
+        "logo_zTEQmL": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/images.jpg",
+            "alt": "Client logo",
+            "link": ""
+          }
+        },
+        "logo_B6cwQF": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/images.png",
+            "alt": "Client logo",
+            "link": ""
+          }
+        },
+        "logo_pTDPNP": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/logojpg.webp",
+            "alt": "Client logo",
+            "link": ""
+          }
+        }
       },
       "block_order": [
         "logo_tY7XFD",
