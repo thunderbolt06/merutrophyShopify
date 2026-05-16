@@ -89,6 +89,7 @@
         "column_mHBKjx",
         "column_WRVQcn"
       ],
+      "disabled": true,
       "settings": {
         "title": "Our Past Work",
         "heading_size": "h1",
@@ -139,6 +140,7 @@
       "block_order": [
         "ai_gen_block_f03222f_eVfF7E"
       ],
+      "disabled": true,
       "settings": {}
     },
     "rich_text_VXfbjx": {
@@ -166,6 +168,7 @@
         "text_tKm7re",
         "button_NCDyFC"
       ],
+      "disabled": true,
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
