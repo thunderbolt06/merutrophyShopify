@@ -218,157 +218,49 @@
       ],
       "settings": {}
     },
-    "multicolumn_jGUAMw": {
-      "type": "multicolumn",
+    "clients_marquee_main": {
+      "type": "clients-marquee",
       "blocks": {
-        "column_tY7XFD": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/download_1.png",
-            "title": "",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_EwF8bQ": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/download_2.png",
-            "title": "",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_GeBzed": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/download_6efba9b5-e34a-4406-8c3a-21cae2e63847.png",
-            "title": "",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_7ngaDr": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/download_3.png",
-            "title": "",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_rnmRfA": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/download_4.png",
-            "title": "",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_6fkcnY": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/Titan_logo1.png",
-            "title": "",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_GrKQee": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/Kalyan_Jewellers_logo_svg.png",
-            "title": "",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_fAdyDH": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/ITC_Limited_Logo_svg.png",
-            "title": "",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_nKrzQ9": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/Lifestyle-Stores-Logo-1160x1739-1-800x1199.webp",
-            "title": "",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_zTEQmL": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/images.jpg",
-            "title": "",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_B6cwQF": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/images.png",
-            "title": "",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_pTDPNP": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/logojpg.webp",
-            "title": "",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        }
+        "logo_tY7XFD": { "type": "logo", "settings": { "image": "shopify://shop_images/download_1.png", "alt": "Client logo" } },
+        "logo_EwF8bQ": { "type": "logo", "settings": { "image": "shopify://shop_images/download_2.png", "alt": "Client logo" } },
+        "logo_GeBzed": { "type": "logo", "settings": { "image": "shopify://shop_images/download_6efba9b5-e34a-4406-8c3a-21cae2e63847.png", "alt": "Client logo" } },
+        "logo_7ngaDr": { "type": "logo", "settings": { "image": "shopify://shop_images/download_3.png", "alt": "Client logo" } },
+        "logo_rnmRfA": { "type": "logo", "settings": { "image": "shopify://shop_images/download_4.png", "alt": "Client logo" } },
+        "logo_6fkcnY": { "type": "logo", "settings": { "image": "shopify://shop_images/Titan_logo1.png", "alt": "Titan" } },
+        "logo_GrKQee": { "type": "logo", "settings": { "image": "shopify://shop_images/Kalyan_Jewellers_logo_svg.png", "alt": "Kalyan Jewellers" } },
+        "logo_fAdyDH": { "type": "logo", "settings": { "image": "shopify://shop_images/ITC_Limited_Logo_svg.png", "alt": "ITC" } },
+        "logo_nKrzQ9": { "type": "logo", "settings": { "image": "shopify://shop_images/Lifestyle-Stores-Logo-1160x1739-1-800x1199.webp", "alt": "Lifestyle" } },
+        "logo_zTEQmL": { "type": "logo", "settings": { "image": "shopify://shop_images/images.jpg", "alt": "Client logo" } },
+        "logo_B6cwQF": { "type": "logo", "settings": { "image": "shopify://shop_images/images.png", "alt": "Client logo" } },
+        "logo_pTDPNP": { "type": "logo", "settings": { "image": "shopify://shop_images/logojpg.webp", "alt": "Client logo" } }
       },
       "block_order": [
-        "column_tY7XFD",
-        "column_EwF8bQ",
-        "column_GeBzed",
-        "column_7ngaDr",
-        "column_rnmRfA",
-        "column_6fkcnY",
-        "column_GrKQee",
-        "column_fAdyDH",
-        "column_nKrzQ9",
-        "column_zTEQmL",
-        "column_B6cwQF",
-        "column_pTDPNP"
+        "logo_tY7XFD",
+        "logo_EwF8bQ",
+        "logo_GeBzed",
+        "logo_7ngaDr",
+        "logo_rnmRfA",
+        "logo_6fkcnY",
+        "logo_GrKQee",
+        "logo_fAdyDH",
+        "logo_nKrzQ9",
+        "logo_zTEQmL",
+        "logo_B6cwQF",
+        "logo_pTDPNP"
       ],
       "settings": {
-        "title": "",
-        "heading_size": "h2",
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "columns_desktop": 3,
-        "column_alignment": "center",
-        "background_style": "primary",
-        "button_label": "",
-        "button_link": "",
+        "eyebrow": "Our Clients",
+        "title": "Trusted by <em>150+ brands</em> across India",
+        "subtitle": "From Fortune 500 corporates to neighbourhood sports academies.",
+        "speed": 50,
+        "show_text_row": true,
+        "text_brands": "Tanishq · HDFC Bank · Amazon · ITC · Titan · Caratlane · Kalyan Jewellers · Maruti Suzuki · Mercedes Benz · Schneider Electric · Cadbury · Lifestyle · Indian Express · HCL · Infosys · Jio · SBI · Patanjali · Decathlon · KSCA · HAL · Indian Railways · RVCE · Foxconn · Mondelez · Coursera · Razorpay · CRED · Postman",
+        "show_stats": true,
+        "cta_label": "View All Brands",
+        "cta_link": "/pages/brands",
+        "cta2_label": "Read Reviews (4.9★)",
+        "cta2_link": "/pages/reviews",
         "color_scheme": "scheme-2",
-        "columns_mobile": "2",
-        "swipe_on_mobile": false,
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -546,7 +438,7 @@
     "image_banner",
     "collection_list_8wgwHj",
     "1764261957abd8dd2b",
-    "multicolumn_jGUAMw",
+    "clients_marquee_main",
     "featured_collection_DBjkMx",
     "featured_collection_BiAnHm",
     "featured_collection_fTB3NU",

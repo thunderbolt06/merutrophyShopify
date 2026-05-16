@@ -1,1 +1,32 @@
-{"sections":{"main":{"type":"main-page","disabled":true,"settings":{"padding_top":28,"padding_bottom":28}},"multicolumn_PNhxkx":{"type":"multicolumn","blocks":{"column_FGKEHf":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/logojpg.webp","title":"","text":"","link_label":"","link":""}},"column_cVXH8h":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/images.png","title":"","text":"","link_label":"","link":""}},"column_d4APhM":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/images.jpg","title":"","text":"","link_label":"","link":""}},"column_DMnBpA":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/download.png","title":"","text":"","link_label":"","link":""}},"column_aHfyiw":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/The_Indian_Express_logo_svg.png","title":"","text":"","link_label":"","link":""}},"column_bVXUdT":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/Kalyan_Jewellers_logo_svg.png","title":"","text":"","link_label":"","link":""}},"column_W9RRcU":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/images_1.png","title":"","text":"","link_label":"","link":""}},"column_mYiH34":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/amazon-6536326_1280.webp","title":"","text":"","link_label":"","link":""}},"column_rkPft3":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/Lifestyle-Stores-Logo-1160x1739-1-800x1199.webp","title":"","text":"","link_label":"","link":""}}},"block_order":["column_FGKEHf","column_cVXH8h","column_d4APhM","column_DMnBpA","column_aHfyiw","column_bVXUdT","column_W9RRcU","column_mYiH34","column_rkPft3"],"settings":{"title":"Meru Clients","heading_size":"h0","image_width":"full","image_ratio":"adapt","columns_desktop":3,"column_alignment":"center","background_style":"primary","button_label":"","button_link":"","color_scheme":"scheme-1","columns_mobile":"2","swipe_on_mobile":false,"padding_top":16,"padding_bottom":28}}},"order":["main","multicolumn_PNhxkx"]}
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "brands": {
+      "type": "brands-page",
+      "settings": {
+        "eyebrow": "Trusted Across India",
+        "heading": "<h1>Brands that choose <em>Meru Trophy</em></h1>",
+        "subheading": "From Fortune 500 corporates to neighbourhood sports academies, we have crafted recognition for over 150 brands across India. Premium trophies, medals and awards delivered on time, every time.",
+        "cta_primary_label": "Explore Trophies",
+        "cta_primary_link": "/collections/all",
+        "cta_secondary_label": "Get a Custom Quote",
+        "cta_secondary_link": "tel:+917892207252",
+        "bottom_cta_primary_label": "Browse Corporate Awards",
+        "bottom_cta_primary_link": "/collections/corporate-and-college-premium-trophies",
+        "bottom_cta_secondary_label": "WhatsApp Us",
+        "bottom_cta_secondary_link": "https://wa.me/917892207252",
+        "color_scheme": "scheme-1",
+        "padding_top": 24,
+        "padding_bottom": 60
+      }
+    }
+  },
+  "order": ["main", "brands"]
+}

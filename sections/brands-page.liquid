@@ -1,0 +1,692 @@
+{%- style -%}
+  .section-{{ section.id }}-padding {
+    padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
+    padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
+  }
+  @media screen and (min-width: 750px) {
+    .section-{{ section.id }}-padding {
+      padding-top: {{ section.settings.padding_top }}px;
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+  }
+
+  .brands-hero {
+    text-align: center;
+    padding: 4rem 0 3rem;
+    position: relative;
+    overflow: hidden;
+  }
+  .brands-hero__eyebrow {
+    display: inline-block;
+    font-size: 1.2rem;
+    letter-spacing: 0.3rem;
+    text-transform: uppercase;
+    color: rgba(var(--color-foreground), 0.6);
+    margin-bottom: 1.2rem;
+  }
+  .brands-hero__title {
+    margin: 0 auto 1.4rem;
+    max-width: 80rem;
+    line-height: 1.1;
+  }
+  .brands-hero__title em {
+    font-style: normal;
+    background: linear-gradient(135deg, #d4a017, #f5b400);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+  .brands-hero__sub {
+    max-width: 64rem;
+    margin: 0 auto 2.4rem;
+    font-size: 1.6rem;
+    line-height: 1.6;
+    color: rgba(var(--color-foreground), 0.78);
+  }
+  .brands-hero__stats {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 3.2rem;
+    margin: 2.4rem 0 2rem;
+  }
+  .brands-hero__stat-num {
+    font-size: 3.2rem;
+    font-weight: 600;
+    line-height: 1;
+    background: linear-gradient(135deg, #d4a017, #f5b400);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+  .brands-hero__stat-label {
+    font-size: 1.3rem;
+    color: rgba(var(--color-foreground), 0.65);
+    margin-top: 0.6rem;
+    letter-spacing: 0.05rem;
+  }
+  .brands-hero__cta {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.2rem;
+    margin-top: 1.6rem;
+  }
+
+  .brands-marquee-wrap {
+    margin: 0 -10vw 4rem;
+    overflow: hidden;
+    mask-image: linear-gradient(90deg, transparent, #000 8%, #000 92%, transparent);
+    -webkit-mask-image: linear-gradient(90deg, transparent, #000 8%, #000 92%, transparent);
+  }
+  .brands-marquee {
+    display: flex;
+    width: max-content;
+    animation: brands-marquee-scroll 60s linear infinite;
+    gap: 1.6rem;
+  }
+  .brands-marquee--reverse { animation-direction: reverse; animation-duration: 75s; }
+  .brands-marquee:hover { animation-play-state: paused; }
+  .brands-marquee__chip {
+    flex: 0 0 auto;
+    padding: 1rem 2rem;
+    border-radius: 999px;
+    border: 1px solid rgba(var(--color-foreground), 0.14);
+    background: rgba(var(--color-foreground), 0.02);
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: rgb(var(--color-foreground));
+    white-space: nowrap;
+    transition: transform 0.25s ease, background 0.25s ease, border-color 0.25s ease;
+  }
+  .brands-marquee__chip:hover {
+    transform: translateY(-2px);
+    border-color: #f5b400;
+    background: rgba(245, 180, 0, 0.08);
+  }
+  @keyframes brands-marquee-scroll {
+    from { transform: translateX(0); }
+    to { transform: translateX(-50%); }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .brands-marquee { animation: none; }
+  }
+
+  .brands-toolbar {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.2rem;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.4rem 0;
+    border-top: 1px solid rgba(var(--color-foreground), 0.1);
+    border-bottom: 1px solid rgba(var(--color-foreground), 0.1);
+    margin-bottom: 2.8rem;
+  }
+  .brands-search {
+    position: relative;
+    flex: 1 1 28rem;
+    max-width: 36rem;
+  }
+  .brands-search input {
+    width: 100%;
+    padding: 1rem 1.2rem 1rem 3.6rem;
+    border: 1px solid rgba(var(--color-foreground), 0.2);
+    background: transparent;
+    color: rgb(var(--color-foreground));
+    border-radius: 0.6rem;
+    font-size: 1.4rem;
+  }
+  .brands-search input:focus { outline: 2px solid #f5b400; outline-offset: 1px; }
+  .brands-search::before {
+    content: '';
+    position: absolute;
+    left: 1.2rem;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 1.6rem;
+    height: 1.6rem;
+    background: no-repeat center/contain url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23999' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Ccircle cx='11' cy='11' r='8'/%3E%3Cpath d='m21 21-4.3-4.3'/%3E%3C/svg%3E");
+    pointer-events: none;
+  }
+  .brands-filters {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.6rem;
+  }
+  .brands-filter {
+    padding: 0.7rem 1.4rem;
+    border-radius: 999px;
+    border: 1px solid rgba(var(--color-foreground), 0.16);
+    background: transparent;
+    color: rgb(var(--color-foreground));
+    font-size: 1.3rem;
+    cursor: pointer;
+    transition: all 0.2s ease;
+  }
+  .brands-filter:hover { border-color: #f5b400; }
+  .brands-filter[aria-pressed="true"] {
+    background: rgb(var(--color-foreground));
+    color: rgb(var(--color-background));
+    border-color: rgb(var(--color-foreground));
+  }
+
+  .brands-category { margin: 0 0 4rem; }
+  .brands-category__head {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 1.2rem;
+    margin-bottom: 1.6rem;
+  }
+  .brands-category__title { margin: 0; font-size: 2.4rem; }
+  .brands-category__count {
+    font-size: 1.3rem;
+    color: rgba(var(--color-foreground), 0.6);
+    padding: 0.3rem 0.9rem;
+    border-radius: 999px;
+    background: rgba(var(--color-foreground), 0.06);
+    margin-left: 0.8rem;
+  }
+  .brands-category__desc {
+    flex: 1 1 100%;
+    margin: 0 0 1.2rem;
+    color: rgba(var(--color-foreground), 0.7);
+    font-size: 1.4rem;
+    max-width: 70rem;
+  }
+
+  .brands-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(18rem, 1fr));
+    gap: 1.2rem;
+  }
+  .brand-card {
+    position: relative;
+    padding: 1.6rem 1.4rem;
+    border-radius: 0.8rem;
+    border: 1px solid rgba(var(--color-foreground), 0.1);
+    background: rgb(var(--color-background));
+    text-align: center;
+    font-size: 1.4rem;
+    font-weight: 500;
+    color: rgb(var(--color-foreground));
+    overflow: hidden;
+    opacity: 0;
+    transform: translateY(12px);
+    transition: opacity 0.5s ease, transform 0.5s ease, border-color 0.25s ease, box-shadow 0.25s ease;
+    min-height: 7rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .brand-card.is-visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  .brand-card::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(135deg, rgba(245, 180, 0, 0.0), rgba(245, 180, 0, 0.0));
+    transition: background 0.3s ease;
+    pointer-events: none;
+  }
+  .brand-card:hover {
+    border-color: #f5b400;
+    box-shadow: 0 0.6rem 2.4rem rgba(212, 160, 23, 0.18);
+    transform: translateY(-3px);
+  }
+  .brand-card:hover::before {
+    background: linear-gradient(135deg, rgba(245, 180, 0, 0.08), rgba(245, 180, 0, 0.0));
+  }
+  .brand-card--featured {
+    border-color: rgba(245, 180, 0, 0.4);
+    background: linear-gradient(135deg, rgba(245, 180, 0, 0.06), transparent);
+  }
+  .brand-card--featured::after {
+    content: '★';
+    position: absolute;
+    top: 0.6rem;
+    right: 0.8rem;
+    font-size: 1rem;
+    color: #f5b400;
+  }
+  .brand-card__name { position: relative; z-index: 1; }
+
+  .brands-section-cta {
+    margin: 4rem 0 2rem;
+    padding: 4rem 2rem;
+    border-radius: 1.2rem;
+    text-align: center;
+    background: linear-gradient(135deg, rgba(245, 180, 0, 0.12), rgba(212, 160, 23, 0.06));
+    border: 1px solid rgba(245, 180, 0, 0.25);
+  }
+  .brands-section-cta h2 { margin: 0 0 1rem; }
+  .brands-section-cta p {
+    max-width: 60rem;
+    margin: 0 auto 2rem;
+    font-size: 1.5rem;
+    color: rgba(var(--color-foreground), 0.8);
+  }
+  .brands-section-cta__actions {
+    display: flex;
+    gap: 1.2rem;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .brands-interlinks {
+    margin-top: 3rem;
+    padding: 2rem;
+    border-radius: 1rem;
+    background: rgba(var(--color-foreground), 0.03);
+  }
+  .brands-interlinks h3 { margin: 0 0 1.4rem; font-size: 1.8rem; }
+  .brands-interlinks__grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+    gap: 1rem 2rem;
+  }
+  .brands-interlinks__grid a {
+    color: rgb(var(--color-foreground));
+    text-decoration: none;
+    font-size: 1.4rem;
+    padding: 0.6rem 0;
+    border-bottom: 1px dashed rgba(var(--color-foreground), 0.18);
+    transition: color 0.2s ease, border-color 0.2s ease;
+  }
+  .brands-interlinks__grid a:hover {
+    color: #d4a017;
+    border-color: #f5b400;
+  }
+
+  .brands-empty {
+    text-align: center;
+    padding: 4rem 0;
+    color: rgba(var(--color-foreground), 0.6);
+  }
+{%- endstyle -%}
+
+<div class="color-{{ section.settings.color_scheme }} gradient section-{{ section.id }}-padding">
+  <div class="page-width">
+
+    <header class="brands-hero">
+      <span class="brands-hero__eyebrow">{{ section.settings.eyebrow | default: 'Trusted Across India' }}</span>
+      <h1 class="brands-hero__title h0">
+        {{ section.settings.heading | default: 'Brands that choose <em>Meru Trophy</em>' }}
+      </h1>
+      <p class="brands-hero__sub">
+        {{ section.settings.subheading | default: 'From Fortune 500 corporates to neighbourhood sports academies, we have crafted recognition for over 150 brands across India. Premium trophies, medals and awards delivered on time, every time.' }}
+      </p>
+      <div class="brands-hero__stats">
+        <div>
+          <div class="brands-hero__stat-num" id="brands-stat-total">150+</div>
+          <div class="brands-hero__stat-label">Client brands</div>
+        </div>
+        <div>
+          <div class="brands-hero__stat-num">4.9★</div>
+          <div class="brands-hero__stat-label">442 Google reviews</div>
+        </div>
+        <div>
+          <div class="brands-hero__stat-num">20+</div>
+          <div class="brands-hero__stat-label">Cities served</div>
+        </div>
+        <div>
+          <div class="brands-hero__stat-num">25+</div>
+          <div class="brands-hero__stat-label">Years of craft</div>
+        </div>
+      </div>
+      <div class="brands-hero__cta">
+        <a href="{{ section.settings.cta_primary_link | default: '/collections/all' }}" class="button button--primary">
+          {{ section.settings.cta_primary_label | default: 'Explore Trophies' }}
+        </a>
+        <a href="{{ section.settings.cta_secondary_link | default: 'tel:+917892207252' }}" class="button button--secondary">
+          {{ section.settings.cta_secondary_label | default: 'Get a Custom Quote' }}
+        </a>
+      </div>
+    </header>
+
+    <div class="brands-marquee-wrap" aria-hidden="true">
+      <div class="brands-marquee" id="brands-marquee-row1"></div>
+    </div>
+    <div class="brands-marquee-wrap" aria-hidden="true">
+      <div class="brands-marquee brands-marquee--reverse" id="brands-marquee-row2"></div>
+    </div>
+
+    <div class="brands-toolbar">
+      <div class="brands-search">
+        <label for="brands-search-input" class="visually-hidden">Search brands</label>
+        <input id="brands-search-input" type="search" placeholder="Search brands — Tanishq, HDFC, Amazon…" autocomplete="off">
+      </div>
+      <div class="brands-filters" id="brands-filters" role="group" aria-label="Filter by category">
+        <button class="brands-filter" type="button" data-cat="all" aria-pressed="true">All</button>
+      </div>
+    </div>
+
+    <div id="brands-categories"></div>
+    <div class="brands-empty" id="brands-empty" hidden>No brands match your search.</div>
+
+    <section class="brands-section-cta" aria-labelledby="brands-cta-title">
+      <h2 id="brands-cta-title" class="h2">Join 150+ brands. Award your team.</h2>
+      <p>Custom-engraved crystal awards, eco-friendly wooden plaques, gold-plated medals and bespoke corporate gifting. Free design preview · Pan-India delivery · Same-day pickup in Bangalore.</p>
+      <div class="brands-section-cta__actions">
+        <a href="{{ section.settings.bottom_cta_primary_link | default: '/collections/corporate-and-college-premium-trophies' }}" class="button button--primary">
+          {{ section.settings.bottom_cta_primary_label | default: 'Browse Corporate Awards' }}
+        </a>
+        <a href="{{ section.settings.bottom_cta_secondary_link | default: 'https://wa.me/917892207252' }}" class="button button--secondary" target="_blank" rel="noopener">
+          {{ section.settings.bottom_cta_secondary_label | default: 'WhatsApp Us' }}
+        </a>
+      </div>
+    </section>
+
+    <aside class="brands-interlinks">
+      <h3>Browse by category</h3>
+      <div class="brands-interlinks__grid">
+        <a href="/collections/crystal-trophies">Crystal Trophies</a>
+        <a href="/collections/acrylic-trophies">Acrylic Trophies</a>
+        <a href="/collections/medals">Medals</a>
+        <a href="/collections/corporate-and-college-premium-trophies">Corporate &amp; College Awards</a>
+        <a href="/collections/all">All Collections</a>
+        <a href="/pages/gallery">Past Work Gallery</a>
+        <a href="/pages/reviews">Customer Reviews (4.9★)</a>
+        <a href="/pages/trophies-in-bangalore">Trophy Shop in Bangalore</a>
+        <a href="/pages/trophies-in-hyderabad">Trophy Shop in Hyderabad</a>
+        <a href="/pages/trophies-in-delhi">Trophy Shop in Delhi</a>
+        <a href="/pages/trophies-in-mumbai">Trophy Shop in Mumbai</a>
+        <a href="/pages/contact">Contact / Custom Quote</a>
+      </div>
+    </aside>
+
+  </div>
+</div>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Meru Trophy",
+  "url": "{{ shop.url }}",
+  "logo": "{{ 'logo.png' | asset_url }}",
+  "description": "Premium trophy, medal and corporate award manufacturer trusted by 150+ brands across India.",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "#273/2, SC Road, 2nd Cross, 1st Floor, Near Annamma Temple, Gandhinagar",
+    "addressLocality": "Bangalore",
+    "postalCode": "560009",
+    "addressRegion": "Karnataka",
+    "addressCountry": "IN"
+  },
+  "telephone": "+91-7892207252",
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.9",
+    "reviewCount": "442",
+    "bestRating": "5"
+  }
+}
+</script>
+
+<script>
+  (function () {
+    var DATA_URL = '{{ 'brands-data.json' | asset_url }}';
+    var marquee1 = document.getElementById('brands-marquee-row1');
+    var marquee2 = document.getElementById('brands-marquee-row2');
+    var catsHost = document.getElementById('brands-categories');
+    var filtersHost = document.getElementById('brands-filters');
+    var searchInput = document.getElementById('brands-search-input');
+    var statTotal = document.getElementById('brands-stat-total');
+    var emptyEl = document.getElementById('brands-empty');
+
+    var STATE = { data: null, filter: 'all', query: '' };
+
+    function esc(s) {
+      return String(s || '').replace(/[&<>"']/g, function (c) {
+        return { '&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;' }[c];
+      });
+    }
+
+    function buildMarquees(categories) {
+      var featured = [];
+      var all = [];
+      categories.forEach(function (cat) {
+        cat.brands.forEach(function (b) {
+          all.push(b.name);
+          if (b.featured) featured.push(b.name);
+        });
+      });
+      if (featured.length < 12) featured = all.slice();
+      // shuffle for visual variety
+      function shuf(arr) {
+        var a = arr.slice();
+        for (var i = a.length - 1; i > 0; i--) {
+          var j = Math.floor(Math.random() * (i + 1));
+          var t = a[i]; a[i] = a[j]; a[j] = t;
+        }
+        return a;
+      }
+      var row1 = shuf(featured);
+      var row2 = shuf(all).slice(0, 30);
+      function buildHtml(names) {
+        var html = '';
+        var doubled = names.concat(names);
+        doubled.forEach(function (n) {
+          html += '<span class="brands-marquee__chip">' + esc(n) + '</span>';
+        });
+        return html;
+      }
+      marquee1.innerHTML = buildHtml(row1);
+      marquee2.innerHTML = buildHtml(row2);
+    }
+
+    function buildFilters(categories) {
+      categories.forEach(function (cat) {
+        var btn = document.createElement('button');
+        btn.type = 'button';
+        btn.className = 'brands-filter';
+        btn.dataset.cat = cat.slug;
+        btn.setAttribute('aria-pressed', 'false');
+        btn.textContent = cat.name + ' (' + cat.brands.length + ')';
+        filtersHost.appendChild(btn);
+      });
+      filtersHost.addEventListener('click', function (e) {
+        var b = e.target.closest('.brands-filter');
+        if (!b) return;
+        STATE.filter = b.dataset.cat;
+        filtersHost.querySelectorAll('.brands-filter').forEach(function (x) {
+          x.setAttribute('aria-pressed', x === b ? 'true' : 'false');
+        });
+        render();
+      });
+    }
+
+    function brandMatches(b) {
+      if (!STATE.query) return true;
+      return b.name.toLowerCase().indexOf(STATE.query) !== -1;
+    }
+
+    function render() {
+      catsHost.innerHTML = '';
+      var totalShown = 0;
+      STATE.data.categories.forEach(function (cat) {
+        if (STATE.filter !== 'all' && STATE.filter !== cat.slug) return;
+        var visible = cat.brands.filter(brandMatches);
+        if (!visible.length) return;
+        var html = '<section class="brands-category" data-slug="' + esc(cat.slug) + '">' +
+          '<header class="brands-category__head">' +
+            '<h2 class="brands-category__title">' + esc(cat.name) +
+              '<span class="brands-category__count">' + visible.length + '</span>' +
+            '</h2>' +
+          '</header>' +
+          '<p class="brands-category__desc">' + esc(cat.description || '') + '</p>' +
+          '<div class="brands-grid">' +
+            visible.map(function (b) {
+              var cls = 'brand-card' + (b.featured ? ' brand-card--featured' : '');
+              var inner = '<span class="brand-card__name">' + esc(b.name) + '</span>';
+              if (b.website) {
+                return '<a class="' + cls + '" href="' + esc(b.website) + '" target="_blank" rel="noopener">' + inner + '</a>';
+              }
+              return '<div class="' + cls + '" tabindex="0">' + inner + '</div>';
+            }).join('') +
+          '</div>' +
+        '</section>';
+        catsHost.insertAdjacentHTML('beforeend', html);
+        totalShown += visible.length;
+      });
+      emptyEl.hidden = totalShown > 0;
+      observeCards();
+    }
+
+    function observeCards() {
+      var cards = catsHost.querySelectorAll('.brand-card');
+      if (!('IntersectionObserver' in window)) {
+        cards.forEach(function (c) { c.classList.add('is-visible'); });
+        return;
+      }
+      var io = new IntersectionObserver(function (entries) {
+        entries.forEach(function (e, i) {
+          if (e.isIntersecting) {
+            setTimeout(function () { e.target.classList.add('is-visible'); }, (i % 12) * 35);
+            io.unobserve(e.target);
+          }
+        });
+      }, { rootMargin: '0px 0px -40px 0px', threshold: 0.05 });
+      cards.forEach(function (c) { io.observe(c); });
+    }
+
+    searchInput.addEventListener('input', function () {
+      STATE.query = searchInput.value.trim().toLowerCase();
+      render();
+    });
+
+    fetch(DATA_URL).then(function (r) { return r.json(); }).then(function (data) {
+      STATE.data = data;
+      var total = 0;
+      data.categories.forEach(function (c) { total += c.brands.length; });
+      if (statTotal) statTotal.textContent = total + '+';
+      buildMarquees(data.categories);
+      buildFilters(data.categories);
+      render();
+    }).catch(function () {
+      emptyEl.hidden = false;
+      emptyEl.textContent = 'Brands list could not be loaded.';
+    });
+  })();
+</script>
+
+{% schema %}
+{
+  "name": "Brands page",
+  "tag": "section",
+  "class": "section",
+  "settings": [
+    {
+      "type": "text",
+      "id": "eyebrow",
+      "label": "Eyebrow text",
+      "default": "Trusted Across India"
+    },
+    {
+      "type": "richtext",
+      "id": "heading",
+      "label": "Heading (HTML allowed, use <em> for highlight)",
+      "default": "<h1>Brands that choose <em>Meru Trophy</em></h1>"
+    },
+    {
+      "type": "textarea",
+      "id": "subheading",
+      "label": "Subheading"
+    },
+    {
+      "type": "header",
+      "content": "Top CTA"
+    },
+    {
+      "type": "text",
+      "id": "cta_primary_label",
+      "label": "Primary CTA label",
+      "default": "Explore Trophies"
+    },
+    {
+      "type": "text",
+      "id": "cta_primary_link",
+      "label": "Primary CTA link",
+      "default": "/collections/all"
+    },
+    {
+      "type": "text",
+      "id": "cta_secondary_label",
+      "label": "Secondary CTA label",
+      "default": "Get a Custom Quote"
+    },
+    {
+      "type": "text",
+      "id": "cta_secondary_link",
+      "label": "Secondary CTA link",
+      "default": "tel:+917892207252"
+    },
+    {
+      "type": "header",
+      "content": "Bottom CTA"
+    },
+    {
+      "type": "text",
+      "id": "bottom_cta_primary_label",
+      "label": "Primary CTA label",
+      "default": "Browse Corporate Awards"
+    },
+    {
+      "type": "text",
+      "id": "bottom_cta_primary_link",
+      "label": "Primary CTA link",
+      "default": "/collections/corporate-and-college-premium-trophies"
+    },
+    {
+      "type": "text",
+      "id": "bottom_cta_secondary_label",
+      "label": "Secondary CTA label",
+      "default": "WhatsApp Us"
+    },
+    {
+      "type": "text",
+      "id": "bottom_cta_secondary_link",
+      "label": "Secondary CTA link",
+      "default": "https://wa.me/917892207252"
+    },
+    {
+      "type": "header",
+      "content": "Appearance"
+    },
+    {
+      "type": "color_scheme",
+      "id": "color_scheme",
+      "label": "Color scheme",
+      "default": "scheme-1"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "Top padding",
+      "default": 24
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "Bottom padding",
+      "default": 60
+    }
+  ],
+  "presets": [
+    { "name": "Brands page", "category": "Custom" }
+  ]
+}
+{% endschema %}

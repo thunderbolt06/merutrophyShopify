@@ -1,0 +1,373 @@
+{%- style -%}
+  .section-{{ section.id }}-padding {
+    padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
+    padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
+  }
+  @media screen and (min-width: 750px) {
+    .section-{{ section.id }}-padding {
+      padding-top: {{ section.settings.padding_top }}px;
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+  }
+
+  .clients-marquee__wrap {
+    text-align: center;
+  }
+  .clients-marquee__eyebrow {
+    display: inline-block;
+    font-size: 1.2rem;
+    letter-spacing: 0.3rem;
+    text-transform: uppercase;
+    color: rgba(var(--color-foreground), 0.55);
+    margin-bottom: 1rem;
+  }
+  .clients-marquee__title {
+    margin: 0 0 0.8rem;
+    font-size: clamp(2rem, 3.4vw, 3.2rem);
+    line-height: 1.15;
+  }
+  .clients-marquee__title em {
+    font-style: normal;
+    background: linear-gradient(135deg, #d4a017, #f5b400);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+  .clients-marquee__subtitle {
+    margin: 0 auto 2.4rem;
+    max-width: 60rem;
+    font-size: 1.5rem;
+    color: rgba(var(--color-foreground), 0.7);
+  }
+
+  .clients-marquee__track-wrap {
+    position: relative;
+    width: 100vw;
+    margin-left: calc(50% - 50vw);
+    overflow: hidden;
+    padding: 1.2rem 0;
+    mask-image: linear-gradient(90deg, transparent, #000 6%, #000 94%, transparent);
+    -webkit-mask-image: linear-gradient(90deg, transparent, #000 6%, #000 94%, transparent);
+  }
+  .clients-marquee__track {
+    display: flex;
+    width: max-content;
+    gap: 4.8rem;
+    align-items: center;
+    animation: clients-scroll var(--marquee-speed, 50s) linear infinite;
+  }
+  .clients-marquee__track--reverse {
+    animation-direction: reverse;
+    animation-duration: 65s;
+  }
+  .clients-marquee__track:hover { animation-play-state: paused; }
+  @keyframes clients-scroll {
+    from { transform: translateX(0); }
+    to { transform: translateX(-50%); }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .clients-marquee__track { animation: none; }
+  }
+
+  .clients-marquee__logo {
+    flex: 0 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 7rem;
+    min-width: 12rem;
+    padding: 0 1.6rem;
+    position: relative;
+    transition: transform 0.3s ease;
+  }
+  .clients-marquee__logo img {
+    max-height: 100%;
+    max-width: 18rem;
+    width: auto;
+    object-fit: contain;
+    filter: grayscale(100%) brightness(0.85);
+    opacity: 0.7;
+    transition: filter 0.35s ease, opacity 0.35s ease, transform 0.35s ease;
+  }
+  .clients-marquee__logo:hover img {
+    filter: grayscale(0%) brightness(1);
+    opacity: 1;
+    transform: scale(1.08);
+  }
+  .clients-marquee__logo--text {
+    font-size: 1.6rem;
+    font-weight: 600;
+    letter-spacing: 0.02rem;
+    color: rgba(var(--color-foreground), 0.7);
+    white-space: nowrap;
+    border: 1px solid rgba(var(--color-foreground), 0.12);
+    border-radius: 999px;
+    padding: 0.8rem 1.8rem;
+    height: auto;
+    min-width: 0;
+    transition: color 0.3s ease, border-color 0.3s ease, background 0.3s ease, transform 0.3s ease;
+  }
+  .clients-marquee__logo--text:hover {
+    color: rgb(var(--color-foreground));
+    border-color: #f5b400;
+    background: rgba(245, 180, 0, 0.06);
+    transform: translateY(-2px);
+  }
+
+  .clients-marquee__cta {
+    margin-top: 2.6rem;
+    display: flex;
+    justify-content: center;
+    gap: 1.2rem;
+    flex-wrap: wrap;
+  }
+  .clients-marquee__stats {
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2.4rem;
+    margin-top: 1.8rem;
+    font-size: 1.3rem;
+    color: rgba(var(--color-foreground), 0.65);
+  }
+  .clients-marquee__stats strong {
+    color: rgb(var(--color-foreground));
+    font-weight: 600;
+  }
+{%- endstyle -%}
+
+{%- liquid
+  assign image_blocks = section.blocks | where: 'type', 'logo'
+  assign text_brands = section.settings.text_brands | default: 'Tanishq · HDFC Bank · Amazon · ITC · Titan · Caratlane · Kalyan Jewellers · Maruti Suzuki · Mercedes Benz · Schneider Electric · Cadbury · Lifestyle · Indian Express · HCL · Infosys · Jio · SBI · Patanjali · Decathlon · KSCA · HAL · Indian Railways · RVCE · Foxconn · Mondelez · Coursera · Razorpay · CRED · Postman' | split: '·'
+-%}
+
+<div class="color-{{ section.settings.color_scheme }} gradient section-{{ section.id }}-padding">
+  <div class="page-width clients-marquee__wrap">
+    {%- if section.settings.eyebrow != blank -%}
+      <span class="clients-marquee__eyebrow">{{ section.settings.eyebrow }}</span>
+    {%- endif -%}
+    {%- if section.settings.title != blank -%}
+      <h2 class="clients-marquee__title">{{ section.settings.title }}</h2>
+    {%- endif -%}
+    {%- if section.settings.subtitle != blank -%}
+      <p class="clients-marquee__subtitle">{{ section.settings.subtitle }}</p>
+    {%- endif -%}
+  </div>
+
+  {%- if image_blocks.size > 0 -%}
+    <div class="clients-marquee__track-wrap" style="--marquee-speed: {{ section.settings.speed | default: 50 }}s;">
+      <div class="clients-marquee__track">
+        {%- for block in image_blocks -%}
+          {%- if block.settings.link != blank -%}
+            <a href="{{ block.settings.link }}" class="clients-marquee__logo" aria-label="{{ block.settings.alt | default: 'Client logo' | escape }}">
+              {%- if block.settings.image -%}
+                {{ block.settings.image | image_url: width: 360 | image_tag: loading: 'lazy', widths: '180,360', alt: block.settings.alt | default: 'Client logo' }}
+              {%- endif -%}
+            </a>
+          {%- else -%}
+            <div class="clients-marquee__logo">
+              {%- if block.settings.image -%}
+                {{ block.settings.image | image_url: width: 360 | image_tag: loading: 'lazy', widths: '180,360', alt: block.settings.alt | default: 'Client logo' }}
+              {%- endif -%}
+            </div>
+          {%- endif -%}
+        {%- endfor -%}
+        {%- comment -%} duplicate for seamless loop {%- endcomment -%}
+        {%- for block in image_blocks -%}
+          <div class="clients-marquee__logo" aria-hidden="true">
+            {%- if block.settings.image -%}
+              {{ block.settings.image | image_url: width: 360 | image_tag: loading: 'lazy', widths: '180,360', alt: '' }}
+            {%- endif -%}
+          </div>
+        {%- endfor -%}
+      </div>
+    </div>
+  {%- endif -%}
+
+  {%- if section.settings.show_text_row and text_brands.size > 0 -%}
+    <div class="clients-marquee__track-wrap" aria-hidden="true">
+      <div class="clients-marquee__track clients-marquee__track--reverse">
+        {%- for brand in text_brands -%}
+          <span class="clients-marquee__logo clients-marquee__logo--text">{{ brand | strip }}</span>
+        {%- endfor -%}
+        {%- for brand in text_brands -%}
+          <span class="clients-marquee__logo clients-marquee__logo--text">{{ brand | strip }}</span>
+        {%- endfor -%}
+      </div>
+    </div>
+  {%- endif -%}
+
+  <div class="page-width">
+    {%- if section.settings.show_stats -%}
+      <div class="clients-marquee__stats">
+        <span><strong>150+</strong> brands</span>
+        <span><strong>4.9★</strong> · 442 Google reviews</span>
+        <span><strong>20+</strong> cities</span>
+      </div>
+    {%- endif -%}
+    {%- if section.settings.cta_label != blank -%}
+      <div class="clients-marquee__cta">
+        <a href="{{ section.settings.cta_link | default: '/pages/brands' }}" class="button button--primary">
+          {{ section.settings.cta_label }}
+        </a>
+        {%- if section.settings.cta2_label != blank -%}
+          <a href="{{ section.settings.cta2_link | default: '/pages/reviews' }}" class="button button--secondary">
+            {{ section.settings.cta2_label }}
+          </a>
+        {%- endif -%}
+      </div>
+    {%- endif -%}
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Clients marquee",
+  "tag": "section",
+  "class": "section",
+  "max_blocks": 30,
+  "settings": [
+    {
+      "type": "text",
+      "id": "eyebrow",
+      "label": "Eyebrow text",
+      "default": "Our Clients"
+    },
+    {
+      "type": "inline_richtext",
+      "id": "title",
+      "label": "Title",
+      "default": "Trusted by <em>150+ brands</em> across India"
+    },
+    {
+      "type": "text",
+      "id": "subtitle",
+      "label": "Subtitle",
+      "default": "From Fortune 500 corporates to neighbourhood sports academies."
+    },
+    {
+      "type": "range",
+      "id": "speed",
+      "min": 20,
+      "max": 120,
+      "step": 5,
+      "unit": "s",
+      "label": "Scroll duration (lower = faster)",
+      "default": 50
+    },
+    {
+      "type": "checkbox",
+      "id": "show_text_row",
+      "label": "Show a second row of brand name chips",
+      "default": true
+    },
+    {
+      "type": "textarea",
+      "id": "text_brands",
+      "label": "Brand name chips (separated by ·)",
+      "default": "Tanishq · HDFC Bank · Amazon · ITC · Titan · Caratlane · Kalyan Jewellers · Maruti Suzuki · Mercedes Benz · Schneider Electric · Cadbury · Lifestyle · Indian Express · HCL · Infosys · Jio · SBI · Patanjali · Decathlon · KSCA · HAL · Indian Railways · RVCE · Foxconn · Mondelez · Coursera · Razorpay · CRED · Postman"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_stats",
+      "label": "Show stats row",
+      "default": true
+    },
+    {
+      "type": "header",
+      "content": "CTA"
+    },
+    {
+      "type": "text",
+      "id": "cta_label",
+      "label": "Primary CTA label",
+      "default": "View All Brands"
+    },
+    {
+      "type": "text",
+      "id": "cta_link",
+      "label": "Primary CTA link",
+      "default": "/pages/brands"
+    },
+    {
+      "type": "text",
+      "id": "cta2_label",
+      "label": "Secondary CTA label",
+      "default": "Read Reviews (4.9★)"
+    },
+    {
+      "type": "text",
+      "id": "cta2_link",
+      "label": "Secondary CTA link",
+      "default": "/pages/reviews"
+    },
+    {
+      "type": "header",
+      "content": "Appearance"
+    },
+    {
+      "type": "color_scheme",
+      "id": "color_scheme",
+      "label": "Color scheme",
+      "default": "scheme-1"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "Top padding",
+      "default": 32
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "Bottom padding",
+      "default": 32
+    }
+  ],
+  "blocks": [
+    {
+      "type": "logo",
+      "name": "Client logo",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Logo image"
+        },
+        {
+          "type": "text",
+          "id": "alt",
+          "label": "Brand name (alt text)"
+        },
+        {
+          "type": "url",
+          "id": "link",
+          "label": "Optional link"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Clients marquee",
+      "category": "Custom",
+      "blocks": [
+        { "type": "logo" },
+        { "type": "logo" },
+        { "type": "logo" },
+        { "type": "logo" },
+        { "type": "logo" },
+        { "type": "logo" }
+      ]
+    }
+  ]
+}
+{% endschema %}
