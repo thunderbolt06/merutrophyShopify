@@ -42,8 +42,8 @@
         "button"
       ],
       "settings": {
-        "image": "shopify://shop_images/Meru_Trophy_conceptual_store_image.png",
-        "image_overlay_opacity": 70,
+        "image": "shopify://shop_images/Meru_Trophy_Conceptual_Store.png",
+        "image_overlay_opacity": 50,
         "image_height": "small",
         "desktop_content_position": "bottom-center",
         "show_text_box": false,
