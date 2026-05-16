@@ -1,0 +1,194 @@
+{%- style -%}
+  .section-{{ section.id }}-padding {
+    padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
+    padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
+  }
+  @media screen and (min-width: 750px) {
+    .section-{{ section.id }}-padding {
+      padding-top: {{ section.settings.padding_top }}px;
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+  }
+
+  .htoc__head { text-align: center; margin-bottom: 3rem; }
+  .htoc__eyebrow {
+    display: inline-block; font-size: 1.2rem; letter-spacing: 0.3rem;
+    text-transform: uppercase; color: rgba(var(--color-foreground), 0.6);
+    margin-bottom: 0.8rem;
+  }
+  .htoc__title { margin: 0 0 0.8rem; font-size: clamp(2.2rem, 3.6vw, 3.2rem); line-height: 1.15; }
+  .htoc__title em {
+    font-style: normal;
+    background: linear-gradient(135deg, #d4a017, #f5b400);
+    -webkit-background-clip: text; background-clip: text; color: transparent;
+  }
+  .htoc__sub { margin: 0 auto; max-width: 56rem; font-size: 1.5rem; color: rgba(var(--color-foreground), 0.72); }
+
+  .htoc__rail {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.2rem;
+    margin-bottom: 3rem;
+  }
+  @media (min-width: 750px) { .htoc__rail { grid-template-columns: repeat(4, 1fr); gap: 1.6rem; } }
+
+  .htoc__step {
+    position: relative;
+    padding: 2rem 1.4rem 1.6rem;
+    border-radius: 1rem;
+    background: rgb(var(--color-background));
+    border: 1px solid rgba(var(--color-foreground), 0.1);
+    text-align: center;
+    transition: transform 0.4s cubic-bezier(0.2, 0.8, 0.2, 1), border-color 0.3s ease, box-shadow 0.3s ease;
+    opacity: 0; transform: translateY(12px);
+  }
+  .htoc__step.is-visible { opacity: 1; transform: translateY(0); }
+  .htoc__step:hover {
+    transform: translateY(-4px);
+    border-color: rgba(245, 180, 0, 0.5);
+    box-shadow: 0 0.6rem 2rem rgba(212, 160, 23, 0.12);
+  }
+  .htoc__num {
+    position: absolute; top: -1.4rem; left: 50%; transform: translateX(-50%);
+    width: 2.8rem; height: 2.8rem; border-radius: 50%;
+    background: linear-gradient(135deg, #d4a017, #f5b400);
+    color: #1a1a2e; font-weight: 700; font-size: 1.3rem;
+    display: flex; align-items: center; justify-content: center;
+    box-shadow: 0 0.4rem 1rem rgba(212, 160, 23, 0.4);
+  }
+  .htoc__icon {
+    width: 3.2rem; height: 3.2rem; margin: 1rem auto 1rem;
+    color: #d4a017;
+    display: flex; align-items: center; justify-content: center;
+  }
+  .htoc__step h3 { margin: 0 0 0.4rem; font-size: 1.4rem; font-weight: 600; }
+  .htoc__step p { margin: 0; font-size: 1.25rem; line-height: 1.5; color: rgba(var(--color-foreground), 0.7); }
+
+  .htoc__connector {
+    display: none;
+  }
+  @media (min-width: 750px) {
+    .htoc__connector {
+      display: block; position: absolute;
+      top: 2.8rem; right: -1.6rem; width: 1.6rem; height: 2px;
+      background: linear-gradient(90deg, rgba(245, 180, 0, 0.5), rgba(212, 160, 23, 0.1));
+      z-index: 0;
+    }
+  }
+
+  .htoc__cta {
+    text-align: center;
+    margin-top: 2rem;
+    padding: 3rem 2rem; border-radius: 1.2rem;
+    background: linear-gradient(135deg, rgba(245, 180, 0, 0.1), rgba(116, 73, 200, 0.06));
+    border: 1px solid rgba(245, 180, 0, 0.22);
+  }
+  .htoc__cta h3 { margin: 0 0 0.8rem; font-size: 2rem; }
+  .htoc__cta p { margin: 0 auto 1.8rem; max-width: 56rem; font-size: 1.45rem; color: rgba(var(--color-foreground), 0.78); }
+  .htoc__cta__actions { display: flex; justify-content: center; gap: 1rem; flex-wrap: wrap; }
+  .htoc__cta__detail-link {
+    display: inline-block; margin-top: 1.2rem; font-size: 1.3rem;
+    color: #d4a017; font-weight: 600;
+  }
+  .htoc__cta__detail-link::after { content: ' →'; transition: margin-left 0.2s ease; }
+  .htoc__cta__detail-link:hover::after { margin-left: 4px; }
+{%- endstyle -%}
+
+<div class="color-{{ section.settings.color_scheme }} gradient section-{{ section.id }}-padding">
+  <div class="page-width">
+    <header class="htoc__head">
+      <span class="htoc__eyebrow">{{ section.settings.eyebrow | default: 'How to Order' }}</span>
+      <h2 class="htoc__title">{{ section.settings.title | default: 'Custom trophies, the <em>easy way</em>' }}</h2>
+      <p class="htoc__sub">{{ section.settings.subtitle | default: 'Four simple steps from your first WhatsApp to a trophy in your hand. Most orders ship in 5–7 days.' }}</p>
+    </header>
+
+    <div class="htoc__rail">
+      <article class="htoc__step">
+        <div class="htoc__num">1</div>
+        <div class="htoc__icon" aria-hidden="true">
+          <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/></svg>
+        </div>
+        <h3>Tell us</h3>
+        <p>WhatsApp, call or fill the form. Share the event, quantity and any reference images.</p>
+        <div class="htoc__connector" aria-hidden="true"></div>
+      </article>
+
+      <article class="htoc__step">
+        <div class="htoc__num">2</div>
+        <div class="htoc__icon" aria-hidden="true">
+          <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+        </div>
+        <h3>Pick & customise</h3>
+        <p>We send catalog + past work. You shortlist. We finalise engraving, finish and quote.</p>
+        <div class="htoc__connector" aria-hidden="true"></div>
+      </article>
+
+      <article class="htoc__step">
+        <div class="htoc__num">3</div>
+        <div class="htoc__icon" aria-hidden="true">
+          <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg>
+        </div>
+        <h3>We craft it</h3>
+        <p>Mockup approved → hand-crafted in our Bangalore workshop → final QC.</p>
+        <div class="htoc__connector" aria-hidden="true"></div>
+      </article>
+
+      <article class="htoc__step">
+        <div class="htoc__num">4</div>
+        <div class="htoc__icon" aria-hidden="true">
+          <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="1" y="3" width="15" height="13"/><polygon points="16 8 20 8 23 11 23 16 16 16 16 8"/><circle cx="5.5" cy="18.5" r="2.5"/><circle cx="18.5" cy="18.5" r="2.5"/></svg>
+        </div>
+        <h3>Delivered</h3>
+        <p>Safe-packed, tracked. 2 days in Bengaluru · 5 days in Karnataka · 2 weeks pan-India.</p>
+      </article>
+    </div>
+
+    <div class="htoc__cta">
+      <h3>Most orders go from enquiry to delivery in under a week.</h3>
+      <p>Tell us about your event and we will share a quote, design preview and timeline — typically within an hour.</p>
+      <div class="htoc__cta__actions">
+        <a href="https://wa.me/917892207252?text=Hi%20Meru%20Trophy%2C%20I%27d%20like%20to%20order..." target="_blank" rel="noopener" class="button button--primary">WhatsApp to Start</a>
+        <a href="tel:+917892207252" class="button button--secondary">Call +91 78922 07252</a>
+        <a href="/pages/contact" class="button button--secondary">Get a Quote</a>
+      </div>
+      <a class="htoc__cta__detail-link" href="{{ section.settings.detail_link | default: '/pages/howtoorder' }}">{{ section.settings.detail_label | default: 'See the full 9-step process' }}</a>
+    </div>
+  </div>
+</div>
+
+<script>
+  (function () {
+    var steps = document.querySelectorAll('.htoc__step');
+    if (!('IntersectionObserver' in window)) {
+      steps.forEach(function (s) { s.classList.add('is-visible'); }); return;
+    }
+    var io = new IntersectionObserver(function (entries) {
+      entries.forEach(function (e, i) {
+        if (e.isIntersecting) {
+          setTimeout(function () { e.target.classList.add('is-visible'); }, (i % 4) * 90);
+          io.unobserve(e.target);
+        }
+      });
+    }, { threshold: 0.2, rootMargin: '0px 0px -30px 0px' });
+    steps.forEach(function (s) { io.observe(s); });
+  })();
+</script>
+
+{% schema %}
+{
+  "name": "How to order (compact)",
+  "tag": "section",
+  "class": "section",
+  "settings": [
+    { "type": "text", "id": "eyebrow", "label": "Eyebrow", "default": "How to Order" },
+    { "type": "inline_richtext", "id": "title", "label": "Title", "default": "Custom trophies, the <em>easy way</em>" },
+    { "type": "text", "id": "subtitle", "label": "Subtitle", "default": "Four simple steps from your first WhatsApp to a trophy in your hand. Most orders ship in 5–7 days." },
+    { "type": "text", "id": "detail_label", "label": "Detail link label", "default": "See the full 9-step process" },
+    { "type": "text", "id": "detail_link", "label": "Detail link URL", "default": "/pages/howtoorder" },
+    { "type": "color_scheme", "id": "color_scheme", "label": "Color scheme", "default": "scheme-1" },
+    { "type": "range", "id": "padding_top", "min": 0, "max": 100, "step": 4, "unit": "px", "label": "Top padding", "default": 40 },
+    { "type": "range", "id": "padding_bottom", "min": 0, "max": 100, "step": 4, "unit": "px", "label": "Bottom padding", "default": 40 }
+  ],
+  "presets": [ { "name": "How to order (compact)", "category": "Custom" } ]
+}
+{% endschema %}

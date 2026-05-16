@@ -1,0 +1,409 @@
+{%- style -%}
+  .section-{{ section.id }}-padding {
+    padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
+    padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
+  }
+  @media screen and (min-width: 750px) {
+    .section-{{ section.id }}-padding {
+      padding-top: {{ section.settings.padding_top }}px;
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+  }
+
+  .hcs__head {
+    display: flex; align-items: flex-end; justify-content: space-between;
+    flex-wrap: wrap; gap: 1.6rem; margin-bottom: 3rem;
+  }
+  .hcs__head-text { max-width: 64rem; }
+  .hcs__eyebrow {
+    display: inline-block; font-size: 1.2rem; letter-spacing: 0.3rem;
+    text-transform: uppercase; color: rgba(var(--color-foreground), 0.6);
+    margin-bottom: 1rem;
+  }
+  .hcs__title { margin: 0 0 0.8rem; font-size: clamp(2.2rem, 3.6vw, 3.4rem); line-height: 1.15; }
+  .hcs__title em {
+    font-style: normal;
+    background: linear-gradient(135deg, #d4a017, #f5b400);
+    -webkit-background-clip: text; background-clip: text; color: transparent;
+  }
+  .hcs__sub { margin: 0; font-size: 1.5rem; color: rgba(var(--color-foreground), 0.72); }
+  .hcs__seemore { white-space: nowrap; }
+
+  .hcs__stage {
+    position: relative;
+    border-radius: 1.6rem; overflow: hidden;
+    background: rgb(var(--color-background));
+    border: 1px solid rgba(var(--color-foreground), 0.1);
+    box-shadow: 0 1rem 4rem rgba(0,0,0,0.06);
+    isolation: isolate;
+  }
+  .hcs__viewport {
+    position: relative;
+    aspect-ratio: 16 / 11;
+  }
+  @media (min-width: 750px) { .hcs__viewport { aspect-ratio: 16 / 9; } }
+  @media (min-width: 990px) { .hcs__viewport { aspect-ratio: 21 / 9; min-height: 46rem; } }
+
+  .hcs__slide {
+    position: absolute; inset: 0;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr auto;
+    opacity: 0;
+    transform: translateX(40px);
+    transition: opacity 0.7s ease, transform 0.7s cubic-bezier(0.2, 0.8, 0.2, 1);
+    pointer-events: none;
+    text-decoration: none;
+    color: rgb(var(--color-foreground));
+  }
+  @media (min-width: 750px) {
+    .hcs__slide {
+      grid-template-columns: 1.05fr 1fr;
+      grid-template-rows: 1fr;
+    }
+  }
+  .hcs__slide.is-active {
+    opacity: 1; transform: translateX(0); pointer-events: auto; z-index: 2;
+  }
+  .hcs__slide.is-leaving {
+    opacity: 0; transform: translateX(-40px); z-index: 1;
+  }
+
+  .hcs__media {
+    position: relative;
+    overflow: hidden;
+    background: linear-gradient(135deg, #1a1a2e 0%, #2d1b4e 50%, #d4a017 130%);
+  }
+  .hcs__media img {
+    width: 100%; height: 100%; object-fit: cover;
+    transition: transform 1.4s cubic-bezier(0.2, 0.8, 0.2, 1);
+  }
+  .hcs__slide:hover .hcs__media img { transform: scale(1.04); }
+  .hcs__media--noimg {
+    display: flex; align-items: center; justify-content: center;
+    color: rgba(255,255,255,0.92); text-align: center; padding: 2rem;
+  }
+  .hcs__media--noimg::before {
+    content: ''; position: absolute; inset: 0;
+    background:
+      radial-gradient(circle at 20% 80%, rgba(245, 180, 0, 0.3), transparent 50%),
+      radial-gradient(circle at 80% 20%, rgba(116, 73, 200, 0.35), transparent 50%);
+  }
+  .hcs__media-tag {
+    position: absolute; top: 1.4rem; left: 1.4rem; z-index: 1;
+    background: rgba(0,0,0,0.55); backdrop-filter: blur(8px); -webkit-backdrop-filter: blur(8px);
+    color: #fff; font-size: 1.15rem; padding: 0.5rem 1rem; border-radius: 999px;
+    letter-spacing: 0.08rem; text-transform: uppercase;
+  }
+  .hcs__media-year {
+    position: absolute; bottom: 1.4rem; right: 1.4rem; z-index: 1;
+    background: rgba(245, 180, 0, 0.95); color: #1a1a2e;
+    font-weight: 700; padding: 0.5rem 1rem; border-radius: 0.4rem;
+    font-size: 1.4rem;
+  }
+
+  .hcs__copy {
+    padding: 2.4rem;
+    display: flex; flex-direction: column; gap: 0.9rem;
+    justify-content: center;
+  }
+  @media (min-width: 750px) { .hcs__copy { padding: 4rem 3.6rem; } }
+  .hcs__client { font-size: 1.2rem; color: rgba(var(--color-foreground), 0.6); text-transform: uppercase; letter-spacing: 0.12rem; }
+  .hcs__heading { margin: 0; font-size: clamp(2rem, 2.6vw, 2.8rem); line-height: 1.2; }
+  .hcs__tagline { font-size: 1.5rem; line-height: 1.55; color: rgba(var(--color-foreground), 0.78); margin: 0; }
+  .hcs__meta { display: flex; gap: 1.8rem; flex-wrap: wrap; font-size: 1.25rem; color: rgba(var(--color-foreground), 0.6); margin-top: 0.4rem; }
+  .hcs__meta span strong { color: rgb(var(--color-foreground)); font-weight: 600; }
+  .hcs__readmore {
+    margin-top: 1rem;
+    display: inline-flex; align-items: center; gap: 0.5rem;
+    font-weight: 600; color: #d4a017; font-size: 1.4rem;
+  }
+  .hcs__readmore::after {
+    content: '→'; transition: transform 0.3s ease; display: inline-block;
+  }
+  .hcs__slide:hover .hcs__readmore::after { transform: translateX(4px); }
+
+  /* Controls */
+  .hcs__controls {
+    position: absolute; right: 1.4rem; bottom: 1.4rem;
+    display: flex; gap: 0.6rem; z-index: 3;
+  }
+  .hcs__nav {
+    width: 4rem; height: 4rem; border-radius: 50%;
+    border: 1px solid rgba(var(--color-foreground), 0.18);
+    background: rgba(var(--color-background), 0.92);
+    backdrop-filter: blur(6px); -webkit-backdrop-filter: blur(6px);
+    color: rgb(var(--color-foreground));
+    cursor: pointer; font-size: 1.6rem;
+    display: flex; align-items: center; justify-content: center;
+    transition: transform 0.2s ease, border-color 0.2s ease, background 0.2s ease;
+  }
+  .hcs__nav:hover {
+    border-color: #f5b400; transform: scale(1.06);
+    background: rgba(245, 180, 0, 0.12);
+  }
+  .hcs__dots {
+    position: absolute; bottom: 1.4rem; left: 1.4rem;
+    display: flex; gap: 0.5rem; z-index: 3;
+    align-items: center;
+  }
+  .hcs__dot {
+    width: 0.9rem; height: 0.9rem; border-radius: 50%;
+    background: rgba(var(--color-foreground), 0.25);
+    border: 0; padding: 0; cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  .hcs__dot.is-active {
+    width: 2.4rem; border-radius: 999px;
+    background: linear-gradient(90deg, #d4a017, #f5b400);
+  }
+  .hcs__progress {
+    position: absolute; left: 0; right: 0; bottom: 0;
+    height: 3px; background: rgba(var(--color-foreground), 0.08);
+    z-index: 3;
+  }
+  .hcs__progress-bar {
+    height: 100%; width: 0%;
+    background: linear-gradient(90deg, #d4a017, #f5b400);
+    transition: width linear;
+  }
+  .hcs__stage[data-paused="true"] .hcs__progress-bar {
+    transition: none;
+  }
+  .hcs__loading {
+    position: absolute; inset: 0;
+    display: flex; align-items: center; justify-content: center;
+    color: rgba(var(--color-foreground), 0.55); font-size: 1.4rem;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .hcs__slide { transition: opacity 0.3s ease; transform: none !important; }
+    .hcs__media img { transition: none; }
+  }
+{%- endstyle -%}
+
+<div class="color-{{ section.settings.color_scheme }} gradient section-{{ section.id }}-padding">
+  <div class="page-width">
+    <header class="hcs__head">
+      <div class="hcs__head-text">
+        <span class="hcs__eyebrow">{{ section.settings.eyebrow | default: 'Case Studies' }}</span>
+        <h2 class="hcs__title">{{ section.settings.title | default: 'Award shows. Milestones. <em>Meru moments.</em>' }}</h2>
+        <p class="hcs__sub">{{ section.settings.subtitle | default: 'A look at recent trophies and awards we have crafted for brands across India.' }}</p>
+      </div>
+      <a href="{{ section.settings.cta_link | default: '/pages/case-studies' }}" class="button button--secondary hcs__seemore">
+        {{ section.settings.cta_label | default: 'See all case studies' }}
+      </a>
+    </header>
+
+    <div class="hcs__stage" id="hcs-stage" data-rotate-ms="{{ section.settings.rotate_seconds | default: 30 | times: 1000 }}">
+      <div class="hcs__viewport" id="hcs-viewport">
+        <div class="hcs__loading">Loading featured work…</div>
+      </div>
+      <div class="hcs__controls">
+        <button type="button" class="hcs__nav" id="hcs-prev" aria-label="Previous case study">‹</button>
+        <button type="button" class="hcs__nav" id="hcs-next" aria-label="Next case study">›</button>
+      </div>
+      <div class="hcs__dots" id="hcs-dots" role="tablist" aria-label="Case study selector"></div>
+      <div class="hcs__progress" aria-hidden="true"><div class="hcs__progress-bar" id="hcs-progress"></div></div>
+    </div>
+  </div>
+</div>
+
+{% render 'case-study-assets' %}
+
+<script>
+  (function () {
+    var DATA_URL = '{{ 'case-studies-data.json' | asset_url }}';
+    var ROTATE_MS = parseInt(document.getElementById('hcs-stage').dataset.rotateMs, 10) || 30000;
+    var viewport = document.getElementById('hcs-viewport');
+    var dotsHost = document.getElementById('hcs-dots');
+    var progress = document.getElementById('hcs-progress');
+    var stage = document.getElementById('hcs-stage');
+
+    function resolveAsset(u) {
+      if (!u) return '';
+      if (u.indexOf('asset:') === 0) {
+        var key = u.slice(6);
+        return (window.__csAssetMap && window.__csAssetMap[key]) || '';
+      }
+      return u;
+    }
+
+    function esc(s) {
+      return String(s || '').replace(/[&<>"']/g, function (c) {
+        return { '&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;' }[c];
+      });
+    }
+
+    function coverFor(s) {
+      var p = (s.photos && s.photos[0]) || null;
+      if (p) return resolveAsset(typeof p === 'string' ? p : (p && p.src));
+      return resolveAsset(s.hero_image);
+    }
+
+    function altFor(s) {
+      var p = (s.photos && s.photos[0]) || null;
+      if (p && typeof p === 'object' && p.alt) return p.alt;
+      return s.hero_image_alt || s.title;
+    }
+
+    var STATE = { studies: [], index: 0, timer: null, progressTimer: null, paused: false, startTs: 0, pausedAt: 0 };
+
+    function buildSlides() {
+      viewport.innerHTML = '';
+      STATE.studies.forEach(function (s, i) {
+        var cover = coverFor(s);
+        var hasImg = !!cover;
+        var alt = altFor(s);
+        var slide = document.createElement('a');
+        slide.className = 'hcs__slide' + (i === 0 ? ' is-active' : '');
+        slide.href = '/pages/' + s.slug;
+        slide.setAttribute('aria-label', 'Read case study: ' + s.title);
+        slide.dataset.index = i;
+        slide.innerHTML =
+          '<div class="hcs__media' + (hasImg ? '' : ' hcs__media--noimg') + '">' +
+            (hasImg ? '<img src="' + esc(cover) + '" alt="' + esc(alt) + '" loading="lazy">'
+                    : '<div><strong>' + esc(s.client_short || s.client) + '</strong></div>') +
+            (s.category ? '<span class="hcs__media-tag">' + esc(s.category) + '</span>' : '') +
+            (s.event_year ? '<span class="hcs__media-year">' + esc(s.event_year) + '</span>' : '') +
+          '</div>' +
+          '<div class="hcs__copy">' +
+            '<span class="hcs__client">' + esc(s.client) + '</span>' +
+            '<h3 class="hcs__heading">' + esc(s.title) + '</h3>' +
+            '<p class="hcs__tagline">' + esc(s.subtitle || s.tagline || '') + '</p>' +
+            '<div class="hcs__meta">' +
+              (s.event ? '<span><strong>Event:</strong> ' + esc(s.event) + '</span>' : '') +
+              (s.location ? '<span><strong>Location:</strong> ' + esc(s.location) + '</span>' : '') +
+              (s.industry ? '<span><strong>Industry:</strong> ' + esc(s.industry) + '</span>' : '') +
+            '</div>' +
+            '<span class="hcs__readmore">Read the case study</span>' +
+          '</div>';
+        viewport.appendChild(slide);
+      });
+    }
+
+    function buildDots() {
+      dotsHost.innerHTML = '';
+      STATE.studies.forEach(function (s, i) {
+        var d = document.createElement('button');
+        d.type = 'button';
+        d.className = 'hcs__dot' + (i === 0 ? ' is-active' : '');
+        d.setAttribute('aria-label', 'Go to case study ' + (i + 1));
+        d.addEventListener('click', function () { goTo(i, true); });
+        dotsHost.appendChild(d);
+      });
+    }
+
+    function setActive(newIndex) {
+      var slides = viewport.querySelectorAll('.hcs__slide');
+      var dots = dotsHost.querySelectorAll('.hcs__dot');
+      var old = STATE.index;
+      slides.forEach(function (el, i) {
+        el.classList.toggle('is-active', i === newIndex);
+        el.classList.toggle('is-leaving', i === old && i !== newIndex);
+      });
+      dots.forEach(function (d, i) { d.classList.toggle('is-active', i === newIndex); });
+      STATE.index = newIndex;
+    }
+
+    function goTo(idx, userInitiated) {
+      var n = STATE.studies.length;
+      if (!n) return;
+      var next = ((idx % n) + n) % n;
+      if (next === STATE.index) return;
+      setActive(next);
+      if (userInitiated) restartTimer();
+    }
+
+    function next() { goTo(STATE.index + 1, false); }
+    function prev() { goTo(STATE.index - 1, true); }
+
+    function startTimer() {
+      stopTimer();
+      STATE.paused = false;
+      stage.dataset.paused = 'false';
+      STATE.startTs = Date.now();
+      // animate progress bar to 100% over ROTATE_MS
+      progress.style.transition = 'none';
+      progress.style.width = '0%';
+      // force reflow
+      void progress.offsetWidth;
+      progress.style.transition = 'width ' + ROTATE_MS + 'ms linear';
+      progress.style.width = '100%';
+      STATE.timer = setTimeout(function () { next(); restartTimer(); }, ROTATE_MS);
+    }
+    function stopTimer() {
+      if (STATE.timer) { clearTimeout(STATE.timer); STATE.timer = null; }
+    }
+    function restartTimer() {
+      if (STATE.paused) return;
+      startTimer();
+    }
+    function pause() {
+      if (STATE.paused) return;
+      STATE.paused = true;
+      stage.dataset.paused = 'true';
+      var computed = getComputedStyle(progress).width;
+      stopTimer();
+      progress.style.transition = 'none';
+      progress.style.width = computed;
+    }
+    function resume() {
+      if (!STATE.paused) return;
+      STATE.paused = false;
+      stage.dataset.paused = 'false';
+      // restart fresh — simpler than resuming partial
+      startTimer();
+    }
+
+    stage.addEventListener('mouseenter', pause);
+    stage.addEventListener('mouseleave', resume);
+    stage.addEventListener('focusin', pause);
+    stage.addEventListener('focusout', resume);
+    document.getElementById('hcs-prev').addEventListener('click', prev);
+    document.getElementById('hcs-next').addEventListener('click', function () { goTo(STATE.index + 1, true); });
+
+    fetch(DATA_URL).then(function (r) { return r.json(); }).then(function (data) {
+      STATE.studies = (data.studies || []).filter(function (s) { return s && s.slug; });
+      if (STATE.studies.length === 0) {
+        viewport.innerHTML = '<div class="hcs__loading">No case studies yet — check back soon.</div>';
+        return;
+      }
+      buildSlides();
+      buildDots();
+      if (STATE.studies.length > 1) startTimer();
+      else progress.style.display = 'none';
+    }).catch(function () {
+      viewport.innerHTML = '<div class="hcs__loading">Could not load case studies.</div>';
+    });
+  })();
+</script>
+
+{% schema %}
+{
+  "name": "Home case studies",
+  "tag": "section",
+  "class": "section",
+  "settings": [
+    { "type": "text", "id": "eyebrow", "label": "Eyebrow", "default": "Case Studies" },
+    { "type": "inline_richtext", "id": "title", "label": "Title", "default": "Award shows. Milestones. <em>Meru moments.</em>" },
+    { "type": "text", "id": "subtitle", "label": "Subtitle", "default": "A look at recent trophies and awards we have crafted for brands across India." },
+    { "type": "text", "id": "cta_label", "label": "See more label", "default": "See all case studies" },
+    { "type": "text", "id": "cta_link", "label": "See more link", "default": "/pages/case-studies" },
+    {
+      "type": "range",
+      "id": "rotate_seconds",
+      "min": 5,
+      "max": 60,
+      "step": 1,
+      "unit": "s",
+      "label": "Auto-rotate interval",
+      "default": 30
+    },
+    { "type": "color_scheme", "id": "color_scheme", "label": "Color scheme", "default": "scheme-1" },
+    { "type": "range", "id": "padding_top", "min": 0, "max": 100, "step": 4, "unit": "px", "label": "Top padding", "default": 40 },
+    { "type": "range", "id": "padding_bottom", "min": 0, "max": 100, "step": 4, "unit": "px", "label": "Bottom padding", "default": 40 }
+  ],
+  "presets": [ { "name": "Home case studies", "category": "Custom" } ]
+}
+{% endschema %}

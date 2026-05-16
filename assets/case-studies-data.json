@@ -47,6 +47,60 @@
         { "label": "About the award (Female Cricket coverage)", "url": "https://femalecricket.com/women-cricket-news/86112-india-womens-blind-cricket-stars-honoured-with-karnataka-sumana-sadhaka-award.html" },
         { "label": "SumanTV on LinkedIn", "url": "https://in.linkedin.com/company/suman-tv" }
       ]
+    },
+    {
+      "slug": "sobha-sales-toppers-fy25-26",
+      "title": "SOBHA Sales Toppers FY 2025-26",
+      "subtitle": "Twelve recognition trophies, three families, one annual sales kickoff and Magnus launch night",
+      "client": "SOBHA Limited",
+      "client_short": "SOBHA",
+      "industry": "Real Estate · Property Development",
+      "event": "Annual Sales Recognition + Magnus Launch (FY 2025-26)",
+      "event_year": 2026,
+      "location": "Bengaluru, Karnataka",
+      "category": "Corporate",
+      "tags": ["Crystal", "Gold Finish", "Star", "Star of the Launch", "Sales Recognition", "Real Estate", "Multi-set"],
+      "tagline": "Three trophy families. One annual recognition cycle. India's most-awarded developer trusts Meru.",
+      "photos": [
+        {
+          "src": "asset:cs-sobha-1-q-wise-toppers.jpg",
+          "alt": "SOBHA Q-wise Sales Topper trophy lineup — six gold-star + crystal-globe trophies on maroon columns and black plinths, plaques engraved with awardee names for Q1, Q3 and Q4 FY 2025-26.",
+          "caption": "Set A: Q1, Q3 and Q4 Sales Toppers across the Business Leader, STM and ACH tracks."
+        },
+        {
+          "src": "asset:cs-sobha-2-annual-pillars.jpg",
+          "alt": "SOBHA Annual Sales Topper crystal pillars — three tall optical-grade crystal awards with diamond-cut, slant-cut and crystal-globe tops on black plinths.",
+          "caption": "Set B: Annual Sales Topper + 1st Runner-Up — the full-year leadership awards."
+        },
+        {
+          "src": "asset:cs-sobha-3-magnox-launch.jpg",
+          "alt": "SOBHA Star of the Launch (Magnox) trophies — three red and gold star-and-crystal trophies on maroon backdrop, marking the Magnus pre-launch sales champions.",
+          "caption": "Set C: Star of the Launch — recognising the Magnus pre-launch sales champions."
+        }
+      ],
+      "brand_logo": "",
+      "stats": [
+        { "label": "Trophies delivered", "value": "12" },
+        { "label": "Trophy families", "value": "3" },
+        { "label": "Awardees recognised", "value": "8" },
+        { "label": "Turnaround", "value": "Single batch" }
+      ],
+      "about_client": "SOBHA Limited is one of India's largest fully backward-integrated real-estate developers. Headquartered in Bengaluru since 1995 and listed on NSE/BSE, the group owns the full delivery stack — interiors, glazing, MEP and concrete — and has collected 265+ industry awards including Times Real Estate Developer of the Year (Residential) and the Golden Peacock CSR Award in 2024–25.",
+      "about_event": "SOBHA's annual sales recognition for FY 2025-26 ran three concurrent tracks — Q-wise toppers, full-year toppers, and a dedicated launch-team recognition for the SOBHA Magnus (\"Magnox\") pre-launch campaign on Bannerghatta Road. Recurring top performers across roles included Chethan R D, Veena M K, Pranav C and Souganth B.",
+      "design_brief": "Three distinct silhouettes that still read as one set: a punchy gold-star recognition piece for quarterly toppers, a tall executive crystal pillar for annual winners, and a launch-themed red-and-gold star with maroon backdrop for the Magnus champions.",
+      "production_notes": [
+        "Gold-plated zinc star with lightning cut-out on maroon acrylic column, crystal globe on stem",
+        "Optical-grade crystal pillar with diamond-cut, slant-cut and globe-top variants",
+        "Engraved brass-gold plaque with offset wordmark + awardee + period",
+        "Lacquered ply plinth with bevel detail and gold trim band"
+      ],
+      "outcome": "All 12 trophies delivered in a single batch with consistent plaque typography across families — letting SOBHA stage a multi-category awards night without the family-to-family aesthetic break that usually happens with split vendors.",
+      "related_collections": ["crystal-trophies", "corporate-and-college-premium-trophies", "metal-sports-trophies"],
+      "related_products": [],
+      "external_links": [
+        { "label": "SOBHA Limited", "url": "https://www.sobha.com/" },
+        { "label": "SOBHA Magnus — Bannerghatta Road", "url": "https://www.sobha.com/bengaluru/sobha-magnus/" }
+      ]
     }
   ]
 }

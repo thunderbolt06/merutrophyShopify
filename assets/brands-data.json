@@ -3,7 +3,7 @@
   "updated": "2026-05-17",
   "note": "Edit this file to add/remove brands. Each category has a name, slug, and a list of brand names. To highlight a brand, mark featured:true. Optional fields: logo (URL or shopify://shop_images/...), website (external link).",
   "stats": {
-    "total_unique": 156,
+    "total_unique": 157,
     "rating": "4.9",
     "google_reviews": 442
   },
@@ -25,6 +25,7 @@
         { "name": "Foxconn" },
         { "name": "Maruti Suzuki", "featured": true },
         { "name": "Mercedes Benz Research & Development India", "featured": true },
+        { "name": "SOBHA", "featured": true, "website": "https://www.sobha.com/" },
         { "name": "Caterpillar" },
         { "name": "Schneider Electric" },
         { "name": "Cadbury" },

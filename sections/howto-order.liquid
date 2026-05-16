@@ -1,0 +1,340 @@
+{%- style -%}
+  .section-{{ section.id }}-padding {
+    padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
+    padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
+  }
+  @media screen and (min-width: 750px) {
+    .section-{{ section.id }}-padding {
+      padding-top: {{ section.settings.padding_top }}px;
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+  }
+
+  .hto__hero { text-align: center; padding: 3rem 0 2rem; }
+  .hto__eyebrow {
+    display: inline-block; font-size: 1.2rem; letter-spacing: 0.3rem;
+    text-transform: uppercase; color: rgba(var(--color-foreground), 0.6);
+    margin-bottom: 1.2rem;
+  }
+  .hto__title { margin: 0 auto 1.4rem; max-width: 70rem; line-height: 1.1; }
+  .hto__title em {
+    font-style: normal;
+    background: linear-gradient(135deg, #d4a017, #f5b400);
+    -webkit-background-clip: text; background-clip: text; color: transparent;
+  }
+  .hto__sub { max-width: 64rem; margin: 0 auto; font-size: 1.6rem; line-height: 1.6; color: rgba(var(--color-foreground), 0.75); }
+
+  .hto__chips {
+    display: flex; flex-wrap: wrap; justify-content: center; gap: 0.8rem;
+    margin: 2.4rem 0;
+  }
+  .hto__chip {
+    padding: 0.7rem 1.4rem; border-radius: 999px;
+    background: rgba(245, 180, 0, 0.08);
+    border: 1px solid rgba(245, 180, 0, 0.3);
+    font-size: 1.3rem; color: rgb(var(--color-foreground));
+  }
+  .hto__chip strong { color: #d4a017; }
+
+  .hto__hero-cta {
+    display: flex; gap: 1.2rem; justify-content: center; flex-wrap: wrap;
+    margin-top: 2rem;
+  }
+
+  /* The 9-step rail */
+  .hto__rail {
+    position: relative;
+    margin: 4rem 0;
+  }
+  .hto__rail::before {
+    content: ''; position: absolute; left: 2.6rem; top: 0; bottom: 0;
+    width: 2px;
+    background: linear-gradient(180deg, rgba(245, 180, 0, 0.4), rgba(212, 160, 23, 0.1));
+  }
+  @media (min-width: 990px) {
+    .hto__rail {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 1.6rem 2rem;
+    }
+    .hto__rail::before { display: none; }
+  }
+  .hto__step {
+    position: relative;
+    padding: 1.4rem 1.6rem 1.4rem 6rem;
+    margin-bottom: 1rem;
+    border-radius: 1rem;
+    background: rgb(var(--color-background));
+    border: 1px solid rgba(var(--color-foreground), 0.08);
+    transition: transform 0.4s cubic-bezier(0.2, 0.8, 0.2, 1), box-shadow 0.3s ease, border-color 0.3s ease;
+    opacity: 0; transform: translateY(14px);
+  }
+  .hto__step.is-visible { opacity: 1; transform: translateY(0); }
+  .hto__step:hover {
+    transform: translateY(-3px);
+    border-color: rgba(245, 180, 0, 0.5);
+    box-shadow: 0 0.6rem 2rem rgba(212, 160, 23, 0.12);
+  }
+  @media (min-width: 990px) {
+    .hto__step { padding: 2rem 2rem 2rem 2rem; margin-bottom: 0; }
+  }
+  .hto__step-num {
+    position: absolute;
+    left: 1.4rem; top: 1.6rem;
+    width: 3.2rem; height: 3.2rem; border-radius: 50%;
+    background: linear-gradient(135deg, #d4a017, #f5b400);
+    color: #1a1a2e; font-weight: 700; font-size: 1.4rem;
+    display: flex; align-items: center; justify-content: center;
+    z-index: 1;
+    box-shadow: 0 0.3rem 0.8rem rgba(212, 160, 23, 0.4);
+  }
+  @media (min-width: 990px) {
+    .hto__step-num {
+      position: static; margin-bottom: 1.2rem;
+      width: 4rem; height: 4rem; font-size: 1.6rem;
+    }
+  }
+  .hto__step-icon {
+    display: inline-flex;
+    width: 2.6rem; height: 2.6rem; align-items: center; justify-content: center;
+    color: #d4a017; margin-bottom: 0.4rem;
+  }
+  @media (max-width: 989px) { .hto__step-icon { display: none; } }
+  .hto__step-title { margin: 0 0 0.5rem; font-size: 1.6rem; font-weight: 600; }
+  .hto__step-desc { margin: 0; font-size: 1.35rem; line-height: 1.55; color: rgba(var(--color-foreground), 0.72); }
+
+  /* Bottom CTA */
+  .hto__bottom-cta {
+    margin: 5rem 0 1rem;
+    padding: 4rem 2rem; border-radius: 1.4rem;
+    text-align: center;
+    background: linear-gradient(135deg, rgba(245, 180, 0, 0.12), rgba(116, 73, 200, 0.06));
+    border: 1px solid rgba(245, 180, 0, 0.25);
+  }
+  .hto__bottom-cta h2 { margin: 0 0 1rem; }
+  .hto__bottom-cta p { max-width: 60rem; margin: 0 auto 2rem; font-size: 1.5rem; color: rgba(var(--color-foreground), 0.78); }
+  .hto__bottom-cta__actions { display: flex; gap: 1.2rem; flex-wrap: wrap; justify-content: center; }
+
+  /* FAQ */
+  .hto__faq {
+    margin-top: 4rem;
+    max-width: 80rem; margin-left: auto; margin-right: auto;
+  }
+  .hto__faq h2 { text-align: center; margin: 0 0 2rem; }
+  .hto__faq details {
+    border-bottom: 1px solid rgba(var(--color-foreground), 0.12);
+    padding: 1.4rem 0;
+  }
+  .hto__faq summary {
+    cursor: pointer; font-weight: 600; font-size: 1.55rem;
+    list-style: none; display: flex; justify-content: space-between; align-items: center;
+  }
+  .hto__faq summary::-webkit-details-marker { display: none; }
+  .hto__faq summary::after { content: '+'; color: #d4a017; font-size: 2rem; transition: transform 0.3s ease; }
+  .hto__faq details[open] summary::after { transform: rotate(45deg); }
+  .hto__faq p { margin: 0.8rem 0 0; font-size: 1.4rem; line-height: 1.6; color: rgba(var(--color-foreground), 0.78); }
+{%- endstyle -%}
+
+<div class="color-{{ section.settings.color_scheme }} gradient section-{{ section.id }}-padding">
+  <div class="page-width">
+
+    <header class="hto__hero">
+      <span class="hto__eyebrow">{{ section.settings.eyebrow | default: 'How to Order' }}</span>
+      <h1 class="hto__title h0">{{ section.settings.heading | default: 'From idea to <em>delivered trophy</em> — in 9 simple steps' }}</h1>
+      <p class="hto__sub">{{ section.settings.subheading | default: 'Whether you need a single bespoke statue or 500 medals for sports day, here is exactly how we work — transparent, fast, and built for India-wide delivery.' }}</p>
+
+      <div class="hto__chips">
+        <span class="hto__chip"><strong>Bengaluru:</strong> 2-day delivery</span>
+        <span class="hto__chip"><strong>Karnataka:</strong> 5-day delivery</span>
+        <span class="hto__chip"><strong>Pan India:</strong> 2-week delivery</span>
+        <span class="hto__chip"><strong>4.9★</strong> · 442 Google reviews</span>
+      </div>
+
+      <div class="hto__hero-cta">
+        <a href="https://wa.me/917892207252?text=Hi%20Meru%20Trophy%2C%20I%27d%20like%20to%20order..." target="_blank" rel="noopener" class="button button--primary">WhatsApp to Start</a>
+        <a href="tel:+917892207252" class="button button--secondary">Call +91 78922 07252</a>
+        <a href="/pages/contact" class="button button--secondary">Get a Custom Quote</a>
+      </div>
+    </header>
+
+    <div class="hto__rail" id="hto-rail">
+      {%- comment -%} 9 steps {%- endcomment -%}
+      <div class="hto__step">
+        <div class="hto__step-num">1</div>
+        <div class="hto__step-icon" aria-hidden="true">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/></svg>
+        </div>
+        <h3 class="hto__step-title">Tell us what you need</h3>
+        <p class="hto__step-desc">WhatsApp, call or fill the contact form. Share the occasion, quantity, budget and any reference images.</p>
+      </div>
+
+      <div class="hto__step">
+        <div class="hto__step-num">2</div>
+        <div class="hto__step-icon" aria-hidden="true">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>
+        </div>
+        <h3 class="hto__step-title">Browse catalog & photos</h3>
+        <p class="hto__step-desc">We send you our A–Z catalog, product photos, and past work that fits your brief — usually within an hour.</p>
+      </div>
+
+      <div class="hto__step">
+        <div class="hto__step-num">3</div>
+        <div class="hto__step-icon" aria-hidden="true">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 11l3 3L22 4"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/></svg>
+        </div>
+        <h3 class="hto__step-title">Shortlist your favourites</h3>
+        <p class="hto__step-desc">Pick the trophies, medals or mementos you like. Mix and match across categories — we adapt to your event.</p>
+      </div>
+
+      <div class="hto__step">
+        <div class="hto__step-num">4</div>
+        <div class="hto__step-icon" aria-hidden="true">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg>
+        </div>
+        <h3 class="hto__step-title">Finalise quote & customisation</h3>
+        <p class="hto__step-desc">We confirm engraving text, logos, colours, packaging and the timeline in writing — no surprises.</p>
+      </div>
+
+      <div class="hto__step">
+        <div class="hto__step-num">5</div>
+        <div class="hto__step-icon" aria-hidden="true">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="5" width="20" height="14" rx="2"/><line x1="2" y1="10" x2="22" y2="10"/></svg>
+        </div>
+        <h3 class="hto__step-title">Payment</h3>
+        <p class="hto__step-desc">50% advance to start production, balance before dispatch. UPI, bank transfer, cards and GST invoicing supported.</p>
+      </div>
+
+      <div class="hto__step">
+        <div class="hto__step-num">6</div>
+        <div class="hto__step-icon" aria-hidden="true">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+        </div>
+        <h3 class="hto__step-title">Design & artwork preview</h3>
+        <p class="hto__step-desc">Our designers send you a digital mockup of the engraving and finish for your approval before we begin production.</p>
+      </div>
+
+      <div class="hto__step">
+        <div class="hto__step-num">7</div>
+        <div class="hto__step-icon" aria-hidden="true">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg>
+        </div>
+        <h3 class="hto__step-title">Hand-crafted in our workshop</h3>
+        <p class="hto__step-desc">25+ years of craft — laser engraving, UV printing, polishing, plating and final QC, all under one roof in Bangalore.</p>
+      </div>
+
+      <div class="hto__step">
+        <div class="hto__step-num">8</div>
+        <div class="hto__step-icon" aria-hidden="true">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="1" y="3" width="15" height="13"/><polygon points="16 8 20 8 23 11 23 16 16 16 16 8"/><circle cx="5.5" cy="18.5" r="2.5"/><circle cx="18.5" cy="18.5" r="2.5"/></svg>
+        </div>
+        <h3 class="hto__step-title">Safe packing & dispatch</h3>
+        <p class="hto__step-desc">Bubble-wrapped, foam-cradled, double-boxed. Tracked delivery across India and pickup available in Bangalore.</p>
+      </div>
+
+      <div class="hto__step">
+        <div class="hto__step-num">9</div>
+        <div class="hto__step-icon" aria-hidden="true">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+        </div>
+        <h3 class="hto__step-title">Award day 🎉</h3>
+        <p class="hto__step-desc">Hand them out, take photos, watch faces light up. Share a review and we add your event to our case studies.</p>
+      </div>
+    </div>
+
+    <section class="hto__bottom-cta">
+      <h2 class="h2">Ready to place your order?</h2>
+      <p>Most quotes go out within an hour. Bespoke design previews in 24 hours. Same-day pickup in Bangalore.</p>
+      <div class="hto__bottom-cta__actions">
+        <a class="button button--primary" href="https://wa.me/917892207252?text=Hi%20Meru%20Trophy%2C%20I%27d%20like%20a%20quote." target="_blank" rel="noopener">WhatsApp Now</a>
+        <a class="button button--secondary" href="tel:+917892207252">Call +91 78922 07252</a>
+        <a class="button button--secondary" href="/pages/contact">Email / Quote Form</a>
+      </div>
+    </section>
+
+    <section class="hto__faq" aria-labelledby="hto-faq-title">
+      <h2 id="hto-faq-title" class="h2">Common questions</h2>
+      <details>
+        <summary>What is the minimum order quantity?</summary>
+        <p>None. We do single bespoke statues for award nights and we do 500-piece sports-day medal sets. Whatever you need.</p>
+      </details>
+      <details>
+        <summary>How fast can you deliver?</summary>
+        <p>Standard turnaround is 5–7 working days after artwork approval. Bengaluru same-day pickup is available on stock items. Express options for urgent orders — just ask.</p>
+      </details>
+      <details>
+        <summary>Can you brand the trophy with our logo?</summary>
+        <p>Yes — laser engraving, UV print, full-colour print, foil stamping, custom acrylic cutting, custom shapes. Send us your logo in any format and we will optimise it for the medium.</p>
+      </details>
+      <details>
+        <summary>Do you deliver outside Bangalore / Karnataka?</summary>
+        <p>Yes. Pan-India tracked delivery in ~2 weeks. International shipping available on request — we have shipped to UAE, Singapore, UK, Australia and Canada.</p>
+      </details>
+      <details>
+        <summary>Do you provide GST invoices?</summary>
+        <p>Yes. We are GST-registered and can issue B2B invoices, advance receipts, and CSR-eligible documentation when applicable.</p>
+      </details>
+      <details>
+        <summary>Can I see samples or visit the workshop?</summary>
+        <p>Absolutely. Walk-in welcome at our Gandhinagar showroom (#273/2, SC Road, near Annamma Temple) or schedule a video-call walkthrough of the workshop.</p>
+      </details>
+    </section>
+
+  </div>
+</div>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "How to order custom trophies, medals and awards from Meru Trophy",
+  "description": "Nine-step process from initial enquiry to delivery for bespoke trophies and corporate awards in India.",
+  "totalTime": "P7D",
+  "step": [
+    {"@type": "HowToStep", "position": 1, "name": "Tell us what you need", "text": "WhatsApp, call or fill the contact form with occasion, quantity, budget and references."},
+    {"@type": "HowToStep", "position": 2, "name": "Browse catalog & photos", "text": "We share our A–Z catalog and matching past work, usually within an hour."},
+    {"@type": "HowToStep", "position": 3, "name": "Shortlist your favourites", "text": "Pick the trophies, medals or mementos that fit the event."},
+    {"@type": "HowToStep", "position": 4, "name": "Finalise quote and customisation", "text": "Confirm engraving, logos, colours, packaging and timeline in writing."},
+    {"@type": "HowToStep", "position": 5, "name": "Payment", "text": "50% advance via UPI, bank transfer or card. GST invoicing supported."},
+    {"@type": "HowToStep", "position": 6, "name": "Design and artwork preview", "text": "Digital mockup of engraving and finish sent for approval before production."},
+    {"@type": "HowToStep", "position": 7, "name": "Hand-crafted in our workshop", "text": "Laser engraving, UV printing, polishing, plating and QC in our Bangalore workshop."},
+    {"@type": "HowToStep", "position": 8, "name": "Safe packing and dispatch", "text": "Bubble-wrapped, foam-cradled, double-boxed and tracked across India."},
+    {"@type": "HowToStep", "position": 9, "name": "Award day", "text": "Hand them out and share a review — your event may become our next case study."}
+  ]
+}
+</script>
+
+<script>
+  (function () {
+    var steps = document.querySelectorAll('.hto__step');
+    if (!steps.length) return;
+    if (!('IntersectionObserver' in window)) {
+      steps.forEach(function (s) { s.classList.add('is-visible'); }); return;
+    }
+    var io = new IntersectionObserver(function (entries) {
+      entries.forEach(function (e, i) {
+        if (e.isIntersecting) {
+          setTimeout(function () { e.target.classList.add('is-visible'); }, (i % 9) * 60);
+          io.unobserve(e.target);
+        }
+      });
+    }, { threshold: 0.15, rootMargin: '0px 0px -40px 0px' });
+    steps.forEach(function (s) { io.observe(s); });
+  })();
+</script>
+
+{% schema %}
+{
+  "name": "How to order",
+  "tag": "section",
+  "class": "section",
+  "settings": [
+    { "type": "text", "id": "eyebrow", "label": "Eyebrow", "default": "How to Order" },
+    { "type": "richtext", "id": "heading", "label": "Heading", "default": "<h1>From idea to <em>delivered trophy</em> — in 9 simple steps</h1>" },
+    { "type": "textarea", "id": "subheading", "label": "Subheading" },
+    { "type": "color_scheme", "id": "color_scheme", "label": "Color scheme", "default": "scheme-1" },
+    { "type": "range", "id": "padding_top", "min": 0, "max": 100, "step": 4, "unit": "px", "label": "Top padding", "default": 28 },
+    { "type": "range", "id": "padding_bottom", "min": 0, "max": 100, "step": 4, "unit": "px", "label": "Bottom padding", "default": 56 }
+  ],
+  "presets": [ { "name": "How to order", "category": "Custom" } ]
+}
+{% endschema %}

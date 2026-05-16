@@ -1,0 +1,21 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": { "padding_top": 0, "padding_bottom": 0 }
+    },
+    "howto": {
+      "type": "howto-order",
+      "settings": {
+        "eyebrow": "How to Order",
+        "heading": "<h1>From idea to <em>delivered trophy</em> — in 9 simple steps</h1>",
+        "subheading": "Whether you need a single bespoke statue or 500 medals for sports day, here is exactly how we work — transparent, fast, and built for India-wide delivery.",
+        "color_scheme": "scheme-1",
+        "padding_top": 28,
+        "padding_bottom": 56
+      }
+    }
+  },
+  "order": ["main", "howto"]
+}
