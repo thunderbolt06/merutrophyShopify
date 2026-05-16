@@ -15,7 +15,7 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "Premium Trophy & Corporate Award Manufacturer",
+            "heading": "<strong>MERU TROPHY</strong>",
             "heading_size": "h0"
           }
         },
@@ -42,7 +42,7 @@
         "button"
       ],
       "settings": {
-        "image": "shopify://shop_images/IMG20240422121417.jpg",
+        "image": "shopify://shop_images/Meru_Trophy_conceptual_store_image.png",
         "image_overlay_opacity": 70,
         "image_height": "small",
         "desktop_content_position": "bottom-center",
