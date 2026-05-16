@@ -201,10 +201,8 @@
 }
 </script>
 
-<script>
-  window.__csAssetMap = window.__csAssetMap || {};
-  window.__csAssetMap['cs-suman-tv-trophy.jpg'] = {{ 'cs-suman-tv-trophy.jpg' | asset_url | json }};
-</script>
+{% render 'case-study-assets' %}
+
 <script>
   (function () {
     var DATA_URL = '{{ 'case-studies-data.json' | asset_url }}';
@@ -215,6 +213,14 @@
         return (window.__csAssetMap && window.__csAssetMap[key]) || '';
       }
       return u;
+    }
+    // Pick the index-card cover from photos[] (first), falling back to hero_image
+    function coverFor(s) {
+      if (s.photos && s.photos.length) {
+        var first = s.photos[0];
+        return resolveAsset(typeof first === 'string' ? first : (first && first.src));
+      }
+      return resolveAsset(s.hero_image);
     }
     var grid = document.getElementById('cs-grid');
     var filtersHost = document.getElementById('cs-filters');
@@ -228,10 +234,10 @@
     }
 
     function cardHtml(s) {
-      s.hero_image = resolveAsset(s.hero_image);
-      var hasImg = s.hero_image && s.hero_image.length > 0;
+      var cover = coverFor(s);
+      var hasImg = !!cover;
       var media = hasImg
-        ? '<div class="cs-card__media"><img src="' + esc(s.hero_image) + '" alt="' + esc(s.hero_image_alt || s.title) + '" loading="lazy"></div>'
+        ? '<div class="cs-card__media"><img src="' + esc(cover) + '" alt="' + esc(s.hero_image_alt || s.title) + '" loading="lazy"></div>'
         : '<div class="cs-card__media cs-card__media--noimg"><span>' + esc(s.client_short || s.client) + '</span></div>';
       var badge = s.category ? '<span class="cs-card__badge">' + esc(s.category) + '</span>' : '';
       var year = s.event_year ? '<span class="cs-card__year">' + esc(s.event_year) + '</span>' : '';

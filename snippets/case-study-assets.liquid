@@ -1,0 +1,29 @@
+{%- comment -%}
+  Central asset map for case study photos.
+
+  Why this file exists
+  ---------------------
+  The case-studies-data.json file is fetched client-side, so its image
+  values cannot use the Liquid `asset_url` filter directly. Instead, the
+  JSON references theme-shipped photos with the prefix `asset:filename.jpg`,
+  and this snippet emits a JavaScript map that resolves those references
+  at render time.
+
+  How to add a new case study photo
+  ---------------------------------
+  1. Drop the image into `assets/` with a `cs-` prefix:
+     e.g. `assets/cs-tanishq-diwali-2026-1.jpg`
+  2. Add one line below — keep the filename in both places identical:
+       window.__csAssetMap['cs-tanishq-diwali-2026-1.jpg'] = {{ 'cs-tanishq-diwali-2026-1.jpg' | asset_url | json }};
+  3. In `assets/case-studies-data.json` reference it as
+     `"src": "asset:cs-tanishq-diwali-2026-1.jpg"`.
+{%- endcomment -%}
+
+<script>
+  window.__csAssetMap = window.__csAssetMap || {};
+
+  // SumanTV Kannada — Karnataka Sumana Sadhaka 2026
+  window.__csAssetMap['cs-suman-tv-trophy.jpg'] = {{ 'cs-suman-tv-trophy.jpg' | asset_url | json }};
+
+  // --- add more entries here, one per photo ---
+</script>

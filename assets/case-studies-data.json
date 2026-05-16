@@ -1,7 +1,7 @@
 {
   "version": 1,
   "updated": "2026-05-17",
-  "_instructions": "To add a new case study: (1) add an object to `studies`, (2) create a Shopify page with the same `slug` as its handle and assign template `page.case-study`, (3) upload the trophy photo and brand logo to Shopify Files and paste the file URLs into `hero_image` and `brand_logo`. The index page at /pages/case-studies auto-renders from this list.",
+  "_instructions": "To add a new case study: (1) add an object to `studies`, (2) drop photos into the theme `assets/` folder with a `cs-` prefix and register each filename in snippets/case-study-assets.liquid, (3) reference them in the `photos` array as `asset:filename.jpg`, (4) create a Shopify page with the same `slug` as its handle and assign template `page.case-study`. The first entry in `photos` becomes the hero AND the card cover; the rest render as a gallery with a click-to-zoom lightbox. The `hero_image` and `gallery` fields are still supported for back-compat.",
   "studies": [
     {
       "slug": "suman-tv-karnataka-sumana-sadhaka",
@@ -16,10 +16,14 @@
       "category": "Corporate",
       "tags": ["Custom Statue", "Gold Finish", "Wood Plinth", "Media Awards", "Engraved Nameplate"],
       "tagline": "When a TV network needs a trophy that looks as iconic as their brand mark — we make the brand the trophy.",
-      "hero_image": "asset:cs-suman-tv-trophy.jpg",
-      "hero_image_alt": "Karnataka Sumana Sadhaka 2026 trophy — a gold sculpted 'S' wrapping a blue globe, topped with the SumanTV Kannada Chikkaballapur logo, mounted on a polished wood base with engraved gold nameplate.",
+      "photos": [
+        {
+          "src": "asset:cs-suman-tv-trophy.jpg",
+          "alt": "Karnataka Sumana Sadhaka 2026 trophy — a gold sculpted 'S' wrapping a blue globe, topped with the SumanTV Kannada Chikkaballapur logo, mounted on a polished wood base with engraved gold nameplate.",
+          "caption": "The finished award, ready for the broadcast ceremony"
+        }
+      ],
       "brand_logo": "",
-      "gallery": [],
       "stats": [
         { "label": "Trophies produced", "value": "Custom" },
         { "label": "Lead time", "value": "Fast-track" },
