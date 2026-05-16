@@ -1,0 +1,374 @@
+{%- style -%}
+  .section-{{ section.id }}-padding {
+    padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
+    padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
+  }
+  @media screen and (min-width: 750px) {
+    .section-{{ section.id }}-padding {
+      padding-top: {{ section.settings.padding_top }}px;
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+  }
+
+  .cs-detail__crumbs {
+    font-size: 1.25rem; color: rgba(var(--color-foreground), 0.6); margin-bottom: 1.6rem;
+  }
+  .cs-detail__crumbs a { color: inherit; text-decoration: none; border-bottom: 1px dashed transparent; }
+  .cs-detail__crumbs a:hover { color: #d4a017; border-color: #f5b400; }
+
+  .cs-detail__hero {
+    display: grid; gap: 3rem; align-items: center;
+    grid-template-columns: 1fr;
+    margin-bottom: 5rem;
+  }
+  @media (min-width: 990px) { .cs-detail__hero { grid-template-columns: 1.05fr 1fr; gap: 4rem; } }
+
+  .cs-detail__media {
+    position: relative; border-radius: 1.6rem; overflow: hidden;
+    background: linear-gradient(135deg, #1a1a2e 0%, #2d1b4e 50%, #d4a017 130%);
+    aspect-ratio: 4 / 5;
+    box-shadow: 0 2rem 5rem rgba(0,0,0,0.18);
+  }
+  .cs-detail__media img { width: 100%; height: 100%; object-fit: cover; }
+  .cs-detail__media--noimg {
+    display: flex; align-items: center; justify-content: center;
+    color: rgba(255,255,255,0.92); padding: 3rem;
+    text-align: center;
+  }
+  .cs-detail__media--noimg .ph-brand {
+    font-size: 2.4rem; font-weight: 700; letter-spacing: 0.05rem; text-shadow: 0 2px 18px rgba(0,0,0,0.4);
+  }
+  .cs-detail__media--noimg .ph-event { font-size: 1.4rem; margin-top: 0.8rem; opacity: 0.8; }
+  .cs-detail__media--noimg::before {
+    content: ''; position: absolute; inset: 0;
+    background:
+      radial-gradient(circle at 20% 80%, rgba(245, 180, 0, 0.3), transparent 50%),
+      radial-gradient(circle at 80% 20%, rgba(116, 73, 200, 0.35), transparent 50%);
+  }
+  .cs-detail__media-tag {
+    position: absolute; bottom: 1.4rem; left: 1.4rem;
+    background: rgba(0,0,0,0.55); backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px); color: #fff;
+    padding: 0.6rem 1.2rem; border-radius: 999px;
+    font-size: 1.2rem; letter-spacing: 0.05rem;
+  }
+
+  .cs-detail__copy { display: flex; flex-direction: column; gap: 1.6rem; }
+  .cs-detail__eyebrow {
+    display: inline-flex; align-items: center; gap: 0.8rem;
+    font-size: 1.2rem; letter-spacing: 0.3rem; text-transform: uppercase;
+    color: rgba(var(--color-foreground), 0.6);
+  }
+  .cs-detail__brandlogo {
+    height: 3.2rem; max-width: 16rem; object-fit: contain;
+  }
+  .cs-detail__title { margin: 0; line-height: 1.1; font-size: clamp(2.6rem, 4vw, 4.2rem); }
+  .cs-detail__title em {
+    font-style: normal;
+    background: linear-gradient(135deg, #d4a017, #f5b400);
+    -webkit-background-clip: text; background-clip: text; color: transparent;
+  }
+  .cs-detail__sub { font-size: 1.7rem; line-height: 1.5; color: rgba(var(--color-foreground), 0.78); margin: 0; }
+  .cs-detail__quickfacts {
+    display: grid; grid-template-columns: 1fr 1fr; gap: 1.4rem; margin: 1rem 0 0.6rem;
+  }
+  .cs-detail__quickfact { padding: 1.2rem 1.4rem; border: 1px solid rgba(var(--color-foreground), 0.12); border-radius: 0.8rem; }
+  .cs-detail__quickfact-label { font-size: 1.1rem; color: rgba(var(--color-foreground), 0.55); text-transform: uppercase; letter-spacing: 0.08rem; }
+  .cs-detail__quickfact-value { font-size: 1.5rem; font-weight: 600; margin-top: 0.3rem; }
+  .cs-detail__hero-cta { display: flex; gap: 1rem; flex-wrap: wrap; margin-top: 0.6rem; }
+
+  .cs-detail__stats {
+    display: grid; gap: 1.4rem;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 4rem 0 4rem;
+  }
+  @media (min-width: 750px) { .cs-detail__stats { grid-template-columns: repeat(4, 1fr); } }
+  .cs-detail__stat {
+    padding: 2rem 1.6rem; border-radius: 1rem;
+    background: linear-gradient(135deg, rgba(245, 180, 0, 0.08), rgba(245, 180, 0, 0.02));
+    border: 1px solid rgba(245, 180, 0, 0.2);
+    text-align: center;
+  }
+  .cs-detail__stat-value {
+    font-size: 2.4rem; font-weight: 700;
+    background: linear-gradient(135deg, #d4a017, #f5b400);
+    -webkit-background-clip: text; background-clip: text; color: transparent;
+  }
+  .cs-detail__stat-label { font-size: 1.25rem; color: rgba(var(--color-foreground), 0.7); margin-top: 0.4rem; }
+
+  .cs-detail__body {
+    display: grid; gap: 4rem;
+    grid-template-columns: 1fr;
+    max-width: 92rem; margin: 0 auto;
+  }
+  @media (min-width: 990px) { .cs-detail__body { grid-template-columns: 2fr 1fr; gap: 5rem; } }
+
+  .cs-detail__block { margin-bottom: 3rem; }
+  .cs-detail__block h2 {
+    margin: 0 0 1.4rem; font-size: 2rem; padding-bottom: 0.6rem;
+    border-bottom: 2px solid rgba(245, 180, 0, 0.4);
+    display: inline-block; padding-right: 1.6rem;
+  }
+  .cs-detail__block p, .cs-detail__block li { font-size: 1.55rem; line-height: 1.65; color: rgba(var(--color-foreground), 0.88); }
+  .cs-detail__block ul { padding-left: 1.6rem; }
+  .cs-detail__block li { margin-bottom: 0.6rem; }
+
+  .cs-detail__aside { display: flex; flex-direction: column; gap: 2rem; }
+  .cs-detail__sidecard {
+    padding: 2rem; border-radius: 1rem;
+    background: rgba(var(--color-foreground), 0.03);
+    border: 1px solid rgba(var(--color-foreground), 0.08);
+  }
+  .cs-detail__sidecard h3 { margin: 0 0 1.2rem; font-size: 1.5rem; }
+  .cs-detail__sidecard dl { margin: 0; display: grid; gap: 0.8rem; }
+  .cs-detail__sidecard dt { font-size: 1.15rem; color: rgba(var(--color-foreground), 0.55); text-transform: uppercase; letter-spacing: 0.08rem; }
+  .cs-detail__sidecard dd { margin: 0; font-size: 1.4rem; }
+  .cs-detail__sidecard a { color: #d4a017; }
+
+  .cs-detail__tags { display: flex; flex-wrap: wrap; gap: 0.5rem; }
+  .cs-detail__tags span {
+    font-size: 1.15rem; padding: 0.4rem 0.9rem;
+    background: rgba(245, 180, 0, 0.1); border-radius: 999px;
+    border: 1px solid rgba(245, 180, 0, 0.3); color: rgb(var(--color-foreground));
+  }
+
+  .cs-detail__gallery {
+    display: grid; gap: 1rem;
+    grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr));
+    margin: 3rem 0;
+  }
+  .cs-detail__gallery img {
+    width: 100%; aspect-ratio: 1; object-fit: cover;
+    border-radius: 0.8rem; transition: transform 0.4s ease;
+  }
+  .cs-detail__gallery img:hover { transform: scale(1.03); }
+
+  .cs-detail__related {
+    margin-top: 4rem; padding: 3rem 2rem; border-radius: 1.4rem;
+    background: linear-gradient(135deg, rgba(245, 180, 0, 0.08), rgba(116, 73, 200, 0.05));
+    border: 1px solid rgba(245, 180, 0, 0.2);
+  }
+  .cs-detail__related h2 { margin: 0 0 1.4rem; text-align: center; }
+  .cs-detail__related-grid {
+    display: grid; gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
+  }
+  .cs-detail__related-grid a {
+    display: block; padding: 1.2rem 1.4rem; border-radius: 0.6rem;
+    background: rgb(var(--color-background));
+    border: 1px solid rgba(var(--color-foreground), 0.1);
+    text-decoration: none; color: rgb(var(--color-foreground));
+    font-size: 1.4rem; transition: all 0.2s ease; font-weight: 500;
+  }
+  .cs-detail__related-grid a:hover {
+    border-color: #f5b400; transform: translateY(-2px);
+    box-shadow: 0 0.4rem 1.6rem rgba(212, 160, 23, 0.15);
+  }
+
+  .cs-detail__bigcta {
+    margin: 5rem 0 1rem; padding: 4rem 2rem; border-radius: 1.4rem;
+    text-align: center;
+    background: linear-gradient(135deg, rgba(26, 26, 46, 0.05), rgba(245, 180, 0, 0.1));
+    border: 1px solid rgba(245, 180, 0, 0.25);
+  }
+  .cs-detail__bigcta h2 { margin: 0 0 1rem; }
+  .cs-detail__bigcta p { max-width: 56rem; margin: 0 auto 2rem; font-size: 1.55rem; color: rgba(var(--color-foreground), 0.78); }
+  .cs-detail__bigcta__actions { display: flex; gap: 1.2rem; flex-wrap: wrap; justify-content: center; }
+
+  .cs-detail__loading, .cs-detail__error {
+    padding: 6rem 0; text-align: center;
+    color: rgba(var(--color-foreground), 0.6); font-size: 1.4rem;
+  }
+{%- endstyle -%}
+
+<div class="color-{{ section.settings.color_scheme }} gradient section-{{ section.id }}-padding">
+  <div class="page-width">
+    <nav class="cs-detail__crumbs" aria-label="Breadcrumb">
+      <a href="/">Home</a> · <a href="/pages/case-studies">Case Studies</a> · <span id="cs-crumb-title">{{ page.title | escape }}</span>
+    </nav>
+
+    <div id="cs-detail-root">
+      <div class="cs-detail__loading">Loading case study…</div>
+    </div>
+  </div>
+</div>
+
+<script type="application/ld+json" id="cs-detail-jsonld">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "{{ page.title | escape }}",
+  "publisher": { "@type": "Organization", "name": "Meru Trophy", "url": "{{ shop.url }}" }
+}
+</script>
+
+<script>
+  (function () {
+    var DATA_URL = '{{ 'case-studies-data.json' | asset_url }}';
+    var SLUG = '{{ page.handle | escape }}';
+    var root = document.getElementById('cs-detail-root');
+    var crumb = document.getElementById('cs-crumb-title');
+
+    function esc(s) {
+      return String(s || '').replace(/[&<>"']/g, function (c) {
+        return { '&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;' }[c];
+      });
+    }
+
+    function collectionLabel(slug) {
+      return slug.replace(/-/g, ' ').replace(/\b\w/g, function (c) { return c.toUpperCase(); });
+    }
+
+    function render(s) {
+      crumb.textContent = s.title;
+      document.title = s.title + ' — ' + (s.client_short || s.client) + ' · Meru Trophy';
+      var hasImg = s.hero_image && s.hero_image.length > 0;
+      var hasLogo = s.brand_logo && s.brand_logo.length > 0;
+
+      var hero =
+        '<div class="cs-detail__hero">' +
+          '<figure class="cs-detail__media' + (hasImg ? '' : ' cs-detail__media--noimg') + '">' +
+            (hasImg
+              ? '<img src="' + esc(s.hero_image) + '" alt="' + esc(s.hero_image_alt || s.title) + '">'
+              : '<div><div class="ph-brand">' + esc(s.client_short || s.client) + '</div>' +
+                '<div class="ph-event">' + esc(s.event || '') + '</div></div>') +
+            (s.category ? '<span class="cs-detail__media-tag">' + esc(s.category) + ' · ' + esc(s.event_year || '') + '</span>' : '') +
+          '</figure>' +
+          '<div class="cs-detail__copy">' +
+            '<span class="cs-detail__eyebrow">Case Study' + (s.location ? ' · ' + esc(s.location) : '') + '</span>' +
+            (hasLogo ? '<img class="cs-detail__brandlogo" src="' + esc(s.brand_logo) + '" alt="' + esc(s.client) + ' logo">' : '') +
+            '<h1 class="cs-detail__title">' + esc(s.title) + '</h1>' +
+            (s.tagline ? '<p class="cs-detail__sub">' + esc(s.tagline) + '</p>' : '') +
+            '<div class="cs-detail__quickfacts">' +
+              '<div class="cs-detail__quickfact"><div class="cs-detail__quickfact-label">Client</div><div class="cs-detail__quickfact-value">' + esc(s.client) + '</div></div>' +
+              '<div class="cs-detail__quickfact"><div class="cs-detail__quickfact-label">Industry</div><div class="cs-detail__quickfact-value">' + esc(s.industry || '—') + '</div></div>' +
+              '<div class="cs-detail__quickfact"><div class="cs-detail__quickfact-label">Event</div><div class="cs-detail__quickfact-value">' + esc(s.event || '—') + '</div></div>' +
+              '<div class="cs-detail__quickfact"><div class="cs-detail__quickfact-label">Year</div><div class="cs-detail__quickfact-value">' + esc(s.event_year || '—') + '</div></div>' +
+            '</div>' +
+            '<div class="cs-detail__hero-cta">' +
+              '<a class="button button--primary" href="tel:+917892207252">Get a similar trophy</a>' +
+              '<a class="button button--secondary" href="https://wa.me/917892207252" target="_blank" rel="noopener">WhatsApp</a>' +
+            '</div>' +
+          '</div>' +
+        '</div>';
+
+      var stats = '';
+      if (s.stats && s.stats.length) {
+        stats = '<div class="cs-detail__stats">' +
+          s.stats.map(function (st) {
+            return '<div class="cs-detail__stat"><div class="cs-detail__stat-value">' + esc(st.value) + '</div><div class="cs-detail__stat-label">' + esc(st.label) + '</div></div>';
+          }).join('') +
+        '</div>';
+      }
+
+      var gallery = '';
+      if (s.gallery && s.gallery.length) {
+        gallery = '<div class="cs-detail__gallery">' +
+          s.gallery.map(function (g) {
+            return '<img src="' + esc(g.src || g) + '" alt="' + esc(g.alt || s.title) + '" loading="lazy">';
+          }).join('') +
+        '</div>';
+      }
+
+      var body =
+        '<div class="cs-detail__body">' +
+          '<main>' +
+            (s.about_client ? '<div class="cs-detail__block"><h2>About ' + esc(s.client_short || s.client) + '</h2><p>' + esc(s.about_client) + '</p></div>' : '') +
+            (s.about_event ? '<div class="cs-detail__block"><h2>About the event</h2><p>' + esc(s.about_event) + '</p></div>' : '') +
+            (s.design_brief ? '<div class="cs-detail__block"><h2>The brief</h2><p>' + esc(s.design_brief) + '</p></div>' : '') +
+            (s.production_notes && s.production_notes.length ? '<div class="cs-detail__block"><h2>How we built it</h2><ul>' + s.production_notes.map(function (n) { return '<li>' + esc(n) + '</li>'; }).join('') + '</ul></div>' : '') +
+            (s.outcome ? '<div class="cs-detail__block"><h2>Outcome</h2><p>' + esc(s.outcome) + '</p></div>' : '') +
+            gallery +
+          '</main>' +
+          '<aside class="cs-detail__aside">' +
+            '<div class="cs-detail__sidecard">' +
+              '<h3>Project at a glance</h3>' +
+              '<dl>' +
+                (s.client ? '<div><dt>Client</dt><dd>' + esc(s.client) + '</dd></div>' : '') +
+                (s.industry ? '<div><dt>Industry</dt><dd>' + esc(s.industry) + '</dd></div>' : '') +
+                (s.location ? '<div><dt>Location</dt><dd>' + esc(s.location) + '</dd></div>' : '') +
+                (s.event ? '<div><dt>Event</dt><dd>' + esc(s.event) + '</dd></div>' : '') +
+                (s.event_year ? '<div><dt>Year</dt><dd>' + esc(s.event_year) + '</dd></div>' : '') +
+                (s.category ? '<div><dt>Category</dt><dd>' + esc(s.category) + '</dd></div>' : '') +
+              '</dl>' +
+            '</div>' +
+            (s.tags && s.tags.length
+              ? '<div class="cs-detail__sidecard"><h3>What we made</h3><div class="cs-detail__tags">' +
+                s.tags.map(function (t) { return '<span>' + esc(t) + '</span>'; }).join('') +
+                '</div></div>' : '') +
+            (s.external_links && s.external_links.length
+              ? '<div class="cs-detail__sidecard"><h3>References</h3><dl>' +
+                s.external_links.map(function (l) {
+                  return '<div><dd><a href="' + esc(l.url) + '" target="_blank" rel="noopener">' + esc(l.label) + ' ↗</a></dd></div>';
+                }).join('') +
+                '</dl></div>' : '') +
+          '</aside>' +
+        '</div>';
+
+      var related = '';
+      if (s.related_collections && s.related_collections.length) {
+        related = '<section class="cs-detail__related"><h2 class="h2">Explore similar trophies</h2><div class="cs-detail__related-grid">' +
+          s.related_collections.map(function (slug) {
+            return '<a href="/collections/' + esc(slug) + '">' + esc(collectionLabel(slug)) + ' →</a>';
+          }).join('') +
+          '<a href="/pages/brands">All Brands</a>' +
+          '<a href="/pages/reviews">Reviews (4.9★)</a>' +
+          '<a href="/pages/gallery">Past Work Gallery</a>' +
+        '</div></section>';
+      }
+
+      var bigCta =
+        '<section class="cs-detail__bigcta">' +
+          '<h2 class="h2">Want a trophy that owns the room like this one?</h2>' +
+          '<p>We design custom statues, crystal awards and bespoke recognition pieces around your brand. Free concept sketch within 24 hours.</p>' +
+          '<div class="cs-detail__bigcta__actions">' +
+            '<a class="button button--primary" href="tel:+917892207252">Call +91 78922 07252</a>' +
+            '<a class="button button--secondary" href="https://wa.me/917892207252" target="_blank" rel="noopener">WhatsApp</a>' +
+            '<a class="button button--secondary" href="/pages/case-studies">More case studies →</a>' +
+          '</div>' +
+        '</section>';
+
+      root.innerHTML = hero + stats + body + related + bigCta;
+
+      // Update JSON-LD with richer Article schema
+      var jsonld = {
+        '@context': 'https://schema.org',
+        '@type': 'Article',
+        'headline': s.title,
+        'about': s.event,
+        'image': s.hero_image || undefined,
+        'description': s.subtitle || s.tagline,
+        'publisher': { '@type': 'Organization', 'name': 'Meru Trophy', 'url': window.location.origin },
+        'mentions': [{ '@type': 'Organization', 'name': s.client }],
+        'contentLocation': s.location ? { '@type': 'Place', 'name': s.location } : undefined
+      };
+      document.getElementById('cs-detail-jsonld').textContent = JSON.stringify(jsonld);
+    }
+
+    fetch(DATA_URL).then(function (r) { return r.json(); }).then(function (data) {
+      var s = (data.studies || []).filter(function (x) { return x.slug === SLUG; })[0];
+      if (!s) {
+        root.innerHTML = '<div class="cs-detail__error">No case study found for this page. Make sure the entry in <code>case-studies-data.json</code> has <code>slug: "' + esc(SLUG) + '"</code>.</div>';
+        return;
+      }
+      render(s);
+    }).catch(function () {
+      root.innerHTML = '<div class="cs-detail__error">Could not load case study.</div>';
+    });
+  })();
+</script>
+
+{% schema %}
+{
+  "name": "Case study",
+  "tag": "section",
+  "class": "section",
+  "settings": [
+    { "type": "paragraph", "content": "This section auto-loads content from assets/case-studies-data.json based on the page handle. Make sure the page handle matches the `slug` field of the case study." },
+    { "type": "color_scheme", "id": "color_scheme", "label": "Color scheme", "default": "scheme-1" },
+    { "type": "range", "id": "padding_top", "min": 0, "max": 100, "step": 4, "unit": "px", "label": "Top padding", "default": 28 },
+    { "type": "range", "id": "padding_bottom", "min": 0, "max": 100, "step": 4, "unit": "px", "label": "Bottom padding", "default": 60 }
+  ],
+  "presets": [ { "name": "Case study detail", "category": "Custom" } ]
+}
+{% endschema %}

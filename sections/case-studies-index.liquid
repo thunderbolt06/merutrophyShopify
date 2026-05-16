@@ -1,0 +1,317 @@
+{%- style -%}
+  .section-{{ section.id }}-padding {
+    padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
+    padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
+  }
+  @media screen and (min-width: 750px) {
+    .section-{{ section.id }}-padding {
+      padding-top: {{ section.settings.padding_top }}px;
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+  }
+
+  .cs-hero { text-align: center; padding: 3rem 0 2rem; }
+  .cs-hero__eyebrow {
+    display: inline-block; font-size: 1.2rem; letter-spacing: 0.3rem;
+    text-transform: uppercase; color: rgba(var(--color-foreground), 0.6);
+    margin-bottom: 1.2rem;
+  }
+  .cs-hero__title { margin: 0 auto 1.2rem; max-width: 78rem; line-height: 1.1; }
+  .cs-hero__title em {
+    font-style: normal;
+    background: linear-gradient(135deg, #d4a017, #f5b400);
+    -webkit-background-clip: text; background-clip: text; color: transparent;
+  }
+  .cs-hero__sub {
+    max-width: 60rem; margin: 0 auto 2rem;
+    font-size: 1.55rem; line-height: 1.6;
+    color: rgba(var(--color-foreground), 0.75);
+  }
+  .cs-hero__cta { display: flex; justify-content: center; gap: 1.2rem; flex-wrap: wrap; }
+
+  .cs-filters {
+    display: flex; flex-wrap: wrap; gap: 0.6rem; justify-content: center;
+    margin: 2.4rem 0 2rem;
+  }
+  .cs-filter {
+    padding: 0.7rem 1.4rem; border-radius: 999px;
+    border: 1px solid rgba(var(--color-foreground), 0.16);
+    background: transparent; color: rgb(var(--color-foreground));
+    font-size: 1.3rem; cursor: pointer; transition: all 0.2s ease;
+  }
+  .cs-filter:hover { border-color: #f5b400; }
+  .cs-filter[aria-pressed="true"] {
+    background: rgb(var(--color-foreground)); color: rgb(var(--color-background));
+    border-color: rgb(var(--color-foreground));
+  }
+
+  .cs-grid {
+    display: grid; gap: 2rem;
+    grid-template-columns: 1fr;
+    margin-top: 1rem;
+  }
+  @media (min-width: 750px) { .cs-grid { grid-template-columns: repeat(2, 1fr); gap: 2.4rem; } }
+  @media (min-width: 1100px) { .cs-grid { grid-template-columns: repeat(3, 1fr); } }
+
+  .cs-card {
+    position: relative;
+    border-radius: 1.4rem;
+    overflow: hidden;
+    background: rgb(var(--color-background));
+    border: 1px solid rgba(var(--color-foreground), 0.1);
+    box-shadow: 0 0.4rem 1.6rem rgba(0,0,0,0.04);
+    text-decoration: none;
+    color: rgb(var(--color-foreground));
+    display: flex; flex-direction: column;
+    transition: transform 0.4s cubic-bezier(0.2, 0.8, 0.2, 1), box-shadow 0.4s ease, border-color 0.3s ease;
+    opacity: 0; transform: translateY(20px);
+    will-change: transform;
+  }
+  .cs-card.is-visible { opacity: 1; transform: translateY(0); }
+  .cs-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 2rem 4rem rgba(212, 160, 23, 0.15);
+    border-color: rgba(245, 180, 0, 0.4);
+  }
+  .cs-card:focus-visible { outline: 2px solid #f5b400; outline-offset: 4px; }
+
+  .cs-card__media {
+    position: relative; aspect-ratio: 4 / 3; overflow: hidden;
+    background: linear-gradient(135deg, #1a1a2e 0%, #2d1b4e 50%, #d4a017 130%);
+  }
+  .cs-card__media img {
+    width: 100%; height: 100%; object-fit: cover;
+    transition: transform 0.6s cubic-bezier(0.2, 0.8, 0.2, 1);
+  }
+  .cs-card:hover .cs-card__media img { transform: scale(1.06); }
+  .cs-card__media--noimg {
+    display: flex; align-items: center; justify-content: center;
+    color: rgba(255,255,255,0.85);
+    font-size: 1.4rem; font-weight: 600; letter-spacing: 0.05rem;
+    text-align: center; padding: 2rem;
+    text-shadow: 0 2px 12px rgba(0,0,0,0.4);
+  }
+  .cs-card__media--noimg::before {
+    content: ''; position: absolute; inset: 0;
+    background:
+      radial-gradient(circle at 20% 80%, rgba(245, 180, 0, 0.25), transparent 50%),
+      radial-gradient(circle at 80% 20%, rgba(116, 73, 200, 0.3), transparent 50%);
+    pointer-events: none;
+  }
+  .cs-card__badge {
+    position: absolute; top: 1.2rem; left: 1.2rem;
+    background: rgba(0,0,0,0.55); backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    color: #fff; font-size: 1.1rem; font-weight: 600;
+    padding: 0.5rem 1rem; border-radius: 999px;
+    letter-spacing: 0.05rem; text-transform: uppercase;
+  }
+  .cs-card__year {
+    position: absolute; bottom: 1.2rem; right: 1.2rem;
+    color: #fff; font-size: 1.2rem;
+    background: rgba(245, 180, 0, 0.9); padding: 0.4rem 0.9rem;
+    border-radius: 0.4rem; font-weight: 600;
+  }
+  .cs-card__body { padding: 2rem 1.8rem 2.2rem; display: flex; flex-direction: column; gap: 0.8rem; flex: 1; }
+  .cs-card__client { font-size: 1.25rem; color: rgba(var(--color-foreground), 0.6); text-transform: uppercase; letter-spacing: 0.1rem; }
+  .cs-card__title { font-size: 1.9rem; line-height: 1.25; margin: 0; font-weight: 600; }
+  .cs-card__desc { font-size: 1.4rem; line-height: 1.5; color: rgba(var(--color-foreground), 0.75); flex: 1; }
+  .cs-card__cta {
+    margin-top: 1rem; font-size: 1.35rem; font-weight: 600; color: #d4a017;
+    display: inline-flex; align-items: center; gap: 0.4rem;
+  }
+  .cs-card__cta::after {
+    content: '→'; transition: transform 0.3s ease;
+    display: inline-block;
+  }
+  .cs-card:hover .cs-card__cta::after { transform: translateX(4px); }
+  .cs-card__tags { display: flex; flex-wrap: wrap; gap: 0.4rem; margin-top: 0.6rem; }
+  .cs-card__tag {
+    font-size: 1.05rem; padding: 0.3rem 0.8rem;
+    border-radius: 0.4rem; background: rgba(var(--color-foreground), 0.06);
+    color: rgba(var(--color-foreground), 0.7);
+  }
+
+  .cs-bottom-cta {
+    margin: 5rem 0 2rem; padding: 4rem 2rem;
+    border-radius: 1.4rem; text-align: center;
+    background: linear-gradient(135deg, rgba(245, 180, 0, 0.12), rgba(116, 73, 200, 0.08));
+    border: 1px solid rgba(245, 180, 0, 0.25);
+  }
+  .cs-bottom-cta h2 { margin: 0 0 1rem; }
+  .cs-bottom-cta p { max-width: 56rem; margin: 0 auto 2rem; font-size: 1.5rem; color: rgba(var(--color-foreground), 0.8); }
+  .cs-bottom-cta__actions { display: flex; gap: 1.2rem; flex-wrap: wrap; justify-content: center; }
+
+  .cs-empty { text-align: center; padding: 4rem 0; color: rgba(var(--color-foreground), 0.6); }
+{%- endstyle -%}
+
+<div class="color-{{ section.settings.color_scheme }} gradient section-{{ section.id }}-padding">
+  <div class="page-width">
+
+    <header class="cs-hero">
+      <span class="cs-hero__eyebrow">{{ section.settings.eyebrow | default: 'Case Studies' }}</span>
+      <h1 class="cs-hero__title h0">
+        {{ section.settings.heading | default: 'Award shows. Milestones. <em>Meru moments.</em>' }}
+      </h1>
+      <p class="cs-hero__sub">
+        {{ section.settings.subheading | default: 'Selected client work — from broadcast TV award nights to corporate milestones and college tournaments. Each trophy is custom-designed around the brand and the moment.' }}
+      </p>
+      <div class="cs-hero__cta">
+        <a href="{{ section.settings.cta_primary_link | default: 'tel:+917892207252' }}" class="button button--primary">
+          {{ section.settings.cta_primary_label | default: 'Start Your Project' }}
+        </a>
+        <a href="{{ section.settings.cta_secondary_link | default: '/pages/brands' }}" class="button button--secondary">
+          {{ section.settings.cta_secondary_label | default: 'View All Brands' }}
+        </a>
+      </div>
+    </header>
+
+    <div class="cs-filters" id="cs-filters" role="group" aria-label="Filter case studies">
+      <button class="cs-filter" type="button" data-cat="all" aria-pressed="true">All</button>
+    </div>
+
+    <div class="cs-grid" id="cs-grid"></div>
+    <div class="cs-empty" id="cs-empty" hidden>No case studies match.</div>
+
+    <section class="cs-bottom-cta">
+      <h2 class="h2">Have a brand moment to award?</h2>
+      <p>From a single bespoke statue to a 500-medal sports day — we design, manufacture and deliver across India. Free concept preview within 24 hours.</p>
+      <div class="cs-bottom-cta__actions">
+        <a href="tel:+917892207252" class="button button--primary">Call +91 78922 07252</a>
+        <a href="https://wa.me/917892207252" target="_blank" rel="noopener" class="button button--secondary">WhatsApp Us</a>
+        <a href="/pages/contact" class="button button--secondary">Get a Quote</a>
+      </div>
+    </section>
+
+  </div>
+</div>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  "name": "Meru Trophy — Case Studies",
+  "description": "Selected client work and bespoke trophy projects by Meru Trophy.",
+  "url": "{{ shop.url }}/pages/case-studies",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "Meru Trophy",
+    "url": "{{ shop.url }}"
+  }
+}
+</script>
+
+<script>
+  (function () {
+    var DATA_URL = '{{ 'case-studies-data.json' | asset_url }}';
+    var grid = document.getElementById('cs-grid');
+    var filtersHost = document.getElementById('cs-filters');
+    var emptyEl = document.getElementById('cs-empty');
+    var STATE = { studies: [], filter: 'all' };
+
+    function esc(s) {
+      return String(s || '').replace(/[&<>"']/g, function (c) {
+        return { '&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;' }[c];
+      });
+    }
+
+    function cardHtml(s) {
+      var hasImg = s.hero_image && s.hero_image.length > 0;
+      var media = hasImg
+        ? '<div class="cs-card__media"><img src="' + esc(s.hero_image) + '" alt="' + esc(s.hero_image_alt || s.title) + '" loading="lazy"></div>'
+        : '<div class="cs-card__media cs-card__media--noimg"><span>' + esc(s.client_short || s.client) + '</span></div>';
+      var badge = s.category ? '<span class="cs-card__badge">' + esc(s.category) + '</span>' : '';
+      var year = s.event_year ? '<span class="cs-card__year">' + esc(s.event_year) + '</span>' : '';
+      var tags = (s.tags || []).slice(0, 3).map(function (t) {
+        return '<span class="cs-card__tag">' + esc(t) + '</span>';
+      }).join('');
+      return '<a class="cs-card" href="/pages/' + esc(s.slug) + '" aria-label="View case study: ' + esc(s.title) + '">' +
+        '<div class="cs-card__media-wrap" style="position:relative">' + media + badge + year + '</div>' +
+        '<div class="cs-card__body">' +
+          '<span class="cs-card__client">' + esc(s.client) + '</span>' +
+          '<h3 class="cs-card__title">' + esc(s.title) + '</h3>' +
+          '<p class="cs-card__desc">' + esc(s.subtitle || s.tagline || '') + '</p>' +
+          (tags ? '<div class="cs-card__tags">' + tags + '</div>' : '') +
+          '<span class="cs-card__cta">Read the case study</span>' +
+        '</div>' +
+      '</a>';
+    }
+
+    function buildFilters(studies) {
+      var cats = {};
+      studies.forEach(function (s) { if (s.category) cats[s.category] = (cats[s.category] || 0) + 1; });
+      Object.keys(cats).forEach(function (c) {
+        var btn = document.createElement('button');
+        btn.type = 'button';
+        btn.className = 'cs-filter';
+        btn.dataset.cat = c;
+        btn.setAttribute('aria-pressed', 'false');
+        btn.textContent = c + ' (' + cats[c] + ')';
+        filtersHost.appendChild(btn);
+      });
+      filtersHost.addEventListener('click', function (e) {
+        var b = e.target.closest('.cs-filter');
+        if (!b) return;
+        STATE.filter = b.dataset.cat;
+        filtersHost.querySelectorAll('.cs-filter').forEach(function (x) {
+          x.setAttribute('aria-pressed', x === b ? 'true' : 'false');
+        });
+        render();
+      });
+    }
+
+    function observe(cards) {
+      if (!('IntersectionObserver' in window)) {
+        cards.forEach(function (c) { c.classList.add('is-visible'); }); return;
+      }
+      var io = new IntersectionObserver(function (entries) {
+        entries.forEach(function (e, i) {
+          if (e.isIntersecting) {
+            setTimeout(function () { e.target.classList.add('is-visible'); }, (i % 6) * 70);
+            io.unobserve(e.target);
+          }
+        });
+      }, { threshold: 0.1, rootMargin: '0px 0px -40px 0px' });
+      cards.forEach(function (c) { io.observe(c); });
+    }
+
+    function render() {
+      var list = STATE.studies.filter(function (s) {
+        return STATE.filter === 'all' || s.category === STATE.filter;
+      });
+      grid.innerHTML = list.map(cardHtml).join('');
+      emptyEl.hidden = list.length > 0;
+      observe(grid.querySelectorAll('.cs-card'));
+    }
+
+    fetch(DATA_URL).then(function (r) { return r.json(); }).then(function (data) {
+      STATE.studies = data.studies || [];
+      buildFilters(STATE.studies);
+      render();
+    }).catch(function () {
+      emptyEl.hidden = false;
+      emptyEl.textContent = 'Case studies could not be loaded.';
+    });
+  })();
+</script>
+
+{% schema %}
+{
+  "name": "Case studies index",
+  "tag": "section",
+  "class": "section",
+  "settings": [
+    { "type": "text", "id": "eyebrow", "label": "Eyebrow", "default": "Case Studies" },
+    { "type": "richtext", "id": "heading", "label": "Heading", "default": "<h1>Award shows. Milestones. <em>Meru moments.</em></h1>" },
+    { "type": "textarea", "id": "subheading", "label": "Subheading" },
+    { "type": "text", "id": "cta_primary_label", "label": "Primary CTA label", "default": "Start Your Project" },
+    { "type": "text", "id": "cta_primary_link", "label": "Primary CTA link", "default": "tel:+917892207252" },
+    { "type": "text", "id": "cta_secondary_label", "label": "Secondary CTA label", "default": "View All Brands" },
+    { "type": "text", "id": "cta_secondary_link", "label": "Secondary CTA link", "default": "/pages/brands" },
+    { "type": "color_scheme", "id": "color_scheme", "label": "Color scheme", "default": "scheme-1" },
+    { "type": "range", "id": "padding_top", "min": 0, "max": 100, "step": 4, "unit": "px", "label": "Top padding", "default": 24 },
+    { "type": "range", "id": "padding_bottom", "min": 0, "max": 100, "step": 4, "unit": "px", "label": "Bottom padding", "default": 60 }
+  ],
+  "presets": [ { "name": "Case studies index", "category": "Custom" } ]
+}
+{% endschema %}

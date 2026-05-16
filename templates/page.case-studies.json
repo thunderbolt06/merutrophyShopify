@@ -1,0 +1,25 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": { "padding_top": 0, "padding_bottom": 0 }
+    },
+    "index": {
+      "type": "case-studies-index",
+      "settings": {
+        "eyebrow": "Case Studies",
+        "heading": "<h1>Award shows. Milestones. <em>Meru moments.</em></h1>",
+        "subheading": "Selected client work — from broadcast TV award nights to corporate milestones and college tournaments. Each trophy is custom-designed around the brand and the moment.",
+        "cta_primary_label": "Start Your Project",
+        "cta_primary_link": "tel:+917892207252",
+        "cta_secondary_label": "View All Brands",
+        "cta_secondary_link": "/pages/brands",
+        "color_scheme": "scheme-1",
+        "padding_top": 24,
+        "padding_bottom": 60
+      }
+    }
+  },
+  "order": ["main", "index"]
+}

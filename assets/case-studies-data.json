@@ -1,0 +1,48 @@
+{
+  "version": 1,
+  "updated": "2026-05-17",
+  "_instructions": "To add a new case study: (1) add an object to `studies`, (2) create a Shopify page with the same `slug` as its handle and assign template `page.case-study`, (3) upload the trophy photo and brand logo to Shopify Files and paste the file URLs into `hero_image` and `brand_logo`. The index page at /pages/case-studies auto-renders from this list.",
+  "studies": [
+    {
+      "slug": "suman-tv-karnataka-sumana-sadhaka",
+      "title": "Karnataka Sumana Sadhaka 2026",
+      "subtitle": "A custom statue award for SumanTV Kannada's flagship recognition program",
+      "client": "SumanTV Kannada — Chikkaballapur",
+      "client_short": "SumanTV Kannada",
+      "industry": "Media · Broadcast Television",
+      "event": "Karnataka Sumana Sadhaka Awards 2026",
+      "event_year": 2026,
+      "location": "Chikkaballapur, Karnataka",
+      "category": "Corporate",
+      "tags": ["Custom Statue", "Gold Finish", "Wood Plinth", "Media Awards", "Engraved Nameplate"],
+      "tagline": "When a TV network needs a trophy that looks as iconic as their brand mark — we make the brand the trophy.",
+      "hero_image": "",
+      "hero_image_alt": "Karnataka Sumana Sadhaka 2026 trophy — a gold sculpted 'S' wrapping a blue globe, topped with the SumanTV Kannada Chikkaballapur logo, mounted on a polished wood base with engraved gold nameplate.",
+      "brand_logo": "",
+      "gallery": [],
+      "stats": [
+        { "label": "Trophies produced", "value": "Custom" },
+        { "label": "Lead time", "value": "Fast-track" },
+        { "label": "Finish", "value": "24K Gold-tone" },
+        { "label": "Base", "value": "Solid wood" }
+      ],
+      "about_client": "SumanTV Kannada is the Kannada-language arm of the SumanTV digital news network (parent: PlayEven Info Pvt Ltd, Hyderabad). The Chikkaballapur district unit produces local Karnataka news, civic stories and human-interest features for YouTube and OTT audiences. SumanTV's regional channels collectively reach millions of viewers across South India.",
+      "about_event": "The Karnataka Sumana Sadhaka Awards (ಸುಮನ ಸಾಧಕ — literally 'noble achiever') is SumanTV Kannada's flagship recognition program, honouring individuals whose perseverance, craft and public contribution have shifted the cultural needle in Karnataka. The 2026 edition's honourees include the India Women's Blind Cricket team captains — Deepika TC, Kavya V and Kavya NR — recognised for excellence on the international stage.",
+      "design_brief": "The client wanted a trophy that read as the brand at a glance. Most TV-award trophies bolt a logo plate onto a generic statue — we inverted that. The award itself is a sculpted, oversized 'S' (the channel's brand initial) sweeping around a richly enamelled globe, with the network's badge as the crown. Every angle reinforces the channel's identity; the engraved gold plaque on the wood plinth carries the event line.",
+      "production_notes": [
+        "Sculpted 'S' form in cast metal with electroplated 24K gold-tone finish",
+        "Hand-painted enamel globe with metallic gold continents",
+        "Brushed-gold disc inlay carrying the SumanTV Kannada Chikkaballapur logo, mounted at the crown of the 'S'",
+        "Mirror-polished solid wood plinth with chamfered profile",
+        "Engraved brass nameplate in bordered serif type: 'KARNATAKA SUMANA SADHAKA 2026'"
+      ],
+      "outcome": "Delivered on time for the awards ceremony. The trophy has become the visual anchor of SumanTV Kannada's award show coverage — featured in every broadcast cutaway, photo op and social post around the program.",
+      "related_collections": ["corporate-and-college-premium-trophies", "crystal-trophies", "metal-sports-trophies"],
+      "related_products": [],
+      "external_links": [
+        { "label": "About the award (Female Cricket coverage)", "url": "https://femalecricket.com/women-cricket-news/86112-india-womens-blind-cricket-stars-honoured-with-karnataka-sumana-sadhaka-award.html" },
+        { "label": "SumanTV on LinkedIn", "url": "https://in.linkedin.com/company/suman-tv" }
+      ]
+    }
+  ]
+}
