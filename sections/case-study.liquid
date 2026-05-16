@@ -203,9 +203,21 @@
 </script>
 
 <script>
+  window.__csAssetMap = window.__csAssetMap || {};
+  window.__csAssetMap['cs-suman-tv-trophy.jpg'] = {{ 'cs-suman-tv-trophy.jpg' | asset_url | json }};
+</script>
+<script>
   (function () {
     var DATA_URL = '{{ 'case-studies-data.json' | asset_url }}';
     var SLUG = '{{ page.handle | escape }}';
+    function resolveAsset(u) {
+      if (!u) return '';
+      if (u.indexOf('asset:') === 0) {
+        var key = u.slice(6);
+        return (window.__csAssetMap && window.__csAssetMap[key]) || '';
+      }
+      return u;
+    }
     var root = document.getElementById('cs-detail-root');
     var crumb = document.getElementById('cs-crumb-title');
 
@@ -222,6 +234,8 @@
     function render(s) {
       crumb.textContent = s.title;
       document.title = s.title + ' — ' + (s.client_short || s.client) + ' · Meru Trophy';
+      s.hero_image = resolveAsset(s.hero_image);
+      s.brand_logo = resolveAsset(s.brand_logo);
       var hasImg = s.hero_image && s.hero_image.length > 0;
       var hasLogo = s.brand_logo && s.brand_logo.length > 0;
 

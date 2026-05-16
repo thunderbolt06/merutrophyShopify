@@ -202,8 +202,20 @@
 </script>
 
 <script>
+  window.__csAssetMap = window.__csAssetMap || {};
+  window.__csAssetMap['cs-suman-tv-trophy.jpg'] = {{ 'cs-suman-tv-trophy.jpg' | asset_url | json }};
+</script>
+<script>
   (function () {
     var DATA_URL = '{{ 'case-studies-data.json' | asset_url }}';
+    function resolveAsset(u) {
+      if (!u) return '';
+      if (u.indexOf('asset:') === 0) {
+        var key = u.slice(6);
+        return (window.__csAssetMap && window.__csAssetMap[key]) || '';
+      }
+      return u;
+    }
     var grid = document.getElementById('cs-grid');
     var filtersHost = document.getElementById('cs-filters');
     var emptyEl = document.getElementById('cs-empty');
@@ -216,6 +228,7 @@
     }
 
     function cardHtml(s) {
+      s.hero_image = resolveAsset(s.hero_image);
       var hasImg = s.hero_image && s.hero_image.length > 0;
       var media = hasImg
         ? '<div class="cs-card__media"><img src="' + esc(s.hero_image) + '" alt="' + esc(s.hero_image_alt || s.title) + '" loading="lazy"></div>'
