@@ -24,16 +24,16 @@
           "settings": {
             "button_label_1": "Gallery",
             "button_link_1": "shopify://pages/gallery",
-            "button_style_secondary_1": false,
+            "button_style_secondary_1": true,
             "button_label_2": "Call 7483900892",
             "button_link_2": "tel:+91-7483900892",
-            "button_style_secondary_2": false,
+            "button_style_secondary_2": true,
             "button_label_3": "Download Catalogue",
             "button_link_3": "https://drive.google.com/file/d/1vVlkVoEyYstc6lwJChRMgMuh7Yl5qEbA/view",
-            "button_style_secondary_3": false,
+            "button_style_secondary_3": true,
             "button_label_4": "Whatsapp Now",
             "button_link_4": "https://wa.me/+917483900892?text=Hi",
-            "button_style_secondary_4": false
+            "button_style_secondary_4": true
           }
         }
       },
@@ -146,7 +146,7 @@
             "gap": 16,
             "padding": 20,
             "border_radius": 10,
-            "background_color": "#ffffff",
+            "background_color": "#242833",
             "columns_mobile": "1",
             "gap_mobile": 8,
             "padding_mobile": 16
@@ -229,7 +229,7 @@
         "cta_label": "See all case studies",
         "cta_link": "/pages/case-studies",
         "rotate_seconds": 30,
-        "color_scheme": "scheme-1",
+        "color_scheme": "scheme-3",
         "padding_top": 40,
         "padding_bottom": 40
       }
@@ -360,7 +360,7 @@
         "cta_link": "/pages/brands",
         "cta2_label": "Read Reviews (4.9★)",
         "cta2_link": "/pages/reviews",
-        "color_scheme": "scheme-2",
+        "color_scheme": "scheme-3",
         "padding_top": 36,
         "padding_bottom": 36
       }
