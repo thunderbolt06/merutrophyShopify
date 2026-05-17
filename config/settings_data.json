@@ -144,9 +144,14 @@
     },
     "content_for_index": [],
     "blocks": {
+      "8170924994765517213": {
+        "type": "shopify://apps/tepo-product-options/blocks/app-embed/906ef57c-14e4-45d8-8b53-3ba7349d56a6",
+        "disabled": true,
+        "settings": {}
+      },
       "15683396631634586217": {
         "type": "shopify://apps/inbox/blocks/chat/841fc607-4181-4ad1-842d-e24d7f8bad6b",
-        "disabled": false,
+        "disabled": true,
         "settings": {
           "button_color": "#242833",
           "secondary_color": "#f3f3f3",
@@ -157,11 +162,6 @@
           "button_vertical_position": "lowest",
           "greeting_message": ""
         }
-      },
-      "8170924994765517213": {
-        "type": "shopify://apps/tepo-product-options/blocks/app-embed/906ef57c-14e4-45d8-8b53-3ba7349d56a6",
-        "disabled": true,
-        "settings": {}
       }
     },
     "color_schemes": {
