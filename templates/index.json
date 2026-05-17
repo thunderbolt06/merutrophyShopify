@@ -24,16 +24,16 @@
           "settings": {
             "button_label_1": "Gallery",
             "button_link_1": "shopify://pages/gallery",
-            "button_style_secondary_1": true,
+            "button_style_secondary_1": false,
             "button_label_2": "Call 7483900892",
             "button_link_2": "tel:+91-7483900892",
-            "button_style_secondary_2": true,
+            "button_style_secondary_2": false,
             "button_label_3": "Download Catalogue",
             "button_link_3": "https://drive.google.com/file/d/1vVlkVoEyYstc6lwJChRMgMuh7Yl5qEbA/view",
-            "button_style_secondary_3": true,
+            "button_style_secondary_3": false,
             "button_label_4": "Whatsapp Now",
             "button_link_4": "https://wa.me/+917483900892?text=Hi",
-            "button_style_secondary_4": true
+            "button_style_secondary_4": false
           }
         }
       },
