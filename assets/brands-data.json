@@ -49,6 +49,11 @@
           "featured": true
         },
         {
+          "name": "Deutsche Telekom",
+          "featured": true,
+          "website": "https://www.t-systems.com/in/en"
+        },
+        {
           "name": "Foxconn"
         },
         {
@@ -109,6 +114,11 @@
         },
         {
           "name": "MAX Life"
+        },
+        {
+          "name": "Bajaj Finance",
+          "featured": true,
+          "website": "https://www.bajajfinserv.in"
         },
         {
           "name": "Bajaj Allianz"
@@ -377,6 +387,13 @@
         },
         {
           "name": "The Oxford College of Law"
+        },
+        {
+          "name": "Govt. High School, Arsikere"
+        },
+        {
+          "name": "KLE Society's Degree College, Nagarbhavi",
+          "website": "https://www.klenagarbhavi.edu.in/"
         }
       ]
     },
