@@ -13,77 +13,246 @@
       "slug": "corporate",
       "description": "Trusted by India's leading enterprises for corporate awards, recognition trophies, and milestone gifts.",
       "brands": [
-        { "name": "Amazon", "featured": true },
-        { "name": "Amazon Shipping" },
-        { "name": "Tanishq", "featured": true },
-        { "name": "Caratlane", "featured": true },
-        { "name": "Kalyan Jewellers", "featured": true },
-        { "name": "Titan", "featured": true },
-        { "name": "ITC", "featured": true },
-        { "name": "HCL", "featured": true },
-        { "name": "Infosys", "featured": true },
-        { "name": "Foxconn" },
-        { "name": "Maruti Suzuki", "featured": true },
-        { "name": "Mercedes Benz Research & Development India", "featured": true },
-        { "name": "SOBHA", "featured": true, "website": "https://www.sobha.com/" },
-        { "name": "Caterpillar" },
-        { "name": "Schneider Electric" },
-        { "name": "Cadbury" },
-        { "name": "Mondelez" },
-        { "name": "Coursera" },
-        { "name": "EPICOR" },
-        { "name": "Patanjali" },
-        { "name": "Lifestyle" },
-        { "name": "Decathlon" },
-        { "name": "Godrej" },
-        { "name": "Kingfisher" },
-        { "name": "United Breweries Limited" },
-        { "name": "HDFC Bank", "featured": true },
-        { "name": "HDFC Life Insurance" },
-        { "name": "MAX Life" },
-        { "name": "Bajaj Allianz" },
-        { "name": "Axis Bank" },
-        { "name": "Canara Bank" },
-        { "name": "SBI", "featured": true },
-        { "name": "AU Finance" },
-        { "name": "Muthoot Finance" },
-        { "name": "Aditya Birla Health Insurance" },
-        { "name": "Star Health Insurance" },
-        { "name": "Oriental Life Insurance" },
-        { "name": "Policy Bazaar" },
-        { "name": "Razorpay" },
-        { "name": "CRED" },
-        { "name": "Postman" },
-        { "name": "E-Mudhra" },
-        { "name": "Exxat" },
-        { "name": "Gigin" },
-        { "name": "Beep" },
-        { "name": "Jio", "featured": true },
-        { "name": "Tata Communications" },
-        { "name": "Tata Power REL" },
-        { "name": "Tata Steel" },
-        { "name": "Dish Infra" },
-        { "name": "HealthCare Global" },
-        { "name": "GSS Pharma" },
-        { "name": "Ballestra" },
-        { "name": "Varite" },
-        { "name": "Mahindra Next Wealth IT India" },
-        { "name": "HP Petrol" },
-        { "name": "Trustwell" },
-        { "name": "Shapoorji Pallonji" },
-        { "name": "Awfis" },
-        { "name": "Cera Care" },
-        { "name": "GHMC" },
-        { "name": "BHEL" },
-        { "name": "Central Bank" },
-        { "name": "Indian Express", "featured": true },
-        { "name": "PIDILITE" },
-        { "name": "BNI" },
-        { "name": "IEHC" },
-        { "name": "Mysore Scandal Soap" },
-        { "name": "Institute of Nephro Urology" },
-        { "name": "RudderStack", "featured": true, "website": "https://www.rudderstack.com/" },
-        { "name": "Equitas Small Finance Bank", "website": "https://equitas.bank.in/" }
+        {
+          "name": "Amazon",
+          "featured": true
+        },
+        {
+          "name": "Amazon Shipping"
+        },
+        {
+          "name": "Tanishq",
+          "featured": true
+        },
+        {
+          "name": "Caratlane",
+          "featured": true
+        },
+        {
+          "name": "Kalyan Jewellers",
+          "featured": true
+        },
+        {
+          "name": "Titan",
+          "featured": true
+        },
+        {
+          "name": "ITC",
+          "featured": true
+        },
+        {
+          "name": "HCL",
+          "featured": true
+        },
+        {
+          "name": "Infosys",
+          "featured": true
+        },
+        {
+          "name": "Foxconn"
+        },
+        {
+          "name": "Maruti Suzuki",
+          "featured": true
+        },
+        {
+          "name": "Mercedes Benz Research & Development India",
+          "featured": true
+        },
+        {
+          "name": "SOBHA",
+          "featured": true,
+          "website": "https://www.sobha.com/"
+        },
+        {
+          "name": "Caterpillar"
+        },
+        {
+          "name": "Schneider Electric"
+        },
+        {
+          "name": "Cadbury"
+        },
+        {
+          "name": "Mondelez"
+        },
+        {
+          "name": "Coursera"
+        },
+        {
+          "name": "EPICOR"
+        },
+        {
+          "name": "Patanjali"
+        },
+        {
+          "name": "Lifestyle"
+        },
+        {
+          "name": "Decathlon"
+        },
+        {
+          "name": "Godrej"
+        },
+        {
+          "name": "Kingfisher"
+        },
+        {
+          "name": "United Breweries Limited"
+        },
+        {
+          "name": "HDFC Bank",
+          "featured": true
+        },
+        {
+          "name": "HDFC Life Insurance"
+        },
+        {
+          "name": "MAX Life"
+        },
+        {
+          "name": "Bajaj Allianz"
+        },
+        {
+          "name": "Axis Bank"
+        },
+        {
+          "name": "Canara Bank"
+        },
+        {
+          "name": "SBI",
+          "featured": true
+        },
+        {
+          "name": "AU Finance"
+        },
+        {
+          "name": "Muthoot Finance"
+        },
+        {
+          "name": "Aditya Birla Health Insurance"
+        },
+        {
+          "name": "Star Health Insurance"
+        },
+        {
+          "name": "Oriental Life Insurance"
+        },
+        {
+          "name": "Policy Bazaar"
+        },
+        {
+          "name": "Razorpay"
+        },
+        {
+          "name": "CRED"
+        },
+        {
+          "name": "Postman"
+        },
+        {
+          "name": "E-Mudhra"
+        },
+        {
+          "name": "Exxat"
+        },
+        {
+          "name": "Gigin"
+        },
+        {
+          "name": "Beep"
+        },
+        {
+          "name": "Jio",
+          "featured": true
+        },
+        {
+          "name": "Tata Communications"
+        },
+        {
+          "name": "Tata Power REL"
+        },
+        {
+          "name": "Tata Steel"
+        },
+        {
+          "name": "Dish Infra"
+        },
+        {
+          "name": "HealthCare Global"
+        },
+        {
+          "name": "GSS Pharma"
+        },
+        {
+          "name": "Ballestra"
+        },
+        {
+          "name": "Varite"
+        },
+        {
+          "name": "Mahindra Next Wealth IT India"
+        },
+        {
+          "name": "HP Petrol"
+        },
+        {
+          "name": "Trustwell"
+        },
+        {
+          "name": "Shapoorji Pallonji"
+        },
+        {
+          "name": "Awfis"
+        },
+        {
+          "name": "Cera Care"
+        },
+        {
+          "name": "GHMC"
+        },
+        {
+          "name": "BHEL"
+        },
+        {
+          "name": "Central Bank"
+        },
+        {
+          "name": "Indian Express",
+          "featured": true
+        },
+        {
+          "name": "PIDILITE"
+        },
+        {
+          "name": "BNI"
+        },
+        {
+          "name": "IEHC"
+        },
+        {
+          "name": "Mysore Scandal Soap"
+        },
+        {
+          "name": "Institute of Nephro Urology"
+        },
+        {
+          "name": "RudderStack",
+          "featured": true,
+          "website": "https://www.rudderstack.com/"
+        },
+        {
+          "name": "Equitas Small Finance Bank",
+          "website": "https://equitas.bank.in/"
+        },
+        {
+          "name": "UDAAN",
+          "website": ""
+        },
+        {
+          "name": "SBI Life Insurance",
+          "website": "https://www.sbilife.co.in"
+        }
       ]
     },
     {
@@ -91,44 +260,124 @@
       "slug": "education",
       "description": "Schools, colleges and universities partner with us for graduation medals, sports awards and academic recognition.",
       "brands": [
-        { "name": "KNSIT" },
-        { "name": "The Frank School" },
-        { "name": "Chaitanya" },
-        { "name": "Sainik School" },
-        { "name": "SJRC" },
-        { "name": "Shree Medha Degree School" },
-        { "name": "Neev Academy" },
-        { "name": "MS Dhoni Global School" },
-        { "name": "RNS" },
-        { "name": "St. Johns International School" },
-        { "name": "MITS" },
-        { "name": "World School" },
-        { "name": "St. Josephs Convent School" },
-        { "name": "LFHE" },
-        { "name": "Kristu Jayanti College" },
-        { "name": "Ramaiah Institute of Management" },
-        { "name": "Tiger Hills High School" },
-        { "name": "Narayana E Techno School" },
-        { "name": "Al Ameen PU College" },
-        { "name": "Vision PU College" },
-        { "name": "Acharya School of Design" },
-        { "name": "Nalanda School" },
-        { "name": "Army School Bengaluru" },
-        { "name": "KLE Law College" },
-        { "name": "Kendriya Vidyalaya" },
-        { "name": "EuroKids" },
-        { "name": "KLE Homeopathic Medical" },
-        { "name": "Royal English School" },
-        { "name": "RVCE", "featured": true },
-        { "name": "Sheshadripuram College" },
-        { "name": "St. Thomas High School" },
-        { "name": "Basavanna College" },
-        { "name": "ZP High School" },
-        { "name": "RJS College" },
-        { "name": "Bangalore University" },
-        { "name": "Presidency" },
-        { "name": "ICFAI" },
-        { "name": "Central College, Bengaluru" }
+        {
+          "name": "KNSIT"
+        },
+        {
+          "name": "The Frank School"
+        },
+        {
+          "name": "Chaitanya"
+        },
+        {
+          "name": "Sainik School"
+        },
+        {
+          "name": "SJRC"
+        },
+        {
+          "name": "Shree Medha Degree School"
+        },
+        {
+          "name": "Neev Academy"
+        },
+        {
+          "name": "MS Dhoni Global School"
+        },
+        {
+          "name": "RNS"
+        },
+        {
+          "name": "St. Johns International School"
+        },
+        {
+          "name": "MITS"
+        },
+        {
+          "name": "World School"
+        },
+        {
+          "name": "St. Josephs Convent School"
+        },
+        {
+          "name": "LFHE"
+        },
+        {
+          "name": "Kristu Jayanti College"
+        },
+        {
+          "name": "Ramaiah Institute of Management"
+        },
+        {
+          "name": "Tiger Hills High School"
+        },
+        {
+          "name": "Narayana E Techno School"
+        },
+        {
+          "name": "Al Ameen PU College"
+        },
+        {
+          "name": "Vision PU College"
+        },
+        {
+          "name": "Acharya School of Design"
+        },
+        {
+          "name": "Nalanda School"
+        },
+        {
+          "name": "Army School Bengaluru"
+        },
+        {
+          "name": "KLE Law College"
+        },
+        {
+          "name": "Kendriya Vidyalaya"
+        },
+        {
+          "name": "EuroKids"
+        },
+        {
+          "name": "KLE Homeopathic Medical"
+        },
+        {
+          "name": "Royal English School"
+        },
+        {
+          "name": "RVCE",
+          "featured": true
+        },
+        {
+          "name": "Sheshadripuram College"
+        },
+        {
+          "name": "St. Thomas High School"
+        },
+        {
+          "name": "Basavanna College"
+        },
+        {
+          "name": "ZP High School"
+        },
+        {
+          "name": "RJS College"
+        },
+        {
+          "name": "Bangalore University"
+        },
+        {
+          "name": "Presidency"
+        },
+        {
+          "name": "ICFAI"
+        },
+        {
+          "name": "Central College, Bengaluru"
+        },
+        {
+          "name": "The Oxford College of Law"
+        }
       ]
     },
     {
@@ -136,46 +385,129 @@
       "slug": "businesses",
       "description": "From fast-growing startups to established SMBs across India.",
       "brands": [
-        { "name": "UNI VVA Business Solution" },
-        { "name": "Clayfin" },
-        { "name": "Seed Engineering" },
-        { "name": "Winspring Ideas" },
-        { "name": "Himatsingka Seide" },
-        { "name": "Entuple" },
-        { "name": "Robust Materials" },
-        { "name": "FunSmart Science Learning" },
-        { "name": "Euphonious Innovations" },
-        { "name": "Twine Experimental" },
-        { "name": "Smart Craft" },
-        { "name": "FourEleven Communications" },
-        { "name": "Bremer India Engineering Pvt Ltd" },
-        { "name": "K12 Techno Services Pvt Ltd" },
-        { "name": "Creowis Technologies Pvt Ltd" },
-        { "name": "LogIQ Labs Pvt Ltd" },
-        { "name": "Sopra Steria India Limited" },
-        { "name": "B L R N Technologies" },
-        { "name": "ScreeningStar Solutions Pvt Ltd" },
-        { "name": "OnusWorks Software India Pvt Ltd" },
-        { "name": "Symmetrics Development Services Pvt Ltd" },
-        { "name": "The Music Tent" },
-        { "name": "MaricaVentures" },
-        { "name": "Andritz Technology" },
-        { "name": "ThinkSynq" },
-        { "name": "Renew" },
-        { "name": "Dentakay" },
-        { "name": "SEG Cricket" },
-        { "name": "Lulu Mall" },
-        { "name": "Pegasus" },
-        { "name": "Tecosim" },
-        { "name": "Sheela Foam" },
-        { "name": "Greenko" },
-        { "name": "Meta n Inspire" },
-        { "name": "Maple Tree" },
-        { "name": "Zoller" },
-        { "name": "PK Steel" },
-        { "name": "VisionNet" },
-        { "name": "DRTC" },
-        { "name": "Herbalife" }
+        {
+          "name": "UNI VVA Business Solution"
+        },
+        {
+          "name": "Clayfin"
+        },
+        {
+          "name": "Seed Engineering"
+        },
+        {
+          "name": "Winspring Ideas"
+        },
+        {
+          "name": "Himatsingka Seide"
+        },
+        {
+          "name": "Entuple"
+        },
+        {
+          "name": "Robust Materials"
+        },
+        {
+          "name": "FunSmart Science Learning"
+        },
+        {
+          "name": "Euphonious Innovations"
+        },
+        {
+          "name": "Twine Experimental"
+        },
+        {
+          "name": "Smart Craft"
+        },
+        {
+          "name": "FourEleven Communications"
+        },
+        {
+          "name": "Bremer India Engineering Pvt Ltd"
+        },
+        {
+          "name": "K12 Techno Services Pvt Ltd"
+        },
+        {
+          "name": "Creowis Technologies Pvt Ltd"
+        },
+        {
+          "name": "LogIQ Labs Pvt Ltd"
+        },
+        {
+          "name": "Sopra Steria India Limited"
+        },
+        {
+          "name": "B L R N Technologies"
+        },
+        {
+          "name": "ScreeningStar Solutions Pvt Ltd"
+        },
+        {
+          "name": "OnusWorks Software India Pvt Ltd"
+        },
+        {
+          "name": "Symmetrics Development Services Pvt Ltd"
+        },
+        {
+          "name": "The Music Tent"
+        },
+        {
+          "name": "MaricaVentures"
+        },
+        {
+          "name": "Andritz Technology"
+        },
+        {
+          "name": "ThinkSynq"
+        },
+        {
+          "name": "Renew"
+        },
+        {
+          "name": "Dentakay"
+        },
+        {
+          "name": "SEG Cricket"
+        },
+        {
+          "name": "Lulu Mall"
+        },
+        {
+          "name": "Pegasus"
+        },
+        {
+          "name": "Tecosim"
+        },
+        {
+          "name": "Sheela Foam"
+        },
+        {
+          "name": "Greenko"
+        },
+        {
+          "name": "Meta n Inspire"
+        },
+        {
+          "name": "Maple Tree"
+        },
+        {
+          "name": "Zoller"
+        },
+        {
+          "name": "PK Steel"
+        },
+        {
+          "name": "VisionNet"
+        },
+        {
+          "name": "DRTC"
+        },
+        {
+          "name": "Herbalife"
+        },
+        {
+          "name": "Achiever Cricket Academy"
+        }
       ]
     },
     {
@@ -183,34 +515,97 @@
       "slug": "organisations",
       "description": "Trusts, clubs, associations and government bodies that choose Meru Trophy for their recognition needs.",
       "brands": [
-        { "name": "Akshar Yoga Kendra" },
-        { "name": "Sri Kalleshwara Temple" },
-        { "name": "Saranya Soham Welfare Assn" },
-        { "name": "Sri Raghavendra Seva Samithi" },
-        { "name": "Moto Expert" },
-        { "name": "Falcon Cricket Club" },
-        { "name": "Rotary District 3192" },
-        { "name": "Raja Rani Reloaded" },
-        { "name": "Rajasthan Cosmo Club" },
-        { "name": "KSCA", "featured": true },
-        { "name": "Tomorrow Foundation" },
-        { "name": "Sri Sarvani Trust" },
-        { "name": "Do Or Die" },
-        { "name": "Trustwell Hospital" },
-        { "name": "Loyal Hospitality" },
-        { "name": "Challenging Sports Academy" },
-        { "name": "Risk Music Festival" },
-        { "name": "Indian Railways", "featured": true },
-        { "name": "Claps Sports Academy" },
-        { "name": "Raja Rani" },
-        { "name": "MGOCSM" },
-        { "name": "NCC" },
-        { "name": "Indian Medical Association, Kavalli" },
-        { "name": "Aadi Academy" },
-        { "name": "Lions Club" },
-        { "name": "HAL", "featured": true },
-        { "name": "BNI" },
-        { "name": "Chumantar Movie" }
+        {
+          "name": "Akshar Yoga Kendra"
+        },
+        {
+          "name": "Sri Kalleshwara Temple"
+        },
+        {
+          "name": "Saranya Soham Welfare Assn"
+        },
+        {
+          "name": "Sri Raghavendra Seva Samithi"
+        },
+        {
+          "name": "Moto Expert"
+        },
+        {
+          "name": "Falcon Cricket Club"
+        },
+        {
+          "name": "Rotary District 3192"
+        },
+        {
+          "name": "Raja Rani Reloaded"
+        },
+        {
+          "name": "Rajasthan Cosmo Club"
+        },
+        {
+          "name": "KSCA",
+          "featured": true
+        },
+        {
+          "name": "Tomorrow Foundation"
+        },
+        {
+          "name": "Sri Sarvani Trust"
+        },
+        {
+          "name": "Do Or Die"
+        },
+        {
+          "name": "Trustwell Hospital"
+        },
+        {
+          "name": "Loyal Hospitality"
+        },
+        {
+          "name": "Challenging Sports Academy"
+        },
+        {
+          "name": "Risk Music Festival"
+        },
+        {
+          "name": "Indian Railways",
+          "featured": true
+        },
+        {
+          "name": "Claps Sports Academy"
+        },
+        {
+          "name": "Raja Rani"
+        },
+        {
+          "name": "MGOCSM"
+        },
+        {
+          "name": "NCC"
+        },
+        {
+          "name": "Indian Medical Association, Kavalli"
+        },
+        {
+          "name": "Aadi Academy"
+        },
+        {
+          "name": "Lions Club"
+        },
+        {
+          "name": "HAL",
+          "featured": true
+        },
+        {
+          "name": "BNI"
+        },
+        {
+          "name": "Chumantar Movie"
+        },
+        {
+          "name": "Bangalore SAWTA",
+          "website": ""
+        }
       ]
     },
     {
@@ -218,9 +613,18 @@
       "slug": "events",
       "description": "Event management partners we serve for award nights, conferences and competitions.",
       "brands": [
-        { "name": "Alliance Events" },
-        { "name": "MultiBox Entertainment" },
-        { "name": "Jab Events" }
+        {
+          "name": "Alliance Events"
+        },
+        {
+          "name": "MultiBox Entertainment"
+        },
+        {
+          "name": "Jab Events"
+        },
+        {
+          "name": "Edappayil Family"
+        }
       ]
     },
     {
@@ -228,7 +632,9 @@
       "slug": "respected-names",
       "description": "Distinguished individuals we are honoured to have served.",
       "brands": [
-        { "name": "Col SP Sharma" }
+        {
+          "name": "Col SP Sharma"
+        }
       ]
     }
   ]

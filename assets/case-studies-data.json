@@ -14,7 +14,13 @@
       "event_year": 2026,
       "location": "Chikkaballapur, Karnataka",
       "category": "Corporate",
-      "tags": ["Custom Statue", "Gold Finish", "Wood Plinth", "Media Awards", "Engraved Nameplate"],
+      "tags": [
+        "Custom Statue",
+        "Gold Finish",
+        "Wood Plinth",
+        "Media Awards",
+        "Engraved Nameplate"
+      ],
       "tagline": "When a TV network needs a trophy that looks as iconic as their brand mark — we make the brand the trophy.",
       "photos": [
         {
@@ -25,10 +31,22 @@
       ],
       "brand_logo": "",
       "stats": [
-        { "label": "Trophies produced", "value": "Custom" },
-        { "label": "Lead time", "value": "Fast-track" },
-        { "label": "Finish", "value": "24K Gold-tone" },
-        { "label": "Base", "value": "Solid wood" }
+        {
+          "label": "Trophies produced",
+          "value": "Custom"
+        },
+        {
+          "label": "Lead time",
+          "value": "Fast-track"
+        },
+        {
+          "label": "Finish",
+          "value": "24K Gold-tone"
+        },
+        {
+          "label": "Base",
+          "value": "Solid wood"
+        }
       ],
       "about_client": "SumanTV Kannada is the Kannada-language arm of the SumanTV digital news network (parent: PlayEven Info Pvt Ltd, Hyderabad). The Chikkaballapur district unit produces local Karnataka news, civic stories and human-interest features for YouTube and OTT audiences. SumanTV's regional channels collectively reach millions of viewers across South India.",
       "about_event": "The Karnataka Sumana Sadhaka Awards (ಸುಮನ ಸಾಧಕ — literally 'noble achiever') is SumanTV Kannada's flagship recognition program, honouring individuals whose perseverance, craft and public contribution have shifted the cultural needle in Karnataka. The 2026 edition's honourees include the India Women's Blind Cricket team captains — Deepika TC, Kavya V and Kavya NR — recognised for excellence on the international stage.",
@@ -41,11 +59,21 @@
         "Engraved brass nameplate in bordered serif type: 'KARNATAKA SUMANA SADHAKA 2026'"
       ],
       "outcome": "Delivered on time for the awards ceremony. The trophy has become the visual anchor of SumanTV Kannada's award show coverage — featured in every broadcast cutaway, photo op and social post around the program.",
-      "related_collections": ["corporate-and-college-premium-trophies", "crystal-trophies", "metal-sports-trophies"],
+      "related_collections": [
+        "corporate-and-college-premium-trophies",
+        "crystal-trophies",
+        "metal-sports-trophies"
+      ],
       "related_products": [],
       "external_links": [
-        { "label": "About the award (Female Cricket coverage)", "url": "https://femalecricket.com/women-cricket-news/86112-india-womens-blind-cricket-stars-honoured-with-karnataka-sumana-sadhaka-award.html" },
-        { "label": "SumanTV on LinkedIn", "url": "https://in.linkedin.com/company/suman-tv" }
+        {
+          "label": "About the award (Female Cricket coverage)",
+          "url": "https://femalecricket.com/women-cricket-news/86112-india-womens-blind-cricket-stars-honoured-with-karnataka-sumana-sadhaka-award.html"
+        },
+        {
+          "label": "SumanTV on LinkedIn",
+          "url": "https://in.linkedin.com/company/suman-tv"
+        }
       ]
     },
     {
@@ -59,7 +87,15 @@
       "event_year": 2026,
       "location": "Bengaluru, Karnataka",
       "category": "Corporate",
-      "tags": ["Crystal", "Gold Finish", "Star", "Star of the Launch", "Sales Recognition", "Real Estate", "Multi-set"],
+      "tags": [
+        "Crystal",
+        "Gold Finish",
+        "Star",
+        "Star of the Launch",
+        "Sales Recognition",
+        "Real Estate",
+        "Multi-set"
+      ],
       "tagline": "Three trophy families. One annual recognition cycle. India's most-awarded developer trusts Meru.",
       "photos": [
         {
@@ -80,10 +116,22 @@
       ],
       "brand_logo": "",
       "stats": [
-        { "label": "Trophies delivered", "value": "12" },
-        { "label": "Trophy families", "value": "3" },
-        { "label": "Awardees recognised", "value": "8" },
-        { "label": "Turnaround", "value": "Single batch" }
+        {
+          "label": "Trophies delivered",
+          "value": "12"
+        },
+        {
+          "label": "Trophy families",
+          "value": "3"
+        },
+        {
+          "label": "Awardees recognised",
+          "value": "8"
+        },
+        {
+          "label": "Turnaround",
+          "value": "Single batch"
+        }
       ],
       "about_client": "SOBHA Limited is one of India's largest fully backward-integrated real-estate developers. Headquartered in Bengaluru since 1995 and listed on NSE/BSE, the group owns the full delivery stack — interiors, glazing, MEP and concrete — and has collected 265+ industry awards including Times Real Estate Developer of the Year (Residential) and the Golden Peacock CSR Award in 2024–25.",
       "about_event": "SOBHA's annual sales recognition for FY 2025-26 ran three concurrent tracks — Q-wise toppers, full-year toppers, and a dedicated launch-team recognition for the SOBHA Magnus (\"Magnox\") pre-launch campaign on Bannerghatta Road. Recurring top performers across roles included Chethan R D, Veena M K, Pranav C and Souganth B.",
@@ -95,11 +143,21 @@
         "Lacquered ply plinth with bevel detail and gold trim band"
       ],
       "outcome": "All 12 trophies delivered in a single batch with consistent plaque typography across families — letting SOBHA stage a multi-category awards night without the family-to-family aesthetic break that usually happens with split vendors.",
-      "related_collections": ["crystal-trophies", "corporate-and-college-premium-trophies", "metal-sports-trophies"],
+      "related_collections": [
+        "crystal-trophies",
+        "corporate-and-college-premium-trophies",
+        "metal-sports-trophies"
+      ],
       "related_products": [],
       "external_links": [
-        { "label": "SOBHA Limited", "url": "https://www.sobha.com/" },
-        { "label": "SOBHA Magnus — Bannerghatta Road", "url": "https://www.sobha.com/bengaluru/sobha-magnus/" }
+        {
+          "label": "SOBHA Limited",
+          "url": "https://www.sobha.com/"
+        },
+        {
+          "label": "SOBHA Magnus — Bannerghatta Road",
+          "url": "https://www.sobha.com/bengaluru/sobha-magnus/"
+        }
       ]
     },
     {
@@ -113,7 +171,15 @@
       "event_year": 2026,
       "location": "Bengaluru, Karnataka",
       "category": "Corporate",
-      "tags": ["Star Trophy", "Gold Finish", "Silver Finish", "Bronze Finish", "Hackathon", "Tech Awards", "Three-Tier Set"],
+      "tags": [
+        "Star Trophy",
+        "Gold Finish",
+        "Silver Finish",
+        "Bronze Finish",
+        "Hackathon",
+        "Tech Awards",
+        "Three-Tier Set"
+      ],
       "tagline": "One hackathon. Three tiers. A podium set that tells the whole story at a glance.",
       "photos": [
         {
@@ -129,10 +195,22 @@
       ],
       "brand_logo": "",
       "stats": [
-        { "label": "Trophies delivered", "value": "3" },
-        { "label": "Tiers", "value": "Winner / Runner Up / People's Choice" },
-        { "label": "Finishes", "value": "Gold · Silver · Bronze" },
-        { "label": "Client type", "value": "Global SaaS / CDP" }
+        {
+          "label": "Trophies delivered",
+          "value": "3"
+        },
+        {
+          "label": "Tiers",
+          "value": "Winner / Runner Up / People's Choice"
+        },
+        {
+          "label": "Finishes",
+          "value": "Gold · Silver · Bronze"
+        },
+        {
+          "label": "Client type",
+          "value": "Global SaaS / CDP"
+        }
       ],
       "about_client": "RudderStack is a leading customer data infrastructure (CDI) platform, founded in 2019 by Soumyadeb Mitra and headquartered in San Francisco, California. The platform collects, transforms, and routes event data from 200+ sources to every analytics, marketing, and data-warehouse tool in real time. RudderStack processed over 3.3 trillion events for 4,000+ organisations in 2025, and has approximately 127 employees across North America, Europe and Asia.",
       "about_event": "RudderStack's internal Hackathon 2026 brought together engineering and product teams to build novel features and tools on top of their customer data platform. The three-prize structure — Winner (gold), Runner Up (silver) and a community-voted People's Choice (bronze) — reflects the collaborative spirit of the event, rewarding both technical excellence and peer-recognised innovation.",
@@ -144,11 +222,20 @@
         "Consistent height and silhouette across the set for a clean podium photo"
       ],
       "outcome": "The three-piece set delivered a clear visual hierarchy for the awards presentation — gold, silver and bronze instantly communicate the ranking without any text. The RudderStack brand appeared prominently on every trophy, making the award set ideal for social media documentation of the hackathon results.",
-      "related_collections": ["corporate-and-college-premium-trophies", "metal-sports-trophies"],
+      "related_collections": [
+        "corporate-and-college-premium-trophies",
+        "metal-sports-trophies"
+      ],
       "related_products": [],
       "external_links": [
-        { "label": "RudderStack", "url": "https://www.rudderstack.com/" },
-        { "label": "RudderStack on GitHub", "url": "https://github.com/rudderlabs" }
+        {
+          "label": "RudderStack",
+          "url": "https://www.rudderstack.com/"
+        },
+        {
+          "label": "RudderStack on GitHub",
+          "url": "https://github.com/rudderlabs"
+        }
       ]
     },
     {
@@ -162,7 +249,15 @@
       "event_year": 2025,
       "location": "Bengaluru, Karnataka",
       "category": "Education",
-      "tags": ["Plaque", "Gold Finish", "Wood Base", "Golden Jubilee", "Alumni", "Education", "Commemorative"],
+      "tags": [
+        "Plaque",
+        "Gold Finish",
+        "Wood Base",
+        "Golden Jubilee",
+        "Alumni",
+        "Education",
+        "Commemorative"
+      ],
       "tagline": "Fifty years of friendship, knowledge and Karnataka — commemorated in gold.",
       "photos": [
         {
@@ -173,10 +268,22 @@
       ],
       "brand_logo": "",
       "stats": [
-        { "label": "Years celebrated", "value": "50 (Golden Jubilee)" },
-        { "label": "Batch", "value": "1974-76 M.A. Economics" },
-        { "label": "College established", "value": "1858" },
-        { "label": "Format", "value": "Framed gold plaque on wood base" }
+        {
+          "label": "Years celebrated",
+          "value": "50 (Golden Jubilee)"
+        },
+        {
+          "label": "Batch",
+          "value": "1974-76 M.A. Economics"
+        },
+        {
+          "label": "College established",
+          "value": "1858"
+        },
+        {
+          "label": "Format",
+          "value": "Framed gold plaque on wood base"
+        }
       ],
       "about_client": "Central College, Bengaluru (officially Government Central College) is one of the oldest and most prestigious institutions in Karnataka, established in 1858. The college served as the seat of Bangalore University until the Jnana Bharathi campus opened in 1973. Its iconic Victorian clock tower is one of Bengaluru's most recognised architectural landmarks. The M.A. Economics department has produced generations of economists, administrators and policy makers across India.",
       "about_event": "The Golden Jubilee Celebration marks the 50th anniversary of the 1974-76 M.A. Economics batch completing their postgraduate studies at Central College, Bengaluru. Alumni reunions of this nature bring together batchmates — often spread across India and the world — to celebrate five decades of shared memories, academic journeys and enduring friendships. A commemorative plaque serves as a lasting keepsake of the milestone gathering.",
@@ -188,10 +295,15 @@
         "Deep mahogany-finish solid wood base with bevelled profile"
       ],
       "outcome": "A meaningful keepsake for an alumni batch celebrating a major milestone. The plaque design anchors the institution's heritage (the clock tower medallion) with the personal significance of the event — making it both a display piece and a conversation starter at the reunion.",
-      "related_collections": ["corporate-and-college-premium-trophies"],
+      "related_collections": [
+        "corporate-and-college-premium-trophies"
+      ],
       "related_products": [],
       "external_links": [
-        { "label": "Central College, Bengaluru — Wikipedia", "url": "https://en.wikipedia.org/wiki/Central_College,_Bengaluru" }
+        {
+          "label": "Central College, Bengaluru — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Central_College,_Bengaluru"
+        }
       ]
     },
     {
@@ -205,7 +317,14 @@
       "event_year": 2026,
       "location": "Bengaluru, Karnataka",
       "category": "Corporate",
-      "tags": ["Shield", "Bronze Finish", "Sales Recognition", "Individual Award", "Banking", "Performance Award"],
+      "tags": [
+        "Shield",
+        "Bronze Finish",
+        "Sales Recognition",
+        "Individual Award",
+        "Banking",
+        "Performance Award"
+      ],
       "tagline": "Recognising the top performer who outpaced every target in April.",
       "photos": [
         {
@@ -216,10 +335,22 @@
       ],
       "brand_logo": "",
       "stats": [
-        { "label": "Award type", "value": "Individual performance shield" },
-        { "label": "Recipient", "value": "Spandana R Rao" },
-        { "label": "Period", "value": "April 2026" },
-        { "label": "Finish", "value": "Bronze with star accents" }
+        {
+          "label": "Award type",
+          "value": "Individual performance shield"
+        },
+        {
+          "label": "Recipient",
+          "value": "Spandana R Rao"
+        },
+        {
+          "label": "Period",
+          "value": "April 2026"
+        },
+        {
+          "label": "Finish",
+          "value": "Bronze with star accents"
+        }
       ],
       "about_client": "Equitas Small Finance Bank Limited is a Reserve Bank of India-licensed small finance bank headquartered in Chennai, Tamil Nadu. It serves micro and small enterprises, low-income households and underbanked segments across India. The bank is listed on NSE and BSE and is known for its strong sales culture, branch network across South India, and regular employee recognition programs that include monthly and quarterly performance contests.",
       "about_event": "The Equitas Super Star Contest is a monthly sales performance recognition program, rewarding branch staff who achieve the highest targets in loan disbursals, deposit mobilisation and new account acquisition. The April 2026 Super Star — Spandana R Rao — earned the award by outperforming all peers in her region for the month, receiving this personalised shield at a branch awards ceremony.",
@@ -232,11 +363,367 @@
         "Lacquered black base with logo-engraved nameplate"
       ],
       "outcome": "A personalised award that the recipient can display with pride. The shield format — larger and more visually distinctive than a standard plaque — makes the recognition feel significant and tangible. Equitas uses Meru for individual performance awards across its branch network.",
-      "related_collections": ["corporate-and-college-premium-trophies"],
+      "related_collections": [
+        "corporate-and-college-premium-trophies"
+      ],
       "related_products": [],
       "external_links": [
-        { "label": "Equitas Small Finance Bank", "url": "https://equitas.bank.in/" }
+        {
+          "label": "Equitas Small Finance Bank",
+          "url": "https://equitas.bank.in/"
+        }
       ]
+    },
+    {
+      "slug": "udaan-excellence-awards-apr-2026",
+      "title": "UDAAN DSM & FSO Excellence Awards — April 2026",
+      "subtitle": "Custom eagle trophies for insurance field sales champions across Tamil Nadu",
+      "client": "UDAAN (Sales Incentive Programme)",
+      "client_short": "UDAAN",
+      "industry": "Insurance · BFSI",
+      "event": "DSM & FSO Excellence Awards — April 2026",
+      "event_year": 2026,
+      "location": "Tamil Nadu",
+      "category": "Corporate",
+      "tags": [
+        "Metal Trophy",
+        "Eagle",
+        "Insurance",
+        "Sales Recognition",
+        "Tamil Nadu"
+      ],
+      "tagline": "Eagle trophies for the field champions of a Tamil Nadu insurance sales blitz.",
+      "photos": [
+        {
+          "src": "asset:cs-udaan-1.jpg",
+          "alt": "UDAAN DSM & FSO Excellence Award — eagle trophy with engraved plaque, Tamil Nadu April 2026",
+          "caption": "UDAAN eagle award for April 2026 DSM & FSO Excellence."
+        }
+      ],
+      "brand_logo": "",
+      "stats": [
+        {
+          "label": "Award period",
+          "value": "April 2026"
+        },
+        {
+          "label": "Region",
+          "value": "Tamil Nadu"
+        },
+        {
+          "label": "Roles",
+          "value": "DSM · FSO"
+        }
+      ],
+      "about_client": "UDAAN is a high-performance sales incentive programme run by an insurance company in Tamil Nadu, recognising top District Sales Managers (DSM) and Field Sales Officers (FSO) for outstanding performance.",
+      "about_event": "The April 2026 UDAAN Excellence Awards celebrated the best field sales performers across Tamil Nadu's insurance distribution network. Eagle trophies were presented to DSM and FSO category winners.",
+      "design_brief": "Die-cast eagle on a solid plinth with gold-finish engraved nameplate. The eagle motif reflects the programme's aspirational 'UDAAN' (flight) theme.",
+      "production_notes": [
+        "Die-cast eagle trophy with gold finish",
+        "Engraved plaque with awardee name, role, region and month",
+        "Solid plinth base"
+      ],
+      "outcome": "Custom eagle trophies delivered for the UDAAN April 2026 DSM and FSO Excellence Awards, Tamil Nadu.",
+      "related_collections": [
+        "metal-sports-trophies",
+        "corporate-and-college-premium-trophies"
+      ],
+      "related_products": [],
+      "external_links": []
+    },
+    {
+      "slug": "bangalore-sawta-guru-kunami-2026",
+      "title": "Bangalore SAWTA — Guru Kunami 2026",
+      "subtitle": "Mementos for a Santali cultural celebration honouring Padmashree Dr. Damayanti Besra",
+      "client": "Bangalore SAWTA",
+      "client_short": "SAWTA",
+      "industry": "Cultural Organisations · Tribal Arts",
+      "event": "Guru Kunami 2026",
+      "event_year": 2026,
+      "location": "Bengaluru, Karnataka",
+      "category": "Organisations",
+      "tags": [
+        "Memento",
+        "Cultural",
+        "Tribal",
+        "Santali",
+        "Guru Purnima"
+      ],
+      "tagline": "Honouring tradition and Padmashree excellence at a Santali Guru Kunami in Bengaluru.",
+      "photos": [
+        {
+          "src": "asset:cs-sawta-1.jpg",
+          "alt": "Bangalore SAWTA Guru Kunami 2026 memento trophy with engraved plaque for Padmashree Dr. Damayanti Besra",
+          "caption": "Memento presented at Bangalore SAWTA Guru Kunami 2026."
+        }
+      ],
+      "brand_logo": "",
+      "stats": [
+        {
+          "label": "Event date",
+          "value": "10 May 2026"
+        },
+        {
+          "label": "Chief Guest",
+          "value": "Padmashree Dr. Damayanti Besra"
+        },
+        {
+          "label": "Location",
+          "value": "Bengaluru"
+        }
+      ],
+      "about_client": "Bangalore SAWTA is a Santali cultural organisation based in Bengaluru, dedicated to preserving and promoting Santali tribal arts, music and dance traditions among the Santali diaspora in Karnataka.",
+      "about_event": "Guru Kunami — the Santali equivalent of Guru Purnima — was celebrated on 10 May 2026. The event hosted Padmashree Dr. Damayanti Besra (renowned Santali classical dancer and former principal, Odisha) as Chief Guest and Mr. Rajendra Saren as Guest of Honour.",
+      "design_brief": "Understated memento trophy / plaque engraved with the event name, date and guest designation — befitting a cultural felicitation ceremony.",
+      "production_notes": [
+        "Engraved memento plaque with event title and guest name",
+        "Cultural motif finish appropriate for a tribal arts celebration"
+      ],
+      "outcome": "Mementos crafted and delivered for the Guru Kunami 2026 ceremony of Bangalore SAWTA.",
+      "related_collections": [
+        "crystal-trophies",
+        "personalised-gifts-and-mementos"
+      ],
+      "related_products": [],
+      "external_links": []
+    },
+    {
+      "slug": "sbi-life-ld-meet-2025-26",
+      "title": "SBI Life Insurance — Annual L&D Meet 2025-26",
+      "subtitle": "Recognition trophies for the Eklavya Review's top learning and development achievers",
+      "client": "SBI Life Insurance",
+      "client_short": "SBI Life",
+      "industry": "Insurance · BFSI",
+      "event": "Annual L&D Meet 2025-26 — Eklavya Review",
+      "event_year": 2026,
+      "location": "India",
+      "category": "Corporate",
+      "tags": [
+        "Trophy",
+        "Insurance",
+        "L&D",
+        "Recognition",
+        "Eklavya",
+        "BFSI"
+      ],
+      "tagline": "Recognising the self-driven learners powering SBI Life's national sales network.",
+      "photos": [
+        {
+          "src": "asset:cs-sbi-life-ld-1.jpg",
+          "alt": "SBI Life Insurance Annual L&D Meet 2025-26 Eklavya Review recognition trophy with engraved plaque",
+          "caption": "Eklavya Review recognition trophy — SBI Life L&D Meet 2025-26."
+        }
+      ],
+      "brand_logo": "",
+      "stats": [
+        {
+          "label": "Award tracks",
+          "value": "2 (Individual · Team)"
+        },
+        {
+          "label": "Regions covered",
+          "value": "Delhi · Ahmedabad"
+        },
+        {
+          "label": "Programme",
+          "value": "Eklavya Review"
+        }
+      ],
+      "about_client": "SBI Life Insurance is one of India's largest private life insurance companies, a joint venture between State Bank of India and BNP Paribas Cardif. Its L&D function runs the flagship Eklavya programme — a self-directed learning initiative for its national field sales force.",
+      "about_event": "The Annual L&D Meet 2025-26 brought together SBI Life's learning and development leaders to review the year's Eklavya programme outcomes. Recognition trophies were awarded to outstanding individual achievers (Rajeev Sharma, Delhi) and best Area L&D Manager with Team (Soni Amit, Ahmedabad).",
+      "design_brief": "Professional recognition trophies engraved with the Eklavya Review branding, awardee name, role and region — suitable for an internal national HR/L&D ceremony.",
+      "production_notes": [
+        "Recognition trophy with gold finish",
+        "Engraved plaque with Eklavya Review branding, awardee name and region"
+      ],
+      "outcome": "Recognition trophies delivered for SBI Life Insurance's Annual L&D Meet 2025-26 Eklavya Review — individual and team categories.",
+      "related_collections": [
+        "corporate-and-college-premium-trophies"
+      ],
+      "related_products": [],
+      "external_links": [
+        {
+          "label": "SBI Life Insurance",
+          "url": "https://www.sbilife.co.in"
+        }
+      ]
+    },
+    {
+      "slug": "oxford-college-of-law-target-60-2026",
+      "title": "The Oxford College of Law — Target 60, Phase I",
+      "subtitle": "Academic excellence trophies for the Target 60 competition among B.A. LL.B. students",
+      "client": "The Oxford College of Law, Bangalore",
+      "client_short": "Oxford Law",
+      "industry": "Legal Education",
+      "event": "Target 60 — Phase I (April 2025-26)",
+      "event_year": 2026,
+      "location": "HSR Layout, Bengaluru, Karnataka",
+      "category": "Education",
+      "tags": [
+        "Trophy",
+        "Law",
+        "Education",
+        "Academic Excellence",
+        "LL.B."
+      ],
+      "tagline": "Trophies for the academic achievers of Karnataka's premier law school.",
+      "photos": [
+        {
+          "src": "asset:cs-oxford-law-1.jpg",
+          "alt": "The Oxford College of Law Target 60 Phase I 2025-26 trophy with engraved plaque for 2nd Runner Up Srinath",
+          "caption": "Target 60 Phase I — 2nd Runner Up trophy, The Oxford College of Law, Bangalore."
+        }
+      ],
+      "brand_logo": "",
+      "stats": [
+        {
+          "label": "Programme",
+          "value": "Target 60 Phase I"
+        },
+        {
+          "label": "Period",
+          "value": "April 2025-26"
+        },
+        {
+          "label": "Course",
+          "value": "B.A. LL.B."
+        }
+      ],
+      "about_client": "The Oxford College of Law, Bangalore is one of Karnataka's leading law schools, approved by the Bar Council of India and affiliated to Karnataka State Law University. Located in HSR Layout, the college offers B.A. LL.B., BBA LL.B. and LL.B. programmes.",
+      "about_event": "Target 60 is an internal academic challenge programme at Oxford College of Law. Phase I for the 2025-26 academic year recognised top-performing students. The 2nd Runner Up award went to Srinath from the B.A. LL.B. 8th Semester.",
+      "design_brief": "Clean academic trophy with engraved plaque citing the programme name, phase, position and student name — appropriate for a formal law school prize-giving.",
+      "production_notes": [
+        "Academic recognition trophy",
+        "Engraved plaque: Target 60 Phase I, position, student name, semester"
+      ],
+      "outcome": "Trophies delivered for The Oxford College of Law's Target 60 Phase I 2025-26 academic recognition programme.",
+      "related_collections": [
+        "corporate-and-college-premium-trophies"
+      ],
+      "related_products": [],
+      "external_links": [
+        {
+          "label": "The Oxford College of Law",
+          "url": "https://www.theoxford.edu/college_of_law/"
+        }
+      ]
+    },
+    {
+      "slug": "achiever-cricket-academy-2026",
+      "title": "Achiever Cricket Academy — Achievement Award 2026",
+      "subtitle": "Custom cricket trophies celebrating emerging talent at Bangalore's Achiever Cricket Academy",
+      "client": "Achiever Cricket Academy",
+      "client_short": "Achiever Cricket",
+      "industry": "Sports · Cricket",
+      "event": "Cricket Achievement Award 2026",
+      "event_year": 2026,
+      "location": "Bengaluru, Karnataka",
+      "category": "Sport",
+      "tags": [
+        "Trophy",
+        "Cricket",
+        "Sports",
+        "Academy",
+        "Achievement"
+      ],
+      "tagline": "Celebrating the next generation of cricketers from Bengaluru.",
+      "photos": [
+        {
+          "src": "asset:cs-achiever-cricket-1.jpg",
+          "alt": "Achiever Cricket Academy 2026 achievement trophy",
+          "caption": "Achievement trophy for Achiever Cricket Academy, Bengaluru, 2026."
+        }
+      ],
+      "brand_logo": "",
+      "stats": [
+        {
+          "label": "Year",
+          "value": "2026"
+        },
+        {
+          "label": "Sport",
+          "value": "Cricket"
+        },
+        {
+          "label": "Location",
+          "value": "Bengaluru"
+        }
+      ],
+      "about_client": "Achiever Cricket Academy is a Bengaluru-based cricket coaching academy dedicated to developing passionate cricketers of all ages and abilities. The academy offers professional coaching, fitness training, tournaments, and one-to-one mentoring.",
+      "about_event": "The 2026 Achievement Awards recognised top performers at Achiever Cricket Academy's seasonal programme — celebrating emerging talent in Bengaluru's youth cricket ecosystem.",
+      "design_brief": "Sports achievement trophy with cricket motif, engraved with academy name, year and awardee details.",
+      "production_notes": [
+        "Cricket trophy with sport-themed design",
+        "Engraved plaque with academy name, award title and awardee"
+      ],
+      "outcome": "Achievement trophies delivered for Achiever Cricket Academy's 2026 recognition programme in Bengaluru.",
+      "related_collections": [
+        "metal-sports-trophies"
+      ],
+      "related_products": [],
+      "external_links": [
+        {
+          "label": "Achievers Cricket Academy",
+          "url": "https://achieverscricketacademy.com"
+        }
+      ]
+    },
+    {
+      "slug": "edappayil-family-meet-2026",
+      "title": "Edappayil Family Meet 2K26",
+      "subtitle": "Personalised mementos for a cherished Kerala family reunion",
+      "client": "Edappayil Family",
+      "client_short": "Edappayil",
+      "industry": "Family Events",
+      "event": "Family Meet 2K26",
+      "event_year": 2026,
+      "location": "Kerala",
+      "category": "Events",
+      "tags": [
+        "Memento",
+        "Family Reunion",
+        "Kerala",
+        "Personalised",
+        "Keepsake"
+      ],
+      "tagline": "Timeless mementos for an exceptional Kerala family reunion.",
+      "photos": [
+        {
+          "src": "asset:cs-edappayil-1.jpg",
+          "alt": "Edappayil Family Meet 2K26 personalised memento trophy with engraved plaque",
+          "caption": "Family Meet 2K26 memento — presented for Exceptional Achievement."
+        }
+      ],
+      "brand_logo": "",
+      "stats": [
+        {
+          "label": "Event",
+          "value": "Family Meet 2K26"
+        },
+        {
+          "label": "Origin",
+          "value": "Kerala"
+        },
+        {
+          "label": "Type",
+          "value": "Personalised Memento"
+        }
+      ],
+      "about_client": "The Edappayil family is a Kerala joint family celebrating its annual reunion — a tradition of togetherness marked with personalised mementos for those who have excelled during the year.",
+      "about_event": "Family Meet 2K26 brought the Edappayil family together for their annual reunion. Custom engraved mementos were presented to members recognised for Exceptional Achievement during the year.",
+      "design_brief": "Warm, personalised memento trophy with 'Family Meet 2K26' and 'Presented for Exceptional Achievement' engraved — a keepsake that balances celebration with elegance.",
+      "production_notes": [
+        "Personalised memento trophy / plaque",
+        "Engraved: Family Meet 2K26, Exceptional Achievement",
+        "Suitable for gifting at a family celebration"
+      ],
+      "outcome": "Custom mementos crafted for the Edappayil Family Meet 2K26 — a heartfelt keepsake for a special Kerala family reunion.",
+      "related_collections": [
+        "personalised-gifts-and-mementos",
+        "crystal-trophies"
+      ],
+      "related_products": [],
+      "external_links": []
     }
   ]
 }

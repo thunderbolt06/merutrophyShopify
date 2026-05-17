@@ -9,9 +9,9 @@
 {%- liquid
   assign wa_product_title = product.title | default: ''
   if wa_product_title != blank
-    assign wa_text = 'Hi%2C+I+am+looking+at+' | append: wa_product_title | url_encode | append: '+on+merutrophy.in.+Can+you+help+me+with+customisation%2C+pricing%2C+and+delivery+timeline%3F'
+    assign wa_text = 'Hi, I am looking at ' | append: wa_product_title | url_encode | append: '+and+more+on+merutrophy.in.+Can+you+help+me+with+customisation%2C+pricing%2C+and+delivery+timeline%3F'
   else
-    assign wa_text = 'Hi%2C+I+need+help+choosing+the+right+trophy.+Can+you+guide+me+on+options%2C+customisation%2C+and+delivery%3F'
+    assign wa_text = 'Hi, I need help choosing the right trophy. Can you guide me on options, customisation, and delivery?'
   endif
 -%}
 
