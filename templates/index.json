@@ -16,7 +16,7 @@
           "type": "heading",
           "settings": {
             "heading": "<strong>MERU TROPHY</strong>",
-            "heading_size": "h0"
+            "heading_size": "hxxl"
           }
         },
         "button": {
@@ -41,15 +41,16 @@
         "heading",
         "button"
       ],
+      "custom_css": [],
       "settings": {
         "image": "shopify://shop_images/Meru_Trophy_Conceptual_Store.png",
-        "image_overlay_opacity": 50,
+        "image_overlay_opacity": 0,
         "image_height": "large",
         "desktop_content_position": "bottom-center",
         "show_text_box": false,
         "desktop_content_alignment": "center",
         "color_scheme": "scheme-3",
-        "image_behavior": "none",
+        "image_behavior": "ambient",
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": false,
         "show_text_below": false
