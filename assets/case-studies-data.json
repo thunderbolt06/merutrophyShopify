@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-05-17",
+  "updated": "2026-04-13",
   "_instructions": "To add a new case study: (1) add an object to `studies`, (2) drop photos into the theme `assets/` folder with a `cs-` prefix and register each filename in snippets/case-study-assets.liquid, (3) reference them in the `photos` array as `asset:filename.jpg`, (4) create a Shopify page with the same `slug` as its handle and assign template `page.case-study`. The first entry in `photos` becomes the hero AND the card cover; the rest render as a gallery with a click-to-zoom lightbox. The `hero_image` and `gallery` fields are still supported for back-compat.",
   "studies": [
     {
@@ -1020,6 +1020,210 @@
           "url": "https://www.indiamart.com/paiintl-electronics/"
         }
       ]
+    },
+    {
+      "slug": "imc-choir-harmonix-2026",
+      "title": "IMC Choir Harmonix — An Evening of Quartets 2026",
+      "subtitle": "Custom crystal round memento presented to EPMC QUARTET at Immanuel CSI Malayalam Church’s Harmonix music event in Bangalore",
+      "client": "Immanuel CSI Malayalam Church, Bangalore",
+      "client_short": "IMC Choir",
+      "industry": "Religious · Choir & Music Ministry",
+      "event": "Harmonix — An Evening of Quartets",
+      "event_year": 2026,
+      "location": "Bangalore, Karnataka",
+      "category": "Organisations",
+      "tags": [
+        "Crystal Memento",
+        "Church Event",
+        "Music Award",
+        "Round Crystal",
+        "Engraved Plaque"
+      ],
+      "tagline": "Honouring the EPMC QUARTET at Harmonix — An Evening of Quartets, presented by IMC Choir Bangalore.",
+      "photos": [
+        {
+          "src": "asset:cs-imc-choir-harmonix-1.jpg",
+          "alt": "IMC Choir Harmonix crystal round memento — front face showing IMC Choir logo, Harmonix branding, and EPMC QUARTET citation",
+          "caption": "Crystal round memento — IMC Choir’s Harmonix event presented to EPMC QUARTET, 18.4.2026."
+        },
+        {
+          "src": "asset:cs-imc-choir-harmonix-2.jpg",
+          "alt": "IMC Choir Harmonix crystal memento — base engraved ‘Immanuel CSI Malayalam Church, Bangalore’ with full crystal face and stand",
+          "caption": "Engraved crystal base reads ‘Immanuel CSI Malayalam Church, Bangalore’ — full memento with clear acrylic stand."
+        }
+      ],
+      "brand_logo": "",
+      "stats": [
+        {
+          "label": "Event",
+          "value": "Harmonix"
+        },
+        {
+          "label": "Recipient",
+          "value": "EPMC QUARTET"
+        },
+        {
+          "label": "Date",
+          "value": "18 April 2026"
+        },
+        {
+          "label": "Type",
+          "value": "Crystal Round Memento"
+        }
+      ],
+      "about_client": "Immanuel CSI Malayalam Church (IMC), Bangalore is a congregation of the Church of South India serving the Malayali Christian community. The IMC Choir is the church’s dedicated music ministry, known for its choral performances and community music events across Bangalore.",
+      "about_event": "Harmonix — An Evening of Quartets was a choral music event hosted by IMC Choir on 18 April 2026. The event brought together vocal quartets for an evening of worship music. As a token of appreciation, the IMC Choir presented a personalised crystal round memento to the EPMC QUARTET, honouring their heartfelt worship and contribution to the evening.",
+      "design_brief": "Octagonal-edge crystal round plaque on a clear acrylic stand. The face carries the IMC Choir logo, the event name ‘Harmonix’, the presentation inscription, recipient name (EPMC QUARTET), appreciation text, a Bible verse (Isaiah 12:5), and the date 18.4.2026. The acrylic base is engraved with the full church name.",
+      "production_notes": [
+        "Octagonal-edge round crystal disc with laser engraving",
+        "Clear acrylic rectangular stand/base",
+        "IMC Choir logo + Harmonix event branding on face",
+        "Bible verse citation and appreciation message engraved",
+        "Base engraved: Immanuel CSI Malayalam Church, Bangalore",
+        "Presented in a padded gift box"
+      ],
+      "outcome": "Crystal round memento delivered for IMC Choir’s Harmonix — An Evening of Quartets music event, Bangalore, April 2026.",
+      "related_collections": [
+        "personalised-gifts-and-mementos",
+        "crystal-and-acrylic-awards"
+      ],
+      "related_products": [],
+      "external_links": []
+    },
+    {
+      "slug": "basaveshwaraswami-seva-samiti-2026",
+      "title": "Sri Basaveshwaraswami Seva Samiti — Temple Renovation Festival 2026",
+      "subtitle": "Framed gold plaque memento and engraved shield trophy for the temple renovation and consecration grand festival of Sri Basaveshwaraswami Seva Samiti, Bangalore Rural",
+      "client": "Sri Basaveshwaraswami Seva Samiti",
+      "client_short": "Basaveshwaraswami Seva Samiti",
+      "industry": "Religious · Temple Trust",
+      "event": "Sri Basaveshwaraswami Devalaya Punar Nirmana Mattu Prathisthapana Mahotsava",
+      "event_year": 2026,
+      "location": "Bangalore Rural, Karnataka",
+      "category": "Organisations",
+      "tags": [
+        "Framed Memento",
+        "Shield Trophy",
+        "Temple Event",
+        "Gold Plaque",
+        "Kannada Engraving"
+      ],
+      "tagline": "Commemorating the grand renovation and consecration festival of Sri Basaveshwaraswami Temple, Bangalore Rural — 20 April 2026.",
+      "photos": [
+        {
+          "src": "asset:cs-basaveshwaraswami-1.jpg",
+          "alt": "Sri Basaveshwaraswami Seva Samiti teal framed memento — gold plaque with Nandi motif and Kannada engraving, base reads ‘Nenapin Kaanike’",
+          "caption": "Teal-framed gold plaque memento — Sri Basaveshwaraswami temple renovation festival souvenir, 20.04.2026."
+        },
+        {
+          "src": "asset:cs-basaveshwaraswami-2.jpg",
+          "alt": "Sri Basaveshwaraswami Seva Samiti shield trophy — black and gold layered shield with Nandi motif, stars, and laurel wreath, Kannada engraving and ‘Nenapin Kaanike’ base",
+          "caption": "Black and gold shield trophy with Nandi motif and stars — presented at the Basaveshwaraswami temple consecration festival."
+        }
+      ],
+      "brand_logo": "",
+      "stats": [
+        {
+          "label": "Event date",
+          "value": "20 April 2026"
+        },
+        {
+          "label": "Occasion",
+          "value": "Temple renovation & consecration"
+        },
+        {
+          "label": "Products",
+          "value": "Framed plaque + Shield trophy"
+        },
+        {
+          "label": "Engraving",
+          "value": "Kannada"
+        }
+      ],
+      "about_client": "Sri Basaveshwaraswami Seva Samiti is a registered temple trust committee based in Bangalore Rural, Karnataka, dedicated to the upkeep, management, and celebration of Sri Basaveshwaraswami Temple. The samiti organises religious events, festivals, and the renovation of the temple premises.",
+      "about_event": "On 20 April 2026 (Monday), Sri Basaveshwaraswami Seva Samiti hosted a grand Mahotsava (grand festival) to celebrate the renovation and consecration (Prathisthapana) of Sri Basaveshwaraswami Devalaya. The samiti commissioned two commemorative pieces from Meru Trophy — a teal-framed gold plaque memento and a black-and-gold shield trophy — both inscribed in Kannada with the Nandi motif and the base label ‘Nenapin Kaanike’ (Souvenir / Memento).",
+      "design_brief": "Two pieces for the same event: (1) A teal-green framed memento with gold border and a central gold plaque featuring the Nandi (Basaveshwara bull) motif, the samiti name, event details in Kannada, and the date 20-04-2026. Base plate reads ‘Nenapin Kaanike’. (2) A black-and-gold shield trophy with layered acrylic shield shape, stars at the top, laurel wreath border, Nandi motif inset, Kannada event text, and matching ‘Nenapin Kaanike’ gold base strip.",
+      "production_notes": [
+        "Teal-green wood/MDF frame with gold border inlay",
+        "Central gold printed plaque: Nandi motif + Kannada text + date",
+        "Separate black-and-gold shield trophy: layered acrylic/wood shield shape",
+        "Stars and laurel wreath embossed in gold on shield",
+        "All text engraved/printed in Kannada script",
+        "Base label: ‘Nenapin Kaanike’ (ನೆನಪಿನ ಕಾಣಿಕೆ)"
+      ],
+      "outcome": "Teal framed gold plaque and shield trophy delivered for Sri Basaveshwaraswami Seva Samiti’s temple renovation and consecration grand festival, Bangalore Rural, April 2026.",
+      "related_collections": [
+        "personalised-gifts-and-mementos",
+        "trophies-and-shields"
+      ],
+      "related_products": [],
+      "external_links": []
+    },
+    {
+      "slug": "the-office-challenge-2026",
+      "title": "The Office Challenge 2026",
+      "subtitle": "Custom trophies for a spirited corporate games tournament — Carrom King, Box Cricket, Dart, Snake & Ladder, and Jenga champions crowned.",
+      "client": "The Office Challenge",
+      "client_short": "Office Challenge",
+      "industry": "Corporate Events",
+      "event": "The Office Challenge — Inter-departmental Games Tournament",
+      "event_year": 2026,
+      "location": "Bangalore, Karnataka",
+      "category": "Corporate",
+      "tags": [
+        "Corporate Games",
+        "Carrom",
+        "Box Cricket",
+        "Team Building",
+        "Trophy Set",
+        "Star Trophy"
+      ],
+      "tagline": "Where every desk jockey becomes a champion.",
+      "photos": [
+        {
+          "src": "asset:cs-office-challenge-2026-1.jpg",
+          "alt": "The Office Challenge 2026 — Carrom King trophies: Winner, Runner Up, and 2nd Runner Up with carrom board design",
+          "caption": "Carrom King trophies — each featuring a custom carrom board face mounted on a polished red base."
+        },
+        {
+          "src": "asset:cs-office-challenge-2026-2.jpg",
+          "alt": "The Office Challenge 2026 — Box Cricket Champions trophy with red cricket ball and gold wing design",
+          "caption": "Box Cricket Champions trophy — presented to the Six Hitters, crowned champions of The Office Challenge."
+        }
+      ],
+      "brand_logo": "",
+      "stats": [
+        {
+          "label": "Event",
+          "value": "The Office Challenge"
+        },
+        {
+          "label": "Games",
+          "value": "5 Categories"
+        },
+        {
+          "label": "Trophy Types",
+          "value": "Carrom, Cricket, Dart, Jenga, Rolling"
+        }
+      ],
+      "about_client": "The Office Challenge is a corporate inter-departmental games tournament that brings colleagues together for friendly competition across classic indoor and outdoor games. Teams compete under creative team names — from the Box Cricket 'Six Hitters' to the 'O2C Royals' — making it a memorable team-building experience.",
+      "about_event": "The Office Challenge 2026 featured five games: Carrom King, Box Cricket, Dart Game, Snake & Ladder, and Jenga. Each category had a Winner, Runner Up, and 2nd Runner Up. A grand Rolling Trophy was also awarded to the overall champion team. The event was held in April 2026.",
+      "design_brief": "A full trophy set covering five game categories plus a grand Rolling Trophy. Each category received a themed trophy design — carrom board face for Carrom King, star trophies for Snake & Ladder and Dart Game, red cricket ball for Box Cricket, winged figure for Jenga, and a crowned cup for the Rolling Trophy.",
+      "production_notes": [
+        "Carrom King: 3 trophies with carrom board face, gold-tone base on red plinth",
+        "Snake & Ladder & Dart Game: Star-shaped gold trophies on red bases",
+        "Box Cricket: Tall cricket trophy with red ball and gold wing stand",
+        "Jenga: Winged figure trophies",
+        "Rolling Trophy: Large crowned cup trophy",
+        "Custom engraved plaques for each position (Winner, Runner Up, 2nd Runner Up)"
+      ],
+      "outcome": "A complete custom trophy set for 5 game categories plus the rolling trophy — enabling The Office Challenge to recognise champions across all events in style.",
+      "related_collections": [
+        "sports-trophies",
+        "corporate-trophies"
+      ],
+      "related_products": [],
+      "external_links": []
     }
   ]
 }

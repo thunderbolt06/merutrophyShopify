@@ -262,6 +262,10 @@
         {
           "name": "SBI Life Insurance",
           "website": "https://www.sbilife.co.in"
+        },
+        {
+          "name": "The Office Challenge",
+          "featured": false
         }
       ]
     },
@@ -622,6 +626,12 @@
         {
           "name": "Bangalore SAWTA",
           "website": ""
+        },
+        {
+          "name": "Immanuel CSI Malayalam Church, Bangalore"
+        },
+        {
+          "name": "Sri Basaveshwaraswami Seva Samiti"
         }
       ]
     },
