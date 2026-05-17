@@ -23,7 +23,7 @@
           "type": "buttons",
           "settings": {
             "button_label_1": "Gallery",
-            "button_link_1": "shopify://pages/gallery",
+            "button_link_1": "shopify://pages/case-studies",
             "button_style_secondary_1": false,
             "button_label_2": "Call 7483900892",
             "button_link_2": "tel:+91-7483900892",
