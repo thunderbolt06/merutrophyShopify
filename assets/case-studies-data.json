@@ -101,6 +101,142 @@
         { "label": "SOBHA Limited", "url": "https://www.sobha.com/" },
         { "label": "SOBHA Magnus — Bannerghatta Road", "url": "https://www.sobha.com/bengaluru/sobha-magnus/" }
       ]
+    },
+    {
+      "slug": "rudderstack-hackathon-2026",
+      "title": "RudderStack Hackathon 2026",
+      "subtitle": "Three-tier hackathon trophies — Winner, Runner Up and People's Choice — for a global data-infrastructure company",
+      "client": "RudderStack",
+      "client_short": "RudderStack",
+      "industry": "Technology · Customer Data Infrastructure",
+      "event": "RudderStack Hackathon 2026",
+      "event_year": 2026,
+      "location": "Bengaluru, Karnataka",
+      "category": "Corporate",
+      "tags": ["Star Trophy", "Gold Finish", "Silver Finish", "Bronze Finish", "Hackathon", "Tech Awards", "Three-Tier Set"],
+      "tagline": "One hackathon. Three tiers. A podium set that tells the whole story at a glance.",
+      "photos": [
+        {
+          "src": "asset:cs-rudderstack-hackathon-wide.jpg",
+          "alt": "RudderStack Hackathon 2026 — three star trophies (gold Winner, silver Runner Up, bronze People's Choice) lined up side by side on a floor, RudderStack branding clearly visible on each plaque.",
+          "caption": "The full podium set: Winner, Runner Up and People's Choice for RudderStack Hackathon 2026"
+        },
+        {
+          "src": "asset:cs-rudderstack-hackathon-closeup.jpg",
+          "alt": "RudderStack Hackathon 2026 trophies — close-up of the plaques showing gold, silver and copper-tone finishes with RudderStack logo and event year engraved.",
+          "caption": "Plaque detail showing RudderStack branding and award tier on each trophy"
+        }
+      ],
+      "brand_logo": "",
+      "stats": [
+        { "label": "Trophies delivered", "value": "3" },
+        { "label": "Tiers", "value": "Winner / Runner Up / People's Choice" },
+        { "label": "Finishes", "value": "Gold · Silver · Bronze" },
+        { "label": "Client type", "value": "Global SaaS / CDP" }
+      ],
+      "about_client": "RudderStack is a leading customer data infrastructure (CDI) platform, founded in 2019 by Soumyadeb Mitra and headquartered in San Francisco, California. The platform collects, transforms, and routes event data from 200+ sources to every analytics, marketing, and data-warehouse tool in real time. RudderStack processed over 3.3 trillion events for 4,000+ organisations in 2025, and has approximately 127 employees across North America, Europe and Asia.",
+      "about_event": "RudderStack's internal Hackathon 2026 brought together engineering and product teams to build novel features and tools on top of their customer data platform. The three-prize structure — Winner (gold), Runner Up (silver) and a community-voted People's Choice (bronze) — reflects the collaborative spirit of the event, rewarding both technical excellence and peer-recognised innovation.",
+      "design_brief": "The brief called for a cohesive three-trophy podium set with clear tier differentiation. Each trophy uses the same human-figure-raising-a-star form — instantly readable as 'achievement' — but in distinct metallic finishes: 24K gold-tone for the winner, bright chrome silver for runner-up, and a warm rose-gold/bronze for the crowd favourite. The RudderStack logo and event year are printed on individual plaques on the black plinths.",
+      "production_notes": [
+        "Cast-metal figure with outstretched arms raising a five-pointed star — available in gold, silver and bronze-tone electroplate",
+        "Red enamel star accent at the crown on all three trophies",
+        "Individually branded black plinth plaques printed with RudderStack logo, event name and award tier",
+        "Consistent height and silhouette across the set for a clean podium photo"
+      ],
+      "outcome": "The three-piece set delivered a clear visual hierarchy for the awards presentation — gold, silver and bronze instantly communicate the ranking without any text. The RudderStack brand appeared prominently on every trophy, making the award set ideal for social media documentation of the hackathon results.",
+      "related_collections": ["corporate-and-college-premium-trophies", "metal-sports-trophies"],
+      "related_products": [],
+      "external_links": [
+        { "label": "RudderStack", "url": "https://www.rudderstack.com/" },
+        { "label": "RudderStack on GitHub", "url": "https://github.com/rudderlabs" }
+      ]
+    },
+    {
+      "slug": "central-college-bangalore-golden-jubilee",
+      "title": "Golden Jubilee Celebration — Central College Bangalore",
+      "subtitle": "A commemorative golden plaque for the 1974-76 M.A. Economics batch's 50-year reunion",
+      "client": "Central College, Bengaluru — 1974-76 M.A. Economics Batch",
+      "client_short": "Central College Bangalore",
+      "industry": "Education · Higher Education",
+      "event": "Golden Jubilee Celebration — 1974-76 Batch M.A. Economics",
+      "event_year": 2025,
+      "location": "Bengaluru, Karnataka",
+      "category": "Education",
+      "tags": ["Plaque", "Gold Finish", "Wood Base", "Golden Jubilee", "Alumni", "Education", "Commemorative"],
+      "tagline": "Fifty years of friendship, knowledge and Karnataka — commemorated in gold.",
+      "photos": [
+        {
+          "src": "asset:cs-central-college-golden-jubilee.jpg",
+          "alt": "Central College Bangalore Golden Jubilee Celebration plaque — a tall gold-tone plaque on a dark wood base, featuring the iconic Central College clock tower in a circular medallion with laurel wreath, and the inscription '1974-76 Batch M.A. Economics — Central College, Bangalore'.",
+          "caption": "The commemorative plaque for the 1974-76 M.A. Economics batch, featuring the college's iconic clock tower"
+        }
+      ],
+      "brand_logo": "",
+      "stats": [
+        { "label": "Years celebrated", "value": "50 (Golden Jubilee)" },
+        { "label": "Batch", "value": "1974-76 M.A. Economics" },
+        { "label": "College established", "value": "1858" },
+        { "label": "Format", "value": "Framed gold plaque on wood base" }
+      ],
+      "about_client": "Central College, Bengaluru (officially Government Central College) is one of the oldest and most prestigious institutions in Karnataka, established in 1858. The college served as the seat of Bangalore University until the Jnana Bharathi campus opened in 1973. Its iconic Victorian clock tower is one of Bengaluru's most recognised architectural landmarks. The M.A. Economics department has produced generations of economists, administrators and policy makers across India.",
+      "about_event": "The Golden Jubilee Celebration marks the 50th anniversary of the 1974-76 M.A. Economics batch completing their postgraduate studies at Central College, Bengaluru. Alumni reunions of this nature bring together batchmates — often spread across India and the world — to celebrate five decades of shared memories, academic journeys and enduring friendships. A commemorative plaque serves as a lasting keepsake of the milestone gathering.",
+      "design_brief": "The client wanted a plaque that captured the gravitas of 50 years and the heritage of the institution. The circular medallion at the top features a colour photograph of Central College's iconic clock tower, framed by a cast gold laurel wreath — a traditional symbol of achievement and longevity. The lower panel carries the event inscription in elegant serif type on a gold background, mounted on a deep mahogany-finish wood base.",
+      "production_notes": [
+        "Tall rectangular gold-tone metal plate with border and recessed inscription panel",
+        "Circular colour-print medallion of Central College clock tower, mounted at crown with cast laurel wreath surround",
+        "Engraved/printed inscription: 'GOLDEN JUBILEE CELEBRATION · 1974-76 BATCH · M.A. ECONOMICS · CENTRAL COLLEGE, BANGALORE'",
+        "Deep mahogany-finish solid wood base with bevelled profile"
+      ],
+      "outcome": "A meaningful keepsake for an alumni batch celebrating a major milestone. The plaque design anchors the institution's heritage (the clock tower medallion) with the personal significance of the event — making it both a display piece and a conversation starter at the reunion.",
+      "related_collections": ["corporate-and-college-premium-trophies"],
+      "related_products": [],
+      "external_links": [
+        { "label": "Central College, Bengaluru — Wikipedia", "url": "https://en.wikipedia.org/wiki/Central_College,_Bengaluru" }
+      ]
+    },
+    {
+      "slug": "equitas-super-star-contest-apr-2026",
+      "title": "Equitas Small Finance Bank — Super Star Contest",
+      "subtitle": "An individual performance recognition shield for Spandana R Rao, April 2026 Super Star Contest winner",
+      "client": "Equitas Small Finance Bank",
+      "client_short": "Equitas Bank",
+      "industry": "Banking · Small Finance Bank",
+      "event": "Super Star Contest — April 2026",
+      "event_year": 2026,
+      "location": "Bengaluru, Karnataka",
+      "category": "Corporate",
+      "tags": ["Shield", "Bronze Finish", "Sales Recognition", "Individual Award", "Banking", "Performance Award"],
+      "tagline": "Recognising the top performer who outpaced every target in April.",
+      "photos": [
+        {
+          "src": "asset:cs-equitas-super-star-apr-2026.jpg",
+          "alt": "Equitas Small Finance Bank Super Star Contest April 2026 award — a bronze-finish shield trophy with star accents, the Equitas 'e' logo medallion at the crown, and a gold engraved plaque reading 'Congratulations — For Achieving Super Star Contest in April - 2026 — Spandana R Rao'.",
+          "caption": "The Super Star Contest shield for Spandana R Rao — Equitas Small Finance Bank, April 2026"
+        }
+      ],
+      "brand_logo": "",
+      "stats": [
+        { "label": "Award type", "value": "Individual performance shield" },
+        { "label": "Recipient", "value": "Spandana R Rao" },
+        { "label": "Period", "value": "April 2026" },
+        { "label": "Finish", "value": "Bronze with star accents" }
+      ],
+      "about_client": "Equitas Small Finance Bank Limited is a Reserve Bank of India-licensed small finance bank headquartered in Chennai, Tamil Nadu. It serves micro and small enterprises, low-income households and underbanked segments across India. The bank is listed on NSE and BSE and is known for its strong sales culture, branch network across South India, and regular employee recognition programs that include monthly and quarterly performance contests.",
+      "about_event": "The Equitas Super Star Contest is a monthly sales performance recognition program, rewarding branch staff who achieve the highest targets in loan disbursals, deposit mobilisation and new account acquisition. The April 2026 Super Star — Spandana R Rao — earned the award by outperforming all peers in her region for the month, receiving this personalised shield at a branch awards ceremony.",
+      "design_brief": "Equitas wanted a premium yet personal shield that an individual would be proud to display at their desk. The shield shape — a classic heraldic form — conveys honour and achievement. The Equitas 'e' logo is rendered as a die-cast medallion at the crown, set against a rope-pattern disc. Star burst accents around the bottom anchor the design, and the central gold plaque carries the personalised congratulatory inscription with the recipient's name in bold.",
+      "production_notes": [
+        "Shield-shaped base in dark resin with bronze-tone metallic finish",
+        "Five-pointed star accents at corners and base, matching bronze tone",
+        "Die-cast 'e' logo medallion at crown on a rope-pattern disc surround with red/blue enamel accents",
+        "Central gold engraved plaque: 'equitas · Congratulations · For Achieving Super Star Contest in April - 2026 · Spandana R Rao'",
+        "Lacquered black base with logo-engraved nameplate"
+      ],
+      "outcome": "A personalised award that the recipient can display with pride. The shield format — larger and more visually distinctive than a standard plaque — makes the recognition feel significant and tangible. Equitas uses Meru for individual performance awards across its branch network.",
+      "related_collections": ["corporate-and-college-premium-trophies"],
+      "related_products": [],
+      "external_links": [
+        { "label": "Equitas Small Finance Bank", "url": "https://equitas.bank.in/" }
+      ]
     }
   ]
 }

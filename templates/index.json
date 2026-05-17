@@ -238,116 +238,66 @@
     "clients_marquee_main": {
       "type": "clients-marquee",
       "blocks": {
-        "logo_tY7XFD": {
-          "type": "logo",
-          "settings": {
-            "image": "shopify://shop_images/download_1.png",
-            "alt": "Client logo",
-            "link": ""
-          }
-        },
-        "logo_EwF8bQ": {
-          "type": "logo",
-          "settings": {
-            "image": "shopify://shop_images/download_2.png",
-            "alt": "Client logo",
-            "link": ""
-          }
-        },
-        "logo_GeBzed": {
-          "type": "logo",
-          "settings": {
-            "image": "shopify://shop_images/download_6efba9b5-e34a-4406-8c3a-21cae2e63847.png",
-            "alt": "Client logo",
-            "link": ""
-          }
-        },
-        "logo_7ngaDr": {
-          "type": "logo",
-          "settings": {
-            "image": "shopify://shop_images/download_3.png",
-            "alt": "Client logo",
-            "link": ""
-          }
-        },
-        "logo_rnmRfA": {
-          "type": "logo",
-          "settings": {
-            "image": "shopify://shop_images/download_4.png",
-            "alt": "Client logo",
-            "link": ""
-          }
-        },
-        "logo_6fkcnY": {
-          "type": "logo",
-          "settings": {
-            "image": "shopify://shop_images/Titan_logo1.png",
-            "alt": "Titan",
-            "link": ""
-          }
-        },
-        "logo_GrKQee": {
-          "type": "logo",
-          "settings": {
-            "image": "shopify://shop_images/Kalyan_Jewellers_logo_svg.png",
-            "alt": "Kalyan Jewellers",
-            "link": ""
-          }
-        },
-        "logo_fAdyDH": {
-          "type": "logo",
-          "settings": {
-            "image": "shopify://shop_images/ITC_Limited_Logo_svg.png",
-            "alt": "ITC",
-            "link": ""
-          }
-        },
-        "logo_nKrzQ9": {
-          "type": "logo",
-          "settings": {
-            "image": "shopify://shop_images/Lifestyle-Stores-Logo-1160x1739-1-800x1199.webp",
-            "alt": "Lifestyle",
-            "link": ""
-          }
-        },
-        "logo_zTEQmL": {
-          "type": "logo",
-          "settings": {
-            "image": "shopify://shop_images/images.jpg",
-            "alt": "Client logo",
-            "link": ""
-          }
-        },
-        "logo_B6cwQF": {
-          "type": "logo",
-          "settings": {
-            "image": "shopify://shop_images/images.png",
-            "alt": "Client logo",
-            "link": ""
-          }
-        },
-        "logo_pTDPNP": {
-          "type": "logo",
-          "settings": {
-            "image": "shopify://shop_images/logojpg.webp",
-            "alt": "Client logo",
-            "link": ""
-          }
-        }
+        "logo_tanishq":          { "type": "logo", "settings": { "asset_file": "logo-tanishq.png", "alt": "Tanishq" } },
+        "logo_hdfc_bank":        { "type": "logo", "settings": { "asset_file": "logo-hdfc-bank.png", "alt": "HDFC Bank" } },
+        "logo_amazon":           { "type": "logo", "settings": { "asset_file": "logo-amazon.png", "alt": "Amazon" } },
+        "logo_itc":              { "type": "logo", "settings": { "asset_file": "logo-itc.png", "alt": "ITC" } },
+        "logo_titan":            { "type": "logo", "settings": { "asset_file": "logo-titan.png", "alt": "Titan" } },
+        "logo_kalyan_jewellers": { "type": "logo", "settings": { "asset_file": "logo-kalyan-jewellers.png", "alt": "Kalyan Jewellers" } },
+        "logo_maruti_suzuki":    { "type": "logo", "settings": { "asset_file": "logo-maruti-suzuki.png", "alt": "Maruti Suzuki" } },
+        "logo_schneider":        { "type": "logo", "settings": { "asset_file": "logo-schneider.png", "alt": "Schneider Electric" } },
+        "logo_cadbury":          { "type": "logo", "settings": { "asset_file": "logo-cadbury.png", "alt": "Cadbury" } },
+        "logo_indian_express":   { "type": "logo", "settings": { "asset_file": "logo-indian-express.png", "alt": "The Indian Express" } },
+        "logo_hcl":              { "type": "logo", "settings": { "asset_file": "logo-hcl.png", "alt": "HCLTech" } },
+        "logo_infosys":          { "type": "logo", "settings": { "asset_file": "logo-infosys.png", "alt": "Infosys" } },
+        "logo_jio":              { "type": "logo", "settings": { "asset_file": "logo-jio.png", "alt": "Jio" } },
+        "logo_sbi":              { "type": "logo", "settings": { "asset_file": "logo-sbi.png", "alt": "State Bank of India" } },
+        "logo_patanjali":        { "type": "logo", "settings": { "asset_file": "logo-patanjali.png", "alt": "Patanjali" } },
+        "logo_decathlon":        { "type": "logo", "settings": { "asset_file": "logo-decathlon.png", "alt": "Decathlon" } },
+        "logo_ksca":             { "type": "logo", "settings": { "asset_file": "logo-ksca.png", "alt": "Karnataka State Cricket Association" } },
+        "logo_hal":              { "type": "logo", "settings": { "asset_file": "logo-hal.png", "alt": "Hindustan Aeronautics Limited" } },
+        "logo_indian_railways":  { "type": "logo", "settings": { "asset_file": "logo-indian-railways.png", "alt": "Indian Railways" } },
+        "logo_foxconn":          { "type": "logo", "settings": { "asset_file": "logo-foxconn.png", "alt": "Foxconn" } },
+        "logo_mondelez":         { "type": "logo", "settings": { "asset_file": "logo-mondelez.png", "alt": "Mondelez International" } },
+        "logo_coursera":         { "type": "logo", "settings": { "asset_file": "logo-coursera.png", "alt": "Coursera" } },
+        "logo_razorpay":         { "type": "logo", "settings": { "asset_file": "logo-razorpay.png", "alt": "Razorpay" } },
+        "logo_godrej":           { "type": "logo", "settings": { "asset_file": "logo-godrej.png", "alt": "Godrej" } },
+        "logo_tata_steel":       { "type": "logo", "settings": { "asset_file": "logo-tata-steel.png", "alt": "Tata Steel" } },
+        "logo_bajaj_allianz":    { "type": "logo", "settings": { "asset_file": "logo-bajaj-allianz.png", "alt": "Bajaj Allianz" } },
+        "logo_axis_bank":        { "type": "logo", "settings": { "asset_file": "logo-axis-bank.png", "alt": "Axis Bank" } },
+        "logo_canara_bank":      { "type": "logo", "settings": { "asset_file": "logo-canara-bank.png", "alt": "Canara Bank" } },
+        "logo_caterpillar":      { "type": "logo", "settings": { "asset_file": "logo-caterpillar.png", "alt": "Caterpillar" } }
       },
       "block_order": [
-        "logo_tY7XFD",
-        "logo_EwF8bQ",
-        "logo_GeBzed",
-        "logo_7ngaDr",
-        "logo_rnmRfA",
-        "logo_6fkcnY",
-        "logo_GrKQee",
-        "logo_fAdyDH",
-        "logo_nKrzQ9",
-        "logo_zTEQmL",
-        "logo_B6cwQF",
-        "logo_pTDPNP"
+        "logo_tanishq",
+        "logo_hdfc_bank",
+        "logo_amazon",
+        "logo_itc",
+        "logo_titan",
+        "logo_kalyan_jewellers",
+        "logo_maruti_suzuki",
+        "logo_schneider",
+        "logo_cadbury",
+        "logo_indian_express",
+        "logo_hcl",
+        "logo_infosys",
+        "logo_jio",
+        "logo_sbi",
+        "logo_patanjali",
+        "logo_decathlon",
+        "logo_ksca",
+        "logo_hal",
+        "logo_indian_railways",
+        "logo_foxconn",
+        "logo_mondelez",
+        "logo_coursera",
+        "logo_razorpay",
+        "logo_godrej",
+        "logo_tata_steel",
+        "logo_bajaj_allianz",
+        "logo_axis_bank",
+        "logo_canara_bank",
+        "logo_caterpillar"
       ],
       "settings": {
         "eyebrow": "Our Clients",

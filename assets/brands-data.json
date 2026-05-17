@@ -81,7 +81,9 @@
         { "name": "BNI" },
         { "name": "IEHC" },
         { "name": "Mysore Scandal Soap" },
-        { "name": "Institute of Nephro Urology" }
+        { "name": "Institute of Nephro Urology" },
+        { "name": "RudderStack", "featured": true, "website": "https://www.rudderstack.com/" },
+        { "name": "Equitas Small Finance Bank", "website": "https://equitas.bank.in/" }
       ]
     },
     {
@@ -125,7 +127,8 @@
         { "name": "RJS College" },
         { "name": "Bangalore University" },
         { "name": "Presidency" },
-        { "name": "ICFAI" }
+        { "name": "ICFAI" },
+        { "name": "Central College, Bengaluru" }
       ]
     },
     {

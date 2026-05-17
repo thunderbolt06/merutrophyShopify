@@ -158,24 +158,43 @@
     <div class="clients-marquee__track-wrap" style="--marquee-speed: {{ section.settings.speed | default: 50 }}s;">
       <div class="clients-marquee__track">
         {%- for block in image_blocks -%}
+          {%- liquid
+            assign brand_alt = block.settings.alt | default: 'Client logo'
+            assign asset_src = ''
+            if block.settings.asset_file != blank
+              assign asset_src = block.settings.asset_file | asset_url
+            endif
+          -%}
           {%- if block.settings.link != blank -%}
-            <a href="{{ block.settings.link }}" class="clients-marquee__logo" aria-label="{{ block.settings.alt | default: 'Client logo' | escape }}">
-              {%- if block.settings.image -%}
-                {{ block.settings.image | image_url: width: 360 | image_tag: loading: 'lazy', widths: '180,360', alt: block.settings.alt | default: 'Client logo' }}
+            <a href="{{ block.settings.link }}" class="clients-marquee__logo" aria-label="{{ brand_alt | escape }}">
+              {%- if asset_src != '' -%}
+                <img src="{{ asset_src }}" alt="{{ brand_alt | escape }}" loading="lazy">
+              {%- elsif block.settings.image -%}
+                {{ block.settings.image | image_url: width: 360 | image_tag: loading: 'lazy', widths: '180,360', alt: brand_alt }}
               {%- endif -%}
             </a>
           {%- else -%}
             <div class="clients-marquee__logo">
-              {%- if block.settings.image -%}
-                {{ block.settings.image | image_url: width: 360 | image_tag: loading: 'lazy', widths: '180,360', alt: block.settings.alt | default: 'Client logo' }}
+              {%- if asset_src != '' -%}
+                <img src="{{ asset_src }}" alt="{{ brand_alt | escape }}" loading="lazy">
+              {%- elsif block.settings.image -%}
+                {{ block.settings.image | image_url: width: 360 | image_tag: loading: 'lazy', widths: '180,360', alt: brand_alt }}
               {%- endif -%}
             </div>
           {%- endif -%}
         {%- endfor -%}
         {%- comment -%} duplicate for seamless loop {%- endcomment -%}
         {%- for block in image_blocks -%}
+          {%- liquid
+            assign asset_src = ''
+            if block.settings.asset_file != blank
+              assign asset_src = block.settings.asset_file | asset_url
+            endif
+          -%}
           <div class="clients-marquee__logo" aria-hidden="true">
-            {%- if block.settings.image -%}
+            {%- if asset_src != '' -%}
+              <img src="{{ asset_src }}" alt="" loading="lazy">
+            {%- elsif block.settings.image -%}
               {{ block.settings.image | image_url: width: 360 | image_tag: loading: 'lazy', widths: '180,360', alt: '' }}
             {%- endif -%}
           </div>
@@ -340,7 +359,14 @@
         {
           "type": "image_picker",
           "id": "image",
-          "label": "Logo image"
+          "label": "Logo image (Shopify Files)",
+          "info": "Use this for logos uploaded to Content > Files. For logos shipped in the theme assets/ folder, use the field below."
+        },
+        {
+          "type": "text",
+          "id": "asset_file",
+          "label": "Theme asset filename (preferred)",
+          "info": "Filename inside the theme assets/ folder, e.g. logo-tanishq.png. Takes priority over the image picker when set."
         },
         {
           "type": "text",
