@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "updated": "2026-05-17",
+  "updated": "2026-05-18",
   "note": "Edit this file to add/remove brands. Each category has a name, slug, and a list of brand names. To highlight a brand, mark featured:true. Optional fields: logo (URL or shopify://shop_images/...), website (external link).",
   "stats": {
-    "total_unique": 157,
+    "total_unique": 160,
     "rating": "4.9",
     "google_reviews": 442
   },
@@ -632,6 +632,15 @@
         },
         {
           "name": "Sri Basaveshwaraswami Seva Samiti"
+        },
+        {
+          "name": "MSQCCw-WCTQEE"
+        },
+        {
+          "name": "Walk for Aarogya"
+        },
+        {
+          "name": "KPL-S"
         }
       ]
     },

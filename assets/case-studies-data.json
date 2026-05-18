@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-04-13",
+  "updated": "2026-05-18",
   "_instructions": "To add a new case study: (1) add an object to `studies`, (2) drop photos into the theme `assets/` folder with a `cs-` prefix and register each filename in snippets/case-study-assets.liquid, (3) reference them in the `photos` array as `asset:filename.jpg`, (4) create a Shopify page with the same `slug` as its handle and assign template `page.case-study`. The first entry in `photos` becomes the hero AND the card cover; the rest render as a gallery with a click-to-zoom lightbox. The `hero_image` and `gallery` fields are still supported for back-compat.",
   "studies": [
     {
@@ -1221,6 +1221,214 @@
       "related_collections": [
         "sports-trophies",
         "corporate-trophies"
+      ],
+      "related_products": [],
+      "external_links": []
+    },
+    {
+      "slug": "msqccw-quality-youth-summit-2026",
+      "title": "11th Quality Youth Initiatives Summit 2026",
+      "subtitle": "Two custom trophies for an international quality education summit in Mauritius — an oval shield for Mathematics and a wave-form trophy for Kavi Samelan (Hindi Poetry)",
+      "client": "Mauritian Society for Quality Circles and Community Wellness (MSQCCw) — Mauritius",
+      "client_short": "MSQCCw-WCTQEE",
+      "industry": "Education · Quality Management · International",
+      "event": "11th Quality Youth Initiatives Summit 2026",
+      "event_year": 2026,
+      "location": "Republic of Mauritius, 24–29 July 2026",
+      "category": "Organisations",
+      "tags": [
+        "International Award",
+        "Oval Shield",
+        "Wave Trophy",
+        "Gold Finish",
+        "Engraved Plaque",
+        "Education Summit",
+        "Youth Competition",
+        "WCTQEE"
+      ],
+      "tagline": "From Bengaluru to Mauritius — precision-crafted trophies for competitions that cross borders.",
+      "photos": [
+        {
+          "src": "asset:cs-msqccw-quality-youth-summit-2026-1.jpg",
+          "alt": "MSQCCw 11th Quality Youth Initiatives Summit 2026 — gold oval shield trophy for the Mathematics competition, with engraved plaque on a black marble base.",
+          "caption": "Mathematics competition award — oval shield in gold finish on black marble base"
+        },
+        {
+          "src": "asset:cs-msqccw-quality-youth-summit-2026-2.jpg",
+          "alt": "MSQCCw 11th Quality Youth Initiatives Summit 2026 — wave-form gold trophy for Kavi Samelan (Hindi Poem) competition, with full event details and MSQCCw-WCTQEE branding.",
+          "caption": "Kavi Samelan (Hindi Poetry) award — wave-form trophy with full summit branding"
+        }
+      ],
+      "brand_logo": "",
+      "stats": [
+        {
+          "label": "Summit edition",
+          "value": "11th"
+        },
+        {
+          "label": "Event location",
+          "value": "Mauritius"
+        },
+        {
+          "label": "Competitions covered",
+          "value": "4+"
+        },
+        {
+          "label": "Patronage",
+          "value": "WCTQEE"
+        }
+      ],
+      "about_client": "The Mauritian Society for Quality Circles and Community Wellness (MSQCCw) is an organisation dedicated to promoting quality culture, innovation and excellence among youth in Mauritius. It operates under the patronage of the World Council for Total Quality and Excellence in Education (WCTQEE) and organises the annual Quality Youth Initiatives Summit — a multi-event competition encompassing Debate, Mathematics, Poster & Slogan Making, and Kavi Samelan (Hindi Poetry). The 2026 summit runs 24–29 July in the Republic of Mauritius.",
+      "about_event": "The 11th Quality Youth Initiatives Summit 2026 is an international gathering of students and educators competing under the theme 'Youth Leading Quality, Innovation and Excellence.' Organised by MSQCCw under WCTQEE patronage, the summit features four competition tracks. Meru Trophy supplied individual recognition awards for the Mathematics and Kavi Samelan (Hindi Poetry) tracks — trophies that travel from Bengaluru to Mauritius to honour young achievers on an international stage.",
+      "design_brief": "Two distinct trophy forms were required for different competition disciplines. The Mathematics award uses a classic oval shield format — timeless, authoritative, instantly legible as an academic prize. The Kavi Samelan award uses a flowing wave form — a dynamic silhouette that evokes creative expression and the rhythm of poetry. Both carry the full event identity: summit name, date, location, organiser name, patronage line, competition category, and theme text. The brief was clarity at a distance and dignity on the shelf.",
+      "production_notes": [
+        "Oval shield trophy: cast metal frame in electroplated gold finish, black marble base, engraved brass nameplate",
+        "Wave-form trophy: sculpted wave silhouette in gold-finish metal, black solid base, full engraved panel with summit details",
+        "Both trophies carry 7-line engraving: event name, dates, location, organiser, patronage, competition category, and theme",
+        "Designed to be legible when photographed at ceremonies — high-contrast engraving on bright gold field",
+        "International shipping to Mauritius; packed in custom foam-lined boxes"
+      ],
+      "outcome": "Trophies delivered ahead of the July 2026 summit. Two awards covering the Mathematics and Kavi Samelan competition tracks — part of Meru Trophy's growing portfolio of internationally shipped recognition awards.",
+      "related_collections": [
+        "metal-sports-trophies",
+        "corporate-and-college-premium-trophies",
+        "shields-and-plaques"
+      ],
+      "related_products": [],
+      "external_links": [
+        {
+          "label": "WCTQEE — World Council for Total Quality and Excellence in Education",
+          "url": "https://wctqee.org"
+        }
+      ]
+    },
+    {
+      "slug": "walk-for-aarogya-2025",
+      "title": "Walk for Aarogya 2025",
+      "subtitle": "Custom gold participation and finisher medals for a community wellness walkathon",
+      "client": "Walk for Aarogya — India",
+      "client_short": "Walk for Aarogya",
+      "industry": "Health & Wellness · Community Events",
+      "event": "Walk for Aarogya 2025",
+      "event_year": 2025,
+      "location": "India",
+      "category": "Organisations",
+      "tags": [
+        "Walkathon Medal",
+        "Gold Finish",
+        "Laurel Wreath",
+        "Wellness Event",
+        "Community",
+        "Participant Medal"
+      ],
+      "tagline": "Every step counts — a medal that makes the walk worth remembering.",
+      "photos": [
+        {
+          "src": "asset:cs-walk-for-aarogya-2025-1.jpg",
+          "alt": "Walk for Aarogya 2025 — gold medal with laurel wreath border and central disc featuring the Walk for Aarogya logo and tagline 'Walk, Stay Simply, Stay Fittest'.",
+          "caption": "Walk for Aarogya 2025 finisher medal — gold finish with laurel wreath and event branding"
+        }
+      ],
+      "brand_logo": "",
+      "stats": [
+        {
+          "label": "Medal finish",
+          "value": "Gold-tone"
+        },
+        {
+          "label": "Border style",
+          "value": "Laurel wreath"
+        },
+        {
+          "label": "Event type",
+          "value": "Walkathon"
+        },
+        {
+          "label": "Purpose",
+          "value": "Participant / Finisher"
+        }
+      ],
+      "about_client": "Walk for Aarogya is a community wellness initiative that organises walkathons promoting active, healthy lifestyles. The name 'Aarogya' (Sanskrit: good health) reflects the programme's core mission — encouraging participants of all ages to walk as a simple, accessible path to fitness. The event's tagline, 'Walk, Stay Simply, Stay Fittest,' appears on every medal.",
+      "about_event": "Walk for Aarogya 2025 is a community walkathon bringing together health-conscious participants for a guided walk event. Every participant receives a custom finisher medal — a tangible reminder of their commitment to wellness. The medal design centres on the Walk for Aarogya branding within a classic laurel wreath border, finished in bright gold tone.",
+      "design_brief": "The client needed a medal that felt both celebratory and accessible — not a competitive podium award, but a token of participation that every walker would be proud to keep. The laurel wreath border (a universal symbol of achievement) wraps a custom-printed central disc carrying the event logo and tagline. The overall finish is bright gold to convey a sense of achievement and encourage photo sharing.",
+      "production_notes": [
+        "Die-cast zinc alloy medal body with bright gold electroplate finish",
+        "Laurel wreath border in high relief, surrounding a recessed central disc",
+        "Full-colour printed centre disc with Walk for Aarogya logo and event tagline",
+        "Standard 10mm V-ribbon attachment at top for lanyard",
+        "Packaged in individual polybags for on-event distribution"
+      ],
+      "outcome": "Medals delivered for the 2025 event. Worn and shared by participants as a personal achievement token, extending the Walk for Aarogya brand through word-of-mouth and social media sharing.",
+      "related_collections": [
+        "medals-and-medallions",
+        "sports-medals",
+        "custom-medals"
+      ],
+      "related_products": [],
+      "external_links": []
+    },
+    {
+      "slug": "kpl-s-2025",
+      "title": "KPL-S 2025 Winner & Runner-Up Trophies",
+      "subtitle": "Tiered champion and runner-up trophies for a local sports league — distinct heights to mark the podium difference",
+      "client": "KPL-S — India",
+      "client_short": "KPL-S",
+      "industry": "Sports · Community League",
+      "event": "KPL-S 2025",
+      "event_year": 2025,
+      "location": "India",
+      "category": "Organisations",
+      "tags": [
+        "Winner Trophy",
+        "Runner-Up Trophy",
+        "Sports League",
+        "Tiered Set",
+        "Gold Finish",
+        "Black Base",
+        "KPL"
+      ],
+      "tagline": "Two trophies, one statement — the gap between winning and almost winning.",
+      "photos": [
+        {
+          "src": "asset:cs-kpl-s-2025-1.jpg",
+          "alt": "KPL-S 2025 Winner and Runner-Up trophies — a tall and shorter gold trophy pair on black bases, with engraved 'Winner' and 'Runner' nameplates.",
+          "caption": "KPL-S 2025 Winner (tall) and Runner-Up trophies — gold finish with black base, engraved nameplates"
+        }
+      ],
+      "brand_logo": "",
+      "stats": [
+        {
+          "label": "Trophies in set",
+          "value": "2 (Winner + Runner)"
+        },
+        {
+          "label": "Finish",
+          "value": "Gold-tone"
+        },
+        {
+          "label": "Base",
+          "value": "Black"
+        },
+        {
+          "label": "League type",
+          "value": "Sports (KPL)"
+        }
+      ],
+      "about_client": "KPL-S is a local sports league organising competitive matches and seasonal tournaments. Like many community leagues, KPL-S uses end-of-season trophies to formally recognise the top two finishers and celebrate the competitive spirit of the league.",
+      "about_event": "The KPL-S 2025 season concluded with a podium trophy presentation for the Winner and Runner-Up teams. The two-trophy set uses a tiered height strategy: the Winner trophy stands taller to signal supremacy, while the Runner-Up trophy — identical in design but shorter — acknowledges strong performance without diminishing the gap to first place.",
+      "design_brief": "The brief was clear: the trophies must look like a matched set but the Winner must instantly read as higher-ranked. We used a tiered column approach — same base, same finishing, same nameplate format, but meaningfully different heights. Both trophies carry engraved nameplates (WINNER / RUNNER) on gold-finish columns, seated on matching black bases. The result is a coherent visual set with a clear hierarchy.",
+      "production_notes": [
+        "Two-trophy set: Winner (tall column) and Runner-Up (shorter column)",
+        "Gold electroplated column with stepped tiers",
+        "Matching black resin bases for both trophies",
+        "Engraved gold nameplate: 'KPL-S · WINNER 2025' / 'KPL-S · RUNNER 2025'",
+        "Proportional height difference maintained for clear podium hierarchy when displayed side by side"
+      ],
+      "outcome": "Delivered as a matched presentation set for the KPL-S 2025 season finale. The tiered height design immediately communicates the competitive result in any photo or display context.",
+      "related_collections": [
+        "metal-sports-trophies",
+        "sports-trophies-and-cups",
+        "corporate-and-college-premium-trophies"
       ],
       "related_products": [],
       "external_links": []
