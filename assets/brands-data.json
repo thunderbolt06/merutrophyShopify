@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-05-18",
+  "updated": "2026-05-19",
   "note": "Edit this file to add/remove brands. Each category has a name, slug, and a list of brand names. To highlight a brand, mark featured:true. Optional fields: logo (URL or shopify://shop_images/...), website (external link).",
   "stats": {
     "total_unique": 160,
@@ -266,6 +266,18 @@
         {
           "name": "The Office Challenge",
           "featured": false
+        },
+        {
+          "name": "Bharat",
+          "featured": false
+        },
+        {
+          "name": "ADAS B2B"
+        },
+        {
+          "name": "Laguna Clothing",
+          "featured": true,
+          "website": "https://in.linkedin.com/company/laguna-clothing-llp"
         }
       ]
     },

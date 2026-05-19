@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-05-18",
+  "updated": "2026-05-19",
   "_instructions": "To add a new case study: (1) add an object to `studies`, (2) drop photos into the theme `assets/` folder with a `cs-` prefix and register each filename in snippets/case-study-assets.liquid, (3) reference them in the `photos` array as `asset:filename.jpg`, (4) create a Shopify page with the same `slug` as its handle and assign template `page.case-study`. The first entry in `photos` becomes the hero AND the card cover; the rest render as a gallery with a click-to-zoom lightbox. The `hero_image` and `gallery` fields are still supported for back-compat.",
   "studies": [
     {
@@ -1432,6 +1432,276 @@
       ],
       "related_products": [],
       "external_links": []
+    },
+    {
+      "slug": "bharat-value-champion-fy26",
+      "title": "Bharat Value Champion FY26",
+      "subtitle": "Five gold star trophies celebrating core-value champions — built by partners, driven by growth.",
+      "client": "Bharat (Built by Partners. Driven by Growth.)",
+      "client_short": "Bharat",
+      "industry": "Corporate / Financial Services",
+      "event": "Value Champion Awards FY26",
+      "event_year": 2026,
+      "location": "India",
+      "category": "Corporate",
+      "tags": [
+        "Star Trophy",
+        "Gold Finish",
+        "Black Base",
+        "Corporate Values",
+        "Named Award",
+        "Employee Recognition",
+        "Set of 5",
+        "Engraved Plaque"
+      ],
+      "tagline": "Five leaders. Five values. One gold star for each.",
+      "photos": [
+        {
+          "src": "asset:cs-bharat-value-champion-fy26-1.jpg",
+          "alt": "Five Bharat Value Champion FY26 gold star trophies on black bases, each engraved with an individual name and core value",
+          "caption": "Bharat Value Champion FY26 — 5 personalised gold star trophies (Passion, Speed, Integrity, Commitment)"
+        }
+      ],
+      "brand_logo": "",
+      "stats": [
+        {
+          "label": "Trophies",
+          "value": "5"
+        },
+        {
+          "label": "Finish",
+          "value": "Gold-tone"
+        },
+        {
+          "label": "Base",
+          "value": "Black"
+        },
+        {
+          "label": "Award type",
+          "value": "Named individual"
+        }
+      ],
+      "about_client": "Bharat is a growth-driven organisation with the tagline 'Built by Partners. Driven by Growth.' The company runs an internal Value Champion recognition programme each financial year to celebrate employees who embody its core values.",
+      "about_event": "The Bharat Value Champion FY26 awards recognised outstanding individuals across five company values: Passion, Speed (x2 recipients), Integrity, and Commitment. Each trophy is individually engraved with the recipient's name and value category.",
+      "design_brief": "Five matching gold star trophies, each personalised with the recipient's name and value category via an engraved gold nameplate on a black base. The star motif reinforces the 'champion' theme.",
+      "production_notes": [
+        "Set of 5 gold star trophies, each individually engraved",
+        "Gold-tone star figurine on a faceted stem",
+        "Black stepped base with a gold nameplate panel",
+        "Nameplate: Bharat logo · Recipient name · VALUE CHAMPION FY26 · Value word",
+        "Recipients: Mr Amit Jalan (Passion), Mr Abhijeet Anand (Speed), Mr Sameer Goswami (Speed), Mr Shailesh Sultania (Integrity), Mr Abhishek Gulgulia (Commitment)"
+      ],
+      "outcome": "A cohesive set of five personalised star trophies for the Bharat FY26 annual recognition ceremony.",
+      "related_collections": [
+        "star-trophies",
+        "corporate-and-college-premium-trophies"
+      ],
+      "related_products": [],
+      "external_links": []
+    },
+    {
+      "slug": "hdfc-bank-highest-sk-nop-march26",
+      "title": "HDFC Bank — Highest SK NOP, March 2026",
+      "subtitle": "Ornate personalised shield plaques honouring top policy performers for March 2026 — Telangana and Karnataka.",
+      "client": "HDFC Bank",
+      "client_short": "HDFC Bank",
+      "industry": "Banking / Financial Services",
+      "event": "Highest SK NOP Awards — March 2026",
+      "event_year": 2026,
+      "location": "Karnataka & Telangana, India",
+      "category": "Corporate",
+      "tags": [
+        "Shield Award",
+        "Plaque",
+        "Gold Finish",
+        "Personalised",
+        "Photo Embed",
+        "Banking",
+        "Employee Recognition",
+        "State Map"
+      ],
+      "tagline": "Recognition that carries a face, a name, and a state.",
+      "photos": [
+        {
+          "src": "asset:cs-hdfc-bank-sk-nop-march26-1.jpg",
+          "alt": "Two HDFC Bank Highest SK NOP shield plaques for March 2026 — ornate gold shield frames with embedded recipient photos, state maps of Telangana and Karnataka",
+          "caption": "HDFC Bank Highest SK NOP March 2026 — personalised shield plaques for Telangana (NOP 257) and Karnataka (NOP 204) top performers"
+        }
+      ],
+      "brand_logo": "",
+      "stats": [
+        {
+          "label": "Awards",
+          "value": "2 shields"
+        },
+        {
+          "label": "Finish",
+          "value": "Gold & wood tone"
+        },
+        {
+          "label": "Period",
+          "value": "March 2026"
+        },
+        {
+          "label": "Regions",
+          "value": "Telangana + Karnataka"
+        }
+      ],
+      "about_client": "HDFC Bank is one of India's largest private sector banks, with a rigorous performance recognition programme across its vast nationwide network.",
+      "about_event": "The 'Highest SK NOP' award recognises HDFC Bank staff who achieved the highest number of policy activations in a month. March 2026 honoured Neela Srinivas (NOP 257, Telangana) and Rajesh Chigurupati (NOP 204, Karnataka). Each plaque features an embedded recipient photo and the state map emblem.",
+      "design_brief": "Shield-shaped plaques with a warm gold-tone UV-printed face featuring the HDFC Bank logo, award title, recipient name, and a personalised photo inset at the top. A state map medallion (Telangana / Karnataka) with an outstretched-hands motif anchors the bottom.",
+      "production_notes": [
+        "Two individually personalised shield plaques",
+        "Octagonal shield form with decorative gold border",
+        "UV-printed gold-tone face on dark wood frame",
+        "Recipient photo in a crystal lens at the top",
+        "State map medallion at the bottom with hands motif",
+        "Side gold column pillars for stability",
+        "Neela Srinivas — NOP 257, Telangana; Rajesh Chigurupati — NOP 204, Karnataka"
+      ],
+      "outcome": "Two bespoke personalised shield plaques delivered to HDFC Bank's top state performers for March 2026.",
+      "related_collections": [
+        "corporate-and-college-premium-trophies",
+        "shields-and-plaques"
+      ],
+      "related_products": [],
+      "external_links": []
+    },
+    {
+      "slug": "adas-b2b-test-q4-2025-26",
+      "title": "ADAS B2B — Test Division Q4 FY 2025-26",
+      "subtitle": "Personalised gold medals and an engraved recognition trophy for a corporate B2B Test team's quarterly top performers",
+      "client": "ADAS B2B — Test Division",
+      "client_short": "ADAS B2B",
+      "industry": "Corporate / B2B",
+      "event": "Q4 FY 2025-26 Recognition Awards",
+      "event_year": 2026,
+      "location": "India",
+      "category": "Corporate",
+      "tags": [
+        "Gold Medal",
+        "Personalised",
+        "Engraved Trophy",
+        "Employee Recognition",
+        "B2B",
+        "Quarterly Award",
+        "Sales Recognition"
+      ],
+      "tagline": "Every name on a medal is a story of a quarter well earned.",
+      "photos": [
+        {
+          "src": "asset:cs-adas-b2b-test-q4-2025-26-1.jpg",
+          "alt": "Personalised gold medals for ADAS B2B Test Division Q4 2025-26 — engraved with individual recipient names including Shreyas MP, Smruti Amerkar, Sai Patil, Sooraj Shanbhag, Sagar K and others",
+          "caption": "Individual gold medals engraved with each recipient's name — Q4 FY 2025-26"
+        },
+        {
+          "src": "asset:cs-adas-b2b-test-q4-2025-26-2.jpg",
+          "alt": "Recognition trophy engraved 'ADAS B2B / Test / Q4 : 2025-26' — corporate quarterly performance award",
+          "caption": "Central recognition trophy for the ADAS B2B Test team's Q4 top performers"
+        }
+      ],
+      "brand_logo": "",
+      "stats": [
+        {
+          "label": "Awards",
+          "value": "Medals + Trophy"
+        },
+        {
+          "label": "Finish",
+          "value": "Gold"
+        },
+        {
+          "label": "Quarter",
+          "value": "Q4 FY 2025-26"
+        },
+        {
+          "label": "Type",
+          "value": "Employee Recognition"
+        }
+      ],
+      "about_client": "ADAS B2B is the business-to-business division within a corporate organisation, recognising top performance across its Test team channel. The quarterly award programme honours employees who delivered exceptional results during Q4 of FY 2025-26.",
+      "about_event": "The Q4 FY 2025-26 Recognition Awards celebrate the ADAS B2B Test Division's top performers for the final quarter of the financial year. Each recipient received a personalised gold medal engraved with their name. Recipients included Shreyas MP, Smruti Amerkar, Sai Patil, Sooraj Shanbhag, Sagar K, and additional team members. A central engraved trophy bearing 'ADAS B2B / Test / Q4 : 2025-26' anchored the award ceremony.",
+      "design_brief": "The brief called for a dual-format award: a central trophy as a team milestone marker, and individual personalised gold medals so every recipient takes home a tangible keepsake. The medals were engraved with each winner's name, making the recognition personal at scale.",
+      "production_notes": [
+        "Central recognition trophy with engraved nameplate: 'ADAS B2B / Test / Q4 : 2025-26'",
+        "Multiple personalised gold medals, individually engraved with recipient names",
+        "Recipients: Shreyas MP, Smruti Amerkar, Sai Patil, Sooraj Shanbhag, Sagar K, and others",
+        "Gold-tone finish medals for consistent, premium look across the batch",
+        "Bulk production with individual name personalisation per medal"
+      ],
+      "outcome": "Full set of personalised gold medals and a central recognition trophy delivered for the ADAS B2B Test Division's Q4 FY 2025-26 awards cycle.",
+      "related_collections": [
+        "corporate-and-college-premium-trophies",
+        "gold-silver-bronze-medals"
+      ],
+      "related_products": [],
+      "external_links": []
+    },
+    {
+      "slug": "laguna-parivar-milan-20-years",
+      "title": "Laguna Parivar Milan — 20 Years of Laguna",
+      "subtitle": "Four vendor-recognition trophies for a premier Bangalore shirt manufacturer's 20th anniversary celebration",
+      "client": "Laguna Clothing Private Limited",
+      "client_short": "Laguna Clothing",
+      "industry": "Apparel · Garment Manufacturing",
+      "event": "Laguna Parivar Milan 2026 — 20th Anniversary Vendor Awards",
+      "event_year": 2026,
+      "location": "Bangalore, Karnataka",
+      "category": "Corporate",
+      "tags": [
+        "Vendor Awards",
+        "Anniversary",
+        "Gold Finish",
+        "Crystal Globe",
+        "Multi-set",
+        "Apparel Industry"
+      ],
+      "tagline": "Twenty years of excellence — four trophies that celebrate the partners who made it possible.",
+      "photos": [
+        {
+          "src": "asset:cs-laguna-parivar-milan-1.jpg",
+          "alt": "All four Laguna Parivar Milan 20-years vendor-recognition trophies lined up — Best Factory KPR (tall gold figure with crystal globe), Best Service Provider Winner, Best Fabric Supplier Runner Up (dark angular forms), and Best Grassroot OBR Housekeeping (gold star figure on decorative base).",
+          "caption": "The complete set of four awards for Laguna Parivar Milan — 20 Years of Laguna."
+        },
+        {
+          "src": "asset:cs-laguna-parivar-milan-2.jpg",
+          "alt": "Close-up of the Best Factory – KPR trophy: tall gold figure holding a crystal globe, mounted on a black base with gold plaque reading '20 Years of Laguna / Laguna Parivar Milan / Best Factory – KPR'.",
+          "caption": "Best Factory – KPR: the highlight trophy of the evening, featuring a crystal-globe topper on a gold sculpted figure."
+        }
+      ],
+      "brand_logo": "",
+      "stats": [
+        { "label": "Trophies", "value": "4" },
+        { "label": "Anniversary", "value": "20 Years" },
+        { "label": "Event", "value": "Laguna Parivar Milan" },
+        { "label": "Industry", "value": "Shirt Manufacturing" }
+      ],
+      "about_client": "Laguna Clothing Private Limited is one of India's foremost high-end shirt manufacturers, based in Bangalore (Kanakapura area). Founded in 2006 as a joint venture between Tessitura Monti (Italy) and Aquarelle Group (Mauritius), the company was fully acquired by CIEL Textile in 2020. With an annual capacity of 5 million shirts, Laguna supplies premium formal, semi-formal and casual shirts to global brands including Polo Ralph Lauren, Tommy Hilfiger, Charles Tyrwhitt, Hugo Boss, Hackett, REISS, Calvin Klein and Brooks Brothers. The company holds ISO 26000, GOTS, Oeko-Tex, FLOCERT and Sedex certifications.",
+      "about_event": "Laguna Parivar Milan (ಲಗುನ ಪರಿವಾರ ಮಿಲನ — 'Laguna Family Meet') is Laguna Clothing's annual gathering that brings together the company's internal teams, factory partners, fabric suppliers and service providers. The 2026 edition marked a significant milestone: 20 years since the company's founding. As part of the celebrations, Laguna recognised its top-performing vendor and supply-chain partners across four categories — Best Factory (KPR), Best Service Provider (Winner), Best Fabric Supplier (Runner Up) and Best Grassroot OBR Housekeeping.",
+      "design_brief": "The brief called for four distinct trophies that share a unified anniversary identity. Each trophy features the '20 Years of Laguna' gold plaque and the Laguna Parivar Milan event branding. Trophy forms vary by award tier: the flagship Best Factory trophy uses a tall gold figurine with a crystal-globe topper; the service and fabric supplier awards use sleek dark angular figures; the housekeeping award features a gold star form on a festive base — ensuring each recipient's trophy feels unique while all four read as a family.",
+      "production_notes": [
+        "Best Factory – KPR: tall gold sculpted figure with faceted crystal globe topper, black base, gold '20 Years' event plaque",
+        "Best Service Provider (Winner): dark angular sculptural figure, black base, gold event plaque",
+        "Best Fabric Supplier (Runner Up): similar angular dark form, slightly smaller, gold event plaque",
+        "Best Grassroot OBR Housekeeping: gold star figurine on decorated festive base with event plaque",
+        "All four trophies share consistent '20 Years of Laguna / Laguna Parivar Milan' plaque branding"
+      ],
+      "outcome": "Four vendor-recognition trophies delivered for Laguna Clothing's landmark 20th anniversary celebration. The awards honoured the supply-chain partners central to two decades of world-class shirt manufacturing.",
+      "related_collections": [
+        "corporate-and-college-premium-trophies",
+        "crystal-trophies"
+      ],
+      "related_products": [],
+      "external_links": [
+        {
+          "label": "Laguna Clothing — Apparel Resources feature",
+          "url": "https://apparelresources.com/business-news/sourcing/laguna-clothing-excellence-in-shirt-manufacturing/"
+        },
+        {
+          "label": "Laguna Clothing on LinkedIn",
+          "url": "https://in.linkedin.com/company/laguna-clothing-llp"
+        }
+      ]
     }
   ]
 }
