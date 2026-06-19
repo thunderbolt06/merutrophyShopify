@@ -11,6 +11,7 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
         "padding_top": 28,
         "padding_bottom": 28
@@ -167,7 +168,6 @@
         "text_tKm7re",
         "button_NCDyFC"
       ],
-      "disabled": true,
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
@@ -176,10 +176,27 @@
         "padding_top": 40,
         "padding_bottom": 52
       }
+    },
+    "case_studies_index_dBGVwh": {
+      "type": "case-studies-index",
+      "name": "Case studies index",
+      "settings": {
+        "eyebrow": "Case Studies",
+        "heading": "<h1>Award shows. Milestones. <em>Meru moments.</em></h1>",
+        "subheading": "",
+        "cta_primary_label": "Start Your Project",
+        "cta_primary_link": "tel:+917892207252",
+        "cta_secondary_label": "View All Brands",
+        "cta_secondary_link": "/pages/brands",
+        "color_scheme": "",
+        "padding_top": 24,
+        "padding_bottom": 60
+      }
     }
   },
   "order": [
     "main",
+    "case_studies_index_dBGVwh",
     "multicolumn_TDWVtT",
     "176426256723a76f29",
     "rich_text_VXfbjx"
