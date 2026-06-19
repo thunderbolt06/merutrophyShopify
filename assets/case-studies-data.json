@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-05-19",
+  "updated": "2026-06-19",
   "_instructions": "To add a new case study: (1) add an object to `studies`, (2) drop photos into the theme `assets/` folder with a `cs-` prefix and register each filename in snippets/case-study-assets.liquid, (3) reference them in the `photos` array as `asset:filename.jpg`, (4) create a Shopify page with the same `slug` as its handle and assign template `page.case-study`. The first entry in `photos` becomes the hero AND the card cover; the rest render as a gallery with a click-to-zoom lightbox. The `hero_image` and `gallery` fields are still supported for back-compat.",
   "studies": [
     {
@@ -1307,10 +1307,22 @@
       ],
       "brand_logo": "",
       "stats": [
-        { "label": "Trophies", "value": "4" },
-        { "label": "Anniversary", "value": "20 Years" },
-        { "label": "Event", "value": "Laguna Parivar Milan" },
-        { "label": "Industry", "value": "Shirt Manufacturing" }
+        {
+          "label": "Trophies",
+          "value": "4"
+        },
+        {
+          "label": "Anniversary",
+          "value": "20 Years"
+        },
+        {
+          "label": "Event",
+          "value": "Laguna Parivar Milan"
+        },
+        {
+          "label": "Industry",
+          "value": "Shirt Manufacturing"
+        }
       ],
       "about_client": "Laguna Clothing Private Limited is one of India's foremost high-end shirt manufacturers, based in Bangalore (Kanakapura area). Founded in 2006 as a joint venture between Tessitura Monti (Italy) and Aquarelle Group (Mauritius), the company was fully acquired by CIEL Textile in 2020. With an annual capacity of 5 million shirts, Laguna supplies premium formal, semi-formal and casual shirts to global brands including Polo Ralph Lauren, Tommy Hilfiger, Charles Tyrwhitt, Hugo Boss, Hackett, REISS, Calvin Klein and Brooks Brothers. The company holds ISO 26000, GOTS, Oeko-Tex, FLOCERT and Sedex certifications.",
       "about_event": "Laguna Parivar Milan (ಲಗುನ ಪರಿವಾರ ಮಿಲನ — 'Laguna Family Meet') is Laguna Clothing's annual gathering that brings together the company's internal teams, factory partners, fabric suppliers and service providers. The 2026 edition marked a significant milestone: 20 years since the company's founding. As part of the celebrations, Laguna recognised its top-performing vendor and supply-chain partners across four categories — Best Factory (KPR), Best Service Provider (Winner), Best Fabric Supplier (Runner Up) and Best Grassroot OBR Housekeeping.",
@@ -1338,6 +1350,92 @@
           "url": "https://in.linkedin.com/company/laguna-clothing-llp"
         }
       ]
+    },
+    {
+      "slug": "thalapathy-cm-cup-2026",
+      "title": "Thalapathy CM Cup 2026",
+      "subtitle": "Cricket Tournament Trophies, Medals & Awards",
+      "client": "2D Cricketers",
+      "client_short": "2D Cricketers",
+      "industry": "Sports & Recreation",
+      "event": "Thalapathy CM Cup 2026",
+      "event_year": 2026,
+      "location": "Tamil Nadu, India",
+      "category": "events",
+      "tags": [
+        "cricket",
+        "tournament",
+        "medals",
+        "trophies",
+        "sports awards",
+        "Tamil Nadu",
+        "acrylic trophies",
+        "custom medals"
+      ],
+      "tagline": "A full suite of cricket tournament awards — from winner medals to individual acrylic honours — for a tournament held in celebration of Tamil Nadu Chief Minister Thalapathy Vijay.",
+      "photos": [
+        {
+          "src": "asset:cs-thalapathy-cm-cup-1.jpg",
+          "alt": "Large gold winner's cup trophy for the Thalapathy CM Cup 2026 cricket tournament, engraved 'Thalapathy CM Cup 2026 Winners'.",
+          "caption": "The champion team's winner's cup trophy — the centrepiece award of the Thalapathy CM Cup 2026."
+        },
+        {
+          "src": "asset:cs-thalapathy-cm-cup-2.jpg",
+          "alt": "Three custom acrylic individual performance trophies laid out side by side: Man of the Series, Best Fielder, and Man of the Match for the Thalapathy CM Cup 2026.",
+          "caption": "Individual performance awards in acrylic: Man of the Series, Best Fielder, and Man of the Match."
+        },
+        {
+          "src": "asset:cs-thalapathy-cm-cup-3.jpg",
+          "alt": "Gold winner medals with red ribbons engraved 'VIJAY TN | THALAPATHY CM CUP 2026 | WINNERS' for the champion team.",
+          "caption": "Gold winner medals with red ribbons — bearing the VIJAY TN | Thalapathy CM Cup 2026 | Winners inscription."
+        },
+        {
+          "src": "asset:cs-thalapathy-cm-cup-4.jpg",
+          "alt": "Silver runner-up medals with blue ribbons engraved 'VIJAY TN | THALAPATHY CM CUP 2026 | RUNNERS' for the runner-up team.",
+          "caption": "Silver runner-up medals with blue ribbons — matching pair to the winner medals."
+        },
+        {
+          "src": "asset:cs-thalapathy-cm-cup-5.jpg",
+          "alt": "Decorative organiser shield featuring a portrait of Chief Minister Vijay with the inscription 'THALAPATHY VIJAY, CHIEF MINISTER OF TN, 2D Cricketers, THALAPATHY CM CUP 2026, ORGANISER'.",
+          "caption": "Organiser's commemorative shield — a tribute to 2D Cricketers featuring CM Vijay's portrait."
+        }
+      ],
+      "brand_logo": null,
+      "stats": [
+        {
+          "label": "Award Types",
+          "value": "5"
+        },
+        {
+          "label": "Team Awards",
+          "value": "Winners & Runners-Up"
+        },
+        {
+          "label": "Individual Awards",
+          "value": "3 acrylic trophies"
+        },
+        {
+          "label": "Special Award",
+          "value": "Organiser shield"
+        }
+      ],
+      "about_client": "2D Cricketers is a Tamil Nadu cricket club that organises community cricket tournaments. The club named its 2026 tournament the 'Thalapathy CM Cup' in honour of actor-turned-politician Vijay (Thalapathy), whose TVK party won the 2026 Tamil Nadu state elections, making him Chief Minister. The 'VIJAY TN' branding across all awards reflects this historic political milestone.",
+      "about_event": "The Thalapathy CM Cup 2026 is a cricket tournament organised by 2D Cricketers, Tamil Nadu, named in celebration of Vijay becoming the state's Chief Minister. The tournament recognised achievement at both team and individual level — champion and runner-up sides received custom medals, top performers received acrylic trophies, and the organising club received a commemorative shield bearing CM Vijay's portrait.",
+      "design_brief": "The brief called for a unified award suite with consistent 'VIJAY TN | THALAPATHY CM CUP 2026' branding across all pieces. The champion team received a large ornamental winner's cup plus gold medals with red ribbons; the runners-up received matching silver medals with blue ribbons. Three individual-performance acrylic trophies (Man of the Series, Best Fielder, Man of the Match) provided recognition beyond team results. A standalone organiser shield with a printed portrait of CM Vijay served as a commemorative keepsake for the event hosts.",
+      "production_notes": [
+        "Winner's trophy: large gold ornamental cup with 'Thalapathy CM Cup 2026 Winners' engraving",
+        "Gold winner medals: red ribbon, 'VIJAY TN | THALAPATHY CM CUP 2026 | WINNERS' inscription",
+        "Silver runner-up medals: blue ribbon, 'VIJAY TN | THALAPATHY CM CUP 2026 | RUNNERS' inscription",
+        "Individual acrylic trophies: Man of the Series, Best Fielder, Man of the Match — three distinct pieces",
+        "Organiser shield: decorative stand-alone shield with CM Vijay's portrait and 'THALAPATHY VIJAY, CHIEF MINISTER OF TN | 2D Cricketers | THALAPATHY CM CUP 2026 | ORGANISER' text"
+      ],
+      "outcome": "A complete five-category award suite delivered for the Thalapathy CM Cup 2026 — honouring both the tournament's champions and the organising club, with consistent political-celebration branding across every piece.",
+      "related_collections": [
+        "sports-medals-and-trophies",
+        "corporate-and-college-premium-trophies"
+      ],
+      "related_products": [],
+      "external_links": []
     }
   ]
 }
