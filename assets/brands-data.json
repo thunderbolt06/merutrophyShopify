@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "updated": "2026-06-19",
+  "updated": "2026-06-20",
   "note": "Edit this file to add/remove brands. Each category has a name, slug, and a list of brand names. To highlight a brand, mark featured:true. Optional fields: logo (URL or shopify://shop_images/...), website (external link).",
   "stats": {
-    "total_unique": 160,
+    "total_unique": 164,
     "rating": "4.9",
     "google_reviews": 442
   },
@@ -270,6 +270,9 @@
         },
         {
           "name": "RPMG"
+        },
+        {
+          "name": "Equitas Small Finance Bank"
         }
       ]
     },
@@ -405,6 +408,9 @@
         },
         {
           "name": "Government Dental College & Hospital, Mumbai"
+        },
+        {
+          "name": "HKBK College of Engineering"
         }
       ]
     },
@@ -651,6 +657,9 @@
         },
         {
           "name": "KPL-S"
+        },
+        {
+          "name": "BTM Toastmasters"
         }
       ]
     },
@@ -676,6 +685,9 @@
           "slug": "2d-cricketers",
           "case_study": "thalapathy-cm-cup-2026",
           "description": "Tamil Nadu cricket club — organised the Thalapathy CM Cup 2026 in celebration of CM Vijay's election victory."
+        },
+        {
+          "name": "Designgate Premier League"
         }
       ]
     },

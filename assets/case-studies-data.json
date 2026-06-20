@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-06-19",
+  "updated": "2026-06-20",
   "_instructions": "To add a new case study: (1) add an object to `studies`, (2) drop photos into the theme `assets/` folder with a `cs-` prefix and register each filename in snippets/case-study-assets.liquid, (3) reference them in the `photos` array as `asset:filename.jpg`, (4) create a Shopify page with the same `slug` as its handle and assign template `page.case-study`. The first entry in `photos` becomes the hero AND the card cover; the rest render as a gallery with a click-to-zoom lightbox. The `hero_image` and `gallery` fields are still supported for back-compat.",
   "studies": [
     {
@@ -2074,6 +2074,275 @@
       "related_collections": [
         "plaques-and-shields",
         "corporate-and-college-premium-trophies"
+      ],
+      "related_products": [],
+      "external_links": []
+    },
+    {
+      "slug": "hkbk-college-engineering-echo-2026",
+      "title": "HKBK College of Engineering — ECHO 2026 Chief Guest Memento",
+      "subtitle": "Crescent-shaped memento of honour presented to the Chief Guest at ECHO 2026, the annual ECE department event at HKBK College of Engineering, Bengaluru",
+      "client": "HKBK College of Engineering",
+      "client_short": "HKBK COE",
+      "industry": "Education · Engineering",
+      "event": "ECHO 2026",
+      "event_year": 2026,
+      "location": "Bengaluru, Karnataka",
+      "category": "Education",
+      "tags": [
+        "Memento of Honour",
+        "Chief Guest",
+        "Engineering College",
+        "ECE",
+        "Crescent Memento"
+      ],
+      "tagline": "A memento that marks a moment worth remembering.",
+      "photos": [
+        {
+          "src": "asset:cs-hkbk-college-engineering-echo-2026-1.jpg",
+          "alt": "A black and gold crescent-shaped memento of honour from HKBK College of Engineering, presented to Dr. K.N. Ravi as Chief Guest at ECHO 2026, the ECE department event.",
+          "caption": "Memento of Honour presented to Dr. K.N. Ravi, Chief Guest at ECHO 2026 — HKBK College of Engineering, Department of Electronics & Communication Engineering."
+        }
+      ],
+      "brand_logo": "",
+      "stats": [
+        {
+          "label": "Client",
+          "value": "HKBK College of Engineering"
+        },
+        {
+          "label": "Event",
+          "value": "ECHO 2026"
+        },
+        {
+          "label": "Type",
+          "value": "Memento of Honour"
+        },
+        {
+          "label": "Recipient",
+          "value": "Dr. K.N. Ravi (Chief Guest)"
+        }
+      ],
+      "about_client": "HKBK College of Engineering is a well-regarded engineering institution in Bengaluru, Karnataka, offering programmes across Electronics and Communication, Computer Science, Mechanical, and Civil Engineering.",
+      "about_event": "ECHO 2026 is the annual technical event of the Department of Electronics and Communication Engineering at HKBK College of Engineering, held on 9th June 2026. Dr. K.N. Ravi, Former Joint Director of the High Voltage Division at the Central Power Research Institute (CPRI), Bengaluru, was the Chief Guest.",
+      "design_brief": "A custom crescent/wave-shaped memento in black with a gold circular insert, engraved with the HKBK College of Engineering logo, department details, recipient name, designation, and event occasion. The silhouette creates a distinctive, modern award form.",
+      "production_notes": [
+        "Crescent-shaped award in black lacquer with gold circular insert",
+        "Engraved with HKBK College of Engineering and ECE Department branding",
+        "Personalised for Dr. K.N. Ravi as Chief Guest, ECHO 2026",
+        "Event date: 9th June 2026"
+      ],
+      "outcome": "A personalized crescent memento of honour delivered for HKBK College of Engineering’s ECHO 2026 event, recognising Dr. K.N. Ravi’s distinguished presence as Chief Guest.",
+      "related_collections": [
+        "plaques-and-shields",
+        "corporate-and-college-premium-trophies"
+      ],
+      "related_products": [],
+      "external_links": []
+    },
+    {
+      "slug": "btm-toastmasters-2026",
+      "title": "BTM Toastmasters — Championship Trophies & Keynote Speaker Plaque",
+      "subtitle": "Custom star-crown competition trophies and a gold keynote speaker plaque for BTM Toastmasters Club, June 2026",
+      "client": "BTM Toastmasters",
+      "client_short": "BTM Toastmasters",
+      "industry": "Public Speaking · Toastmasters International",
+      "event": "BTM Toastmasters June 2026 Conclave",
+      "event_year": 2026,
+      "location": "Bengaluru",
+      "category": "Organisations",
+      "tags": [
+        "Trophy",
+        "Plaque",
+        "Toastmasters",
+        "Public Speaking",
+        "Competition",
+        "Keynote Speaker"
+      ],
+      "tagline": "Recognising the voices that inspire.",
+      "photos": [
+        {
+          "src": "asset:cs-btm-toastmasters-2026-1.jpg",
+          "alt": "Three gold star-crown trophies with BTM Toastmasters circular inserts on mahogany bases, arranged in a row for the BTM Toastmasters competition.",
+          "caption": "Competition trophies for BTM Toastmasters — star-crown design with custom BTM Toastmasters inserts and engraved mahogany bases."
+        },
+        {
+          "src": "asset:cs-btm-toastmasters-2026-2.jpg",
+          "alt": "A gold square plaque with Toastmasters International and BTM logos presented to TM Aniket Amdekar as Keynote Speaker at BTM Toastmasters on 13th June 2026.",
+          "caption": "Keynote Speaker plaque for TM Aniket Amdekar — presented at BTM Toastmasters, 13th June 2026, for inspiring insights on AI and communication."
+        }
+      ],
+      "brand_logo": "",
+      "stats": [
+        {
+          "label": "Client",
+          "value": "BTM Toastmasters"
+        },
+        {
+          "label": "Event",
+          "value": "June 2026 Conclave"
+        },
+        {
+          "label": "Types",
+          "value": "Competition trophies + Keynote plaque"
+        },
+        {
+          "label": "Date",
+          "value": "13th June 2026"
+        }
+      ],
+      "about_client": "BTM Toastmasters is a chapter of Toastmasters International based in Bengaluru's BTM Layout area, committed to developing public speaking, communication, and leadership skills among its members.",
+      "about_event": "BTM Toastmasters hosted a June 2026 event featuring speech competitions and a keynote address by TM Aniket Amdekar on the intersection of AI and communication. Trophies were awarded to competition winners, and a special plaque was commissioned to honour the keynote speaker.",
+      "design_brief": "Star-crown gold trophies with custom ‘BTM Toastmasters’ circular inserts, on red mahogany bases with engraved name plates. A separate gold square plaque featuring dual Toastmasters International and BTM logos with a personalised inscription for the keynote speaker.",
+      "production_notes": [
+        "Star-crown gold trophies with custom BTM Toastmasters inserts",
+        "Red mahogany base with engraved name plates",
+        "Gold square plaque with Toastmasters International and BTM logos",
+        "Keynote Speaker plaque personalised for TM Aniket Amdekar",
+        "Event: BTM Toastmasters, 13th June 2026"
+      ],
+      "outcome": "Competition trophies and a keynote speaker plaque delivered for BTM Toastmasters Club, honouring champions and a distinguished speaker at their June 2026 event.",
+      "related_collections": [
+        "sports-trophies",
+        "plaques-and-shields"
+      ],
+      "related_products": [],
+      "external_links": []
+    },
+    {
+      "slug": "equitas-superstar-2026",
+      "title": "Equitas Small Finance Bank — Super Star Contest Memento 2026",
+      "subtitle": "Custom crescent memento recognising Equitas Small Finance Bank employees who qualified for the Super Star Contest in May 2026",
+      "client": "Equitas Small Finance Bank",
+      "client_short": "Equitas Bank",
+      "industry": "Banking · Small Finance",
+      "event": "Super Star Contest May 2026",
+      "event_year": 2026,
+      "location": "India",
+      "category": "Corporate",
+      "tags": [
+        "Memento",
+        "Bank",
+        "Sales Achievement",
+        "Super Star",
+        "Congratulations",
+        "Recognition"
+      ],
+      "tagline": "Banking on excellence — a memento for every star.",
+      "photos": [
+        {
+          "src": "asset:cs-equitas-superstar-2026-1.jpg",
+          "alt": "A black crescent-shaped memento with a gold circular insert bearing the Equitas Small Finance Bank logo, presented to Shubha K M for qualifying for the Super Star Contest in May 2026.",
+          "caption": "Equitas Small Finance Bank Super Star Contest qualification memento for Shubha K M — a custom crescent award celebrating achievement in May 2026."
+        }
+      ],
+      "brand_logo": "",
+      "stats": [
+        {
+          "label": "Client",
+          "value": "Equitas Small Finance Bank"
+        },
+        {
+          "label": "Programme",
+          "value": "Super Star Contest"
+        },
+        {
+          "label": "Type",
+          "value": "Crescent Memento"
+        },
+        {
+          "label": "Month",
+          "value": "May 2026"
+        }
+      ],
+      "about_client": "Equitas Small Finance Bank is one of India's leading small finance banks, known for its focus on inclusive banking, strong retail network, and employee performance culture.",
+      "about_event": "The Super Star Contest is an internal achievement recognition programme at Equitas Small Finance Bank that celebrates top-performing employees who meet qualifying criteria. Custom mementos are presented to qualifiers as a mark of congratulation and motivation.",
+      "design_brief": "A crescent-shaped award in black acrylic with a gold circular center plate bearing the Equitas Small Finance Bank logo and a ‘Congratulations’ message, personalised for the recipient with programme details.",
+      "production_notes": [
+        "Crescent-shaped memento in black acrylic with gold circular insert",
+        "Equitas Small Finance Bank logo and branding on gold plate",
+        "Personalised for Shubha K M",
+        "Occasion: Super Star Contest qualification, May 2026"
+      ],
+      "outcome": "A custom congratulatory memento delivered for Equitas Small Finance Bank, celebrating qualification for the Super Star Contest and recognising top performance with a keepsake award.",
+      "related_collections": [
+        "plaques-and-shields",
+        "corporate-and-college-premium-trophies"
+      ],
+      "related_products": [],
+      "external_links": []
+    },
+    {
+      "slug": "designgate-premier-league-2026",
+      "title": "Designgate Premier League 2026 — Multi-Sport Championship Trophies",
+      "subtitle": "Chess, Carrom, and Cricket trophies for the Designgate Premier League, a multi-sport internal championship with custom awards for every position",
+      "client": "Designgate",
+      "client_short": "Designgate",
+      "industry": "Design · Technology",
+      "event": "Designgate Premier League 2026",
+      "event_year": 2026,
+      "location": "Bengaluru",
+      "category": "Events",
+      "tags": [
+        "Trophy",
+        "Cricket",
+        "Carrom",
+        "Chess",
+        "Premier League",
+        "Multi-Sport",
+        "Champion",
+        "Winner"
+      ],
+      "tagline": "Three sports. One league. Trophies worth competing for.",
+      "photos": [
+        {
+          "src": "asset:cs-designgate-premier-league-2026-1.jpg",
+          "alt": "Three chess knight figurine trophies for Designgate Premier League — gold knight for Winner, two silver knights for Runner and 3rd Place, on mahogany bases with engraved plaques.",
+          "caption": "Chess trophies for Designgate Premier League — gold and silver knight figurines for Winner, Runner, and 3rd Place."
+        },
+        {
+          "src": "asset:cs-designgate-premier-league-2026-2.jpg",
+          "alt": "Two carrom trophy winners with rotating diamond-shaped carrom board plaques on gold stem and mahogany base, labelled Carrom Winner for Designgate Premier League.",
+          "caption": "Carrom Winner trophies for Designgate Premier League — distinctive rotating carrom board diamond plaques on gold stems."
+        },
+        {
+          "src": "asset:cs-designgate-premier-league-2026-3.jpg",
+          "alt": "Three cricket figurine trophies with gold batsman figurines on blue metallic globes, on mahogany bases with Designgate Premier League engraving.",
+          "caption": "Cricket trophies for Designgate Premier League — gold batsman figurines on vivid blue globe bases."
+        }
+      ],
+      "brand_logo": "",
+      "stats": [
+        {
+          "label": "Client",
+          "value": "Designgate"
+        },
+        {
+          "label": "Event",
+          "value": "Designgate Premier League 2026"
+        },
+        {
+          "label": "Sports",
+          "value": "Chess, Carrom, Cricket"
+        },
+        {
+          "label": "Positions",
+          "value": "Winner, Runner, 3rd Place"
+        }
+      ],
+      "about_client": "Designgate is a design and technology company that champions team culture through structured internal events, including the Designgate Premier League — a multi-sport championship for its employees.",
+      "about_event": "The Designgate Premier League 2026 is an internal multi-sport championship featuring Chess, Carrom, and Cricket. Custom trophies were commissioned for all positions across all three sports, creating a complete awards set for the event.",
+      "design_brief": "Three distinct trophy lines: (1) Chess — gold and silver knight figurine trophies on mahogany bases for Winner, Runner, 3rd Place; (2) Carrom — rotating diamond-shaped carrom board plaques in gold and black on gold stems; (3) Cricket — gold batsman figurines on blue metallic globes, plus a tall Champions trophy with red cricket ball on black column. All engraved with Designgate Premier League branding.",
+      "production_notes": [
+        "Chess: Gold and silver knight figurine trophies for Winner, Runner, and 3rd Place",
+        "Carrom: Diamond rotating board trophies (gold and black versions) for all positions",
+        "Cricket: Batsman figurine trophies on blue globe bases + tall Champions trophy with red cricket ball",
+        "All trophies engraved with Designgate Premier League branding",
+        "Mahogany bases with custom name plates"
+      ],
+      "outcome": "A complete multi-sport trophy set delivered for Designgate Premier League 2026 — covering Chess, Carrom, and Cricket with distinct trophy designs for every position, giving each sport a unique identity within the same championship.",
+      "related_collections": [
+        "sports-trophies"
       ],
       "related_products": [],
       "external_links": []
