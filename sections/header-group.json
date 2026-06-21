@@ -34,12 +34,20 @@
             "text": "2 Week Delivery Across India",
             "link": ""
           }
+        },
+        "announcement_TtXmVA": {
+          "type": "announcement",
+          "settings": {
+            "text": "1 Month Delivery Worldwide",
+            "link": ""
+          }
         }
       },
       "block_order": [
         "announcement-bar-0",
         "announcement_RpLFYg",
-        "announcement_ajiJrj"
+        "announcement_ajiJrj",
+        "announcement_TtXmVA"
       ],
       "settings": {
         "color_scheme": "scheme-4",
