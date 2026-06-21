@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-06-20",
+  "updated": "2026-06-21",
   "_instructions": "To add a new case study: (1) add an object to `studies`, (2) drop photos into the theme `assets/` folder with a `cs-` prefix and register each filename in snippets/case-study-assets.liquid, (3) reference them in the `photos` array as `asset:filename.jpg`, (4) create a Shopify page with the same `slug` as its handle and assign template `page.case-study`. The first entry in `photos` becomes the hero AND the card cover; the rest render as a gallery with a click-to-zoom lightbox. The `hero_image` and `gallery` fields are still supported for back-compat.",
   "studies": [
     {
@@ -2346,6 +2346,140 @@
       ],
       "related_products": [],
       "external_links": []
+    },
+    {
+      "slug": "om-sai-odia-trust-osot-2026",
+      "title": "Om Sai Odia Trust (OSOT) Bangalore — Appreciation Memento 2026",
+      "subtitle": "Custom shield trophy recognising a valued guest at an Odia community cultural event in Bangalore",
+      "client": "Om Sai Odia Trust (OSOT)",
+      "client_short": "OSOT",
+      "industry": "Community · Culture",
+      "event": "OSOT Appreciation Event 2026",
+      "event_year": 2026,
+      "location": "Bengaluru",
+      "category": "Organisations",
+      "tags": [
+        "Shield Trophy",
+        "Plaque",
+        "Appreciation Memento",
+        "Community",
+        "Odia Culture",
+        "Gold Finish"
+      ],
+      "tagline": "A gesture of gratitude, crafted in gold and blue.",
+      "photos": [
+        {
+          "src": "asset:cs-om-sai-odia-trust-osot-1.jpg",
+          "alt": "OSOT appreciation shield trophy — gold textured plaque with blue diagonal stripe, blue star cutout, Lord Jagannath emblem, and engraved message on dark mahogany base",
+          "caption": "OSOT appreciation memento — shield trophy with gold finish, blue star design, and Lord Jagannath emblem"
+        }
+      ],
+      "brand_logo": "",
+      "stats": [
+        {
+          "label": "Client",
+          "value": "Om Sai Odia Trust (OSOT)"
+        },
+        {
+          "label": "Type",
+          "value": "Appreciation Memento"
+        },
+        {
+          "label": "Finish",
+          "value": "Gold & Blue"
+        },
+        {
+          "label": "Location",
+          "value": "Bengaluru"
+        }
+      ],
+      "about_client": "Om Sai Odia Trust (OSOT) Bangalore is a community organisation that brings together the Odia diaspora in Bengaluru. Rooted in the culture and traditions of Odisha, OSOT organises cultural events, festivals, and community gatherings that celebrate Odia heritage — including devotion to Lord Jagannath, the presiding deity of Odisha.",
+      "about_event": "OSOT's 2026 appreciation event honoured guests and contributors who participated in their community programme. The trust presented custom mementos to express gratitude and recognise the time and presence of each honoured guest.",
+      "design_brief": "A shield-shaped appreciation trophy in gold-textured acrylic with a bold blue diagonal stripe and a cutout five-point star. The OSOT emblem — a circular medallion featuring Lord Jagannath flanked by a laurel wreath — sits at the top. The engraved gold plate reads the trust's message of gratitude in Odia script and English, mounted on a polished dark mahogany base.",
+      "production_notes": [
+        "Shield-shaped plaque with gold sand-textured acrylic body",
+        "Blue diagonal stripe with gold-edged five-point star cutout",
+        "Circular OSOT emblem with Lord Jagannath motif and laurel wreath",
+        "Dual-language engraving: Odia script heading + English text",
+        "Dark mahogany wooden base with gold trim"
+      ],
+      "outcome": "A personalised appreciation trophy delivered to Om Sai Odia Trust for their 2026 community event, honouring guests with a memento that blends Odia cultural identity with premium trophy craftsmanship.",
+      "related_collections": [
+        "mementos-plaques"
+      ],
+      "related_products": [],
+      "external_links": []
+    },
+    {
+      "slug": "national-seminar-uav-siati-csirnal-2026",
+      "title": "National Seminar on UAVs: Design to Deployment — SIATI & CSIR-NAL 2026",
+      "subtitle": "Ashoka Pillar trophy and engraved plaque memento for India's premier national seminar on Unmanned Aerial Vehicles",
+      "client": "SIATI & CSIR-NAL",
+      "client_short": "CSIR-NAL / SIATI",
+      "industry": "Aerospace · Defence · Research",
+      "event": "National Seminar on Unmanned Aerial Vehicles: Design to Deployment",
+      "event_year": 2026,
+      "location": "Bengaluru",
+      "category": "Events",
+      "tags": [
+        "Ashoka Pillar Trophy",
+        "Plaque",
+        "Aerospace",
+        "Government",
+        "Defence",
+        "National Seminar",
+        "Gold Finish"
+      ],
+      "tagline": "From design to deployment — a national milestone honoured in gold.",
+      "photos": [
+        {
+          "src": "asset:cs-national-seminar-uav-hal-1.jpg",
+          "alt": "UAV National Seminar memento — gold Ashoka Pillar column trophy with four-lion capital alongside mahogany plaque engraved with National Seminar on Unmanned Aerial Vehicles Design to Deployment, June 11-12 2026, SIATI and CSIR-NAL logos",
+          "caption": "UAV seminar memento set — Ashoka Pillar trophy and engraved gold plaque with SIATI, CSIR-NAL and HAL branding"
+        }
+      ],
+      "brand_logo": "",
+      "stats": [
+        {
+          "label": "Client",
+          "value": "SIATI & CSIR-NAL"
+        },
+        {
+          "label": "Event",
+          "value": "National UAV Seminar 2026"
+        },
+        {
+          "label": "Dates",
+          "value": "June 11–12, 2026"
+        },
+        {
+          "label": "Venue",
+          "value": "SR Valluri Auditorium, Bengaluru"
+        }
+      ],
+      "about_client": "SIATI (Society of Indian Aerospace Technologies and Industries) is India's apex industry body for the aerospace sector. CSIR-NAL (National Aerospace Laboratories) is India's leading civil aerospace R&D institution under the Ministry of Science and Technology, based in Bengaluru. Together they co-organised this national-level seminar on UAV technology.",
+      "about_event": "The National Seminar on Unmanned Aerial Vehicles: Design to Deployment (June 11–12, 2026) was held at the SR Valluri Auditorium, CSIR-NAL, HAL Airport Road, Bengaluru. The two-day seminar brought together aerospace engineers, defence researchers, industry leaders, and policymakers to address the complete UAV lifecycle — from conceptual design through manufacturing and operational deployment. Speakers, session chairs, and key participants were honoured with custom mementos.",
+      "design_brief": "A prestige two-piece memento set: (1) A gold Ashoka Pillar column trophy featuring the four-lion capital — India's national emblem — in polished gold finish, mounted on a mahogany-red base; (2) A rectangular mahogany plaque in landscape orientation bearing the UAV seminar circular badge (drone silhouette on teal), the event title, dates, and the logos of SIATI, CSIR-NAL, and HAL.",
+      "production_notes": [
+        "Gold Ashoka Pillar column trophy with four-lion capital (national emblem)",
+        "Full-gold polished finish with fluted column detailing",
+        "Mahogany rectangular plaque with UAV drone circular badge",
+        "Event title, dates, and multi-organisation logo engraving",
+        "Logos: SIATI, CSIR-NAL, Hindustan Aeronautics Limited (HAL)",
+        "Shared dark mahogany base with gold name-plate inserts"
+      ],
+      "outcome": "A prestigious two-piece memento set — Ashoka Pillar trophy and engraved plaque — delivered for the National Seminar on UAVs, honouring speakers and dignitaries at one of India's top aerospace events in 2026.",
+      "related_collections": [
+        "mementos-plaques",
+        "corporate-trophies"
+      ],
+      "related_products": [],
+      "external_links": [
+        {
+          "label": "CSIR-NAL — Seminar Announcement",
+          "url": "https://www.nal.res.in/en/news/national-seminar-unmanned-aerial-vehicles-design-deployment-csir-nal-june-11-12-2026-venue-sr"
+        }
+      ]
     }
   ]
 }

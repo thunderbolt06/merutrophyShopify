@@ -1,0 +1,53 @@
+{
+  "sections": {
+    "feed": {
+      "type": "feed-landing",
+      "settings": {
+        "eyebrow": "Guide · Spelling & meaning",
+        "heading": "<h1><em>Momento or Memento</em>? The Right Spelling, Meaning & Designs</h1>",
+        "subheading": "\"Memento\" is the correct English spelling — \"momento\" is a common (and widely accepted in India) variant. Here's the difference, what a memento actually is, and how to design a meaningful one for any occasion.",
+        "primary_cta_label": "Design a memento on WhatsApp",
+        "secondary_cta_label": "See memento designs",
+        "secondary_cta_url": "/collections/all",
+        "breadcrumb_label": "Momento or Memento",
+        "faq_heading": "Momento vs memento — FAQs",
+        "schema_type": "none",
+        "color_scheme": "scheme-1"
+      },
+      "blocks": {
+        "qa": {
+          "type": "quick_answer",
+          "settings": {
+            "label": "Quick answer",
+            "text": "<p><strong>\"Memento\" is the correct spelling</strong> — it comes from the Latin <em>meminisse</em>, \"to remember.\" <strong>\"Momento\"</strong> is a common misspelling (influenced by the word <em>moment</em>) and is widely used informally in India to mean the same thing: a keepsake or souvenir given to mark an occasion. Both refer to the engraved trophy/plaque you present to a guest, employee or winner.</p>"
+          }
+        },
+        "diff": {
+          "type": "rich_text",
+          "settings": {
+            "heading": "Memento vs momento — what's the difference?",
+            "text": "<ul><li><strong>Memento (correct):</strong> a keepsake kept as a reminder of a person, event or achievement. Plural: <em>mementos</em> or <em>mementoes</em>.</li><li><strong>Momento (variant):</strong> a frequent misspelling; \"momento\" actually means \"moment\" in Spanish/Italian. In Indian English it's commonly used interchangeably with memento.</li><li><strong>In practice:</strong> when people say \"order a momento\" or \"memento design,\" they mean the same physical item — an engraved trophy, plaque, shield or wooden keepsake.</li></ul>"
+          }
+        },
+        "what": {
+          "type": "rich_text",
+          "settings": {
+            "heading": "What is a memento, and when do you give one?",
+            "text": "<p>A memento is a personalised keepsake — usually a crystal/acrylic plaque, wooden engraving, metal shield or small trophy — presented to mark a moment. Common occasions include <strong>felicitating a chief guest or speaker, thanking employees, honouring retirements, conference and seminar tokens, prize-giving, and farewells</strong>. A good memento carries the recipient's name, the occasion, a date and the host's logo.</p>"
+          }
+        },
+        "f1": { "type": "feature", "settings": { "title": "Crystal & acrylic mementos", "text": "Clean, premium plaques for corporate and conference felicitations." } },
+        "f2": { "type": "feature", "settings": { "title": "Wooden mementos", "text": "Warm, eco-friendly engraved wood — popular for guests, retirements and awards." } },
+        "f3": { "type": "feature", "settings": { "title": "Memento with photo", "text": "UV-printed photo + text keepsakes for deeply personal gifts." } },
+        "f4": { "type": "feature", "settings": { "title": "Logo & citation engraving", "text": "Name, occasion, date and host logo engraved — free with every piece." } },
+        "faq1": { "type": "faq", "settings": { "question": "Is it momento or memento?", "answer": "<p>The dictionary-correct spelling is <strong>memento</strong>. \"Momento\" is a very common variant, especially in India, and most people understand both to mean the same keepsake.</p>" } },
+        "faq2": { "type": "faq", "settings": { "question": "What is the plural of memento?", "answer": "<p>Both <strong>mementos</strong> and <strong>mementoes</strong> are accepted. \"Mementos\" is the more common form.</p>" } },
+        "faq3": { "type": "faq", "settings": { "question": "What's a good memento for a chief guest or speaker?", "answer": "<p>A crystal or wooden plaque engraved with the guest's name, the event title and date works beautifully. Add your organisation's logo and a short line of thanks. We can design and deliver these from a single piece upward.</p>" } },
+        "faq4": { "type": "faq", "settings": { "question": "How much does a memento cost in India?", "answer": "<p>Simple acrylic/wooden mementos start around ₹150–₹400; premium crystal pieces with photo or logo run ₹500–₹3,000+. Bulk pricing applies for event sets.</p>" } },
+        "cta": { "type": "cta_band", "settings": { "heading": "Need a memento designed?", "text": "Tell us the occasion, recipient and date — we'll share memento designs and a quote.", "button_label": "Design my memento" } }
+      },
+      "block_order": ["qa","diff","what","f1","f2","f3","f4","faq1","faq2","faq3","faq4","cta"]
+    }
+  },
+  "order": ["feed"]
+}

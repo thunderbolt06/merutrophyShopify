@@ -1,0 +1,61 @@
+{
+  "sections": {
+    "feed": {
+      "type": "feed-landing",
+      "settings": {
+        "eyebrow": "Pricing & facts · Cricket",
+        "heading": "<h1><em>IPL Trophy Price</em> in India — Replica Cost, Facts & Where to Buy</h1>",
+        "subheading": "How much does the IPL trophy cost, what is it made of, and how can you buy a custom IPL-style replica trophy for your own cricket tournament? Clear answers — plus replica pricing from Meru Trophy, Bangalore.",
+        "primary_cta_label": "Get a replica trophy quote",
+        "secondary_cta_label": "See cricket trophies",
+        "secondary_cta_url": "/collections/all",
+        "breadcrumb_label": "IPL Trophy Price",
+        "price_heading": "Custom IPL-style replica trophy pricing",
+        "price_col1": "Replica size",
+        "price_col2": "Best for",
+        "price_col3": "Price (from)",
+        "price_caption": "Meru Trophy makes IPL-style cup replicas for local and corporate tournaments. These are custom tribute trophies, not official BCCI/IPL merchandise.",
+        "faq_heading": "IPL trophy price — FAQs",
+        "schema_type": "Product",
+        "schema_name": "Custom IPL-style Replica Trophy",
+        "schema_price_low": "999",
+        "schema_price_high": "15000",
+        "color_scheme": "scheme-1"
+      },
+      "blocks": {
+        "qa": {
+          "type": "quick_answer",
+          "settings": {
+            "label": "Quick answer",
+            "text": "<p>The <strong>official IPL trophy</strong> is a custom-made silver-and-gold-finished cup commissioned by the BCCI; it is not sold publicly, so it has no retail \"price.\" If you want an <strong>IPL-style replica trophy</strong> for your own tournament, custom replicas from Meru Trophy start around <strong>₹999</strong> for table-top sizes and go up to ₹15,000+ for large presentation cups. WhatsApp +91 78922 07252 for a quote.</p>"
+          }
+        },
+        "intro": {
+          "type": "rich_text",
+          "settings": {
+            "heading": "Why the official IPL trophy has no fixed price",
+            "text": "<p>The IPL winners' trophy is a one-off commissioned piece, handed to the champion franchise each season — it isn't a retail product, so figures you see online are estimates of fabrication cost, not a buy price. What people usually want when they search \"IPL trophy price\" is one of two things: a sense of how valuable the real cup is, or a way to <strong>buy a replica</strong> for a gully, corporate or tennis-ball tournament. This page answers both.</p>"
+          }
+        },
+        "facts": {
+          "type": "rich_text",
+          "settings": {
+            "heading": "Quick facts about the IPL & cricket cup trophies",
+            "text": "<ul><li>The IPL trophy is a custom silver cup with gold-coloured detailing, re-made/refurbished for presentation each season.</li><li>It is <strong>not available for public sale</strong> — only the champion team receives a version.</li><li>Replica and tribute trophies for local tournaments are widely made by trophy manufacturers like Meru Trophy.</li><li>Cricket World Cup and other tournament cups are similarly bespoke, not retail-priced items.</li></ul>"
+          }
+        },
+        "p1": { "type": "price_row", "settings": { "item": "Table-top replica (8–12 in)", "spec": "Prize for small tennis-ball tournaments", "price": "₹999" } },
+        "p2": { "type": "price_row", "settings": { "item": "Mid replica (14–20 in)", "spec": "Society / corporate league winners", "price": "₹2,999" } },
+        "p3": { "type": "price_row", "settings": { "item": "Large presentation cup (24 in+)", "spec": "Premier league finals, big events", "price": "₹6,999" } },
+        "p4": { "type": "price_row", "settings": { "item": "Premium custom replica", "spec": "Branded, plated, on engraved base", "price": "₹15,000" } },
+        "faq1": { "type": "faq", "settings": { "question": "How much does the real IPL trophy cost?", "answer": "<p>There's no public retail price — it's a custom-commissioned cup, not sold to the public. Reported figures are estimates of how much it costs to make, not a price you can pay to buy it.</p>" } },
+        "faq2": { "type": "faq", "settings": { "question": "Can I buy an IPL trophy replica in India?", "answer": "<p>You can't buy official merchandise of the trophy, but you can order a <strong>custom IPL-style replica cup</strong> for your own tournament. Meru Trophy makes these from ₹999 (table-top) to ₹15,000+ (large presentation cups), engraved with your tournament name.</p>" } },
+        "faq3": { "type": "faq", "settings": { "question": "What about the Cricket World Cup trophy price?", "answer": "<p>Like the IPL cup, the ICC World Cup trophy is bespoke and not retailed publicly. For your own event you can order a World-Cup-style replica — ask us for sizes and pricing.</p>" } },
+        "faq4": { "type": "faq", "settings": { "question": "How long to make a custom cricket cup?", "answer": "<p>Standard replicas ship in 3–5 business days after design approval; large or plated custom cups need 7–10 days. Tell us your final date and we'll plan backwards.</p>" } },
+        "cta": { "type": "cta_band", "settings": { "heading": "Want an IPL-style cup for your tournament?", "text": "Send your tournament name, prize size and date — we'll share replica options and a quote.", "button_label": "Get my replica trophy quote" } }
+      },
+      "block_order": ["qa","intro","facts","p1","p2","p3","p4","faq1","faq2","faq3","faq4","cta"]
+    }
+  },
+  "order": ["feed"]
+}

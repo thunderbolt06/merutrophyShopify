@@ -1,0 +1,49 @@
+{
+  "note": "Index of live Meru Trophy feed landing pages, rendered by sections/feed-hub.liquid. Add an entry here when a new feed page goes live. Grows from 8 (pilot) to 100.",
+  "categories": [
+    {
+      "name": "Combo & bundle packs",
+      "description": "Complete award kits for an entire event in one order.",
+      "pages": [
+        { "title": "Cricket Tournament Trophy Combo", "handle": "cricket-tournament-trophy-combo", "blurb": "Winner, runner-up, MoM, best batsman/bowler & medals in one bundle." },
+        { "title": "Corporate Annual Awards Night Package", "handle": "corporate-annual-awards-night-package", "blurb": "A co-ordinated award set for your yearly employee recognition event." }
+      ]
+    },
+    {
+      "name": "Product ranges",
+      "description": "Browse by material and award type.",
+      "pages": [
+        { "title": "Crystal Trophies India", "handle": "crystal-trophies-india", "blurb": "Premium K9 optical-crystal awards with free engraving." }
+      ]
+    },
+    {
+      "name": "Pricing & facts",
+      "description": "Straight answers on cost and value.",
+      "pages": [
+        { "title": "IPL Trophy Price & Replicas", "handle": "ipl-trophy-price", "blurb": "What the IPL cup is worth, and how to buy a custom replica." }
+      ]
+    },
+    {
+      "name": "Ordering & service",
+      "description": "How to order, customise and get it delivered.",
+      "pages": [
+        { "title": "Bulk Trophy Orders India", "handle": "bulk-trophy-order-india", "blurb": "50 to 5,000+ pieces with volume pricing & GST invoicing." }
+      ]
+    },
+    {
+      "name": "Guides & comparisons",
+      "description": "Make a confident choice.",
+      "pages": [
+        { "title": "Momento or Memento?", "handle": "momento-or-memento-spelling", "blurb": "The right spelling, meaning and how to design a memento." },
+        { "title": "Best Trophy Manufacturers in India (2026)", "handle": "best-trophy-manufacturers-india-2026", "blurb": "The 7 criteria that actually matter when choosing a supplier." }
+      ]
+    },
+    {
+      "name": "By occasion",
+      "description": "Awards and keepsakes for the moment.",
+      "pages": [
+        { "title": "Retirement Gift Mementos", "handle": "retirement-gift-mementos", "blurb": "Personalised keepsakes that honour a long career." }
+      ]
+    }
+  ]
+}

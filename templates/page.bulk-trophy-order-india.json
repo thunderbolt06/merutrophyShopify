@@ -1,0 +1,56 @@
+{
+  "sections": {
+    "feed": {
+      "type": "feed-landing",
+      "settings": {
+        "eyebrow": "Service · Bulk ordering",
+        "heading": "<h1>Order <em>Trophies & Medals in Bulk</em> Across India</h1>",
+        "subheading": "From 50 to 5,000+ pieces — bulk trophies, medals, shields and mementos with volume pricing, GST invoicing, custom engraving and reliable pan-India delivery. One contact, one quote, one dispatch.",
+        "primary_cta_label": "Get bulk pricing on WhatsApp",
+        "secondary_cta_label": "Browse the catalogue",
+        "secondary_cta_url": "/collections/all",
+        "breadcrumb_label": "Bulk Trophy Orders India",
+        "features_heading": "Why teams order bulk from Meru Trophy",
+        "steps_heading": "How bulk ordering works",
+        "faq_heading": "Bulk order FAQs",
+        "schema_type": "Service",
+        "schema_name": "Bulk Trophy & Medal Supply",
+        "color_scheme": "scheme-1"
+      },
+      "blocks": {
+        "qa": {
+          "type": "quick_answer",
+          "settings": {
+            "label": "Quick answer",
+            "text": "<p>Meru Trophy handles <strong>bulk trophy and medal orders from 50 to 5,000+ pieces</strong> with volume discounts, free engraving/logo printing, GST invoices and pan-India delivery. Medals start from ₹25/piece in bulk and trophies from ₹150. Share your quantity, material and event date on WhatsApp (+91 78922 07252) for a same-day quote.</p>"
+          }
+        },
+        "intro": {
+          "type": "rich_text",
+          "settings": {
+            "heading": "Built for high-volume events",
+            "text": "<p>Sports days, marathons, college fests, corporate recognition programmes and government events all need awards by the hundred — consistent, on-brand and on time. With 20+ years and our own Bangalore workshop (laser engraving, UV printing, plating and QC in-house), we produce large runs without the quality drift you get from resellers. You get one project owner, transparent per-piece pricing, and a single tracked dispatch.</p>"
+          }
+        },
+        "f1": { "type": "feature", "settings": { "title": "Volume pricing", "text": "Per-piece rates step down at 50, 100, 500 and 1,000+ units." } },
+        "f2": { "type": "feature", "settings": { "title": "In-house production", "text": "Engraving, UV printing, plating and QC under one roof for consistency at scale." } },
+        "f3": { "type": "feature", "settings": { "title": "GST & PO friendly", "text": "Proper GST invoices, PO-based orders and tender-style documentation for institutions." } },
+        "f4": { "type": "feature", "settings": { "title": "Pan-India dispatch", "text": "Bulk-packed, cushioned and tracked to any city, with rush options for tight dates." } },
+        "st1": { "type": "stat", "settings": { "number": "50–5,000+", "label": "Pieces per order" } },
+        "st2": { "type": "stat", "settings": { "number": "₹25", "label": "Per medal in bulk" } },
+        "st3": { "type": "stat", "settings": { "number": "150+", "label": "Brands & institutions" } },
+        "s1": { "type": "step", "settings": { "title": "Send your requirement", "text": "Quantity, item type, material, engraving text and event date." } },
+        "s2": { "type": "step", "settings": { "title": "Get a volume quote", "text": "We send per-piece pricing, design options and a timeline — usually same day." } },
+        "s3": { "type": "step", "settings": { "title": "Approve proof & advance", "text": "Sign off a mockup; 50% advance via UPI/transfer/card with GST invoice." } },
+        "s4": { "type": "step", "settings": { "title": "Produced & dispatched", "text": "Made in our workshop, QC'd, bulk-packed and tracked to your venue." } },
+        "faq1": { "type": "faq", "settings": { "question": "What is the minimum quantity for bulk pricing?", "answer": "<p>Volume pricing typically begins at 50 pieces and improves at 100, 500 and 1,000+. Smaller mixed orders are welcome too — just ask for a quote.</p>" } },
+        "faq2": { "type": "faq", "settings": { "question": "Can every piece be engraved differently?", "answer": "<p>Yes. We handle individual recipient names from a spreadsheet, as well as a single common engraving repeated across the run — whichever you need.</p>" } },
+        "faq3": { "type": "faq", "settings": { "question": "Do you provide GST invoices and accept POs?", "answer": "<p>Yes — GST invoices on all B2B orders, plus PO-based ordering and documentation suited to schools, colleges, PSUs and corporates.</p>" } },
+        "faq4": { "type": "faq", "settings": { "question": "How fast can a large bulk order be delivered?", "answer": "<p>Typical bulk runs ship in 5–10 business days after proof approval depending on quantity and customisation. For urgent events, WhatsApp us — we regularly expedite sports-day and fest orders.</p>" } },
+        "cta": { "type": "cta_band", "settings": { "heading": "Need awards by the hundred?", "text": "Send your quantity and event date for same-day bulk pricing with GST invoice.", "button_label": "Get bulk pricing now" } }
+      },
+      "block_order": ["qa","intro","f1","f2","f3","f4","st1","st2","st3","s1","s2","s3","s4","faq1","faq2","faq3","faq4","cta"]
+    }
+  },
+  "order": ["feed"]
+}

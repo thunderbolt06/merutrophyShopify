@@ -1,0 +1,59 @@
+{
+  "sections": {
+    "feed": {
+      "type": "feed-landing",
+      "settings": {
+        "eyebrow": "Occasion · Retirement",
+        "heading": "<h1><em>Retirement Gift Mementos</em> & Awards — Personalised Keepsakes</h1>",
+        "subheading": "Honour a long career with a meaningful, personalised memento — engraved crystal, wooden plaques, photo keepsakes and service awards. Thoughtfully designed, individually engraved, delivered across India.",
+        "primary_cta_label": "Design a retirement memento",
+        "secondary_cta_label": "See memento designs",
+        "secondary_cta_url": "/collections/all",
+        "breadcrumb_label": "Retirement Gift Mementos",
+        "features_heading": "Popular retirement memento styles",
+        "price_heading": "Retirement memento price guide",
+        "price_col1": "Style",
+        "price_col2": "Feel",
+        "price_col3": "Price (from)",
+        "price_caption": "Indicative starting prices. Add presentation boxes, photos and longer citations as needed.",
+        "faq_heading": "Retirement memento FAQs",
+        "schema_type": "Product",
+        "schema_name": "Personalised Retirement Memento",
+        "schema_price_low": "350",
+        "schema_price_high": "5000",
+        "color_scheme": "scheme-1"
+      },
+      "blocks": {
+        "qa": {
+          "type": "quick_answer",
+          "settings": {
+            "label": "Quick answer",
+            "text": "<p>A great retirement memento is <strong>personalised</strong> — engraved with the person's name, years of service, designation and a line of thanks. Popular choices are <strong>engraved crystal awards, wooden plaques and photo keepsakes</strong>, typically ₹350–₹5,000. Meru Trophy designs and delivers these across India, single pieces or full department sets. WhatsApp +91 78922 07252.</p>"
+          }
+        },
+        "intro": {
+          "type": "rich_text",
+          "settings": {
+            "heading": "A keepsake that honours the years",
+            "text": "<p>Retirement marks decades of contribution — the memento should feel personal, not generic. The most-loved pieces carry the retiree's <strong>name, years of service (\"32 years of service\"), designation, and a warm citation</strong> from the team, often with the company logo and a photo. Wood feels warm and timeless; crystal feels premium and ceremonial. We help you pick the right tone and engrave every detail so it becomes a desk or mantelpiece keepsake for life.</p>"
+          }
+        },
+        "f1": { "type": "feature", "settings": { "title": "Engraved crystal awards", "text": "Premium, ceremonial pieces for a felicitation on stage." } },
+        "f2": { "type": "feature", "settings": { "title": "Wooden plaques", "text": "Warm, classic engraved wood — a perennial favourite for retirements." } },
+        "f3": { "type": "feature", "settings": { "title": "Photo mementos", "text": "UV-printed photo + citation for a deeply personal keepsake." } },
+        "f4": { "type": "feature", "settings": { "title": "Service-years detailing", "text": "Years of service, dates and designation engraved alongside the name." } },
+        "p1": { "type": "price_row", "settings": { "item": "Wooden plaque", "spec": "Warm, classic, name + citation", "price": "₹350" } },
+        "p2": { "type": "price_row", "settings": { "item": "Crystal award", "spec": "Premium ceremonial felicitation", "price": "₹750" } },
+        "p3": { "type": "price_row", "settings": { "item": "Photo memento", "spec": "Printed photo + engraved message", "price": "₹600" } },
+        "p4": { "type": "price_row", "settings": { "item": "Premium custom keepsake", "spec": "Large crystal/wood + gift box", "price": "₹5,000" } },
+        "faq1": { "type": "faq", "settings": { "question": "What should I engrave on a retirement memento?", "answer": "<p>Name, designation, years of service (e.g. \"In recognition of 32 years of dedicated service\"), the dates, your organisation's name/logo, and a short line of gratitude from the team.</p>" } },
+        "faq2": { "type": "faq", "settings": { "question": "Wooden or crystal for a retirement gift?", "answer": "<p>Wood feels warm, personal and timeless; crystal feels premium and ceremonial for a formal felicitation. Both engrave beautifully — we can mock up either so you can choose.</p>" } },
+        "faq3": { "type": "faq", "settings": { "question": "Can you add a photo to the memento?", "answer": "<p>Yes — we UV-print photos onto crystal, acrylic and wood, combined with an engraved message and name. Send a high-resolution photo for the best result.</p>" } },
+        "faq4": { "type": "faq", "settings": { "question": "Can you make several for a group of retirees?", "answer": "<p>Absolutely. We produce co-ordinated sets with each piece individually engraved, with volume pricing and a single GST invoice for HR teams.</p>" } },
+        "cta": { "type": "cta_band", "settings": { "heading": "Honouring someone's retirement?", "text": "Share their name, years of service and the occasion — we'll design a personalised memento and quote.", "button_label": "Design a retirement memento" } }
+      },
+      "block_order": ["qa","intro","f1","f2","f3","f4","p1","p2","p3","p4","faq1","faq2","faq3","faq4","cta"]
+    }
+  },
+  "order": ["feed"]
+}

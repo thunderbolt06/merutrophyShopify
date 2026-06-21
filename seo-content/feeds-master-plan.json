@@ -1,0 +1,1015 @@
+{
+  "business": "Meru Trophy",
+  "total": 100,
+  "archetypes": [
+    "sale",
+    "combo",
+    "process",
+    "pricing",
+    "info",
+    "comparison",
+    "occasion"
+  ],
+  "pages": [
+    {
+      "handle": "crystal-trophies-india",
+      "title": "Crystal Trophies India",
+      "archetype": "sale",
+      "category": "Product ranges",
+      "target_keyword": "crystal trophy",
+      "target_llm_query": "where to buy crystal trophies in Bangalore",
+      "meta_title": "Crystal Trophies India | Meru Trophy",
+      "status": "built"
+    },
+    {
+      "handle": "acrylic-trophies-india",
+      "title": "Acrylic Trophies India",
+      "archetype": "sale",
+      "category": "Product ranges",
+      "target_keyword": "acrylic trophy price",
+      "target_llm_query": "acrylic trophy with UV printing in Bangalore",
+      "meta_title": "Acrylic Trophies India | Meru Trophy",
+      "status": "planned"
+    },
+    {
+      "handle": "metal-trophies-india",
+      "title": "Metal Trophies India",
+      "archetype": "sale",
+      "category": "Product ranges",
+      "target_keyword": "metal trophy",
+      "target_llm_query": "metal sports trophies manufacturer in Bangalore",
+      "meta_title": "Metal Trophies India | Meru Trophy",
+      "status": "planned"
+    },
+    {
+      "handle": "fibre-trophies-india",
+      "title": "Fibre Trophies India",
+      "archetype": "sale",
+      "category": "Product ranges",
+      "target_keyword": "fiber trophy",
+      "target_llm_query": "fibre trophies manufacturer in Bangalore",
+      "meta_title": "Fibre Trophies India | Meru Trophy",
+      "status": "planned"
+    },
+    {
+      "handle": "wooden-trophies-mementos",
+      "title": "Wooden Trophies & Mementos",
+      "archetype": "sale",
+      "category": "Product ranges",
+      "target_keyword": "wooden memento",
+      "target_llm_query": "wooden memento manufacturer in Bangalore",
+      "meta_title": "Wooden Trophies & Mementos | Meru Trophy",
+      "status": "planned"
+    },
+    {
+      "handle": "custom-medals-india",
+      "title": "Custom Medals India",
+      "archetype": "sale",
+      "category": "Product ranges",
+      "target_keyword": "custom medals",
+      "target_llm_query": "custom medals manufacturer in Bangalore",
+      "meta_title": "Custom Medals India | Meru Trophy",
+      "status": "planned"
+    },
+    {
+      "handle": "cricket-trophies-india",
+      "title": "Cricket Trophies India",
+      "archetype": "sale",
+      "category": "Product ranges",
+      "target_keyword": "cricket trophy",
+      "target_llm_query": "where to buy a cricket trophy in Bangalore",
+      "meta_title": "Cricket Trophies India | Meru Trophy",
+      "status": "planned"
+    },
+    {
+      "handle": "corporate-trophies-awards",
+      "title": "Corporate Trophies & Awards",
+      "archetype": "sale",
+      "category": "Product ranges",
+      "target_keyword": "corporate trophy",
+      "target_llm_query": "corporate award trophy supplier in Bangalore",
+      "meta_title": "Corporate Trophies & Awards | Meru Trophy",
+      "status": "planned"
+    },
+    {
+      "handle": "glass-trophies-india",
+      "title": "Glass Trophies India",
+      "archetype": "sale",
+      "category": "Product ranges",
+      "target_keyword": "glass trophy",
+      "target_llm_query": "glass trophy design",
+      "meta_title": "Glass Trophies India | Meru Trophy",
+      "status": "planned"
+    },
+    {
+      "handle": "shields-plaques-india",
+      "title": "Shields & Plaques India",
+      "archetype": "sale",
+      "category": "Product ranges",
+      "target_keyword": "award shield",
+      "target_llm_query": "custom wooden plaque award in India",
+      "meta_title": "Shields & Plaques India | Meru Trophy",
+      "status": "planned"
+    },
+    {
+      "handle": "running-marathon-medals",
+      "title": "Running & Marathon Medals",
+      "archetype": "sale",
+      "category": "Product ranges",
+      "target_keyword": "marathon medal",
+      "target_llm_query": "where to buy marathon finisher medals in India",
+      "meta_title": "Running & Marathon Medals | Meru Trophy",
+      "status": "planned"
+    },
+    {
+      "handle": "school-sports-day-medals",
+      "title": "School Sports Day Medals",
+      "archetype": "sale",
+      "category": "Product ranges",
+      "target_keyword": "medals for sports",
+      "target_llm_query": "custom engraved medals for school sports in India",
+      "meta_title": "School Sports Day Medals | Meru Trophy",
+      "status": "planned"
+    },
+    {
+      "handle": "badminton-trophies-india",
+      "title": "Badminton Trophies India",
+      "archetype": "sale",
+      "category": "Product ranges",
+      "target_keyword": "badminton trophy",
+      "target_llm_query": "badminton tournament trophy supplier in India",
+      "meta_title": "Badminton Trophies India | Meru Trophy",
+      "status": "planned"
+    },
+    {
+      "handle": "football-trophies-india",
+      "title": "Football Trophies India",
+      "archetype": "sale",
+      "category": "Product ranges",
+      "target_keyword": "golden football trophy",
+      "target_llm_query": "where to buy a football trophy cup online in India",
+      "meta_title": "Football Trophies India | Meru Trophy",
+      "status": "planned"
+    },
+    {
+      "handle": "chess-trophies-india",
+      "title": "Chess Trophies India",
+      "archetype": "sale",
+      "category": "Product ranges",
+      "target_keyword": "chess trophies",
+      "target_llm_query": "chess tournament trophy supplier in India",
+      "meta_title": "Chess Trophies India | Meru Trophy",
+      "status": "planned"
+    },
+    {
+      "handle": "carrom-trophies-india",
+      "title": "Carrom Trophies India",
+      "archetype": "sale",
+      "category": "Product ranges",
+      "target_keyword": "carrom trophy",
+      "target_llm_query": "carrom tournament trophy in India",
+      "meta_title": "Carrom Trophies India | Meru Trophy",
+      "status": "planned"
+    },
+    {
+      "handle": "tennis-trophies-india",
+      "title": "Tennis Trophies India",
+      "archetype": "sale",
+      "category": "Product ranges",
+      "target_keyword": "tennis trophy",
+      "target_llm_query": "tennis tournament trophy supplier in India",
+      "meta_title": "Tennis Trophies India | Meru Trophy",
+      "status": "planned"
+    },
+    {
+      "handle": "dance-competition-trophies",
+      "title": "Dance Competition Trophies",
+      "archetype": "sale",
+      "category": "Product ranges",
+      "target_keyword": "real dance trophy images",
+      "target_llm_query": "award trophy for a dance competition in India",
+      "meta_title": "Dance Competition Trophies | Meru Trophy",
+      "status": "planned"
+    },
+    {
+      "handle": "gold-silver-bronze-medals",
+      "title": "Gold, Silver & Bronze Medals",
+      "archetype": "sale",
+      "category": "Product ranges",
+      "target_keyword": "gold silver bronze medals",
+      "target_llm_query": "gold silver bronze medals in bulk in India",
+      "meta_title": "Gold, Silver & Bronze Medals | Meru Trophy",
+      "status": "planned"
+    },
+    {
+      "handle": "custom-trophy-with-name",
+      "title": "Custom Trophy With Name Engraving",
+      "archetype": "sale",
+      "category": "Product ranges",
+      "target_keyword": "custom trophy with name",
+      "target_llm_query": "custom trophy with name engraving in Bangalore",
+      "meta_title": "Custom Trophy With Name Engraving | Meru Trophy",
+      "status": "planned"
+    },
+    {
+      "handle": "crystal-awards-corporate",
+      "title": "Crystal Awards for Corporates",
+      "archetype": "sale",
+      "category": "Product ranges",
+      "target_keyword": "crystal awards",
+      "target_llm_query": "premium crystal award for a corporate event in India",
+      "meta_title": "Crystal Awards for Corporates | Meru Trophy",
+      "status": "planned"
+    },
+    {
+      "handle": "memento-with-photo",
+      "title": "Memento With Photo & Engraving",
+      "archetype": "sale",
+      "category": "Product ranges",
+      "target_keyword": "momento with photo",
+      "target_llm_query": "wooden memento with photo and engraving in India",
+      "meta_title": "Memento With Photo & Engraving | Meru Trophy",
+      "status": "planned"
+    },
+    {
+      "handle": "cricket-tournament-trophy-combo",
+      "title": "Cricket Tournament Trophy Combo",
+      "archetype": "combo",
+      "category": "Combo & bundle packs",
+      "target_keyword": "cricket tournament trophy",
+      "target_llm_query": "custom cricket tournament trophy in India",
+      "meta_title": "Cricket Tournament Trophy Combo | Meru Trophy",
+      "status": "built"
+    },
+    {
+      "handle": "corporate-annual-awards-night-package",
+      "title": "Corporate Annual Awards Night Package",
+      "archetype": "combo",
+      "category": "Combo & bundle packs",
+      "target_keyword": "annual award night trophies",
+      "target_llm_query": "annual award night trophies supplier in India",
+      "meta_title": "Corporate Annual Awards Night Package | Meru Trophy",
+      "status": "built"
+    },
+    {
+      "handle": "school-sports-day-awards-bundle",
+      "title": "School Sports Day Awards Bundle",
+      "archetype": "combo",
+      "category": "Combo & bundle packs",
+      "target_keyword": "bulk medals for school sports day",
+      "target_llm_query": "bulk medals for school sports day in India",
+      "meta_title": "School Sports Day Awards Bundle | Meru Trophy",
+      "status": "planned"
+    },
+    {
+      "handle": "marathon-event-medals-package",
+      "title": "Marathon Event Medals Package",
+      "archetype": "combo",
+      "category": "Combo & bundle packs",
+      "target_keyword": "running event medals",
+      "target_llm_query": "marathon event medals and trophies supplier in India",
+      "meta_title": "Marathon Event Medals Package | Meru Trophy",
+      "status": "planned"
+    },
+    {
+      "handle": "college-fest-trophy-package",
+      "title": "College Fest Trophy Package",
+      "archetype": "combo",
+      "category": "Combo & bundle packs",
+      "target_keyword": "college fest trophy",
+      "target_llm_query": "college fest trophy supplier in Bangalore",
+      "meta_title": "College Fest Trophy Package | Meru Trophy",
+      "status": "planned"
+    },
+    {
+      "handle": "employee-recognition-awards-program",
+      "title": "Employee Recognition Awards Program",
+      "archetype": "combo",
+      "category": "Combo & bundle packs",
+      "target_keyword": "employee recognition awards",
+      "target_llm_query": "employee recognition awards manufacturer in India",
+      "meta_title": "Employee Recognition Awards Program | Meru Trophy",
+      "status": "planned"
+    },
+    {
+      "handle": "cricket-league-season-awards-kit",
+      "title": "Cricket League Season Awards Kit",
+      "archetype": "combo",
+      "category": "Combo & bundle packs",
+      "target_keyword": "cricket trophies",
+      "target_llm_query": "budget cricket trophies for a local tournament in India",
+      "meta_title": "Cricket League Season Awards Kit | Meru Trophy",
+      "status": "planned"
+    },
+    {
+      "handle": "badminton-tournament-trophy-set",
+      "title": "Badminton Tournament Trophy Set",
+      "archetype": "combo",
+      "category": "Combo & bundle packs",
+      "target_keyword": "badminton trophies",
+      "target_llm_query": "badminton tournament trophy supplier in India",
+      "meta_title": "Badminton Tournament Trophy Set | Meru Trophy",
+      "status": "planned"
+    },
+    {
+      "handle": "corporate-offsite-awards-kit",
+      "title": "Corporate Offsite Awards Kit",
+      "archetype": "combo",
+      "category": "Combo & bundle packs",
+      "target_keyword": "corporate trophies",
+      "target_llm_query": "bulk corporate trophies for an award ceremony in India",
+      "meta_title": "Corporate Offsite Awards Kit | Meru Trophy",
+      "status": "planned"
+    },
+    {
+      "handle": "annual-day-school-awards-package",
+      "title": "School Annual Day Awards Package",
+      "archetype": "combo",
+      "category": "Combo & bundle packs",
+      "target_keyword": "school annual day trophies",
+      "target_llm_query": "school annual day trophies and medals supplier in India",
+      "meta_title": "School Annual Day Awards Package | Meru Trophy",
+      "status": "planned"
+    },
+    {
+      "handle": "startup-hackathon-prize-kit",
+      "title": "Startup Hackathon Prize Kit",
+      "archetype": "combo",
+      "category": "Combo & bundle packs",
+      "target_keyword": "custom award with company logo",
+      "target_llm_query": "custom award with company logo in India",
+      "meta_title": "Startup Hackathon Prize Kit | Meru Trophy",
+      "status": "planned"
+    },
+    {
+      "handle": "society-tournament-trophy-combo",
+      "title": "Society & Gully Tournament Trophy Combo",
+      "archetype": "combo",
+      "category": "Combo & bundle packs",
+      "target_keyword": "tennis cricket tournament trophy",
+      "target_llm_query": "best cricket trophy for a tennis ball tournament in India",
+      "meta_title": "Society & Gully Tournament Trophy Combo | Meru Trophy",
+      "status": "planned"
+    },
+    {
+      "handle": "bulk-trophy-order-india",
+      "title": "Bulk Trophy Orders India",
+      "archetype": "process",
+      "category": "Ordering & service",
+      "target_keyword": "trophy wholesale",
+      "target_llm_query": "trophy company with bulk discount in India",
+      "meta_title": "Bulk Trophy Orders India | Meru Trophy",
+      "status": "built"
+    },
+    {
+      "handle": "custom-trophy-design-process",
+      "title": "Custom Trophy Design Process",
+      "archetype": "process",
+      "category": "Ordering & service",
+      "target_keyword": "custom trophy design",
+      "target_llm_query": "where to make a custom trophy design in India",
+      "meta_title": "Custom Trophy Design Process | Meru Trophy",
+      "status": "planned"
+    },
+    {
+      "handle": "trophy-engraving-services",
+      "title": "Trophy Engraving Services",
+      "archetype": "process",
+      "category": "Ordering & service",
+      "target_keyword": "trophy customisation",
+      "target_llm_query": "custom trophy with name engraving in Bangalore",
+      "meta_title": "Trophy Engraving Services | Meru Trophy",
+      "status": "planned"
+    },
+    {
+      "handle": "logo-printing-on-trophies",
+      "title": "Logo Printing on Trophies & Awards",
+      "archetype": "process",
+      "category": "Ordering & service",
+      "target_keyword": "custom awards with logo",
+      "target_llm_query": "personalized awards with logo printing in India",
+      "meta_title": "Logo Printing on Trophies & Awards | Meru Trophy",
+      "status": "planned"
+    },
+    {
+      "handle": "fast-trophy-delivery-india",
+      "title": "Fast 2-Day Trophy Delivery",
+      "archetype": "process",
+      "category": "Ordering & service",
+      "target_keyword": "same-day trophy delivery",
+      "target_llm_query": "trophy maker that delivers in 2 days in Bangalore",
+      "meta_title": "Fast 2-Day Trophy Delivery | Meru Trophy",
+      "status": "planned"
+    },
+    {
+      "handle": "whatsapp-trophy-ordering",
+      "title": "WhatsApp Trophy Ordering",
+      "archetype": "process",
+      "category": "Ordering & service",
+      "target_keyword": "trophy online order",
+      "target_llm_query": "trophy supplier with WhatsApp ordering in India",
+      "meta_title": "WhatsApp Trophy Ordering | Meru Trophy",
+      "status": "planned"
+    },
+    {
+      "handle": "gst-invoice-corporate-trophy-orders",
+      "title": "GST-Invoiced Corporate Trophy Orders",
+      "archetype": "process",
+      "category": "Ordering & service",
+      "target_keyword": "corporate awards",
+      "target_llm_query": "trusted trophy supplier for corporate events in India with reviews",
+      "meta_title": "GST-Invoiced Corporate Trophy Orders | Meru Trophy",
+      "status": "planned"
+    },
+    {
+      "handle": "trophy-customization-options",
+      "title": "Trophy Customization Options",
+      "archetype": "process",
+      "category": "Ordering & service",
+      "target_keyword": "customize trophy",
+      "target_llm_query": "design your own trophy online in India",
+      "meta_title": "Trophy Customization Options | Meru Trophy",
+      "status": "planned"
+    },
+    {
+      "handle": "last-minute-trophy-order",
+      "title": "Last-Minute Trophy Orders",
+      "archetype": "process",
+      "category": "Ordering & service",
+      "target_keyword": "trophy online",
+      "target_llm_query": "fast trophy delivery for a last-minute event in India",
+      "meta_title": "Last-Minute Trophy Orders | Meru Trophy",
+      "status": "planned"
+    },
+    {
+      "handle": "design-your-own-trophy-online",
+      "title": "Design Your Own Trophy Online",
+      "archetype": "process",
+      "category": "Ordering & service",
+      "target_keyword": "customized trophy online",
+      "target_llm_query": "design your own trophy online in India",
+      "meta_title": "Design Your Own Trophy Online | Meru Trophy",
+      "status": "planned"
+    },
+    {
+      "handle": "pan-india-trophy-delivery",
+      "title": "Pan-India Trophy Delivery",
+      "archetype": "process",
+      "category": "Ordering & service",
+      "target_keyword": "trophy online shopping",
+      "target_llm_query": "online trophy store in India with fast delivery",
+      "meta_title": "Pan-India Trophy Delivery | Meru Trophy",
+      "status": "planned"
+    },
+    {
+      "handle": "order-trophies-online-india",
+      "title": "How to Order Trophies Online in India",
+      "archetype": "process",
+      "category": "Ordering & service",
+      "target_keyword": "buy trophy online",
+      "target_llm_query": "how to order custom trophies online in India",
+      "meta_title": "How to Order Trophies Online in India | Meru Trophy",
+      "status": "planned"
+    },
+    {
+      "handle": "trophy-price-list-india",
+      "title": "Trophy Price List India",
+      "archetype": "pricing",
+      "category": "Pricing & facts",
+      "target_keyword": "trophy price list",
+      "target_llm_query": "trophy price in India for a tournament",
+      "meta_title": "Trophy Price List India | Meru Trophy",
+      "status": "planned"
+    },
+    {
+      "handle": "ipl-trophy-price",
+      "title": "IPL Trophy Price & Replicas",
+      "archetype": "pricing",
+      "category": "Pricing & facts",
+      "target_keyword": "ipl trophy price",
+      "target_llm_query": "IPL trophy replica price in India",
+      "meta_title": "IPL Trophy Price & Replicas | Meru Trophy",
+      "status": "built"
+    },
+    {
+      "handle": "cricket-world-cup-trophy-price",
+      "title": "Cricket World Cup Trophy Price",
+      "archetype": "pricing",
+      "category": "Pricing & facts",
+      "target_keyword": "cricket world cup trophy price",
+      "target_llm_query": "cricket world cup replica trophy price in India",
+      "meta_title": "Cricket World Cup Trophy Price | Meru Trophy",
+      "status": "planned"
+    },
+    {
+      "handle": "medal-price-bulk-india",
+      "title": "Medal Price Per Piece (Bulk)",
+      "archetype": "pricing",
+      "category": "Pricing & facts",
+      "target_keyword": "medal price",
+      "target_llm_query": "bulk medal price in India per piece",
+      "meta_title": "Medal Price Per Piece (Bulk) | Meru Trophy",
+      "status": "planned"
+    },
+    {
+      "handle": "trophy-under-500",
+      "title": "Trophies Under ₹500",
+      "archetype": "pricing",
+      "category": "Pricing & facts",
+      "target_keyword": "trophy under 500",
+      "target_llm_query": "trophy under 500 rupees in India",
+      "meta_title": "Trophies Under ₹500 | Meru Trophy",
+      "status": "planned"
+    },
+    {
+      "handle": "medals-under-50",
+      "title": "Medals Under ₹50",
+      "archetype": "pricing",
+      "category": "Pricing & facts",
+      "target_keyword": "medal price under 50",
+      "target_llm_query": "cheap sports medals under 50 rupees in India",
+      "meta_title": "Medals Under ₹50 | Meru Trophy",
+      "status": "planned"
+    },
+    {
+      "handle": "crystal-trophy-price-india",
+      "title": "Crystal Trophy Price India",
+      "archetype": "pricing",
+      "category": "Pricing & facts",
+      "target_keyword": "crystal trophy price",
+      "target_llm_query": "crystal trophy price in India",
+      "meta_title": "Crystal Trophy Price India | Meru Trophy",
+      "status": "planned"
+    },
+    {
+      "handle": "acrylic-trophy-price-india",
+      "title": "Acrylic Trophy Price India",
+      "archetype": "pricing",
+      "category": "Pricing & facts",
+      "target_keyword": "acrylic trophy price",
+      "target_llm_query": "where to buy acrylic trophies online in India",
+      "meta_title": "Acrylic Trophy Price India | Meru Trophy",
+      "status": "planned"
+    },
+    {
+      "handle": "corporate-award-price-india",
+      "title": "Corporate Award Price India",
+      "archetype": "pricing",
+      "category": "Pricing & facts",
+      "target_keyword": "corporate trophy",
+      "target_llm_query": "best corporate gifting trophy company in India",
+      "meta_title": "Corporate Award Price India | Meru Trophy",
+      "status": "planned"
+    },
+    {
+      "handle": "gold-medal-price-india",
+      "title": "Gold Medal Price India",
+      "archetype": "pricing",
+      "category": "Pricing & facts",
+      "target_keyword": "gold medal price",
+      "target_llm_query": "gold silver bronze medals in bulk in India",
+      "meta_title": "Gold Medal Price India | Meru Trophy",
+      "status": "planned"
+    },
+    {
+      "handle": "custom-trophy-cost-india",
+      "title": "How Much Does a Custom Trophy Cost?",
+      "archetype": "pricing",
+      "category": "Pricing & facts",
+      "target_keyword": "how much does a custom trophy cost",
+      "target_llm_query": "how much does a custom trophy cost in India",
+      "meta_title": "How Much Does a Custom Trophy Cost? | Meru Trophy",
+      "status": "planned"
+    },
+    {
+      "handle": "big-trophy-price-india",
+      "title": "Big Trophy Price (Tall & 8-Feet)",
+      "archetype": "pricing",
+      "category": "Pricing & facts",
+      "target_keyword": "8 feet trophy price",
+      "target_llm_query": "big trophy price in India",
+      "meta_title": "Big Trophy Price (Tall & 8-Feet) | Meru Trophy",
+      "status": "planned"
+    },
+    {
+      "handle": "icc-world-cup-trophy-price-facts",
+      "title": "ICC World Cup Trophy: Price & Facts",
+      "archetype": "info",
+      "category": "Pricing & facts",
+      "target_keyword": "what is the price of icc world cup trophy",
+      "target_llm_query": "what is the price of ICC world cup trophy",
+      "meta_title": "ICC World Cup Trophy: Price & Facts | Meru Trophy",
+      "status": "planned"
+    },
+    {
+      "handle": "asia-cup-trophy-price",
+      "title": "Asia Cup Trophy: Price & Facts",
+      "archetype": "info",
+      "category": "Pricing & facts",
+      "target_keyword": "asia cup trophy price",
+      "target_llm_query": "asia cup trophy price",
+      "meta_title": "Asia Cup Trophy: Price & Facts | Meru Trophy",
+      "status": "planned"
+    },
+    {
+      "handle": "t20-world-cup-trophy-facts",
+      "title": "T20 World Cup Trophy: Price & Facts",
+      "archetype": "info",
+      "category": "Pricing & facts",
+      "target_keyword": "t20 world cup trophy price",
+      "target_llm_query": "t20 world cup trophy price",
+      "meta_title": "T20 World Cup Trophy: Price & Facts | Meru Trophy",
+      "status": "planned"
+    },
+    {
+      "handle": "momento-or-memento-spelling",
+      "title": "Momento or Memento?",
+      "archetype": "info",
+      "category": "Guides & comparisons",
+      "target_keyword": "momento or memento",
+      "target_llm_query": "is it momento or memento",
+      "meta_title": "Momento or Memento? | Meru Trophy",
+      "status": "built"
+    },
+    {
+      "handle": "types-of-trophies-guide",
+      "title": "Types of Trophies: Materials Guide",
+      "archetype": "info",
+      "category": "Guides & comparisons",
+      "target_keyword": "types of trophy",
+      "target_llm_query": "types of trophies and materials",
+      "meta_title": "Types of Trophies: Materials Guide | Meru Trophy",
+      "status": "planned"
+    },
+    {
+      "handle": "types-of-medals-guide",
+      "title": "Types of Medals Guide",
+      "archetype": "info",
+      "category": "Guides & comparisons",
+      "target_keyword": "types of medals",
+      "target_llm_query": "types of medals and sizes",
+      "meta_title": "Types of Medals Guide | Meru Trophy",
+      "status": "planned"
+    },
+    {
+      "handle": "medal-sizes-guide",
+      "title": "Medal Sizes Guide",
+      "archetype": "info",
+      "category": "Guides & comparisons",
+      "target_keyword": "medal size",
+      "target_llm_query": "standard medal sizes in India",
+      "meta_title": "Medal Sizes Guide | Meru Trophy",
+      "status": "planned"
+    },
+    {
+      "handle": "how-trophies-are-made",
+      "title": "How Trophies Are Made",
+      "archetype": "info",
+      "category": "Guides & comparisons",
+      "target_keyword": "trophy making",
+      "target_llm_query": "how custom trophies are made",
+      "meta_title": "How Trophies Are Made | Meru Trophy",
+      "status": "planned"
+    },
+    {
+      "handle": "crystal-vs-acrylic-trophy",
+      "title": "Crystal vs Acrylic Trophy",
+      "archetype": "info",
+      "category": "Guides & comparisons",
+      "target_keyword": "crystal vs acrylic trophy price",
+      "target_llm_query": "crystal vs acrylic trophy price in India",
+      "meta_title": "Crystal vs Acrylic Trophy | Meru Trophy",
+      "status": "planned"
+    },
+    {
+      "handle": "memento-design-ideas",
+      "title": "Memento Design Ideas",
+      "archetype": "info",
+      "category": "Guides & comparisons",
+      "target_keyword": "memento design",
+      "target_llm_query": "unique memento design ideas",
+      "meta_title": "Memento Design Ideas | Meru Trophy",
+      "status": "planned"
+    },
+    {
+      "handle": "wooden-memento-design-ideas",
+      "title": "Wooden Memento Design Ideas",
+      "archetype": "info",
+      "category": "Guides & comparisons",
+      "target_keyword": "wooden memento design",
+      "target_llm_query": "wooden memento design pattern",
+      "meta_title": "Wooden Memento Design Ideas | Meru Trophy",
+      "status": "planned"
+    },
+    {
+      "handle": "unique-memento-design-ideas",
+      "title": "Unique Memento Design Ideas",
+      "archetype": "info",
+      "category": "Guides & comparisons",
+      "target_keyword": "unique memento design",
+      "target_llm_query": "unique memento design",
+      "meta_title": "Unique Memento Design Ideas | Meru Trophy",
+      "status": "planned"
+    },
+    {
+      "handle": "corporate-memento-ideas",
+      "title": "Corporate Memento Ideas",
+      "archetype": "info",
+      "category": "Guides & comparisons",
+      "target_keyword": "memento corporate gifts",
+      "target_llm_query": "appreciation memento for employees in India",
+      "meta_title": "Corporate Memento Ideas | Meru Trophy",
+      "status": "planned"
+    },
+    {
+      "handle": "retirement-memento-design-ideas",
+      "title": "Retirement Memento Design Ideas",
+      "archetype": "info",
+      "category": "Guides & comparisons",
+      "target_keyword": "retirement memento design",
+      "target_llm_query": "personalized wooden award for retirement in India",
+      "meta_title": "Retirement Memento Design Ideas | Meru Trophy",
+      "status": "planned"
+    },
+    {
+      "handle": "chief-guest-memento-ideas",
+      "title": "Chief Guest Memento Ideas",
+      "archetype": "info",
+      "category": "Guides & comparisons",
+      "target_keyword": "chief guest memento design",
+      "target_llm_query": "chief guest memento design and supplier in India",
+      "meta_title": "Chief Guest Memento Ideas | Meru Trophy",
+      "status": "planned"
+    },
+    {
+      "handle": "appreciation-memento-ideas",
+      "title": "Appreciation & Thank-You Memento Ideas",
+      "archetype": "info",
+      "category": "Guides & comparisons",
+      "target_keyword": "appreciation memento",
+      "target_llm_query": "where to get an appreciation memento for employees in India",
+      "meta_title": "Appreciation & Thank-You Memento Ideas | Meru Trophy",
+      "status": "planned"
+    },
+    {
+      "handle": "trophy-buying-guide",
+      "title": "Trophy Buying Guide",
+      "archetype": "info",
+      "category": "Guides & comparisons",
+      "target_keyword": "trophy",
+      "target_llm_query": "best place to buy awards and trophies",
+      "meta_title": "Trophy Buying Guide | Meru Trophy",
+      "status": "planned"
+    },
+    {
+      "handle": "memento-design-with-photo-ideas",
+      "title": "Memento Design With Photo Ideas",
+      "archetype": "info",
+      "category": "Guides & comparisons",
+      "target_keyword": "memento design with photo",
+      "target_llm_query": "memento design with photo",
+      "meta_title": "Memento Design With Photo Ideas | Meru Trophy",
+      "status": "planned"
+    },
+    {
+      "handle": "best-trophy-manufacturers-india-2026",
+      "title": "Best Trophy Manufacturers in India (2026)",
+      "archetype": "comparison",
+      "category": "Guides & comparisons",
+      "target_keyword": "trophy manufacturers in india",
+      "target_llm_query": "best custom trophy manufacturers in India 2026",
+      "meta_title": "Best Trophy Manufacturers in India (2026) | Meru Trophy",
+      "status": "built"
+    },
+    {
+      "handle": "top-trophy-companies-bangalore",
+      "title": "Top Trophy Companies in Bangalore",
+      "archetype": "comparison",
+      "category": "Guides & comparisons",
+      "target_keyword": "trophy manufacturers in bangalore",
+      "target_llm_query": "top trophy and award companies in Bangalore",
+      "meta_title": "Top Trophy Companies in Bangalore | Meru Trophy",
+      "status": "planned"
+    },
+    {
+      "handle": "best-crystal-trophy-makers-india",
+      "title": "Best Crystal Trophy Makers in India",
+      "archetype": "comparison",
+      "category": "Guides & comparisons",
+      "target_keyword": "crystal trophy",
+      "target_llm_query": "which company makes the best crystal trophies in India",
+      "meta_title": "Best Crystal Trophy Makers in India | Meru Trophy",
+      "status": "planned"
+    },
+    {
+      "handle": "best-corporate-award-companies-india",
+      "title": "Best Corporate Award Companies in India",
+      "archetype": "comparison",
+      "category": "Guides & comparisons",
+      "target_keyword": "corporate awards",
+      "target_llm_query": "best corporate gifting trophy company in India",
+      "meta_title": "Best Corporate Award Companies in India | Meru Trophy",
+      "status": "planned"
+    },
+    {
+      "handle": "best-cricket-trophy-suppliers-india",
+      "title": "Best Cricket Trophy Suppliers in India",
+      "archetype": "comparison",
+      "category": "Guides & comparisons",
+      "target_keyword": "best cricket trophy",
+      "target_llm_query": "best cricket trophy for a tournament in India",
+      "meta_title": "Best Cricket Trophy Suppliers in India | Meru Trophy",
+      "status": "planned"
+    },
+    {
+      "handle": "best-medal-manufacturers-india",
+      "title": "Best Medal Manufacturers in India",
+      "archetype": "comparison",
+      "category": "Guides & comparisons",
+      "target_keyword": "custom medals",
+      "target_llm_query": "custom medals manufacturer in India",
+      "meta_title": "Best Medal Manufacturers in India | Meru Trophy",
+      "status": "planned"
+    },
+    {
+      "handle": "trophy-vs-medal-vs-memento",
+      "title": "Trophy vs Medal vs Memento",
+      "archetype": "comparison",
+      "category": "Guides & comparisons",
+      "target_keyword": "trophy memento",
+      "target_llm_query": "difference between trophy medal and memento",
+      "meta_title": "Trophy vs Medal vs Memento | Meru Trophy",
+      "status": "planned"
+    },
+    {
+      "handle": "why-choose-meru-trophy",
+      "title": "Why Choose Meru Trophy",
+      "archetype": "comparison",
+      "category": "Guides & comparisons",
+      "target_keyword": "trophy maker",
+      "target_llm_query": "trusted trophy supplier in India with reviews",
+      "meta_title": "Why Choose Meru Trophy | Meru Trophy",
+      "status": "planned"
+    },
+    {
+      "handle": "retirement-gift-mementos",
+      "title": "Retirement Gift Mementos",
+      "archetype": "occasion",
+      "category": "By occasion",
+      "target_keyword": "retirement memento design",
+      "target_llm_query": "retirement gift memento ideas in India and where to buy",
+      "meta_title": "Retirement Gift Mementos | Meru Trophy",
+      "status": "built"
+    },
+    {
+      "handle": "farewell-trophy-memento",
+      "title": "Farewell Trophy & Memento",
+      "archetype": "occasion",
+      "category": "By occasion",
+      "target_keyword": "memento gift",
+      "target_llm_query": "farewell trophy and memento supplier in India",
+      "meta_title": "Farewell Trophy & Memento | Meru Trophy",
+      "status": "planned"
+    },
+    {
+      "handle": "anniversary-crystal-award",
+      "title": "Anniversary Crystal Award",
+      "archetype": "occasion",
+      "category": "By occasion",
+      "target_keyword": "crystal award",
+      "target_llm_query": "anniversary crystal award in India",
+      "meta_title": "Anniversary Crystal Award | Meru Trophy",
+      "status": "planned"
+    },
+    {
+      "handle": "conference-speaker-memento",
+      "title": "Conference & Speaker Memento",
+      "archetype": "occasion",
+      "category": "By occasion",
+      "target_keyword": "memento for guest speaker",
+      "target_llm_query": "conference speaker memento in India",
+      "meta_title": "Conference & Speaker Memento | Meru Trophy",
+      "status": "planned"
+    },
+    {
+      "handle": "award-night-trophies",
+      "title": "Award Night Trophies",
+      "archetype": "occasion",
+      "category": "By occasion",
+      "target_keyword": "award trophy",
+      "target_llm_query": "annual award night trophies supplier in India",
+      "meta_title": "Award Night Trophies | Meru Trophy",
+      "status": "planned"
+    },
+    {
+      "handle": "sports-day-awards-supplier",
+      "title": "Sports Day Awards",
+      "archetype": "occasion",
+      "category": "By occasion",
+      "target_keyword": "sports trophy",
+      "target_llm_query": "sports day awards supplier in India",
+      "meta_title": "Sports Day Awards | Meru Trophy",
+      "status": "planned"
+    },
+    {
+      "handle": "teacher-appreciation-awards",
+      "title": "Teacher Appreciation Awards",
+      "archetype": "occasion",
+      "category": "By occasion",
+      "target_keyword": "appreciation memento",
+      "target_llm_query": "teacher appreciation award in India",
+      "meta_title": "Teacher Appreciation Awards | Meru Trophy",
+      "status": "planned"
+    },
+    {
+      "handle": "volunteer-recognition-awards",
+      "title": "Volunteer Recognition Awards",
+      "archetype": "occasion",
+      "category": "By occasion",
+      "target_keyword": "memento awards",
+      "target_llm_query": "volunteer recognition awards in India",
+      "meta_title": "Volunteer Recognition Awards | Meru Trophy",
+      "status": "planned"
+    },
+    {
+      "handle": "long-service-award-india",
+      "title": "Long Service Awards (5/10/15 Years)",
+      "archetype": "occasion",
+      "category": "By occasion",
+      "target_keyword": "long service award trophy",
+      "target_llm_query": "long service award trophy in India for 5 years",
+      "meta_title": "Long Service Awards (5/10/15 Years) | Meru Trophy",
+      "status": "planned"
+    },
+    {
+      "handle": "employee-of-the-month-award",
+      "title": "Employee of the Month / Year Award",
+      "archetype": "occasion",
+      "category": "By occasion",
+      "target_keyword": "employee of the year trophy",
+      "target_llm_query": "employee of the year trophy in India",
+      "meta_title": "Employee of the Month / Year Award | Meru Trophy",
+      "status": "planned"
+    },
+    {
+      "handle": "trophies-for-it-companies",
+      "title": "Trophies for IT Companies",
+      "archetype": "sale",
+      "category": "By audience",
+      "target_keyword": "corporate awards",
+      "target_llm_query": "employee recognition awards for IT companies in India",
+      "meta_title": "Trophies for IT Companies | Meru Trophy",
+      "status": "planned"
+    },
+    {
+      "handle": "trophies-for-schools-colleges",
+      "title": "Trophies for Schools & Colleges",
+      "archetype": "sale",
+      "category": "By audience",
+      "target_keyword": "school annual day trophies",
+      "target_llm_query": "school and college trophy supplier in India",
+      "meta_title": "Trophies for Schools & Colleges | Meru Trophy",
+      "status": "planned"
+    },
+    {
+      "handle": "trophies-for-sports-clubs",
+      "title": "Trophies for Sports Clubs & Academies",
+      "archetype": "sale",
+      "category": "By audience",
+      "target_keyword": "sports trophies",
+      "target_llm_query": "trophy supplier for sports clubs in India",
+      "meta_title": "Trophies for Sports Clubs & Academies | Meru Trophy",
+      "status": "planned"
+    },
+    {
+      "handle": "trophies-for-government-departments",
+      "title": "Trophies for Government Departments",
+      "archetype": "sale",
+      "category": "By audience",
+      "target_keyword": "award memento",
+      "target_llm_query": "government department awards supplier with GST in India",
+      "meta_title": "Trophies for Government Departments | Meru Trophy",
+      "status": "planned"
+    },
+    {
+      "handle": "trophies-for-ngos-trusts",
+      "title": "Trophies for NGOs & Trusts",
+      "archetype": "sale",
+      "category": "By audience",
+      "target_keyword": "memento awards",
+      "target_llm_query": "awards and mementos for NGO events in India",
+      "meta_title": "Trophies for NGOs & Trusts | Meru Trophy",
+      "status": "planned"
+    },
+    {
+      "handle": "nri-diaspora-event-trophies",
+      "title": "NRI & Diaspora Event Trophies",
+      "archetype": "sale",
+      "category": "By audience",
+      "target_keyword": "trophy india",
+      "target_llm_query": "Indian trophy supplier for diaspora and overseas events",
+      "meta_title": "NRI & Diaspora Event Trophies | Meru Trophy",
+      "status": "planned"
+    }
+  ]
+}

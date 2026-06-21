@@ -1,0 +1,84 @@
+{%- comment -%}
+  Feed Hub — the /pages/feeds index. Lists every live feed landing page grouped by
+  category, loaded client-side from assets/feeds-data.json (same pattern as brands-page).
+{%- endcomment -%}
+
+{%- style -%}
+  .feed-hub-{{ section.id }} .page-width { max-width: 108rem; }
+  .feed-hub-pad { padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px; padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px; }
+  @media screen and (min-width: 750px) { .feed-hub-pad { padding-top: {{ section.settings.padding_top }}px; padding-bottom: {{ section.settings.padding_bottom }}px; } }
+  .feed-hub-hero { text-align: center; max-width: 70rem; margin: 0 auto 4rem; }
+  .feed-hub-hero__eyebrow { display:inline-block; font-size:1.2rem; letter-spacing:.28rem; text-transform:uppercase; color:#d4a017; font-weight:600; margin-bottom:1.2rem; }
+  .feed-hub-hero h1 { margin:0 0 1.4rem; line-height:1.12; }
+  .feed-hub-hero h1 em { font-style:normal; background:linear-gradient(135deg,#d4a017,#f5b400); -webkit-background-clip:text; background-clip:text; color:transparent; }
+  .feed-hub-hero p { font-size:1.7rem; line-height:1.6; color:rgba(var(--color-foreground),.82); margin:0; }
+  .feed-cat { margin-bottom:4rem; }
+  .feed-cat__head { border-bottom:2px solid rgba(212,160,23,.4); padding-bottom:1rem; margin-bottom:2rem; }
+  .feed-cat__name { font-size:2.4rem; margin:0; }
+  .feed-cat__desc { font-size:1.45rem; color:rgba(var(--color-foreground),.65); margin:.6rem 0 0; }
+  .feed-cat__grid { display:grid; grid-template-columns:1fr; gap:1.4rem; }
+  @media screen and (min-width:750px){ .feed-cat__grid { grid-template-columns:1fr 1fr; } }
+  @media screen and (min-width:990px){ .feed-cat__grid { grid-template-columns:1fr 1fr 1fr; } }
+  .feed-card { display:block; text-decoration:none; color:inherit; background:rgba(var(--color-foreground),.035); border:1px solid rgba(var(--color-foreground),.08); border-radius:1rem; padding:1.8rem 2rem; transition:transform .15s, box-shadow .15s; }
+  .feed-card:hover { transform:translateY(-2px); box-shadow:0 8px 24px rgba(0,0,0,.08); border-color:rgba(212,160,23,.4); }
+  .feed-card__title { font-size:1.7rem; font-weight:600; margin:0 0 .5rem; }
+  .feed-card__blurb { font-size:1.4rem; line-height:1.5; color:rgba(var(--color-foreground),.72); margin:0; }
+  .feed-card__arrow { color:#d4a017; font-weight:700; margin-top:1rem; display:inline-block; font-size:1.4rem; }
+{%- endstyle -%}
+
+<div class="color-{{ section.settings.color_scheme }} gradient feed-hub-{{ section.id }}">
+  <div class="page-width feed-hub-pad">
+    <header class="feed-hub-hero">
+      <span class="feed-hub-hero__eyebrow">{{ section.settings.eyebrow | default: 'Meru Trophy Feeds' }}</span>
+      {{ section.settings.heading | default: '<h1>Trophy & award <em>answers, ranges and guides</em></h1>' }}
+      <p>{{ section.settings.subheading | default: 'Pick a topic — pricing, combos, materials, occasions and how to order. Every page is built to answer one question fast.' }}</p>
+    </header>
+    <div id="feed-hub-root" data-feed-src="{{ 'feeds-data.json' | asset_url }}"></div>
+  </div>
+</div>
+
+<script>
+(function () {
+  var root = document.getElementById('feed-hub-root');
+  if (!root) return;
+  function esc(s){ return String(s == null ? '' : s).replace(/[&<>"']/g, function(c){ return ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'})[c]; }); }
+  fetch(root.getAttribute('data-feed-src'))
+    .then(function(r){ return r.json(); })
+    .then(function(data){
+      var html = '';
+      (data.categories || []).forEach(function(cat){
+        if (!cat.pages || !cat.pages.length) return;
+        html += '<section class="feed-cat">';
+        html += '<div class="feed-cat__head"><h2 class="feed-cat__name">' + esc(cat.name) + '</h2>';
+        if (cat.description) html += '<p class="feed-cat__desc">' + esc(cat.description) + '</p>';
+        html += '</div><div class="feed-cat__grid">';
+        cat.pages.forEach(function(p){
+          html += '<a class="feed-card" href="/pages/' + esc(p.handle) + '">' +
+            '<p class="feed-card__title">' + esc(p.title) + '</p>' +
+            '<p class="feed-card__blurb">' + esc(p.blurb || '') + '</p>' +
+            '<span class="feed-card__arrow">Read &rsaquo;</span></a>';
+        });
+        html += '</div></section>';
+      });
+      root.innerHTML = html;
+    })
+    .catch(function(){ root.innerHTML = '<p style="text-align:center">Browse our trophy and award pages from the menu.</p>'; });
+})();
+</script>
+
+{% schema %}
+{
+  "name": "Feed Hub",
+  "tag": "section",
+  "class": "feed-hub-section",
+  "settings": [
+    { "type": "text", "id": "eyebrow", "label": "Eyebrow", "default": "Meru Trophy Feeds" },
+    { "type": "richtext", "id": "heading", "label": "Heading (H1)", "default": "<h1>Trophy & award <em>answers, ranges and guides</em></h1>" },
+    { "type": "textarea", "id": "subheading", "label": "Subheading", "default": "Pick a topic — pricing, combos, materials, occasions and how to order. Every page is built to answer one question fast." },
+    { "type": "color_scheme", "id": "color_scheme", "label": "Color scheme", "default": "scheme-1" },
+    { "type": "range", "id": "padding_top", "min": 0, "max": 100, "step": 4, "unit": "px", "label": "Top padding", "default": 48 },
+    { "type": "range", "id": "padding_bottom", "min": 0, "max": 100, "step": 4, "unit": "px", "label": "Bottom padding", "default": 64 }
+  ],
+  "presets": [ { "name": "Feed Hub", "category": "Meru Trophy" } ]
+}
+{% endschema %}

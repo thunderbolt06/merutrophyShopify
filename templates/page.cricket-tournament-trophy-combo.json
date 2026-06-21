@@ -1,0 +1,64 @@
+{
+  "sections": {
+    "feed": {
+      "type": "feed-landing",
+      "settings": {
+        "eyebrow": "Combo packs · Cricket",
+        "heading": "<h1>Cricket Tournament <em>Trophy Combo Packs</em> — Winner, Runner-Up & MoM in One Order</h1>",
+        "subheading": "Everything a tennis-ball or season cricket tournament needs in a single bundle — winner cup, runner-up trophy, Man of the Series, Best Batsman & Bowler awards, plus participation medals. Custom names, team logos and event date engraved. Delivered pan-India from Bangalore.",
+        "primary_cta_label": "Get a combo quote on WhatsApp",
+        "secondary_cta_label": "See cricket trophies",
+        "secondary_cta_url": "/collections/all",
+        "breadcrumb_label": "Cricket Tournament Trophy Combo",
+        "features_heading": "What's inside a cricket combo pack",
+        "price_heading": "Sample combo pricing",
+        "price_col1": "Combo",
+        "price_col2": "What's included",
+        "price_col3": "Price (from)",
+        "price_caption": "Indicative starting prices for tennis-ball/local tournaments. Final quote depends on trophy size, material and engraving. GST invoice available.",
+        "steps_heading": "How to order your tournament combo",
+        "faq_heading": "Cricket combo pack FAQs",
+        "schema_type": "Product",
+        "schema_name": "Cricket Tournament Trophy Combo Pack",
+        "schema_price_low": "1499",
+        "schema_price_high": "25000",
+        "color_scheme": "scheme-1"
+      },
+      "blocks": {
+        "qa": {
+          "type": "quick_answer",
+          "settings": {
+            "label": "Quick answer",
+            "text": "<p>A cricket tournament trophy combo from Meru Trophy bundles the <strong>winner cup, runner-up trophy, Man of the Match/Series, Best Batsman and Best Bowler awards, and participation medals</strong> in one order — with team names, logos and dates engraved free. Starter combos begin around <strong>₹1,499</strong>; full season-league kits go up to ₹25,000+. Order on WhatsApp at +91 78922 07252 with your award list and event date.</p>"
+          }
+        },
+        "intro": {
+          "type": "rich_text",
+          "settings": {
+            "heading": "One bundle for the whole tournament",
+            "text": "<p>Organising a gully, corporate, society or tennis-ball cricket tournament means you need <em>several</em> awards — not just one trophy. Buying them piecemeal is slow and mismatched. Our combo packs are designed so every award shares a consistent look, arrives together, and is engraved with the right name and category. Whether it's a one-day box-cricket event or a two-month premier league, we build the kit around your prize list and budget.</p>"
+          }
+        },
+        "f1": { "type": "feature", "settings": { "title": "Winner & Runner-Up cups", "text": "Tall, photogenic cricket cups in metal or fibre — the hero pieces for your presentation ceremony." } },
+        "f2": { "type": "feature", "settings": { "title": "Individual performance awards", "text": "Man of the Series, Best Batsman, Best Bowler, Best Fielder, Emerging Player — engraved with recipient names." } },
+        "f3": { "type": "feature", "settings": { "title": "Participation medals", "text": "Gold/silver/bronze finish medals with ribbon for every player or team — from ₹25 per piece in bulk." } },
+        "f4": { "type": "feature", "settings": { "title": "Team logo & sponsor branding", "text": "UV-printed or laser-engraved team logos, sponsor names and tournament titles at no extra design charge." } },
+        "p1": { "type": "price_row", "settings": { "item": "Starter combo", "spec": "Winner + Runner-up cup + 1 MoM award", "price": "₹1,499" } },
+        "p2": { "type": "price_row", "settings": { "item": "Standard tournament combo", "spec": "Winner + Runner-up + MoM + Best Bat + Best Bowl", "price": "₹3,999" } },
+        "p3": { "type": "price_row", "settings": { "item": "Premium league kit", "spec": "Large cups + 6 individual awards + 24 medals", "price": "₹9,999" } },
+        "p4": { "type": "price_row", "settings": { "item": "Season/corporate league kit", "spec": "Custom big trophies + full awards set + 50+ medals", "price": "₹25,000+" } },
+        "s1": { "type": "step", "settings": { "title": "Share your prize list", "text": "WhatsApp us your award categories, team count and event date." } },
+        "s2": { "type": "step", "settings": { "title": "Pick designs & budget", "text": "We send matching combo options with photos and a single quote." } },
+        "s3": { "type": "step", "settings": { "title": "Approve engraving proof", "text": "Confirm names, logos and titles on a digital mockup." } },
+        "s4": { "type": "step", "settings": { "title": "Delivered together", "text": "Safely packed and shipped pan-India in time for your final." } },
+        "faq1": { "type": "faq", "settings": { "question": "Can I mix trophies and medals in one combo?", "answer": "<p>Yes — that's the point of a combo. A typical kit pairs a few premium trophies (winner, runner-up, individual awards) with a bulk set of participation medals, all in one order and one invoice.</p>" } },
+        "faq2": { "type": "faq", "settings": { "question": "Do you engrave team names and the tournament logo?", "answer": "<p>Yes. Recipient names, team names, the tournament title and your sponsor/club logo are included free. Send us the logo as PNG/AI and the name list in a sheet.</p>" } },
+        "faq3": { "type": "faq", "settings": { "question": "How fast can a cricket combo be delivered?", "answer": "<p>Standard combos ship in 3–5 business days after proof approval; large custom league kits need 7–10 days. For last-minute finals, WhatsApp us — we regularly expedite tennis-ball tournament orders.</p>" } },
+        "faq4": { "type": "faq", "settings": { "question": "What's the cheapest cricket trophy for a local tournament?", "answer": "<p>Budget fibre cups start around ₹150–₹300, and participation medals from ₹25 in bulk. A complete starter combo for a small tennis-ball tournament begins near ₹1,499.</p>" } },
+        "cta": { "type": "cta_band", "settings": { "heading": "Planning a cricket tournament?", "text": "Send your prize list and event date — we'll design a matching combo and quote within the hour.", "button_label": "Get my cricket combo quote" } }
+      },
+      "block_order": ["qa","intro","f1","f2","f3","f4","p1","p2","p3","p4","s1","s2","s3","s4","faq1","faq2","faq3","faq4","cta"]
+    }
+  },
+  "order": ["feed"]
+}

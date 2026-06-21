@@ -1,0 +1,67 @@
+{
+  "sections": {
+    "feed": {
+      "type": "feed-landing",
+      "settings": {
+        "eyebrow": "Combo packs · Corporate",
+        "heading": "<h1>Corporate <em>Annual Awards Night</em> Trophy Packages</h1>",
+        "subheading": "A complete, co-ordinated awards kit for your company's yearly employee recognition event — Employee of the Year, Long Service, Top Performer, Rising Star and Team awards in one matched set. Crystal and metal options, logo-engraved, GST-invoiced, delivered across India.",
+        "primary_cta_label": "Plan our awards night on WhatsApp",
+        "secondary_cta_label": "See crystal awards",
+        "secondary_cta_url": "/collections/all",
+        "breadcrumb_label": "Corporate Annual Awards Night Package",
+        "features_heading": "A matched set for every award category",
+        "price_heading": "Sample annual-awards package pricing",
+        "price_col1": "Package",
+        "price_col2": "What's included",
+        "price_col3": "Price (from)",
+        "price_caption": "Indicative pricing per package; per-piece rates fall sharply at 50+ units. All corporate orders include GST invoice and engraving.",
+        "steps_heading": "How we run your awards-night order",
+        "faq_heading": "Corporate awards FAQs",
+        "schema_type": "Product",
+        "schema_name": "Corporate Annual Awards Night Trophy Package",
+        "schema_price_low": "299",
+        "schema_price_high": "5000",
+        "color_scheme": "scheme-1"
+      },
+      "blocks": {
+        "qa": {
+          "type": "quick_answer",
+          "settings": {
+            "label": "Quick answer",
+            "text": "<p>Meru Trophy supplies <strong>complete annual-awards-night packages</strong> for corporate recognition events: Employee of the Year, Long Service (5/10/15 yrs), Top Performer, Rising Star, Team and Leadership awards as one co-ordinated, logo-engraved set. Crystal pieces run ₹350–₹5,000 each; with GST invoicing and pan-India delivery. Volume pricing kicks in from 50 units. WhatsApp +91 78922 07252.</p>"
+          }
+        },
+        "intro": {
+          "type": "rich_text",
+          "settings": {
+            "heading": "One supplier for the whole stage",
+            "text": "<p>An annual awards night has a dozen categories and a tight deadline. Sourcing each award separately risks mismatched finishes and a last-minute scramble. We design the entire set to share one visual language — same crystal family, same engraving style, your logo on every piece — so the stage looks intentional and premium. HR and admin teams get a single point of contact, one quote and one GST invoice.</p>"
+          }
+        },
+        "f1": { "type": "feature", "settings": { "title": "Employee of the Year & Top Performer", "text": "Statement crystal or metal pieces that read as the night's headline awards." } },
+        "f2": { "type": "feature", "settings": { "title": "Long Service awards", "text": "5, 10, 15 and 20-year milestone awards with years and recipient names engraved." } },
+        "f3": { "type": "feature", "settings": { "title": "Team & department awards", "text": "Larger shared trophies for winning teams, plus individual keepsakes for members." } },
+        "f4": { "type": "feature", "settings": { "title": "Company logo on every award", "text": "Laser-engraved or UV-printed brand logo and award title — consistent across the full set." } },
+        "st1": { "type": "stat", "settings": { "number": "150+", "label": "Brands served" } },
+        "st2": { "type": "stat", "settings": { "number": "50–5,000", "label": "Pieces per order" } },
+        "st3": { "type": "stat", "settings": { "number": "20+", "label": "Years crafting awards" } },
+        "p1": { "type": "price_row", "settings": { "item": "Essentials package", "spec": "5 crystal awards, single design, logo-engraved", "price": "₹2,750" } },
+        "p2": { "type": "price_row", "settings": { "item": "Standard awards night", "spec": "12 mixed crystal/metal awards across categories", "price": "₹7,500" } },
+        "p3": { "type": "price_row", "settings": { "item": "Premium recognition set", "spec": "20+ awards + presentation boxes + name plates", "price": "₹18,000" } },
+        "p4": { "type": "price_row", "settings": { "item": "Enterprise programme", "spec": "100+ long-service & performance awards, multi-tier", "price": "Custom quote" } },
+        "s1": { "type": "step", "settings": { "title": "Send your award categories", "text": "Share the list of categories, recipient counts and event date." } },
+        "s2": { "type": "step", "settings": { "title": "Choose a design family", "text": "We propose a co-ordinated crystal/metal set within your budget." } },
+        "s3": { "type": "step", "settings": { "title": "Approve names & logo proof", "text": "Sign off a digital mockup of engraving for every award." } },
+        "s4": { "type": "step", "settings": { "title": "Delivered, boxed & labelled", "text": "Each award boxed and tagged by category for an easy backstage handover." } },
+        "faq1": { "type": "faq", "settings": { "question": "Do you provide a GST invoice for corporate orders?", "answer": "<p>Yes. All B2B orders include a proper GST invoice, and we can handle PO-based and tender-style documentation for larger procurements.</p>" } },
+        "faq2": { "type": "faq", "settings": { "question": "Can each award have a different recipient name and title?", "answer": "<p>Absolutely. Send a sheet with category, recipient name and any citation text; we engrave each piece individually and label them for the ceremony.</p>" } },
+        "faq3": { "type": "faq", "settings": { "question": "What's the lead time for an awards-night package?", "answer": "<p>Plan for 7–10 business days from proof approval for a full set. For 100+ piece enterprise programmes, give us 2–3 weeks. Rush options are available — ask on WhatsApp.</p>" } },
+        "faq4": { "type": "faq", "settings": { "question": "Do you ship outside Bangalore?", "answer": "<p>Yes — we deliver pan-India from our Bangalore workshop, and ship internationally for overseas offices and diaspora events.</p>" } },
+        "cta": { "type": "cta_band", "settings": { "heading": "Hosting your annual awards night?", "text": "Send us your award categories and date — we'll design a co-ordinated set and quote, GST invoice included.", "button_label": "Plan our awards night" } }
+      },
+      "block_order": ["qa","intro","f1","f2","f3","f4","st1","st2","st3","p1","p2","p3","p4","s1","s2","s3","s4","faq1","faq2","faq3","faq4","cta"]
+    }
+  },
+  "order": ["feed"]
+}

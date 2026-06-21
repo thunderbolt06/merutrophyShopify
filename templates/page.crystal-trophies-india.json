@@ -1,0 +1,60 @@
+{
+  "sections": {
+    "feed": {
+      "type": "feed-landing",
+      "settings": {
+        "eyebrow": "Product · Crystal",
+        "heading": "<h1>Custom <em>Crystal Trophies</em> & Awards in India</h1>",
+        "subheading": "Premium K9 optical-crystal trophies and awards with laser engraving and logo printing — for corporate recognition, milestones, conferences and VIP felicitations. Designed and crafted in Bangalore, delivered across India.",
+        "primary_cta_label": "Get a crystal trophy quote",
+        "secondary_cta_label": "Browse crystal trophies",
+        "secondary_cta_url": "/collections/crystal-trophies",
+        "breadcrumb_label": "Crystal Trophies India",
+        "features_heading": "Why our crystal awards stand out",
+        "price_heading": "Crystal trophy price guide",
+        "price_col1": "Type",
+        "price_col2": "Typical use",
+        "price_col3": "Price (from)",
+        "price_caption": "Indicative starting prices in India. Final price varies with size, crystal grade, base and engraving. Bulk discounts from 25 pieces.",
+        "faq_heading": "Crystal trophy FAQs",
+        "schema_type": "Product",
+        "schema_name": "Custom Crystal Trophy",
+        "schema_price_low": "350",
+        "schema_price_high": "8000",
+        "color_scheme": "scheme-1"
+      },
+      "blocks": {
+        "qa": {
+          "type": "quick_answer",
+          "settings": {
+            "label": "Quick answer",
+            "text": "<p>Meru Trophy makes <strong>custom K9 optical-crystal trophies and awards</strong> in India with free laser engraving and logo printing. Prices start around <strong>₹350</strong> for small awards and go up to ₹8,000+ for large premium pieces, with bulk discounts from 25 units. Designed in Bangalore, delivered pan-India. WhatsApp +91 78922 07252 for a quote.</p>"
+          }
+        },
+        "intro": {
+          "type": "rich_text",
+          "settings": {
+            "heading": "Crystal awards that feel premium",
+            "text": "<p>Crystal is the go-to for moments that matter — a milestone anniversary, an Employee of the Year, a retiring leader, a conference chief guest. We use <strong>K9 optical crystal</strong> with clean polished edges and 2D/3D laser engraving that catches light beautifully. Each piece can carry your logo, recipient name, citation and date. Choose from blocks, stars, peaks, globes, diamonds and custom shapes, with optional gift boxes.</p>"
+          }
+        },
+        "f1": { "type": "feature", "settings": { "title": "K9 optical-grade crystal", "text": "Clearer, heavier and more brilliant than ordinary glass — the look executives expect." } },
+        "f2": { "type": "feature", "settings": { "title": "Free laser engraving", "text": "Names, logos, citations and dates engraved in 2D or sub-surface 3D at no extra design charge." } },
+        "f3": { "type": "feature", "settings": { "title": "Any shape or size", "text": "Stars, peaks, globes, diamonds, custom-cut shapes and tall statement pieces." } },
+        "f4": { "type": "feature", "settings": { "title": "Gift-ready presentation", "text": "Velvet/rigid gift boxes and printed name tags for a polished stage handover." } },
+        "p1": { "type": "price_row", "settings": { "item": "Compact crystal award", "spec": "Desk-size recognition / appreciation", "price": "₹350" } },
+        "p2": { "type": "price_row", "settings": { "item": "Standard corporate award", "spec": "Employee of the Year, milestones", "price": "₹750" } },
+        "p3": { "type": "price_row", "settings": { "item": "Premium statement piece", "spec": "Leadership, VIP felicitation", "price": "₹2,500" } },
+        "p4": { "type": "price_row", "settings": { "item": "Large custom crystal", "spec": "Hero stage trophy, custom shape", "price": "₹8,000" } },
+        "faq1": { "type": "faq", "settings": { "question": "What is K9 crystal and is it real crystal?", "answer": "<p>K9 is a high-grade optical crystal prized for clarity and brilliance. It's heavier and clearer than standard glass and is the industry standard for premium awards — what most corporate \"crystal trophies\" are made from.</p>" } },
+        "faq2": { "type": "faq", "settings": { "question": "Can you engrave our company logo inside the crystal?", "answer": "<p>Yes. We do both surface 2D engraving and sub-surface 3D logo engraving inside the crystal. Send your logo as a vector (AI/SVG/PDF) or high-res PNG for the cleanest result.</p>" } },
+        "faq3": { "type": "faq", "settings": { "question": "Is there a minimum order for crystal awards?", "answer": "<p>No minimum — we make single bespoke pieces as well as bulk sets. Per-piece pricing drops noticeably from 25 units and again at 100+.</p>" } },
+        "faq4": { "type": "faq", "settings": { "question": "Crystal vs acrylic — which should I choose?", "answer": "<p>Crystal looks and feels more premium and is ideal for senior/VIP awards; acrylic is lighter and more budget-friendly for high-volume or shipped events. We can quote both so you can compare.</p>" } },
+        "rel": { "type": "related_collection", "settings": { "heading": "Popular crystal trophies", "collection": "crystal-trophies" } },
+        "cta": { "type": "cta_band", "settings": { "heading": "Need crystal awards for an event?", "text": "Tell us the occasion, quantity and date — we'll send designs and a quote, usually within the hour.", "button_label": "Get my crystal quote" } }
+      },
+      "block_order": ["qa","intro","f1","f2","f3","f4","p1","p2","p3","p4","faq1","faq2","faq3","faq4","rel","cta"]
+    }
+  },
+  "order": ["feed"]
+}

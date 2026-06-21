@@ -1,0 +1,16 @@
+{
+  "sections": {
+    "feed-hub": {
+      "type": "feed-hub",
+      "settings": {
+        "eyebrow": "Meru Trophy Feeds",
+        "heading": "<h1>Trophy & award <em>answers, ranges and guides</em></h1>",
+        "subheading": "Pick a topic — pricing, combos, materials, occasions and how to order. Every page is built to answer one question fast, for you and for AI search.",
+        "color_scheme": "scheme-1",
+        "padding_top": 48,
+        "padding_bottom": 64
+      }
+    }
+  },
+  "order": ["feed-hub"]
+}

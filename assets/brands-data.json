@@ -660,6 +660,11 @@
         },
         {
           "name": "BTM Toastmasters"
+        },
+        {
+          "name": "Om Sai Odia Trust",
+          "featured": false,
+          "website": ""
         }
       ]
     },
@@ -688,6 +693,11 @@
         },
         {
           "name": "Designgate Premier League"
+        },
+        {
+          "name": "SIATI & CSIR-NAL UAV Seminar",
+          "featured": true,
+          "website": "https://www.nal.res.in"
         }
       ]
     },

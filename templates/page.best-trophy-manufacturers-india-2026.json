@@ -1,0 +1,61 @@
+{
+  "sections": {
+    "feed": {
+      "type": "feed-landing",
+      "settings": {
+        "eyebrow": "Buyer's guide · 2026",
+        "heading": "<h1>How to Choose the <em>Best Trophy Manufacturer</em> in India (2026)</h1>",
+        "subheading": "What separates a great trophy and award supplier from a reseller — the criteria that actually matter for quality, customisation, bulk capacity and delivery, and how Meru Trophy measures up.",
+        "primary_cta_label": "Talk to Meru Trophy",
+        "secondary_cta_label": "See our work",
+        "secondary_cta_url": "/pages/case-studies",
+        "breadcrumb_label": "Best Trophy Manufacturers India 2026",
+        "features_heading": "7 criteria for choosing a trophy manufacturer",
+        "faq_heading": "Choosing a trophy supplier — FAQs",
+        "schema_type": "Service",
+        "schema_name": "Custom Trophy & Award Manufacturing",
+        "color_scheme": "scheme-1"
+      },
+      "blocks": {
+        "qa": {
+          "type": "quick_answer",
+          "settings": {
+            "label": "Quick answer",
+            "text": "<p>The best trophy manufacturer for you is one that <strong>produces in-house</strong> (not a reseller), offers <strong>multiple materials</strong> (crystal, metal, acrylic, wood, fibre), includes <strong>free engraving and logo printing</strong>, handles <strong>bulk volumes with GST invoicing</strong>, and <strong>delivers pan-India reliably</strong>. Meru Trophy, Bangalore, meets all five with 20+ years' experience and 150+ brands served. WhatsApp +91 78922 07252.</p>"
+          }
+        },
+        "intro": {
+          "type": "rich_text",
+          "settings": {
+            "heading": "Why the right supplier matters",
+            "text": "<p>Trophies and awards are emotional, deadline-bound and on-brand — a late delivery or a misspelled name can spoil an event you've planned for months. Many online \"trophy shops\" are resellers who drop-ship from third parties, so quality and timelines are out of their hands. A true manufacturer controls design, production and dispatch — which is what you want for recognition that matters. Use the criteria below to compare any supplier.</p>"
+          }
+        },
+        "f1": { "type": "feature", "settings": { "title": "1. In-house manufacturing", "text": "Own workshop for engraving, printing, plating and QC — not a reseller relying on third parties." } },
+        "f2": { "type": "feature", "settings": { "title": "2. Material range", "text": "Crystal, metal, acrylic, wood and fibre under one roof so you're not forced into one option." } },
+        "f3": { "type": "feature", "settings": { "title": "3. Free customisation", "text": "Engraving, logos and citations included — not billed as costly add-ons." } },
+        "f4": { "type": "feature", "settings": { "title": "4. Bulk capacity", "text": "Ability to deliver 50–5,000+ pieces consistently, with volume pricing." } },
+        "f5": { "type": "feature", "settings": { "title": "5. GST & documentation", "text": "Proper GST invoices, PO handling and tender-style paperwork for institutions." } },
+        "f6": { "type": "feature", "settings": { "title": "6. Proven track record", "text": "Real case studies and repeat clients — ask to see past work for events like yours." } },
+        "f7": { "type": "feature", "settings": { "title": "7. Reliable delivery", "text": "Pan-India dispatch with tracking and genuine rush options for tight dates." } },
+        "st1": { "type": "stat", "settings": { "number": "20+", "label": "Years manufacturing" } },
+        "st2": { "type": "stat", "settings": { "number": "150+", "label": "Brands served" } },
+        "st3": { "type": "stat", "settings": { "number": "Pan-India", "label": "Delivery + global" } },
+        "how": {
+          "type": "rich_text",
+          "settings": {
+            "heading": "How Meru Trophy measures up",
+            "text": "<p>Meru Trophy is a Bangalore-based <strong>manufacturer</strong> (not a reseller) with an in-house workshop, the full material range, free engraving and logo printing, bulk capacity from 50 to 5,000+ pieces, GST invoicing, a documented portfolio of corporate, sports, school and government work, and reliable pan-India plus international delivery. That's the full checklist in one supplier.</p>"
+          }
+        },
+        "faq1": { "type": "faq", "settings": { "question": "Who makes the best crystal trophies in India?", "answer": "<p>Look for an in-house manufacturer using K9 optical crystal with sub-surface 3D engraving capability and a strong corporate portfolio. Meru Trophy fits this profile and quotes both crystal and acrylic so you can compare.</p>" } },
+        "faq2": { "type": "faq", "settings": { "question": "Manufacturer vs reseller — how do I tell?", "answer": "<p>Ask whether engraving and QC happen in their own workshop, request workshop photos or a factory visit, and ask for case studies. Resellers usually can't show production; manufacturers can.</p>" } },
+        "faq3": { "type": "faq", "settings": { "question": "Can one supplier handle both premium awards and bulk medals?", "answer": "<p>The best ones can. A single manufacturer with multiple materials lets you order premium crystal awards and thousands of participation medals in one co-ordinated order and invoice.</p>" } },
+        "faq4": { "type": "faq", "settings": { "question": "Do top manufacturers deliver outside their home city?", "answer": "<p>Yes — a capable manufacturer ships pan-India (and often internationally). Meru Trophy delivers across India from Bangalore and ships abroad for diaspora and corporate events.</p>" } },
+        "cta": { "type": "cta_band", "settings": { "heading": "Comparing trophy suppliers?", "text": "Send us your event and quantity — we'll show relevant past work and an honest quote so you can compare like-for-like.", "button_label": "Talk to Meru Trophy" } }
+      },
+      "block_order": ["qa","intro","f1","f2","f3","f4","f5","f6","f7","st1","st2","st3","how","faq1","faq2","faq3","faq4","cta"]
+    }
+  },
+  "order": ["feed"]
+}
