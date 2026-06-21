@@ -53,7 +53,7 @@
           "type": "text",
           "settings": {
             "heading": "Contact Us",
-            "subtext": "<p>Phone number: <strong>+91 7892207252</strong></p><p>Alternate Phone:<strong> +91 9480150888</strong></p><p>Email: <a href=\"mailto:merutrophy@gmail.com\" target=\"_blank\"><span style=\"text-decoration:underline\"><strong>merutrophy@gmail.com</strong></span></a></p><p>Address: #273/2, SC Road, 2nd Cross, 1st Floor,<br/>Near Annamma Temple, Gandhinagar, Bangalore - 560 009.<br/><br/>Maps: https://maps.app.goo.gl/i8tmRdXttcSA27UE6 </p>"
+            "subtext": "<p>Phone: <a href=\"tel:+917892207252\"><strong>+91 78922 07252</strong></a></p><p>Alternate: <a href=\"tel:+919480150888\"><strong>+91 94801 50888</strong></a></p><p>Email: <a href=\"mailto:merutrophy@gmail.com\"><span style=\"text-decoration:underline\"><strong>merutrophy@gmail.com</strong></span></a></p><p>Address: <a href=\"https://maps.app.goo.gl/i8tmRdXttcSA27UE6\" target=\"_blank\" rel=\"noopener\">#273/2, SC Road, 2nd Cross, 1st Floor, Near Annamma Temple, Gandhinagar, Bangalore - 560 009</a></p><p><a href=\"https://maps.app.goo.gl/i8tmRdXttcSA27UE6\" target=\"_blank\" rel=\"noopener\"><strong>📍 View on Google Maps &amp; Get Directions</strong></a></p>"
           }
         }
       },

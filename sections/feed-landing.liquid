@@ -1,13 +1,12 @@
 {%- comment -%}
   Feed Landing — reusable programmatic-SEO / GEO-AEO landing section for Meru Trophy.
-  One section type powers all /pages/* "feed" landing pages (product, combo, pricing,
-  process, informational, comparison and occasion archetypes). All content is supplied
-  per-page through the template JSON settings + blocks, so a new page = a new template file.
+  One section type powers all /pages/* "feed" landing pages. All content is supplied
+  per-page through the template JSON settings + blocks.
 
-  Always-on UX (matches the main landing page, no per-page config needed):
-    designed hero + quote card, trust stat-bar, clients strip, "why Meru Trophy"
-    band and a full contact band. These use section defaults so all existing
-    templates get the richer layout automatically.
+  Styled to match the Meru Trophy home page: Assistant font (inherited), the theme's
+  native .button component (square, flat), solid cards with a 1px border and a soft
+  gold hover shadow, gold used only as an accent (em-gradient headings, number badges,
+  icons, thin rules). Mirrors sections/howto-order-compact.liquid + clients-marquee.
 
   Blocks: quick_answer, rich_text, feature, stat, price_row, step, faq, cta_band, related_collection
 {%- endcomment -%}
@@ -24,14 +23,19 @@
   if primary_url == blank
     assign primary_url = 'https://wa.me/' | append: wa_number
   endif
+
+  assign feature_blocks = section.blocks | where: 'type', 'feature'
+  assign stat_blocks = section.blocks | where: 'type', 'stat'
+  assign price_blocks = section.blocks | where: 'type', 'price_row'
+  assign step_blocks = section.blocks | where: 'type', 'step'
+  assign faq_blocks = section.blocks | where: 'type', 'faq'
 -%}
 
 {%- comment -%} Product cards need the theme's base card styles, which aren't loaded globally. {%- endcomment -%}
 {{ 'component-card.css' | asset_url | stylesheet_tag }}
 
 {%- style -%}
-  .feed-ld-{{ section.id }} { --feed-gold: #d4a017; --feed-gold-2: #f5b400; --feed-wa: #25D366; }
-  .feed-ld-{{ section.id }} .page-width { max-width: 112rem; }
+  .feed-ld-{{ section.id }} { --feed-gold: #d4a017; --feed-gold-2: #f5b400; }
   .feed-ld-{{ section.id }} .feed-pad {
     padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
     padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
@@ -43,209 +47,150 @@
     }
   }
 
-  /* ---- breadcrumb ---- */
+  .feed-ld-{{ section.id }} em {
+    font-style: normal;
+    background: linear-gradient(135deg, var(--feed-gold), var(--feed-gold-2));
+    -webkit-background-clip: text; background-clip: text; color: transparent;
+  }
+
+  /* breadcrumb */
   .feed-breadcrumb { font-size: 1.3rem; color: rgba(var(--color-foreground), 0.6); margin-bottom: 2rem; }
   .feed-breadcrumb a { color: inherit; text-decoration: none; }
   .feed-breadcrumb a:hover { text-decoration: underline; }
 
-  /* ---- hero ---- */
-  .feed-herowrap {
-    position: relative; overflow: hidden; border-radius: 2rem;
-    background:
-      radial-gradient(120% 140% at 100% 0%, rgba(245,180,0,0.14), transparent 55%),
-      radial-gradient(100% 120% at 0% 100%, rgba(212,160,23,0.10), transparent 50%),
-      rgba(var(--color-foreground), 0.025);
-    border: 1px solid rgba(212,160,23,0.18);
-    padding: 3.2rem 2.4rem;
-    margin-bottom: 2.4rem;
-  }
-  @media screen and (min-width: 750px) {
-    .feed-herowrap { padding: 4.8rem 4.4rem; }
-  }
+  /* shared header pieces (match howto-order-compact) */
+  .feed-eyebrow { display: inline-block; font-size: 1.2rem; letter-spacing: 0.3rem; text-transform: uppercase; color: rgba(var(--color-foreground), 0.6); margin-bottom: 0.8rem; }
+  .feed-hero h1 { margin: 0 0 1.2rem; line-height: 1.12; font-size: clamp(2.8rem, 4.6vw, 4.2rem); }
+  .feed-sub { font-size: 1.6rem; line-height: 1.6; color: rgba(var(--color-foreground), 0.72); margin: 0 0 2rem; max-width: 60rem; }
+  .feed-actions { display: flex; flex-wrap: wrap; gap: 1rem; }
+
+  /* hero */
   .feed-herogrid { display: grid; grid-template-columns: 1fr; gap: 3.2rem; align-items: start; }
-  @media screen and (min-width: 990px) {
-    .feed-herogrid { grid-template-columns: 1.55fr 1fr; gap: 4.4rem; }
-  }
-  .feed-eyebrow {
-    display: inline-flex; align-items: center; gap: 0.7rem; font-size: 1.2rem; letter-spacing: 0.26rem;
-    text-transform: uppercase; color: var(--feed-gold); margin-bottom: 1.4rem; font-weight: 700;
-  }
-  .feed-eyebrow::before { content: ''; width: 2.4rem; height: 2px; background: linear-gradient(90deg, var(--feed-gold), var(--feed-gold-2)); display: inline-block; }
-  .feed-hero h1 { margin: 0 0 1.6rem; line-height: 1.1; font-size: 3.4rem; }
-  @media screen and (min-width: 750px) { .feed-hero h1 { font-size: 4.8rem; } }
-  .feed-hero h1 em {
-    font-style: normal; background: linear-gradient(135deg, var(--feed-gold), var(--feed-gold-2));
-    -webkit-background-clip: text; background-clip: text; color: transparent;
-  }
-  .feed-sub { font-size: 1.75rem; line-height: 1.6; color: rgba(var(--color-foreground), 0.82); margin: 0 0 2.4rem; max-width: 60rem; }
-  .feed-cta-row { display: flex; flex-wrap: wrap; gap: 1.2rem; }
-  .feed-btn {
-    display: inline-flex; align-items: center; justify-content: center; gap: 0.8rem; padding: 1.3rem 2.6rem;
-    border-radius: 0.8rem; font-size: 1.5rem; font-weight: 600; text-decoration: none; cursor: pointer;
-    border: 1px solid transparent; transition: transform 0.15s ease, box-shadow 0.15s ease;
-  }
-  .feed-btn--primary { background: var(--feed-wa); color: #fff; box-shadow: 0 6px 18px rgba(37,211,102,0.28); }
-  .feed-btn--call { background: linear-gradient(135deg, var(--feed-gold), var(--feed-gold-2)); color: #fff; }
-  .feed-btn--secondary { background: transparent; color: rgb(var(--color-foreground)); border-color: rgba(var(--color-foreground), 0.28); }
-  .feed-btn:hover { transform: translateY(-2px); box-shadow: 0 10px 24px rgba(0,0,0,0.12); }
+  @media screen and (min-width: 990px) { .feed-herogrid { grid-template-columns: 1.6fr 1fr; gap: 4rem; } }
 
-  /* ---- hero quote card ---- */
-  .feed-qcard {
-    background: rgb(var(--color-background)); border: 1px solid rgba(var(--color-foreground), 0.1);
-    border-radius: 1.4rem; padding: 2.6rem 2.4rem; box-shadow: 0 18px 50px rgba(0,0,0,0.10);
-  }
-  .feed-qcard__label { font-size: 1.1rem; letter-spacing: 0.16rem; text-transform: uppercase; color: var(--feed-gold); font-weight: 700; margin-bottom: 0.6rem; }
-  .feed-qcard__title { font-size: 2.1rem; font-weight: 700; margin: 0 0 1.4rem; line-height: 1.2; }
-  .feed-qcard__list { list-style: none; margin: 0 0 2rem; padding: 0; display: grid; gap: 0.9rem; }
-  .feed-qcard__list li { position: relative; padding-left: 2.6rem; font-size: 1.45rem; line-height: 1.45; color: rgba(var(--color-foreground), 0.85); }
-  .feed-qcard__list li::before {
-    content: ''; position: absolute; left: 0; top: 0.1rem; width: 1.8rem; height: 1.8rem; border-radius: 50%;
-    background: linear-gradient(135deg, var(--feed-gold), var(--feed-gold-2));
-    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23fff' stroke-width='3.5' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='20 6 9 17 4 12'/%3E%3C/svg%3E");
-    background-size: 1.1rem; background-repeat: no-repeat; background-position: center;
-  }
-  .feed-qcard .feed-btn { width: 100%; margin-bottom: 1rem; }
-  .feed-qcard__or { text-align: center; font-size: 1.3rem; color: rgba(var(--color-foreground), 0.62); margin: 0; }
-  .feed-qcard__or a { color: var(--feed-gold); text-decoration: none; font-weight: 600; }
+  /* quote card (brand card style) */
+  .feed-qcard { background: rgb(var(--color-background)); border: 1px solid rgba(var(--color-foreground), 0.12); border-radius: 1rem; padding: 2.4rem 2.2rem; }
+  .feed-qcard__label { display: inline-block; font-size: 1.1rem; letter-spacing: 0.18rem; text-transform: uppercase; color: rgba(var(--color-foreground), 0.6); margin-bottom: 0.6rem; }
+  .feed-qcard__title { font-size: 1.9rem; font-weight: 600; margin: 0 0 1.4rem; line-height: 1.2; }
+  .feed-qcard__list { list-style: none; margin: 0 0 2rem; padding: 0; display: grid; gap: 0.8rem; }
+  .feed-qcard__list li { position: relative; padding-left: 2.6rem; font-size: 1.4rem; line-height: 1.45; color: rgba(var(--color-foreground), 0.82); }
+  .feed-qcard__list li svg { position: absolute; left: 0; top: 0.1rem; color: var(--feed-gold); }
+  .feed-qcard .button { width: 100%; margin-bottom: 1rem; }
+  .feed-qcard__or { text-align: center; font-size: 1.3rem; color: rgba(var(--color-foreground), 0.6); margin: 0; }
+  .feed-qcard__or a { color: inherit; font-weight: 600; }
 
-  /* ---- trust stat bar ---- */
-  .feed-stripstats { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1.2rem; margin-top: 3.2rem; }
-  @media screen and (min-width: 750px) { .feed-stripstats { grid-template-columns: repeat(4, 1fr); gap: 2rem; } }
-  .feed-stripstat { text-align: center; padding: 1.4rem 1rem; border-radius: 1rem; background: rgba(var(--color-foreground), 0.035); }
-  .feed-stripstat__num { font-size: 2.8rem; font-weight: 800; line-height: 1; background: linear-gradient(135deg, var(--feed-gold), var(--feed-gold-2)); -webkit-background-clip: text; background-clip: text; color: transparent; }
-  .feed-stripstat__label { font-size: 1.25rem; color: rgba(var(--color-foreground), 0.72); margin-top: 0.6rem; letter-spacing: 0.02rem; }
+  /* trust stat row (match clients-marquee stats) */
+  .feed-statrow { display: flex; flex-wrap: wrap; gap: 2rem 3.4rem; margin-top: 3rem; padding-top: 2.6rem; border-top: 1px solid rgba(var(--color-foreground), 0.1); }
+  .feed-statitem strong { display: block; font-size: 2.6rem; font-weight: 700; line-height: 1; color: var(--feed-gold); }
+  .feed-statitem span { display: block; font-size: 1.3rem; color: rgba(var(--color-foreground), 0.65); margin-top: 0.5rem; }
 
-  /* ---- clients strip ---- */
+  /* clients strip (match clients-marquee) */
   .feed-clients { text-align: center; margin: 4rem 0 0; }
-  .feed-clients__label { font-size: 1.2rem; letter-spacing: 0.22rem; text-transform: uppercase; color: rgba(var(--color-foreground), 0.55); margin-bottom: 1.6rem; }
-  .feed-clients__track-wrap { position: relative; width: 100vw; margin-left: calc(50% - 50vw); overflow: hidden; padding: 0.4rem 0;
-    mask-image: linear-gradient(90deg, transparent, #000 6%, #000 94%, transparent);
-    -webkit-mask-image: linear-gradient(90deg, transparent, #000 6%, #000 94%, transparent); }
-  .feed-clients__track { display: flex; width: max-content; gap: 3.6rem; align-items: center; animation: feedclients-scroll 55s linear infinite; }
+  .feed-clients__label { font-size: 1.2rem; letter-spacing: 0.3rem; text-transform: uppercase; color: rgba(var(--color-foreground), 0.55); margin-bottom: 1.6rem; }
+  .feed-clients__wrap { position: relative; width: 100vw; margin-left: calc(50% - 50vw); overflow: hidden; padding: 0.4rem 0;
+    -webkit-mask-image: linear-gradient(90deg, transparent, #000 6%, #000 94%, transparent);
+    mask-image: linear-gradient(90deg, transparent, #000 6%, #000 94%, transparent); }
+  .feed-clients__track { display: flex; width: max-content; gap: 4.8rem; align-items: center; animation: feedclients 55s linear infinite; }
   .feed-clients__track:hover { animation-play-state: paused; }
-  .feed-clients__brand { font-size: 1.7rem; font-weight: 600; color: rgba(var(--color-foreground), 0.45); white-space: nowrap; }
-  @keyframes feedclients-scroll { from { transform: translateX(0); } to { transform: translateX(-50%); } }
+  .feed-clients__brand { font-size: 1.6rem; font-weight: 600; color: rgba(var(--color-foreground), 0.4); white-space: nowrap; }
+  @keyframes feedclients { from { transform: translateX(0); } to { transform: translateX(-50%); } }
   @media (prefers-reduced-motion: reduce) { .feed-clients__track { animation: none; flex-wrap: wrap; justify-content: center; } }
 
-  /* ---- AEO quick answer ---- */
-  .feed-answer {
-    background: rgba(var(--color-foreground), 0.04); border-left: 4px solid var(--feed-gold);
-    border-radius: 0.8rem; padding: 2.2rem 2.6rem; margin: 3.6rem auto; font-size: 1.65rem; line-height: 1.65; max-width: 82rem;
-  }
-  .feed-answer__label { font-size: 1.1rem; letter-spacing: 0.18rem; text-transform: uppercase; color: var(--feed-gold); font-weight: 700; margin-bottom: 0.8rem; }
+  /* AEO quick answer */
+  .feed-answer { background: rgba(var(--color-foreground), 0.04); border-left: 3px solid var(--feed-gold); padding: 2rem 2.4rem; margin: 3.4rem 0; font-size: 1.6rem; line-height: 1.65; max-width: 82rem; }
+  .feed-answer__label { font-size: 1.1rem; letter-spacing: 0.18rem; text-transform: uppercase; color: rgba(var(--color-foreground), 0.6); font-weight: 600; margin-bottom: 0.7rem; }
   .feed-answer p:last-child { margin-bottom: 0; }
 
-  /* ---- prose ---- */
-  .feed-body { font-size: 1.65rem; line-height: 1.75; max-width: 82rem; }
-  .feed-body h2 { font-size: 2.6rem; margin: 3.6rem 0 1.2rem; }
-  .feed-body h3 { font-size: 2rem; margin: 2.8rem 0 1rem; }
+  /* prose */
+  .feed-body { font-size: 1.6rem; line-height: 1.75; max-width: 82rem; }
+  .feed-body h2 { font-size: clamp(2.2rem, 3.6vw, 3.2rem); line-height: 1.15; margin: 3.4rem 0 1.2rem; }
+  .feed-body h3 { font-size: 1.9rem; margin: 2.6rem 0 1rem; }
   .feed-body ul, .feed-body ol { padding-left: 2rem; }
   .feed-body li { margin-bottom: 0.6rem; }
 
-  .feed-blocktitle { font-size: 2.8rem; margin: 4.4rem 0 0.6rem; line-height: 1.18; }
-  .feed-blocktitle + .feed-blocktitle-sub { margin-top: 0; }
-  .feed-section-intro { font-size: 1.55rem; color: rgba(var(--color-foreground), 0.7); margin: 0 0 2rem; max-width: 70rem; }
+  .feed-blocktitle { font-size: clamp(2.2rem, 3.6vw, 3.2rem); line-height: 1.15; margin: 4rem 0 0.6rem; }
+  .feed-blockintro { font-size: 1.5rem; color: rgba(var(--color-foreground), 0.7); margin: 0 0 2rem; max-width: 70rem; }
 
-  /* ---- feature cards ---- */
-  .feed-features { display: grid; grid-template-columns: 1fr; gap: 1.6rem; margin: 2.4rem 0; }
-  @media screen and (min-width: 750px) { .feed-features { grid-template-columns: 1fr 1fr; } }
-  .feed-feature {
-    background: rgba(var(--color-foreground), 0.025); border: 1px solid rgba(var(--color-foreground), 0.08);
-    border-radius: 1.2rem; padding: 2.2rem 2.2rem; transition: transform 0.15s ease, box-shadow 0.15s ease, border-color 0.15s ease;
-  }
-  .feed-feature:hover { transform: translateY(-3px); box-shadow: 0 12px 30px rgba(0,0,0,0.08); border-color: rgba(212,160,23,0.4); }
-  .feed-feature__icon {
-    width: 4rem; height: 4rem; border-radius: 1rem; margin-bottom: 1.4rem; display: flex; align-items: center; justify-content: center;
-    background: linear-gradient(135deg, rgba(212,160,23,0.16), rgba(245,180,0,0.10)); color: var(--feed-gold);
-  }
-  .feed-feature__title { font-size: 1.8rem; font-weight: 700; margin: 0 0 0.6rem; }
-  .feed-feature__text { font-size: 1.5rem; line-height: 1.55; color: rgba(var(--color-foreground), 0.78); margin: 0; }
+  /* card grids share brand card look */
+  .feed-card { background: rgb(var(--color-background)); border: 1px solid rgba(var(--color-foreground), 0.1); border-radius: 1rem; transition: transform 0.4s cubic-bezier(0.2,0.8,0.2,1), border-color 0.3s ease, box-shadow 0.3s ease; }
+  .feed-card:hover { transform: translateY(-4px); border-color: rgba(245,180,0,0.5); box-shadow: 0 0.6rem 2rem rgba(212,160,23,0.12); }
 
-  /* ---- stat cards (block-driven) ---- */
-  .feed-stats { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1.6rem; margin: 3.2rem 0; }
+  .feed-features { display: grid; grid-template-columns: 1fr; gap: 1.6rem; margin: 2.2rem 0; }
+  @media screen and (min-width: 750px) { .feed-features { grid-template-columns: repeat(2, 1fr); } }
+  @media screen and (min-width: 990px) { .feed-features { grid-template-columns: repeat(2, 1fr); } }
+  .feed-feature { padding: 2.2rem 2rem; }
+  .feed-feature__icon { width: 3.2rem; height: 3.2rem; color: var(--feed-gold); margin-bottom: 1.2rem; display: flex; align-items: center; justify-content: center; }
+  .feed-feature__title { font-size: 1.7rem; font-weight: 600; margin: 0 0 0.5rem; }
+  .feed-feature__text { font-size: 1.45rem; line-height: 1.55; color: rgba(var(--color-foreground), 0.72); margin: 0; }
+
+  /* stats cards */
+  .feed-stats { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1.6rem; margin: 3rem 0; }
   @media screen and (min-width: 750px) { .feed-stats { grid-template-columns: repeat(4, 1fr); } }
-  .feed-stat { text-align: center; padding: 2rem 1.2rem; border-radius: 1.2rem; background: rgba(var(--color-foreground), 0.03); }
-  .feed-stat__num { font-size: 3.4rem; font-weight: 800; line-height: 1; background: linear-gradient(135deg, var(--feed-gold), var(--feed-gold-2)); -webkit-background-clip: text; background-clip: text; color: transparent; }
-  .feed-stat__label { font-size: 1.35rem; color: rgba(var(--color-foreground), 0.72); margin-top: 0.8rem; }
+  .feed-stat { padding: 2rem 1.4rem; text-align: center; }
+  .feed-stat__num { font-size: 3rem; font-weight: 700; line-height: 1; color: var(--feed-gold); }
+  .feed-stat__label { font-size: 1.3rem; color: rgba(var(--color-foreground), 0.7); margin-top: 0.7rem; }
 
-  /* ---- steps rail ---- */
-  .feed-steps { counter-reset: feedstep; margin: 2.4rem 0; display: grid; gap: 1.6rem; }
+  /* steps (match howto number badge) */
+  .feed-steps { display: grid; grid-template-columns: 1fr; gap: 2.4rem 1.6rem; margin: 3.2rem 0 2.4rem; }
   @media screen and (min-width: 750px) { .feed-steps { grid-template-columns: repeat(2, 1fr); } }
-  .feed-step {
-    position: relative; padding: 2rem 2rem 2rem 5.4rem; border-radius: 1.2rem;
-    background: rgba(var(--color-foreground), 0.025); border: 1px solid rgba(var(--color-foreground), 0.08);
-  }
-  .feed-step::before {
-    counter-increment: feedstep; content: counter(feedstep); position: absolute; left: 1.8rem; top: 1.8rem;
-    width: 3rem; height: 3rem; border-radius: 50%; background: linear-gradient(135deg, var(--feed-gold), var(--feed-gold-2));
-    color: #fff; font-weight: 800; font-size: 1.4rem; display: flex; align-items: center; justify-content: center;
-  }
-  .feed-step__title { font-size: 1.7rem; font-weight: 700; margin: 0 0 0.4rem; }
-  .feed-step__text { font-size: 1.5rem; line-height: 1.55; color: rgba(var(--color-foreground), 0.78); margin: 0; }
+  .feed-step { position: relative; padding: 2.4rem 2rem 2rem; text-align: center; }
+  .feed-step__num { position: absolute; top: -1.4rem; left: 50%; transform: translateX(-50%); width: 2.8rem; height: 2.8rem; border-radius: 50%; background: linear-gradient(135deg, var(--feed-gold), var(--feed-gold-2)); color: #1a1a2e; font-weight: 700; font-size: 1.3rem; display: flex; align-items: center; justify-content: center; box-shadow: 0 0.4rem 1rem rgba(212,160,23,0.4); }
+  .feed-step__title { font-size: 1.6rem; font-weight: 600; margin: 0.6rem 0 0.4rem; }
+  .feed-step__text { font-size: 1.4rem; line-height: 1.5; color: rgba(var(--color-foreground), 0.7); margin: 0; }
 
-  /* ---- price table ---- */
-  .feed-table-wrap { overflow-x: auto; margin: 2.4rem 0; border: 1px solid rgba(var(--color-foreground), 0.1); border-radius: 1.2rem; }
-  .feed-table { width: 100%; border-collapse: collapse; font-size: 1.55rem; }
+  /* price table */
+  .feed-table-wrap { overflow-x: auto; margin: 2.2rem 0; border: 1px solid rgba(var(--color-foreground), 0.12); border-radius: 1rem; }
+  .feed-table { width: 100%; border-collapse: collapse; font-size: 1.5rem; }
   .feed-table th, .feed-table td { text-align: left; padding: 1.4rem 1.8rem; border-bottom: 1px solid rgba(var(--color-foreground), 0.1); }
   .feed-table thead th { font-size: 1.2rem; letter-spacing: 0.06rem; text-transform: uppercase; color: rgba(var(--color-foreground), 0.6); background: rgba(var(--color-foreground), 0.03); }
   .feed-table tbody tr:last-child td { border-bottom: none; }
-  .feed-table tbody tr:hover { background: rgba(212,160,23,0.05); }
   .feed-table td:last-child { font-weight: 700; white-space: nowrap; color: var(--feed-gold); }
   .feed-price-caption { font-size: 1.3rem; color: rgba(var(--color-foreground), 0.6); margin-top: 1rem; }
 
-  /* ---- FAQ ---- */
-  .feed-faq { margin: 2.4rem 0; max-width: 82rem; }
-  .feed-faq details { border: 1px solid rgba(var(--color-foreground), 0.12); border-radius: 1rem; padding: 1.6rem 2rem; margin-bottom: 1rem; transition: border-color 0.15s ease; }
-  .feed-faq details[open] { border-color: rgba(212,160,23,0.4); }
-  .feed-faq summary { font-size: 1.75rem; font-weight: 600; cursor: pointer; list-style: none; display: flex; justify-content: space-between; gap: 1.2rem; }
-  .feed-faq summary::-webkit-details-marker { display: none; }
-  .feed-faq summary::after { content: '+'; color: var(--feed-gold); font-size: 2.4rem; line-height: 1; }
-  .feed-faq details[open] summary::after { content: '–'; }
-  .feed-faq__a { font-size: 1.55rem; line-height: 1.65; color: rgba(var(--color-foreground), 0.82); margin-top: 1.2rem; }
-
-  /* ---- why-meru trust band ---- */
-  .feed-why { margin: 4.8rem 0 0; padding: 3.6rem 2.8rem; border-radius: 1.6rem; background: rgba(var(--color-foreground), 0.03); }
+  /* why band */
+  .feed-why { margin: 4.4rem 0 0; padding: 3.4rem 2.8rem; border: 1px solid rgba(var(--color-foreground), 0.1); border-radius: 1.2rem; background: rgba(var(--color-foreground), 0.02); }
   .feed-why__grid { display: grid; grid-template-columns: 1fr; gap: 2rem; margin-top: 2rem; }
   @media screen and (min-width: 750px) { .feed-why__grid { grid-template-columns: repeat(2, 1fr); } }
   @media screen and (min-width: 990px) { .feed-why__grid { grid-template-columns: repeat(4, 1fr); } }
   .feed-why__item { display: flex; gap: 1.2rem; align-items: flex-start; }
-  .feed-why__icon { flex: 0 0 auto; width: 3.4rem; height: 3.4rem; border-radius: 0.9rem; display: flex; align-items: center; justify-content: center; background: linear-gradient(135deg, rgba(212,160,23,0.16), rgba(245,180,0,0.10)); color: var(--feed-gold); }
-  .feed-why__t { font-size: 1.6rem; font-weight: 700; margin: 0 0 0.3rem; }
-  .feed-why__d { font-size: 1.4rem; line-height: 1.5; color: rgba(var(--color-foreground), 0.75); margin: 0; }
+  .feed-why__icon { flex: 0 0 auto; color: var(--feed-gold); }
+  .feed-why__t { font-size: 1.55rem; font-weight: 600; margin: 0 0 0.3rem; }
+  .feed-why__d { font-size: 1.35rem; line-height: 1.5; color: rgba(var(--color-foreground), 0.72); margin: 0; }
 
-  /* ---- cta band ---- */
-  .feed-ctaband { background: linear-gradient(135deg, rgba(212,160,23,0.14), rgba(245,180,0,0.06)); border: 1px solid rgba(212,160,23,0.3); border-radius: 1.6rem; padding: 4rem 3.2rem; text-align: center; margin: 4.4rem 0 0; }
-  .feed-ctaband h2 { margin: 0 0 1rem; font-size: 2.8rem; }
-  .feed-ctaband p { font-size: 1.65rem; color: rgba(var(--color-foreground), 0.8); margin: 0 auto 2.2rem; max-width: 62rem; }
-  .feed-ctaband__row { display: flex; flex-wrap: wrap; gap: 1.2rem; justify-content: center; }
+  /* FAQ */
+  .feed-faq { margin: 2.2rem 0; max-width: 82rem; }
+  .feed-faq details { border-bottom: 1px solid rgba(var(--color-foreground), 0.14); padding: 1.6rem 0; }
+  .feed-faq summary { font-size: 1.65rem; font-weight: 600; cursor: pointer; list-style: none; display: flex; justify-content: space-between; gap: 1.2rem; }
+  .feed-faq summary::-webkit-details-marker { display: none; }
+  .feed-faq summary::after { content: '+'; color: var(--feed-gold); font-size: 2.2rem; line-height: 1; }
+  .feed-faq details[open] summary::after { content: '\2013'; }
+  .feed-faq__a { font-size: 1.5rem; line-height: 1.65; color: rgba(var(--color-foreground), 0.8); margin-top: 1.1rem; }
 
-  /* ---- related products ---- */
-  .feed-related { margin: 4.8rem 0 0; }
-  .feed-related h2 { font-size: 2.8rem; margin: 0 0 1.6rem; }
+  /* CTA band (match howto cta) */
+  .feed-ctaband { margin: 4.4rem 0 0; padding: 3.2rem 2.4rem; text-align: center; border-radius: 1.2rem; background: linear-gradient(135deg, rgba(245,180,0,0.1), rgba(116,73,200,0.06)); border: 1px solid rgba(245,180,0,0.22); }
+  .feed-ctaband h2 { margin: 0 0 0.8rem; font-size: clamp(2rem, 3.2vw, 2.6rem); }
+  .feed-ctaband p { font-size: 1.5rem; color: rgba(var(--color-foreground), 0.78); margin: 0 auto 1.8rem; max-width: 58rem; }
+  .feed-ctaband__row { display: flex; flex-wrap: wrap; gap: 1rem; justify-content: center; }
+
+  /* related products */
+  .feed-related { margin: 4.4rem 0 0; }
+  .feed-related h2 { font-size: clamp(2.2rem, 3.6vw, 3.2rem); margin: 0 0 1.6rem; }
   .feed-related .product-grid { margin: 0; }
 
-  /* ---- contact band ---- */
-  .feed-contact { margin: 4.8rem 0 0; padding: 3.6rem 2.8rem; border-radius: 1.6rem; border: 1px solid rgba(var(--color-foreground), 0.1); background: rgba(var(--color-foreground), 0.02); }
+  /* contact band */
+  .feed-contact { margin: 4.4rem 0 0; padding: 3.4rem 2.8rem; border: 1px solid rgba(var(--color-foreground), 0.1); border-radius: 1.2rem; }
   .feed-contact__grid { display: grid; grid-template-columns: 1fr; gap: 2.4rem; align-items: center; }
   @media screen and (min-width: 750px) { .feed-contact__grid { grid-template-columns: 1.2fr 1fr; } }
-  .feed-contact h2 { font-size: 2.4rem; margin: 0 0 0.8rem; }
-  .feed-contact p { font-size: 1.55rem; color: rgba(var(--color-foreground), 0.78); margin: 0 0 1.6rem; }
+  .feed-contact h2 { font-size: clamp(2rem, 3.2vw, 2.4rem); margin: 0 0 0.8rem; }
+  .feed-contact p { font-size: 1.5rem; color: rgba(var(--color-foreground), 0.75); margin: 0 0 1.6rem; }
   .feed-contact__lines { display: grid; gap: 1rem; }
-  .feed-contact__line { display: flex; align-items: center; gap: 1rem; font-size: 1.6rem; }
+  .feed-contact__line { display: flex; align-items: center; gap: 1rem; font-size: 1.55rem; }
   .feed-contact__line a { color: inherit; text-decoration: none; font-weight: 600; }
   .feed-contact__line a:hover { color: var(--feed-gold); }
   .feed-contact__ic { flex: 0 0 auto; color: var(--feed-gold); }
-  .feed-contact__cta { display: flex; flex-direction: column; gap: 1rem; }
-  .feed-contact__cta .feed-btn { width: 100%; }
+  .feed-contact__cta { display: grid; gap: 1rem; }
+  .feed-contact__cta .button { width: 100%; }
 {%- endstyle -%}
-
-{%- liquid
-  assign feature_blocks = section.blocks | where: 'type', 'feature'
-  assign stat_blocks = section.blocks | where: 'type', 'stat'
-  assign price_blocks = section.blocks | where: 'type', 'price_row'
-  assign step_blocks = section.blocks | where: 'type', 'step'
-  assign faq_blocks = section.blocks | where: 'type', 'faq'
--%}
 
 <div class="color-{{ section.settings.color_scheme }} gradient feed-ld-{{ section.id }}">
   <div class="page-width feed-pad">
@@ -259,58 +204,44 @@
     {%- endif -%}
 
     {%- comment -%} ---------- HERO ---------- {%- endcomment -%}
-    <div class="feed-herowrap">
-      <div class="feed-herogrid">
-        <header class="feed-hero">
-          {%- if section.settings.eyebrow != blank -%}<span class="feed-eyebrow">{{ section.settings.eyebrow }}</span>{%- endif -%}
-          {%- if section.settings.heading != blank -%}{{ section.settings.heading }}{%- else -%}<h1>{{ page.title }}</h1>{%- endif -%}
-          {%- if section.settings.subheading != blank -%}<p class="feed-sub">{{ section.settings.subheading }}</p>{%- endif -%}
-          <div class="feed-cta-row">
-            <a class="feed-btn feed-btn--primary" href="{{ primary_url }}" target="_blank" rel="noopener">
-              <svg viewBox="0 0 32 32" width="18" height="18" fill="currentColor" aria-hidden="true"><path d="M16 3C9.373 3 4 8.373 4 15c0 2.385.668 4.61 1.832 6.502L4 29l7.701-1.814A11.94 11.94 0 0016 27c6.627 0 12-5.373 12-12S22.627 3 16 3zm0 22a9.95 9.95 0 01-5.078-1.393l-.364-.217-4.573 1.077 1.099-4.461-.237-.376A9.953 9.953 0 016 15c0-5.514 4.486-10 10-10s10 4.486 10 10-4.486 10-10 10z"/></svg>
-              {{ section.settings.primary_cta_label | default: 'Get a quote on WhatsApp' }}
-            </a>
-            <a class="feed-btn feed-btn--call" href="tel:{{ phone_tel }}">
-              <svg viewBox="0 0 24 24" width="17" height="17" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
-              Call {{ phone_display }}
-            </a>
-            {%- if section.settings.secondary_cta_label != blank -%}
-              <a class="feed-btn feed-btn--secondary" href="{{ section.settings.secondary_cta_url | default: '/collections/all' }}">{{ section.settings.secondary_cta_label }}</a>
-            {%- endif -%}
-          </div>
-        </header>
-
-        {%- if section.settings.show_quote_card -%}
-          <aside class="feed-qcard">
-            <div class="feed-qcard__label">Free quote</div>
-            <p class="feed-qcard__title">{{ section.settings.quote_card_title | default: 'Tell us what you need' }}</p>
-            <ul class="feed-qcard__list">
-              <li>Free design mock-up before you pay</li>
-              <li>No minimum order quantity</li>
-              <li>GST invoice for companies &amp; schools</li>
-              <li>Dispatch in 5–7 days, pan-India</li>
-            </ul>
-            <a class="feed-btn feed-btn--primary" href="{{ primary_url }}" target="_blank" rel="noopener">
-              <svg viewBox="0 0 32 32" width="18" height="18" fill="currentColor" aria-hidden="true"><path d="M16 3C9.373 3 4 8.373 4 15c0 2.385.668 4.61 1.832 6.502L4 29l7.701-1.814A11.94 11.94 0 0016 27c6.627 0 12-5.373 12-12S22.627 3 16 3zm0 22a9.95 9.95 0 01-5.078-1.393l-.364-.217-4.573 1.077 1.099-4.461-.237-.376A9.953 9.953 0 016 15c0-5.514 4.486-10 10-10s10 4.486 10 10-4.486 10-10 10z"/></svg>
-              Get a quote on WhatsApp
-            </a>
-            <a class="feed-btn feed-btn--call" href="tel:{{ phone_tel }}">Call {{ phone_display }}</a>
-            <p class="feed-qcard__or">or email <a href="mailto:{{ email }}">{{ email }}</a></p>
-          </aside>
-        {%- endif -%}
-      </div>
-
-      {%- if section.settings.show_trust_stats and section.settings.trust_stats != blank -%}
-        <div class="feed-stripstats">
-          {%- assign stat_pairs = section.settings.trust_stats | split: '·' -%}
-          {%- for pair in stat_pairs limit: 4 -%}
-            {%- assign kv = pair | split: '|' -%}
-            <div class="feed-stripstat">
-              <div class="feed-stripstat__num">{{ kv[0] | strip }}</div>
-              <div class="feed-stripstat__label">{{ kv[1] | strip }}</div>
-            </div>
-          {%- endfor -%}
+    <div class="feed-herogrid">
+      <header class="feed-hero">
+        {%- if section.settings.eyebrow != blank -%}<span class="feed-eyebrow">{{ section.settings.eyebrow }}</span>{%- endif -%}
+        {%- if section.settings.heading != blank -%}{{ section.settings.heading }}{%- else -%}<h1>{{ page.title }}</h1>{%- endif -%}
+        {%- if section.settings.subheading != blank -%}<p class="feed-sub">{{ section.settings.subheading }}</p>{%- endif -%}
+        <div class="feed-actions">
+          <a class="button button--primary" href="{{ primary_url }}" target="_blank" rel="noopener">{{ section.settings.primary_cta_label | default: 'Get a quote on WhatsApp' }}</a>
+          <a class="button button--secondary" href="tel:{{ phone_tel }}">Call {{ phone_display }}</a>
+          {%- if section.settings.secondary_cta_label != blank -%}
+            <a class="button button--secondary" href="{{ section.settings.secondary_cta_url | default: '/collections/all' }}">{{ section.settings.secondary_cta_label }}</a>
+          {%- endif -%}
         </div>
+
+        {%- if section.settings.show_trust_stats and section.settings.trust_stats != blank -%}
+          <div class="feed-statrow">
+            {%- assign stat_pairs = section.settings.trust_stats | split: '·' -%}
+            {%- for pair in stat_pairs limit: 4 -%}
+              {%- assign kv = pair | split: '|' -%}
+              <div class="feed-statitem"><strong>{{ kv[0] | strip }}</strong><span>{{ kv[1] | strip }}</span></div>
+            {%- endfor -%}
+          </div>
+        {%- endif -%}
+      </header>
+
+      {%- if section.settings.show_quote_card -%}
+        <aside class="feed-qcard">
+          <span class="feed-qcard__label">Free quote</span>
+          <p class="feed-qcard__title">{{ section.settings.quote_card_title | default: 'Tell us what you need' }}</p>
+          <ul class="feed-qcard__list">
+            <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>Free design mock-up before you pay</li>
+            <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>No minimum order quantity</li>
+            <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>GST invoice for companies &amp; schools</li>
+            <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>Dispatch in 5–7 days, pan-India</li>
+          </ul>
+          <a class="button button--primary" href="{{ primary_url }}" target="_blank" rel="noopener">Get a quote on WhatsApp</a>
+          <a class="button button--secondary" href="tel:{{ phone_tel }}">Call {{ phone_display }}</a>
+          <p class="feed-qcard__or">or email <a href="mailto:{{ email }}">{{ email }}</a></p>
+        </aside>
       {%- endif -%}
     </div>
 
@@ -318,46 +249,38 @@
     {%- if section.settings.show_clients and section.settings.clients_brands != blank -%}
       <div class="feed-clients">
         <div class="feed-clients__label">{{ section.settings.clients_label | default: 'Trusted by 150+ brands, schools & sports bodies across India' }}</div>
-        <div class="feed-clients__track-wrap">
+        <div class="feed-clients__wrap">
           <div class="feed-clients__track">
             {%- assign brands = section.settings.clients_brands | split: '·' -%}
             {%- for b in brands -%}<span class="feed-clients__brand">{{ b | strip }}</span>{%- endfor -%}
-            {%- comment -%} duplicate for seamless loop {%- endcomment -%}
             {%- for b in brands -%}<span class="feed-clients__brand" aria-hidden="true">{{ b | strip }}</span>{%- endfor -%}
           </div>
         </div>
       </div>
     {%- endif -%}
 
-    {%- comment -%} ---------- IN-FLOW BLOCKS (quick answer, rich text, cta band) ---------- {%- endcomment -%}
+    {%- comment -%} ---------- IN-FLOW BLOCKS ---------- {%- endcomment -%}
     {%- for block in section.blocks -%}
       {%- case block.type -%}
-
         {%- when 'quick_answer' -%}
           <div class="feed-answer" {{ block.shopify_attributes }}>
             <div class="feed-answer__label">{{ block.settings.label | default: 'Quick answer' }}</div>
             {{ block.settings.text }}
           </div>
-
         {%- when 'rich_text' -%}
           <div class="feed-body" {{ block.shopify_attributes }}>
             {%- if block.settings.heading != blank -%}<h2 class="feed-blocktitle">{{ block.settings.heading }}</h2>{%- endif -%}
             {{ block.settings.text }}
           </div>
-
         {%- when 'cta_band' -%}
           <div class="feed-ctaband" {{ block.shopify_attributes }}>
             <h2>{{ block.settings.heading | default: 'Ready to order?' }}</h2>
             {%- if block.settings.text != blank -%}<p>{{ block.settings.text }}</p>{%- endif -%}
             <div class="feed-ctaband__row">
-              <a class="feed-btn feed-btn--primary" href="{{ primary_url }}" target="_blank" rel="noopener">
-                <svg viewBox="0 0 32 32" width="18" height="18" fill="currentColor" aria-hidden="true"><path d="M16 3C9.373 3 4 8.373 4 15c0 2.385.668 4.61 1.832 6.502L4 29l7.701-1.814A11.94 11.94 0 0016 27c6.627 0 12-5.373 12-12S22.627 3 16 3zm0 22a9.95 9.95 0 01-5.078-1.393l-.364-.217-4.573 1.077 1.099-4.461-.237-.376A9.953 9.953 0 016 15c0-5.514 4.486-10 10-10s10 4.486 10 10-4.486 10-10 10z"/></svg>
-                {{ block.settings.button_label | default: 'Message us on WhatsApp' }}
-              </a>
-              <a class="feed-btn feed-btn--call" href="tel:{{ phone_tel }}">Call {{ phone_display }}</a>
+              <a class="button button--primary" href="{{ primary_url }}" target="_blank" rel="noopener">{{ block.settings.button_label | default: 'Message us on WhatsApp' }}</a>
+              <a class="button button--secondary" href="tel:{{ phone_tel }}">Call {{ phone_display }}</a>
             </div>
           </div>
-
       {%- endcase -%}
     {%- endfor -%}
 
@@ -365,7 +288,7 @@
     {%- if stat_blocks.size > 0 -%}
       <div class="feed-stats">
         {%- for block in stat_blocks -%}
-          <div class="feed-stat" {{ block.shopify_attributes }}>
+          <div class="feed-card feed-stat" {{ block.shopify_attributes }}>
             <div class="feed-stat__num">{{ block.settings.number }}</div>
             <div class="feed-stat__label">{{ block.settings.label }}</div>
           </div>
@@ -378,9 +301,9 @@
       {%- if section.settings.features_heading != blank -%}<h2 class="feed-blocktitle">{{ section.settings.features_heading }}</h2>{%- endif -%}
       <div class="feed-features">
         {%- for block in feature_blocks -%}
-          <div class="feed-feature" {{ block.shopify_attributes }}>
+          <div class="feed-card feed-feature" {{ block.shopify_attributes }}>
             <div class="feed-feature__icon" aria-hidden="true">
-              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+              <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
             </div>
             <p class="feed-feature__title">{{ block.settings.title }}</p>
             <p class="feed-feature__text">{{ block.settings.text }}</p>
@@ -389,12 +312,13 @@
       </div>
     {%- endif -%}
 
-    {%- comment -%} ---------- STEPS RAIL ---------- {%- endcomment -%}
+    {%- comment -%} ---------- STEPS ---------- {%- endcomment -%}
     {%- if step_blocks.size > 0 -%}
       {%- if section.settings.steps_heading != blank -%}<h2 class="feed-blocktitle">{{ section.settings.steps_heading }}</h2>{%- endif -%}
       <div class="feed-steps">
         {%- for block in step_blocks -%}
-          <div class="feed-step" {{ block.shopify_attributes }}>
+          <div class="feed-card feed-step" {{ block.shopify_attributes }}>
+            <div class="feed-step__num">{{ forloop.index }}</div>
             <p class="feed-step__title">{{ block.settings.title }}</p>
             <p class="feed-step__text">{{ block.settings.text }}</p>
           </div>
@@ -432,19 +356,19 @@
         <h2 class="feed-blocktitle" style="margin-top:0;">{{ section.settings.why_heading | default: 'Why order from Meru Trophy' }}</h2>
         <div class="feed-why__grid">
           <div class="feed-why__item">
-            <div class="feed-why__icon" aria-hidden="true"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg></div>
+            <span class="feed-why__icon" aria-hidden="true"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg></span>
             <div><p class="feed-why__t">20+ years of craft</p><p class="feed-why__d">A trusted Bangalore manufacturer with two decades of award-making experience.</p></div>
           </div>
           <div class="feed-why__item">
-            <div class="feed-why__icon" aria-hidden="true"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg></div>
+            <span class="feed-why__icon" aria-hidden="true"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></span>
             <div><p class="feed-why__t">Full customisation</p><p class="feed-why__d">Free design, engraving and full-colour logo printing on every order.</p></div>
           </div>
           <div class="feed-why__item">
-            <div class="feed-why__icon" aria-hidden="true"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="1" y="3" width="15" height="13"/><path d="M16 8h4l3 3v5h-7V8z"/><circle cx="5.5" cy="18.5" r="2.5"/><circle cx="18.5" cy="18.5" r="2.5"/></svg></div>
-            <div><p class="feed-why__t">Pan-India delivery</p><p class="feed-why__d">Shipped to 20+ cities and 500+ pin codes, with international options.</p></div>
+            <span class="feed-why__icon" aria-hidden="true"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="1" y="3" width="15" height="13"/><path d="M16 8h4l3 3v5h-7V8z"/><circle cx="5.5" cy="18.5" r="2.5"/><circle cx="18.5" cy="18.5" r="2.5"/></svg></span>
+            <div><p class="feed-why__t">Pan-India delivery</p><p class="feed-why__d">Shipped to 20+ cities and 500+ pin codes, with worldwide options.</p></div>
           </div>
           <div class="feed-why__item">
-            <div class="feed-why__icon" aria-hidden="true"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="9" y1="15" x2="15" y2="15"/></svg></div>
+            <span class="feed-why__icon" aria-hidden="true"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="9" y1="15" x2="15" y2="15"/></svg></span>
             <div><p class="feed-why__t">GST invoicing</p><p class="feed-why__d">Proper GST bills for companies, schools, clubs and government orders.</p></div>
           </div>
         </div>
@@ -513,11 +437,8 @@
             </div>
           </div>
           <div class="feed-contact__cta">
-            <a class="feed-btn feed-btn--primary" href="{{ primary_url }}" target="_blank" rel="noopener">
-              <svg viewBox="0 0 32 32" width="18" height="18" fill="currentColor" aria-hidden="true"><path d="M16 3C9.373 3 4 8.373 4 15c0 2.385.668 4.61 1.832 6.502L4 29l7.701-1.814A11.94 11.94 0 0016 27c6.627 0 12-5.373 12-12S22.627 3 16 3zm0 22a9.95 9.95 0 01-5.078-1.393l-.364-.217-4.573 1.077 1.099-4.461-.237-.376A9.953 9.953 0 016 15c0-5.514 4.486-10 10-10s10 4.486 10 10-4.486 10-10 10z"/></svg>
-              Chat on WhatsApp
-            </a>
-            <a class="feed-btn feed-btn--secondary" href="/pages/feeds">Explore more guides</a>
+            <a class="button button--primary" href="{{ primary_url }}" target="_blank" rel="noopener">Chat on WhatsApp</a>
+            <a class="button button--secondary" href="/pages/feeds">Explore more guides</a>
           </div>
         </div>
       </div>
