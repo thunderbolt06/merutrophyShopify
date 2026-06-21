@@ -1,0 +1,160 @@
+{
+  "sections": {
+    "feed": {
+      "type": "feed-landing",
+      "settings": {
+        "eyebrow": "Product · Shields",
+        "heading": "<h1>Custom <em>Shields & Plaques</em> in India</h1>",
+        "subheading": "Wooden, metal and acrylic award shields and plaques for felicitations, honour boards, inaugurations and recognition — engraved with names, logos and citations. Custom-made in Bangalore.",
+        "primary_cta_label": "Get a quote on WhatsApp",
+        "secondary_cta_label": "Browse the catalogue",
+        "secondary_cta_url": "/collections/all",
+        "breadcrumb_label": "Shields & Plaques India",
+        "faq_heading": "Frequently asked questions",
+        "schema_type": "Product",
+        "schema_name": "Shields & Plaques",
+        "color_scheme": "scheme-1",
+        "features_heading": "Why order from Meru Trophy",
+        "price_heading": "Shield & plaque price guide",
+        "price_col1": "Item",
+        "price_col2": "Details",
+        "price_col3": "Price (from)",
+        "price_caption": "Indicative starting prices in India. Final price depends on size, material and engraving. Bulk discounts apply. GST invoice available.",
+        "schema_price_low": "250",
+        "schema_price_high": "2500"
+      },
+      "blocks": {
+        "b0": {
+          "type": "quick_answer",
+          "settings": {
+            "label": "Quick answer",
+            "text": "<p>Meru Trophy makes <strong>award shields and plaques</strong> in wood, metal and acrylic from around <strong>₹250</strong> — for felicitations, honour boards, inaugurations and recognition. Engraved with names, logos and citations, delivered pan-India. WhatsApp +91 78922 07252.</p>"
+          }
+        },
+        "b1": {
+          "type": "rich_text",
+          "settings": {
+            "heading": "Classic shields and plaques",
+            "text": "<p>Shields and plaques are the traditional choice for felicitations, foundation-stone and inauguration mementos, honour boards and service recognition. We make them in engraved wood, plated metal and printed acrylic, with your logo, citation and date — single pieces or matched sets for a board of honourees.</p>"
+          }
+        },
+        "b2": {
+          "type": "feature",
+          "settings": {
+            "title": "Wood, metal & acrylic",
+            "text": "A material and price for every occasion."
+          }
+        },
+        "b3": {
+          "type": "feature",
+          "settings": {
+            "title": "Engraved citations",
+            "text": "Full citations, names, logos and dates."
+          }
+        },
+        "b4": {
+          "type": "feature",
+          "settings": {
+            "title": "Honour boards",
+            "text": "Matched sets and large boards for institutions."
+          }
+        },
+        "b5": {
+          "type": "feature",
+          "settings": {
+            "title": "Inauguration mementos",
+            "text": "Foundation-stone and opening-ceremony pieces."
+          }
+        },
+        "b6": {
+          "type": "price_row",
+          "settings": {
+            "item": "Acrylic plaque",
+            "spec": "Appreciation & felicitation",
+            "price": "₹250"
+          }
+        },
+        "b7": {
+          "type": "price_row",
+          "settings": {
+            "item": "Wooden shield",
+            "spec": "Classic recognition piece",
+            "price": "₹450"
+          }
+        },
+        "b8": {
+          "type": "price_row",
+          "settings": {
+            "item": "Metal-on-wood shield",
+            "spec": "Premium felicitation",
+            "price": "₹900"
+          }
+        },
+        "b9": {
+          "type": "price_row",
+          "settings": {
+            "item": "Large honour plaque",
+            "spec": "Institutional / honour board",
+            "price": "₹2,500"
+          }
+        },
+        "b10": {
+          "type": "faq",
+          "settings": {
+            "question": "What's the difference between a shield and a plaque?",
+            "answer": "<p>A shield is typically a mounted crest shape; a plaque is a flat engraved panel. We make both, often with similar engraving and branding.</p>"
+          }
+        },
+        "b11": {
+          "type": "faq",
+          "settings": {
+            "question": "Can you make matched sets for a board of honourees?",
+            "answer": "<p>Yes — co-ordinated sets with individual names are a speciality for institutions and corporates.</p>"
+          }
+        },
+        "b12": {
+          "type": "faq",
+          "settings": {
+            "question": "Do you make inauguration mementos?",
+            "answer": "<p>Yes — foundation-stone, ribbon-cutting and opening-ceremony plaques with date and dignitary names.</p>"
+          }
+        },
+        "b13": {
+          "type": "faq",
+          "settings": {
+            "question": "Do you deliver outside Bangalore?",
+            "answer": "<p>Yes — pan-India from Bangalore.</p>"
+          }
+        },
+        "b14": {
+          "type": "cta_band",
+          "settings": {
+            "heading": "Need shields & plaques for an event?",
+            "text": "Tell us the occasion, quantity and date — we'll send designs and a quote, usually within the hour.",
+            "button_label": "Get my quote"
+          }
+        }
+      },
+      "block_order": [
+        "b0",
+        "b1",
+        "b2",
+        "b3",
+        "b4",
+        "b5",
+        "b6",
+        "b7",
+        "b8",
+        "b9",
+        "b10",
+        "b11",
+        "b12",
+        "b13",
+        "b14"
+      ]
+    }
+  },
+  "order": [
+    "feed"
+  ]
+}

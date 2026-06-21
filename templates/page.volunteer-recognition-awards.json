@@ -1,0 +1,160 @@
+{
+  "sections": {
+    "feed": {
+      "type": "feed-landing",
+      "settings": {
+        "eyebrow": "Occasion · Volunteers",
+        "heading": "<h1><em>Volunteer Recognition Awards</em> & Mementos</h1>",
+        "subheading": "Recognise volunteers and community helpers with affordable, heartfelt engraved awards and medals — for NGOs, drives, events and trusts. Bulk-friendly, custom-made by Meru Trophy.",
+        "primary_cta_label": "Get a quote on WhatsApp",
+        "secondary_cta_label": "Browse the catalogue",
+        "secondary_cta_url": "/collections/all",
+        "breadcrumb_label": "Volunteer Recognition Awards",
+        "faq_heading": "Frequently asked questions",
+        "schema_type": "Product",
+        "schema_name": "Volunteer Recognition Awards",
+        "color_scheme": "scheme-1",
+        "features_heading": "Popular choices",
+        "price_heading": "Volunteer award price guide",
+        "price_col1": "Item",
+        "price_col2": "Details",
+        "price_col3": "Price (from)",
+        "price_caption": "Indicative starting prices in India. Final price depends on size, material and engraving. Bulk discounts apply. GST invoice available.",
+        "schema_price_low": "25",
+        "schema_price_high": "300"
+      },
+      "blocks": {
+        "b0": {
+          "type": "quick_answer",
+          "settings": {
+            "label": "Quick answer",
+            "text": "<p>For <strong>volunteer recognition</strong>, affordable engraved <strong>acrylic/wood keepsakes and medals</strong> with the volunteer's name and a thank-you work beautifully — from ₹150 (medals from ₹25). Ideal for NGOs and community events. Meru Trophy makes them in bulk. WhatsApp +91 78922 07252.</p>"
+          }
+        },
+        "b1": {
+          "type": "rich_text",
+          "settings": {
+            "heading": "The right award for the moment",
+            "text": "<p>Volunteers give their time — recognising them sincerely matters more than spending a lot. Affordable engraved keepsakes or medals with the <strong>volunteer's name, the cause and a thank-you</strong> are perfect for NGOs, drives, blood camps and community events, in any quantity. See also our <a href=\"/pages/trophies-for-ngos-trusts\">awards for NGOs and trusts</a>.</p>"
+          }
+        },
+        "b2": {
+          "type": "feature",
+          "settings": {
+            "title": "Affordable & heartfelt",
+            "text": "Sincere recognition that respects a budget."
+          }
+        },
+        "b3": {
+          "type": "feature",
+          "settings": {
+            "title": "Keepsakes or medals",
+            "text": "Engraved tokens or ribboned medals."
+          }
+        },
+        "b4": {
+          "type": "feature",
+          "settings": {
+            "title": "Bulk-friendly",
+            "text": "Dozens to hundreds of volunteers."
+          }
+        },
+        "b5": {
+          "type": "feature",
+          "settings": {
+            "title": "Cause branding",
+            "text": "Your NGO/event name and logo engraved."
+          }
+        },
+        "b6": {
+          "type": "price_row",
+          "settings": {
+            "item": "Volunteer medal",
+            "spec": "Ribboned recognition",
+            "price": "₹25"
+          }
+        },
+        "b7": {
+          "type": "price_row",
+          "settings": {
+            "item": "Acrylic volunteer token",
+            "spec": "Engraved keepsake",
+            "price": "₹150"
+          }
+        },
+        "b8": {
+          "type": "price_row",
+          "settings": {
+            "item": "Wooden volunteer memento",
+            "spec": "Warm keepsake",
+            "price": "₹300"
+          }
+        },
+        "b9": {
+          "type": "price_row",
+          "settings": {
+            "item": "Bulk recognition set",
+            "spec": "Whole-team order",
+            "price": "Volume price"
+          }
+        },
+        "b10": {
+          "type": "faq",
+          "settings": {
+            "question": "How do we recognise many volunteers affordably?",
+            "answer": "<p>Engraved medals from ₹25 or acrylic tokens from ₹150, in bulk, each with the volunteer's name if you wish.</p>"
+          }
+        },
+        "b11": {
+          "type": "faq",
+          "settings": {
+            "question": "Can you brand with our NGO/event?",
+            "answer": "<p>Yes — your cause name and logo are engraved free.</p>"
+          }
+        },
+        "b12": {
+          "type": "faq",
+          "settings": {
+            "question": "Can each carry a name?",
+            "answer": "<p>Yes — individually engraved from your list.</p>"
+          }
+        },
+        "b13": {
+          "type": "faq",
+          "settings": {
+            "question": "Do you serve NGOs and trusts?",
+            "answer": "<p>Yes — see our <a href=\"/pages/trophies-for-ngos-trusts\">NGO & trust awards</a>.</p>"
+          }
+        },
+        "b14": {
+          "type": "cta_band",
+          "settings": {
+            "heading": "Planning volunteer recognition?",
+            "text": "Tell us the occasion, recipient and date — we'll share designs and a quote, usually within the hour.",
+            "button_label": "Get a quote"
+          }
+        }
+      },
+      "block_order": [
+        "b0",
+        "b1",
+        "b2",
+        "b3",
+        "b4",
+        "b5",
+        "b6",
+        "b7",
+        "b8",
+        "b9",
+        "b10",
+        "b11",
+        "b12",
+        "b13",
+        "b14"
+      ]
+    }
+  },
+  "order": [
+    "feed"
+  ]
+}

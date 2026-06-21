@@ -1,0 +1,160 @@
+{
+  "sections": {
+    "feed": {
+      "type": "feed-landing",
+      "settings": {
+        "eyebrow": "Product · Custom",
+        "heading": "<h1><em>Custom Trophies With Name Engraving</em></h1>",
+        "subheading": "Personalise any trophy with recipient names, titles, dates and logos — crystal, metal, acrylic or wood, single pieces or bulk sets, engraved free in our Bangalore workshop. Delivered pan-India.",
+        "primary_cta_label": "Get a quote on WhatsApp",
+        "secondary_cta_label": "Browse the catalogue",
+        "secondary_cta_url": "/collections/all",
+        "breadcrumb_label": "Custom Trophy With Name Engraving",
+        "faq_heading": "Frequently asked questions",
+        "schema_type": "Product",
+        "schema_name": "Custom Name-Engraved Trophies",
+        "color_scheme": "scheme-1",
+        "features_heading": "Why order from Meru Trophy",
+        "price_heading": "Custom trophy price guide",
+        "price_col1": "Item",
+        "price_col2": "Details",
+        "price_col3": "Price (from)",
+        "price_caption": "Indicative starting prices in India. Final price depends on size, material and engraving. Bulk discounts apply. GST invoice available.",
+        "schema_price_low": "250",
+        "schema_price_high": "2500"
+      },
+      "blocks": {
+        "b0": {
+          "type": "quick_answer",
+          "settings": {
+            "label": "Quick answer",
+            "text": "<p>Meru Trophy <strong>personalises any trophy with name engraving</strong> — recipient names, titles, dates and logos on crystal, metal, acrylic or wood, free with every order. Single pieces or bulk sets from around <strong>₹250</strong>. Delivered pan-India. WhatsApp +91 78922 07252.</p>"
+          }
+        },
+        "b1": {
+          "type": "rich_text",
+          "settings": {
+            "heading": "Make it personal",
+            "text": "<p>A name turns a trophy into a keepsake. We engrave <strong>recipient names, designations, citations, dates and logos</strong> on every material — laser-engraved on crystal, glass and metal, or printed on acrylic and wood. Send a single name for a bespoke award or a spreadsheet for a whole set; each piece is engraved individually at no extra design charge.</p>"
+          }
+        },
+        "b2": {
+          "type": "feature",
+          "settings": {
+            "title": "Free name engraving",
+            "text": "Names, titles and dates included on every order."
+          }
+        },
+        "b3": {
+          "type": "feature",
+          "settings": {
+            "title": "Any material",
+            "text": "Crystal, metal, acrylic, glass or wood."
+          }
+        },
+        "b4": {
+          "type": "feature",
+          "settings": {
+            "title": "Individual personalisation",
+            "text": "Each piece engraved from your name list."
+          }
+        },
+        "b5": {
+          "type": "feature",
+          "settings": {
+            "title": "Logos & citations",
+            "text": "Add brand logos and full citations."
+          }
+        },
+        "b6": {
+          "type": "price_row",
+          "settings": {
+            "item": "Engraved acrylic/wood",
+            "spec": "Personal keepsake",
+            "price": "₹250"
+          }
+        },
+        "b7": {
+          "type": "price_row",
+          "settings": {
+            "item": "Engraved metal cup",
+            "spec": "Sports & winner awards",
+            "price": "₹500"
+          }
+        },
+        "b8": {
+          "type": "price_row",
+          "settings": {
+            "item": "Engraved crystal award",
+            "spec": "Premium recognition",
+            "price": "₹750"
+          }
+        },
+        "b9": {
+          "type": "price_row",
+          "settings": {
+            "item": "Bulk personalised set",
+            "spec": "Whole-event order",
+            "price": "Volume price"
+          }
+        },
+        "b10": {
+          "type": "faq",
+          "settings": {
+            "question": "Is name engraving really free?",
+            "answer": "<p>Yes — recipient names, titles and dates are engraved at no extra design charge on every order.</p>"
+          }
+        },
+        "b11": {
+          "type": "faq",
+          "settings": {
+            "question": "Can each piece have a different name?",
+            "answer": "<p>Yes — send a spreadsheet and we engrave each piece individually, labelled for your ceremony.</p>"
+          }
+        },
+        "b12": {
+          "type": "faq",
+          "settings": {
+            "question": "How do I send my logo for engraving?",
+            "answer": "<p>A vector file (AI/SVG/PDF) gives the cleanest result; high-res PNG also works.</p>"
+          }
+        },
+        "b13": {
+          "type": "faq",
+          "settings": {
+            "question": "Do you deliver outside Bangalore?",
+            "answer": "<p>Yes — pan-India from Bangalore.</p>"
+          }
+        },
+        "b14": {
+          "type": "cta_band",
+          "settings": {
+            "heading": "Need custom name-engraved trophies for an event?",
+            "text": "Tell us the occasion, quantity and date — we'll send designs and a quote, usually within the hour.",
+            "button_label": "Get my quote"
+          }
+        }
+      },
+      "block_order": [
+        "b0",
+        "b1",
+        "b2",
+        "b3",
+        "b4",
+        "b5",
+        "b6",
+        "b7",
+        "b8",
+        "b9",
+        "b10",
+        "b11",
+        "b12",
+        "b13",
+        "b14"
+      ]
+    }
+  },
+  "order": [
+    "feed"
+  ]
+}

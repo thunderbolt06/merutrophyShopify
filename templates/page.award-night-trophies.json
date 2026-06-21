@@ -1,0 +1,160 @@
+{
+  "sections": {
+    "feed": {
+      "type": "feed-landing",
+      "settings": {
+        "eyebrow": "Occasion · Award Night",
+        "heading": "<h1><em>Award Night Trophies</em> & Recognition</h1>",
+        "subheading": "Make your award night memorable with co-ordinated, branded trophies for every category — crystal, metal and acrylic, engraved with winners and your logo. By Meru Trophy.",
+        "primary_cta_label": "Get a quote on WhatsApp",
+        "secondary_cta_label": "Browse the catalogue",
+        "secondary_cta_url": "/collections/all",
+        "breadcrumb_label": "Award Night Trophies",
+        "faq_heading": "Frequently asked questions",
+        "schema_type": "Product",
+        "schema_name": "Award Night Trophies",
+        "color_scheme": "scheme-1",
+        "features_heading": "Popular choices",
+        "price_heading": "Award night price guide",
+        "price_col1": "Item",
+        "price_col2": "Details",
+        "price_col3": "Price (from)",
+        "price_caption": "Indicative starting prices in India. Final price depends on size, material and engraving. Bulk discounts apply. GST invoice available.",
+        "schema_price_low": "350",
+        "schema_price_high": "3000"
+      },
+      "blocks": {
+        "b0": {
+          "type": "quick_answer",
+          "settings": {
+            "label": "Quick answer",
+            "text": "<p>For an <strong>award night</strong>, use a co-ordinated set of branded trophies across every category — crystal, metal or acrylic, engraved with winners and your logo, from around ₹350. Meru Trophy designs the full set with one GST invoice. WhatsApp +91 78922 07252. See our <a href=\"/pages/corporate-annual-awards-night-package\">awards-night package</a>.</p>"
+          }
+        },
+        "b1": {
+          "type": "rich_text",
+          "settings": {
+            "heading": "The right award for the moment",
+            "text": "<p>An award night looks intentional when every trophy shares one design language and your branding. We co-ordinate the full category set — headline awards, category winners and special recognitions — engraved with winners and your logo, boxed and labelled for the stage. For corporates, our <a href=\"/pages/corporate-annual-awards-night-package\">awards-night package</a> handles it end to end.</p>"
+          }
+        },
+        "b2": {
+          "type": "feature",
+          "settings": {
+            "title": "Co-ordinated set",
+            "text": "One design language across all categories."
+          }
+        },
+        "b3": {
+          "type": "feature",
+          "settings": {
+            "title": "Winner & category awards",
+            "text": "Headline pieces plus category winners."
+          }
+        },
+        "b4": {
+          "type": "feature",
+          "settings": {
+            "title": "Your branding",
+            "text": "Event/company logo on every trophy."
+          }
+        },
+        "b5": {
+          "type": "feature",
+          "settings": {
+            "title": "Stage-ready",
+            "text": "Boxed and labelled by category."
+          }
+        },
+        "b6": {
+          "type": "price_row",
+          "settings": {
+            "item": "Category award",
+            "spec": "Per-category winner",
+            "price": "₹350"
+          }
+        },
+        "b7": {
+          "type": "price_row",
+          "settings": {
+            "item": "Headline award",
+            "spec": "Top honour of the night",
+            "price": "₹1,500"
+          }
+        },
+        "b8": {
+          "type": "price_row",
+          "settings": {
+            "item": "Premium crystal",
+            "spec": "Flagship recognition",
+            "price": "₹3,000"
+          }
+        },
+        "b9": {
+          "type": "price_row",
+          "settings": {
+            "item": "Full night set",
+            "spec": "Co-ordinated package",
+            "price": "Custom quote"
+          }
+        },
+        "b10": {
+          "type": "faq",
+          "settings": {
+            "question": "How do I make an award night look co-ordinated?",
+            "answer": "<p>Use one design family and consistent branding across every category — exactly what our co-ordinated sets do.</p>"
+          }
+        },
+        "b11": {
+          "type": "faq",
+          "settings": {
+            "question": "Can you brand every trophy with our logo?",
+            "answer": "<p>Yes — engraved/printed on every piece.</p>"
+          }
+        },
+        "b12": {
+          "type": "faq",
+          "settings": {
+            "question": "Do you handle corporate award nights end to end?",
+            "answer": "<p>Yes — see our <a href=\"/pages/corporate-annual-awards-night-package\">awards-night package</a>.</p>"
+          }
+        },
+        "b13": {
+          "type": "faq",
+          "settings": {
+            "question": "Will it arrive in time?",
+            "answer": "<p>Yes — order 1–2 weeks ahead; we plan dispatch to your date.</p>"
+          }
+        },
+        "b14": {
+          "type": "cta_band",
+          "settings": {
+            "heading": "Planning an award night?",
+            "text": "Tell us the occasion, recipient and date — we'll share designs and a quote, usually within the hour.",
+            "button_label": "Get a quote"
+          }
+        }
+      },
+      "block_order": [
+        "b0",
+        "b1",
+        "b2",
+        "b3",
+        "b4",
+        "b5",
+        "b6",
+        "b7",
+        "b8",
+        "b9",
+        "b10",
+        "b11",
+        "b12",
+        "b13",
+        "b14"
+      ]
+    }
+  },
+  "order": [
+    "feed"
+  ]
+}

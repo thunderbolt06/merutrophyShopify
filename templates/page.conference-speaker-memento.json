@@ -1,0 +1,160 @@
+{
+  "sections": {
+    "feed": {
+      "type": "feed-landing",
+      "settings": {
+        "eyebrow": "Occasion · Conference",
+        "heading": "<h1><em>Conference & Speaker Mementos</em></h1>",
+        "subheading": "Dignified mementos to thank speakers, panelists and chief guests at conferences and seminars — engraved crystal and wood with the event, date and a note of thanks. By Meru Trophy.",
+        "primary_cta_label": "Get a quote on WhatsApp",
+        "secondary_cta_label": "Browse the catalogue",
+        "secondary_cta_url": "/collections/all",
+        "breadcrumb_label": "Conference & Speaker Memento",
+        "faq_heading": "Frequently asked questions",
+        "schema_type": "Product",
+        "schema_name": "Conference & Speaker Memento",
+        "color_scheme": "scheme-1",
+        "features_heading": "Popular choices",
+        "price_heading": "Speaker memento price guide",
+        "price_col1": "Item",
+        "price_col2": "Details",
+        "price_col3": "Price (from)",
+        "price_caption": "Indicative starting prices in India. Final price depends on size, material and engraving. Bulk discounts apply. GST invoice available.",
+        "schema_price_low": "400",
+        "schema_price_high": "2500"
+      },
+      "blocks": {
+        "b0": {
+          "type": "quick_answer",
+          "settings": {
+            "label": "Quick answer",
+            "text": "<p>For <strong>conference and speaker mementos</strong>, choose <strong>engraved crystal or wooden pieces</strong> with the speaker's name, your event title, the date and a line of thanks — from around ₹400. Meru Trophy delivers single pieces or sets for a full panel. WhatsApp +91 78922 07252.</p>"
+          }
+        },
+        "b1": {
+          "type": "rich_text",
+          "settings": {
+            "heading": "The right award for the moment",
+            "text": "<p>Thanking a speaker should feel considered. A crystal or wooden memento engraved with the <strong>speaker's name, the event, the date and a note of thanks</strong> (plus your logo) is the standard, tasteful choice. Order matched sets for a multi-speaker panel or conference.</p>"
+          }
+        },
+        "b2": {
+          "type": "feature",
+          "settings": {
+            "title": "Speaker & event engraved",
+            "text": "Name, event title, date and thanks."
+          }
+        },
+        "b3": {
+          "type": "feature",
+          "settings": {
+            "title": "Crystal or wood",
+            "text": "Premium or warm, your choice."
+          }
+        },
+        "b4": {
+          "type": "feature",
+          "settings": {
+            "title": "Matched sets",
+            "text": "Co-ordinated mementos for a full panel."
+          }
+        },
+        "b5": {
+          "type": "feature",
+          "settings": {
+            "title": "Your logo",
+            "text": "Organisation/event branding included."
+          }
+        },
+        "b6": {
+          "type": "price_row",
+          "settings": {
+            "item": "Wooden speaker memento",
+            "spec": "Classic felicitation",
+            "price": "₹400"
+          }
+        },
+        "b7": {
+          "type": "price_row",
+          "settings": {
+            "item": "Crystal speaker award",
+            "spec": "Premium thank-you",
+            "price": "₹750"
+          }
+        },
+        "b8": {
+          "type": "price_row",
+          "settings": {
+            "item": "Photo conference memento",
+            "spec": "With event photo",
+            "price": "₹900"
+          }
+        },
+        "b9": {
+          "type": "price_row",
+          "settings": {
+            "item": "Panel set",
+            "spec": "Matched multi-speaker set",
+            "price": "Custom quote"
+          }
+        },
+        "b10": {
+          "type": "faq",
+          "settings": {
+            "question": "What's a good speaker memento?",
+            "answer": "<p>An engraved crystal or wooden piece with the speaker's name, your event, the date and a note of thanks.</p>"
+          }
+        },
+        "b11": {
+          "type": "faq",
+          "settings": {
+            "question": "Can you make a matched set for all speakers?",
+            "answer": "<p>Yes — co-ordinated mementos for the whole panel or conference.</p>"
+          }
+        },
+        "b12": {
+          "type": "faq",
+          "settings": {
+            "question": "Can it carry our event branding?",
+            "answer": "<p>Yes — event title and logo are engraved free.</p>"
+          }
+        },
+        "b13": {
+          "type": "faq",
+          "settings": {
+            "question": "How quickly can you deliver?",
+            "answer": "<p>Quickly for single pieces; tell us your event date for sets.</p>"
+          }
+        },
+        "b14": {
+          "type": "cta_band",
+          "settings": {
+            "heading": "Planning a conference or seminar?",
+            "text": "Tell us the occasion, recipient and date — we'll share designs and a quote, usually within the hour.",
+            "button_label": "Get a quote"
+          }
+        }
+      },
+      "block_order": [
+        "b0",
+        "b1",
+        "b2",
+        "b3",
+        "b4",
+        "b5",
+        "b6",
+        "b7",
+        "b8",
+        "b9",
+        "b10",
+        "b11",
+        "b12",
+        "b13",
+        "b14"
+      ]
+    }
+  },
+  "order": [
+    "feed"
+  ]
+}

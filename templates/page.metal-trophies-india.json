@@ -1,0 +1,160 @@
+{
+  "sections": {
+    "feed": {
+      "type": "feed-landing",
+      "settings": {
+        "eyebrow": "Product · Metal",
+        "heading": "<h1>Custom <em>Metal Trophies</em> & Cups in India</h1>",
+        "subheading": "Classic die-cast and pressed-metal trophy cups with gold, silver and bronze finishes — the timeless choice for sports tournaments, championships and winner ceremonies. Engraved and delivered across India.",
+        "primary_cta_label": "Get a quote on WhatsApp",
+        "secondary_cta_label": "Browse the catalogue",
+        "secondary_cta_url": "/collections/all",
+        "breadcrumb_label": "Metal Trophies India",
+        "faq_heading": "Frequently asked questions",
+        "schema_type": "Product",
+        "schema_name": "Metal Trophies",
+        "color_scheme": "scheme-1",
+        "features_heading": "Why order from Meru Trophy",
+        "price_heading": "Metal trophy price guide",
+        "price_col1": "Item",
+        "price_col2": "Details",
+        "price_col3": "Price (from)",
+        "price_caption": "Indicative starting prices in India. Final price depends on size, material and engraving. Bulk discounts apply. GST invoice available.",
+        "schema_price_low": "200",
+        "schema_price_high": "5000"
+      },
+      "blocks": {
+        "b0": {
+          "type": "quick_answer",
+          "settings": {
+            "label": "Quick answer",
+            "text": "<p>Meru Trophy supplies <strong>metal trophy cups and awards</strong> with gold/silver/bronze finishes from around <strong>₹200</strong>. Ideal for sports tournaments and championship presentations, with free engraving of names and events. Made in Bangalore, delivered pan-India. WhatsApp +91 78922 07252.</p>"
+          }
+        },
+        "b1": {
+          "type": "rich_text",
+          "settings": {
+            "heading": "The timeless winner's cup",
+            "text": "<p>Nothing says \"champion\" like a gleaming metal cup. Our metal trophies come in pressed and die-cast forms with durable electroplated finishes, mounted on engraved bases. They photograph beautifully at presentations and stand up to handling. Available from small table-top cups to towering multi-tier championship trophies, with metal or fibre-metal combinations for height at lower cost.</p>"
+          }
+        },
+        "b2": {
+          "type": "feature",
+          "settings": {
+            "title": "Gold, silver & bronze finishes",
+            "text": "Durable electroplated finishes that stay bright."
+          }
+        },
+        "b3": {
+          "type": "feature",
+          "settings": {
+            "title": "Table-top to towering",
+            "text": "From compact cups to multi-tier championship trophies."
+          }
+        },
+        "b4": {
+          "type": "feature",
+          "settings": {
+            "title": "Engraved base plates",
+            "text": "Recipient, event and date engraved on metal/wooden bases."
+          }
+        },
+        "b5": {
+          "type": "feature",
+          "settings": {
+            "title": "Built to last",
+            "text": "Solid, handling-friendly pieces for repeat-use rolling trophies."
+          }
+        },
+        "b6": {
+          "type": "price_row",
+          "settings": {
+            "item": "Small metal cup",
+            "spec": "Runner-up & category awards",
+            "price": "₹200"
+          }
+        },
+        "b7": {
+          "type": "price_row",
+          "settings": {
+            "item": "Standard trophy cup",
+            "spec": "Tournament winners",
+            "price": "₹500"
+          }
+        },
+        "b8": {
+          "type": "price_row",
+          "settings": {
+            "item": "Tall championship cup",
+            "spec": "Premier event hero trophy",
+            "price": "₹1,500"
+          }
+        },
+        "b9": {
+          "type": "price_row",
+          "settings": {
+            "item": "Giant multi-tier cup",
+            "spec": "Rolling / perpetual trophy",
+            "price": "₹5,000"
+          }
+        },
+        "b10": {
+          "type": "faq",
+          "settings": {
+            "question": "Do you make rolling/perpetual trophies?",
+            "answer": "<p>Yes — large perpetual cups with space for multiple years of winner engraving are a speciality. We can also re-engrave existing rolling trophies.</p>"
+          }
+        },
+        "b11": {
+          "type": "faq",
+          "settings": {
+            "question": "Can the cup be engraved with our tournament name?",
+            "answer": "<p>Absolutely — event name, sponsor, winner and date are engraved free on the cup or base.</p>"
+          }
+        },
+        "b12": {
+          "type": "faq",
+          "settings": {
+            "question": "What's the tallest trophy you make?",
+            "answer": "<p>We produce trophies several feet tall using metal-and-fibre construction for impact at a sensible price. Tell us your height and budget.</p>"
+          }
+        },
+        "b13": {
+          "type": "faq",
+          "settings": {
+            "question": "Do you deliver outside Bangalore?",
+            "answer": "<p>Yes — pan-India from Bangalore, with international shipping available.</p>"
+          }
+        },
+        "b14": {
+          "type": "cta_band",
+          "settings": {
+            "heading": "Need metal trophies for an event?",
+            "text": "Tell us the occasion, quantity and date — we'll send designs and a quote, usually within the hour.",
+            "button_label": "Get my quote"
+          }
+        }
+      },
+      "block_order": [
+        "b0",
+        "b1",
+        "b2",
+        "b3",
+        "b4",
+        "b5",
+        "b6",
+        "b7",
+        "b8",
+        "b9",
+        "b10",
+        "b11",
+        "b12",
+        "b13",
+        "b14"
+      ]
+    }
+  },
+  "order": [
+    "feed"
+  ]
+}

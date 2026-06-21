@@ -1,0 +1,124 @@
+{
+  "sections": {
+    "feed": {
+      "type": "feed-landing",
+      "settings": {
+        "eyebrow": "Guide · Comparison",
+        "heading": "<h1><em>Crystal vs Acrylic Trophy</em>: Which Should You Choose?</h1>",
+        "subheading": "Crystal or acrylic? A clear comparison of look, weight, durability, printing, shipping and price — so you pick the right award for your event and budget. By Meru Trophy.",
+        "primary_cta_label": "Get a quote on WhatsApp",
+        "secondary_cta_label": "See crystal trophies",
+        "secondary_cta_url": "/pages/crystal-trophies-india",
+        "breadcrumb_label": "crystal vs acrylic trophy",
+        "faq_heading": "Frequently asked questions",
+        "schema_type": "none",
+        "schema_name": "crystal vs acrylic trophy",
+        "color_scheme": "scheme-1"
+      },
+      "blocks": {
+        "b0": {
+          "type": "quick_answer",
+          "settings": {
+            "label": "Quick answer",
+            "text": "<p><strong>Choose crystal for a premium, weighty, prestigious award</strong> (leadership, VIP, milestones); <strong>choose acrylic for a lighter, cheaper, shatter-resistant award</strong> that takes full-colour printing and ships safely in bulk. Crystal from ₹350; acrylic from ₹250. Meru Trophy makes both. WhatsApp +91 78922 07252.</p>"
+          }
+        },
+        "b1": {
+          "type": "rich_text",
+          "settings": {
+            "heading": "Side-by-side",
+            "text": "<ul><li><strong>Look & feel:</strong> crystal is clearer, heavier and more premium; acrylic is clean and modern but lighter.</li><li><strong>Full-colour printing:</strong> acrylic excels at UV-printed logos/photos; crystal is best for engraved/3D logos.</li><li><strong>Durability & shipping:</strong> acrylic is shatter-resistant and cheaper to ship in bulk; crystal needs careful packing.</li><li><strong>Price:</strong> acrylic from ₹250; crystal from ₹350 and up for larger pieces.</li><li><strong>Best for:</strong> crystal → senior/VIP awards; acrylic → high-volume, budget or shipped events.</li></ul>"
+          }
+        },
+        "b2": {
+          "type": "rich_text",
+          "settings": {
+            "heading": "Quick recommendation",
+            "text": "<p>For a <strong>small number of senior/VIP awards</strong>, go crystal — the weight and clarity carry prestige. For <strong>high-volume, budget-sensitive or shipped events</strong>, go acrylic — it looks modern, prints in full colour and travels safely. Still unsure? We'll quote both so you can compare in hand.</p>"
+          }
+        },
+        "b3": {
+          "type": "feature",
+          "settings": {
+            "title": "Crystal",
+            "text": "Premium, weighty, prestigious."
+          }
+        },
+        "b4": {
+          "type": "feature",
+          "settings": {
+            "title": "Acrylic",
+            "text": "Light, affordable, full-colour."
+          }
+        },
+        "b5": {
+          "type": "feature",
+          "settings": {
+            "title": "Crystal best for",
+            "text": "VIP & leadership awards."
+          }
+        },
+        "b6": {
+          "type": "feature",
+          "settings": {
+            "title": "Acrylic best for",
+            "text": "Bulk & shipped events."
+          }
+        },
+        "b7": {
+          "type": "faq",
+          "settings": {
+            "question": "Is crystal better than acrylic?",
+            "answer": "<p>Neither is universally better — crystal is more premium; acrylic is lighter, cheaper and prints full colour. Choose by occasion and budget.</p>"
+          }
+        },
+        "b8": {
+          "type": "faq",
+          "settings": {
+            "question": "Which is cheaper?",
+            "answer": "<p>Acrylic, generally — and it's cheaper to ship in bulk because it's light and shatter-resistant.</p>"
+          }
+        },
+        "b9": {
+          "type": "faq",
+          "settings": {
+            "question": "Which looks more premium?",
+            "answer": "<p>Crystal — its clarity and weight read as prestigious for senior awards.</p>"
+          }
+        },
+        "b10": {
+          "type": "faq",
+          "settings": {
+            "question": "Can I see both before deciding?",
+            "answer": "<p>Yes — we'll quote and show both so you can compare.</p>"
+          }
+        },
+        "b11": {
+          "type": "cta_band",
+          "settings": {
+            "heading": "Still deciding?",
+            "text": "Tell us what you're planning — we'll share designs and a quote, usually within the hour.",
+            "button_label": "Compare with Meru Trophy"
+          }
+        }
+      },
+      "block_order": [
+        "b0",
+        "b1",
+        "b2",
+        "b3",
+        "b4",
+        "b5",
+        "b6",
+        "b7",
+        "b8",
+        "b9",
+        "b10",
+        "b11"
+      ]
+    }
+  },
+  "order": [
+    "feed"
+  ]
+}

@@ -1,0 +1,150 @@
+{
+  "sections": {
+    "feed": {
+      "type": "feed-landing",
+      "settings": {
+        "eyebrow": "Service · Delivery",
+        "heading": "<h1><em>Pan-India Trophy Delivery</em> from Bangalore</h1>",
+        "subheading": "Trophies, medals and awards delivered safely to any city in India — bubble-wrapped, foam-cradled, double-boxed and tracked. From our Bangalore workshop, with international shipping too.",
+        "primary_cta_label": "Get a quote on WhatsApp",
+        "secondary_cta_label": "See fast delivery",
+        "secondary_cta_url": "/pages/fast-trophy-delivery-india",
+        "breadcrumb_label": "pan-India trophy delivery",
+        "faq_heading": "Frequently asked questions",
+        "schema_type": "Service",
+        "schema_name": "pan-India trophy delivery",
+        "color_scheme": "scheme-1",
+        "features_heading": "Why teams choose Meru Trophy",
+        "steps_heading": "The process, step by step"
+      },
+      "blocks": {
+        "b0": {
+          "type": "quick_answer",
+          "settings": {
+            "label": "Quick answer",
+            "text": "<p>Meru Trophy delivers <strong>trophies, medals and awards across all of India</strong> from our Bangalore workshop — securely packed and tracked — typically in 3–7 business days, with international shipping available. WhatsApp +91 78922 07252.</p>"
+          }
+        },
+        "b1": {
+          "type": "rich_text",
+          "settings": {
+            "heading": "How it works",
+            "text": "<p>Wherever your event is, we deliver. Awards are <strong>bubble-wrapped, foam-cradled, double-boxed and tracked</strong> to any Indian city, typically arriving 3–7 business days after dispatch (faster to nearby regions and via priority courier). We ship internationally too, for diaspora and corporate events. Tell us your city and date and we'll plan dispatch to land on time.</p>"
+          }
+        },
+        "b2": {
+          "type": "feature",
+          "settings": {
+            "title": "Any city in India",
+            "text": "Reliable delivery from metros to smaller towns."
+          }
+        },
+        "b3": {
+          "type": "feature",
+          "settings": {
+            "title": "Safe packing",
+            "text": "Bubble-wrapped, foam-cradled, double-boxed."
+          }
+        },
+        "b4": {
+          "type": "feature",
+          "settings": {
+            "title": "Tracked dispatch",
+            "text": "Tracking so you know exactly when it lands."
+          }
+        },
+        "b5": {
+          "type": "feature",
+          "settings": {
+            "title": "International too",
+            "text": "Shipping abroad for diaspora and corporate events."
+          }
+        },
+        "b6": {
+          "type": "step",
+          "settings": {
+            "title": "Tell us what you need",
+            "text": "WhatsApp, call or fill the form with occasion, quantity, material and date."
+          }
+        },
+        "b7": {
+          "type": "step",
+          "settings": {
+            "title": "Get options & a quote",
+            "text": "We share designs, matching past work and a clear quote — usually same day."
+          }
+        },
+        "b8": {
+          "type": "step",
+          "settings": {
+            "title": "Approve proof & advance",
+            "text": "Sign off a digital mockup; 50% advance via UPI/transfer/card with GST invoice."
+          }
+        },
+        "b9": {
+          "type": "step",
+          "settings": {
+            "title": "Made & dispatched",
+            "text": "Crafted in our Bangalore workshop, QC'd and tracked to your venue."
+          }
+        },
+        "b10": {
+          "type": "faq",
+          "settings": {
+            "question": "How long does delivery take?",
+            "answer": "<p>Typically 3–7 business days across India after dispatch; faster to nearby regions and via priority courier.</p>"
+          }
+        },
+        "b11": {
+          "type": "faq",
+          "settings": {
+            "question": "Will fragile crystal arrive safely?",
+            "answer": "<p>Yes — heavy-duty, foam-cradled, double-boxed packing protects fragile pieces; breakage is rare and we make it right if it happens.</p>"
+          }
+        },
+        "b12": {
+          "type": "faq",
+          "settings": {
+            "question": "Do you ship internationally?",
+            "answer": "<p>Yes — we ship abroad with customs documentation for diaspora and corporate events.</p>"
+          }
+        },
+        "b13": {
+          "type": "faq",
+          "settings": {
+            "question": "Can you deliver by my event date?",
+            "answer": "<p>Tell us the date and city and we'll plan dispatch to arrive on time.</p>"
+          }
+        },
+        "b14": {
+          "type": "cta_band",
+          "settings": {
+            "heading": "Ready to start?",
+            "text": "Message us your requirement and event date — we'll guide you through and quote, usually within the hour.",
+            "button_label": "Message us on WhatsApp"
+          }
+        }
+      },
+      "block_order": [
+        "b0",
+        "b1",
+        "b2",
+        "b3",
+        "b4",
+        "b5",
+        "b6",
+        "b7",
+        "b8",
+        "b9",
+        "b10",
+        "b11",
+        "b12",
+        "b13",
+        "b14"
+      ]
+    }
+  },
+  "order": [
+    "feed"
+  ]
+}

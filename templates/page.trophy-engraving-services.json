@@ -1,0 +1,150 @@
+{
+  "sections": {
+    "feed": {
+      "type": "feed-landing",
+      "settings": {
+        "eyebrow": "Service · Engraving",
+        "heading": "<h1><em>Trophy & Award Engraving</em> Services</h1>",
+        "subheading": "Laser engraving and UV printing of names, logos, citations and dates on trophies, medals, plaques and mementos — on your pieces or ours. Crisp, permanent, included free with orders. Pan-India.",
+        "primary_cta_label": "Get a quote on WhatsApp",
+        "secondary_cta_label": "Browse the catalogue",
+        "secondary_cta_url": "/collections/all",
+        "breadcrumb_label": "trophy engraving",
+        "faq_heading": "Frequently asked questions",
+        "schema_type": "Service",
+        "schema_name": "trophy engraving",
+        "color_scheme": "scheme-1",
+        "features_heading": "Why teams choose Meru Trophy",
+        "steps_heading": "The process, step by step"
+      },
+      "blocks": {
+        "b0": {
+          "type": "quick_answer",
+          "settings": {
+            "label": "Quick answer",
+            "text": "<p>Meru Trophy provides <strong>laser engraving and UV printing</strong> of names, logos, citations and dates on trophies, medals and plaques — crisp and permanent, included free with our awards. We can also engrave items you already have. WhatsApp +91 78922 07252.</p>"
+          }
+        },
+        "b1": {
+          "type": "rich_text",
+          "settings": {
+            "heading": "How it works",
+            "text": "<p>Engraving is what makes an award personal. We use <strong>laser engraving</strong> for crystal, glass, metal and wood, and <strong>UV printing</strong> for full-colour logos and photos on acrylic and wood. Recipient names, designations, citations, dates and brand logos are reproduced crisply and permanently — included free on awards bought from us, and available as a standalone service on suitable items you provide.</p>"
+          }
+        },
+        "b2": {
+          "type": "feature",
+          "settings": {
+            "title": "Laser & UV printing",
+            "text": "Engraving for every material, plus full-colour printing."
+          }
+        },
+        "b3": {
+          "type": "feature",
+          "settings": {
+            "title": "Names, logos & citations",
+            "text": "Individual personalisation from your name list."
+          }
+        },
+        "b4": {
+          "type": "feature",
+          "settings": {
+            "title": "Free with our awards",
+            "text": "No extra engraving charge on orders from us."
+          }
+        },
+        "b5": {
+          "type": "feature",
+          "settings": {
+            "title": "Bulk personalisation",
+            "text": "Each piece engraved individually at scale."
+          }
+        },
+        "b6": {
+          "type": "step",
+          "settings": {
+            "title": "Tell us what you need",
+            "text": "WhatsApp, call or fill the form with occasion, quantity, material and date."
+          }
+        },
+        "b7": {
+          "type": "step",
+          "settings": {
+            "title": "Get options & a quote",
+            "text": "We share designs, matching past work and a clear quote — usually same day."
+          }
+        },
+        "b8": {
+          "type": "step",
+          "settings": {
+            "title": "Approve proof & advance",
+            "text": "Sign off a digital mockup; 50% advance via UPI/transfer/card with GST invoice."
+          }
+        },
+        "b9": {
+          "type": "step",
+          "settings": {
+            "title": "Made & dispatched",
+            "text": "Crafted in our Bangalore workshop, QC'd and tracked to your venue."
+          }
+        },
+        "b10": {
+          "type": "faq",
+          "settings": {
+            "question": "Is engraving included or extra?",
+            "answer": "<p>It's free on awards you buy from us. Standalone engraving on items you provide is quoted per piece.</p>"
+          }
+        },
+        "b11": {
+          "type": "faq",
+          "settings": {
+            "question": "Can you engrave each piece with a different name?",
+            "answer": "<p>Yes — send a spreadsheet and we engrave each piece individually.</p>"
+          }
+        },
+        "b12": {
+          "type": "faq",
+          "settings": {
+            "question": "What logo file works best?",
+            "answer": "<p>A vector file (AI/SVG/PDF) gives the sharpest engraving; high-res PNG also works.</p>"
+          }
+        },
+        "b13": {
+          "type": "faq",
+          "settings": {
+            "question": "Can you re-engrave a rolling trophy?",
+            "answer": "<p>Yes — we add new winners to perpetual/rolling trophies.</p>"
+          }
+        },
+        "b14": {
+          "type": "cta_band",
+          "settings": {
+            "heading": "Ready to start?",
+            "text": "Message us your requirement and event date — we'll guide you through and quote, usually within the hour.",
+            "button_label": "Message us on WhatsApp"
+          }
+        }
+      },
+      "block_order": [
+        "b0",
+        "b1",
+        "b2",
+        "b3",
+        "b4",
+        "b5",
+        "b6",
+        "b7",
+        "b8",
+        "b9",
+        "b10",
+        "b11",
+        "b12",
+        "b13",
+        "b14"
+      ]
+    }
+  },
+  "order": [
+    "feed"
+  ]
+}

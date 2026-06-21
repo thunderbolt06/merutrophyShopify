@@ -1,0 +1,160 @@
+{
+  "sections": {
+    "feed": {
+      "type": "feed-landing",
+      "settings": {
+        "eyebrow": "Product · Cricket",
+        "heading": "<h1><em>Cricket Trophies</em> & Cups in India</h1>",
+        "subheading": "Cricket trophy cups, batsman/bowler awards, World-Cup-style replicas and medals for tennis-ball, league and corporate cricket — custom engraved with your tournament, delivered across India.",
+        "primary_cta_label": "Get a quote on WhatsApp",
+        "secondary_cta_label": "Browse the catalogue",
+        "secondary_cta_url": "/collections/all",
+        "breadcrumb_label": "Cricket Trophies India",
+        "faq_heading": "Frequently asked questions",
+        "schema_type": "Product",
+        "schema_name": "Cricket Trophies",
+        "color_scheme": "scheme-1",
+        "features_heading": "Why order from Meru Trophy",
+        "price_heading": "Cricket trophy price guide",
+        "price_col1": "Item",
+        "price_col2": "Details",
+        "price_col3": "Price (from)",
+        "price_caption": "Indicative starting prices in India. Final price depends on size, material and engraving. Bulk discounts apply. GST invoice available.",
+        "schema_price_low": "150",
+        "schema_price_high": "2000"
+      },
+      "blocks": {
+        "b0": {
+          "type": "quick_answer",
+          "settings": {
+            "label": "Quick answer",
+            "text": "<p>Meru Trophy makes <strong>cricket trophies and cups</strong> for tournaments of every size — winner cups, individual performance awards, replicas and medals — from around <strong>₹150</strong>. Engraved with your tournament name and logo, delivered pan-India. WhatsApp +91 78922 07252. For full sets see our <a href=\"/pages/cricket-tournament-trophy-combo\">cricket combo packs</a>.</p>"
+          }
+        },
+        "b1": {
+          "type": "rich_text",
+          "settings": {
+            "heading": "Trophies for every cricket tournament",
+            "text": "<p>From a Sunday tennis-ball tournament to a corporate league final, we make the full range of cricket awards: winner and runner-up cups, Man of the Match/Series, Best Batsman and Bowler awards, World-Cup and IPL-style replica cups, and participation medals. Everything is engraved with your tournament name, sponsor and winners. Planning multiple awards? A <a href=\"/pages/cricket-tournament-trophy-combo\">combo pack</a> bundles them at the best price.</p>"
+          }
+        },
+        "b2": {
+          "type": "feature",
+          "settings": {
+            "title": "Cups, replicas & medals",
+            "text": "The complete cricket awards range in one place."
+          }
+        },
+        "b3": {
+          "type": "feature",
+          "settings": {
+            "title": "Tennis-ball to league",
+            "text": "Budget options for local cricket, premium for finals."
+          }
+        },
+        "b4": {
+          "type": "feature",
+          "settings": {
+            "title": "Tournament branding",
+            "text": "Event name, sponsor and winners engraved free."
+          }
+        },
+        "b5": {
+          "type": "feature",
+          "settings": {
+            "title": "Combo packs available",
+            "text": "Bundle all awards for the best per-piece price."
+          }
+        },
+        "b6": {
+          "type": "price_row",
+          "settings": {
+            "item": "Small cricket trophy",
+            "spec": "Local / tennis-ball tournaments",
+            "price": "₹150"
+          }
+        },
+        "b7": {
+          "type": "price_row",
+          "settings": {
+            "item": "Standard cricket cup",
+            "spec": "League winners & individual awards",
+            "price": "₹500"
+          }
+        },
+        "b8": {
+          "type": "price_row",
+          "settings": {
+            "item": "Large presentation cup",
+            "spec": "Premier final hero trophy",
+            "price": "₹2,000"
+          }
+        },
+        "b9": {
+          "type": "price_row",
+          "settings": {
+            "item": "Replica cup (IPL/WC style)",
+            "spec": "Custom tribute trophy",
+            "price": "₹999"
+          }
+        },
+        "b10": {
+          "type": "faq",
+          "settings": {
+            "question": "What's the cheapest cricket trophy?",
+            "answer": "<p>Small fibre cricket trophies start near ₹150, and participation medals from ₹25 in bulk — ideal for local tennis-ball tournaments.</p>"
+          }
+        },
+        "b11": {
+          "type": "faq",
+          "settings": {
+            "question": "Can you make an IPL or World-Cup-style cup?",
+            "answer": "<p>Yes — custom replica cups for your tournament. See our <a href=\"/pages/ipl-trophy-price\">IPL replica page</a> for sizes and pricing.</p>"
+          }
+        },
+        "b12": {
+          "type": "faq",
+          "settings": {
+            "question": "Do you bundle all the tournament awards?",
+            "answer": "<p>Yes — our <a href=\"/pages/cricket-tournament-trophy-combo\">cricket combo packs</a> bundle winner, runner-up, individual awards and medals at the best price.</p>"
+          }
+        },
+        "b13": {
+          "type": "faq",
+          "settings": {
+            "question": "Do you deliver outside Bangalore?",
+            "answer": "<p>Yes — pan-India from Bangalore, in time for your final.</p>"
+          }
+        },
+        "b14": {
+          "type": "cta_band",
+          "settings": {
+            "heading": "Need cricket trophies for an event?",
+            "text": "Tell us the occasion, quantity and date — we'll send designs and a quote, usually within the hour.",
+            "button_label": "Get my quote"
+          }
+        }
+      },
+      "block_order": [
+        "b0",
+        "b1",
+        "b2",
+        "b3",
+        "b4",
+        "b5",
+        "b6",
+        "b7",
+        "b8",
+        "b9",
+        "b10",
+        "b11",
+        "b12",
+        "b13",
+        "b14"
+      ]
+    }
+  },
+  "order": [
+    "feed"
+  ]
+}

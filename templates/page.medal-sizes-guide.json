@@ -1,0 +1,92 @@
+{
+  "sections": {
+    "feed": {
+      "type": "feed-landing",
+      "settings": {
+        "eyebrow": "Guide · Medals",
+        "heading": "<h1><em>Medal Sizes Guide</em>: Standard Diameters in India</h1>",
+        "subheading": "What size should your medals be? A guide to standard medal diameters (50mm, 60mm, 70mm and finisher sizes), how size affects cost, and which to pick for your event. By Meru Trophy.",
+        "primary_cta_label": "Get a quote on WhatsApp",
+        "secondary_cta_label": "See medal price",
+        "secondary_cta_url": "/pages/medal-price-bulk-india",
+        "breadcrumb_label": "medal sizes",
+        "faq_heading": "Frequently asked questions",
+        "schema_type": "none",
+        "schema_name": "medal sizes",
+        "color_scheme": "scheme-1"
+      },
+      "blocks": {
+        "b0": {
+          "type": "quick_answer",
+          "settings": {
+            "label": "Quick answer",
+            "text": "<p>Standard <strong>medal sizes in India are around 50mm, 60mm and 70mm diameter</strong>, with larger finisher medals running 70–90mm+. Bigger medals feel more premium and cost a little more. Meru Trophy makes all sizes from ₹25. WhatsApp +91 78922 07252.</p>"
+          }
+        },
+        "b1": {
+          "type": "rich_text",
+          "settings": {
+            "heading": "Common medal sizes",
+            "text": "<ul><li><strong>50mm:</strong> compact and economical; ideal for high-volume school sports days.</li><li><strong>60mm:</strong> the popular all-round size for tournaments and events.</li><li><strong>70mm:</strong> a more substantial, premium feel.</li><li><strong>Finisher medals (70–90mm+):</strong> large keepsake pieces for marathons and flagship events.</li></ul>"
+          }
+        },
+        "b2": {
+          "type": "rich_text",
+          "settings": {
+            "heading": "Size vs cost",
+            "text": "<p>Larger medals use more material and feel more premium, so they cost a little more per piece. For big groups on a budget, 50–60mm is the sweet spot; for keepsake finisher medals, go 70mm+. Ribbon length scales with medal size too.</p>"
+          }
+        },
+        "b3": {
+          "type": "faq",
+          "settings": {
+            "question": "What's the standard medal size?",
+            "answer": "<p>Around 50–70mm diameter; 60mm is the popular all-round choice. Finisher medals run larger (70–90mm+).</p>"
+          }
+        },
+        "b4": {
+          "type": "faq",
+          "settings": {
+            "question": "Does a bigger medal cost more?",
+            "answer": "<p>Yes — slightly, as it uses more material. We'll quote by your chosen size and quantity.</p>"
+          }
+        },
+        "b5": {
+          "type": "faq",
+          "settings": {
+            "question": "Which size for a school sports day?",
+            "answer": "<p>50–60mm balances feel and budget for high volumes.</p>"
+          }
+        },
+        "b6": {
+          "type": "faq",
+          "settings": {
+            "question": "Which size for marathon finishers?",
+            "answer": "<p>70mm and up, so the medal feels like a keepsake.</p>"
+          }
+        },
+        "b7": {
+          "type": "cta_band",
+          "settings": {
+            "heading": "Need medals sized for your event?",
+            "text": "Tell us what you're planning — we'll share designs and a quote, usually within the hour.",
+            "button_label": "Get medal pricing"
+          }
+        }
+      },
+      "block_order": [
+        "b0",
+        "b1",
+        "b2",
+        "b3",
+        "b4",
+        "b5",
+        "b6",
+        "b7"
+      ]
+    }
+  },
+  "order": [
+    "feed"
+  ]
+}

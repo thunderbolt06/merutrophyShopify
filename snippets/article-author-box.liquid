@@ -1,0 +1,16 @@
+{% comment %}
+  Author box shown after the article body.
+  Usage: {% render 'article-author-box', article: article, bio: section.settings.author_bio %}
+{% endcomment %}
+{%- liquid
+  assign author = article.author | default: 'Meru Trophy Team'
+  assign initial = author | slice: 0, 1 | upcase
+  assign bio = bio | default: 'Meru Trophy is a Bangalore-based manufacturer of crystal, metal, acrylic, fibre and wooden trophies, mementos and custom medals. Rated 4.9★ across 440+ Google reviews, we have supplied awards to 150+ brands and ship pan-India.'
+-%}
+<div class="article-author-box">
+  <span class="article-author-box__avatar" aria-hidden="true">{{ initial }}</span>
+  <div>
+    <h3 class="article-author-box__name">{{ author | escape }}</h3>
+    <p class="article-author-box__bio">{{ bio | escape }}</p>
+  </div>
+</div>

@@ -1,0 +1,18 @@
+{% comment %}
+  Single related-post card. Usage: {% render 'article-rel-post-card', a: a %}
+{% endcomment %}
+<a class="rel-card" href="{{ a.url }}">
+  <div class="rel-card__media rel-card__media--wide">
+    {%- if a.image -%}
+      <img
+        src="{{ a.image | image_url: width: 500 }}"
+        srcset="{{ a.image | image_url: width: 400 }} 400w, {{ a.image | image_url: width: 700 }} 700w"
+        sizes="(min-width: 990px) 33vw, 50vw"
+        alt="{{ a.image.alt | default: a.title | escape }}"
+        width="500" height="333" loading="lazy"
+      >
+    {%- endif -%}
+  </div>
+  {%- if a.tags.size > 0 -%}<span class="rel-card__tag">{{ a.tags.first | escape }}</span>{%- endif -%}
+  <p class="rel-card__title">{{ a.title | escape | truncate: 70 }}</p>
+</a>

@@ -1,0 +1,127 @@
+{
+  "sections": {
+    "feed": {
+      "type": "feed-landing",
+      "settings": {
+        "eyebrow": "Pricing · Custom",
+        "heading": "<h1>How Much Does a <em>Custom Trophy Cost</em> in India?</h1>",
+        "subheading": "What does a custom trophy cost in India? It depends on material, size, engraving and quantity — here's a realistic breakdown, from budget pieces to premium crystal, by Meru Trophy.",
+        "primary_cta_label": "Get a quote on WhatsApp",
+        "secondary_cta_label": "Browse the catalogue",
+        "secondary_cta_url": "/collections/all",
+        "breadcrumb_label": "custom trophy cost",
+        "faq_heading": "Frequently asked questions",
+        "schema_type": "Product",
+        "schema_name": "custom trophy cost",
+        "color_scheme": "scheme-1",
+        "price_heading": "Custom trophy cost guide",
+        "price_col1": "Item",
+        "price_col2": "Details",
+        "price_col3": "Price (from)",
+        "price_caption": "Indicative starting prices in India. Final price depends on size, material and engraving. Bulk discounts apply. GST invoice available.",
+        "schema_price_low": "150",
+        "schema_price_high": "8000"
+      },
+      "blocks": {
+        "b0": {
+          "type": "quick_answer",
+          "settings": {
+            "label": "Quick answer",
+            "text": "<p>A <strong>custom trophy in India costs from about ₹150</strong> (small fibre/acrylic) to <strong>₹8,000+</strong> (large premium crystal), driven by material, size, engraving and quantity. Custom design and engraving are included free. Meru Trophy quotes exactly on WhatsApp (+91 78922 07252).</p>"
+          }
+        },
+        "b1": {
+          "type": "rich_text",
+          "settings": {
+            "heading": "What you'll pay and why",
+            "text": "<p>\"Custom\" doesn't have to mean expensive. The cost of a custom trophy depends on four things: <strong>material</strong> (fibre/acrylic are budget, crystal is premium), <strong>size</strong>, <strong>engraving/printing complexity</strong>, and <strong>quantity</strong> (bulk lowers per-piece cost). Crucially, the custom <em>design and engraving are included free</em> — you only pay for the award itself.</p>"
+          }
+        },
+        "b2": {
+          "type": "price_row",
+          "settings": {
+            "item": "Budget custom (fibre/acrylic)",
+            "spec": "Small, engraved",
+            "price": "₹150"
+          }
+        },
+        "b3": {
+          "type": "price_row",
+          "settings": {
+            "item": "Standard custom (metal/glass)",
+            "spec": "Mid-size, branded",
+            "price": "₹500"
+          }
+        },
+        "b4": {
+          "type": "price_row",
+          "settings": {
+            "item": "Premium custom (crystal)",
+            "spec": "Logo-engraved recognition",
+            "price": "₹1,500"
+          }
+        },
+        "b5": {
+          "type": "price_row",
+          "settings": {
+            "item": "Bespoke statement piece",
+            "spec": "Large custom shape",
+            "price": "₹8,000"
+          }
+        },
+        "b6": {
+          "type": "faq",
+          "settings": {
+            "question": "What drives custom trophy cost?",
+            "answer": "<p>Material, size, engraving complexity and quantity. Bulk orders lower the per-piece price.</p>"
+          }
+        },
+        "b7": {
+          "type": "faq",
+          "settings": {
+            "question": "Is there a design or setup fee?",
+            "answer": "<p>No — custom design and engraving are included; you pay for the award only.</p>"
+          }
+        },
+        "b8": {
+          "type": "faq",
+          "settings": {
+            "question": "What's the cheapest custom trophy?",
+            "answer": "<p>Small custom fibre/acrylic trophies from around ₹150, engraving included.</p>"
+          }
+        },
+        "b9": {
+          "type": "faq",
+          "settings": {
+            "question": "Can I get an exact quote?",
+            "answer": "<p>Yes — share material, size, quantity and engraving and we'll price it precisely.</p>"
+          }
+        },
+        "b10": {
+          "type": "cta_band",
+          "settings": {
+            "heading": "Want an exact price?",
+            "text": "Send your item, quantity and engraving — we'll send a precise quote, usually within the hour.",
+            "button_label": "Get an exact quote"
+          }
+        }
+      },
+      "block_order": [
+        "b0",
+        "b1",
+        "b2",
+        "b3",
+        "b4",
+        "b5",
+        "b6",
+        "b7",
+        "b8",
+        "b9",
+        "b10"
+      ]
+    }
+  },
+  "order": [
+    "feed"
+  ]
+}

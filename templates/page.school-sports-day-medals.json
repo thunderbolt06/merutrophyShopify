@@ -1,0 +1,168 @@
+{
+  "sections": {
+    "feed": {
+      "type": "feed-landing",
+      "settings": {
+        "eyebrow": "Product · School",
+        "heading": "<h1><em>School Sports Day Medals</em> & Trophies</h1>",
+        "subheading": "Affordable gold/silver/bronze medals and trophies for school annual sports days — bulk sets across age groups and events, with school name and house colours. Pan-India delivery from Bangalore.",
+        "primary_cta_label": "Get a quote on WhatsApp",
+        "secondary_cta_label": "Browse the catalogue",
+        "secondary_cta_url": "/collections/medals",
+        "breadcrumb_label": "School Sports Day Medals",
+        "faq_heading": "Frequently asked questions",
+        "schema_type": "Product",
+        "schema_name": "School Sports Day Medals",
+        "color_scheme": "scheme-1",
+        "features_heading": "Why order from Meru Trophy",
+        "price_heading": "Sports-day price guide",
+        "price_col1": "Item",
+        "price_col2": "Details",
+        "price_col3": "Price (from)",
+        "price_caption": "Indicative starting prices in India. Final price depends on size, material and engraving. Bulk discounts apply. GST invoice available.",
+        "schema_price_low": "25",
+        "schema_price_high": "250"
+      },
+      "blocks": {
+        "b0": {
+          "type": "quick_answer",
+          "settings": {
+            "label": "Quick answer",
+            "text": "<p>Meru Trophy supplies <strong>school sports-day medals and trophies</strong> from <strong>₹25 a medal</strong> in bulk — gold/silver/bronze sets across age groups, with your school name and house colours. GST-invoiced, delivered pan-India. WhatsApp +91 78922 07252. For a full set, see our <a href=\"/pages/school-sports-day-awards-bundle\">sports-day bundle</a>.</p>"
+          }
+        },
+        "b1": {
+          "type": "rich_text",
+          "settings": {
+            "heading": "Everything a sports day needs",
+            "text": "<p>Annual sports days need a lot of awards across many events and age groups — and a tight budget. We supply <strong>bulk medals and fibre trophies</strong> in gold/silver/bronze, with custom centres carrying your school crest and house colours, plus winner trophies for overall champions. One order, one GST invoice, delivered before sports day. Bundle medals and trophies together in our <a href=\"/pages/school-sports-day-awards-bundle\">sports-day package</a>.</p>"
+          }
+        },
+        "b2": {
+          "type": "feature",
+          "settings": {
+            "title": "From ₹25 a medal",
+            "text": "Budget-friendly recognition for every event."
+          }
+        },
+        "b3": {
+          "type": "feature",
+          "settings": {
+            "title": "School crest & house colours",
+            "text": "Custom centres and ribbon colours."
+          }
+        },
+        "b4": {
+          "type": "feature",
+          "settings": {
+            "title": "Trophies + medals",
+            "text": "Overall-champion trophies plus event medals."
+          }
+        },
+        "b5": {
+          "type": "feature",
+          "settings": {
+            "title": "Delivered on time",
+            "text": "Planned dispatch ahead of sports day."
+          }
+        },
+        "b6": {
+          "type": "price_row",
+          "settings": {
+            "item": "Sports-day medal",
+            "spec": "Per-event placements",
+            "price": "₹25"
+          }
+        },
+        "b7": {
+          "type": "price_row",
+          "settings": {
+            "item": "House-colour medal set",
+            "spec": "Branded with crest",
+            "price": "₹40"
+          }
+        },
+        "b8": {
+          "type": "price_row",
+          "settings": {
+            "item": "Champion trophy",
+            "spec": "Overall winners",
+            "price": "₹250"
+          }
+        },
+        "b9": {
+          "type": "price_row",
+          "settings": {
+            "item": "Full sports-day bundle",
+            "spec": "Medals + trophies set",
+            "price": "Custom quote"
+          }
+        },
+        "b10": {
+          "type": "faq",
+          "settings": {
+            "question": "How many medals do we need for a sports day?",
+            "answer": "<p>Typically gold/silver/bronze per event per age group, plus spares. Share your event list and we'll help you calculate quantities.</p>"
+          }
+        },
+        "b11": {
+          "type": "faq",
+          "settings": {
+            "question": "Can you add our school crest and house colours?",
+            "answer": "<p>Yes — custom medal centres carry your crest, and ribbons match your house colours.</p>"
+          }
+        },
+        "b12": {
+          "type": "faq",
+          "settings": {
+            "question": "Can we bundle trophies and medals?",
+            "answer": "<p>Yes — see our <a href=\"/pages/school-sports-day-awards-bundle\">sports-day bundle</a> for a single co-ordinated order.</p>"
+          }
+        },
+        "b13": {
+          "type": "faq",
+          "settings": {
+            "question": "Do you provide GST invoices?",
+            "answer": "<p>Yes — GST invoices with PO handling for schools.</p>"
+          }
+        },
+        "b14": {
+          "type": "related_collection",
+          "settings": {
+            "heading": "Popular school sports day medals",
+            "collection": "medals"
+          }
+        },
+        "b15": {
+          "type": "cta_band",
+          "settings": {
+            "heading": "Need school sports day medals for an event?",
+            "text": "Tell us the occasion, quantity and date — we'll send designs and a quote, usually within the hour.",
+            "button_label": "Get my quote"
+          }
+        }
+      },
+      "block_order": [
+        "b0",
+        "b1",
+        "b2",
+        "b3",
+        "b4",
+        "b5",
+        "b6",
+        "b7",
+        "b8",
+        "b9",
+        "b10",
+        "b11",
+        "b12",
+        "b13",
+        "b14",
+        "b15"
+      ]
+    }
+  },
+  "order": [
+    "feed"
+  ]
+}

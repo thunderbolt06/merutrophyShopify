@@ -1,0 +1,92 @@
+{
+  "sections": {
+    "feed": {
+      "type": "feed-landing",
+      "settings": {
+        "eyebrow": "Ideas · Felicitation",
+        "heading": "<h1><em>Chief Guest Memento Ideas</em> & Designs</h1>",
+        "subheading": "Dignified memento ideas for felicitating a chief guest or dignitary — engraved wood, crystal awards and photo mementos with the event, date and a respectful citation. By Meru Trophy.",
+        "primary_cta_label": "Get a quote on WhatsApp",
+        "secondary_cta_label": "Browse the catalogue",
+        "secondary_cta_url": "/collections/all",
+        "breadcrumb_label": "chief guest memento design",
+        "faq_heading": "Frequently asked questions",
+        "schema_type": "none",
+        "schema_name": "chief guest memento design",
+        "color_scheme": "scheme-1"
+      },
+      "blocks": {
+        "b0": {
+          "type": "quick_answer",
+          "settings": {
+            "label": "Quick answer",
+            "text": "<p>Ideal <strong>chief-guest mementos</strong> are dignified and personal: <strong>engraved wooden plaques, crystal awards and photo mementos</strong> carrying the guest's name, the event, the date and a respectful line of thanks. Meru Trophy designs and delivers from a single piece. WhatsApp +91 78922 07252.</p>"
+          }
+        },
+        "b1": {
+          "type": "rich_text",
+          "settings": {
+            "heading": "Ideas that work",
+            "text": "<p>Felicitating a chief guest calls for something tasteful and personal. A <strong>wooden plaque or crystal award</strong> engraved with the guest's name, your organisation, the event and date, plus a short respectful citation, is always well received. Add your logo and, if appropriate, a photo of the occasion.</p>"
+          }
+        },
+        "b2": {
+          "type": "rich_text",
+          "settings": {
+            "heading": "Popular designs",
+            "text": "<ul><li><strong>Engraved wooden plaque</strong> — the classic, respected choice.</li><li><strong>Crystal award</strong> — premium felicitation piece.</li><li><strong>Photo memento</strong> — the guest at your event, printed and engraved.</li><li><strong>Shield/plaque</strong> — traditional and dignified.</li><li><strong>Desk crystal block</strong> — compact, keeps well on a desk.</li><li><strong>Wood-acrylic modern piece</strong> — contemporary felicitation.</li></ul>"
+          }
+        },
+        "b3": {
+          "type": "faq",
+          "settings": {
+            "question": "What's the best memento for a chief guest?",
+            "answer": "<p>An engraved wooden plaque or crystal award with the guest's name, event, date and a respectful citation.</p>"
+          }
+        },
+        "b4": {
+          "type": "faq",
+          "settings": {
+            "question": "Can it be ready quickly for an event?",
+            "answer": "<p>Yes — single felicitation pieces turn around fast; tell us your date.</p>"
+          }
+        },
+        "b5": {
+          "type": "faq",
+          "settings": {
+            "question": "Should it carry our logo?",
+            "answer": "<p>Yes — your organisation's name/logo plus the event and date is the standard, tasteful layout.</p>"
+          }
+        },
+        "b6": {
+          "type": "faq",
+          "settings": {
+            "question": "Can you add a photo?",
+            "answer": "<p>Yes — a photo of the occasion makes a memorable felicitation memento.</p>"
+          }
+        },
+        "b7": {
+          "type": "cta_band",
+          "settings": {
+            "heading": "Felicitating a guest?",
+            "text": "Tell us what you're planning — we'll share designs and a quote, usually within the hour.",
+            "button_label": "Design a chief-guest memento"
+          }
+        }
+      },
+      "block_order": [
+        "b0",
+        "b1",
+        "b2",
+        "b3",
+        "b4",
+        "b5",
+        "b6",
+        "b7"
+      ]
+    }
+  },
+  "order": [
+    "feed"
+  ]
+}

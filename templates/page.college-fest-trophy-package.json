@@ -1,0 +1,193 @@
+{
+  "sections": {
+    "feed": {
+      "type": "feed-landing",
+      "settings": {
+        "eyebrow": "Combo · College",
+        "heading": "<h1><em>College Fest Trophy Package</em></h1>",
+        "subheading": "Trophies and medals for every fest event — cultural, technical, sports and gaming — in one co-ordinated, sponsor-branded order. Fast turnaround for college fests across India.",
+        "primary_cta_label": "Get a quote on WhatsApp",
+        "secondary_cta_label": "Browse the catalogue",
+        "secondary_cta_url": "/collections/all",
+        "breadcrumb_label": "College Fest Trophy Package",
+        "faq_heading": "Frequently asked questions",
+        "schema_type": "Product",
+        "schema_name": "College Fest Trophy Package",
+        "color_scheme": "scheme-1",
+        "features_heading": "What's inside the package",
+        "steps_heading": "How ordering works",
+        "price_heading": "Sample package pricing",
+        "price_col1": "Package",
+        "price_col2": "What's included",
+        "price_col3": "Price (from)",
+        "price_caption": "Indicative starting prices; per-piece rates fall sharply at higher quantities. GST invoice included.",
+        "schema_price_low": "150",
+        "schema_price_high": "24000"
+      },
+      "blocks": {
+        "b0": {
+          "type": "quick_answer",
+          "settings": {
+            "label": "Quick answer",
+            "text": "<p>Meru Trophy bundles <strong>trophies and medals for every college-fest event</strong> — cultural, technical, sports and gaming — into one sponsor-branded order, from around <strong>₹150 a trophy</strong>. Fast turnaround, delivered pan-India. WhatsApp +91 78922 07252.</p>"
+          }
+        },
+        "b1": {
+          "type": "rich_text",
+          "settings": {
+            "heading": "One bundle for the whole event",
+            "text": "<p>A college fest spans cultural, technical, sports and gaming events, each needing winner and runner-up awards — often with sponsor branding and a tight timeline. We co-ordinate the whole set in one order: matching trophies and medals, your fest logo and sponsors engraved, delivered fast.</p>"
+          }
+        },
+        "b2": {
+          "type": "feature",
+          "settings": {
+            "title": "Every event covered",
+            "text": "Cultural, technical, sports and gaming awards."
+          }
+        },
+        "b3": {
+          "type": "feature",
+          "settings": {
+            "title": "Fest & sponsor branding",
+            "text": "Your fest logo and sponsor names on every award."
+          }
+        },
+        "b4": {
+          "type": "feature",
+          "settings": {
+            "title": "Matching design",
+            "text": "One visual language across all categories."
+          }
+        },
+        "b5": {
+          "type": "feature",
+          "settings": {
+            "title": "Fast turnaround",
+            "text": "Built to hit fest dates."
+          }
+        },
+        "b6": {
+          "type": "price_row",
+          "settings": {
+            "item": "Small fest package",
+            "spec": "20 trophies + 50 medals",
+            "price": "₹6,000"
+          }
+        },
+        "b7": {
+          "type": "price_row",
+          "settings": {
+            "item": "Standard fest",
+            "spec": "40 trophies + 100 medals",
+            "price": "₹12,000"
+          }
+        },
+        "b8": {
+          "type": "price_row",
+          "settings": {
+            "item": "Large fest",
+            "spec": "80+ trophies + 200 medals",
+            "price": "₹24,000"
+          }
+        },
+        "b9": {
+          "type": "price_row",
+          "settings": {
+            "item": "Flagship fest",
+            "spec": "Custom volume + premium hero awards",
+            "price": "Custom quote"
+          }
+        },
+        "b10": {
+          "type": "step",
+          "settings": {
+            "title": "Share your award list",
+            "text": "WhatsApp us your categories, quantities and event date."
+          }
+        },
+        "b11": {
+          "type": "step",
+          "settings": {
+            "title": "Pick designs & budget",
+            "text": "We send matching options and a single combined quote."
+          }
+        },
+        "b12": {
+          "type": "step",
+          "settings": {
+            "title": "Approve engraving proof",
+            "text": "Confirm names, logos and titles on a digital mockup."
+          }
+        },
+        "b13": {
+          "type": "step",
+          "settings": {
+            "title": "Delivered together",
+            "text": "Co-ordinated, boxed and shipped pan-India in time for your event."
+          }
+        },
+        "b14": {
+          "type": "faq",
+          "settings": {
+            "question": "Can you brand awards with our fest and sponsors?",
+            "answer": "<p>Yes — fest logo, sponsor names and event titles are engraved free across the set.</p>"
+          }
+        },
+        "b15": {
+          "type": "faq",
+          "settings": {
+            "question": "How fast can you deliver for a fest?",
+            "answer": "<p>Standard sets ship in 5–7 business days after proof; tell us your date and we'll plan backwards.</p>"
+          }
+        },
+        "b16": {
+          "type": "faq",
+          "settings": {
+            "question": "Can we mix trophies and medals?",
+            "answer": "<p>Yes — winner trophies for headline events and medals for the rest, in one order.</p>"
+          }
+        },
+        "b17": {
+          "type": "faq",
+          "settings": {
+            "question": "Do you provide a GST invoice?",
+            "answer": "<p>Yes — one GST invoice, with documentation for college accounts.</p>"
+          }
+        },
+        "b18": {
+          "type": "cta_band",
+          "settings": {
+            "heading": "Planning a college fest?",
+            "text": "Send your award list and date — we'll design a matching combo and quote, usually within the hour.",
+            "button_label": "Get my combo quote"
+          }
+        }
+      },
+      "block_order": [
+        "b0",
+        "b1",
+        "b2",
+        "b3",
+        "b4",
+        "b5",
+        "b6",
+        "b7",
+        "b8",
+        "b9",
+        "b10",
+        "b11",
+        "b12",
+        "b13",
+        "b14",
+        "b15",
+        "b16",
+        "b17",
+        "b18"
+      ]
+    }
+  },
+  "order": [
+    "feed"
+  ]
+}

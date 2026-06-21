@@ -1,0 +1,124 @@
+{
+  "sections": {
+    "feed": {
+      "type": "feed-landing",
+      "settings": {
+        "eyebrow": "Guide · Buying",
+        "heading": "<h1>The Complete <em>Trophy Buying Guide</em> (India)</h1>",
+        "subheading": "Buying trophies for an event? This guide covers material, size, quantity, engraving, budget, lead time and choosing a supplier — everything you need to order right the first time. By Meru Trophy.",
+        "primary_cta_label": "Get a quote on WhatsApp",
+        "secondary_cta_label": "Browse the catalogue",
+        "secondary_cta_url": "/collections/all",
+        "breadcrumb_label": "trophy buying guide",
+        "faq_heading": "Frequently asked questions",
+        "schema_type": "none",
+        "schema_name": "trophy buying guide",
+        "color_scheme": "scheme-1"
+      },
+      "blocks": {
+        "b0": {
+          "type": "quick_answer",
+          "settings": {
+            "label": "Quick answer",
+            "text": "<p>To <strong>buy the right trophies</strong>: pick the material for the occasion, decide size and quantity, plan engraving (names/logos), set a realistic budget and lead time, and choose an in-house manufacturer with proofs and GST invoicing. Meru Trophy covers all of it. WhatsApp +91 78922 07252.</p>"
+          }
+        },
+        "b1": {
+          "type": "rich_text",
+          "settings": {
+            "heading": "The 6 decisions before you buy",
+            "text": "<ul><li><strong>Material:</strong> crystal (premium), metal (sports), acrylic/fibre (budget/bulk), wood (felicitations).</li><li><strong>Size:</strong> bigger reads as more premium and costs more.</li><li><strong>Quantity:</strong> bulk lowers per-piece price — order spares.</li><li><strong>Engraving:</strong> names, logos, citations (usually included free).</li><li><strong>Budget & lead time:</strong> plan 1–3 weeks; rush options exist.</li><li><strong>Supplier:</strong> choose an in-house manufacturer with proofs, GST and a portfolio.</li></ul>"
+          }
+        },
+        "b2": {
+          "type": "rich_text",
+          "settings": {
+            "heading": "Avoid these mistakes",
+            "text": "<p>Common slip-ups: ordering too late, forgetting spares, approving no proof (risking misspellings), and buying from a reseller who can't control quality or timelines. A digital proof and an in-house maker prevent most problems. (See <a href=\"/pages/best-trophy-manufacturers-india-2026\">choosing a manufacturer</a>.)</p>"
+          }
+        },
+        "b3": {
+          "type": "feature",
+          "settings": {
+            "title": "Material",
+            "text": "Match to occasion & budget."
+          }
+        },
+        "b4": {
+          "type": "feature",
+          "settings": {
+            "title": "Quantity",
+            "text": "Bulk lowers cost; order spares."
+          }
+        },
+        "b5": {
+          "type": "feature",
+          "settings": {
+            "title": "Proof",
+            "text": "Always approve before production."
+          }
+        },
+        "b6": {
+          "type": "feature",
+          "settings": {
+            "title": "Supplier",
+            "text": "In-house maker, GST, portfolio."
+          }
+        },
+        "b7": {
+          "type": "faq",
+          "settings": {
+            "question": "How do I choose the right trophy?",
+            "answer": "<p>Match material to the occasion and budget, pick a size and quantity, plan engraving, and order from an in-house maker with proofs.</p>"
+          }
+        },
+        "b8": {
+          "type": "faq",
+          "settings": {
+            "question": "How far ahead should I order?",
+            "answer": "<p>1–3 weeks is comfortable for most orders; large or highly custom sets need longer. Rush options exist.</p>"
+          }
+        },
+        "b9": {
+          "type": "faq",
+          "settings": {
+            "question": "Should I always approve a proof?",
+            "answer": "<p>Yes — a digital proof prevents misspellings and surprises before production.</p>"
+          }
+        },
+        "b10": {
+          "type": "faq",
+          "settings": {
+            "question": "Manufacturer or reseller?",
+            "answer": "<p>Prefer an in-house manufacturer — better quality control, timelines and customisation.</p>"
+          }
+        },
+        "b11": {
+          "type": "cta_band",
+          "settings": {
+            "heading": "Ready to buy?",
+            "text": "Tell us what you're planning — we'll share designs and a quote, usually within the hour.",
+            "button_label": "Get a trophy quote"
+          }
+        }
+      },
+      "block_order": [
+        "b0",
+        "b1",
+        "b2",
+        "b3",
+        "b4",
+        "b5",
+        "b6",
+        "b7",
+        "b8",
+        "b9",
+        "b10",
+        "b11"
+      ]
+    }
+  },
+  "order": [
+    "feed"
+  ]
+}

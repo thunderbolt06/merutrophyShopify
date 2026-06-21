@@ -1,0 +1,150 @@
+{
+  "sections": {
+    "feed": {
+      "type": "feed-landing",
+      "settings": {
+        "eyebrow": "Service · Ordering",
+        "heading": "<h1>Order Trophies & Medals on <em>WhatsApp</em></h1>",
+        "subheading": "The fastest way to order — WhatsApp us your requirement, get designs, proofs and a quote in chat, approve, and we deliver across India. No forms, no friction.",
+        "primary_cta_label": "Get a quote on WhatsApp",
+        "secondary_cta_label": "Browse the catalogue",
+        "secondary_cta_url": "/collections/all",
+        "breadcrumb_label": "WhatsApp trophy ordering",
+        "faq_heading": "Frequently asked questions",
+        "schema_type": "Service",
+        "schema_name": "WhatsApp trophy ordering",
+        "color_scheme": "scheme-1",
+        "features_heading": "Why teams choose Meru Trophy",
+        "steps_heading": "The process, step by step"
+      },
+      "blocks": {
+        "b0": {
+          "type": "quick_answer",
+          "settings": {
+            "label": "Quick answer",
+            "text": "<p>The easiest way to order from Meru Trophy is <strong>WhatsApp (+91 78922 07252)</strong>: send your occasion, quantity, material and date; we reply with designs, a quote and a proof, all in chat. Approve, pay, and we deliver pan-India.</p>"
+          }
+        },
+        "b1": {
+          "type": "rich_text",
+          "settings": {
+            "heading": "How it works",
+            "text": "<p>Most of our customers order entirely on WhatsApp. Send a quick message — occasion, quantity, material, engraving text and date — and our team replies with catalogue photos, matching past work, a quote and a digital proof, all in the same chat. You approve, pay a 50% advance, and we craft and dispatch. It's fast, documented and easy to share with your team.</p>"
+          }
+        },
+        "b2": {
+          "type": "feature",
+          "settings": {
+            "title": "Everything in chat",
+            "text": "Designs, quote and proof without forms or email chains."
+          }
+        },
+        "b3": {
+          "type": "feature",
+          "settings": {
+            "title": "Share with your team",
+            "text": "Forward the chat for quick internal approvals."
+          }
+        },
+        "b4": {
+          "type": "feature",
+          "settings": {
+            "title": "Fast replies",
+            "text": "Quotes usually the same day."
+          }
+        },
+        "b5": {
+          "type": "feature",
+          "settings": {
+            "title": "Documented",
+            "text": "Your spec, proof and confirmation all in one thread."
+          }
+        },
+        "b6": {
+          "type": "step",
+          "settings": {
+            "title": "Message us",
+            "text": "WhatsApp +91 78922 07252 with occasion, quantity, material and date."
+          }
+        },
+        "b7": {
+          "type": "step",
+          "settings": {
+            "title": "Get designs & quote",
+            "text": "We reply with photos, past work and pricing."
+          }
+        },
+        "b8": {
+          "type": "step",
+          "settings": {
+            "title": "Approve a proof",
+            "text": "Confirm names, logos and layout on a digital mockup."
+          }
+        },
+        "b9": {
+          "type": "step",
+          "settings": {
+            "title": "Pay & receive",
+            "text": "50% advance with GST invoice; we craft and deliver pan-India."
+          }
+        },
+        "b10": {
+          "type": "faq",
+          "settings": {
+            "question": "What number do I message?",
+            "answer": "<p>WhatsApp us on +91 78922 07252. Send your requirement and we'll take it from there.</p>"
+          }
+        },
+        "b11": {
+          "type": "faq",
+          "settings": {
+            "question": "Can I get a quote on WhatsApp?",
+            "answer": "<p>Yes — share quantity, material and engraving text and we'll quote, usually same day.</p>"
+          }
+        },
+        "b12": {
+          "type": "faq",
+          "settings": {
+            "question": "Can you send design proofs in chat?",
+            "answer": "<p>Yes — digital mockups for approval come right in the WhatsApp thread.</p>"
+          }
+        },
+        "b13": {
+          "type": "faq",
+          "settings": {
+            "question": "Do you deliver after a WhatsApp order?",
+            "answer": "<p>Yes — pan-India delivery with tracking, GST invoice included.</p>"
+          }
+        },
+        "b14": {
+          "type": "cta_band",
+          "settings": {
+            "heading": "Ready to start?",
+            "text": "Message us your requirement and event date — we'll guide you through and quote, usually within the hour.",
+            "button_label": "Message us on WhatsApp"
+          }
+        }
+      },
+      "block_order": [
+        "b0",
+        "b1",
+        "b2",
+        "b3",
+        "b4",
+        "b5",
+        "b6",
+        "b7",
+        "b8",
+        "b9",
+        "b10",
+        "b11",
+        "b12",
+        "b13",
+        "b14"
+      ]
+    }
+  },
+  "order": [
+    "feed"
+  ]
+}

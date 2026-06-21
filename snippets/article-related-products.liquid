@@ -1,0 +1,68 @@
+{% comment %}
+  Related products, chosen by matching the article's tags/title to a product
+  collection. Falls back to a default collection if nothing matches.
+  Usage: {% render 'article-related-products', article: article, limit: 4, default_handle: 'metal-sports-trophies' %}
+{% endcomment %}
+{%- liquid
+  assign limit = limit | default: 4
+  assign handle = ''
+  assign t = article.tags | join: ',' | downcase
+  assign title = article.title | downcase
+
+  if t contains 'crystal' or title contains 'crystal'
+    assign handle = 'crystal-trophies'
+  elsif t contains 'acrylic' or title contains 'acrylic'
+    assign handle = 'acrylic-trophies'
+  elsif t contains 'fibre' or title contains 'fibre' or title contains 'fiber'
+    assign handle = 'fibre-trophies'
+  elsif t contains 'wooden' or t contains 'mementos' or title contains 'wooden' or title contains 'memento' or title contains 'plaque'
+    assign handle = 'wooden-mementos'
+  elsif t contains 'medals' or title contains 'medal'
+    assign handle = 'medals'
+  elsif t contains 'corporate' or t contains 'school & college' or title contains 'corporate' or title contains 'employee' or title contains 'college' or title contains 'school'
+    assign handle = 'corporate-and-college-premium-trophies'
+  elsif t contains 'cricket' or title contains 'cricket' or title contains 'ipl' or title contains 'football' or title contains 'metal' or t contains 'sports trophies'
+    assign handle = 'metal-sports-trophies'
+  endif
+
+  assign fallback = default_handle | default: 'metal-sports-trophies'
+  if handle == ''
+    assign handle = fallback
+  endif
+  assign collection = collections[handle]
+  unless collection
+    assign collection = collections[fallback]
+  endunless
+  if collection.products_count == 0
+    assign collection = collections[fallback]
+  endif
+-%}
+{%- if collection and collection.products_count > 0 -%}
+  <section class="article-related article-enh" aria-label="Related products">
+    <h2 class="article-enh__heading">Shop {{ collection.title | escape }}</h2>
+    <div class="article-related__grid">
+      {%- for product in collection.products limit: limit -%}
+        <a class="rel-card" href="{{ product.url }}">
+          <div class="rel-card__media">
+            {%- if product.featured_image -%}
+              <img
+                src="{{ product.featured_image | image_url: width: 400 }}"
+                srcset="{{ product.featured_image | image_url: width: 300 }} 300w, {{ product.featured_image | image_url: width: 600 }} 600w"
+                sizes="(min-width: 990px) 25vw, 50vw"
+                alt="{{ product.featured_image.alt | default: product.title | escape }}"
+                width="400" height="400" loading="lazy"
+              >
+            {%- endif -%}
+          </div>
+          <p class="rel-card__title">{{ product.title | escape | truncate: 60 }}</p>
+          <span class="rel-card__price">
+            {%- if product.price_varies -%}From {% endif -%}{{ product.price | money }}
+          </span>
+        </a>
+      {%- endfor -%}
+    </div>
+    <p class="article-related__cta">
+      <a class="link animate-arrow" href="{{ collection.url }}">View all {{ collection.title | escape }} <span class="icon-wrap">&rarr;</span></a>
+    </p>
+  </section>
+{%- endif -%}

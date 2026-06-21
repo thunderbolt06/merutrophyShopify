@@ -1,0 +1,127 @@
+{
+  "sections": {
+    "feed": {
+      "type": "feed-landing",
+      "settings": {
+        "eyebrow": "Pricing · Budget",
+        "heading": "<h1><em>Medals Under ₹50</em> in India (Bulk)</h1>",
+        "subheading": "Quality sports and event medals under ₹50 a piece in bulk — gold/silver/bronze with ribbons, custom centres optional, for school sports days and tournaments. Pan-India delivery.",
+        "primary_cta_label": "Get a quote on WhatsApp",
+        "secondary_cta_label": "Browse the catalogue",
+        "secondary_cta_url": "/collections/all",
+        "breadcrumb_label": "medals under 50",
+        "faq_heading": "Frequently asked questions",
+        "schema_type": "Product",
+        "schema_name": "medals under 50",
+        "color_scheme": "scheme-1",
+        "price_heading": "Medals under ₹50",
+        "price_col1": "Medal",
+        "price_col2": "Details",
+        "price_col3": "Price (from)",
+        "price_caption": "Indicative starting prices in India. Final price depends on size, material and engraving. Bulk discounts apply. GST invoice available.",
+        "schema_price_low": "25",
+        "schema_price_high": "50"
+      },
+      "blocks": {
+        "b0": {
+          "type": "quick_answer",
+          "settings": {
+            "label": "Quick answer",
+            "text": "<p>Yes — Meru Trophy supplies <strong>medals under ₹50 per piece</strong> in bulk: standard gold/silver/bronze medals from ₹25 and custom-centre medals around ₹45, both with ribbons. Ideal for sports days. WhatsApp +91 78922 07252.</p>"
+          }
+        },
+        "b1": {
+          "type": "rich_text",
+          "settings": {
+            "heading": "What you'll pay and why",
+            "text": "<p>For large groups, medals under ₹50 are the smart choice. <strong>Standard gold/silver/bronze medals start at ₹25</strong> with ribbons included, and even <strong>custom-centre medals with your event or logo come in around ₹45</strong> in bulk. They look bright on the podium and keep big events affordable.</p>"
+          }
+        },
+        "b2": {
+          "type": "price_row",
+          "settings": {
+            "item": "Standard medal",
+            "spec": "Gold/silver/bronze + ribbon",
+            "price": "₹25"
+          }
+        },
+        "b3": {
+          "type": "price_row",
+          "settings": {
+            "item": "Mid-size medal",
+            "spec": "Slightly larger, ribbon",
+            "price": "₹35"
+          }
+        },
+        "b4": {
+          "type": "price_row",
+          "settings": {
+            "item": "Custom-centre medal",
+            "spec": "Your event/logo on the face",
+            "price": "₹45"
+          }
+        },
+        "b5": {
+          "type": "price_row",
+          "settings": {
+            "item": "Bulk (500+)",
+            "spec": "Multi-event volume",
+            "price": "Lower per-piece"
+          }
+        },
+        "b6": {
+          "type": "faq",
+          "settings": {
+            "question": "Can I really get medals under ₹50?",
+            "answer": "<p>Yes — standard medals from ₹25 and custom-centre medals around ₹45 in bulk.</p>"
+          }
+        },
+        "b7": {
+          "type": "faq",
+          "settings": {
+            "question": "Do these include ribbons?",
+            "answer": "<p>Yes — custom-colour ribbons are included.</p>"
+          }
+        },
+        "b8": {
+          "type": "faq",
+          "settings": {
+            "question": "Can I add our school/event logo under ₹50?",
+            "answer": "<p>Often yes — custom-centre medals around ₹45 carry your logo or event.</p>"
+          }
+        },
+        "b9": {
+          "type": "faq",
+          "settings": {
+            "question": "How many can you supply?",
+            "answer": "<p>From a few dozen to several thousand, with lower rates at higher volume.</p>"
+          }
+        },
+        "b10": {
+          "type": "cta_band",
+          "settings": {
+            "heading": "Want an exact price?",
+            "text": "Send your item, quantity and engraving — we'll send a precise quote, usually within the hour.",
+            "button_label": "Get an exact quote"
+          }
+        }
+      },
+      "block_order": [
+        "b0",
+        "b1",
+        "b2",
+        "b3",
+        "b4",
+        "b5",
+        "b6",
+        "b7",
+        "b8",
+        "b9",
+        "b10"
+      ]
+    }
+  },
+  "order": [
+    "feed"
+  ]
+}

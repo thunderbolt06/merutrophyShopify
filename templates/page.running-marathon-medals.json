@@ -1,0 +1,168 @@
+{
+  "sections": {
+    "feed": {
+      "type": "feed-landing",
+      "settings": {
+        "eyebrow": "Product · Medals",
+        "heading": "<h1><em>Running & Marathon Finisher Medals</em></h1>",
+        "subheading": "Premium custom finisher medals for marathons, runs and cycling events — large die-struck pieces with custom ribbons, event branding and spinner/cut-out designs. Bulk pricing, pan-India delivery.",
+        "primary_cta_label": "Get a quote on WhatsApp",
+        "secondary_cta_label": "Browse the catalogue",
+        "secondary_cta_url": "/collections/medals",
+        "breadcrumb_label": "Running & Marathon Medals",
+        "faq_heading": "Frequently asked questions",
+        "schema_type": "Product",
+        "schema_name": "Marathon Medals",
+        "color_scheme": "scheme-1",
+        "features_heading": "Why order from Meru Trophy",
+        "price_heading": "Finisher medal price guide",
+        "price_col1": "Item",
+        "price_col2": "Details",
+        "price_col3": "Price (from)",
+        "price_caption": "Indicative starting prices in India. Final price depends on size, material and engraving. Bulk discounts apply. GST invoice available.",
+        "schema_price_low": "60",
+        "schema_price_high": "180"
+      },
+      "blocks": {
+        "b0": {
+          "type": "quick_answer",
+          "settings": {
+            "label": "Quick answer",
+            "text": "<p>Meru Trophy makes <strong>custom marathon and running finisher medals</strong> from around <strong>₹60</strong> in bulk — large die-struck pieces with custom ribbons and event branding. Spinner and cut-out designs available. Delivered pan-India. WhatsApp +91 78922 07252.</p>"
+          }
+        },
+        "b1": {
+          "type": "rich_text",
+          "settings": {
+            "heading": "Finisher medals runners want to keep",
+            "text": "<p>A finisher medal is a runner's keepsake — it should feel substantial. We make <strong>large die-struck and printed finisher medals</strong> with custom shapes, cut-outs, spinners and event-specific artwork, on custom-colour ribbons. From 5K community runs to full marathons and cycling events, we handle the volume and the branding so every finisher gets a medal that matches your event.</p>"
+          }
+        },
+        "b2": {
+          "type": "feature",
+          "settings": {
+            "title": "Large, substantial pieces",
+            "text": "Die-struck weight that feels like an achievement."
+          }
+        },
+        "b3": {
+          "type": "feature",
+          "settings": {
+            "title": "Custom shapes & spinners",
+            "text": "Cut-outs, rotating centres and themed artwork."
+          }
+        },
+        "b4": {
+          "type": "feature",
+          "settings": {
+            "title": "Custom-colour ribbons",
+            "text": "Branded ribbons matched to your event."
+          }
+        },
+        "b5": {
+          "type": "feature",
+          "settings": {
+            "title": "Built for volume",
+            "text": "Hundreds to thousands, delivered on schedule."
+          }
+        },
+        "b6": {
+          "type": "price_row",
+          "settings": {
+            "item": "Standard finisher medal",
+            "spec": "Community 5K/10K runs",
+            "price": "₹60"
+          }
+        },
+        "b7": {
+          "type": "price_row",
+          "settings": {
+            "item": "Custom die-struck medal",
+            "spec": "Branded marathon medal",
+            "price": "₹120"
+          }
+        },
+        "b8": {
+          "type": "price_row",
+          "settings": {
+            "item": "Spinner / cut-out medal",
+            "spec": "Premium themed finisher",
+            "price": "₹180"
+          }
+        },
+        "b9": {
+          "type": "price_row",
+          "settings": {
+            "item": "Bulk (1,000+)",
+            "spec": "Large event volume",
+            "price": "Volume price"
+          }
+        },
+        "b10": {
+          "type": "faq",
+          "settings": {
+            "question": "How early should we order finisher medals?",
+            "answer": "<p>For large events, order 3–4 weeks ahead so artwork, die-striking and ribbons are ready. Rush options exist — ask on WhatsApp.</p>"
+          }
+        },
+        "b11": {
+          "type": "faq",
+          "settings": {
+            "question": "Can the medal have a custom shape?",
+            "answer": "<p>Yes — cut-outs, spinners and event-specific shapes are common for finisher medals.</p>"
+          }
+        },
+        "b12": {
+          "type": "faq",
+          "settings": {
+            "question": "What's the bulk price for finisher medals?",
+            "answer": "<p>From around ₹60 each for standard pieces, with custom die-struck and spinner medals costing more. Quantity lowers the rate.</p>"
+          }
+        },
+        "b13": {
+          "type": "faq",
+          "settings": {
+            "question": "Do you deliver outside Bangalore?",
+            "answer": "<p>Yes — pan-India from Bangalore.</p>"
+          }
+        },
+        "b14": {
+          "type": "related_collection",
+          "settings": {
+            "heading": "Popular marathon medals",
+            "collection": "medals"
+          }
+        },
+        "b15": {
+          "type": "cta_band",
+          "settings": {
+            "heading": "Need marathon medals for an event?",
+            "text": "Tell us the occasion, quantity and date — we'll send designs and a quote, usually within the hour.",
+            "button_label": "Get my quote"
+          }
+        }
+      },
+      "block_order": [
+        "b0",
+        "b1",
+        "b2",
+        "b3",
+        "b4",
+        "b5",
+        "b6",
+        "b7",
+        "b8",
+        "b9",
+        "b10",
+        "b11",
+        "b12",
+        "b13",
+        "b14",
+        "b15"
+      ]
+    }
+  },
+  "order": [
+    "feed"
+  ]
+}

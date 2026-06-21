@@ -1,0 +1,127 @@
+{
+  "sections": {
+    "feed": {
+      "type": "feed-landing",
+      "settings": {
+        "eyebrow": "Pricing · Crystal",
+        "heading": "<h1><em>Crystal Trophy Price</em> in India</h1>",
+        "subheading": "What do crystal trophies cost in India? A clear price guide for K9 optical-crystal awards by size and design — from compact recognition pieces to large statement trophies. By Meru Trophy.",
+        "primary_cta_label": "Get a quote on WhatsApp",
+        "secondary_cta_label": "Browse the catalogue",
+        "secondary_cta_url": "/collections/all",
+        "breadcrumb_label": "crystal trophy price",
+        "faq_heading": "Frequently asked questions",
+        "schema_type": "Product",
+        "schema_name": "crystal trophy price",
+        "color_scheme": "scheme-1",
+        "price_heading": "Crystal trophy price guide",
+        "price_col1": "Item",
+        "price_col2": "Details",
+        "price_col3": "Price (from)",
+        "price_caption": "Indicative starting prices in India. Final price depends on size, material and engraving. Bulk discounts apply. GST invoice available.",
+        "schema_price_low": "350",
+        "schema_price_high": "8000"
+      },
+      "blocks": {
+        "b0": {
+          "type": "quick_answer",
+          "settings": {
+            "label": "Quick answer",
+            "text": "<p>In India, <strong>crystal trophies range from about ₹350</strong> for compact awards to <strong>₹8,000+</strong> for large premium pieces, depending on size, crystal grade and engraving. Bulk discounts from 25 units. Meru Trophy quotes exact prices on WhatsApp (+91 78922 07252).</p>"
+          }
+        },
+        "b1": {
+          "type": "rich_text",
+          "settings": {
+            "heading": "What you'll pay and why",
+            "text": "<p>Crystal pricing depends on <strong>size, crystal grade (K9 optical), shape complexity and engraving</strong>. Compact recognition awards start around ₹350; standard corporate awards ₹750; premium statement pieces ₹2,500; and large custom crystal ₹8,000+. Logo engraving (including sub-surface 3D) is included. (See also <a href=\"/pages/crystal-vs-acrylic-trophy\">crystal vs acrylic</a>.)</p>"
+          }
+        },
+        "b2": {
+          "type": "price_row",
+          "settings": {
+            "item": "Compact crystal award",
+            "spec": "Desk-size recognition",
+            "price": "₹350"
+          }
+        },
+        "b3": {
+          "type": "price_row",
+          "settings": {
+            "item": "Standard corporate award",
+            "spec": "Employee of the Year, milestones",
+            "price": "₹750"
+          }
+        },
+        "b4": {
+          "type": "price_row",
+          "settings": {
+            "item": "Premium statement piece",
+            "spec": "Leadership, VIP felicitation",
+            "price": "₹2,500"
+          }
+        },
+        "b5": {
+          "type": "price_row",
+          "settings": {
+            "item": "Large custom crystal",
+            "spec": "Hero stage trophy, custom shape",
+            "price": "₹8,000"
+          }
+        },
+        "b6": {
+          "type": "faq",
+          "settings": {
+            "question": "How much is a crystal trophy in India?",
+            "answer": "<p>From about ₹350 for compact awards to ₹8,000+ for large premium pieces, before bulk discounts.</p>"
+          }
+        },
+        "b7": {
+          "type": "faq",
+          "settings": {
+            "question": "Is logo engraving extra on crystal?",
+            "answer": "<p>No — laser and sub-surface 3D logo engraving are included with your order.</p>"
+          }
+        },
+        "b8": {
+          "type": "faq",
+          "settings": {
+            "question": "Crystal vs acrylic price?",
+            "answer": "<p>Acrylic is cheaper and lighter; crystal is more premium. See our <a href=\"/pages/crystal-vs-acrylic-trophy\">comparison</a>.</p>"
+          }
+        },
+        "b9": {
+          "type": "faq",
+          "settings": {
+            "question": "Do bulk crystal orders get discounts?",
+            "answer": "<p>Yes — per-piece pricing improves from 25 units and again at 100+.</p>"
+          }
+        },
+        "b10": {
+          "type": "cta_band",
+          "settings": {
+            "heading": "Want an exact price?",
+            "text": "Send your item, quantity and engraving — we'll send a precise quote, usually within the hour.",
+            "button_label": "Get an exact quote"
+          }
+        }
+      },
+      "block_order": [
+        "b0",
+        "b1",
+        "b2",
+        "b3",
+        "b4",
+        "b5",
+        "b6",
+        "b7",
+        "b8",
+        "b9",
+        "b10"
+      ]
+    }
+  },
+  "order": [
+    "feed"
+  ]
+}

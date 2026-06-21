@@ -1,0 +1,160 @@
+{
+  "sections": {
+    "feed": {
+      "type": "feed-landing",
+      "settings": {
+        "eyebrow": "Product · Memento",
+        "heading": "<h1><em>Memento With Photo</em> & Engraving</h1>",
+        "subheading": "Personalised photo mementos — your photo UV-printed onto crystal, acrylic or wood with engraved names and messages. The perfect keepsake for retirements, farewells and felicitations. Pan-India delivery.",
+        "primary_cta_label": "Get a quote on WhatsApp",
+        "secondary_cta_label": "Browse the catalogue",
+        "secondary_cta_url": "/collections/all",
+        "breadcrumb_label": "Memento With Photo & Engraving",
+        "faq_heading": "Frequently asked questions",
+        "schema_type": "Product",
+        "schema_name": "Photo Mementos",
+        "color_scheme": "scheme-1",
+        "features_heading": "Why order from Meru Trophy",
+        "price_heading": "Photo memento price guide",
+        "price_col1": "Item",
+        "price_col2": "Details",
+        "price_col3": "Price (from)",
+        "price_caption": "Indicative starting prices in India. Final price depends on size, material and engraving. Bulk discounts apply. GST invoice available.",
+        "schema_price_low": "400",
+        "schema_price_high": "2500"
+      },
+      "blocks": {
+        "b0": {
+          "type": "quick_answer",
+          "settings": {
+            "label": "Quick answer",
+            "text": "<p>Meru Trophy makes <strong>photo mementos</strong> from around <strong>₹400</strong> — your photo UV-printed onto crystal, acrylic or wood with engraved names and messages. Ideal for retirements, farewells and felicitations. Delivered pan-India. WhatsApp +91 78922 07252.</p>"
+          }
+        },
+        "b1": {
+          "type": "rich_text",
+          "settings": {
+            "heading": "A photo makes it unforgettable",
+            "text": "<p>Adding a photo turns a memento into a deeply personal keepsake. We <strong>UV-print photos in full colour</strong> onto crystal, acrylic and wood, combined with engraved names, dates and a heartfelt message. They're a favourite for retirements, farewells, anniversaries and felicitating a chief guest with a photo of the moment.</p>"
+          }
+        },
+        "b2": {
+          "type": "feature",
+          "settings": {
+            "title": "Full-colour photo printing",
+            "text": "Crisp UV-printed photos on crystal, acrylic or wood."
+          }
+        },
+        "b3": {
+          "type": "feature",
+          "settings": {
+            "title": "Engraved message",
+            "text": "Names, dates and a personal message alongside the photo."
+          }
+        },
+        "b4": {
+          "type": "feature",
+          "settings": {
+            "title": "Any occasion",
+            "text": "Retirements, farewells, anniversaries, felicitations."
+          }
+        },
+        "b5": {
+          "type": "feature",
+          "settings": {
+            "title": "Single or sets",
+            "text": "One bespoke keepsake or a group order."
+          }
+        },
+        "b6": {
+          "type": "price_row",
+          "settings": {
+            "item": "Photo acrylic memento",
+            "spec": "Personal keepsake",
+            "price": "₹400"
+          }
+        },
+        "b7": {
+          "type": "price_row",
+          "settings": {
+            "item": "Photo wood memento",
+            "spec": "Warm, classic keepsake",
+            "price": "₹600"
+          }
+        },
+        "b8": {
+          "type": "price_row",
+          "settings": {
+            "item": "Photo crystal memento",
+            "spec": "Premium keepsake",
+            "price": "₹900"
+          }
+        },
+        "b9": {
+          "type": "price_row",
+          "settings": {
+            "item": "Premium photo award",
+            "spec": "Large piece + gift box",
+            "price": "₹2,500"
+          }
+        },
+        "b10": {
+          "type": "faq",
+          "settings": {
+            "question": "What photo quality do you need?",
+            "answer": "<p>A high-resolution image (clear, well-lit) prints best. Send the largest version you have and we'll advise.</p>"
+          }
+        },
+        "b11": {
+          "type": "faq",
+          "settings": {
+            "question": "Which material suits a photo memento?",
+            "answer": "<p>Crystal feels premium, wood feels warm, acrylic is light and budget-friendly — all print full-colour photos well.</p>"
+          }
+        },
+        "b12": {
+          "type": "faq",
+          "settings": {
+            "question": "Can you add a message and date?",
+            "answer": "<p>Yes — engraved names, dates and a personal message accompany the photo.</p>"
+          }
+        },
+        "b13": {
+          "type": "faq",
+          "settings": {
+            "question": "Do you deliver outside Bangalore?",
+            "answer": "<p>Yes — pan-India from Bangalore.</p>"
+          }
+        },
+        "b14": {
+          "type": "cta_band",
+          "settings": {
+            "heading": "Need photo mementos for an event?",
+            "text": "Tell us the occasion, quantity and date — we'll send designs and a quote, usually within the hour.",
+            "button_label": "Get my quote"
+          }
+        }
+      },
+      "block_order": [
+        "b0",
+        "b1",
+        "b2",
+        "b3",
+        "b4",
+        "b5",
+        "b6",
+        "b7",
+        "b8",
+        "b9",
+        "b10",
+        "b11",
+        "b12",
+        "b13",
+        "b14"
+      ]
+    }
+  },
+  "order": [
+    "feed"
+  ]
+}

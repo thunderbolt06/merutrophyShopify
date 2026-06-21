@@ -1,0 +1,92 @@
+{
+  "sections": {
+    "feed": {
+      "type": "feed-landing",
+      "settings": {
+        "eyebrow": "Guide · Cricket",
+        "heading": "<h1><em>T20 World Cup Trophy</em>: Facts, Price & Replicas</h1>",
+        "subheading": "What is the T20 World Cup trophy, how much is it, and can you buy a replica? The facts plus custom T20-style replica pricing from Meru Trophy.",
+        "primary_cta_label": "Get a quote on WhatsApp",
+        "secondary_cta_label": "See cricket combos",
+        "secondary_cta_url": "/pages/cricket-tournament-trophy-combo",
+        "breadcrumb_label": "t20 world cup trophy",
+        "faq_heading": "Frequently asked questions",
+        "schema_type": "none",
+        "schema_name": "t20 world cup trophy",
+        "color_scheme": "scheme-1"
+      },
+      "blocks": {
+        "b0": {
+          "type": "quick_answer",
+          "settings": {
+            "label": "Quick answer",
+            "text": "<p>The <strong>ICC T20 World Cup trophy is a bespoke presentation cup, not sold publicly</strong> — so it has no retail price. For your own event, custom <strong>T20-style replicas</strong> from Meru Trophy start around <strong>₹999</strong>. WhatsApp +91 78922 07252.</p>"
+          }
+        },
+        "b1": {
+          "type": "rich_text",
+          "settings": {
+            "heading": "Why there's no price tag",
+            "text": "<p>The T20 World Cup trophy is commissioned for the tournament and presented to the champions; it isn't sold to the public, so any figure is an estimate of craftsmanship, not a purchase price.</p>"
+          }
+        },
+        "b2": {
+          "type": "rich_text",
+          "settings": {
+            "heading": "Replicas for your tournament",
+            "text": "<p>For a T20 event of your own, we make <strong>custom T20-style replica cups</strong> engraved with your tournament name — from ₹999 (table-top) to ₹15,000+ (large cups). Pair with medals and individual awards via a <a href=\"/pages/cricket-tournament-trophy-combo\">cricket combo pack</a>.</p>"
+          }
+        },
+        "b3": {
+          "type": "faq",
+          "settings": {
+            "question": "How much is the T20 World Cup trophy?",
+            "answer": "<p>No public retail price — it's a bespoke commissioned cup.</p>"
+          }
+        },
+        "b4": {
+          "type": "faq",
+          "settings": {
+            "question": "Can I buy a T20-style replica?",
+            "answer": "<p>Yes — a custom replica for your own tournament, from ₹999 upward.</p>"
+          }
+        },
+        "b5": {
+          "type": "faq",
+          "settings": {
+            "question": "Can you bundle medals and awards?",
+            "answer": "<p>Yes — see our <a href=\"/pages/cricket-tournament-trophy-combo\">cricket combo packs</a>.</p>"
+          }
+        },
+        "b6": {
+          "type": "faq",
+          "settings": {
+            "question": "How fast can it be made?",
+            "answer": "<p>3–5 business days for standard sizes.</p>"
+          }
+        },
+        "b7": {
+          "type": "cta_band",
+          "settings": {
+            "heading": "Running a T20 tournament?",
+            "text": "Tell us what you're planning — we'll share designs and a quote, usually within the hour.",
+            "button_label": "Get a cricket combo quote"
+          }
+        }
+      },
+      "block_order": [
+        "b0",
+        "b1",
+        "b2",
+        "b3",
+        "b4",
+        "b5",
+        "b6",
+        "b7"
+      ]
+    }
+  },
+  "order": [
+    "feed"
+  ]
+}

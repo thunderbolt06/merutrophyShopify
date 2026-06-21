@@ -1,0 +1,141 @@
+{
+  "sections": {
+    "feed": {
+      "type": "feed-landing",
+      "settings": {
+        "eyebrow": "Audience · Government",
+        "heading": "<h1><em>Trophies & Awards for Government Departments</em></h1>",
+        "subheading": "Recognition, Republic/Independence Day, sports and service awards for government departments and PSUs — GST-invoiced, PO-based, with tender-style documentation. Pan-India by Meru Trophy.",
+        "primary_cta_label": "Get a quote on WhatsApp",
+        "secondary_cta_label": "Browse the catalogue",
+        "secondary_cta_url": "/collections/all",
+        "breadcrumb_label": "Trophies for Government Departments",
+        "faq_heading": "Frequently asked questions",
+        "schema_type": "Service",
+        "schema_name": "Trophies for Government Departments",
+        "color_scheme": "scheme-1",
+        "features_heading": "Why we're a fit"
+      },
+      "blocks": {
+        "b0": {
+          "type": "quick_answer",
+          "settings": {
+            "label": "Quick answer",
+            "text": "<p>Meru Trophy supplies <strong>government departments and PSUs</strong> with recognition, national-day, sports and service awards — GST-invoiced, PO-based, with tender-style documentation and pan-India delivery. WhatsApp +91 78922 07252.</p>"
+          }
+        },
+        "b1": {
+          "type": "rich_text",
+          "settings": {
+            "heading": "Awards built for government departments",
+            "text": "<p>Government and PSU orders need clean procurement. We provide <strong>GST invoices, PO-based ordering and the tender-style documentation</strong> departments require, across recognition, Republic/Independence Day, sports and long-service awards. Bulk-capable and reliably delivered nationwide, with our <a href=\"/pages/bulk-trophy-order-india\">bulk-order</a> process built for institutions.</p>"
+          }
+        },
+        "b2": {
+          "type": "feature",
+          "settings": {
+            "title": "Procurement-ready",
+            "text": "GST invoices, PO ordering, tender documentation."
+          }
+        },
+        "b3": {
+          "type": "feature",
+          "settings": {
+            "title": "All award types",
+            "text": "Recognition, national-day, sports and service awards."
+          }
+        },
+        "b4": {
+          "type": "feature",
+          "settings": {
+            "title": "Bulk capacity",
+            "text": "50–5,000+ pieces produced in-house."
+          }
+        },
+        "b5": {
+          "type": "feature",
+          "settings": {
+            "title": "Pan-India delivery",
+            "text": "Reliable dispatch to any department."
+          }
+        },
+        "b6": {
+          "type": "stat",
+          "settings": {
+            "number": "20+",
+            "label": "Years"
+          }
+        },
+        "b7": {
+          "type": "stat",
+          "settings": {
+            "number": "150+",
+            "label": "Brands served"
+          }
+        },
+        "b8": {
+          "type": "stat",
+          "settings": {
+            "number": "50–5,000+",
+            "label": "Pieces per order"
+          }
+        },
+        "b9": {
+          "type": "faq",
+          "settings": {
+            "question": "Do you handle PO-based government orders?",
+            "answer": "<p>Yes — PO-based ordering with GST invoices and tender-style documentation.</p>"
+          }
+        },
+        "b10": {
+          "type": "faq",
+          "settings": {
+            "question": "Can you supply in bulk?",
+            "answer": "<p>Yes — 50–5,000+ pieces; see our <a href=\"/pages/bulk-trophy-order-india\">bulk-order</a> process.</p>"
+          }
+        },
+        "b11": {
+          "type": "faq",
+          "settings": {
+            "question": "Do you deliver across India?",
+            "answer": "<p>Yes — pan-India to any department.</p>"
+          }
+        },
+        "b12": {
+          "type": "faq",
+          "settings": {
+            "question": "Can you provide required certifications/paperwork?",
+            "answer": "<p>We provide GST invoices and standard documentation; tell us your tender requirements.</p>"
+          }
+        },
+        "b13": {
+          "type": "cta_band",
+          "settings": {
+            "heading": "Need awards for government departments?",
+            "text": "Tell us your requirement and date — we'll share relevant past work and a quote, usually within the hour.",
+            "button_label": "Get a quote"
+          }
+        }
+      },
+      "block_order": [
+        "b0",
+        "b1",
+        "b2",
+        "b3",
+        "b4",
+        "b5",
+        "b6",
+        "b7",
+        "b8",
+        "b9",
+        "b10",
+        "b11",
+        "b12",
+        "b13"
+      ]
+    }
+  },
+  "order": [
+    "feed"
+  ]
+}

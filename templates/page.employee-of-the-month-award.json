@@ -1,0 +1,160 @@
+{
+  "sections": {
+    "feed": {
+      "type": "feed-landing",
+      "settings": {
+        "eyebrow": "Occasion · Employee",
+        "heading": "<h1><em>Employee of the Month & Year Awards</em></h1>",
+        "subheading": "Recognise standout employees with branded Employee of the Month and Year awards — crystal, metal and acrylic, engraved with the winner and your logo. Reorderable, GST-invoiced. By Meru Trophy.",
+        "primary_cta_label": "Get a quote on WhatsApp",
+        "secondary_cta_label": "Browse the catalogue",
+        "secondary_cta_url": "/collections/all",
+        "breadcrumb_label": "Employee of the Month / Year Award",
+        "faq_heading": "Frequently asked questions",
+        "schema_type": "Product",
+        "schema_name": "Employee of the Month / Year Award",
+        "color_scheme": "scheme-1",
+        "features_heading": "Popular choices",
+        "price_heading": "Employee award price guide",
+        "price_col1": "Item",
+        "price_col2": "Details",
+        "price_col3": "Price (from)",
+        "price_caption": "Indicative starting prices in India. Final price depends on size, material and engraving. Bulk discounts apply. GST invoice available.",
+        "schema_price_low": "600",
+        "schema_price_high": "3500"
+      },
+      "blocks": {
+        "b0": {
+          "type": "quick_answer",
+          "settings": {
+            "label": "Quick answer",
+            "text": "<p><strong>Employee of the Month/Year awards</strong> recognise standout performers with branded crystal, metal or acrylic pieces engraved with the winner's name and your logo — from around ₹600, reorderable monthly. Meru Trophy keeps your design on file. WhatsApp +91 78922 07252.</p>"
+          }
+        },
+        "b1": {
+          "type": "rich_text",
+          "settings": {
+            "heading": "The right award for the moment",
+            "text": "<p>A recurring Employee of the Month/Year award keeps recognition visible all year. Pick a branded design, and we keep it on file so you can <strong>reorder each month</strong> with the new winner engraved. Pair the monthly award with a premium annual Employee of the Year piece. See our <a href=\"/pages/employee-recognition-awards-program\">full recognition program</a>.</p>"
+          }
+        },
+        "b2": {
+          "type": "feature",
+          "settings": {
+            "title": "Monthly + annual",
+            "text": "Recurring monthly award plus a premium annual piece."
+          }
+        },
+        "b3": {
+          "type": "feature",
+          "settings": {
+            "title": "Branded & engraved",
+            "text": "Winner's name and your logo on every award."
+          }
+        },
+        "b4": {
+          "type": "feature",
+          "settings": {
+            "title": "Reorder on demand",
+            "text": "Design kept on file for quick monthly reorders."
+          }
+        },
+        "b5": {
+          "type": "feature",
+          "settings": {
+            "title": "Any material",
+            "text": "Crystal, metal or acrylic to fit your budget."
+          }
+        },
+        "b6": {
+          "type": "price_row",
+          "settings": {
+            "item": "Employee of the Month",
+            "spec": "Monthly recurring award",
+            "price": "₹600"
+          }
+        },
+        "b7": {
+          "type": "price_row",
+          "settings": {
+            "item": "Premium monthly",
+            "spec": "Crystal monthly award",
+            "price": "₹1,200"
+          }
+        },
+        "b8": {
+          "type": "price_row",
+          "settings": {
+            "item": "Employee of the Year",
+            "spec": "Flagship annual award",
+            "price": "₹3,500"
+          }
+        },
+        "b9": {
+          "type": "price_row",
+          "settings": {
+            "item": "Annual programme",
+            "spec": "Monthly + annual set",
+            "price": "Custom quote"
+          }
+        },
+        "b10": {
+          "type": "faq",
+          "settings": {
+            "question": "Can we reorder the same award each month?",
+            "answer": "<p>Yes — we keep your design on file so you only send the new winner's name.</p>"
+          }
+        },
+        "b11": {
+          "type": "faq",
+          "settings": {
+            "question": "Should the annual award be bigger?",
+            "answer": "<p>Usually yes — a premium Employee of the Year piece stands apart from the monthly award.</p>"
+          }
+        },
+        "b12": {
+          "type": "faq",
+          "settings": {
+            "question": "Is our logo included?",
+            "answer": "<p>Yes — engraved or printed on every award.</p>"
+          }
+        },
+        "b13": {
+          "type": "faq",
+          "settings": {
+            "question": "Do you provide GST invoices?",
+            "answer": "<p>Yes — GST invoices and PO handling; see our <a href=\"/pages/employee-recognition-awards-program\">recognition program</a>.</p>"
+          }
+        },
+        "b14": {
+          "type": "cta_band",
+          "settings": {
+            "heading": "Planning employee recognition?",
+            "text": "Tell us the occasion, recipient and date — we'll share designs and a quote, usually within the hour.",
+            "button_label": "Get a quote"
+          }
+        }
+      },
+      "block_order": [
+        "b0",
+        "b1",
+        "b2",
+        "b3",
+        "b4",
+        "b5",
+        "b6",
+        "b7",
+        "b8",
+        "b9",
+        "b10",
+        "b11",
+        "b12",
+        "b13",
+        "b14"
+      ]
+    }
+  },
+  "order": [
+    "feed"
+  ]
+}

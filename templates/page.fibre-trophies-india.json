@@ -1,0 +1,160 @@
+{
+  "sections": {
+    "feed": {
+      "type": "feed-landing",
+      "settings": {
+        "eyebrow": "Product · Fibre",
+        "heading": "<h1><em>Fibre Trophies</em> in Bulk — Lightweight & Affordable</h1>",
+        "subheading": "Lightweight fibre trophies for school sports days, local tournaments and high-volume events — bright finishes, tall heights and unbeatable per-piece pricing. Made in Bangalore, delivered across India.",
+        "primary_cta_label": "Get a quote on WhatsApp",
+        "secondary_cta_label": "Browse the catalogue",
+        "secondary_cta_url": "/collections/all",
+        "breadcrumb_label": "Fibre Trophies India",
+        "faq_heading": "Frequently asked questions",
+        "schema_type": "Product",
+        "schema_name": "Fibre Trophies",
+        "color_scheme": "scheme-1",
+        "features_heading": "Why order from Meru Trophy",
+        "price_heading": "Fibre trophy price guide",
+        "price_col1": "Item",
+        "price_col2": "Details",
+        "price_col3": "Price (from)",
+        "price_caption": "Indicative starting prices in India. Final price depends on size, material and engraving. Bulk discounts apply. GST invoice available.",
+        "schema_price_low": "120",
+        "schema_price_high": "600"
+      },
+      "blocks": {
+        "b0": {
+          "type": "quick_answer",
+          "settings": {
+            "label": "Quick answer",
+            "text": "<p>Meru Trophy makes <strong>lightweight fibre trophies</strong> from around <strong>₹120</strong> — the most affordable way to award tall, eye-catching trophies in bulk for school sports days and local tournaments. Free engraving, pan-India delivery. WhatsApp +91 78922 07252.</p>"
+          }
+        },
+        "b1": {
+          "type": "rich_text",
+          "settings": {
+            "heading": "Maximum height, minimum cost",
+            "text": "<p>Fibre trophies give you dramatic height and bright metallic finishes at the lowest per-piece price — which is why they're the default for school sports days, gully tournaments and any event awarding dozens or hundreds of trophies. They're light to ship and easy to hand out, and still take engraved name plates for a personal touch.</p>"
+          }
+        },
+        "b2": {
+          "type": "feature",
+          "settings": {
+            "title": "Lowest per-piece price",
+            "text": "The most budget-friendly trophy for high-volume events."
+          }
+        },
+        "b3": {
+          "type": "feature",
+          "settings": {
+            "title": "Tall & eye-catching",
+            "text": "Impressive height and bright finishes for the photo moment."
+          }
+        },
+        "b4": {
+          "type": "feature",
+          "settings": {
+            "title": "Lightweight",
+            "text": "Easy and cheap to ship in large quantities."
+          }
+        },
+        "b5": {
+          "type": "feature",
+          "settings": {
+            "title": "Engraved name plates",
+            "text": "Add recipient and event details affordably."
+          }
+        },
+        "b6": {
+          "type": "price_row",
+          "settings": {
+            "item": "Small fibre trophy",
+            "spec": "Participation & category awards",
+            "price": "₹120"
+          }
+        },
+        "b7": {
+          "type": "price_row",
+          "settings": {
+            "item": "Medium fibre trophy",
+            "spec": "School & local tournament winners",
+            "price": "₹250"
+          }
+        },
+        "b8": {
+          "type": "price_row",
+          "settings": {
+            "item": "Large fibre trophy",
+            "spec": "Event hero trophy",
+            "price": "₹600"
+          }
+        },
+        "b9": {
+          "type": "price_row",
+          "settings": {
+            "item": "Bulk set (50+)",
+            "spec": "Sports day across age groups",
+            "price": "Volume price"
+          }
+        },
+        "b10": {
+          "type": "faq",
+          "settings": {
+            "question": "How cheap can fibre trophies get in bulk?",
+            "answer": "<p>For large orders, small fibre trophies start near ₹120 and fall further with quantity. Tell us your count for an exact per-piece rate.</p>"
+          }
+        },
+        "b11": {
+          "type": "faq",
+          "settings": {
+            "question": "Are fibre trophies good quality?",
+            "answer": "<p>They're light and not as premium as metal or crystal, but they look bright and tall in photos and are perfect for high-volume, budget-sensitive events.</p>"
+          }
+        },
+        "b12": {
+          "type": "faq",
+          "settings": {
+            "question": "Can you engrave each trophy?",
+            "answer": "<p>Yes — engraved name plates with recipient, category and event are added affordably.</p>"
+          }
+        },
+        "b13": {
+          "type": "faq",
+          "settings": {
+            "question": "Do you deliver outside Bangalore?",
+            "answer": "<p>Yes — pan-India from Bangalore.</p>"
+          }
+        },
+        "b14": {
+          "type": "cta_band",
+          "settings": {
+            "heading": "Need fibre trophies for an event?",
+            "text": "Tell us the occasion, quantity and date — we'll send designs and a quote, usually within the hour.",
+            "button_label": "Get my quote"
+          }
+        }
+      },
+      "block_order": [
+        "b0",
+        "b1",
+        "b2",
+        "b3",
+        "b4",
+        "b5",
+        "b6",
+        "b7",
+        "b8",
+        "b9",
+        "b10",
+        "b11",
+        "b12",
+        "b13",
+        "b14"
+      ]
+    }
+  },
+  "order": [
+    "feed"
+  ]
+}

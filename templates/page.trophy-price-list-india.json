@@ -1,0 +1,154 @@
+{
+  "sections": {
+    "feed": {
+      "type": "feed-landing",
+      "settings": {
+        "eyebrow": "Pricing",
+        "heading": "<h1><em>Trophy Price List</em> India (2026)</h1>",
+        "subheading": "What do trophies cost in India? A clear price guide by material and size — from budget fibre trophies to premium crystal — with bulk rates. Custom-made by Meru Trophy, Bangalore.",
+        "primary_cta_label": "Get a quote on WhatsApp",
+        "secondary_cta_label": "Browse the catalogue",
+        "secondary_cta_url": "/collections/all",
+        "breadcrumb_label": "trophy price list",
+        "faq_heading": "Frequently asked questions",
+        "schema_type": "Product",
+        "schema_name": "trophy price list",
+        "color_scheme": "scheme-1",
+        "price_heading": "Trophy price guide by material",
+        "price_col1": "Item",
+        "price_col2": "Details",
+        "price_col3": "Price (from)",
+        "price_caption": "Indicative starting prices in India. Final price depends on size, material and engraving. Bulk discounts apply. GST invoice available.",
+        "schema_price_low": "25",
+        "schema_price_high": "8000"
+      },
+      "blocks": {
+        "b0": {
+          "type": "quick_answer",
+          "settings": {
+            "label": "Quick answer",
+            "text": "<p>In India, trophies typically range from <strong>₹120 for small fibre trophies</strong> to <strong>₹8,000+ for large premium crystal</strong>, with medals from ₹25 in bulk. Final price depends on material, size and engraving. Meru Trophy quotes exact prices on WhatsApp (+91 78922 07252).</p>"
+          }
+        },
+        "b1": {
+          "type": "rich_text",
+          "settings": {
+            "heading": "What you'll pay and why",
+            "text": "<p>Trophy prices in India depend mainly on <strong>material, size, finish and engraving</strong>, then drop with quantity. Fibre and acrylic are the budget end; metal cups sit in the middle; optical crystal is premium. Below is a realistic starting-price guide — tell us your exact item and quantity for a precise quote.</p>"
+          }
+        },
+        "b2": {
+          "type": "price_row",
+          "settings": {
+            "item": "Fibre trophy",
+            "spec": "Lightweight, school & local events",
+            "price": "₹120"
+          }
+        },
+        "b3": {
+          "type": "price_row",
+          "settings": {
+            "item": "Acrylic trophy",
+            "spec": "UV-printed, corporate & sports",
+            "price": "₹250"
+          }
+        },
+        "b4": {
+          "type": "price_row",
+          "settings": {
+            "item": "Metal cup",
+            "spec": "Tournament winners",
+            "price": "₹200"
+          }
+        },
+        "b5": {
+          "type": "price_row",
+          "settings": {
+            "item": "Glass award",
+            "spec": "Corporate recognition",
+            "price": "₹400"
+          }
+        },
+        "b6": {
+          "type": "price_row",
+          "settings": {
+            "item": "Wooden memento",
+            "spec": "Felicitations & gifts",
+            "price": "₹250"
+          }
+        },
+        "b7": {
+          "type": "price_row",
+          "settings": {
+            "item": "Crystal award",
+            "spec": "Premium recognition",
+            "price": "₹350"
+          }
+        },
+        "b8": {
+          "type": "price_row",
+          "settings": {
+            "item": "Medals (bulk)",
+            "spec": "Sports & participation",
+            "price": "₹25"
+          }
+        },
+        "b9": {
+          "type": "faq",
+          "settings": {
+            "question": "What's the cheapest trophy in India?",
+            "answer": "<p>Small fibre trophies start near ₹120, and participation medals from ₹25 in bulk.</p>"
+          }
+        },
+        "b10": {
+          "type": "faq",
+          "settings": {
+            "question": "What makes a trophy more expensive?",
+            "answer": "<p>Material (crystal costs more than fibre/acrylic), size, finish, and complex engraving or logo work.</p>"
+          }
+        },
+        "b11": {
+          "type": "faq",
+          "settings": {
+            "question": "Do prices drop for bulk orders?",
+            "answer": "<p>Yes — significantly. Per-piece rates fall from 25 units and again at 100+ and 500+.</p>"
+          }
+        },
+        "b12": {
+          "type": "faq",
+          "settings": {
+            "question": "Can I get an exact price?",
+            "answer": "<p>Yes — send your item, size, quantity and engraving and we'll quote precisely.</p>"
+          }
+        },
+        "b13": {
+          "type": "cta_band",
+          "settings": {
+            "heading": "Want an exact price?",
+            "text": "Send your item, quantity and engraving — we'll send a precise quote, usually within the hour.",
+            "button_label": "Get an exact quote"
+          }
+        }
+      },
+      "block_order": [
+        "b0",
+        "b1",
+        "b2",
+        "b3",
+        "b4",
+        "b5",
+        "b6",
+        "b7",
+        "b8",
+        "b9",
+        "b10",
+        "b11",
+        "b12",
+        "b13"
+      ]
+    }
+  },
+  "order": [
+    "feed"
+  ]
+}

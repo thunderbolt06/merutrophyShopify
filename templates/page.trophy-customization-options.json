@@ -1,0 +1,150 @@
+{
+  "sections": {
+    "feed": {
+      "type": "feed-landing",
+      "settings": {
+        "eyebrow": "Service · Customisation",
+        "heading": "<h1><em>Trophy Customization Options</em> — Materials, Sizes & Finishes</h1>",
+        "subheading": "Every way to customise your award — material, shape, size, colour, engraving, UV printing, photos, bases, gift boxes and packaging. Build exactly the trophy you want. Pan-India.",
+        "primary_cta_label": "Get a quote on WhatsApp",
+        "secondary_cta_label": "Design your own trophy",
+        "secondary_cta_url": "/pages/design-your-own-trophy-online",
+        "breadcrumb_label": "trophy customization options",
+        "faq_heading": "Frequently asked questions",
+        "schema_type": "Service",
+        "schema_name": "trophy customization options",
+        "color_scheme": "scheme-1",
+        "features_heading": "Why teams choose Meru Trophy",
+        "steps_heading": "The process, step by step"
+      },
+      "blocks": {
+        "b0": {
+          "type": "quick_answer",
+          "settings": {
+            "label": "Quick answer",
+            "text": "<p>Meru Trophy offers full <strong>trophy customisation</strong>: choose material (crystal, metal, acrylic, glass, wood), shape, size, colour, engraving, full-colour UV printing, photos, bases, gift boxes and packaging. WhatsApp +91 78922 07252.</p>"
+          }
+        },
+        "b1": {
+          "type": "rich_text",
+          "settings": {
+            "heading": "How it works",
+            "text": "<p>Almost everything about your award is a choice. Pick the <strong>material</strong> (crystal, metal, acrylic, glass or wood), the <strong>shape and size</strong>, finishes and colours, and how it's personalised — laser engraving, full-colour UV printing, photos and citations. Add engraved bases, name plates, gift boxes and branded packaging. Tell us the occasion and budget and we'll show you the options that fit.</p>"
+          }
+        },
+        "b2": {
+          "type": "feature",
+          "settings": {
+            "title": "Material & finish",
+            "text": "Crystal, metal, acrylic, glass, wood; many finishes."
+          }
+        },
+        "b3": {
+          "type": "feature",
+          "settings": {
+            "title": "Shape, size & colour",
+            "text": "From compact desk awards to tall statement pieces."
+          }
+        },
+        "b4": {
+          "type": "feature",
+          "settings": {
+            "title": "Personalisation",
+            "text": "Engraving, UV printing, photos, logos and citations."
+          }
+        },
+        "b5": {
+          "type": "feature",
+          "settings": {
+            "title": "Bases & packaging",
+            "text": "Engraved bases, name plates, gift boxes and branded packaging."
+          }
+        },
+        "b6": {
+          "type": "step",
+          "settings": {
+            "title": "Tell us what you need",
+            "text": "WhatsApp, call or fill the form with occasion, quantity, material and date."
+          }
+        },
+        "b7": {
+          "type": "step",
+          "settings": {
+            "title": "Get options & a quote",
+            "text": "We share designs, matching past work and a clear quote — usually same day."
+          }
+        },
+        "b8": {
+          "type": "step",
+          "settings": {
+            "title": "Approve proof & advance",
+            "text": "Sign off a digital mockup; 50% advance via UPI/transfer/card with GST invoice."
+          }
+        },
+        "b9": {
+          "type": "step",
+          "settings": {
+            "title": "Made & dispatched",
+            "text": "Crafted in our Bangalore workshop, QC'd and tracked to your venue."
+          }
+        },
+        "b10": {
+          "type": "faq",
+          "settings": {
+            "question": "What materials can I choose?",
+            "answer": "<p>Crystal, metal, acrylic, glass and wood — each with its own look, weight and price.</p>"
+          }
+        },
+        "b11": {
+          "type": "faq",
+          "settings": {
+            "question": "Can I add a photo or full-colour logo?",
+            "answer": "<p>Yes — UV printing handles full-colour photos and logos; crystal supports 3D logo engraving.</p>"
+          }
+        },
+        "b12": {
+          "type": "faq",
+          "settings": {
+            "question": "Can you do custom shapes and sizes?",
+            "answer": "<p>Yes — custom-cut shapes and a wide size range, including tall statement trophies.</p>"
+          }
+        },
+        "b13": {
+          "type": "faq",
+          "settings": {
+            "question": "Do you offer gift boxes and packaging?",
+            "answer": "<p>Yes — presentation boxes, name tags and branded packaging on request.</p>"
+          }
+        },
+        "b14": {
+          "type": "cta_band",
+          "settings": {
+            "heading": "Ready to start?",
+            "text": "Message us your requirement and event date — we'll guide you through and quote, usually within the hour.",
+            "button_label": "Message us on WhatsApp"
+          }
+        }
+      },
+      "block_order": [
+        "b0",
+        "b1",
+        "b2",
+        "b3",
+        "b4",
+        "b5",
+        "b6",
+        "b7",
+        "b8",
+        "b9",
+        "b10",
+        "b11",
+        "b12",
+        "b13",
+        "b14"
+      ]
+    }
+  },
+  "order": [
+    "feed"
+  ]
+}

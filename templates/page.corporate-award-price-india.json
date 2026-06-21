@@ -1,0 +1,127 @@
+{
+  "sections": {
+    "feed": {
+      "type": "feed-landing",
+      "settings": {
+        "eyebrow": "Pricing · Corporate",
+        "heading": "<h1><em>Corporate Award Price</em> in India</h1>",
+        "subheading": "What do corporate awards cost in India? A price guide for crystal, metal and wooden recognition awards by tier — with bulk rates and GST invoicing. By Meru Trophy.",
+        "primary_cta_label": "Get a quote on WhatsApp",
+        "secondary_cta_label": "Browse the catalogue",
+        "secondary_cta_url": "/collections/all",
+        "breadcrumb_label": "corporate award price",
+        "faq_heading": "Frequently asked questions",
+        "schema_type": "Product",
+        "schema_name": "corporate award price",
+        "color_scheme": "scheme-1",
+        "price_heading": "Corporate award price guide",
+        "price_col1": "Item",
+        "price_col2": "Details",
+        "price_col3": "Price (from)",
+        "price_caption": "Indicative starting prices in India. Final price depends on size, material and engraving. Bulk discounts apply. GST invoice available.",
+        "schema_price_low": "350",
+        "schema_price_high": "5000"
+      },
+      "blocks": {
+        "b0": {
+          "type": "quick_answer",
+          "settings": {
+            "label": "Quick answer",
+            "text": "<p>In India, <strong>corporate awards typically run ₹350–₹5,000</strong> per piece depending on material and tier — appreciation awards from ₹350, premium crystal to ₹5,000+ — with bulk discounts and GST invoicing. Meru Trophy quotes exact prices on WhatsApp (+91 78922 07252).</p>"
+          }
+        },
+        "b1": {
+          "type": "rich_text",
+          "settings": {
+            "heading": "What you'll pay and why",
+            "text": "<p>Corporate award pricing scales with the <strong>tier and material</strong>: affordable spot/appreciation awards, mid-range recognition pieces, and premium crystal for leadership and milestones. Logo engraving and citations are included, and per-piece rates fall sharply for award-night volumes. For a full ceremony, see our <a href=\"/pages/corporate-annual-awards-night-package\">awards-night package</a>.</p>"
+          }
+        },
+        "b2": {
+          "type": "price_row",
+          "settings": {
+            "item": "Appreciation / spot award",
+            "spec": "Instant recognition",
+            "price": "₹350"
+          }
+        },
+        "b3": {
+          "type": "price_row",
+          "settings": {
+            "item": "Standard corporate award",
+            "spec": "Employee of the Year, milestones",
+            "price": "₹750"
+          }
+        },
+        "b4": {
+          "type": "price_row",
+          "settings": {
+            "item": "Premium crystal award",
+            "spec": "Leadership & top performer",
+            "price": "₹2,500"
+          }
+        },
+        "b5": {
+          "type": "price_row",
+          "settings": {
+            "item": "Executive statement piece",
+            "spec": "VIP / flagship",
+            "price": "₹5,000"
+          }
+        },
+        "b6": {
+          "type": "faq",
+          "settings": {
+            "question": "How much do corporate awards cost?",
+            "answer": "<p>Typically ₹350–₹5,000 per piece by material and tier, before bulk discounts.</p>"
+          }
+        },
+        "b7": {
+          "type": "faq",
+          "settings": {
+            "question": "Is logo engraving included?",
+            "answer": "<p>Yes — your logo and citation are engraved/printed free on every award.</p>"
+          }
+        },
+        "b8": {
+          "type": "faq",
+          "settings": {
+            "question": "Do you offer GST invoices?",
+            "answer": "<p>Yes — GST invoices and PO handling on all B2B orders.</p>"
+          }
+        },
+        "b9": {
+          "type": "faq",
+          "settings": {
+            "question": "Can you price a whole awards night?",
+            "answer": "<p>Yes — see our <a href=\"/pages/corporate-annual-awards-night-package\">awards-night package</a> for co-ordinated pricing.</p>"
+          }
+        },
+        "b10": {
+          "type": "cta_band",
+          "settings": {
+            "heading": "Want an exact price?",
+            "text": "Send your item, quantity and engraving — we'll send a precise quote, usually within the hour.",
+            "button_label": "Get an exact quote"
+          }
+        }
+      },
+      "block_order": [
+        "b0",
+        "b1",
+        "b2",
+        "b3",
+        "b4",
+        "b5",
+        "b6",
+        "b7",
+        "b8",
+        "b9",
+        "b10"
+      ]
+    }
+  },
+  "order": [
+    "feed"
+  ]
+}

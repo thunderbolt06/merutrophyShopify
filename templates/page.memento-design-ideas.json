@@ -1,0 +1,92 @@
+{
+  "sections": {
+    "feed": {
+      "type": "feed-landing",
+      "settings": {
+        "eyebrow": "Ideas · Mementos",
+        "heading": "<h1><em>Memento Design Ideas</em> for Every Occasion</h1>",
+        "subheading": "Fresh memento design ideas — crystal, wood, acrylic and photo mementos for corporate, academic, retirement and cultural events. Get inspired, then have it custom-made by Meru Trophy.",
+        "primary_cta_label": "Get a quote on WhatsApp",
+        "secondary_cta_label": "Browse the catalogue",
+        "secondary_cta_url": "/collections/all",
+        "breadcrumb_label": "memento design",
+        "faq_heading": "Frequently asked questions",
+        "schema_type": "none",
+        "schema_name": "memento design",
+        "color_scheme": "scheme-1"
+      },
+      "blocks": {
+        "b0": {
+          "type": "quick_answer",
+          "settings": {
+            "label": "Quick answer",
+            "text": "<p>Great <strong>memento designs</strong> combine the right material (crystal, wood, acrylic) with a clean engraved layout — name, occasion, date and logo. Popular ideas include <strong>wooden plaques, crystal blocks, photo mementos and modern wood-acrylic pieces</strong>. Meru Trophy designs and makes any of these. WhatsApp +91 78922 07252.</p>"
+          }
+        },
+        "b1": {
+          "type": "rich_text",
+          "settings": {
+            "heading": "Ideas that work",
+            "text": "<p>A memorable memento balances the material, shape and engraving. Keep the layout clean, lead with the recipient's name and occasion, and add the date and host logo. Below are designs that consistently land well — we can customise any of them to your event.</p>"
+          }
+        },
+        "b2": {
+          "type": "rich_text",
+          "settings": {
+            "heading": "Popular designs",
+            "text": "<ul><li><strong>Engraved wooden plaque</strong> — warm and classic for felicitations.</li><li><strong>K9 crystal block</strong> — premium, with name and logo inside.</li><li><strong>Photo memento</strong> — UV-printed photo plus engraved message.</li><li><strong>Modern wood-acrylic</strong> — layered, contemporary corporate look.</li><li><strong>Shield/plaque</strong> — traditional honour and recognition.</li><li><strong>Star/peak crystal</strong> — symbolic shapes for achievement.</li></ul>"
+          }
+        },
+        "b3": {
+          "type": "faq",
+          "settings": {
+            "question": "What makes a good memento design?",
+            "answer": "<p>A clean layout with the recipient's name and occasion front and centre, plus date and logo, on a material that suits the event's tone.</p>"
+          }
+        },
+        "b4": {
+          "type": "faq",
+          "settings": {
+            "question": "Which material is most popular for mementos?",
+            "answer": "<p>Wood and crystal — wood for warmth and felicitations, crystal for premium corporate occasions.</p>"
+          }
+        },
+        "b5": {
+          "type": "faq",
+          "settings": {
+            "question": "Can you put a photo on a memento?",
+            "answer": "<p>Yes — UV-printed photos on crystal, acrylic or wood with engraved text.</p>"
+          }
+        },
+        "b6": {
+          "type": "faq",
+          "settings": {
+            "question": "Can you design to my theme?",
+            "answer": "<p>Yes — share your occasion and any references and we'll design to match.</p>"
+          }
+        },
+        "b7": {
+          "type": "cta_band",
+          "settings": {
+            "heading": "Like one of these designs?",
+            "text": "Tell us what you're planning — we'll share designs and a quote, usually within the hour.",
+            "button_label": "Design a memento"
+          }
+        }
+      },
+      "block_order": [
+        "b0",
+        "b1",
+        "b2",
+        "b3",
+        "b4",
+        "b5",
+        "b6",
+        "b7"
+      ]
+    }
+  },
+  "order": [
+    "feed"
+  ]
+}

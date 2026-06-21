@@ -1,0 +1,92 @@
+{
+  "sections": {
+    "feed": {
+      "type": "feed-landing",
+      "settings": {
+        "eyebrow": "Guide · Process",
+        "heading": "<h1><em>How Trophies Are Made</em> — From Design to Engraving</h1>",
+        "subheading": "How are custom trophies and awards made? A behind-the-scenes look at design, material selection, casting/cutting, laser engraving, UV printing, plating, polishing and QC at Meru Trophy.",
+        "primary_cta_label": "Get a quote on WhatsApp",
+        "secondary_cta_label": "See the design process",
+        "secondary_cta_url": "/pages/custom-trophy-design-process",
+        "breadcrumb_label": "how trophies are made",
+        "faq_heading": "Frequently asked questions",
+        "schema_type": "none",
+        "schema_name": "how trophies are made",
+        "color_scheme": "scheme-1"
+      },
+      "blocks": {
+        "b0": {
+          "type": "quick_answer",
+          "settings": {
+            "label": "Quick answer",
+            "text": "<p>Custom trophies are made by <strong>designing the piece, selecting and shaping the material (cut crystal/acrylic, cast/pressed metal, machined wood), then laser engraving or UV printing names and logos, plating/polishing, and quality-checking</strong> before dispatch — all in-house at Meru Trophy, Bangalore. WhatsApp +91 78922 07252.</p>"
+          }
+        },
+        "b1": {
+          "type": "rich_text",
+          "settings": {
+            "heading": "The making process, step by step",
+            "text": "<ul><li><strong>Design & proof:</strong> shape, finish and engraving layout, approved digitally first.</li><li><strong>Material shaping:</strong> crystal and acrylic are precision-cut; metal is cast or pressed; wood is machined.</li><li><strong>Engraving & printing:</strong> laser engraving (incl. sub-surface 3D in crystal) and full-colour UV printing.</li><li><strong>Plating & polishing:</strong> electroplated finishes on metal; edge polishing on crystal/glass.</li><li><strong>Assembly & QC:</strong> bases, name plates and a final quality check.</li><li><strong>Packing & dispatch:</strong> foam-cradled, double-boxed and tracked.</li></ul>"
+          }
+        },
+        "b2": {
+          "type": "rich_text",
+          "settings": {
+            "heading": "Why in-house matters",
+            "text": "<p>Because we run design, engraving, printing, plating and QC <strong>under one roof in Bangalore</strong>, quality stays consistent and timelines are reliable even at bulk volumes — unlike resellers who depend on third parties. (See <a href=\"/pages/best-trophy-manufacturers-india-2026\">how to choose a manufacturer</a>.)</p>"
+          }
+        },
+        "b3": {
+          "type": "faq",
+          "settings": {
+            "question": "How are crystal trophies engraved?",
+            "answer": "<p>With lasers — surface 2D etching and sub-surface 3D engraving that places a logo inside the crystal.</p>"
+          }
+        },
+        "b4": {
+          "type": "faq",
+          "settings": {
+            "question": "How long does it take to make a trophy?",
+            "answer": "<p>From design proof to dispatch, typically 3–10 business days depending on material, customisation and quantity.</p>"
+          }
+        },
+        "b5": {
+          "type": "faq",
+          "settings": {
+            "question": "Are trophies made by hand or machine?",
+            "answer": "<p>A mix — precision machines cut and engrave, while finishing, assembly and QC are done by skilled hands.</p>"
+          }
+        },
+        "b6": {
+          "type": "faq",
+          "settings": {
+            "question": "Can I customise every step?",
+            "answer": "<p>Yes — material, shape, engraving, printing, base and packaging are all your choice.</p>"
+          }
+        },
+        "b7": {
+          "type": "cta_band",
+          "settings": {
+            "heading": "Want something custom-made?",
+            "text": "Tell us what you're planning — we'll share designs and a quote, usually within the hour.",
+            "button_label": "Start your custom trophy"
+          }
+        }
+      },
+      "block_order": [
+        "b0",
+        "b1",
+        "b2",
+        "b3",
+        "b4",
+        "b5",
+        "b6",
+        "b7"
+      ]
+    }
+  },
+  "order": [
+    "feed"
+  ]
+}

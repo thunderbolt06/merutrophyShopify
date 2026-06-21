@@ -1,0 +1,124 @@
+{
+  "sections": {
+    "feed": {
+      "type": "feed-landing",
+      "settings": {
+        "eyebrow": "Guide · Materials",
+        "heading": "<h1><em>Types of Trophies</em>: Materials & Styles Guide</h1>",
+        "subheading": "Crystal, metal, acrylic, glass, fibre and wood — the main trophy types in India, how they differ, and which suits your event and budget. A practical guide by Meru Trophy.",
+        "primary_cta_label": "Get a quote on WhatsApp",
+        "secondary_cta_label": "Browse the catalogue",
+        "secondary_cta_url": "/collections/all",
+        "breadcrumb_label": "types of trophies",
+        "faq_heading": "Frequently asked questions",
+        "schema_type": "none",
+        "schema_name": "types of trophies",
+        "color_scheme": "scheme-1"
+      },
+      "blocks": {
+        "b0": {
+          "type": "quick_answer",
+          "settings": {
+            "label": "Quick answer",
+            "text": "<p>The main <strong>trophy types in India are crystal, metal, acrylic, glass, fibre and wooden</strong>. Crystal is most premium; metal cups are the classic sports look; acrylic and fibre are budget and lightweight; wood is warm and eco-friendly. Meru Trophy makes them all. WhatsApp +91 78922 07252.</p>"
+          }
+        },
+        "b1": {
+          "type": "rich_text",
+          "settings": {
+            "heading": "The main trophy materials",
+            "text": "<ul><li><strong>Crystal (K9 optical):</strong> most premium; corporate, leadership and milestone awards.</li><li><strong>Metal cups:</strong> the classic winner's look; sports tournaments and championships.</li><li><strong>Acrylic:</strong> light, affordable, full-colour UV printing; corporate and bulk events.</li><li><strong>Glass:</strong> elegant and clearer than acrylic, cheaper than crystal.</li><li><strong>Fibre:</strong> tall, light and cheapest; school sports days and local tournaments.</li><li><strong>Wood:</strong> warm, eco-friendly; felicitations, retirements and mementos.</li></ul>"
+          }
+        },
+        "b2": {
+          "type": "rich_text",
+          "settings": {
+            "heading": "How to choose",
+            "text": "<p>Match the material to the <strong>occasion and budget</strong>: premium crystal for senior recognition, metal cups for sports, acrylic/fibre for volume and budget, wood for felicitations. For high-volume or shipped events, lighter materials cost less to send. Not sure? Tell us the event and we'll recommend.</p>"
+          }
+        },
+        "b3": {
+          "type": "feature",
+          "settings": {
+            "title": "Crystal",
+            "text": "Premium, K9 optical."
+          }
+        },
+        "b4": {
+          "type": "feature",
+          "settings": {
+            "title": "Metal",
+            "text": "Classic sports cups."
+          }
+        },
+        "b5": {
+          "type": "feature",
+          "settings": {
+            "title": "Acrylic & fibre",
+            "text": "Light, budget, bulk."
+          }
+        },
+        "b6": {
+          "type": "feature",
+          "settings": {
+            "title": "Wood",
+            "text": "Warm, eco-friendly."
+          }
+        },
+        "b7": {
+          "type": "faq",
+          "settings": {
+            "question": "Which trophy material is best?",
+            "answer": "<p>It depends on the occasion: crystal for premium recognition, metal for sports, acrylic/fibre for budget volume, wood for felicitations.</p>"
+          }
+        },
+        "b8": {
+          "type": "faq",
+          "settings": {
+            "question": "What's the most affordable trophy type?",
+            "answer": "<p>Fibre trophies are the cheapest, followed by acrylic; both look great with engraving.</p>"
+          }
+        },
+        "b9": {
+          "type": "faq",
+          "settings": {
+            "question": "What's the most premium?",
+            "answer": "<p>Optical crystal (K9) — the standard for corporate and leadership awards.</p>"
+          }
+        },
+        "b10": {
+          "type": "faq",
+          "settings": {
+            "question": "Can you make all these types?",
+            "answer": "<p>Yes — Meru Trophy manufactures crystal, metal, acrylic, glass, fibre and wood in-house.</p>"
+          }
+        },
+        "b11": {
+          "type": "cta_band",
+          "settings": {
+            "heading": "Not sure which type?",
+            "text": "Tell us what you're planning — we'll share designs and a quote, usually within the hour.",
+            "button_label": "Ask Meru Trophy"
+          }
+        }
+      },
+      "block_order": [
+        "b0",
+        "b1",
+        "b2",
+        "b3",
+        "b4",
+        "b5",
+        "b6",
+        "b7",
+        "b8",
+        "b9",
+        "b10",
+        "b11"
+      ]
+    }
+  },
+  "order": [
+    "feed"
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "sections": {
+    "feed": {
+      "type": "feed-landing",
+      "settings": {
+        "eyebrow": "Ideas · Photo",
+        "heading": "<h1><em>Memento Design With Photo</em> — Ideas & Examples</h1>",
+        "subheading": "Photo memento design ideas — UV-printed photos on crystal, acrylic and wood with engraved messages, for retirements, farewells, anniversaries and felicitations. Custom-made by Meru Trophy.",
+        "primary_cta_label": "Get a quote on WhatsApp",
+        "secondary_cta_label": "Browse the catalogue",
+        "secondary_cta_url": "/collections/all",
+        "breadcrumb_label": "memento design with photo",
+        "faq_heading": "Frequently asked questions",
+        "schema_type": "none",
+        "schema_name": "memento design with photo",
+        "color_scheme": "scheme-1"
+      },
+      "blocks": {
+        "b0": {
+          "type": "quick_answer",
+          "settings": {
+            "label": "Quick answer",
+            "text": "<p><strong>Photo mementos</strong> pair a UV-printed full-colour photo with an engraved name, date and message, on <strong>crystal, acrylic or wood</strong>. Ideal for retirements, farewells and anniversaries. Meru Trophy makes them from ₹400. WhatsApp +91 78922 07252.</p>"
+          }
+        },
+        "b1": {
+          "type": "rich_text",
+          "settings": {
+            "heading": "Ideas that work",
+            "text": "<p>A photo turns a memento into a story. The best photo mementos keep it simple: one clear, high-resolution image, the name and date, and a short message — on a material that suits the tone (crystal for premium, wood for warmth, acrylic for budget). See our <a href=\"/pages/memento-with-photo\">photo memento product page</a> for pricing.</p>"
+          }
+        },
+        "b2": {
+          "type": "rich_text",
+          "settings": {
+            "heading": "Popular designs",
+            "text": "<ul><li><strong>Photo crystal block</strong> — premium, photo printed with engraved text.</li><li><strong>Photo wood plaque</strong> — warm keepsake with a printed moment.</li><li><strong>Photo acrylic stand</strong> — light, affordable, full colour.</li><li><strong>Collage memento</strong> — a few photos telling a journey.</li><li><strong>Photo + service years</strong> — perfect for retirements.</li><li><strong>Couple/family photo piece</strong> — for anniversaries.</li></ul>"
+          }
+        },
+        "b3": {
+          "type": "faq",
+          "settings": {
+            "question": "What photo works best?",
+            "answer": "<p>One clear, high-resolution, well-lit image. Send the largest version you have.</p>"
+          }
+        },
+        "b4": {
+          "type": "faq",
+          "settings": {
+            "question": "Which material for a photo memento?",
+            "answer": "<p>Crystal for premium, wood for warmth, acrylic for budget — all print full colour.</p>"
+          }
+        },
+        "b5": {
+          "type": "faq",
+          "settings": {
+            "question": "Can you add a message and date?",
+            "answer": "<p>Yes — engraved name, date and a personal message accompany the photo.</p>"
+          }
+        },
+        "b6": {
+          "type": "faq",
+          "settings": {
+            "question": "What's the starting price?",
+            "answer": "<p>Photo mementos start around ₹400; see our <a href=\"/pages/memento-with-photo\">product page</a>.</p>"
+          }
+        },
+        "b7": {
+          "type": "cta_band",
+          "settings": {
+            "heading": "Have a photo in mind?",
+            "text": "Tell us what you're planning — we'll share designs and a quote, usually within the hour.",
+            "button_label": "Design a photo memento"
+          }
+        }
+      },
+      "block_order": [
+        "b0",
+        "b1",
+        "b2",
+        "b3",
+        "b4",
+        "b5",
+        "b6",
+        "b7"
+      ]
+    }
+  },
+  "order": [
+    "feed"
+  ]
+}

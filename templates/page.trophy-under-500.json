@@ -1,0 +1,136 @@
+{
+  "sections": {
+    "feed": {
+      "type": "feed-landing",
+      "settings": {
+        "eyebrow": "Pricing · Budget",
+        "heading": "<h1><em>Trophies Under ₹500</em> in India</h1>",
+        "subheading": "Great-looking trophies and awards under ₹500 — fibre, acrylic and small metal cups for school events, local tournaments and budget recognition. Custom engraved, delivered across India.",
+        "primary_cta_label": "Get a quote on WhatsApp",
+        "secondary_cta_label": "Browse the catalogue",
+        "secondary_cta_url": "/collections/all",
+        "breadcrumb_label": "trophies under 500",
+        "faq_heading": "Frequently asked questions",
+        "schema_type": "Product",
+        "schema_name": "trophies under 500",
+        "color_scheme": "scheme-1",
+        "price_heading": "Trophies under ₹500",
+        "price_col1": "Item",
+        "price_col2": "Details",
+        "price_col3": "Price (from)",
+        "price_caption": "Indicative starting prices in India. Final price depends on size, material and engraving. Bulk discounts apply. GST invoice available.",
+        "schema_price_low": "120",
+        "schema_price_high": "500"
+      },
+      "blocks": {
+        "b0": {
+          "type": "quick_answer",
+          "settings": {
+            "label": "Quick answer",
+            "text": "<p>Yes — Meru Trophy makes plenty of <strong>trophies under ₹500</strong>: fibre trophies from ₹120, acrylic from ₹250, small metal cups from ₹200, and wooden/glass awards in range — all custom engraved. WhatsApp +91 78922 07252.</p>"
+          }
+        },
+        "b1": {
+          "type": "rich_text",
+          "settings": {
+            "heading": "What you'll pay and why",
+            "text": "<p>A tight budget doesn't mean dull awards. Under ₹500 you can choose <strong>tall fibre trophies, UV-printed acrylic, small metal cups, and engraved wooden plaques</strong> — all personalised with names and your event. They're ideal for school events, local tournaments and high-volume recognition where value matters.</p>"
+          }
+        },
+        "b2": {
+          "type": "price_row",
+          "settings": {
+            "item": "Fibre trophy",
+            "spec": "Tall, light, great for bulk",
+            "price": "₹120"
+          }
+        },
+        "b3": {
+          "type": "price_row",
+          "settings": {
+            "item": "Small metal cup",
+            "spec": "Classic winner's cup",
+            "price": "₹200"
+          }
+        },
+        "b4": {
+          "type": "price_row",
+          "settings": {
+            "item": "Acrylic trophy",
+            "spec": "UV-printed, modern",
+            "price": "₹250"
+          }
+        },
+        "b5": {
+          "type": "price_row",
+          "settings": {
+            "item": "Wooden plaque",
+            "spec": "Felicitation & appreciation",
+            "price": "₹250"
+          }
+        },
+        "b6": {
+          "type": "price_row",
+          "settings": {
+            "item": "Glass award",
+            "spec": "Compact recognition",
+            "price": "₹400"
+          }
+        },
+        "b7": {
+          "type": "faq",
+          "settings": {
+            "question": "Can I get a good trophy under ₹500?",
+            "answer": "<p>Yes — fibre, acrylic, small metal and wooden options all sit under ₹500 and still look great with engraving.</p>"
+          }
+        },
+        "b8": {
+          "type": "faq",
+          "settings": {
+            "question": "Is engraving included at this price?",
+            "answer": "<p>Yes — name and event engraving is included free.</p>"
+          }
+        },
+        "b9": {
+          "type": "faq",
+          "settings": {
+            "question": "Do these work for bulk events?",
+            "answer": "<p>Absolutely — they're our most popular budget picks for school and local tournaments, with volume discounts.</p>"
+          }
+        },
+        "b10": {
+          "type": "faq",
+          "settings": {
+            "question": "Do you deliver outside Bangalore?",
+            "answer": "<p>Yes — pan-India from Bangalore.</p>"
+          }
+        },
+        "b11": {
+          "type": "cta_band",
+          "settings": {
+            "heading": "Want an exact price?",
+            "text": "Send your item, quantity and engraving — we'll send a precise quote, usually within the hour.",
+            "button_label": "Get an exact quote"
+          }
+        }
+      },
+      "block_order": [
+        "b0",
+        "b1",
+        "b2",
+        "b3",
+        "b4",
+        "b5",
+        "b6",
+        "b7",
+        "b8",
+        "b9",
+        "b10",
+        "b11"
+      ]
+    }
+  },
+  "order": [
+    "feed"
+  ]
+}

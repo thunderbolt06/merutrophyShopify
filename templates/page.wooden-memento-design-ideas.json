@@ -1,0 +1,92 @@
+{
+  "sections": {
+    "feed": {
+      "type": "feed-landing",
+      "settings": {
+        "eyebrow": "Ideas · Wood",
+        "heading": "<h1><em>Wooden Memento Design Ideas</em></h1>",
+        "subheading": "Warm, premium wooden memento designs — engraved plaques, wood-acrylic combos, photo mementos and laser-cut shapes for felicitations, retirements and corporate gifts. By Meru Trophy.",
+        "primary_cta_label": "Get a quote on WhatsApp",
+        "secondary_cta_label": "Browse the catalogue",
+        "secondary_cta_url": "/collections/all",
+        "breadcrumb_label": "wooden memento design",
+        "faq_heading": "Frequently asked questions",
+        "schema_type": "none",
+        "schema_name": "wooden memento design",
+        "color_scheme": "scheme-1"
+      },
+      "blocks": {
+        "b0": {
+          "type": "quick_answer",
+          "settings": {
+            "label": "Quick answer",
+            "text": "<p>Popular <strong>wooden memento designs</strong> include <strong>engraved plaques, wood-and-acrylic layered pieces, photo wood mementos and laser-cut shapes</strong> — warm, premium and eco-friendly. Add name, occasion, date and logo. Meru Trophy makes any of these from ₹250. WhatsApp +91 78922 07252.</p>"
+          }
+        },
+        "b1": {
+          "type": "rich_text",
+          "settings": {
+            "heading": "Ideas that work",
+            "text": "<p>Wood gives mementos warmth and a premium, tactile feel. Modern designs pair wood with acrylic or metal accents; classic ones use clean laser-engraved plaques. Wood also takes UV-printed photos and logos beautifully — ideal for felicitations, retirements and eco-conscious corporate gifts.</p>"
+          }
+        },
+        "b2": {
+          "type": "rich_text",
+          "settings": {
+            "heading": "Popular designs",
+            "text": "<ul><li><strong>Classic engraved plaque</strong> — name, citation and logo on natural wood.</li><li><strong>Wood + acrylic layer</strong> — contemporary corporate look.</li><li><strong>Photo wood memento</strong> — UV-printed photo with engraved message.</li><li><strong>Laser-cut shape</strong> — custom silhouette (map, logo, emblem).</li><li><strong>Wood + metal plate</strong> — engraved metal on a wooden base.</li><li><strong>Standing desk memento</strong> — compact keepsake for the recipient's desk.</li></ul>"
+          }
+        },
+        "b3": {
+          "type": "faq",
+          "settings": {
+            "question": "Why choose a wooden memento?",
+            "answer": "<p>Warmth, a premium feel and an eco-friendly material — popular for felicitations, retirements and corporate gifts.</p>"
+          }
+        },
+        "b4": {
+          "type": "faq",
+          "settings": {
+            "question": "Can wood have a photo and logo?",
+            "answer": "<p>Yes — UV printing puts full-colour photos and logos on wood alongside engraving.</p>"
+          }
+        },
+        "b5": {
+          "type": "faq",
+          "settings": {
+            "question": "Are modern wood designs available?",
+            "answer": "<p>Yes — wood-and-acrylic and wood-and-metal combinations for a contemporary look.</p>"
+          }
+        },
+        "b6": {
+          "type": "faq",
+          "settings": {
+            "question": "What's the starting price?",
+            "answer": "<p>Wooden mementos start around ₹250, depending on size and design.</p>"
+          }
+        },
+        "b7": {
+          "type": "cta_band",
+          "settings": {
+            "heading": "Like a wooden design?",
+            "text": "Tell us what you're planning — we'll share designs and a quote, usually within the hour.",
+            "button_label": "Design a wooden memento"
+          }
+        }
+      },
+      "block_order": [
+        "b0",
+        "b1",
+        "b2",
+        "b3",
+        "b4",
+        "b5",
+        "b6",
+        "b7"
+      ]
+    }
+  },
+  "order": [
+    "feed"
+  ]
+}

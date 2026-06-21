@@ -1,0 +1,193 @@
+{
+  "sections": {
+    "feed": {
+      "type": "feed-landing",
+      "settings": {
+        "eyebrow": "Combo · Startup",
+        "heading": "<h1><em>Hackathon & Ideathon Prize Kit</em></h1>",
+        "subheading": "Winner, runner-up and category trophies plus participant medals for hackathons and ideathons — modern designs with your event and sponsor logos, fast turnaround. Delivered across India.",
+        "primary_cta_label": "Get a quote on WhatsApp",
+        "secondary_cta_label": "Browse the catalogue",
+        "secondary_cta_url": "/collections/all",
+        "breadcrumb_label": "Startup Hackathon Prize Kit",
+        "faq_heading": "Frequently asked questions",
+        "schema_type": "Product",
+        "schema_name": "Startup Hackathon Prize Kit",
+        "color_scheme": "scheme-1",
+        "features_heading": "What's inside the package",
+        "steps_heading": "How ordering works",
+        "price_heading": "Sample package pricing",
+        "price_col1": "Package",
+        "price_col2": "What's included",
+        "price_col3": "Price (from)",
+        "price_caption": "Indicative starting prices; per-piece rates fall sharply at higher quantities. GST invoice included.",
+        "schema_price_low": "250",
+        "schema_price_high": "16000"
+      },
+      "blocks": {
+        "b0": {
+          "type": "quick_answer",
+          "settings": {
+            "label": "Quick answer",
+            "text": "<p>Meru Trophy bundles a <strong>hackathon prize kit</strong> — winner, runner-up and category trophies plus participant medals, with modern designs and your event/sponsor logos, from around <strong>₹250 a piece</strong>. Fast turnaround, delivered pan-India. WhatsApp +91 78922 07252.</p>"
+          }
+        },
+        "b1": {
+          "type": "rich_text",
+          "settings": {
+            "heading": "One bundle for the whole event",
+            "text": "<p>Hackathons reward more than first place — best design, best use of an API, people's choice and more. Our kit covers winners, runners-up and special categories with modern acrylic or crystal trophies, plus participant medals, all carrying your event and sponsor logos and delivered on a startup timeline.</p>"
+          }
+        },
+        "b2": {
+          "type": "feature",
+          "settings": {
+            "title": "Modern designs",
+            "text": "Sleek acrylic and crystal trophies that suit tech events."
+          }
+        },
+        "b3": {
+          "type": "feature",
+          "settings": {
+            "title": "Category awards",
+            "text": "Best design, people's choice, sponsor prizes and more."
+          }
+        },
+        "b4": {
+          "type": "feature",
+          "settings": {
+            "title": "Sponsor branding",
+            "text": "Event and sponsor logos engraved/printed."
+          }
+        },
+        "b5": {
+          "type": "feature",
+          "settings": {
+            "title": "Fast turnaround",
+            "text": "Built for tight hackathon timelines."
+          }
+        },
+        "b6": {
+          "type": "price_row",
+          "settings": {
+            "item": "Small hackathon",
+            "spec": "3 trophies + 30 medals",
+            "price": "₹4,000"
+          }
+        },
+        "b7": {
+          "type": "price_row",
+          "settings": {
+            "item": "Standard event",
+            "spec": "6 trophies + 60 medals",
+            "price": "₹8,000"
+          }
+        },
+        "b8": {
+          "type": "price_row",
+          "settings": {
+            "item": "Large hackathon",
+            "spec": "12 category trophies + 120 medals",
+            "price": "₹16,000"
+          }
+        },
+        "b9": {
+          "type": "price_row",
+          "settings": {
+            "item": "Flagship / multi-track",
+            "spec": "Custom branded set",
+            "price": "Custom quote"
+          }
+        },
+        "b10": {
+          "type": "step",
+          "settings": {
+            "title": "Share your award list",
+            "text": "WhatsApp us your categories, quantities and event date."
+          }
+        },
+        "b11": {
+          "type": "step",
+          "settings": {
+            "title": "Pick designs & budget",
+            "text": "We send matching options and a single combined quote."
+          }
+        },
+        "b12": {
+          "type": "step",
+          "settings": {
+            "title": "Approve engraving proof",
+            "text": "Confirm names, logos and titles on a digital mockup."
+          }
+        },
+        "b13": {
+          "type": "step",
+          "settings": {
+            "title": "Delivered together",
+            "text": "Co-ordinated, boxed and shipped pan-India in time for your event."
+          }
+        },
+        "b14": {
+          "type": "faq",
+          "settings": {
+            "question": "Can you brand with sponsor logos?",
+            "answer": "<p>Yes — event and sponsor logos are engraved or UV-printed on the awards.</p>"
+          }
+        },
+        "b15": {
+          "type": "faq",
+          "settings": {
+            "question": "How fast can you deliver?",
+            "answer": "<p>Modern acrylic kits ship in 4–6 business days after proof; tell us your date.</p>"
+          }
+        },
+        "b16": {
+          "type": "faq",
+          "settings": {
+            "question": "Can we add special category prizes?",
+            "answer": "<p>Yes — best design, people's choice, sponsor-specific awards and more.</p>"
+          }
+        },
+        "b17": {
+          "type": "faq",
+          "settings": {
+            "question": "Do you deliver outside Bangalore?",
+            "answer": "<p>Yes — pan-India from Bangalore.</p>"
+          }
+        },
+        "b18": {
+          "type": "cta_band",
+          "settings": {
+            "heading": "Planning a hackathon?",
+            "text": "Send your award list and date — we'll design a matching combo and quote, usually within the hour.",
+            "button_label": "Get my combo quote"
+          }
+        }
+      },
+      "block_order": [
+        "b0",
+        "b1",
+        "b2",
+        "b3",
+        "b4",
+        "b5",
+        "b6",
+        "b7",
+        "b8",
+        "b9",
+        "b10",
+        "b11",
+        "b12",
+        "b13",
+        "b14",
+        "b15",
+        "b16",
+        "b17",
+        "b18"
+      ]
+    }
+  },
+  "order": [
+    "feed"
+  ]
+}

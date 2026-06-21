@@ -1,0 +1,160 @@
+{
+  "sections": {
+    "feed": {
+      "type": "feed-landing",
+      "settings": {
+        "eyebrow": "Product · Carrom",
+        "heading": "<h1><em>Carrom Trophies</em> & Medals in India</h1>",
+        "subheading": "Carrom tournament trophy cups and medals for clubs, societies and corporate events — affordable, custom engraved, delivered across India.",
+        "primary_cta_label": "Get a quote on WhatsApp",
+        "secondary_cta_label": "Browse the catalogue",
+        "secondary_cta_url": "/collections/all",
+        "breadcrumb_label": "Carrom Trophies India",
+        "faq_heading": "Frequently asked questions",
+        "schema_type": "Product",
+        "schema_name": "Carrom Trophies",
+        "color_scheme": "scheme-1",
+        "features_heading": "Why order from Meru Trophy",
+        "price_heading": "Carrom award price guide",
+        "price_col1": "Item",
+        "price_col2": "Details",
+        "price_col3": "Price (from)",
+        "price_caption": "Indicative starting prices in India. Final price depends on size, material and engraving. Bulk discounts apply. GST invoice available.",
+        "schema_price_low": "150",
+        "schema_price_high": "1800"
+      },
+      "blocks": {
+        "b0": {
+          "type": "quick_answer",
+          "settings": {
+            "label": "Quick answer",
+            "text": "<p>Meru Trophy makes <strong>carrom trophies and medals</strong> from around <strong>₹150</strong> — cups and medals for club, society and corporate carrom tournaments, engraved with your event. Delivered pan-India. WhatsApp +91 78922 07252.</p>"
+          }
+        },
+        "b1": {
+          "type": "rich_text",
+          "settings": {
+            "heading": "The complete carrom awards range",
+            "text": "<p>For carrom events of every size we supply winner and runner-up cups, category and individual awards, and participation medals — all engraved with your tournament name, sponsor and winners. Order a few pieces for a club event or a full set for a championship. Hosting a tournament with several prize categories? Ask about a combo pack for the best per-piece price.</p>"
+          }
+        },
+        "b2": {
+          "type": "feature",
+          "settings": {
+            "title": "Cups & medals",
+            "text": "The full carrom awards range in one place."
+          }
+        },
+        "b3": {
+          "type": "feature",
+          "settings": {
+            "title": "Club to championship",
+            "text": "Budget options and premium presentation cups."
+          }
+        },
+        "b4": {
+          "type": "feature",
+          "settings": {
+            "title": "Event branding",
+            "text": "Tournament name, sponsor and winners engraved free."
+          }
+        },
+        "b5": {
+          "type": "feature",
+          "settings": {
+            "title": "Combo pricing",
+            "text": "Bundle multiple awards for the best rate."
+          }
+        },
+        "b6": {
+          "type": "price_row",
+          "settings": {
+            "item": "Small carrom trophy",
+            "spec": "Club / category awards",
+            "price": "₹150"
+          }
+        },
+        "b7": {
+          "type": "price_row",
+          "settings": {
+            "item": "Standard cup",
+            "spec": "Tournament winners",
+            "price": "₹500"
+          }
+        },
+        "b8": {
+          "type": "price_row",
+          "settings": {
+            "item": "Large presentation cup",
+            "spec": "Championship hero trophy",
+            "price": "₹1,800"
+          }
+        },
+        "b9": {
+          "type": "price_row",
+          "settings": {
+            "item": "Carrom medals",
+            "spec": "Participation & placements",
+            "price": "₹25"
+          }
+        },
+        "b10": {
+          "type": "faq",
+          "settings": {
+            "question": "What's the cheapest carrom award?",
+            "answer": "<p>Small trophies start near ₹150 and medals from ₹25 in bulk — ideal for club and school events.</p>"
+          }
+        },
+        "b11": {
+          "type": "faq",
+          "settings": {
+            "question": "Can you engrave our tournament name and categories?",
+            "answer": "<p>Yes — event name, sponsor, category and winner are engraved free.</p>"
+          }
+        },
+        "b12": {
+          "type": "faq",
+          "settings": {
+            "question": "Can you bundle all the prizes for a tournament?",
+            "answer": "<p>Yes — we build combo packs that bundle winner, runner-up, individual awards and medals at the best price.</p>"
+          }
+        },
+        "b13": {
+          "type": "faq",
+          "settings": {
+            "question": "Do you deliver outside Bangalore?",
+            "answer": "<p>Yes — pan-India from Bangalore.</p>"
+          }
+        },
+        "b14": {
+          "type": "cta_band",
+          "settings": {
+            "heading": "Need carrom trophies for an event?",
+            "text": "Tell us the occasion, quantity and date — we'll send designs and a quote, usually within the hour.",
+            "button_label": "Get my quote"
+          }
+        }
+      },
+      "block_order": [
+        "b0",
+        "b1",
+        "b2",
+        "b3",
+        "b4",
+        "b5",
+        "b6",
+        "b7",
+        "b8",
+        "b9",
+        "b10",
+        "b11",
+        "b12",
+        "b13",
+        "b14"
+      ]
+    }
+  },
+  "order": [
+    "feed"
+  ]
+}

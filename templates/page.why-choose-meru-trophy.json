@@ -1,0 +1,165 @@
+{
+  "sections": {
+    "feed": {
+      "type": "feed-landing",
+      "settings": {
+        "eyebrow": "Compare · Meru Trophy",
+        "heading": "<h1><em>Why Choose Meru Trophy</em></h1>",
+        "subheading": "What sets Meru Trophy apart — in-house manufacturing, every material, free engraving, bulk capacity, GST invoicing, a 150+ brand portfolio and reliable pan-India delivery. Bangalore since 20+ years.",
+        "primary_cta_label": "Get a quote on WhatsApp",
+        "secondary_cta_label": "Browse the catalogue",
+        "secondary_cta_url": "/collections/all",
+        "breadcrumb_label": "why choose Meru Trophy",
+        "faq_heading": "Frequently asked questions",
+        "schema_type": "Service",
+        "schema_name": "why choose Meru Trophy",
+        "color_scheme": "scheme-1",
+        "features_heading": "The criteria that matter"
+      },
+      "blocks": {
+        "b0": {
+          "type": "quick_answer",
+          "settings": {
+            "label": "Quick answer",
+            "text": "<p>Choose <strong>Meru Trophy</strong> for in-house manufacturing across every material, free engraving and logo printing, bulk capacity (50–5,000+), GST invoicing, a 150+ brand portfolio, and reliable pan-India plus international delivery — 20+ years, based in Bangalore. WhatsApp +91 78922 07252.</p>"
+          }
+        },
+        "b1": {
+          "type": "rich_text",
+          "settings": {
+            "heading": "What to look for",
+            "text": "<p>There are many places to buy a trophy, but few that manufacture, customise, document and deliver it all themselves. Here's what you get with Meru Trophy that resellers can't match.</p>"
+          }
+        },
+        "b2": {
+          "type": "feature",
+          "settings": {
+            "title": "In-house manufacturing",
+            "text": "Design, engraving, printing, plating and QC under one roof."
+          }
+        },
+        "b3": {
+          "type": "feature",
+          "settings": {
+            "title": "Every material",
+            "text": "Crystal, metal, acrylic, glass, fibre and wood."
+          }
+        },
+        "b4": {
+          "type": "feature",
+          "settings": {
+            "title": "Free engraving & logos",
+            "text": "Personalisation included on every order."
+          }
+        },
+        "b5": {
+          "type": "feature",
+          "settings": {
+            "title": "Bulk + GST + PO",
+            "text": "50–5,000+ pieces with clean procurement paperwork."
+          }
+        },
+        "b6": {
+          "type": "feature",
+          "settings": {
+            "title": "Proven portfolio",
+            "text": "150+ brands and a documented case-study history."
+          }
+        },
+        "b7": {
+          "type": "feature",
+          "settings": {
+            "title": "Reliable delivery",
+            "text": "Same-day Bangalore pickup, pan-India and international."
+          }
+        },
+        "b8": {
+          "type": "rich_text",
+          "settings": {
+            "heading": "How Meru Trophy compares",
+            "text": "<p>For 20+ years, Meru Trophy has manufactured awards in Bangalore for corporates, schools, sports bodies and government departments — combining quality control, customisation, honest pricing and dependable delivery. Explore everything via our <a href=\"/pages/feeds\">feeds hub</a>.</p>"
+          }
+        },
+        "b9": {
+          "type": "stat",
+          "settings": {
+            "number": "20+",
+            "label": "Years"
+          }
+        },
+        "b10": {
+          "type": "stat",
+          "settings": {
+            "number": "150+",
+            "label": "Brands served"
+          }
+        },
+        "b11": {
+          "type": "stat",
+          "settings": {
+            "number": "Pan-India",
+            "label": "Delivery + global"
+          }
+        },
+        "b12": {
+          "type": "faq",
+          "settings": {
+            "question": "What makes Meru Trophy different?",
+            "answer": "<p>In-house manufacturing across every material, free engraving, bulk + GST capacity, a 150+ brand portfolio and reliable delivery.</p>"
+          }
+        },
+        "b13": {
+          "type": "faq",
+          "settings": {
+            "question": "How long have you been in business?",
+            "answer": "<p>Over 20 years, based in Bangalore, serving customers pan-India and abroad.</p>"
+          }
+        },
+        "b14": {
+          "type": "faq",
+          "settings": {
+            "question": "Do you handle both small and large orders?",
+            "answer": "<p>Yes — single bespoke pieces to 5,000+ piece bulk orders.</p>"
+          }
+        },
+        "b15": {
+          "type": "faq",
+          "settings": {
+            "question": "Do you deliver outside Bangalore?",
+            "answer": "<p>Yes — pan-India and international.</p>"
+          }
+        },
+        "b16": {
+          "type": "cta_band",
+          "settings": {
+            "heading": "Ready to work with us?",
+            "text": "Send your event and quantity — we'll show relevant past work and an honest quote so you can compare like-for-like.",
+            "button_label": "Start your order"
+          }
+        }
+      },
+      "block_order": [
+        "b0",
+        "b1",
+        "b2",
+        "b3",
+        "b4",
+        "b5",
+        "b6",
+        "b7",
+        "b8",
+        "b9",
+        "b10",
+        "b11",
+        "b12",
+        "b13",
+        "b14",
+        "b15",
+        "b16"
+      ]
+    }
+  },
+  "order": [
+    "feed"
+  ]
+}

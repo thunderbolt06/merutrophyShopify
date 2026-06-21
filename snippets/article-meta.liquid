@@ -1,0 +1,25 @@
+{% comment %}
+  Renders the article meta row: author avatar + name, published date, reading time.
+  Usage: {% render 'article-meta', article: article, show_date: true, show_author: true %}
+{% endcomment %}
+{%- liquid
+  assign words = article.content | strip_html | split: ' ' | size
+  assign minutes = words | divided_by: 200
+  if minutes < 1
+    assign minutes = 1
+  endif
+  assign author = article.author | default: 'Meru Trophy Team'
+  assign initial = author | slice: 0, 1 | upcase
+-%}
+<div class="article-meta">
+  {%- if show_author -%}
+    <span class="article-meta__item article-meta__author">
+      <span class="article-meta__avatar" aria-hidden="true">{{ initial }}</span>
+      <span>By <strong>{{ author | escape }}</strong></span>
+    </span>
+  {%- endif -%}
+  {%- if show_date -%}
+    <span class="article-meta__item">{{ article.published_at | time_tag: format: 'date' }}</span>
+  {%- endif -%}
+  <span class="article-meta__item">{{ minutes }} min read</span>
+</div>

@@ -1,0 +1,165 @@
+{
+  "sections": {
+    "feed": {
+      "type": "feed-landing",
+      "settings": {
+        "eyebrow": "Compare · Corporate",
+        "heading": "<h1><em>Best Corporate Award Companies in India</em></h1>",
+        "subheading": "Choosing a corporate awards supplier? The criteria for great employee-recognition and award-night partners — design consistency, branding, bulk, GST and reliability — and how Meru Trophy compares.",
+        "primary_cta_label": "Get a quote on WhatsApp",
+        "secondary_cta_label": "Browse the catalogue",
+        "secondary_cta_url": "/collections/all",
+        "breadcrumb_label": "best corporate award companies",
+        "faq_heading": "Frequently asked questions",
+        "schema_type": "Service",
+        "schema_name": "best corporate award companies",
+        "color_scheme": "scheme-1",
+        "features_heading": "The criteria that matter"
+      },
+      "blocks": {
+        "b0": {
+          "type": "quick_answer",
+          "settings": {
+            "label": "Quick answer",
+            "text": "<p>The <strong>best corporate award companies in India</strong> deliver on-brand, co-ordinated award sets, free logo engraving, bulk capacity with GST/PO handling, and reliable, on-time delivery. Meru Trophy does all of this for 150+ brands. WhatsApp +91 78922 07252.</p>"
+          }
+        },
+        "b1": {
+          "type": "rich_text",
+          "settings": {
+            "heading": "What to look for",
+            "text": "<p>For corporate recognition, consistency and reliability matter as much as the award itself. The best partners co-ordinate every category on-brand, handle procurement cleanly, and never miss the event date. Here's how to compare.</p>"
+          }
+        },
+        "b2": {
+          "type": "feature",
+          "settings": {
+            "title": "On-brand, co-ordinated sets",
+            "text": "Every category shares one design language and your logo."
+          }
+        },
+        "b3": {
+          "type": "feature",
+          "settings": {
+            "title": "Free logo engraving",
+            "text": "Branding included, not an upsell."
+          }
+        },
+        "b4": {
+          "type": "feature",
+          "settings": {
+            "title": "Bulk + GST + PO",
+            "text": "Award-night volumes with clean procurement paperwork."
+          }
+        },
+        "b5": {
+          "type": "feature",
+          "settings": {
+            "title": "Reliable delivery",
+            "text": "On-time dispatch with tracking and rush options."
+          }
+        },
+        "b6": {
+          "type": "feature",
+          "settings": {
+            "title": "Full material range",
+            "text": "Crystal, metal and wood for every tier."
+          }
+        },
+        "b7": {
+          "type": "feature",
+          "settings": {
+            "title": "Portfolio & repeat clients",
+            "text": "Proven recognition work for known brands."
+          }
+        },
+        "b8": {
+          "type": "rich_text",
+          "settings": {
+            "heading": "How Meru Trophy compares",
+            "text": "<p>Meru Trophy supplies on-brand, co-ordinated corporate award sets with free logo engraving, bulk capacity, GST/PO handling and reliable pan-India delivery, trusted by 150+ brands. See our <a href=\"/pages/corporate-annual-awards-night-package\">awards-night package</a> and <a href=\"/pages/employee-recognition-awards-program\">recognition program</a>.</p>"
+          }
+        },
+        "b9": {
+          "type": "stat",
+          "settings": {
+            "number": "20+",
+            "label": "Years"
+          }
+        },
+        "b10": {
+          "type": "stat",
+          "settings": {
+            "number": "150+",
+            "label": "Brands served"
+          }
+        },
+        "b11": {
+          "type": "stat",
+          "settings": {
+            "number": "Pan-India",
+            "label": "Delivery + global"
+          }
+        },
+        "b12": {
+          "type": "faq",
+          "settings": {
+            "question": "What makes a good corporate awards supplier?",
+            "answer": "<p>On-brand co-ordinated sets, free logo engraving, bulk + GST/PO handling, reliable delivery and a proven portfolio.</p>"
+          }
+        },
+        "b13": {
+          "type": "faq",
+          "settings": {
+            "question": "Can you co-ordinate a whole awards night?",
+            "answer": "<p>Yes — see our <a href=\"/pages/corporate-annual-awards-night-package\">awards-night package</a>.</p>"
+          }
+        },
+        "b14": {
+          "type": "faq",
+          "settings": {
+            "question": "Do you handle procurement paperwork?",
+            "answer": "<p>Yes — GST invoices, PO-based ordering and tender-style documentation.</p>"
+          }
+        },
+        "b15": {
+          "type": "faq",
+          "settings": {
+            "question": "Do you deliver nationwide?",
+            "answer": "<p>Yes — pan-India and international for overseas offices.</p>"
+          }
+        },
+        "b16": {
+          "type": "cta_band",
+          "settings": {
+            "heading": "Comparing suppliers?",
+            "text": "Send your event and quantity — we'll show relevant past work and an honest quote so you can compare like-for-like.",
+            "button_label": "Talk to Meru Trophy"
+          }
+        }
+      },
+      "block_order": [
+        "b0",
+        "b1",
+        "b2",
+        "b3",
+        "b4",
+        "b5",
+        "b6",
+        "b7",
+        "b8",
+        "b9",
+        "b10",
+        "b11",
+        "b12",
+        "b13",
+        "b14",
+        "b15",
+        "b16"
+      ]
+    }
+  },
+  "order": [
+    "feed"
+  ]
+}

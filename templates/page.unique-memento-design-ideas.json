@@ -1,0 +1,92 @@
+{
+  "sections": {
+    "feed": {
+      "type": "feed-landing",
+      "settings": {
+        "eyebrow": "Ideas · Unique",
+        "heading": "<h1><em>Unique Memento Design Ideas</em> That Stand Out</h1>",
+        "subheading": "Move beyond the generic — unique, custom memento ideas using laser-cut shapes, mixed materials, 3D crystal engraving, miniatures and themed designs. Custom-made by Meru Trophy.",
+        "primary_cta_label": "Get a quote on WhatsApp",
+        "secondary_cta_label": "Browse the catalogue",
+        "secondary_cta_url": "/collections/all",
+        "breadcrumb_label": "unique memento design",
+        "faq_heading": "Frequently asked questions",
+        "schema_type": "none",
+        "schema_name": "unique memento design",
+        "color_scheme": "scheme-1"
+      },
+      "blocks": {
+        "b0": {
+          "type": "quick_answer",
+          "settings": {
+            "label": "Quick answer",
+            "text": "<p>For a <strong>unique memento</strong>, go beyond the standard block: try <strong>custom laser-cut shapes, mixed wood-acrylic-metal designs, 3D-engraved crystal, miniature replicas and theme-based pieces</strong>. Meru Trophy designs bespoke mementos to your idea. WhatsApp +91 78922 07252.</p>"
+          }
+        },
+        "b1": {
+          "type": "rich_text",
+          "settings": {
+            "heading": "Ideas that work",
+            "text": "<p>A unique memento reflects the occasion or recipient — a silhouette of your building, a miniature of a product, a theme that nods to the achievement. We love bespoke briefs: share the story and we'll translate it into a custom shape, material mix and engraving that no one else will have.</p>"
+          }
+        },
+        "b2": {
+          "type": "rich_text",
+          "settings": {
+            "heading": "Popular designs",
+            "text": "<ul><li><strong>Custom laser-cut silhouette</strong> — your logo, building or emblem as the shape.</li><li><strong>Mixed-material design</strong> — wood + acrylic + metal in one piece.</li><li><strong>3D sub-surface crystal</strong> — a logo or scene engraved inside crystal.</li><li><strong>Miniature replica</strong> — a small model of a product or landmark.</li><li><strong>Themed memento</strong> — designed around the event's concept.</li><li><strong>Interactive/spinner element</strong> — a moving detail for novelty.</li></ul>"
+          }
+        },
+        "b3": {
+          "type": "faq",
+          "settings": {
+            "question": "What makes a memento unique?",
+            "answer": "<p>A custom shape, a material mix, or a design tied to the recipient or occasion — not a generic off-the-shelf block.</p>"
+          }
+        },
+        "b4": {
+          "type": "faq",
+          "settings": {
+            "question": "Can you make a custom shape?",
+            "answer": "<p>Yes — laser-cut silhouettes of logos, buildings, maps or emblems are a speciality.</p>"
+          }
+        },
+        "b5": {
+          "type": "faq",
+          "settings": {
+            "question": "Can you engrave a scene inside crystal?",
+            "answer": "<p>Yes — sub-surface 3D engraving can place logos or simple scenes inside the crystal.</p>"
+          }
+        },
+        "b6": {
+          "type": "faq",
+          "settings": {
+            "question": "How do I brief a bespoke idea?",
+            "answer": "<p>Share the story and any references on WhatsApp; we'll propose a design and proof.</p>"
+          }
+        },
+        "b7": {
+          "type": "cta_band",
+          "settings": {
+            "heading": "Have a unique idea?",
+            "text": "Tell us what you're planning — we'll share designs and a quote, usually within the hour.",
+            "button_label": "Brief us your idea"
+          }
+        }
+      },
+      "block_order": [
+        "b0",
+        "b1",
+        "b2",
+        "b3",
+        "b4",
+        "b5",
+        "b6",
+        "b7"
+      ]
+    }
+  },
+  "order": [
+    "feed"
+  ]
+}

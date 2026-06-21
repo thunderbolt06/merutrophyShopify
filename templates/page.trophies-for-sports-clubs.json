@@ -1,0 +1,141 @@
+{
+  "sections": {
+    "feed": {
+      "type": "feed-landing",
+      "settings": {
+        "eyebrow": "Audience · Sports",
+        "heading": "<h1><em>Trophies & Medals for Sports Clubs & Academies</em></h1>",
+        "subheading": "Tournament, league and championship awards for sports clubs and academies — cups, medals, replicas and perpetual trophies, branded and delivered on schedule. By Meru Trophy.",
+        "primary_cta_label": "Get a quote on WhatsApp",
+        "secondary_cta_label": "Browse the catalogue",
+        "secondary_cta_url": "/collections/all",
+        "breadcrumb_label": "Trophies for Sports Clubs & Academies",
+        "faq_heading": "Frequently asked questions",
+        "schema_type": "Service",
+        "schema_name": "Trophies for Sports Clubs & Academies",
+        "color_scheme": "scheme-1",
+        "features_heading": "Why we're a fit"
+      },
+      "blocks": {
+        "b0": {
+          "type": "quick_answer",
+          "settings": {
+            "label": "Quick answer",
+            "text": "<p>Meru Trophy supplies <strong>sports clubs and academies</strong> with tournament, league and championship awards — cups, medals, replicas and perpetual trophies, branded with your club and delivered on time. WhatsApp +91 78922 07252.</p>"
+          }
+        },
+        "b1": {
+          "type": "rich_text",
+          "settings": {
+            "heading": "Awards built for sports clubs & academies",
+            "text": "<p>Clubs and academies run regular tournaments and leagues needing winner cups, individual awards, participation medals and sometimes perpetual trophies. We supply the full range branded with your club, with <strong>combo pricing</strong> and reliable delivery for finals day. See our <a href=\"/pages/cricket-league-season-awards-kit\">league kits</a> and <a href=\"/pages/cricket-tournament-trophy-combo\">combo packs</a>.</p>"
+          }
+        },
+        "b2": {
+          "type": "feature",
+          "settings": {
+            "title": "Full sports range",
+            "text": "Cups, medals, replicas and perpetual trophies."
+          }
+        },
+        "b3": {
+          "type": "feature",
+          "settings": {
+            "title": "Club branding",
+            "text": "Your club name, crest and sponsors engraved."
+          }
+        },
+        "b4": {
+          "type": "feature",
+          "settings": {
+            "title": "Combo pricing",
+            "text": "Bundle prize sets at the best rate."
+          }
+        },
+        "b5": {
+          "type": "feature",
+          "settings": {
+            "title": "On-time for finals",
+            "text": "Reliable delivery to your event."
+          }
+        },
+        "b6": {
+          "type": "stat",
+          "settings": {
+            "number": "20+",
+            "label": "Years"
+          }
+        },
+        "b7": {
+          "type": "stat",
+          "settings": {
+            "number": "150+",
+            "label": "Brands served"
+          }
+        },
+        "b8": {
+          "type": "stat",
+          "settings": {
+            "number": "50–5,000+",
+            "label": "Pieces per order"
+          }
+        },
+        "b9": {
+          "type": "faq",
+          "settings": {
+            "question": "Do you make perpetual/rolling trophies?",
+            "answer": "<p>Yes — large perpetual cups with space for multiple years, and we re-engrave existing ones.</p>"
+          }
+        },
+        "b10": {
+          "type": "faq",
+          "settings": {
+            "question": "Can you bundle a season's awards?",
+            "answer": "<p>Yes — see our <a href=\"/pages/cricket-league-season-awards-kit\">season kit</a> and <a href=\"/pages/cricket-tournament-trophy-combo\">combo packs</a>.</p>"
+          }
+        },
+        "b11": {
+          "type": "faq",
+          "settings": {
+            "question": "Can you brand with our club and sponsors?",
+            "answer": "<p>Yes — engraved free on every award.</p>"
+          }
+        },
+        "b12": {
+          "type": "faq",
+          "settings": {
+            "question": "Do you deliver outside Bangalore?",
+            "answer": "<p>Yes — pan-India from Bangalore.</p>"
+          }
+        },
+        "b13": {
+          "type": "cta_band",
+          "settings": {
+            "heading": "Need awards for sports clubs & academies?",
+            "text": "Tell us your requirement and date — we'll share relevant past work and a quote, usually within the hour.",
+            "button_label": "Get a quote"
+          }
+        }
+      },
+      "block_order": [
+        "b0",
+        "b1",
+        "b2",
+        "b3",
+        "b4",
+        "b5",
+        "b6",
+        "b7",
+        "b8",
+        "b9",
+        "b10",
+        "b11",
+        "b12",
+        "b13"
+      ]
+    }
+  },
+  "order": [
+    "feed"
+  ]
+}

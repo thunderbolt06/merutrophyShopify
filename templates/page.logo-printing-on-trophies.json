@@ -1,0 +1,150 @@
+{
+  "sections": {
+    "feed": {
+      "type": "feed-landing",
+      "settings": {
+        "eyebrow": "Service · Branding",
+        "heading": "<h1><em>Logo Printing on Trophies & Awards</em></h1>",
+        "subheading": "Put your company or event logo on every award — full-colour UV printing and sub-surface crystal engraving for crisp, on-brand recognition pieces. Free with orders, delivered across India.",
+        "primary_cta_label": "Get a quote on WhatsApp",
+        "secondary_cta_label": "Browse the catalogue",
+        "secondary_cta_url": "/collections/all",
+        "breadcrumb_label": "logo printing on awards",
+        "faq_heading": "Frequently asked questions",
+        "schema_type": "Service",
+        "schema_name": "logo printing on awards",
+        "color_scheme": "scheme-1",
+        "features_heading": "Why teams choose Meru Trophy",
+        "steps_heading": "The process, step by step"
+      },
+      "blocks": {
+        "b0": {
+          "type": "quick_answer",
+          "settings": {
+            "label": "Quick answer",
+            "text": "<p>Meru Trophy prints and engraves <strong>your logo on trophies and awards</strong> — full-colour UV printing on acrylic/wood and sub-surface 3D engraving in crystal — included free with orders. WhatsApp +91 78922 07252.</p>"
+          }
+        },
+        "b1": {
+          "type": "rich_text",
+          "settings": {
+            "heading": "How it works",
+            "text": "<p>On-brand recognition needs your logo done right. We reproduce logos in <strong>full colour via UV printing</strong> on acrylic and wood, and as <strong>sub-surface 3D engraving</strong> inside crystal, plus laser etching on metal and glass. Send a vector file and we'll place your logo consistently across the whole award set.</p>"
+          }
+        },
+        "b2": {
+          "type": "feature",
+          "settings": {
+            "title": "Full-colour logos",
+            "text": "UV printing reproduces brand colours and gradients."
+          }
+        },
+        "b3": {
+          "type": "feature",
+          "settings": {
+            "title": "Inside-crystal logos",
+            "text": "Sub-surface 3D engraving for a premium look."
+          }
+        },
+        "b4": {
+          "type": "feature",
+          "settings": {
+            "title": "Consistent across sets",
+            "text": "Your logo placed the same way on every piece."
+          }
+        },
+        "b5": {
+          "type": "feature",
+          "settings": {
+            "title": "Free with orders",
+            "text": "No extra logo charge on awards from us."
+          }
+        },
+        "b6": {
+          "type": "step",
+          "settings": {
+            "title": "Tell us what you need",
+            "text": "WhatsApp, call or fill the form with occasion, quantity, material and date."
+          }
+        },
+        "b7": {
+          "type": "step",
+          "settings": {
+            "title": "Get options & a quote",
+            "text": "We share designs, matching past work and a clear quote — usually same day."
+          }
+        },
+        "b8": {
+          "type": "step",
+          "settings": {
+            "title": "Approve proof & advance",
+            "text": "Sign off a digital mockup; 50% advance via UPI/transfer/card with GST invoice."
+          }
+        },
+        "b9": {
+          "type": "step",
+          "settings": {
+            "title": "Made & dispatched",
+            "text": "Crafted in our Bangalore workshop, QC'd and tracked to your venue."
+          }
+        },
+        "b10": {
+          "type": "faq",
+          "settings": {
+            "question": "What logo file do you need?",
+            "answer": "<p>A vector file (AI/SVG/PDF) is best; high-res PNG works for most pieces.</p>"
+          }
+        },
+        "b11": {
+          "type": "faq",
+          "settings": {
+            "question": "Can you match our exact brand colours?",
+            "answer": "<p>UV printing reproduces brand colours closely; share Pantone/hex references for accuracy.</p>"
+          }
+        },
+        "b12": {
+          "type": "faq",
+          "settings": {
+            "question": "Can the logo go inside the crystal?",
+            "answer": "<p>Yes — sub-surface 3D engraving places your logo inside the award.</p>"
+          }
+        },
+        "b13": {
+          "type": "faq",
+          "settings": {
+            "question": "Is logo printing extra?",
+            "answer": "<p>It's included free on awards bought from us.</p>"
+          }
+        },
+        "b14": {
+          "type": "cta_band",
+          "settings": {
+            "heading": "Ready to start?",
+            "text": "Message us your requirement and event date — we'll guide you through and quote, usually within the hour.",
+            "button_label": "Message us on WhatsApp"
+          }
+        }
+      },
+      "block_order": [
+        "b0",
+        "b1",
+        "b2",
+        "b3",
+        "b4",
+        "b5",
+        "b6",
+        "b7",
+        "b8",
+        "b9",
+        "b10",
+        "b11",
+        "b12",
+        "b13",
+        "b14"
+      ]
+    }
+  },
+  "order": [
+    "feed"
+  ]
+}

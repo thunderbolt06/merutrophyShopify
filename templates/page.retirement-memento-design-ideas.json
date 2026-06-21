@@ -1,0 +1,92 @@
+{
+  "sections": {
+    "feed": {
+      "type": "feed-landing",
+      "settings": {
+        "eyebrow": "Ideas · Retirement",
+        "heading": "<h1><em>Retirement Memento Design Ideas</em></h1>",
+        "subheading": "Heartfelt retirement memento designs — engraved wood, crystal keepsakes, photo mementos and service-years pieces that honour a long career. Custom-made by Meru Trophy.",
+        "primary_cta_label": "Get a quote on WhatsApp",
+        "secondary_cta_label": "Browse the catalogue",
+        "secondary_cta_url": "/collections/all",
+        "breadcrumb_label": "retirement memento design",
+        "faq_heading": "Frequently asked questions",
+        "schema_type": "none",
+        "schema_name": "retirement memento design",
+        "color_scheme": "scheme-1"
+      },
+      "blocks": {
+        "b0": {
+          "type": "quick_answer",
+          "settings": {
+            "label": "Quick answer",
+            "text": "<p>Meaningful <strong>retirement memento designs</strong> are personal: <strong>engraved wooden plaques, crystal keepsakes, photo mementos and service-years pieces</strong> carrying the name, years of service and a warm citation. Meru Trophy designs and delivers these from ₹350. WhatsApp +91 78922 07252.</p>"
+          }
+        },
+        "b1": {
+          "type": "rich_text",
+          "settings": {
+            "heading": "Ideas that work",
+            "text": "<p>A retirement memento should feel personal and dignified. Lead with the retiree's <strong>name, years of service and a warm citation</strong>, and choose a material that feels right — wood for warmth, crystal for ceremony. A photo of a defining moment makes it unforgettable. (See our <a href=\"/pages/retirement-gift-mementos\">retirement mementos</a>.)</p>"
+          }
+        },
+        "b2": {
+          "type": "rich_text",
+          "settings": {
+            "heading": "Popular designs",
+            "text": "<ul><li><strong>Engraved wooden plaque</strong> — warm, classic, with full citation.</li><li><strong>Crystal keepsake</strong> — premium and ceremonial.</li><li><strong>Photo memento</strong> — a defining moment, printed and engraved.</li><li><strong>Service-years piece</strong> — \"32 years of service\" front and centre.</li><li><strong>Desk keepsake</strong> — compact memento for home or office.</li><li><strong>Group-signed plaque</strong> — space for team names/messages.</li></ul>"
+          }
+        },
+        "b3": {
+          "type": "faq",
+          "settings": {
+            "question": "What should a retirement memento say?",
+            "answer": "<p>Name, designation, years of service, dates, organisation/logo, and a short line of gratitude.</p>"
+          }
+        },
+        "b4": {
+          "type": "faq",
+          "settings": {
+            "question": "Wood or crystal for retirement?",
+            "answer": "<p>Wood feels warm and personal; crystal feels ceremonial. Both engrave beautifully.</p>"
+          }
+        },
+        "b5": {
+          "type": "faq",
+          "settings": {
+            "question": "Can you add a photo?",
+            "answer": "<p>Yes — UV-printed photos with an engraved message make a deeply personal keepsake.</p>"
+          }
+        },
+        "b6": {
+          "type": "faq",
+          "settings": {
+            "question": "Can you make several for a group?",
+            "answer": "<p>Yes — co-ordinated sets, each individually engraved.</p>"
+          }
+        },
+        "b7": {
+          "type": "cta_band",
+          "settings": {
+            "heading": "Honouring a retirement?",
+            "text": "Tell us what you're planning — we'll share designs and a quote, usually within the hour.",
+            "button_label": "Design a retirement memento"
+          }
+        }
+      },
+      "block_order": [
+        "b0",
+        "b1",
+        "b2",
+        "b3",
+        "b4",
+        "b5",
+        "b6",
+        "b7"
+      ]
+    }
+  },
+  "order": [
+    "feed"
+  ]
+}

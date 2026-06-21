@@ -1,0 +1,160 @@
+{
+  "sections": {
+    "feed": {
+      "type": "feed-landing",
+      "settings": {
+        "eyebrow": "Occasion · Anniversary",
+        "heading": "<h1><em>Anniversary Crystal Awards</em> & Mementos</h1>",
+        "subheading": "Mark a company or personal milestone with an elegant anniversary crystal award — engraved with years, names and a message. Premium keepsakes custom-made by Meru Trophy.",
+        "primary_cta_label": "Get a quote on WhatsApp",
+        "secondary_cta_label": "Browse the catalogue",
+        "secondary_cta_url": "/collections/all",
+        "breadcrumb_label": "Anniversary Crystal Award",
+        "faq_heading": "Frequently asked questions",
+        "schema_type": "Product",
+        "schema_name": "Anniversary Crystal Award",
+        "color_scheme": "scheme-1",
+        "features_heading": "Popular choices",
+        "price_heading": "Anniversary award price guide",
+        "price_col1": "Item",
+        "price_col2": "Details",
+        "price_col3": "Price (from)",
+        "price_caption": "Indicative starting prices in India. Final price depends on size, material and engraving. Bulk discounts apply. GST invoice available.",
+        "schema_price_low": "750",
+        "schema_price_high": "5000"
+      },
+      "blocks": {
+        "b0": {
+          "type": "quick_answer",
+          "settings": {
+            "label": "Quick answer",
+            "text": "<p>An <strong>anniversary crystal award</strong> marks a milestone elegantly — engraved with the years (e.g. \"25 Years\"), name and a message, from around ₹750. Ideal for company anniversaries, work milestones and personal celebrations. Meru Trophy makes them custom. WhatsApp +91 78922 07252.</p>"
+          }
+        },
+        "b1": {
+          "type": "rich_text",
+          "settings": {
+            "heading": "The right award for the moment",
+            "text": "<p>Anniversaries deserve something that lasts. A K9 crystal award engraved with the <strong>milestone years, name and a heartfelt line</strong> is timeless — for company foundation days, long-service milestones and personal anniversaries. Add a logo or photo for extra meaning.</p>"
+          }
+        },
+        "b2": {
+          "type": "feature",
+          "settings": {
+            "title": "Milestone years engraved",
+            "text": "\"10/25/50 Years\" front and centre."
+          }
+        },
+        "b3": {
+          "type": "feature",
+          "settings": {
+            "title": "Premium crystal",
+            "text": "Elegant, weighty, keepsake quality."
+          }
+        },
+        "b4": {
+          "type": "feature",
+          "settings": {
+            "title": "Logo or photo",
+            "text": "Company logo or a personal photo."
+          }
+        },
+        "b5": {
+          "type": "feature",
+          "settings": {
+            "title": "Single or sets",
+            "text": "One award or a co-ordinated batch."
+          }
+        },
+        "b6": {
+          "type": "price_row",
+          "settings": {
+            "item": "Standard anniversary crystal",
+            "spec": "Milestone keepsake",
+            "price": "₹750"
+          }
+        },
+        "b7": {
+          "type": "price_row",
+          "settings": {
+            "item": "Premium crystal award",
+            "spec": "Statement piece",
+            "price": "₹2,500"
+          }
+        },
+        "b8": {
+          "type": "price_row",
+          "settings": {
+            "item": "Photo crystal anniversary",
+            "spec": "With printed photo",
+            "price": "₹1,200"
+          }
+        },
+        "b9": {
+          "type": "price_row",
+          "settings": {
+            "item": "Large flagship piece",
+            "spec": "Major milestone",
+            "price": "₹5,000"
+          }
+        },
+        "b10": {
+          "type": "faq",
+          "settings": {
+            "question": "What should an anniversary award say?",
+            "answer": "<p>The milestone years, the name (person or company), the date, and a short congratulatory message; add a logo if corporate.</p>"
+          }
+        },
+        "b11": {
+          "type": "faq",
+          "settings": {
+            "question": "Is crystal best for anniversaries?",
+            "answer": "<p>Crystal's clarity and weight suit milestone celebrations; wood is a warmer alternative.</p>"
+          }
+        },
+        "b12": {
+          "type": "faq",
+          "settings": {
+            "question": "Can you add a photo?",
+            "answer": "<p>Yes — UV-printed photos combined with engraving.</p>"
+          }
+        },
+        "b13": {
+          "type": "faq",
+          "settings": {
+            "question": "Can you do company-wide long-service sets?",
+            "answer": "<p>Yes — see our <a href=\"/pages/long-service-award-india\">long-service awards</a>.</p>"
+          }
+        },
+        "b14": {
+          "type": "cta_band",
+          "settings": {
+            "heading": "Planning an anniversary?",
+            "text": "Tell us the occasion, recipient and date — we'll share designs and a quote, usually within the hour.",
+            "button_label": "Get a quote"
+          }
+        }
+      },
+      "block_order": [
+        "b0",
+        "b1",
+        "b2",
+        "b3",
+        "b4",
+        "b5",
+        "b6",
+        "b7",
+        "b8",
+        "b9",
+        "b10",
+        "b11",
+        "b12",
+        "b13",
+        "b14"
+      ]
+    }
+  },
+  "order": [
+    "feed"
+  ]
+}

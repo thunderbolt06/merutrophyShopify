@@ -1,0 +1,193 @@
+{
+  "sections": {
+    "feed": {
+      "type": "feed-landing",
+      "settings": {
+        "eyebrow": "Combo · Running",
+        "heading": "<h1><em>Marathon Event Medals Package</em></h1>",
+        "subheading": "Finisher medals for every runner plus podium trophies and category awards in one event package — custom artwork, ribbons and branding for marathons, runs and cycling events. Bulk pricing, pan-India.",
+        "primary_cta_label": "Get a quote on WhatsApp",
+        "secondary_cta_label": "Browse the catalogue",
+        "secondary_cta_url": "/collections/all",
+        "breadcrumb_label": "Marathon Event Medals Package",
+        "faq_heading": "Frequently asked questions",
+        "schema_type": "Product",
+        "schema_name": "Marathon Event Medals Package",
+        "color_scheme": "scheme-1",
+        "features_heading": "What's inside the package",
+        "steps_heading": "How ordering works",
+        "price_heading": "Sample package pricing",
+        "price_col1": "Package",
+        "price_col2": "What's included",
+        "price_col3": "Price (from)",
+        "price_caption": "Indicative starting prices; per-piece rates fall sharply at higher quantities. GST invoice included.",
+        "schema_price_low": "60",
+        "schema_price_high": "38000"
+      },
+      "blocks": {
+        "b0": {
+          "type": "quick_answer",
+          "settings": {
+            "label": "Quick answer",
+            "text": "<p>Meru Trophy bundles <strong>finisher medals for all runners plus podium and category awards</strong> into one marathon package — custom artwork, ribbons and branding, from around <strong>₹60 a medal</strong>. Delivered pan-India. WhatsApp +91 78922 07252.</p>"
+          }
+        },
+        "b1": {
+          "type": "rich_text",
+          "settings": {
+            "heading": "One bundle for the whole event",
+            "text": "<p>An event needs a finisher medal for everyone and trophies for the podium and categories. We package it all together: large custom finisher medals on branded ribbons, plus overall and age-category podium awards, designed around your event artwork — one order, one invoice, delivered on schedule.</p>"
+          }
+        },
+        "b2": {
+          "type": "feature",
+          "settings": {
+            "title": "Finisher medal for all",
+            "text": "Large custom medals on branded ribbons for every runner."
+          }
+        },
+        "b3": {
+          "type": "feature",
+          "settings": {
+            "title": "Podium & category awards",
+            "text": "Overall, age-group and category trophies."
+          }
+        },
+        "b4": {
+          "type": "feature",
+          "settings": {
+            "title": "Your event artwork",
+            "text": "Custom medal shapes, spinners and branding."
+          }
+        },
+        "b5": {
+          "type": "feature",
+          "settings": {
+            "title": "Volume-ready",
+            "text": "Hundreds to thousands, delivered on time."
+          }
+        },
+        "b6": {
+          "type": "price_row",
+          "settings": {
+            "item": "5K/10K package",
+            "spec": "250 finisher medals + podium awards",
+            "price": "₹18,000"
+          }
+        },
+        "b7": {
+          "type": "price_row",
+          "settings": {
+            "item": "Half-marathon package",
+            "spec": "500 medals + category trophies",
+            "price": "₹38,000"
+          }
+        },
+        "b8": {
+          "type": "price_row",
+          "settings": {
+            "item": "Marathon package",
+            "spec": "1,000+ medals + full awards set",
+            "price": "Custom quote"
+          }
+        },
+        "b9": {
+          "type": "price_row",
+          "settings": {
+            "item": "Premium spinner medals",
+            "spec": "Themed finisher + podium",
+            "price": "Custom quote"
+          }
+        },
+        "b10": {
+          "type": "step",
+          "settings": {
+            "title": "Share your award list",
+            "text": "WhatsApp us your categories, quantities and event date."
+          }
+        },
+        "b11": {
+          "type": "step",
+          "settings": {
+            "title": "Pick designs & budget",
+            "text": "We send matching options and a single combined quote."
+          }
+        },
+        "b12": {
+          "type": "step",
+          "settings": {
+            "title": "Approve engraving proof",
+            "text": "Confirm names, logos and titles on a digital mockup."
+          }
+        },
+        "b13": {
+          "type": "step",
+          "settings": {
+            "title": "Delivered together",
+            "text": "Co-ordinated, boxed and shipped pan-India in time for your event."
+          }
+        },
+        "b14": {
+          "type": "faq",
+          "settings": {
+            "question": "How early should we order?",
+            "answer": "<p>3–4 weeks ahead for custom artwork, die-striking and ribbons on large volumes. Rush options exist.</p>"
+          }
+        },
+        "b15": {
+          "type": "faq",
+          "settings": {
+            "question": "Can finisher medals have a custom shape?",
+            "answer": "<p>Yes — cut-outs, spinners and event-specific shapes are standard for finisher packages.</p>"
+          }
+        },
+        "b16": {
+          "type": "faq",
+          "settings": {
+            "question": "Do you include podium trophies?",
+            "answer": "<p>Yes — overall and age-category trophies are bundled with the finisher medals.</p>"
+          }
+        },
+        "b17": {
+          "type": "faq",
+          "settings": {
+            "question": "Do you deliver outside Bangalore?",
+            "answer": "<p>Yes — pan-India from Bangalore.</p>"
+          }
+        },
+        "b18": {
+          "type": "cta_band",
+          "settings": {
+            "heading": "Planning a marathon or run?",
+            "text": "Send your award list and date — we'll design a matching combo and quote, usually within the hour.",
+            "button_label": "Get my combo quote"
+          }
+        }
+      },
+      "block_order": [
+        "b0",
+        "b1",
+        "b2",
+        "b3",
+        "b4",
+        "b5",
+        "b6",
+        "b7",
+        "b8",
+        "b9",
+        "b10",
+        "b11",
+        "b12",
+        "b13",
+        "b14",
+        "b15",
+        "b16",
+        "b17",
+        "b18"
+      ]
+    }
+  },
+  "order": [
+    "feed"
+  ]
+}

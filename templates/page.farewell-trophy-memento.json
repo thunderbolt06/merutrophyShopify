@@ -1,0 +1,160 @@
+{
+  "sections": {
+    "feed": {
+      "type": "feed-landing",
+      "settings": {
+        "eyebrow": "Occasion · Farewell",
+        "heading": "<h1><em>Farewell Trophy & Memento</em> Ideas & Awards</h1>",
+        "subheading": "Heartfelt farewell mementos and trophies for colleagues, seniors and students leaving — engraved keepsakes, group-signed plaques and photo mementos. Custom-made by Meru Trophy.",
+        "primary_cta_label": "Get a quote on WhatsApp",
+        "secondary_cta_label": "Browse the catalogue",
+        "secondary_cta_url": "/collections/all",
+        "breadcrumb_label": "Farewell Trophy & Memento",
+        "faq_heading": "Frequently asked questions",
+        "schema_type": "Product",
+        "schema_name": "Farewell Trophy & Memento",
+        "color_scheme": "scheme-1",
+        "features_heading": "Popular choices",
+        "price_heading": "Price guide",
+        "price_col1": "Item",
+        "price_col2": "Details",
+        "price_col3": "Price (from)",
+        "price_caption": "Indicative starting prices in India. Final price depends on size, material and engraving. Bulk discounts apply. GST invoice available.",
+        "schema_price_low": "300",
+        "schema_price_high": "900"
+      },
+      "blocks": {
+        "b0": {
+          "type": "quick_answer",
+          "settings": {
+            "label": "Quick answer",
+            "text": "<p>For a <strong>farewell</strong>, popular picks are <strong>engraved wooden or crystal keepsakes, group-signed plaques and photo mementos</strong> carrying the person's name, time together and warm wishes — from around ₹300. Meru Trophy makes single pieces or sets. WhatsApp +91 78922 07252.</p>"
+          }
+        },
+        "b1": {
+          "type": "rich_text",
+          "settings": {
+            "heading": "The right award for the moment",
+            "text": "<p>A farewell memento says \"we'll remember you.\" Lead with the person's name, the time shared and a warm message; choose wood for warmth or crystal for ceremony, and consider a photo or space for team signatures. Perfect for colleagues, seniors and graduating students.</p>"
+          }
+        },
+        "b2": {
+          "type": "feature",
+          "settings": {
+            "title": "Engraved keepsake",
+            "text": "Wood or crystal with name and message."
+          }
+        },
+        "b3": {
+          "type": "feature",
+          "settings": {
+            "title": "Group-signed plaque",
+            "text": "Space for team names and notes."
+          }
+        },
+        "b4": {
+          "type": "feature",
+          "settings": {
+            "title": "Photo memento",
+            "text": "A shared moment, printed and engraved."
+          }
+        },
+        "b5": {
+          "type": "feature",
+          "settings": {
+            "title": "Sets for groups",
+            "text": "Co-ordinated farewells for a batch."
+          }
+        },
+        "b6": {
+          "type": "price_row",
+          "settings": {
+            "item": "Wooden farewell memento",
+            "spec": "Warm keepsake",
+            "price": "₹300"
+          }
+        },
+        "b7": {
+          "type": "price_row",
+          "settings": {
+            "item": "Crystal farewell keepsake",
+            "spec": "Premium, ceremonial",
+            "price": "₹750"
+          }
+        },
+        "b8": {
+          "type": "price_row",
+          "settings": {
+            "item": "Photo farewell memento",
+            "spec": "Printed shared moment",
+            "price": "₹600"
+          }
+        },
+        "b9": {
+          "type": "price_row",
+          "settings": {
+            "item": "Group plaque",
+            "spec": "Team-signed keepsake",
+            "price": "₹900"
+          }
+        },
+        "b10": {
+          "type": "faq",
+          "settings": {
+            "question": "What's a good farewell gift memento?",
+            "answer": "<p>An engraved wood or crystal keepsake with the person's name, your time together and a warm message — optionally a photo or signatures.</p>"
+          }
+        },
+        "b11": {
+          "type": "faq",
+          "settings": {
+            "question": "Can the team sign it?",
+            "answer": "<p>Yes — group-signed plaques leave space for names and short notes.</p>"
+          }
+        },
+        "b12": {
+          "type": "faq",
+          "settings": {
+            "question": "Can you make several for a graduating batch?",
+            "answer": "<p>Yes — co-ordinated sets, each individually engraved.</p>"
+          }
+        },
+        "b13": {
+          "type": "faq",
+          "settings": {
+            "question": "How fast can you deliver?",
+            "answer": "<p>Single pieces turn around fast; tell us your date.</p>"
+          }
+        },
+        "b14": {
+          "type": "cta_band",
+          "settings": {
+            "heading": "Planning a farewell?",
+            "text": "Tell us the occasion, recipient and date — we'll share designs and a quote, usually within the hour.",
+            "button_label": "Get a quote"
+          }
+        }
+      },
+      "block_order": [
+        "b0",
+        "b1",
+        "b2",
+        "b3",
+        "b4",
+        "b5",
+        "b6",
+        "b7",
+        "b8",
+        "b9",
+        "b10",
+        "b11",
+        "b12",
+        "b13",
+        "b14"
+      ]
+    }
+  },
+  "order": [
+    "feed"
+  ]
+}

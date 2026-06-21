@@ -1,0 +1,127 @@
+{
+  "sections": {
+    "feed": {
+      "type": "feed-landing",
+      "settings": {
+        "eyebrow": "Pricing · Large",
+        "heading": "<h1><em>Big Trophy Price</em> in India (Tall & Statement)</h1>",
+        "subheading": "How much do big, tall trophies cost in India? Pricing for large presentation cups and statement trophies — including very tall metal-and-fibre builds for the photo moment. By Meru Trophy.",
+        "primary_cta_label": "Get a quote on WhatsApp",
+        "secondary_cta_label": "Browse the catalogue",
+        "secondary_cta_url": "/collections/all",
+        "breadcrumb_label": "big trophy price",
+        "faq_heading": "Frequently asked questions",
+        "schema_type": "Product",
+        "schema_name": "big trophy price",
+        "color_scheme": "scheme-1",
+        "price_heading": "Big trophy price guide",
+        "price_col1": "Size",
+        "price_col2": "Best for",
+        "price_col3": "Price (from)",
+        "price_caption": "Indicative starting prices in India. Final price depends on size, material and engraving. Bulk discounts apply. GST invoice available.",
+        "schema_price_low": "2000",
+        "schema_price_high": "15000"
+      },
+      "blocks": {
+        "b0": {
+          "type": "quick_answer",
+          "settings": {
+            "label": "Quick answer",
+            "text": "<p><strong>Big trophies in India</strong> — tall presentation cups and statement pieces — typically run <strong>₹2,000 to ₹15,000+</strong>, depending on height, material and detailing. Very tall builds use metal-and-fibre to maximise impact affordably. Meru Trophy quotes exactly on WhatsApp (+91 78922 07252).</p>"
+          }
+        },
+        "b1": {
+          "type": "rich_text",
+          "settings": {
+            "heading": "What you'll pay and why",
+            "text": "<p>Big trophies make the photo. Large presentation cups start around ₹2,000; impressive multi-tier and very tall trophies (several feet) run higher, using <strong>metal-and-fibre construction</strong> to get height and presence without an extreme price. Detailing, plating and engraved bases add to the cost. Tell us the height and budget you want and we'll hit it.</p>"
+          }
+        },
+        "b2": {
+          "type": "price_row",
+          "settings": {
+            "item": "Large cup (18–24 in)",
+            "spec": "League / event winners",
+            "price": "₹2,000"
+          }
+        },
+        "b3": {
+          "type": "price_row",
+          "settings": {
+            "item": "Tall trophy (2–3 ft)",
+            "spec": "Premier final hero piece",
+            "price": "₹5,000"
+          }
+        },
+        "b4": {
+          "type": "price_row",
+          "settings": {
+            "item": "Giant trophy (4 ft+)",
+            "spec": "Statement / perpetual",
+            "price": "₹10,000"
+          }
+        },
+        "b5": {
+          "type": "price_row",
+          "settings": {
+            "item": "Custom flagship build",
+            "spec": "Maximum impact",
+            "price": "₹15,000"
+          }
+        },
+        "b6": {
+          "type": "faq",
+          "settings": {
+            "question": "How much is a big/tall trophy?",
+            "answer": "<p>Large cups from around ₹2,000; very tall statement trophies ₹10,000–₹15,000+, depending on height and material.</p>"
+          }
+        },
+        "b7": {
+          "type": "faq",
+          "settings": {
+            "question": "How do you make them tall affordably?",
+            "answer": "<p>Metal-and-fibre construction gives height and presence at a sensible price versus solid metal.</p>"
+          }
+        },
+        "b8": {
+          "type": "faq",
+          "settings": {
+            "question": "Can it be a perpetual/rolling trophy?",
+            "answer": "<p>Yes — large perpetual cups with space for multiple years of winners.</p>"
+          }
+        },
+        "b9": {
+          "type": "faq",
+          "settings": {
+            "question": "Can you brand and engrave it?",
+            "answer": "<p>Yes — event name, sponsor and winners engraved on the cup or base.</p>"
+          }
+        },
+        "b10": {
+          "type": "cta_band",
+          "settings": {
+            "heading": "Want an exact price?",
+            "text": "Send your item, quantity and engraving — we'll send a precise quote, usually within the hour.",
+            "button_label": "Get an exact quote"
+          }
+        }
+      },
+      "block_order": [
+        "b0",
+        "b1",
+        "b2",
+        "b3",
+        "b4",
+        "b5",
+        "b6",
+        "b7",
+        "b8",
+        "b9",
+        "b10"
+      ]
+    }
+  },
+  "order": [
+    "feed"
+  ]
+}

@@ -1,0 +1,193 @@
+{
+  "sections": {
+    "feed": {
+      "type": "feed-landing",
+      "settings": {
+        "eyebrow": "Combo · Community",
+        "heading": "<h1><em>Society & Gully Tournament</em> Trophy Combo</h1>",
+        "subheading": "Budget-friendly winner, runner-up and individual awards plus player medals for apartment, society and gully tournaments — tennis-ball cricket, box cricket and more. Delivered across India.",
+        "primary_cta_label": "Get a quote on WhatsApp",
+        "secondary_cta_label": "Browse the catalogue",
+        "secondary_cta_url": "/collections/all",
+        "breadcrumb_label": "Society & Gully Tournament Trophy Combo",
+        "faq_heading": "Frequently asked questions",
+        "schema_type": "Product",
+        "schema_name": "Society & Gully Tournament Trophy Combo",
+        "color_scheme": "scheme-1",
+        "features_heading": "What's inside the package",
+        "steps_heading": "How ordering works",
+        "price_heading": "Sample package pricing",
+        "price_col1": "Package",
+        "price_col2": "What's included",
+        "price_col3": "Price (from)",
+        "price_caption": "Indicative starting prices; per-piece rates fall sharply at higher quantities. GST invoice included.",
+        "schema_price_low": "120",
+        "schema_price_high": "6500"
+      },
+      "blocks": {
+        "b0": {
+          "type": "quick_answer",
+          "settings": {
+            "label": "Quick answer",
+            "text": "<p>Meru Trophy bundles <strong>budget society and gully tournament awards</strong> — winner, runner-up and individual awards plus player medals — for tennis-ball cricket, box cricket and community sports, from around <strong>₹120 a piece</strong>. Delivered pan-India. WhatsApp +91 78922 07252.</p>"
+          }
+        },
+        "b1": {
+          "type": "rich_text",
+          "settings": {
+            "heading": "One bundle for the whole event",
+            "text": "<p>Apartment and gully tournaments need a complete set of awards on a community budget. Our combo bundles affordable winner and runner-up cups, Man of the Series and best player awards, and participation medals for every player — engraved with your society or tournament name, delivered ready for the final.</p>"
+          }
+        },
+        "b2": {
+          "type": "feature",
+          "settings": {
+            "title": "Community budget",
+            "text": "Affordable fibre and metal awards for local events."
+          }
+        },
+        "b3": {
+          "type": "feature",
+          "settings": {
+            "title": "Full prize set",
+            "text": "Winner, runner-up, individual awards and medals."
+          }
+        },
+        "b4": {
+          "type": "feature",
+          "settings": {
+            "title": "Society branding",
+            "text": "Your society or tournament name engraved free."
+          }
+        },
+        "b5": {
+          "type": "feature",
+          "settings": {
+            "title": "Player medals",
+            "text": "Medals for every participant on ribbons."
+          }
+        },
+        "b6": {
+          "type": "price_row",
+          "settings": {
+            "item": "Starter combo",
+            "spec": "Winner + runner-up + MoM",
+            "price": "₹999"
+          }
+        },
+        "b7": {
+          "type": "price_row",
+          "settings": {
+            "item": "Standard society combo",
+            "spec": "+ best batsman/bowler + 16 medals",
+            "price": "₹2,999"
+          }
+        },
+        "b8": {
+          "type": "price_row",
+          "settings": {
+            "item": "Big tournament combo",
+            "spec": "Large cups + 6 awards + 30 medals",
+            "price": "₹6,500"
+          }
+        },
+        "b9": {
+          "type": "price_row",
+          "settings": {
+            "item": "Multi-sport community",
+            "spec": "Custom volume",
+            "price": "Custom quote"
+          }
+        },
+        "b10": {
+          "type": "step",
+          "settings": {
+            "title": "Share your award list",
+            "text": "WhatsApp us your categories, quantities and event date."
+          }
+        },
+        "b11": {
+          "type": "step",
+          "settings": {
+            "title": "Pick designs & budget",
+            "text": "We send matching options and a single combined quote."
+          }
+        },
+        "b12": {
+          "type": "step",
+          "settings": {
+            "title": "Approve engraving proof",
+            "text": "Confirm names, logos and titles on a digital mockup."
+          }
+        },
+        "b13": {
+          "type": "step",
+          "settings": {
+            "title": "Delivered together",
+            "text": "Co-ordinated, boxed and shipped pan-India in time for your event."
+          }
+        },
+        "b14": {
+          "type": "faq",
+          "settings": {
+            "question": "What's the cheapest complete set?",
+            "answer": "<p>A starter combo (winner, runner-up, MoM) begins near ₹999; add individual awards and medals as your budget allows.</p>"
+          }
+        },
+        "b15": {
+          "type": "faq",
+          "settings": {
+            "question": "Can you engrave our society name?",
+            "answer": "<p>Yes — society or tournament name and winners engraved free.</p>"
+          }
+        },
+        "b16": {
+          "type": "faq",
+          "settings": {
+            "question": "Is this good for box/tennis-ball cricket?",
+            "answer": "<p>Yes — it's our most popular combo for tennis-ball, box and gully cricket.</p>"
+          }
+        },
+        "b17": {
+          "type": "faq",
+          "settings": {
+            "question": "Do you deliver outside Bangalore?",
+            "answer": "<p>Yes — pan-India from Bangalore.</p>"
+          }
+        },
+        "b18": {
+          "type": "cta_band",
+          "settings": {
+            "heading": "Planning a society or gully tournament?",
+            "text": "Send your award list and date — we'll design a matching combo and quote, usually within the hour.",
+            "button_label": "Get my combo quote"
+          }
+        }
+      },
+      "block_order": [
+        "b0",
+        "b1",
+        "b2",
+        "b3",
+        "b4",
+        "b5",
+        "b6",
+        "b7",
+        "b8",
+        "b9",
+        "b10",
+        "b11",
+        "b12",
+        "b13",
+        "b14",
+        "b15",
+        "b16",
+        "b17",
+        "b18"
+      ]
+    }
+  },
+  "order": [
+    "feed"
+  ]
+}

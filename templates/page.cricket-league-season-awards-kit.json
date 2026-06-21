@@ -1,0 +1,193 @@
+{
+  "sections": {
+    "feed": {
+      "type": "feed-landing",
+      "settings": {
+        "eyebrow": "Combo · Cricket",
+        "heading": "<h1><em>Cricket League Season Awards Kit</em></h1>",
+        "subheading": "A full season's awards in one kit — champions and runners-up, Orange/Purple Cap, MVP, best batsman/bowler/fielder and player medals, all branded with your league. Pan-India delivery.",
+        "primary_cta_label": "Get a quote on WhatsApp",
+        "secondary_cta_label": "Browse the catalogue",
+        "secondary_cta_url": "/collections/all",
+        "breadcrumb_label": "Cricket League Season Awards Kit",
+        "faq_heading": "Frequently asked questions",
+        "schema_type": "Product",
+        "schema_name": "Cricket League Season Awards Kit",
+        "color_scheme": "scheme-1",
+        "features_heading": "What's inside the package",
+        "steps_heading": "How ordering works",
+        "price_heading": "Sample package pricing",
+        "price_col1": "Package",
+        "price_col2": "What's included",
+        "price_col3": "Price (from)",
+        "price_caption": "Indicative starting prices; per-piece rates fall sharply at higher quantities. GST invoice included.",
+        "schema_price_low": "150",
+        "schema_price_high": "30000"
+      },
+      "blocks": {
+        "b0": {
+          "type": "quick_answer",
+          "settings": {
+            "label": "Quick answer",
+            "text": "<p>Meru Trophy bundles a <strong>complete cricket league season awards kit</strong> — champions, runners-up, MVP, best batsman/bowler/fielder, cap awards and player medals — branded with your league, from around <strong>₹150 a piece</strong>. Delivered pan-India. WhatsApp +91 78922 07252.</p>"
+          }
+        },
+        "b1": {
+          "type": "rich_text",
+          "settings": {
+            "heading": "One bundle for the whole event",
+            "text": "<p>A full season deserves more than one trophy. Our season kit covers champions and runners-up, MVP, best batsman/bowler/fielder, Orange/Purple-cap-style awards and participation medals for every player — all engraved with your league name, sponsors and winners, delivered together for finals day.</p>"
+          }
+        },
+        "b2": {
+          "type": "feature",
+          "settings": {
+            "title": "Full season coverage",
+            "text": "Champions, individual awards and player medals."
+          }
+        },
+        "b3": {
+          "type": "feature",
+          "settings": {
+            "title": "League & sponsor branding",
+            "text": "League name, sponsors and winners engraved."
+          }
+        },
+        "b4": {
+          "type": "feature",
+          "settings": {
+            "title": "Premium hero trophy",
+            "text": "A standout champions cup for the photo."
+          }
+        },
+        "b5": {
+          "type": "feature",
+          "settings": {
+            "title": "Player medals",
+            "text": "Participation medals for every squad member."
+          }
+        },
+        "b6": {
+          "type": "price_row",
+          "settings": {
+            "item": "Local league kit",
+            "spec": "Champions + 4 awards + 24 medals",
+            "price": "₹6,500"
+          }
+        },
+        "b7": {
+          "type": "price_row",
+          "settings": {
+            "item": "Standard league",
+            "spec": "Champions + 6 awards + 60 medals",
+            "price": "₹14,000"
+          }
+        },
+        "b8": {
+          "type": "price_row",
+          "settings": {
+            "item": "Premier league kit",
+            "spec": "Large cups + full awards + 120 medals",
+            "price": "₹30,000"
+          }
+        },
+        "b9": {
+          "type": "price_row",
+          "settings": {
+            "item": "Corporate league",
+            "spec": "Custom branded season set",
+            "price": "Custom quote"
+          }
+        },
+        "b10": {
+          "type": "step",
+          "settings": {
+            "title": "Share your award list",
+            "text": "WhatsApp us your categories, quantities and event date."
+          }
+        },
+        "b11": {
+          "type": "step",
+          "settings": {
+            "title": "Pick designs & budget",
+            "text": "We send matching options and a single combined quote."
+          }
+        },
+        "b12": {
+          "type": "step",
+          "settings": {
+            "title": "Approve engraving proof",
+            "text": "Confirm names, logos and titles on a digital mockup."
+          }
+        },
+        "b13": {
+          "type": "step",
+          "settings": {
+            "title": "Delivered together",
+            "text": "Co-ordinated, boxed and shipped pan-India in time for your event."
+          }
+        },
+        "b14": {
+          "type": "faq",
+          "settings": {
+            "question": "What awards should a league kit include?",
+            "answer": "<p>Typically champions, runners-up, MVP/Man of the Series, best batsman, bowler and fielder, plus player medals. We'll tailor to your prize list.</p>"
+          }
+        },
+        "b15": {
+          "type": "faq",
+          "settings": {
+            "question": "Can you brand it with our league and sponsors?",
+            "answer": "<p>Yes — league name, sponsor logos and winners are engraved free.</p>"
+          }
+        },
+        "b16": {
+          "type": "faq",
+          "settings": {
+            "question": "Can we add a big champions cup?",
+            "answer": "<p>Yes — a premium presentation cup is the centrepiece; pair with our <a href=\"/pages/ipl-trophy-price\">replica cups</a> if you want an IPL-style look.</p>"
+          }
+        },
+        "b17": {
+          "type": "faq",
+          "settings": {
+            "question": "Do you deliver outside Bangalore?",
+            "answer": "<p>Yes — pan-India, timed for finals day.</p>"
+          }
+        },
+        "b18": {
+          "type": "cta_band",
+          "settings": {
+            "heading": "Planning a cricket league season?",
+            "text": "Send your award list and date — we'll design a matching combo and quote, usually within the hour.",
+            "button_label": "Get my combo quote"
+          }
+        }
+      },
+      "block_order": [
+        "b0",
+        "b1",
+        "b2",
+        "b3",
+        "b4",
+        "b5",
+        "b6",
+        "b7",
+        "b8",
+        "b9",
+        "b10",
+        "b11",
+        "b12",
+        "b13",
+        "b14",
+        "b15",
+        "b16",
+        "b17",
+        "b18"
+      ]
+    }
+  },
+  "order": [
+    "feed"
+  ]
+}

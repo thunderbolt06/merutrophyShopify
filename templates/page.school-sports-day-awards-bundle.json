@@ -1,0 +1,193 @@
+{
+  "sections": {
+    "feed": {
+      "type": "feed-landing",
+      "settings": {
+        "eyebrow": "Combo · School",
+        "heading": "<h1>School <em>Sports Day Awards Bundle</em></h1>",
+        "subheading": "Medals and trophies for the whole sports day in one order — gold/silver/bronze across every event and age group, plus overall-champion trophies, branded with your school crest. GST-invoiced, delivered on time.",
+        "primary_cta_label": "Get a quote on WhatsApp",
+        "secondary_cta_label": "Browse the catalogue",
+        "secondary_cta_url": "/collections/all",
+        "breadcrumb_label": "School Sports Day Awards Bundle",
+        "faq_heading": "Frequently asked questions",
+        "schema_type": "Product",
+        "schema_name": "School Sports Day Awards Bundle",
+        "color_scheme": "scheme-1",
+        "features_heading": "What's inside the package",
+        "steps_heading": "How ordering works",
+        "price_heading": "Sample package pricing",
+        "price_col1": "Package",
+        "price_col2": "What's included",
+        "price_col3": "Price (from)",
+        "price_caption": "Indicative starting prices; per-piece rates fall sharply at higher quantities. GST invoice included.",
+        "schema_price_low": "25",
+        "schema_price_high": "15000"
+      },
+      "blocks": {
+        "b0": {
+          "type": "quick_answer",
+          "settings": {
+            "label": "Quick answer",
+            "text": "<p>Meru Trophy bundles <strong>medals and trophies for the entire school sports day</strong> — gold/silver/bronze across events and age groups plus champion trophies, with your crest and house colours. From around <strong>₹25 a medal</strong>; GST-invoiced; delivered before the day. WhatsApp +91 78922 07252.</p>"
+          }
+        },
+        "b1": {
+          "type": "rich_text",
+          "settings": {
+            "heading": "One bundle for the whole event",
+            "text": "<p>A sports day needs awards across dozens of events and several age groups — and a budget that works. Our bundle combines bulk medals with overall-champion and house trophies in one order, all branded with your school crest and house colours, on a single GST invoice, delivered before the day.</p>"
+          }
+        },
+        "b2": {
+          "type": "feature",
+          "settings": {
+            "title": "Medals for every event",
+            "text": "Gold/silver/bronze across all events and age groups."
+          }
+        },
+        "b3": {
+          "type": "feature",
+          "settings": {
+            "title": "Champion & house trophies",
+            "text": "Overall winners and house competition trophies."
+          }
+        },
+        "b4": {
+          "type": "feature",
+          "settings": {
+            "title": "School crest & colours",
+            "text": "Custom centres and house-colour ribbons."
+          }
+        },
+        "b5": {
+          "type": "feature",
+          "settings": {
+            "title": "One invoice, on time",
+            "text": "Single GST invoice, planned dispatch before sports day."
+          }
+        },
+        "b6": {
+          "type": "price_row",
+          "settings": {
+            "item": "Essentials bundle",
+            "spec": "100 medals + 3 champion trophies",
+            "price": "₹3,500"
+          }
+        },
+        "b7": {
+          "type": "price_row",
+          "settings": {
+            "item": "Standard sports day",
+            "spec": "250 medals + house + champion trophies",
+            "price": "₹7,500"
+          }
+        },
+        "b8": {
+          "type": "price_row",
+          "settings": {
+            "item": "Large school bundle",
+            "spec": "500+ medals + full trophy set",
+            "price": "₹15,000"
+          }
+        },
+        "b9": {
+          "type": "price_row",
+          "settings": {
+            "item": "Multi-campus",
+            "spec": "Custom volume across age groups",
+            "price": "Custom quote"
+          }
+        },
+        "b10": {
+          "type": "step",
+          "settings": {
+            "title": "Share your award list",
+            "text": "WhatsApp us your categories, quantities and event date."
+          }
+        },
+        "b11": {
+          "type": "step",
+          "settings": {
+            "title": "Pick designs & budget",
+            "text": "We send matching options and a single combined quote."
+          }
+        },
+        "b12": {
+          "type": "step",
+          "settings": {
+            "title": "Approve engraving proof",
+            "text": "Confirm names, logos and titles on a digital mockup."
+          }
+        },
+        "b13": {
+          "type": "step",
+          "settings": {
+            "title": "Delivered together",
+            "text": "Co-ordinated, boxed and shipped pan-India in time for your event."
+          }
+        },
+        "b14": {
+          "type": "faq",
+          "settings": {
+            "question": "How do we work out quantities?",
+            "answer": "<p>Share your event list and age groups; we'll calculate gold/silver/bronze counts plus spares.</p>"
+          }
+        },
+        "b15": {
+          "type": "faq",
+          "settings": {
+            "question": "Can everything carry our crest and house colours?",
+            "answer": "<p>Yes — medal centres carry your crest and ribbons match house colours; trophies are engraved with the event.</p>"
+          }
+        },
+        "b16": {
+          "type": "faq",
+          "settings": {
+            "question": "Will it arrive before sports day?",
+            "answer": "<p>Yes — we plan dispatch to your date. Order 2–3 weeks ahead for comfort; rush options exist.</p>"
+          }
+        },
+        "b17": {
+          "type": "faq",
+          "settings": {
+            "question": "Do you provide a GST invoice?",
+            "answer": "<p>Yes — one GST invoice for the whole bundle, with PO handling for schools.</p>"
+          }
+        },
+        "b18": {
+          "type": "cta_band",
+          "settings": {
+            "heading": "Planning a school sports day?",
+            "text": "Send your award list and date — we'll design a matching combo and quote, usually within the hour.",
+            "button_label": "Get my combo quote"
+          }
+        }
+      },
+      "block_order": [
+        "b0",
+        "b1",
+        "b2",
+        "b3",
+        "b4",
+        "b5",
+        "b6",
+        "b7",
+        "b8",
+        "b9",
+        "b10",
+        "b11",
+        "b12",
+        "b13",
+        "b14",
+        "b15",
+        "b16",
+        "b17",
+        "b18"
+      ]
+    }
+  },
+  "order": [
+    "feed"
+  ]
+}

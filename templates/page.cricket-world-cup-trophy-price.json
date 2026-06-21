@@ -1,0 +1,127 @@
+{
+  "sections": {
+    "feed": {
+      "type": "feed-landing",
+      "settings": {
+        "eyebrow": "Pricing · Cricket",
+        "heading": "<h1><em>Cricket World Cup Trophy Price</em> & Replica Cost</h1>",
+        "subheading": "How much is the Cricket World Cup trophy, and how can you buy a World-Cup-style replica for your tournament? The facts, plus custom replica pricing from Meru Trophy.",
+        "primary_cta_label": "Get a quote on WhatsApp",
+        "secondary_cta_label": "Browse the catalogue",
+        "secondary_cta_url": "/collections/all",
+        "breadcrumb_label": "cricket world cup trophy price",
+        "faq_heading": "Frequently asked questions",
+        "schema_type": "Product",
+        "schema_name": "cricket world cup trophy price",
+        "color_scheme": "scheme-1",
+        "price_heading": "World-Cup-style replica pricing",
+        "price_col1": "Replica size",
+        "price_col2": "Best for",
+        "price_col3": "Price (from)",
+        "price_caption": "Indicative starting prices in India. Final price depends on size, material and engraving. Bulk discounts apply. GST invoice available.",
+        "schema_price_low": "999",
+        "schema_price_high": "15000"
+      },
+      "blocks": {
+        "b0": {
+          "type": "quick_answer",
+          "settings": {
+            "label": "Quick answer",
+            "text": "<p>The official <strong>ICC Cricket World Cup trophy is not sold publicly</strong> — it's a bespoke gold-and-silver cup, so it has no retail price. For your own event, custom <strong>World-Cup-style replica trophies</strong> from Meru Trophy start around <strong>₹999</strong> (table-top) up to ₹15,000+ (large cups). WhatsApp +91 78922 07252.</p>"
+          }
+        },
+        "b1": {
+          "type": "rich_text",
+          "settings": {
+            "heading": "What you'll pay and why",
+            "text": "<p>Like the IPL cup, the ICC World Cup trophy is a one-off presentation piece, not a retail product — figures online are fabrication estimates, not a buy price. What most people want is a <strong>replica</strong> for their own tournament. We make custom World-Cup-style cups in several sizes, engraved with your event name. (See also our <a href=\"/pages/ipl-trophy-price\">IPL trophy price page</a>.)</p>"
+          }
+        },
+        "b2": {
+          "type": "price_row",
+          "settings": {
+            "item": "Table-top replica (8–12 in)",
+            "spec": "Small tournament prize",
+            "price": "₹999"
+          }
+        },
+        "b3": {
+          "type": "price_row",
+          "settings": {
+            "item": "Mid replica (14–20 in)",
+            "spec": "League / corporate winners",
+            "price": "₹2,999"
+          }
+        },
+        "b4": {
+          "type": "price_row",
+          "settings": {
+            "item": "Large presentation cup (24 in+)",
+            "spec": "Premier final",
+            "price": "₹6,999"
+          }
+        },
+        "b5": {
+          "type": "price_row",
+          "settings": {
+            "item": "Premium custom replica",
+            "spec": "Branded, plated, engraved base",
+            "price": "₹15,000"
+          }
+        },
+        "b6": {
+          "type": "faq",
+          "settings": {
+            "question": "How much is the real Cricket World Cup trophy?",
+            "answer": "<p>It has no public retail price — it's a bespoke commissioned cup, not sold to the public.</p>"
+          }
+        },
+        "b7": {
+          "type": "faq",
+          "settings": {
+            "question": "Can I buy a World Cup trophy replica?",
+            "answer": "<p>You can order a custom World-Cup-style replica for your own tournament — from ₹999 (table-top) upward.</p>"
+          }
+        },
+        "b8": {
+          "type": "faq",
+          "settings": {
+            "question": "Do you also make IPL-style cups?",
+            "answer": "<p>Yes — see our <a href=\"/pages/ipl-trophy-price\">IPL trophy page</a> for replica sizes and pricing.</p>"
+          }
+        },
+        "b9": {
+          "type": "faq",
+          "settings": {
+            "question": "How long to make a replica?",
+            "answer": "<p>Standard replicas ship in 3–5 business days; large plated cups need 7–10 days.</p>"
+          }
+        },
+        "b10": {
+          "type": "cta_band",
+          "settings": {
+            "heading": "Want an exact price?",
+            "text": "Send your item, quantity and engraving — we'll send a precise quote, usually within the hour.",
+            "button_label": "Get an exact quote"
+          }
+        }
+      },
+      "block_order": [
+        "b0",
+        "b1",
+        "b2",
+        "b3",
+        "b4",
+        "b5",
+        "b6",
+        "b7",
+        "b8",
+        "b9",
+        "b10"
+      ]
+    }
+  },
+  "order": [
+    "feed"
+  ]
+}

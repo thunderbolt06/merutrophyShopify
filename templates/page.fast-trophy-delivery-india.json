@@ -1,0 +1,150 @@
+{
+  "sections": {
+    "feed": {
+      "type": "feed-landing",
+      "settings": {
+        "eyebrow": "Service · Delivery",
+        "heading": "<h1><em>Fast 2-Day Trophy Delivery</em> in India</h1>",
+        "subheading": "Need awards quickly? Same-day pickup in Bangalore and expedited 2-day delivery on ready and lightly-customised trophies and medals across major Indian cities. Tell us your date.",
+        "primary_cta_label": "Get a quote on WhatsApp",
+        "secondary_cta_label": "See last-minute orders",
+        "secondary_cta_url": "/pages/last-minute-trophy-order",
+        "breadcrumb_label": "fast trophy delivery",
+        "faq_heading": "Frequently asked questions",
+        "schema_type": "Service",
+        "schema_name": "fast trophy delivery",
+        "color_scheme": "scheme-1",
+        "features_heading": "Why teams choose Meru Trophy",
+        "steps_heading": "The process, step by step"
+      },
+      "blocks": {
+        "b0": {
+          "type": "quick_answer",
+          "settings": {
+            "label": "Quick answer",
+            "text": "<p>Meru Trophy offers <strong>same-day pickup in Bangalore</strong> and <strong>expedited delivery</strong> on ready and lightly-customised trophies and medals — often within 2 days to major cities. Tight deadline? WhatsApp +91 78922 07252 and we'll tell you what's possible.</p>"
+          }
+        },
+        "b1": {
+          "type": "rich_text",
+          "settings": {
+            "heading": "How it works",
+            "text": "<p>Events don't always give you notice. For urgent needs we prioritise <strong>ready stock and quick-turnaround items</strong> — medals, standard cups and simple engraving — with same-day pickup from our Bangalore workshop and expedited courier to major cities, frequently within two days. Heavily customised crystal needs longer, but we'll always tell you honestly what's achievable for your date.</p>"
+          }
+        },
+        "b2": {
+          "type": "feature",
+          "settings": {
+            "title": "Same-day in Bangalore",
+            "text": "Pickup from our Gandhinagar workshop the same day."
+          }
+        },
+        "b3": {
+          "type": "feature",
+          "settings": {
+            "title": "Expedited courier",
+            "text": "2-day delivery to major cities on suitable items."
+          }
+        },
+        "b4": {
+          "type": "feature",
+          "settings": {
+            "title": "Honest timelines",
+            "text": "We tell you upfront what your date allows."
+          }
+        },
+        "b5": {
+          "type": "feature",
+          "settings": {
+            "title": "Rush engraving",
+            "text": "Fast-tracked engraving on simple personalisation."
+          }
+        },
+        "b6": {
+          "type": "step",
+          "settings": {
+            "title": "Tell us your event date",
+            "text": "WhatsApp the date, city, items and quantity right away."
+          }
+        },
+        "b7": {
+          "type": "step",
+          "settings": {
+            "title": "We confirm what's possible",
+            "text": "We identify ready/quick-turnaround options for your deadline."
+          }
+        },
+        "b8": {
+          "type": "step",
+          "settings": {
+            "title": "Approve & pay",
+            "text": "Quick proof and advance to lock production and dispatch."
+          }
+        },
+        "b9": {
+          "type": "step",
+          "settings": {
+            "title": "Expedited dispatch",
+            "text": "Same-day pickup or priority courier to your city."
+          }
+        },
+        "b10": {
+          "type": "faq",
+          "settings": {
+            "question": "Can you really deliver in 2 days?",
+            "answer": "<p>For ready and lightly-customised items to major cities, often yes. Heavily customised crystal needs more time — we'll be upfront.</p>"
+          }
+        },
+        "b11": {
+          "type": "faq",
+          "settings": {
+            "question": "Do you offer same-day pickup in Bangalore?",
+            "answer": "<p>Yes — collect from our Gandhinagar, Bangalore workshop the same day for ready items.</p>"
+          }
+        },
+        "b12": {
+          "type": "faq",
+          "settings": {
+            "question": "What's fastest for a last-minute event?",
+            "answer": "<p>Medals and standard cups with simple engraving turn around quickest.</p>"
+          }
+        },
+        "b13": {
+          "type": "faq",
+          "settings": {
+            "question": "Which cities can you reach fastest?",
+            "answer": "<p>Major metros via priority courier; tell us your city for a realistic ETA.</p>"
+          }
+        },
+        "b14": {
+          "type": "cta_band",
+          "settings": {
+            "heading": "Ready to start?",
+            "text": "Message us your requirement and event date — we'll guide you through and quote, usually within the hour.",
+            "button_label": "Message us on WhatsApp"
+          }
+        }
+      },
+      "block_order": [
+        "b0",
+        "b1",
+        "b2",
+        "b3",
+        "b4",
+        "b5",
+        "b6",
+        "b7",
+        "b8",
+        "b9",
+        "b10",
+        "b11",
+        "b12",
+        "b13",
+        "b14"
+      ]
+    }
+  },
+  "order": [
+    "feed"
+  ]
+}

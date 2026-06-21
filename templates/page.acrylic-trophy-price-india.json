@@ -1,0 +1,127 @@
+{
+  "sections": {
+    "feed": {
+      "type": "feed-landing",
+      "settings": {
+        "eyebrow": "Pricing · Acrylic",
+        "heading": "<h1><em>Acrylic Trophy Price</em> in India</h1>",
+        "subheading": "What do acrylic trophies cost in India? A price guide for UV-printed acrylic awards by size and design — an affordable, lightweight alternative to crystal. Custom-made by Meru Trophy.",
+        "primary_cta_label": "Get a quote on WhatsApp",
+        "secondary_cta_label": "Browse the catalogue",
+        "secondary_cta_url": "/collections/all",
+        "breadcrumb_label": "acrylic trophy price",
+        "faq_heading": "Frequently asked questions",
+        "schema_type": "Product",
+        "schema_name": "acrylic trophy price",
+        "color_scheme": "scheme-1",
+        "price_heading": "Acrylic trophy price guide",
+        "price_col1": "Item",
+        "price_col2": "Details",
+        "price_col3": "Price (from)",
+        "price_caption": "Indicative starting prices in India. Final price depends on size, material and engraving. Bulk discounts apply. GST invoice available.",
+        "schema_price_low": "250",
+        "schema_price_high": "2500"
+      },
+      "blocks": {
+        "b0": {
+          "type": "quick_answer",
+          "settings": {
+            "label": "Quick answer",
+            "text": "<p>In India, <strong>acrylic trophies range from about ₹250</strong> for compact awards to <strong>₹2,500+</strong> for large multi-layer pieces, with full-colour UV printing included. Lighter and cheaper than crystal. Meru Trophy quotes exact prices on WhatsApp (+91 78922 07252).</p>"
+          }
+        },
+        "b1": {
+          "type": "rich_text",
+          "settings": {
+            "heading": "What you'll pay and why",
+            "text": "<p>Acrylic is the budget-smart, lightweight alternative to crystal, and it takes <strong>full-colour UV printing</strong> brilliantly. Compact awards start around ₹250; standard trophies ₹450; premium printed pieces ₹900; large custom designs ₹2,500+. Because it's light and shatter-resistant, it's also the cheapest to ship in bulk. (See <a href=\"/pages/crystal-vs-acrylic-trophy\">crystal vs acrylic</a>.)</p>"
+          }
+        },
+        "b2": {
+          "type": "price_row",
+          "settings": {
+            "item": "Compact acrylic award",
+            "spec": "Desk-size recognition",
+            "price": "₹250"
+          }
+        },
+        "b3": {
+          "type": "price_row",
+          "settings": {
+            "item": "Standard acrylic trophy",
+            "spec": "Corporate & sports",
+            "price": "₹450"
+          }
+        },
+        "b4": {
+          "type": "price_row",
+          "settings": {
+            "item": "Premium printed acrylic",
+            "spec": "Full-colour logo/photo",
+            "price": "₹900"
+          }
+        },
+        "b5": {
+          "type": "price_row",
+          "settings": {
+            "item": "Large custom acrylic",
+            "spec": "Multi-layer statement",
+            "price": "₹2,500"
+          }
+        },
+        "b6": {
+          "type": "faq",
+          "settings": {
+            "question": "How much is an acrylic trophy in India?",
+            "answer": "<p>From about ₹250 for compact awards to ₹2,500+ for large custom pieces, with UV printing included.</p>"
+          }
+        },
+        "b7": {
+          "type": "faq",
+          "settings": {
+            "question": "Is acrylic cheaper than crystal?",
+            "answer": "<p>Yes — noticeably cheaper and lighter, while still looking clean and modern.</p>"
+          }
+        },
+        "b8": {
+          "type": "faq",
+          "settings": {
+            "question": "Is full-colour printing extra?",
+            "answer": "<p>No — UV printing of logos and photos is included with your order.</p>"
+          }
+        },
+        "b9": {
+          "type": "faq",
+          "settings": {
+            "question": "Is acrylic good for bulk/shipped events?",
+            "answer": "<p>Yes — it's light and shatter-resistant, the safest and cheapest to ship in volume.</p>"
+          }
+        },
+        "b10": {
+          "type": "cta_band",
+          "settings": {
+            "heading": "Want an exact price?",
+            "text": "Send your item, quantity and engraving — we'll send a precise quote, usually within the hour.",
+            "button_label": "Get an exact quote"
+          }
+        }
+      },
+      "block_order": [
+        "b0",
+        "b1",
+        "b2",
+        "b3",
+        "b4",
+        "b5",
+        "b6",
+        "b7",
+        "b8",
+        "b9",
+        "b10"
+      ]
+    }
+  },
+  "order": [
+    "feed"
+  ]
+}

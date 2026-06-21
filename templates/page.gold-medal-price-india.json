@@ -1,0 +1,127 @@
+{
+  "sections": {
+    "feed": {
+      "type": "feed-landing",
+      "settings": {
+        "eyebrow": "Pricing · Medals",
+        "heading": "<h1><em>Gold Medal Price</em> in India (Custom)</h1>",
+        "subheading": "What does a (custom) gold medal cost in India? Clear pricing for gold-finish sports and event medals — not bullion, but bright gold-plated medals with ribbons and custom centres. By Meru Trophy.",
+        "primary_cta_label": "Get a quote on WhatsApp",
+        "secondary_cta_label": "Browse the catalogue",
+        "secondary_cta_url": "/collections/all",
+        "breadcrumb_label": "gold medal price",
+        "faq_heading": "Frequently asked questions",
+        "schema_type": "Product",
+        "schema_name": "gold medal price",
+        "color_scheme": "scheme-1",
+        "price_heading": "Gold-finish medal price guide",
+        "price_col1": "Medal",
+        "price_col2": "Details",
+        "price_col3": "Price (from)",
+        "price_caption": "Indicative starting prices in India. Final price depends on size, material and engraving. Bulk discounts apply. GST invoice available.",
+        "schema_price_low": "25",
+        "schema_price_high": "180"
+      },
+      "blocks": {
+        "b0": {
+          "type": "quick_answer",
+          "settings": {
+            "label": "Quick answer",
+            "text": "<p>Custom <strong>gold-finish medals in India start around ₹25</strong> per piece in bulk (gold-plated alloy, not solid gold), rising with size, custom centres and die-striking. These are award medals, not bullion. Meru Trophy quotes exact rates on WhatsApp (+91 78922 07252).</p>"
+          }
+        },
+        "b1": {
+          "type": "rich_text",
+          "settings": {
+            "heading": "What you'll pay and why",
+            "text": "<p>When people search \"gold medal price\" for an event, they mean a <strong>gold-finished award medal</strong>, not solid gold bullion. These are gold-plated alloy medals — bright, durable and affordable — starting around ₹25 in bulk, with custom-centre and die-struck options costing more. (Solid-gold bullion pricing is a separate market and not what we supply.)</p>"
+          }
+        },
+        "b2": {
+          "type": "price_row",
+          "settings": {
+            "item": "Standard gold-finish medal",
+            "spec": "Sports & events",
+            "price": "₹25"
+          }
+        },
+        "b3": {
+          "type": "price_row",
+          "settings": {
+            "item": "Custom-centre gold medal",
+            "spec": "Your event/logo",
+            "price": "₹45"
+          }
+        },
+        "b4": {
+          "type": "price_row",
+          "settings": {
+            "item": "Die-struck gold medal",
+            "spec": "Heavier, detailed",
+            "price": "₹120"
+          }
+        },
+        "b5": {
+          "type": "price_row",
+          "settings": {
+            "item": "Premium gold medal",
+            "spec": "Large finisher / award",
+            "price": "₹180"
+          }
+        },
+        "b6": {
+          "type": "faq",
+          "settings": {
+            "question": "Is this a real gold medal?",
+            "answer": "<p>It's a gold-finished (gold-plated alloy) award medal — bright and durable — not solid gold bullion.</p>"
+          }
+        },
+        "b7": {
+          "type": "faq",
+          "settings": {
+            "question": "How much is a gold award medal in India?",
+            "answer": "<p>From about ₹25 each in bulk, more for custom-centre and die-struck pieces.</p>"
+          }
+        },
+        "b8": {
+          "type": "faq",
+          "settings": {
+            "question": "Can it carry our event or logo?",
+            "answer": "<p>Yes — custom centres with your event name, sport or logo.</p>"
+          }
+        },
+        "b9": {
+          "type": "faq",
+          "settings": {
+            "question": "Do they come with ribbons?",
+            "answer": "<p>Yes — custom-colour ribbons included.</p>"
+          }
+        },
+        "b10": {
+          "type": "cta_band",
+          "settings": {
+            "heading": "Want an exact price?",
+            "text": "Send your item, quantity and engraving — we'll send a precise quote, usually within the hour.",
+            "button_label": "Get an exact quote"
+          }
+        }
+      },
+      "block_order": [
+        "b0",
+        "b1",
+        "b2",
+        "b3",
+        "b4",
+        "b5",
+        "b6",
+        "b7",
+        "b8",
+        "b9",
+        "b10"
+      ]
+    }
+  },
+  "order": [
+    "feed"
+  ]
+}

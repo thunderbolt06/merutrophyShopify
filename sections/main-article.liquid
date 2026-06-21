@@ -1,4 +1,5 @@
 {{ 'section-blog-post.css' | asset_url | stylesheet_tag }}
+{{ 'component-article-enhancements.css' | asset_url | stylesheet_tag }}
 
 <article class="article-template">
   {%- for block in section.blocks -%}
@@ -46,24 +47,36 @@
           class="page-width page-width--narrow{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}"
           {{ block.shopify_attributes }}
         >
+          {%- if section.settings.show_breadcrumbs -%}
+            {% render 'article-breadcrumbs', article: article, blog: blog %}
+          {%- endif -%}
           <h1
             class="article-template__title"
           >
             {{ article.title | escape }}
           </h1>
-          {%- if block.settings.blog_show_date -%}
-            <span class="circle-divider caption-with-letter-spacing">
-              {{- article.published_at | time_tag: format: 'date' -}}
-            </span>
-          {%- endif -%}
-          {%- if block.settings.blog_show_author -%}
-            <span class="caption-with-letter-spacing">
-              <span>{{ article.author }}</span>
-            </span>
+          {%- if section.settings.show_meta -%}
+            {% render 'article-meta', article: article, show_date: block.settings.blog_show_date, show_author: true %}
+          {%- else -%}
+            {%- if block.settings.blog_show_date -%}
+              <span class="circle-divider caption-with-letter-spacing">
+                {{- article.published_at | time_tag: format: 'date' -}}
+              </span>
+            {%- endif -%}
+            {%- if block.settings.blog_show_author -%}
+              <span class="caption-with-letter-spacing">
+                <span>{{ article.author }}</span>
+              </span>
+            {%- endif -%}
           {%- endif -%}
         </header>
 
       {%- when 'content' -%}
+        {%- if section.settings.show_toc -%}
+          <div class="page-width page-width--narrow">
+            {% render 'article-toc', min_headings: section.settings.toc_min_headings %}
+          </div>
+        {%- endif -%}
         <div
           class="article-template__content page-width page-width--narrow rte{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
           {{ block.shopify_attributes }}
@@ -81,6 +94,23 @@
         </div>
     {%- endcase -%}
   {%- endfor -%}
+
+  {%- if section.settings.show_author_box or section.settings.show_contact or section.settings.show_related_products or section.settings.show_related_posts -%}
+    <div class="page-width page-width--narrow article-enh{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
+      {%- if section.settings.show_author_box -%}
+        {% render 'article-author-box', article: article, bio: section.settings.author_bio %}
+      {%- endif -%}
+      {%- if section.settings.show_contact -%}
+        {% render 'article-contact-cta', s: section.settings %}
+      {%- endif -%}
+      {%- if section.settings.show_related_products -%}
+        {% render 'article-related-products', article: article, limit: section.settings.related_products_count, default_handle: section.settings.related_products_default %}
+      {%- endif -%}
+      {%- if section.settings.show_related_posts -%}
+        {% render 'article-related-posts', article: article, blog: blog, limit: section.settings.related_posts_count %}
+      {%- endif -%}
+    </div>
+  {%- endif -%}
 
   <div class="article-template__back element-margin-top center{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
     <a href="{{ blog.url }}" class="article-template__link link animate-arrow">
@@ -297,6 +327,145 @@
   "name": "t:sections.main-article.name",
   "tag": "section",
   "class": "section",
+  "settings": [
+    {
+      "type": "header",
+      "content": "Article enhancements"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_breadcrumbs",
+      "label": "Show breadcrumbs",
+      "default": true
+    },
+    {
+      "type": "checkbox",
+      "id": "show_meta",
+      "label": "Show author, date & reading time",
+      "default": true
+    },
+    {
+      "type": "checkbox",
+      "id": "show_toc",
+      "label": "Show table of contents",
+      "default": true
+    },
+    {
+      "type": "range",
+      "id": "toc_min_headings",
+      "min": 2,
+      "max": 8,
+      "step": 1,
+      "label": "Minimum headings to show table of contents",
+      "default": 3
+    },
+    {
+      "type": "header",
+      "content": "Author box"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_author_box",
+      "label": "Show author box",
+      "default": true
+    },
+    {
+      "type": "textarea",
+      "id": "author_bio",
+      "label": "Author bio",
+      "default": "Meru Trophy is a Bangalore-based manufacturer of crystal, metal, acrylic, fibre and wooden trophies, mementos and custom medals. Rated 4.9★ across 440+ Google reviews, we have supplied awards to 150+ brands and ship pan-India."
+    },
+    {
+      "type": "header",
+      "content": "Contact / call to action"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_contact",
+      "label": "Show contact CTA",
+      "default": true
+    },
+    {
+      "type": "text",
+      "id": "contact_title",
+      "label": "Contact title",
+      "default": "Need trophies, medals or mementos?"
+    },
+    {
+      "type": "textarea",
+      "id": "contact_text",
+      "label": "Contact text",
+      "default": "Tell us your event, quantity and deadline — we share a design mockup, price and timeline, usually within an hour. Delivery in ~2 days across Bengaluru and pan-India shipping."
+    },
+    {
+      "type": "text",
+      "id": "contact_whatsapp",
+      "label": "WhatsApp number (digits only, with country code)",
+      "default": "917892207252"
+    },
+    {
+      "type": "text",
+      "id": "contact_phone",
+      "label": "Phone number",
+      "default": "+91 78922 07252"
+    },
+    {
+      "type": "text",
+      "id": "contact_address",
+      "label": "Address",
+      "default": "#273/2, SC Road, 2nd Cross, Gandhinagar, Bangalore 560009"
+    },
+    {
+      "type": "text",
+      "id": "contact_email",
+      "label": "Email (optional)",
+      "default": ""
+    },
+    {
+      "type": "header",
+      "content": "Related products"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_related_products",
+      "label": "Show related products",
+      "default": true
+    },
+    {
+      "type": "range",
+      "id": "related_products_count",
+      "min": 2,
+      "max": 8,
+      "step": 1,
+      "label": "Number of products",
+      "default": 4
+    },
+    {
+      "type": "text",
+      "id": "related_products_default",
+      "label": "Fallback collection handle",
+      "default": "metal-sports-trophies"
+    },
+    {
+      "type": "header",
+      "content": "Related posts"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_related_posts",
+      "label": "Show related posts",
+      "default": true
+    },
+    {
+      "type": "range",
+      "id": "related_posts_count",
+      "min": 2,
+      "max": 6,
+      "step": 1,
+      "label": "Number of posts",
+      "default": 3
+    }
+  ],
   "blocks": [
     {
       "type": "@app"

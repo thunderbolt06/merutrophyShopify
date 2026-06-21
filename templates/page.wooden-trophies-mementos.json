@@ -1,0 +1,160 @@
+{
+  "sections": {
+    "feed": {
+      "type": "feed-landing",
+      "settings": {
+        "eyebrow": "Product · Wood",
+        "heading": "<h1><em>Wooden Trophies & Mementos</em> — Warm, Eco-Friendly Awards</h1>",
+        "subheading": "Engraved wooden plaques, mementos and trophies with a warm, premium, sustainable feel — popular for chief-guest felicitations, retirements, corporate gifts and academic awards. Custom-made in Bangalore.",
+        "primary_cta_label": "Get a quote on WhatsApp",
+        "secondary_cta_label": "Browse the catalogue",
+        "secondary_cta_url": "/collections/all",
+        "breadcrumb_label": "Wooden Trophies & Mementos",
+        "faq_heading": "Frequently asked questions",
+        "schema_type": "Product",
+        "schema_name": "Wooden Mementos",
+        "color_scheme": "scheme-1",
+        "features_heading": "Why order from Meru Trophy",
+        "price_heading": "Wooden memento price guide",
+        "price_col1": "Item",
+        "price_col2": "Details",
+        "price_col3": "Price (from)",
+        "price_caption": "Indicative starting prices in India. Final price depends on size, material and engraving. Bulk discounts apply. GST invoice available.",
+        "schema_price_low": "250",
+        "schema_price_high": "1500"
+      },
+      "blocks": {
+        "b0": {
+          "type": "quick_answer",
+          "settings": {
+            "label": "Quick answer",
+            "text": "<p>Meru Trophy crafts <strong>wooden trophies and mementos</strong> — engraved plaques, photo mementos and awards — from around <strong>₹250</strong>. Warm, eco-friendly and ideal for felicitations, retirements and corporate gifts. Made in Bangalore, delivered pan-India. WhatsApp +91 78922 07252.</p>"
+          }
+        },
+        "b1": {
+          "type": "rich_text",
+          "settings": {
+            "heading": "Warm, premium and sustainable",
+            "text": "<p>Wood brings a warmth that glass and metal can't. Our wooden mementos use quality MDF and natural woods with laser engraving and UV printing, so names, logos, citations and even photos sit beautifully on the surface. They're a favourite for <strong>chief-guest felicitations, retirements, long-service awards and eco-conscious corporate gifting</strong>, and can be paired with metal accents or acrylic layers for a modern look.</p>"
+          }
+        },
+        "b2": {
+          "type": "feature",
+          "settings": {
+            "title": "Warm, natural finish",
+            "text": "Laser-engraved wood with a premium, tactile feel."
+          }
+        },
+        "b3": {
+          "type": "feature",
+          "settings": {
+            "title": "Eco-friendly option",
+            "text": "Sustainable choice for green-minded organisations."
+          }
+        },
+        "b4": {
+          "type": "feature",
+          "settings": {
+            "title": "Photo & logo printing",
+            "text": "UV-printed photos, logos and citations on wood."
+          }
+        },
+        "b5": {
+          "type": "feature",
+          "settings": {
+            "title": "Modern wood designs",
+            "text": "Wood-plus-acrylic and metal-accent contemporary styles."
+          }
+        },
+        "b6": {
+          "type": "price_row",
+          "settings": {
+            "item": "Wooden plaque",
+            "spec": "Felicitation & appreciation",
+            "price": "₹250"
+          }
+        },
+        "b7": {
+          "type": "price_row",
+          "settings": {
+            "item": "Engraved wooden memento",
+            "spec": "Chief guest / speaker token",
+            "price": "₹450"
+          }
+        },
+        "b8": {
+          "type": "price_row",
+          "settings": {
+            "item": "Photo wood memento",
+            "spec": "Personal keepsake with photo",
+            "price": "₹600"
+          }
+        },
+        "b9": {
+          "type": "price_row",
+          "settings": {
+            "item": "Premium wood-acrylic award",
+            "spec": "Modern corporate award",
+            "price": "₹1,500"
+          }
+        },
+        "b10": {
+          "type": "faq",
+          "settings": {
+            "question": "Is wood good for chief-guest mementos?",
+            "answer": "<p>Yes — engraved wooden plaques are one of the most popular and respected choices for felicitating chief guests, speakers and dignitaries.</p>"
+          }
+        },
+        "b11": {
+          "type": "faq",
+          "settings": {
+            "question": "Can you print a photo on wood?",
+            "answer": "<p>Yes — we UV-print photos and logos onto wood alongside engraved text.</p>"
+          }
+        },
+        "b12": {
+          "type": "faq",
+          "settings": {
+            "question": "Are these eco-friendly?",
+            "answer": "<p>Wood is a warmer, more sustainable choice than plastic-based awards, which appeals to many organisations.</p>"
+          }
+        },
+        "b13": {
+          "type": "faq",
+          "settings": {
+            "question": "Do you deliver outside Bangalore?",
+            "answer": "<p>Yes — pan-India from Bangalore, with international shipping available.</p>"
+          }
+        },
+        "b14": {
+          "type": "cta_band",
+          "settings": {
+            "heading": "Need wooden mementos for an event?",
+            "text": "Tell us the occasion, quantity and date — we'll send designs and a quote, usually within the hour.",
+            "button_label": "Get my quote"
+          }
+        }
+      },
+      "block_order": [
+        "b0",
+        "b1",
+        "b2",
+        "b3",
+        "b4",
+        "b5",
+        "b6",
+        "b7",
+        "b8",
+        "b9",
+        "b10",
+        "b11",
+        "b12",
+        "b13",
+        "b14"
+      ]
+    }
+  },
+  "order": [
+    "feed"
+  ]
+}

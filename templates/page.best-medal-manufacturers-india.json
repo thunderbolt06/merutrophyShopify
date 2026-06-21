@@ -1,0 +1,165 @@
+{
+  "sections": {
+    "feed": {
+      "type": "feed-landing",
+      "settings": {
+        "eyebrow": "Compare · Medals",
+        "heading": "<h1><em>Best Medal Manufacturers in India</em></h1>",
+        "subheading": "Who makes the best custom medals in India? The criteria — custom centres, finishes, ribbons, bulk pricing and on-time delivery — and how Meru Trophy compares for events of any size.",
+        "primary_cta_label": "Get a quote on WhatsApp",
+        "secondary_cta_label": "Browse the catalogue",
+        "secondary_cta_url": "/collections/all",
+        "breadcrumb_label": "best medal manufacturers",
+        "faq_heading": "Frequently asked questions",
+        "schema_type": "Service",
+        "schema_name": "best medal manufacturers",
+        "color_scheme": "scheme-1",
+        "features_heading": "The criteria that matter"
+      },
+      "blocks": {
+        "b0": {
+          "type": "quick_answer",
+          "settings": {
+            "label": "Quick answer",
+            "text": "<p>The <strong>best medal manufacturers in India</strong> offer custom centres and finishes, quality ribbons/lanyards, genuine bulk pricing (from ₹25), and reliable on-time delivery. Meru Trophy delivers all of this for events of any size. WhatsApp +91 78922 07252.</p>"
+          }
+        },
+        "b1": {
+          "type": "rich_text",
+          "settings": {
+            "heading": "What to look for",
+            "text": "<p>Medals are a volume game, so the best makers combine real customisation with low per-piece pricing and dependable delivery for big groups. Here's how to compare.</p>"
+          }
+        },
+        "b2": {
+          "type": "feature",
+          "settings": {
+            "title": "Custom centres & finishes",
+            "text": "Your event/logo, in gold/silver/bronze and die-struck options."
+          }
+        },
+        "b3": {
+          "type": "feature",
+          "settings": {
+            "title": "Quality ribbons & lanyards",
+            "text": "Custom-colour ribbons and printed lanyards."
+          }
+        },
+        "b4": {
+          "type": "feature",
+          "settings": {
+            "title": "Genuine bulk pricing",
+            "text": "From ₹25 a piece, falling with quantity."
+          }
+        },
+        "b5": {
+          "type": "feature",
+          "settings": {
+            "title": "Finisher-medal capability",
+            "text": "Large die-struck and spinner medals."
+          }
+        },
+        "b6": {
+          "type": "feature",
+          "settings": {
+            "title": "On-time at volume",
+            "text": "Hundreds to thousands, delivered on schedule."
+          }
+        },
+        "b7": {
+          "type": "feature",
+          "settings": {
+            "title": "GST + PO",
+            "text": "Clean paperwork for schools and corporates."
+          }
+        },
+        "b8": {
+          "type": "rich_text",
+          "settings": {
+            "heading": "How Meru Trophy compares",
+            "text": "<p>Meru Trophy manufactures custom medals with bespoke centres, quality ribbons, bulk pricing from ₹25, finisher-medal capability and reliable pan-India delivery. See our <a href=\"/pages/custom-medals-india\">custom medals</a> and <a href=\"/pages/medal-price-bulk-india\">medal pricing</a>.</p>"
+          }
+        },
+        "b9": {
+          "type": "stat",
+          "settings": {
+            "number": "20+",
+            "label": "Years"
+          }
+        },
+        "b10": {
+          "type": "stat",
+          "settings": {
+            "number": "150+",
+            "label": "Brands served"
+          }
+        },
+        "b11": {
+          "type": "stat",
+          "settings": {
+            "number": "Pan-India",
+            "label": "Delivery + global"
+          }
+        },
+        "b12": {
+          "type": "faq",
+          "settings": {
+            "question": "Who makes the best custom medals in India?",
+            "answer": "<p>A maker offering custom centres, quality ribbons, real bulk pricing and on-time delivery — Meru Trophy fits this.</p>"
+          }
+        },
+        "b13": {
+          "type": "faq",
+          "settings": {
+            "question": "How cheap are medals in bulk?",
+            "answer": "<p>From ₹25 a piece, lower at higher volumes.</p>"
+          }
+        },
+        "b14": {
+          "type": "faq",
+          "settings": {
+            "question": "Can you make marathon finisher medals?",
+            "answer": "<p>Yes — large die-struck and spinner finisher medals.</p>"
+          }
+        },
+        "b15": {
+          "type": "faq",
+          "settings": {
+            "question": "Do medals include ribbons?",
+            "answer": "<p>Yes — custom-colour ribbons included; lanyards on request.</p>"
+          }
+        },
+        "b16": {
+          "type": "cta_band",
+          "settings": {
+            "heading": "Comparing suppliers?",
+            "text": "Send your event and quantity — we'll show relevant past work and an honest quote so you can compare like-for-like.",
+            "button_label": "Talk to Meru Trophy"
+          }
+        }
+      },
+      "block_order": [
+        "b0",
+        "b1",
+        "b2",
+        "b3",
+        "b4",
+        "b5",
+        "b6",
+        "b7",
+        "b8",
+        "b9",
+        "b10",
+        "b11",
+        "b12",
+        "b13",
+        "b14",
+        "b15",
+        "b16"
+      ]
+    }
+  },
+  "order": [
+    "feed"
+  ]
+}

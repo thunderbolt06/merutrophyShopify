@@ -1,0 +1,141 @@
+{
+  "sections": {
+    "feed": {
+      "type": "feed-landing",
+      "settings": {
+        "eyebrow": "Audience · Diaspora",
+        "heading": "<h1><em>NRI & Diaspora Event Trophies</em> from India</h1>",
+        "subheading": "Indian-crafted trophies, medals and mementos for diaspora associations, cultural galas, cricket leagues and temple events abroad — custom-engraved and shipped worldwide from Bangalore. By Meru Trophy.",
+        "primary_cta_label": "Get a quote on WhatsApp",
+        "secondary_cta_label": "Browse the catalogue",
+        "secondary_cta_url": "/collections/all",
+        "breadcrumb_label": "NRI & Diaspora Event Trophies",
+        "faq_heading": "Frequently asked questions",
+        "schema_type": "Service",
+        "schema_name": "NRI & Diaspora Event Trophies",
+        "color_scheme": "scheme-1",
+        "features_heading": "Why we're a fit"
+      },
+      "blocks": {
+        "b0": {
+          "type": "quick_answer",
+          "settings": {
+            "label": "Quick answer",
+            "text": "<p>Meru Trophy makes <strong>custom trophies, medals and mementos for NRI and diaspora events</strong> — cultural galas, cricket leagues, temple and community awards — engraved (incl. Indian-language scripts) and shipped worldwide from Bangalore at great value. WhatsApp +91 78922 07252. See our <a href=\"/pages/feeds\">feeds hub</a> and country pages.</p>"
+          }
+        },
+        "b1": {
+          "type": "rich_text",
+          "settings": {
+            "heading": "Awards built for NRI & diaspora events",
+            "text": "<p>Diaspora associations, cricket leagues, temple trusts and cultural groups abroad order Indian-crafted awards for Diwali galas, Navratri competitions, community felicitations and tournaments. We offer <strong>significantly better value than local suppliers for handcrafted crystal and metal awards</strong>, custom engraving in English and Indian-language scripts, and worldwide shipping with customs documentation.</p>"
+          }
+        },
+        "b2": {
+          "type": "feature",
+          "settings": {
+            "title": "Great value from India",
+            "text": "Handcrafted awards well below overseas retail."
+          }
+        },
+        "b3": {
+          "type": "feature",
+          "settings": {
+            "title": "Indian-language engraving",
+            "text": "English, Hindi, Gujarati, Tamil, Telugu and more."
+          }
+        },
+        "b4": {
+          "type": "feature",
+          "settings": {
+            "title": "All event types",
+            "text": "Cultural galas, cricket leagues, temple & community awards."
+          }
+        },
+        "b5": {
+          "type": "feature",
+          "settings": {
+            "title": "Worldwide shipping",
+            "text": "Customs documentation included."
+          }
+        },
+        "b6": {
+          "type": "stat",
+          "settings": {
+            "number": "20+",
+            "label": "Years"
+          }
+        },
+        "b7": {
+          "type": "stat",
+          "settings": {
+            "number": "150+",
+            "label": "Brands served"
+          }
+        },
+        "b8": {
+          "type": "stat",
+          "settings": {
+            "number": "50–5,000+",
+            "label": "Pieces per order"
+          }
+        },
+        "b9": {
+          "type": "faq",
+          "settings": {
+            "question": "Do you ship outside India?",
+            "answer": "<p>Yes — worldwide, with commercial invoice and customs documentation.</p>"
+          }
+        },
+        "b10": {
+          "type": "faq",
+          "settings": {
+            "question": "Can you engrave in Indian languages?",
+            "answer": "<p>Yes — English plus Hindi, Gujarati, Tamil, Telugu, Malayalam, Punjabi and more.</p>"
+          }
+        },
+        "b11": {
+          "type": "faq",
+          "settings": {
+            "question": "Is it cheaper than buying locally abroad?",
+            "answer": "<p>Usually yes — Indian-crafted crystal and metal awards offer strong value even after shipping.</p>"
+          }
+        },
+        "b12": {
+          "type": "faq",
+          "settings": {
+            "question": "How do we pay from abroad?",
+            "answer": "<p>Bank transfer (SWIFT), Wise and other options — ask on WhatsApp.</p>"
+          }
+        },
+        "b13": {
+          "type": "cta_band",
+          "settings": {
+            "heading": "Need awards for NRI & diaspora events?",
+            "text": "Tell us your requirement and date — we'll share relevant past work and a quote, usually within the hour.",
+            "button_label": "Get a quote"
+          }
+        }
+      },
+      "block_order": [
+        "b0",
+        "b1",
+        "b2",
+        "b3",
+        "b4",
+        "b5",
+        "b6",
+        "b7",
+        "b8",
+        "b9",
+        "b10",
+        "b11",
+        "b12",
+        "b13"
+      ]
+    }
+  },
+  "order": [
+    "feed"
+  ]
+}

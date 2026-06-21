@@ -1,0 +1,74 @@
+{% comment %}
+  Auto table of contents, built from the H2/H3 headings inside the article
+  content. Hides itself if there are fewer than `min_headings` headings.
+  Usage: {% render 'article-toc', min_headings: 3 %}
+{% endcomment %}
+{%- assign min_headings = min_headings | default: 3 -%}
+<nav class="article-toc" data-article-toc data-min-headings="{{ min_headings }}" hidden aria-label="Table of contents">
+  <p class="article-toc__title">In this guide</p>
+  <ol class="article-toc__list" data-article-toc-list></ol>
+</nav>
+<script>
+  (function () {
+    function buildTOC() {
+    var nav = document.querySelector('[data-article-toc]');
+    if (!nav) return;
+    var content = document.querySelector('.article-template__content');
+    if (!content) return;
+    var min = parseInt(nav.getAttribute('data-min-headings'), 10) || 3;
+    var list = nav.querySelector('[data-article-toc-list]');
+    var headings = content.querySelectorAll('h2, h3');
+    if (headings.length < min) return;
+
+    var used = {};
+    function slugify(text) {
+      var base = (text || 'section').toLowerCase().trim()
+        .replace(/[^a-z0-9\s-]/g, '').replace(/\s+/g, '-').replace(/-+/g, '-') || 'section';
+      var id = base, i = 2;
+      while (used[id]) { id = base + '-' + i; i++; }
+      used[id] = true;
+      return id;
+    }
+
+    var items = [];
+    headings.forEach(function (h) {
+      if (!h.id) h.id = slugify(h.textContent);
+      var li = document.createElement('li');
+      li.className = h.tagName === 'H3' ? 'toc--h3' : 'toc--h2';
+      var a = document.createElement('a');
+      a.href = '#' + h.id;
+      a.textContent = h.textContent;
+      a.addEventListener('click', function (e) {
+        e.preventDefault();
+        var target = document.getElementById(h.id);
+        if (target) {
+          window.scrollTo({ top: target.getBoundingClientRect().top + window.pageYOffset - 90, behavior: 'smooth' });
+          history.replaceState(null, '', '#' + h.id);
+        }
+      });
+      li.appendChild(a);
+      list.appendChild(li);
+      items.push({ li: li, h: h });
+    });
+    nav.hidden = false;
+
+    if ('IntersectionObserver' in window) {
+      var observer = new IntersectionObserver(function (entries) {
+        entries.forEach(function (entry) {
+          if (entry.isIntersecting) {
+            items.forEach(function (it) {
+              it.li.classList.toggle('is-active', it.h === entry.target);
+            });
+          }
+        });
+      }, { rootMargin: '-80px 0px -70% 0px', threshold: 0 });
+      headings.forEach(function (h) { observer.observe(h); });
+    }
+    }
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', buildTOC);
+    } else {
+      buildTOC();
+    }
+  })();
+</script>

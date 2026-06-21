@@ -1,0 +1,168 @@
+{
+  "sections": {
+    "feed": {
+      "type": "feed-landing",
+      "settings": {
+        "eyebrow": "Product · Crystal",
+        "heading": "<h1><em>Crystal Awards</em> for Corporate Recognition</h1>",
+        "subheading": "Premium K9 optical-crystal awards with sub-surface 3D logo engraving for corporate recognition, leadership and milestone events — co-ordinated sets, GST-invoiced, delivered across India.",
+        "primary_cta_label": "Get a quote on WhatsApp",
+        "secondary_cta_label": "Browse the catalogue",
+        "secondary_cta_url": "/collections/crystal-trophies",
+        "breadcrumb_label": "Crystal Awards for Corporates",
+        "faq_heading": "Frequently asked questions",
+        "schema_type": "Product",
+        "schema_name": "Crystal Corporate Awards",
+        "color_scheme": "scheme-1",
+        "features_heading": "Why order from Meru Trophy",
+        "price_heading": "Crystal award price guide",
+        "price_col1": "Item",
+        "price_col2": "Details",
+        "price_col3": "Price (from)",
+        "price_caption": "Indicative starting prices in India. Final price depends on size, material and engraving. Bulk discounts apply. GST invoice available.",
+        "schema_price_low": "750",
+        "schema_price_high": "5000"
+      },
+      "blocks": {
+        "b0": {
+          "type": "quick_answer",
+          "settings": {
+            "label": "Quick answer",
+            "text": "<p>Meru Trophy makes <strong>premium crystal corporate awards</strong> with sub-surface 3D logo engraving from around <strong>₹750</strong> — for recognition, leadership and milestones. Co-ordinated sets, GST-invoiced, delivered pan-India. WhatsApp +91 78922 07252.</p>"
+          }
+        },
+        "b1": {
+          "type": "rich_text",
+          "settings": {
+            "heading": "Crystal that elevates the moment",
+            "text": "<p>For senior recognition and milestone events, crystal sets the right tone. We use <strong>K9 optical crystal</strong> with 2D and sub-surface 3D engraving, so your logo appears to float inside the award. Co-ordinated sets keep every category on-brand, and gift boxes make the stage handover feel premium. For a full ceremony, pair with our <a href=\"/pages/corporate-annual-awards-night-package\">awards-night package</a>.</p>"
+          }
+        },
+        "b2": {
+          "type": "feature",
+          "settings": {
+            "title": "K9 optical crystal",
+            "text": "Clarity and weight executives expect."
+          }
+        },
+        "b3": {
+          "type": "feature",
+          "settings": {
+            "title": "3D logo engraving",
+            "text": "Sub-surface logos that catch the light."
+          }
+        },
+        "b4": {
+          "type": "feature",
+          "settings": {
+            "title": "Co-ordinated sets",
+            "text": "Consistent design across every category."
+          }
+        },
+        "b5": {
+          "type": "feature",
+          "settings": {
+            "title": "Gift-boxed",
+            "text": "Premium presentation boxes and name tags."
+          }
+        },
+        "b6": {
+          "type": "price_row",
+          "settings": {
+            "item": "Standard crystal award",
+            "spec": "Recognition & milestones",
+            "price": "₹750"
+          }
+        },
+        "b7": {
+          "type": "price_row",
+          "settings": {
+            "item": "Premium crystal",
+            "spec": "Leadership & top performer",
+            "price": "₹2,500"
+          }
+        },
+        "b8": {
+          "type": "price_row",
+          "settings": {
+            "item": "Executive statement",
+            "spec": "VIP / flagship award",
+            "price": "₹5,000"
+          }
+        },
+        "b9": {
+          "type": "price_row",
+          "settings": {
+            "item": "Co-ordinated set",
+            "spec": "Full awards-night order",
+            "price": "Custom quote"
+          }
+        },
+        "b10": {
+          "type": "faq",
+          "settings": {
+            "question": "Can you engrave our logo inside the crystal?",
+            "answer": "<p>Yes — sub-surface 3D engraving places your logo inside the crystal. Send a vector file for the sharpest result.</p>"
+          }
+        },
+        "b11": {
+          "type": "faq",
+          "settings": {
+            "question": "Do you offer gift boxes?",
+            "answer": "<p>Yes — velvet/rigid presentation boxes and printed name tags for a polished handover.</p>"
+          }
+        },
+        "b12": {
+          "type": "faq",
+          "settings": {
+            "question": "Do you provide GST invoices?",
+            "answer": "<p>Yes — GST invoices and PO handling for procurement.</p>"
+          }
+        },
+        "b13": {
+          "type": "faq",
+          "settings": {
+            "question": "Do you deliver outside Bangalore?",
+            "answer": "<p>Yes — pan-India, plus international shipping for overseas offices.</p>"
+          }
+        },
+        "b14": {
+          "type": "related_collection",
+          "settings": {
+            "heading": "Popular crystal corporate awards",
+            "collection": "crystal-trophies"
+          }
+        },
+        "b15": {
+          "type": "cta_band",
+          "settings": {
+            "heading": "Need crystal corporate awards for an event?",
+            "text": "Tell us the occasion, quantity and date — we'll send designs and a quote, usually within the hour.",
+            "button_label": "Get my quote"
+          }
+        }
+      },
+      "block_order": [
+        "b0",
+        "b1",
+        "b2",
+        "b3",
+        "b4",
+        "b5",
+        "b6",
+        "b7",
+        "b8",
+        "b9",
+        "b10",
+        "b11",
+        "b12",
+        "b13",
+        "b14",
+        "b15"
+      ]
+    }
+  },
+  "order": [
+    "feed"
+  ]
+}

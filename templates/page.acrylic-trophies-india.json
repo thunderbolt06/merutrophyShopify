@@ -1,0 +1,168 @@
+{
+  "sections": {
+    "feed": {
+      "type": "feed-landing",
+      "settings": {
+        "eyebrow": "Product · Acrylic",
+        "heading": "<h1>Custom <em>Acrylic Trophies</em> & Awards in India</h1>",
+        "subheading": "Lightweight, crystal-clear acrylic trophies with full-colour UV printing and laser engraving — ideal for corporate events, sports days and high-volume orders shipped anywhere in India.",
+        "primary_cta_label": "Get a quote on WhatsApp",
+        "secondary_cta_label": "Browse the catalogue",
+        "secondary_cta_url": "/collections/acrylic-trophies",
+        "breadcrumb_label": "Acrylic Trophies India",
+        "faq_heading": "Frequently asked questions",
+        "schema_type": "Product",
+        "schema_name": "Acrylic Trophies",
+        "color_scheme": "scheme-1",
+        "features_heading": "Why order from Meru Trophy",
+        "price_heading": "Price guide",
+        "price_col1": "Item",
+        "price_col2": "Details",
+        "price_col3": "Price (from)",
+        "price_caption": "Indicative starting prices in India. Final price depends on size, material and engraving. Bulk discounts apply. GST invoice available.",
+        "schema_price_low": "250",
+        "schema_price_high": "2500"
+      },
+      "blocks": {
+        "b0": {
+          "type": "quick_answer",
+          "settings": {
+            "label": "Quick answer",
+            "text": "<p>Meru Trophy makes <strong>custom acrylic trophies and awards</strong> with full-colour UV printing and engraving, starting around <strong>₹250</strong>. Acrylic is lighter and more affordable than crystal — perfect for bulk orders and shipped events. Made in Bangalore, delivered pan-India. WhatsApp +91 78922 07252.</p>"
+          }
+        },
+        "b1": {
+          "type": "rich_text",
+          "settings": {
+            "heading": "Clear, light and budget-friendly",
+            "text": "<p>Acrylic gives you the clean, transparent look of glass at a fraction of the weight and cost. It takes <strong>full-colour UV printing</strong> beautifully, so logos, photos and gradients reproduce vividly — and it's shatter-resistant, which makes it the safest choice for shipping large quantities. Choose from shapes, colours, stands and thicknesses, all custom-cut and engraved with names, logos and dates.</p>"
+          }
+        },
+        "b2": {
+          "type": "feature",
+          "settings": {
+            "title": "Full-colour UV printing",
+            "text": "Vivid logos, photos and gradients printed directly onto the acrylic."
+          }
+        },
+        "b3": {
+          "type": "feature",
+          "settings": {
+            "title": "Lightweight & shatter-resistant",
+            "text": "Safer and cheaper to ship in bulk than glass or crystal."
+          }
+        },
+        "b4": {
+          "type": "feature",
+          "settings": {
+            "title": "Custom shapes & colours",
+            "text": "Cut to any shape, with clear, frosted or coloured acrylic options."
+          }
+        },
+        "b5": {
+          "type": "feature",
+          "settings": {
+            "title": "Free engraving",
+            "text": "Names, titles and dates engraved at no extra design charge."
+          }
+        },
+        "b6": {
+          "type": "price_row",
+          "settings": {
+            "item": "Compact acrylic award",
+            "spec": "Desk-size recognition",
+            "price": "₹250"
+          }
+        },
+        "b7": {
+          "type": "price_row",
+          "settings": {
+            "item": "Standard acrylic trophy",
+            "spec": "Corporate & sports events",
+            "price": "₹450"
+          }
+        },
+        "b8": {
+          "type": "price_row",
+          "settings": {
+            "item": "Premium printed acrylic",
+            "spec": "Full-colour logo/photo piece",
+            "price": "₹900"
+          }
+        },
+        "b9": {
+          "type": "price_row",
+          "settings": {
+            "item": "Large custom acrylic",
+            "spec": "Statement / multi-layer design",
+            "price": "₹2,500"
+          }
+        },
+        "b10": {
+          "type": "faq",
+          "settings": {
+            "question": "Acrylic vs crystal — which is cheaper?",
+            "answer": "<p>Acrylic is noticeably cheaper and lighter; crystal looks more premium. For high-volume or shipped events, acrylic wins on cost and safety; for senior/VIP awards, crystal feels more prestigious.</p>"
+          }
+        },
+        "b11": {
+          "type": "faq",
+          "settings": {
+            "question": "Can you print our logo in full colour?",
+            "answer": "<p>Yes — UV printing reproduces full-colour logos, photos and gradients directly on the acrylic, plus optional engraving.</p>"
+          }
+        },
+        "b12": {
+          "type": "faq",
+          "settings": {
+            "question": "Is there a minimum order?",
+            "answer": "<p>No minimum. Per-piece pricing drops from 25 units and again at 100+.</p>"
+          }
+        },
+        "b13": {
+          "type": "faq",
+          "settings": {
+            "question": "Do you deliver outside Bangalore?",
+            "answer": "<p>Yes — pan-India from our Bangalore workshop, with international shipping available.</p>"
+          }
+        },
+        "b14": {
+          "type": "related_collection",
+          "settings": {
+            "heading": "Popular acrylic trophies",
+            "collection": "acrylic-trophies"
+          }
+        },
+        "b15": {
+          "type": "cta_band",
+          "settings": {
+            "heading": "Need acrylic trophies for an event?",
+            "text": "Tell us the occasion, quantity and date — we'll send designs and a quote, usually within the hour.",
+            "button_label": "Get my quote"
+          }
+        }
+      },
+      "block_order": [
+        "b0",
+        "b1",
+        "b2",
+        "b3",
+        "b4",
+        "b5",
+        "b6",
+        "b7",
+        "b8",
+        "b9",
+        "b10",
+        "b11",
+        "b12",
+        "b13",
+        "b14",
+        "b15"
+      ]
+    }
+  },
+  "order": [
+    "feed"
+  ]
+}

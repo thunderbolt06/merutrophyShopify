@@ -1,0 +1,30 @@
+{% comment %}
+  Contact / CTA block shown after the article body.
+  Settings come from the section (with sensible defaults for Meru Trophy).
+  Usage: {% render 'article-contact-cta', s: section.settings %}
+{% endcomment %}
+{%- liquid
+  assign title = s.contact_title | default: 'Need trophies, medals or mementos?'
+  assign text = s.contact_text | default: 'Tell us your event, quantity and deadline — we share a design mockup, price and timeline, usually within an hour. Delivery in ~2 days across Bengaluru and pan-India shipping.'
+  assign wa = s.contact_whatsapp | default: '917892207252'
+  assign phone = s.contact_phone | default: '+91 78922 07252'
+  assign address = s.contact_address | default: '#273/2, SC Road, 2nd Cross, Gandhinagar, Bangalore 560009'
+  assign email = s.contact_email | default: ''
+  assign wa_msg = 'Hi Meru Trophy, I read your blog and would like a quote.' | url_encode
+-%}
+<aside class="article-contact" aria-label="Contact Meru Trophy">
+  <h3 class="article-contact__title">{{ title | escape }}</h3>
+  <p class="article-contact__text">{{ text | escape }}</p>
+  <div class="article-contact__actions">
+    <a class="article-contact__btn article-contact__btn--wa" href="https://wa.me/{{ wa }}?text={{ wa_msg }}" target="_blank" rel="noopener">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="18" height="18" fill="currentColor" aria-hidden="true"><path d="M16 3C9.373 3 4 8.373 4 15c0 2.385.668 4.61 1.832 6.502L4 29l7.701-1.814A11.94 11.94 0 0016 27c6.627 0 12-5.373 12-12S22.627 3 16 3zm0 22a9.95 9.95 0 01-5.078-1.393l-.364-.217-4.573 1.077 1.099-4.461-.237-.376A9.953 9.953 0 016 15c0-5.514 4.486-10 10-10s10 4.486 10 10-4.486 10-10 10z"/></svg>
+      WhatsApp us
+    </a>
+    <a class="article-contact__btn article-contact__btn--primary" href="tel:{{ phone | remove: ' ' }}">Call {{ phone | escape }}</a>
+    <a class="article-contact__btn" href="{{ routes.all_products_collection_url }}">Browse the catalog</a>
+  </div>
+  <div class="article-contact__details">
+    {%- if address != blank -%}<span>📍 <a href="https://maps.google.com/?q={{ address | url_encode }}" target="_blank" rel="noopener">{{ address | escape }}</a></span>{%- endif -%}
+    {%- if email != blank -%}<span>✉️ <a href="mailto:{{ email }}">{{ email }}</a></span>{%- endif -%}
+  </div>
+</aside>

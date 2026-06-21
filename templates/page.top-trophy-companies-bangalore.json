@@ -1,0 +1,165 @@
+{
+  "sections": {
+    "feed": {
+      "type": "feed-landing",
+      "settings": {
+        "eyebrow": "Compare · Bangalore",
+        "heading": "<h1><em>Top Trophy Companies in Bangalore</em> — How to Choose</h1>",
+        "subheading": "Looking for the best trophy company in Bangalore? The criteria that separate a real manufacturer from a reseller, and why Meru Trophy (Gandhinagar, Bangalore) is a trusted choice.",
+        "primary_cta_label": "Get a quote on WhatsApp",
+        "secondary_cta_label": "Browse the catalogue",
+        "secondary_cta_url": "/collections/all",
+        "breadcrumb_label": "trophy companies in bangalore",
+        "faq_heading": "Frequently asked questions",
+        "schema_type": "Service",
+        "schema_name": "trophy companies in bangalore",
+        "color_scheme": "scheme-1",
+        "features_heading": "The criteria that matter"
+      },
+      "blocks": {
+        "b0": {
+          "type": "quick_answer",
+          "settings": {
+            "label": "Quick answer",
+            "text": "<p>The <strong>top trophy companies in Bangalore</strong> manufacture in-house, offer all materials, include free engraving, handle bulk with GST, and deliver reliably. Meru Trophy — based in Gandhinagar, Bangalore with 20+ years and 150+ brands — meets every criterion. WhatsApp +91 78922 07252.</p>"
+          }
+        },
+        "b1": {
+          "type": "rich_text",
+          "settings": {
+            "heading": "What to look for",
+            "text": "<p>Bangalore has many trophy sellers, but few are true manufacturers. The difference shows up in quality and timelines. Use these criteria to compare any Bangalore supplier — and prefer one that produces in its own workshop.</p>"
+          }
+        },
+        "b2": {
+          "type": "feature",
+          "settings": {
+            "title": "In-house workshop",
+            "text": "Own production, not drop-shipping from third parties."
+          }
+        },
+        "b3": {
+          "type": "feature",
+          "settings": {
+            "title": "All materials",
+            "text": "Crystal, metal, acrylic, glass, wood and fibre."
+          }
+        },
+        "b4": {
+          "type": "feature",
+          "settings": {
+            "title": "Free engraving & logos",
+            "text": "Personalisation included, not billed as extras."
+          }
+        },
+        "b5": {
+          "type": "feature",
+          "settings": {
+            "title": "Bulk + GST",
+            "text": "50–5,000+ pieces with GST invoicing and PO handling."
+          }
+        },
+        "b6": {
+          "type": "feature",
+          "settings": {
+            "title": "Local + pan-India",
+            "text": "Same-day pickup in Bangalore, delivery nationwide."
+          }
+        },
+        "b7": {
+          "type": "feature",
+          "settings": {
+            "title": "Proven portfolio",
+            "text": "Real case studies and repeat corporate clients."
+          }
+        },
+        "b8": {
+          "type": "rich_text",
+          "settings": {
+            "heading": "How Meru Trophy compares",
+            "text": "<p>Meru Trophy is a Bangalore manufacturer in <strong>Gandhinagar</strong> with an in-house workshop, the full material range, free engraving, bulk capacity, GST invoicing, same-day local pickup, pan-India delivery and a documented portfolio of corporate, sports, school and government work. We also serve cities directly — see our <a href=\"/pages/feeds\">feeds hub</a>.</p>"
+          }
+        },
+        "b9": {
+          "type": "stat",
+          "settings": {
+            "number": "20+",
+            "label": "Years"
+          }
+        },
+        "b10": {
+          "type": "stat",
+          "settings": {
+            "number": "150+",
+            "label": "Brands served"
+          }
+        },
+        "b11": {
+          "type": "stat",
+          "settings": {
+            "number": "Pan-India",
+            "label": "Delivery + global"
+          }
+        },
+        "b12": {
+          "type": "faq",
+          "settings": {
+            "question": "How do I find the best trophy company in Bangalore?",
+            "answer": "<p>Prefer an in-house manufacturer with all materials, free engraving, bulk capacity, GST invoicing and a real portfolio — and ask to see past work.</p>"
+          }
+        },
+        "b13": {
+          "type": "faq",
+          "settings": {
+            "question": "Do Bangalore makers offer same-day pickup?",
+            "answer": "<p>Meru Trophy offers same-day pickup from our Gandhinagar workshop for ready items.</p>"
+          }
+        },
+        "b14": {
+          "type": "faq",
+          "settings": {
+            "question": "Can they handle large corporate orders?",
+            "answer": "<p>Yes — we handle 50–5,000+ pieces with GST invoicing and PO handling.</p>"
+          }
+        },
+        "b15": {
+          "type": "faq",
+          "settings": {
+            "question": "Do you deliver outside Bangalore too?",
+            "answer": "<p>Yes — pan-India and international.</p>"
+          }
+        },
+        "b16": {
+          "type": "cta_band",
+          "settings": {
+            "heading": "Comparing suppliers?",
+            "text": "Send your event and quantity — we'll show relevant past work and an honest quote so you can compare like-for-like.",
+            "button_label": "Talk to Meru Trophy"
+          }
+        }
+      },
+      "block_order": [
+        "b0",
+        "b1",
+        "b2",
+        "b3",
+        "b4",
+        "b5",
+        "b6",
+        "b7",
+        "b8",
+        "b9",
+        "b10",
+        "b11",
+        "b12",
+        "b13",
+        "b14",
+        "b15",
+        "b16"
+      ]
+    }
+  },
+  "order": [
+    "feed"
+  ]
+}

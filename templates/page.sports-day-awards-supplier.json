@@ -1,0 +1,160 @@
+{
+  "sections": {
+    "feed": {
+      "type": "feed-landing",
+      "settings": {
+        "eyebrow": "Occasion · Sports Day",
+        "heading": "<h1><em>Sports Day Awards</em> — Trophies & Medals</h1>",
+        "subheading": "Trophies and medals for school and corporate sports days — gold/silver/bronze across every event, champion trophies and house awards, branded and delivered on time. By Meru Trophy.",
+        "primary_cta_label": "Get a quote on WhatsApp",
+        "secondary_cta_label": "Browse the catalogue",
+        "secondary_cta_url": "/collections/all",
+        "breadcrumb_label": "Sports Day Awards",
+        "faq_heading": "Frequently asked questions",
+        "schema_type": "Product",
+        "schema_name": "Sports Day Awards",
+        "color_scheme": "scheme-1",
+        "features_heading": "Popular choices",
+        "price_heading": "Sports day price guide",
+        "price_col1": "Item",
+        "price_col2": "Details",
+        "price_col3": "Price (from)",
+        "price_caption": "Indicative starting prices in India. Final price depends on size, material and engraving. Bulk discounts apply. GST invoice available.",
+        "schema_price_low": "25",
+        "schema_price_high": "1000"
+      },
+      "blocks": {
+        "b0": {
+          "type": "quick_answer",
+          "settings": {
+            "label": "Quick answer",
+            "text": "<p>For a <strong>sports day</strong>, you need bulk medals across events plus champion and house trophies — gold/silver/bronze from ₹25 a medal, branded with your crest/logo. Meru Trophy supplies the full set on one GST invoice. WhatsApp +91 78922 07252. See our <a href=\"/pages/school-sports-day-awards-bundle\">sports-day bundle</a>.</p>"
+          }
+        },
+        "b1": {
+          "type": "rich_text",
+          "settings": {
+            "heading": "The right award for the moment",
+            "text": "<p>Sports days run on volume — many events, age groups and a champion at the end. We supply <strong>bulk gold/silver/bronze medals plus overall-champion and house trophies</strong>, branded with your crest or logo, delivered on time and on one GST invoice. Bundle it via our <a href=\"/pages/school-sports-day-awards-bundle\">sports-day package</a>.</p>"
+          }
+        },
+        "b2": {
+          "type": "feature",
+          "settings": {
+            "title": "Medals for every event",
+            "text": "Gold/silver/bronze across all events and ages."
+          }
+        },
+        "b3": {
+          "type": "feature",
+          "settings": {
+            "title": "Champion & house trophies",
+            "text": "Overall winners and house competition awards."
+          }
+        },
+        "b4": {
+          "type": "feature",
+          "settings": {
+            "title": "Crest/logo branding",
+            "text": "Custom centres and engraving."
+          }
+        },
+        "b5": {
+          "type": "feature",
+          "settings": {
+            "title": "On-time delivery",
+            "text": "Planned dispatch before the day."
+          }
+        },
+        "b6": {
+          "type": "price_row",
+          "settings": {
+            "item": "Sports-day medal",
+            "spec": "Per-event placements",
+            "price": "₹25"
+          }
+        },
+        "b7": {
+          "type": "price_row",
+          "settings": {
+            "item": "House/champion trophy",
+            "spec": "Overall winners",
+            "price": "₹250"
+          }
+        },
+        "b8": {
+          "type": "price_row",
+          "settings": {
+            "item": "Premium champion cup",
+            "spec": "Headline trophy",
+            "price": "₹1,000"
+          }
+        },
+        "b9": {
+          "type": "price_row",
+          "settings": {
+            "item": "Full sports-day set",
+            "spec": "Medals + trophies",
+            "price": "Custom quote"
+          }
+        },
+        "b10": {
+          "type": "faq",
+          "settings": {
+            "question": "What awards do I need for a sports day?",
+            "answer": "<p>Gold/silver/bronze medals per event/age group, plus champion and house trophies. We'll help calculate quantities.</p>"
+          }
+        },
+        "b11": {
+          "type": "faq",
+          "settings": {
+            "question": "Can you brand with our crest?",
+            "answer": "<p>Yes — medal centres and trophies carry your crest/logo.</p>"
+          }
+        },
+        "b12": {
+          "type": "faq",
+          "settings": {
+            "question": "Can you bundle everything?",
+            "answer": "<p>Yes — see our <a href=\"/pages/school-sports-day-awards-bundle\">sports-day bundle</a>.</p>"
+          }
+        },
+        "b13": {
+          "type": "faq",
+          "settings": {
+            "question": "Will it arrive on time?",
+            "answer": "<p>Yes — order 2–3 weeks ahead; we plan to your date.</p>"
+          }
+        },
+        "b14": {
+          "type": "cta_band",
+          "settings": {
+            "heading": "Planning a sports day?",
+            "text": "Tell us the occasion, recipient and date — we'll share designs and a quote, usually within the hour.",
+            "button_label": "Get a quote"
+          }
+        }
+      },
+      "block_order": [
+        "b0",
+        "b1",
+        "b2",
+        "b3",
+        "b4",
+        "b5",
+        "b6",
+        "b7",
+        "b8",
+        "b9",
+        "b10",
+        "b11",
+        "b12",
+        "b13",
+        "b14"
+      ]
+    }
+  },
+  "order": [
+    "feed"
+  ]
+}

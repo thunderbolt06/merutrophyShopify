@@ -1,0 +1,150 @@
+{
+  "sections": {
+    "feed": {
+      "type": "feed-landing",
+      "settings": {
+        "eyebrow": "Service · Custom",
+        "heading": "<h1><em>Design Your Own Trophy</em> Online</h1>",
+        "subheading": "Tell us your idea and we'll design it — material, shape, engraving, logo and packaging — with a digital proof before production. Custom trophies, mementos and awards delivered across India.",
+        "primary_cta_label": "Get a quote on WhatsApp",
+        "secondary_cta_label": "See customisation options",
+        "secondary_cta_url": "/pages/trophy-customization-options",
+        "breadcrumb_label": "design your own trophy online",
+        "faq_heading": "Frequently asked questions",
+        "schema_type": "Service",
+        "schema_name": "design your own trophy online",
+        "color_scheme": "scheme-1",
+        "features_heading": "Why teams choose Meru Trophy",
+        "steps_heading": "The process, step by step"
+      },
+      "blocks": {
+        "b0": {
+          "type": "quick_answer",
+          "settings": {
+            "label": "Quick answer",
+            "text": "<p>With Meru Trophy you can <strong>design your own trophy online</strong>: describe your idea (material, shape, engraving, logo) on WhatsApp and we send a <strong>digital proof</strong> to approve before we make it. Delivered pan-India. WhatsApp +91 78922 07252.</p>"
+          }
+        },
+        "b1": {
+          "type": "rich_text",
+          "settings": {
+            "heading": "How it works",
+            "text": "<p>You don't need design software — just an idea. Tell us the occasion, the look you want and any references; we turn it into a finished design, place your names and logo, and send a <strong>digital mockup</strong> for approval. Tweak it until it's right, then we craft it in our Bangalore workshop and deliver. It's a fully custom trophy, designed online, with no design charge.</p>"
+          }
+        },
+        "b2": {
+          "type": "feature",
+          "settings": {
+            "title": "Just describe it",
+            "text": "No software needed — share your idea in chat."
+          }
+        },
+        "b3": {
+          "type": "feature",
+          "settings": {
+            "title": "We design it",
+            "text": "Material, shape, engraving and logo handled for you."
+          }
+        },
+        "b4": {
+          "type": "feature",
+          "settings": {
+            "title": "Digital proof",
+            "text": "Approve a mockup before anything is produced."
+          }
+        },
+        "b5": {
+          "type": "feature",
+          "settings": {
+            "title": "No design charge",
+            "text": "Design is included with your order."
+          }
+        },
+        "b6": {
+          "type": "step",
+          "settings": {
+            "title": "Tell us what you need",
+            "text": "WhatsApp, call or fill the form with occasion, quantity, material and date."
+          }
+        },
+        "b7": {
+          "type": "step",
+          "settings": {
+            "title": "Get options & a quote",
+            "text": "We share designs, matching past work and a clear quote — usually same day."
+          }
+        },
+        "b8": {
+          "type": "step",
+          "settings": {
+            "title": "Approve proof & advance",
+            "text": "Sign off a digital mockup; 50% advance via UPI/transfer/card with GST invoice."
+          }
+        },
+        "b9": {
+          "type": "step",
+          "settings": {
+            "title": "Made & dispatched",
+            "text": "Crafted in our Bangalore workshop, QC'd and tracked to your venue."
+          }
+        },
+        "b10": {
+          "type": "faq",
+          "settings": {
+            "question": "Do I need design skills or software?",
+            "answer": "<p>No — describe your idea and we design it for you, then send a proof.</p>"
+          }
+        },
+        "b11": {
+          "type": "faq",
+          "settings": {
+            "question": "Can I see it before it's made?",
+            "answer": "<p>Yes — a digital mockup for approval, refined until you're happy.</p>"
+          }
+        },
+        "b12": {
+          "type": "faq",
+          "settings": {
+            "question": "Is custom design expensive?",
+            "answer": "<p>Design is included free; you only pay for the award itself.</p>"
+          }
+        },
+        "b13": {
+          "type": "faq",
+          "settings": {
+            "question": "How custom can it get?",
+            "answer": "<p>Very — custom shapes, materials, sizes, photos, logos and packaging.</p>"
+          }
+        },
+        "b14": {
+          "type": "cta_band",
+          "settings": {
+            "heading": "Ready to start?",
+            "text": "Message us your requirement and event date — we'll guide you through and quote, usually within the hour.",
+            "button_label": "Message us on WhatsApp"
+          }
+        }
+      },
+      "block_order": [
+        "b0",
+        "b1",
+        "b2",
+        "b3",
+        "b4",
+        "b5",
+        "b6",
+        "b7",
+        "b8",
+        "b9",
+        "b10",
+        "b11",
+        "b12",
+        "b13",
+        "b14"
+      ]
+    }
+  },
+  "order": [
+    "feed"
+  ]
+}

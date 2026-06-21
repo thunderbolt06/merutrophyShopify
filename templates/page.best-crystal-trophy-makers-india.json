@@ -1,0 +1,165 @@
+{
+  "sections": {
+    "feed": {
+      "type": "feed-landing",
+      "settings": {
+        "eyebrow": "Compare · Crystal",
+        "heading": "<h1><em>Best Crystal Trophy Makers in India</em> — What to Look For</h1>",
+        "subheading": "Who makes the best crystal trophies in India? The marks of a great crystal-award maker — K9 optical crystal, 3D engraving, finishing and portfolio — and how Meru Trophy measures up.",
+        "primary_cta_label": "Get a quote on WhatsApp",
+        "secondary_cta_label": "Browse the catalogue",
+        "secondary_cta_url": "/collections/all",
+        "breadcrumb_label": "best crystal trophy makers",
+        "faq_heading": "Frequently asked questions",
+        "schema_type": "Service",
+        "schema_name": "best crystal trophy makers",
+        "color_scheme": "scheme-1",
+        "features_heading": "The criteria that matter"
+      },
+      "blocks": {
+        "b0": {
+          "type": "quick_answer",
+          "settings": {
+            "label": "Quick answer",
+            "text": "<p>The <strong>best crystal trophy makers in India</strong> use genuine K9 optical crystal, offer sub-surface 3D logo engraving, finish edges cleanly, and have a strong corporate portfolio. Meru Trophy delivers all four, with crystal awards from ₹350. WhatsApp +91 78922 07252.</p>"
+          }
+        },
+        "b1": {
+          "type": "rich_text",
+          "settings": {
+            "heading": "What to look for",
+            "text": "<p>Crystal is where craftsmanship shows. The best makers use real optical crystal, engrave logos cleanly (including inside the crystal), polish edges flawlessly, and can prove it with a corporate portfolio. Here's what to check.</p>"
+          }
+        },
+        "b2": {
+          "type": "feature",
+          "settings": {
+            "title": "Genuine K9 optical crystal",
+            "text": "Clarity and weight — not lightweight glass sold as crystal."
+          }
+        },
+        "b3": {
+          "type": "feature",
+          "settings": {
+            "title": "Sub-surface 3D engraving",
+            "text": "Logos engraved inside the crystal, not just etched on top."
+          }
+        },
+        "b4": {
+          "type": "feature",
+          "settings": {
+            "title": "Clean finishing",
+            "text": "Polished, chip-free edges and stable bases."
+          }
+        },
+        "b5": {
+          "type": "feature",
+          "settings": {
+            "title": "Corporate portfolio",
+            "text": "Proven recognition work for known brands."
+          }
+        },
+        "b6": {
+          "type": "feature",
+          "settings": {
+            "title": "Gift presentation",
+            "text": "Boxes and name tags for a premium handover."
+          }
+        },
+        "b7": {
+          "type": "feature",
+          "settings": {
+            "title": "Bulk + GST",
+            "text": "Co-ordinated sets with GST invoicing."
+          }
+        },
+        "b8": {
+          "type": "rich_text",
+          "settings": {
+            "heading": "How Meru Trophy compares",
+            "text": "<p>Meru Trophy uses <strong>K9 optical crystal</strong> with 2D and sub-surface 3D engraving, clean polished finishing, gift-box presentation, bulk capacity and GST invoicing, backed by 20+ years and 150+ brands. See our <a href=\"/pages/crystal-trophies-india\">crystal trophies</a> and <a href=\"/pages/crystal-awards-corporate\">corporate crystal awards</a>.</p>"
+          }
+        },
+        "b9": {
+          "type": "stat",
+          "settings": {
+            "number": "20+",
+            "label": "Years"
+          }
+        },
+        "b10": {
+          "type": "stat",
+          "settings": {
+            "number": "150+",
+            "label": "Brands served"
+          }
+        },
+        "b11": {
+          "type": "stat",
+          "settings": {
+            "number": "Pan-India",
+            "label": "Delivery + global"
+          }
+        },
+        "b12": {
+          "type": "faq",
+          "settings": {
+            "question": "Who makes the best crystal trophies in India?",
+            "answer": "<p>Makers using genuine K9 optical crystal with 3D engraving, clean finishing and a corporate portfolio — Meru Trophy fits this profile.</p>"
+          }
+        },
+        "b13": {
+          "type": "faq",
+          "settings": {
+            "question": "How do I know it's real crystal?",
+            "answer": "<p>Genuine K9 is clearer and heavier than plain glass; ask the maker to confirm K9 optical crystal.</p>"
+          }
+        },
+        "b14": {
+          "type": "faq",
+          "settings": {
+            "question": "Can you engrave a logo inside the crystal?",
+            "answer": "<p>Yes — sub-surface 3D engraving places the logo inside the award.</p>"
+          }
+        },
+        "b15": {
+          "type": "faq",
+          "settings": {
+            "question": "Do you offer gift boxes?",
+            "answer": "<p>Yes — presentation boxes and name tags are available.</p>"
+          }
+        },
+        "b16": {
+          "type": "cta_band",
+          "settings": {
+            "heading": "Comparing suppliers?",
+            "text": "Send your event and quantity — we'll show relevant past work and an honest quote so you can compare like-for-like.",
+            "button_label": "Talk to Meru Trophy"
+          }
+        }
+      },
+      "block_order": [
+        "b0",
+        "b1",
+        "b2",
+        "b3",
+        "b4",
+        "b5",
+        "b6",
+        "b7",
+        "b8",
+        "b9",
+        "b10",
+        "b11",
+        "b12",
+        "b13",
+        "b14",
+        "b15",
+        "b16"
+      ]
+    }
+  },
+  "order": [
+    "feed"
+  ]
+}

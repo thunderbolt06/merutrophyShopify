@@ -1,0 +1,124 @@
+{
+  "sections": {
+    "feed": {
+      "type": "feed-landing",
+      "settings": {
+        "eyebrow": "Guide · Comparison",
+        "heading": "<h1><em>Trophy vs Medal vs Memento</em>: What's the Difference?</h1>",
+        "subheading": "Trophy, medal or memento — which should you give, and when? A clear comparison of each, with typical uses, costs and how to combine them for an event. By Meru Trophy.",
+        "primary_cta_label": "Get a quote on WhatsApp",
+        "secondary_cta_label": "See combo packs",
+        "secondary_cta_url": "/pages/cricket-tournament-trophy-combo",
+        "breadcrumb_label": "trophy vs medal vs memento",
+        "faq_heading": "Frequently asked questions",
+        "schema_type": "none",
+        "schema_name": "trophy vs medal vs memento",
+        "color_scheme": "scheme-1"
+      },
+      "blocks": {
+        "b0": {
+          "type": "quick_answer",
+          "settings": {
+            "label": "Quick answer",
+            "text": "<p>A <strong>trophy</strong> is a standing award for winners; a <strong>medal</strong> is a worn award for placements and participation (great in bulk); a <strong>memento</strong> is a keepsake to thank or honour someone (not necessarily a winner). Many events use all three. Meru Trophy makes each. WhatsApp +91 78922 07252.</p>"
+          }
+        },
+        "b1": {
+          "type": "rich_text",
+          "settings": {
+            "heading": "The difference, simply",
+            "text": "<ul><li><strong>Trophy:</strong> a standing cup or award for winners and top performers — the headline prize.</li><li><strong>Medal:</strong> a worn, ribboned award for placements and participation — economical at volume.</li><li><strong>Memento:</strong> a keepsake to thank, honour or remember — for guests, retirees, speakers (not just winners).</li></ul>"
+          }
+        },
+        "b2": {
+          "type": "rich_text",
+          "settings": {
+            "heading": "Which should you give — or combine?",
+            "text": "<p>Most events use a mix: <strong>trophies</strong> for category winners, <strong>medals</strong> for all participants, and <strong>mementos</strong> for chief guests, organisers and sponsors. Combining them is exactly what our <a href=\"/pages/cricket-tournament-trophy-combo\">combo packs</a> do — one order covering every recognition need.</p>"
+          }
+        },
+        "b3": {
+          "type": "feature",
+          "settings": {
+            "title": "Trophy",
+            "text": "Standing award for winners."
+          }
+        },
+        "b4": {
+          "type": "feature",
+          "settings": {
+            "title": "Medal",
+            "text": "Worn award for placements."
+          }
+        },
+        "b5": {
+          "type": "feature",
+          "settings": {
+            "title": "Memento",
+            "text": "Keepsake to honour/thank."
+          }
+        },
+        "b6": {
+          "type": "feature",
+          "settings": {
+            "title": "Combine",
+            "text": "Use all three in one event."
+          }
+        },
+        "b7": {
+          "type": "faq",
+          "settings": {
+            "question": "What's the difference between a trophy and a memento?",
+            "answer": "<p>A trophy is a standing award for winners; a memento is a keepsake to honour or thank someone, who needn't be a winner.</p>"
+          }
+        },
+        "b8": {
+          "type": "faq",
+          "settings": {
+            "question": "When should I give medals vs trophies?",
+            "answer": "<p>Trophies for winners/top performers; medals for placements and participation, especially in large numbers.</p>"
+          }
+        },
+        "b9": {
+          "type": "faq",
+          "settings": {
+            "question": "Can one event use all three?",
+            "answer": "<p>Yes — trophies for winners, medals for participants, mementos for guests and organisers; we bundle them in combo packs.</p>"
+          }
+        },
+        "b10": {
+          "type": "faq",
+          "settings": {
+            "question": "Does Meru Trophy make all three?",
+            "answer": "<p>Yes — trophies, medals and mementos, individually or as co-ordinated sets.</p>"
+          }
+        },
+        "b11": {
+          "type": "cta_band",
+          "settings": {
+            "heading": "Need a mix for your event?",
+            "text": "Tell us what you're planning — we'll share designs and a quote, usually within the hour.",
+            "button_label": "Get a combo quote"
+          }
+        }
+      },
+      "block_order": [
+        "b0",
+        "b1",
+        "b2",
+        "b3",
+        "b4",
+        "b5",
+        "b6",
+        "b7",
+        "b8",
+        "b9",
+        "b10",
+        "b11"
+      ]
+    }
+  },
+  "order": [
+    "feed"
+  ]
+}

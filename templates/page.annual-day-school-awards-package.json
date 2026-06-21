@@ -1,0 +1,193 @@
+{
+  "sections": {
+    "feed": {
+      "type": "feed-landing",
+      "settings": {
+        "eyebrow": "Combo · School",
+        "heading": "<h1>School <em>Annual Day Awards Package</em></h1>",
+        "subheading": "Academic, cultural, sports and discipline awards for annual day in one co-ordinated, crest-branded order — trophies, medals and mementos with student names. Delivered before the event.",
+        "primary_cta_label": "Get a quote on WhatsApp",
+        "secondary_cta_label": "Browse the catalogue",
+        "secondary_cta_url": "/collections/all",
+        "breadcrumb_label": "School Annual Day Awards Package",
+        "faq_heading": "Frequently asked questions",
+        "schema_type": "Product",
+        "schema_name": "School Annual Day Awards Package",
+        "color_scheme": "scheme-1",
+        "features_heading": "What's inside the package",
+        "steps_heading": "How ordering works",
+        "price_heading": "Sample package pricing",
+        "price_col1": "Package",
+        "price_col2": "What's included",
+        "price_col3": "Price (from)",
+        "price_caption": "Indicative starting prices; per-piece rates fall sharply at higher quantities. GST invoice included.",
+        "schema_price_low": "150",
+        "schema_price_high": "22000"
+      },
+      "blocks": {
+        "b0": {
+          "type": "quick_answer",
+          "settings": {
+            "label": "Quick answer",
+            "text": "<p>Meru Trophy bundles a <strong>school annual day awards package</strong> — academic, cultural, sports and discipline awards as trophies, medals and mementos with student names — branded with your crest, from around <strong>₹150 a piece</strong>. Delivered before the day. WhatsApp +91 78922 07252.</p>"
+          }
+        },
+        "b1": {
+          "type": "rich_text",
+          "settings": {
+            "heading": "One bundle for the whole event",
+            "text": "<p>Annual day recognises achievement across academics, culture, sports and discipline — often dozens of awards with individual student names. We co-ordinate trophies, medals and mementos in one crest-branded order, each engraved with the student and category, delivered before the event.</p>"
+          }
+        },
+        "b2": {
+          "type": "feature",
+          "settings": {
+            "title": "Every category covered",
+            "text": "Academic, cultural, sports and discipline awards."
+          }
+        },
+        "b3": {
+          "type": "feature",
+          "settings": {
+            "title": "Student names engraved",
+            "text": "Individual recipient names on every award."
+          }
+        },
+        "b4": {
+          "type": "feature",
+          "settings": {
+            "title": "School crest branding",
+            "text": "Crest and motto across the set."
+          }
+        },
+        "b5": {
+          "type": "feature",
+          "settings": {
+            "title": "On-time delivery",
+            "text": "Planned dispatch ahead of annual day."
+          }
+        },
+        "b6": {
+          "type": "price_row",
+          "settings": {
+            "item": "Small annual day",
+            "spec": "30 awards, mixed",
+            "price": "₹5,000"
+          }
+        },
+        "b7": {
+          "type": "price_row",
+          "settings": {
+            "item": "Standard package",
+            "spec": "60 awards + mementos",
+            "price": "₹10,000"
+          }
+        },
+        "b8": {
+          "type": "price_row",
+          "settings": {
+            "item": "Large school",
+            "spec": "120+ awards + premium trophies",
+            "price": "₹22,000"
+          }
+        },
+        "b9": {
+          "type": "price_row",
+          "settings": {
+            "item": "Multi-section",
+            "spec": "Custom volume",
+            "price": "Custom quote"
+          }
+        },
+        "b10": {
+          "type": "step",
+          "settings": {
+            "title": "Share your award list",
+            "text": "WhatsApp us your categories, quantities and event date."
+          }
+        },
+        "b11": {
+          "type": "step",
+          "settings": {
+            "title": "Pick designs & budget",
+            "text": "We send matching options and a single combined quote."
+          }
+        },
+        "b12": {
+          "type": "step",
+          "settings": {
+            "title": "Approve engraving proof",
+            "text": "Confirm names, logos and titles on a digital mockup."
+          }
+        },
+        "b13": {
+          "type": "step",
+          "settings": {
+            "title": "Delivered together",
+            "text": "Co-ordinated, boxed and shipped pan-India in time for your event."
+          }
+        },
+        "b14": {
+          "type": "faq",
+          "settings": {
+            "question": "Can each award carry the student's name?",
+            "answer": "<p>Yes — send a sheet by category and we engrave each piece individually, labelled for the stage.</p>"
+          }
+        },
+        "b15": {
+          "type": "faq",
+          "settings": {
+            "question": "Can you brand with our crest and motto?",
+            "answer": "<p>Yes — crest and motto across trophies, medals and mementos.</p>"
+          }
+        },
+        "b16": {
+          "type": "faq",
+          "settings": {
+            "question": "Will it arrive before annual day?",
+            "answer": "<p>Yes — order 2–3 weeks ahead; we plan dispatch to your date.</p>"
+          }
+        },
+        "b17": {
+          "type": "faq",
+          "settings": {
+            "question": "Do you provide a GST invoice?",
+            "answer": "<p>Yes — one GST invoice, with documentation for school accounts.</p>"
+          }
+        },
+        "b18": {
+          "type": "cta_band",
+          "settings": {
+            "heading": "Planning a school annual day?",
+            "text": "Send your award list and date — we'll design a matching combo and quote, usually within the hour.",
+            "button_label": "Get my combo quote"
+          }
+        }
+      },
+      "block_order": [
+        "b0",
+        "b1",
+        "b2",
+        "b3",
+        "b4",
+        "b5",
+        "b6",
+        "b7",
+        "b8",
+        "b9",
+        "b10",
+        "b11",
+        "b12",
+        "b13",
+        "b14",
+        "b15",
+        "b16",
+        "b17",
+        "b18"
+      ]
+    }
+  },
+  "order": [
+    "feed"
+  ]
+}

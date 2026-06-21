@@ -1,0 +1,92 @@
+{
+  "sections": {
+    "feed": {
+      "type": "feed-landing",
+      "settings": {
+        "eyebrow": "Ideas · Appreciation",
+        "heading": "<h1><em>Appreciation & Thank-You Memento Ideas</em></h1>",
+        "subheading": "Thoughtful appreciation memento ideas for employees, volunteers, partners and teachers — affordable crystal, wood and acrylic keepsakes with a sincere message. Custom-made by Meru Trophy.",
+        "primary_cta_label": "Get a quote on WhatsApp",
+        "secondary_cta_label": "Browse the catalogue",
+        "secondary_cta_url": "/collections/all",
+        "breadcrumb_label": "appreciation memento",
+        "faq_heading": "Frequently asked questions",
+        "schema_type": "none",
+        "schema_name": "appreciation memento",
+        "color_scheme": "scheme-1"
+      },
+      "blocks": {
+        "b0": {
+          "type": "quick_answer",
+          "settings": {
+            "label": "Quick answer",
+            "text": "<p>Good <strong>appreciation mementos</strong> are sincere and affordable: <strong>small crystal blocks, wooden plaques and acrylic keepsakes</strong> engraved with a heartfelt \"thank you,\" the name and the reason. Meru Trophy makes these from ₹250, single or in sets. WhatsApp +91 78922 07252.</p>"
+          }
+        },
+        "b1": {
+          "type": "rich_text",
+          "settings": {
+            "heading": "Ideas that work",
+            "text": "<p>A token of appreciation doesn't need to be expensive — it needs to be <strong>sincere and personal</strong>. A small engraved keepsake with the recipient's name and a genuine line of thanks lands far better than a generic gift. These suit employees, volunteers, partners, teachers and community helpers.</p>"
+          }
+        },
+        "b2": {
+          "type": "rich_text",
+          "settings": {
+            "heading": "Popular designs",
+            "text": "<ul><li><strong>Small crystal block</strong> — \"With appreciation\" plus name.</li><li><strong>Wooden plaque</strong> — warm thank-you keepsake.</li><li><strong>Acrylic token</strong> — affordable for larger groups.</li><li><strong>Photo appreciation piece</strong> — a shared moment, printed.</li><li><strong>Desk memento</strong> — a keepsake they'll see daily.</li><li><strong>Group thank-you plaque</strong> — for a team's contribution.</li></ul>"
+          }
+        },
+        "b3": {
+          "type": "faq",
+          "settings": {
+            "question": "What's a good appreciation memento?",
+            "answer": "<p>A small, sincere engraved keepsake — crystal, wood or acrylic — with the recipient's name and a genuine thank-you.</p>"
+          }
+        },
+        "b4": {
+          "type": "faq",
+          "settings": {
+            "question": "Are these affordable in bulk?",
+            "answer": "<p>Yes — acrylic and small wood/crystal tokens start around ₹250, with volume discounts.</p>"
+          }
+        },
+        "b5": {
+          "type": "faq",
+          "settings": {
+            "question": "Can each carry a different name?",
+            "answer": "<p>Yes — individually engraved from your name list.</p>"
+          }
+        },
+        "b6": {
+          "type": "faq",
+          "settings": {
+            "question": "Good for volunteers and teachers?",
+            "answer": "<p>Ideal — see also our <a href=\"/pages/volunteer-recognition-awards\">volunteer</a> and <a href=\"/pages/teacher-appreciation-awards\">teacher</a> award pages.</p>"
+          }
+        },
+        "b7": {
+          "type": "cta_band",
+          "settings": {
+            "heading": "Saying thank you?",
+            "text": "Tell us what you're planning — we'll share designs and a quote, usually within the hour.",
+            "button_label": "Design an appreciation memento"
+          }
+        }
+      },
+      "block_order": [
+        "b0",
+        "b1",
+        "b2",
+        "b3",
+        "b4",
+        "b5",
+        "b6",
+        "b7"
+      ]
+    }
+  },
+  "order": [
+    "feed"
+  ]
+}

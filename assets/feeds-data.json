@@ -1,48 +1,546 @@
 {
-  "note": "Index of live Meru Trophy feed landing pages, rendered by sections/feed-hub.liquid. Add an entry here when a new feed page goes live. Grows from 8 (pilot) to 100.",
+  "note": "Index of Meru Trophy feed landing pages, rendered by sections/feed-hub.liquid. 100 pages across 8 categories.",
   "categories": [
+    {
+      "name": "Product ranges",
+      "description": "Browse by material, award type and sport — quick quotes on WhatsApp.",
+      "pages": [
+        {
+          "title": "Crystal Trophies India",
+          "handle": "crystal-trophies-india",
+          "blurb": "Premium K9 optical-crystal awards with free engraving — shipped pan-India."
+        },
+        {
+          "title": "Acrylic Trophies India",
+          "handle": "acrylic-trophies-india",
+          "blurb": "UV-printed acrylic trophies from ₹180 — lightest, most colourful option."
+        },
+        {
+          "title": "Metal Trophies India",
+          "handle": "metal-trophies-india",
+          "blurb": "Die-cast and zinc-alloy metal sports trophies — heavy, classic and affordable."
+        },
+        {
+          "title": "Fibre Trophies India",
+          "handle": "fibre-trophies-india",
+          "blurb": "Lightweight fibre-reinforced trophies — ideal for large sports day batches."
+        },
+        {
+          "title": "Wooden Trophies & Mementos",
+          "handle": "wooden-trophies-mementos",
+          "blurb": "Natural wood trophies and carved mementos — warm finish, laser-engraved text."
+        },
+        {
+          "title": "Custom Medals India",
+          "handle": "custom-medals-india",
+          "blurb": "Custom die-cast or zinc medals with ribbon — from ₹35 per piece at bulk."
+        },
+        {
+          "title": "Cricket Trophies India",
+          "handle": "cricket-trophies-india",
+          "blurb": "Cricket bat, ball and shield trophies — winner, runner-up, MoM and best player sets."
+        },
+        {
+          "title": "Corporate Trophies & Awards",
+          "handle": "corporate-trophies-awards",
+          "blurb": "Crystal, acrylic and metal corporate awards with laser logo engraving."
+        },
+        {
+          "title": "Glass Trophies India",
+          "handle": "glass-trophies-india",
+          "blurb": "Optical-clear glass awards — elegant desk pieces for senior recognitions."
+        },
+        {
+          "title": "Shields & Plaques India",
+          "handle": "shields-plaques-india",
+          "blurb": "Wooden, acrylic and metal shields with full-colour printing or engraving."
+        },
+        {
+          "title": "Running & Marathon Medals",
+          "handle": "running-marathon-medals",
+          "blurb": "Custom marathon finisher and podium medals with event ribbon printing."
+        },
+        {
+          "title": "School Sports Day Medals",
+          "handle": "school-sports-day-medals",
+          "blurb": "Zinc and iron medals for annual school sports days — bulk rates, fast dispatch."
+        },
+        {
+          "title": "Badminton Trophies India",
+          "handle": "badminton-trophies-india",
+          "blurb": "Badminton-themed trophies and medals for tournaments of any scale."
+        },
+        {
+          "title": "Football Trophies India",
+          "handle": "football-trophies-india",
+          "blurb": "Football trophies — golden boot, golden glove, best player and league cups."
+        },
+        {
+          "title": "Chess Trophies India",
+          "handle": "chess-trophies-india",
+          "blurb": "Chess piece and board-themed trophies and shields for inter-school tournaments."
+        },
+        {
+          "title": "Carrom Trophies India",
+          "handle": "carrom-trophies-india",
+          "blurb": "Custom carrom trophies and medals — perfect for club and school events."
+        },
+        {
+          "title": "Tennis Trophies India",
+          "handle": "tennis-trophies-india",
+          "blurb": "Tennis racquet and ball trophies with custom engraving for every category."
+        },
+        {
+          "title": "Dance Competition Trophies",
+          "handle": "dance-competition-trophies",
+          "blurb": "Vibrant dancer-figure trophies and medals for competitions and recitals."
+        },
+        {
+          "title": "Gold, Silver & Bronze Medals",
+          "handle": "gold-silver-bronze-medals",
+          "blurb": "Three-tier medal sets with gold, silver and bronze finishes — sold as sets."
+        },
+        {
+          "title": "Custom Trophy With Name Engraving",
+          "handle": "custom-trophy-with-name",
+          "blurb": "Any trophy personalised with name, date and message — 48-hr laser engraving."
+        },
+        {
+          "title": "Crystal Awards for Corporates",
+          "handle": "crystal-awards-corporate",
+          "blurb": "C-suite and board-level crystal awards — gift-boxed with stand and certificate."
+        },
+        {
+          "title": "Memento With Photo & Engraving",
+          "handle": "memento-with-photo",
+          "blurb": "Photo-embedded mementos in crystal, acrylic or wood — print inside the award."
+        },
+        {
+          "title": "Trophies for IT Companies",
+          "handle": "trophies-for-it-companies",
+          "blurb": "Trophy and award solutions for IT companies — branding, GST invoice, bulk pricing."
+        },
+        {
+          "title": "Trophies for Schools & Colleges",
+          "handle": "trophies-for-schools-colleges",
+          "blurb": "School and college award solutions — medals, shields, trophies, certificates."
+        },
+        {
+          "title": "Trophies for Sports Clubs & Academies",
+          "handle": "trophies-for-sports-clubs",
+          "blurb": "Sports club trophies and medals — season awards, league cups and membership gifts."
+        },
+        {
+          "title": "Trophies for Government Departments",
+          "handle": "trophies-for-government-departments",
+          "blurb": "Government award procurement — GST invoices, bulk pricing and custom branding."
+        },
+        {
+          "title": "Trophies for NGOs & Trusts",
+          "handle": "trophies-for-ngos-trusts",
+          "blurb": "NGO and trust award solutions — appreciation mementos at budget-friendly prices."
+        },
+        {
+          "title": "NRI & Diaspora Event Trophies",
+          "handle": "nri-diaspora-event-trophies",
+          "blurb": "Trophies and mementos for NRI diaspora events — shipped globally or picked up in Bangalore."
+        }
+      ]
+    },
     {
       "name": "Combo & bundle packs",
       "description": "Complete award kits for an entire event in one order.",
       "pages": [
-        { "title": "Cricket Tournament Trophy Combo", "handle": "cricket-tournament-trophy-combo", "blurb": "Winner, runner-up, MoM, best batsman/bowler & medals in one bundle." },
-        { "title": "Corporate Annual Awards Night Package", "handle": "corporate-annual-awards-night-package", "blurb": "A co-ordinated award set for your yearly employee recognition event." }
-      ]
-    },
-    {
-      "name": "Product ranges",
-      "description": "Browse by material and award type.",
-      "pages": [
-        { "title": "Crystal Trophies India", "handle": "crystal-trophies-india", "blurb": "Premium K9 optical-crystal awards with free engraving." }
-      ]
-    },
-    {
-      "name": "Pricing & facts",
-      "description": "Straight answers on cost and value.",
-      "pages": [
-        { "title": "IPL Trophy Price & Replicas", "handle": "ipl-trophy-price", "blurb": "What the IPL cup is worth, and how to buy a custom replica." }
+        {
+          "title": "Cricket Tournament Trophy Combo",
+          "handle": "cricket-tournament-trophy-combo",
+          "blurb": "Winner, runner-up, MoM, best batsman/bowler and medals in one bundle."
+        },
+        {
+          "title": "Corporate Annual Awards Night Package",
+          "handle": "corporate-annual-awards-night-package",
+          "blurb": "A co-ordinated award set for your yearly employee recognition event."
+        },
+        {
+          "title": "School Sports Day Awards Bundle",
+          "handle": "school-sports-day-awards-bundle",
+          "blurb": "Trophies, shields and medals for every school sports day category in one order."
+        },
+        {
+          "title": "Marathon Event Medals Package",
+          "handle": "marathon-event-medals-package",
+          "blurb": "Finisher medals, podium medals and winner trophy — one package, one invoice."
+        },
+        {
+          "title": "College Fest Trophy Package",
+          "handle": "college-fest-trophy-package",
+          "blurb": "Best event, cultural awards and participation shields for annual college fests."
+        },
+        {
+          "title": "Employee Recognition Awards Program",
+          "handle": "employee-recognition-awards-program",
+          "blurb": "Monthly/quarterly employee awards kit — consistent design, scalable quantity."
+        },
+        {
+          "title": "Cricket League Season Awards Kit",
+          "handle": "cricket-league-season-awards-kit",
+          "blurb": "Season-end cricket league kit: trophies, batting/bowling awards and medals."
+        },
+        {
+          "title": "Badminton Tournament Trophy Set",
+          "handle": "badminton-tournament-trophy-set",
+          "blurb": "Singles, doubles, mixed and consolation trophies for a full badminton draw."
+        },
+        {
+          "title": "Corporate Offsite Awards Kit",
+          "handle": "corporate-offsite-awards-kit",
+          "blurb": "Fun team awards, best-dressed and MVP trophies for corporate offsites."
+        },
+        {
+          "title": "School Annual Day Awards Package",
+          "handle": "annual-day-school-awards-package",
+          "blurb": "Academic, sports, cultural and special awards for the full annual day ceremony."
+        },
+        {
+          "title": "Startup Hackathon Prize Kit",
+          "handle": "startup-hackathon-prize-kit",
+          "blurb": "1st, 2nd, 3rd place trophies plus participation certificates — hackathon-ready."
+        },
+        {
+          "title": "Society & Gully Tournament Trophy Combo",
+          "handle": "society-tournament-trophy-combo",
+          "blurb": "Housing-society cricket, carrom and badminton tournament kit in one order."
+        }
       ]
     },
     {
       "name": "Ordering & service",
-      "description": "How to order, customise and get it delivered.",
+      "description": "How to order, customise, engrave and get it delivered fast.",
       "pages": [
-        { "title": "Bulk Trophy Orders India", "handle": "bulk-trophy-order-india", "blurb": "50 to 5,000+ pieces with volume pricing & GST invoicing." }
+        {
+          "title": "Bulk Trophy Orders India",
+          "handle": "bulk-trophy-order-india",
+          "blurb": "Bulk Trophy Orders India — details, pricing and options."
+        },
+        {
+          "title": "Custom Trophy Design Process",
+          "handle": "custom-trophy-design-process",
+          "blurb": "Step-by-step: share design → get 3D mock-up → approve → produced in 5–7 days."
+        },
+        {
+          "title": "Trophy Engraving Services",
+          "handle": "trophy-engraving-services",
+          "blurb": "Laser engraving on any trophy or memento — name, date and custom message."
+        },
+        {
+          "title": "Logo Printing on Trophies & Awards",
+          "handle": "logo-printing-on-trophies",
+          "blurb": "Full-colour UV logo printing on acrylic and metal trophies from ₹50 extra."
+        },
+        {
+          "title": "Fast 2-Day Trophy Delivery",
+          "handle": "fast-trophy-delivery-india",
+          "blurb": "Express 48-hr production + same-day dispatch — delivered anywhere in India."
+        },
+        {
+          "title": "WhatsApp Trophy Ordering",
+          "handle": "whatsapp-trophy-ordering",
+          "blurb": "Send a WhatsApp — share requirements, get quote, approve proof, done."
+        },
+        {
+          "title": "GST-Invoiced Corporate Trophy Orders",
+          "handle": "gst-invoice-corporate-trophy-orders",
+          "blurb": "GST-compliant invoices for all corporate trophy and award orders."
+        },
+        {
+          "title": "Trophy Customization Options",
+          "handle": "trophy-customization-options",
+          "blurb": "Size, colour, material, text, logo and base options — full customisation guide."
+        },
+        {
+          "title": "Last-Minute Trophy Orders",
+          "handle": "last-minute-trophy-order",
+          "blurb": "Need trophies in 24 hrs? We handle urgent orders — call or WhatsApp us now."
+        },
+        {
+          "title": "Design Your Own Trophy Online",
+          "handle": "design-your-own-trophy-online",
+          "blurb": "Describe your trophy over WhatsApp and get a free digital mock-up in 2 hours."
+        },
+        {
+          "title": "Pan-India Trophy Delivery",
+          "handle": "pan-india-trophy-delivery",
+          "blurb": "We deliver to Delhi, Mumbai, Chennai, Hyderabad, Pune and 500+ pin codes."
+        },
+        {
+          "title": "How to Order Trophies Online in India",
+          "handle": "order-trophies-online-india",
+          "blurb": "Order online via WhatsApp or email — no minimum order, GST invoice provided."
+        }
       ]
     },
     {
-      "name": "Guides & comparisons",
-      "description": "Make a confident choice.",
+      "name": "Pricing & facts",
+      "description": "Straight answers on cost, bulk pricing and value.",
       "pages": [
-        { "title": "Momento or Memento?", "handle": "momento-or-memento-spelling", "blurb": "The right spelling, meaning and how to design a memento." },
-        { "title": "Best Trophy Manufacturers in India (2026)", "handle": "best-trophy-manufacturers-india-2026", "blurb": "The 7 criteria that actually matter when choosing a supplier." }
+        {
+          "title": "Trophy Price List India",
+          "handle": "trophy-price-list-india",
+          "blurb": "Indicative price list: acrylic from ₹120, crystal from ₹450, metal from ₹200."
+        },
+        {
+          "title": "IPL Trophy Price & Replicas",
+          "handle": "ipl-trophy-price",
+          "blurb": "What the IPL cup is worth, and how to buy a custom replica."
+        },
+        {
+          "title": "Cricket World Cup Trophy Price",
+          "handle": "cricket-world-cup-trophy-price",
+          "blurb": "ICC World Cup trophy details, value and how to order a legal replica."
+        },
+        {
+          "title": "Medal Price Per Piece (Bulk)",
+          "handle": "medal-price-bulk-india",
+          "blurb": "Bulk medal pricing: zinc/iron from ₹35, custom die-cast from ₹65 per piece."
+        },
+        {
+          "title": "Trophies Under ₹500",
+          "handle": "trophy-under-500",
+          "blurb": "Best trophies under ₹500 — crystal, acrylic and metal options with engraving."
+        },
+        {
+          "title": "Medals Under ₹50",
+          "handle": "medals-under-50",
+          "blurb": "Quality zinc medals under ₹50 each — for school and club events at scale."
+        },
+        {
+          "title": "Crystal Trophy Price India",
+          "handle": "crystal-trophy-price-india",
+          "blurb": "Crystal trophy price guide — K9 glass from ₹450, optical crystal from ₹800."
+        },
+        {
+          "title": "Acrylic Trophy Price India",
+          "handle": "acrylic-trophy-price-india",
+          "blurb": "Acrylic trophy prices from ₹120 per piece with UV colour printing."
+        },
+        {
+          "title": "Corporate Award Price India",
+          "handle": "corporate-award-price-india",
+          "blurb": "Corporate award pricing: budget (₹300–800), mid (₹800–2,500), premium (₹2,500+)."
+        },
+        {
+          "title": "Gold Medal Price India",
+          "handle": "gold-medal-price-india",
+          "blurb": "Gold-finish medal pricing — zinc alloy from ₹45, brass-tone from ₹95."
+        },
+        {
+          "title": "How Much Does a Custom Trophy Cost?",
+          "handle": "custom-trophy-cost-india",
+          "blurb": "How customisation affects cost — engraving, logo printing, sizing and rush fees."
+        },
+        {
+          "title": "Big Trophy Price (Tall & 8-Feet)",
+          "handle": "big-trophy-price-india",
+          "blurb": "Large trophies (2–4 ft) for marquee events — price from ₹1,500 to ₹25,000."
+        }
+      ]
+    },
+    {
+      "name": "Guides & information",
+      "description": "Everything you need to know about trophies, mementos and medals.",
+      "pages": [
+        {
+          "title": "ICC World Cup Trophy: Price & Facts",
+          "handle": "icc-world-cup-trophy-price-facts",
+          "blurb": "ICC World Cup trophy dimensions, material and real cost breakdown."
+        },
+        {
+          "title": "Asia Cup Trophy: Price & Facts",
+          "handle": "asia-cup-trophy-price",
+          "blurb": "Asia Cup trophy history, design and how much it would cost to replicate."
+        },
+        {
+          "title": "T20 World Cup Trophy: Price & Facts",
+          "handle": "t20-world-cup-trophy-facts",
+          "blurb": "T20 World Cup trophy facts — weight, material, maker and replica options."
+        },
+        {
+          "title": "Momento or Memento?",
+          "handle": "momento-or-memento-spelling",
+          "blurb": "Momento or Memento? — details, pricing and options."
+        },
+        {
+          "title": "Types of Trophies: Materials Guide",
+          "handle": "types-of-trophies-guide",
+          "blurb": "Crystal, acrylic, metal, glass, fibre, wood — which material fits your event?"
+        },
+        {
+          "title": "Types of Medals Guide",
+          "handle": "types-of-medals-guide",
+          "blurb": "Zinc, iron, die-cast, enamel, 3D — a complete guide to medal types."
+        },
+        {
+          "title": "Medal Sizes Guide",
+          "handle": "medal-sizes-guide",
+          "blurb": "Standard medal sizes (50mm–80mm) and which diameter fits which event."
+        },
+        {
+          "title": "How Trophies Are Made",
+          "handle": "how-trophies-are-made",
+          "blurb": "From mould to engraving — how trophies are manufactured in India."
+        },
+        {
+          "title": "Crystal vs Acrylic Trophy",
+          "handle": "crystal-vs-acrylic-trophy",
+          "blurb": "Crystal vs acrylic — clarity, weight, price and which to choose."
+        },
+        {
+          "title": "Memento Design Ideas",
+          "handle": "memento-design-ideas",
+          "blurb": "20+ creative memento design ideas for corporate and cultural events."
+        },
+        {
+          "title": "Wooden Memento Design Ideas",
+          "handle": "wooden-memento-design-ideas",
+          "blurb": "Laser-engraved wooden memento ideas — plaques, clocks, pen stands and more."
+        },
+        {
+          "title": "Unique Memento Design Ideas",
+          "handle": "unique-memento-design-ideas",
+          "blurb": "Unusual memento ideas that stand out — photo crystal, LED base, 3D engraving."
+        },
+        {
+          "title": "Corporate Memento Ideas",
+          "handle": "corporate-memento-ideas",
+          "blurb": "Corporate memento gift ideas for clients, partners and retiring employees."
+        },
+        {
+          "title": "Retirement Memento Design Ideas",
+          "handle": "retirement-memento-design-ideas",
+          "blurb": "Retirement memento ideas — personalised plaques, photo keepsakes and clocks."
+        },
+        {
+          "title": "Chief Guest Memento Ideas",
+          "handle": "chief-guest-memento-ideas",
+          "blurb": "Chief-guest memento ideas — crystal shields, wooden plaques and silver coins."
+        },
+        {
+          "title": "Appreciation & Thank-You Memento Ideas",
+          "handle": "appreciation-memento-ideas",
+          "blurb": "Appreciation gift and memento ideas for teachers, coaches and volunteers."
+        },
+        {
+          "title": "Trophy Buying Guide",
+          "handle": "trophy-buying-guide",
+          "blurb": "Trophy buying guide — 7 questions to ask before you place an order."
+        },
+        {
+          "title": "Memento Design With Photo Ideas",
+          "handle": "memento-design-with-photo-ideas",
+          "blurb": "Photo-embedded memento designs — crystal, acrylic and wood options."
+        }
+      ]
+    },
+    {
+      "name": "Comparisons & reviews",
+      "description": "Why Meru Trophy, and how to choose the right supplier.",
+      "pages": [
+        {
+          "title": "Best Trophy Manufacturers in India (2026)",
+          "handle": "best-trophy-manufacturers-india-2026",
+          "blurb": "The 7 criteria that actually matter when choosing a supplier."
+        },
+        {
+          "title": "Top Trophy Companies in Bangalore",
+          "handle": "top-trophy-companies-bangalore",
+          "blurb": "Top trophy companies in Bangalore — how Meru Trophy compares."
+        },
+        {
+          "title": "Best Crystal Trophy Makers in India",
+          "handle": "best-crystal-trophy-makers-india",
+          "blurb": "Best crystal trophy makers in India — quality, pricing and delivery compared."
+        },
+        {
+          "title": "Best Corporate Award Companies in India",
+          "handle": "best-corporate-award-companies-india",
+          "blurb": "Corporate award companies in India — what differentiates the best."
+        },
+        {
+          "title": "Best Cricket Trophy Suppliers in India",
+          "handle": "best-cricket-trophy-suppliers-india",
+          "blurb": "Cricket trophy suppliers — key questions to ask before you order."
+        },
+        {
+          "title": "Best Medal Manufacturers in India",
+          "handle": "best-medal-manufacturers-india",
+          "blurb": "Best medal manufacturers in India — MOQ, turnaround and sample policy."
+        },
+        {
+          "title": "Trophy vs Medal vs Memento",
+          "handle": "trophy-vs-medal-vs-memento",
+          "blurb": "Trophy vs medal vs memento — which recognition format fits your event?"
+        },
+        {
+          "title": "Why Choose Meru Trophy",
+          "handle": "why-choose-meru-trophy",
+          "blurb": "Why Meru Trophy — 15+ years, 10,000+ orders, GST invoicing, pan-India delivery."
+        }
       ]
     },
     {
       "name": "By occasion",
-      "description": "Awards and keepsakes for the moment.",
+      "description": "Awards and keepsakes tailored to the moment.",
       "pages": [
-        { "title": "Retirement Gift Mementos", "handle": "retirement-gift-mementos", "blurb": "Personalised keepsakes that honour a long career." }
+        {
+          "title": "Retirement Gift Mementos",
+          "handle": "retirement-gift-mementos",
+          "blurb": "Personalised keepsakes that honour a long career."
+        },
+        {
+          "title": "Farewell Trophy & Memento",
+          "handle": "farewell-trophy-memento",
+          "blurb": "Farewell trophy or memento ideas — personalised and delivered in 5 days."
+        },
+        {
+          "title": "Anniversary Crystal Award",
+          "handle": "anniversary-crystal-award",
+          "blurb": "Crystal awards for company anniversaries — 5th, 10th, 25th milestone designs."
+        },
+        {
+          "title": "Conference & Speaker Memento",
+          "handle": "conference-speaker-memento",
+          "blurb": "Conference & Speaker Memento — details, pricing and options."
+        },
+        {
+          "title": "Award Night Trophies",
+          "handle": "award-night-trophies",
+          "blurb": "Award night trophy packages — coordinated design for 10 to 500 categories."
+        },
+        {
+          "title": "Sports Day Awards",
+          "handle": "sports-day-awards-supplier",
+          "blurb": "Sports day award supplier — trophies, medals and shields for the full ceremony."
+        },
+        {
+          "title": "Teacher Appreciation Awards",
+          "handle": "teacher-appreciation-awards",
+          "blurb": "Teacher appreciation awards — personalised plaques and crystal shields."
+        },
+        {
+          "title": "Volunteer Recognition Awards",
+          "handle": "volunteer-recognition-awards",
+          "blurb": "Volunteer recognition awards for NGOs and community organisations."
+        },
+        {
+          "title": "Long Service Awards (5/10/15 Years)",
+          "handle": "long-service-award-india",
+          "blurb": "Long-service award ideas — 5-year, 10-year and retirement recognition pieces."
+        },
+        {
+          "title": "Employee of the Month / Year Award",
+          "handle": "employee-of-the-month-award",
+          "blurb": "Employee of the month award frames, plaques and trophies with name."
+        }
       ]
     }
   ]

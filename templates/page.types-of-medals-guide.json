@@ -1,0 +1,124 @@
+{
+  "sections": {
+    "feed": {
+      "type": "feed-landing",
+      "settings": {
+        "eyebrow": "Guide · Medals",
+        "heading": "<h1><em>Types of Medals</em>: A Practical Guide</h1>",
+        "subheading": "Sports medals, finisher medals, military-style, academic and custom medals — the types, finishes (gold/silver/bronze), and how to choose for your event. By Meru Trophy.",
+        "primary_cta_label": "Get a quote on WhatsApp",
+        "secondary_cta_label": "See medal price",
+        "secondary_cta_url": "/pages/medal-price-bulk-india",
+        "breadcrumb_label": "types of medals",
+        "faq_heading": "Frequently asked questions",
+        "schema_type": "none",
+        "schema_name": "types of medals",
+        "color_scheme": "scheme-1"
+      },
+      "blocks": {
+        "b0": {
+          "type": "quick_answer",
+          "settings": {
+            "label": "Quick answer",
+            "text": "<p>Common <strong>medal types include standard sports medals, large finisher medals, die-struck custom medals, and academic/event medals</strong>, in gold/silver/bronze finishes with ribbons. Choose by size, finish and whether you need a custom centre. Meru Trophy makes them all from ₹25. WhatsApp +91 78922 07252.</p>"
+          }
+        },
+        "b1": {
+          "type": "rich_text",
+          "settings": {
+            "heading": "Medal types & finishes",
+            "text": "<ul><li><strong>Standard sports medals:</strong> gold/silver/bronze for placements; most economical.</li><li><strong>Finisher medals:</strong> large, substantial pieces for marathons and runs.</li><li><strong>Die-struck custom medals:</strong> heavier, detailed, premium feel.</li><li><strong>Academic & event medals:</strong> custom centres for schools, fests and competitions.</li><li><strong>Custom-centre medals:</strong> your event, sport or logo on the face.</li></ul>"
+          }
+        },
+        "b2": {
+          "type": "rich_text",
+          "settings": {
+            "heading": "How to choose",
+            "text": "<p>Pick by <strong>size, finish, custom centre and budget</strong>. Standard medals suit high-volume sports days; finisher and die-struck medals suit flagship events where the medal is a keepsake. All come with custom-colour ribbons; add lanyards if you prefer.</p>"
+          }
+        },
+        "b3": {
+          "type": "feature",
+          "settings": {
+            "title": "Standard",
+            "text": "Economical placements."
+          }
+        },
+        "b4": {
+          "type": "feature",
+          "settings": {
+            "title": "Finisher",
+            "text": "Large keepsake medals."
+          }
+        },
+        "b5": {
+          "type": "feature",
+          "settings": {
+            "title": "Die-struck",
+            "text": "Heavy, detailed."
+          }
+        },
+        "b6": {
+          "type": "feature",
+          "settings": {
+            "title": "Custom-centre",
+            "text": "Your event/logo."
+          }
+        },
+        "b7": {
+          "type": "faq",
+          "settings": {
+            "question": "What types of medals are there?",
+            "answer": "<p>Standard sports, finisher, die-struck custom, and academic/event medals — in gold/silver/bronze.</p>"
+          }
+        },
+        "b8": {
+          "type": "faq",
+          "settings": {
+            "question": "What's the difference between standard and die-struck?",
+            "answer": "<p>Die-struck medals are heavier and more detailed (premium); standard medals are lighter and more economical.</p>"
+          }
+        },
+        "b9": {
+          "type": "faq",
+          "settings": {
+            "question": "Do all medals come with ribbons?",
+            "answer": "<p>Yes — custom-colour ribbons are included; lanyards on request.</p>"
+          }
+        },
+        "b10": {
+          "type": "faq",
+          "settings": {
+            "question": "Can you add our logo or event?",
+            "answer": "<p>Yes — custom medal centres carry your event, sport or logo.</p>"
+          }
+        },
+        "b11": {
+          "type": "cta_band",
+          "settings": {
+            "heading": "Need event medals?",
+            "text": "Tell us what you're planning — we'll share designs and a quote, usually within the hour.",
+            "button_label": "Get medal pricing"
+          }
+        }
+      },
+      "block_order": [
+        "b0",
+        "b1",
+        "b2",
+        "b3",
+        "b4",
+        "b5",
+        "b6",
+        "b7",
+        "b8",
+        "b9",
+        "b10",
+        "b11"
+      ]
+    }
+  },
+  "order": [
+    "feed"
+  ]
+}

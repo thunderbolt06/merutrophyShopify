@@ -1,0 +1,92 @@
+{
+  "sections": {
+    "feed": {
+      "type": "feed-landing",
+      "settings": {
+        "eyebrow": "Ideas · Corporate",
+        "heading": "<h1><em>Corporate Memento Ideas</em> for Employees & Clients</h1>",
+        "subheading": "On-brand corporate memento ideas — desk crystal, branded wood-acrylic, milestone keepsakes and welcome/farewell gifts that carry your logo and message. By Meru Trophy.",
+        "primary_cta_label": "Get a quote on WhatsApp",
+        "secondary_cta_label": "Browse the catalogue",
+        "secondary_cta_url": "/collections/all",
+        "breadcrumb_label": "corporate memento ideas",
+        "faq_heading": "Frequently asked questions",
+        "schema_type": "none",
+        "schema_name": "corporate memento ideas",
+        "color_scheme": "scheme-1"
+      },
+      "blocks": {
+        "b0": {
+          "type": "quick_answer",
+          "settings": {
+            "label": "Quick answer",
+            "text": "<p>Strong <strong>corporate memento ideas</strong> are on-brand and useful: <strong>desk crystal pieces, branded wood-acrylic keepsakes, milestone awards and welcome/farewell mementos</strong> — each with your logo and a short message. Meru Trophy designs co-ordinated sets. WhatsApp +91 78922 07252.</p>"
+          }
+        },
+        "b1": {
+          "type": "rich_text",
+          "settings": {
+            "heading": "Ideas that work",
+            "text": "<p>Corporate mementos work best when they're <strong>on-brand and meaningful</strong> — a desk keepsake the recipient actually keeps. Use your logo and a short, sincere message, and keep the design consistent across the set. Ideas below suit employee recognition, client gifting, onboarding and farewells.</p>"
+          }
+        },
+        "b2": {
+          "type": "rich_text",
+          "settings": {
+            "heading": "Popular designs",
+            "text": "<ul><li><strong>Desk crystal block</strong> — logo + message, premium and compact.</li><li><strong>Branded wood-acrylic</strong> — modern, on-brand keepsake.</li><li><strong>Milestone memento</strong> — for anniversaries and long service.</li><li><strong>Welcome kit memento</strong> — for new joiners.</li><li><strong>Client appreciation piece</strong> — thank-you gift with logo.</li><li><strong>Conference/speaker token</strong> — felicitation memento.</li></ul>"
+          }
+        },
+        "b3": {
+          "type": "faq",
+          "settings": {
+            "question": "What's a good corporate memento?",
+            "answer": "<p>An on-brand, useful keepsake (often desk crystal or wood-acrylic) with your logo and a short, sincere message.</p>"
+          }
+        },
+        "b4": {
+          "type": "faq",
+          "settings": {
+            "question": "Can you keep the whole set on-brand?",
+            "answer": "<p>Yes — one design language and your logo across every piece.</p>"
+          }
+        },
+        "b5": {
+          "type": "faq",
+          "settings": {
+            "question": "Do you do client-gifting mementos?",
+            "answer": "<p>Yes — appreciation and thank-you pieces with your branding.</p>"
+          }
+        },
+        "b6": {
+          "type": "faq",
+          "settings": {
+            "question": "Do you provide GST invoices?",
+            "answer": "<p>Yes — GST invoices and PO handling for corporate orders.</p>"
+          }
+        },
+        "b7": {
+          "type": "cta_band",
+          "settings": {
+            "heading": "Planning corporate mementos?",
+            "text": "Tell us what you're planning — we'll share designs and a quote, usually within the hour.",
+            "button_label": "Get corporate memento ideas"
+          }
+        }
+      },
+      "block_order": [
+        "b0",
+        "b1",
+        "b2",
+        "b3",
+        "b4",
+        "b5",
+        "b6",
+        "b7"
+      ]
+    }
+  },
+  "order": [
+    "feed"
+  ]
+}

@@ -1,0 +1,48 @@
+{% comment %}
+  Related posts from the same blog. Prefers articles that share a tag with the
+  current article, then fills the remaining slots with the most recent posts.
+  Usage: {% render 'article-related-posts', article: article, blog: blog, limit: 3 %}
+{% endcomment %}
+{%- liquid
+  assign limit = limit | default: 3
+  assign shown = ''
+  assign count = 0
+-%}
+{%- capture cards -%}
+  {%- comment -%} Pass 1: shared-tag matches {%- endcomment -%}
+  {%- for a in blog.articles -%}
+    {%- if count >= limit -%}{%- break -%}{%- endif -%}
+    {%- if a.id == article.id -%}{%- continue -%}{%- endif -%}
+    {%- assign match = false -%}
+    {%- for tag in article.tags -%}
+      {%- if a.tags contains tag -%}{%- assign match = true -%}{%- break -%}{%- endif -%}
+    {%- endfor -%}
+    {%- if match -%}
+      {%- assign idstr = a.id | append: ',' -%}
+      {%- unless shown contains idstr -%}
+        {%- assign shown = shown | append: idstr -%}
+        {%- assign count = count | plus: 1 -%}
+        {% render 'article-rel-post-card', a: a %}
+      {%- endunless -%}
+    {%- endif -%}
+  {%- endfor -%}
+  {%- comment -%} Pass 2: fill with recent {%- endcomment -%}
+  {%- for a in blog.articles -%}
+    {%- if count >= limit -%}{%- break -%}{%- endif -%}
+    {%- if a.id == article.id -%}{%- continue -%}{%- endif -%}
+    {%- assign idstr = a.id | append: ',' -%}
+    {%- unless shown contains idstr -%}
+      {%- assign shown = shown | append: idstr -%}
+      {%- assign count = count | plus: 1 -%}
+      {% render 'article-rel-post-card', a: a %}
+    {%- endunless -%}
+  {%- endfor -%}
+{%- endcapture -%}
+{%- if count > 0 -%}
+  <section class="article-related article-enh" aria-label="Related articles">
+    <h2 class="article-enh__heading">Keep reading</h2>
+    <div class="article-related__grid article-related__grid--posts">
+      {{ cards }}
+    </div>
+  </section>
+{%- endif -%}

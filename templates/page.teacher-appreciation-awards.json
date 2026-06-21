@@ -1,0 +1,160 @@
+{
+  "sections": {
+    "feed": {
+      "type": "feed-landing",
+      "settings": {
+        "eyebrow": "Occasion · Teachers",
+        "heading": "<h1><em>Teacher Appreciation Awards</em> & Mementos</h1>",
+        "subheading": "Thank teachers and faculty with thoughtful engraved awards and mementos — crystal, wood and acrylic keepsakes with a sincere message, single or in sets. By Meru Trophy.",
+        "primary_cta_label": "Get a quote on WhatsApp",
+        "secondary_cta_label": "Browse the catalogue",
+        "secondary_cta_url": "/collections/all",
+        "breadcrumb_label": "Teacher Appreciation Awards",
+        "faq_heading": "Frequently asked questions",
+        "schema_type": "Product",
+        "schema_name": "Teacher Appreciation Awards",
+        "color_scheme": "scheme-1",
+        "features_heading": "Popular choices",
+        "price_heading": "Teacher award price guide",
+        "price_col1": "Item",
+        "price_col2": "Details",
+        "price_col3": "Price (from)",
+        "price_caption": "Indicative starting prices in India. Final price depends on size, material and engraving. Bulk discounts apply. GST invoice available.",
+        "schema_price_low": "250",
+        "schema_price_high": "750"
+      },
+      "blocks": {
+        "b0": {
+          "type": "quick_answer",
+          "settings": {
+            "label": "Quick answer",
+            "text": "<p>For <strong>teacher appreciation</strong>, choose engraved <strong>crystal, wood or acrylic keepsakes</strong> with the teacher's name and a sincere thank-you, from around ₹250 — single pieces or sets for the whole faculty. Meru Trophy makes them custom. WhatsApp +91 78922 07252.</p>"
+          }
+        },
+        "b1": {
+          "type": "rich_text",
+          "settings": {
+            "heading": "The right award for the moment",
+            "text": "<p>A small, sincere award means a lot to a teacher. Engrave the <strong>name, the role and a heartfelt message</strong> on a tasteful keepsake — wood for warmth, crystal for a premium feel — for Teachers' Day, farewells, retirements or long service. Order one or a co-ordinated set for the staff.</p>"
+          }
+        },
+        "b2": {
+          "type": "feature",
+          "settings": {
+            "title": "Sincere & personal",
+            "text": "Name, role and a genuine message."
+          }
+        },
+        "b3": {
+          "type": "feature",
+          "settings": {
+            "title": "Wood, crystal or acrylic",
+            "text": "A material and budget for every school."
+          }
+        },
+        "b4": {
+          "type": "feature",
+          "settings": {
+            "title": "Single or full faculty",
+            "text": "One keepsake or a co-ordinated set."
+          }
+        },
+        "b5": {
+          "type": "feature",
+          "settings": {
+            "title": "Occasions",
+            "text": "Teachers' Day, farewells, retirements, long service."
+          }
+        },
+        "b6": {
+          "type": "price_row",
+          "settings": {
+            "item": "Acrylic teacher token",
+            "spec": "Affordable for groups",
+            "price": "₹250"
+          }
+        },
+        "b7": {
+          "type": "price_row",
+          "settings": {
+            "item": "Wooden teacher memento",
+            "spec": "Warm keepsake",
+            "price": "₹350"
+          }
+        },
+        "b8": {
+          "type": "price_row",
+          "settings": {
+            "item": "Crystal teacher award",
+            "spec": "Premium recognition",
+            "price": "₹750"
+          }
+        },
+        "b9": {
+          "type": "price_row",
+          "settings": {
+            "item": "Faculty set",
+            "spec": "Co-ordinated batch",
+            "price": "Custom quote"
+          }
+        },
+        "b10": {
+          "type": "faq",
+          "settings": {
+            "question": "What's a good teacher appreciation gift?",
+            "answer": "<p>A sincere engraved keepsake — wood, crystal or acrylic — with the teacher's name and a heartfelt message.</p>"
+          }
+        },
+        "b11": {
+          "type": "faq",
+          "settings": {
+            "question": "Can we order for the whole faculty?",
+            "answer": "<p>Yes — co-ordinated sets, each individually engraved.</p>"
+          }
+        },
+        "b12": {
+          "type": "faq",
+          "settings": {
+            "question": "Affordable options for many teachers?",
+            "answer": "<p>Yes — acrylic and small wood tokens from ₹250 with volume discounts.</p>"
+          }
+        },
+        "b13": {
+          "type": "faq",
+          "settings": {
+            "question": "Can you deliver for Teachers' Day?",
+            "answer": "<p>Yes — order ahead and we'll plan dispatch to the date.</p>"
+          }
+        },
+        "b14": {
+          "type": "cta_band",
+          "settings": {
+            "heading": "Planning teacher appreciation?",
+            "text": "Tell us the occasion, recipient and date — we'll share designs and a quote, usually within the hour.",
+            "button_label": "Get a quote"
+          }
+        }
+      },
+      "block_order": [
+        "b0",
+        "b1",
+        "b2",
+        "b3",
+        "b4",
+        "b5",
+        "b6",
+        "b7",
+        "b8",
+        "b9",
+        "b10",
+        "b11",
+        "b12",
+        "b13",
+        "b14"
+      ]
+    }
+  },
+  "order": [
+    "feed"
+  ]
+}

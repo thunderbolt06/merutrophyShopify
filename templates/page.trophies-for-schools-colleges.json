@@ -1,0 +1,149 @@
+{
+  "sections": {
+    "feed": {
+      "type": "feed-landing",
+      "settings": {
+        "eyebrow": "Audience · Education",
+        "heading": "<h1><em>Trophies & Medals for Schools & Colleges</em></h1>",
+        "subheading": "Annual day, sports day, academic and fest awards for schools and colleges — bulk medals and trophies branded with your crest, GST-invoiced, delivered on time. By Meru Trophy.",
+        "primary_cta_label": "Get a quote on WhatsApp",
+        "secondary_cta_label": "Browse the catalogue",
+        "secondary_cta_url": "/collections/all",
+        "breadcrumb_label": "Trophies for Schools & Colleges",
+        "faq_heading": "Frequently asked questions",
+        "schema_type": "Service",
+        "schema_name": "Trophies for Schools & Colleges",
+        "color_scheme": "scheme-1",
+        "features_heading": "Why we're a fit"
+      },
+      "blocks": {
+        "b0": {
+          "type": "quick_answer",
+          "settings": {
+            "label": "Quick answer",
+            "text": "<p>Meru Trophy supplies <strong>schools and colleges</strong> with annual-day, sports-day, academic and fest awards — bulk medals and trophies branded with your crest, GST-invoiced and delivered on time. WhatsApp +91 78922 07252.</p>"
+          }
+        },
+        "b1": {
+          "type": "rich_text",
+          "settings": {
+            "heading": "Awards built for schools & colleges",
+            "text": "<p>Educational institutions need awards across academics, sports, culture and discipline — usually in volume and on a budget. We supply <strong>bulk medals and trophies branded with your crest and motto</strong>, individually engraved with student names, on one GST invoice. See our <a href=\"/pages/annual-day-school-awards-package\">annual day</a> and <a href=\"/pages/school-sports-day-awards-bundle\">sports-day</a> bundles.</p>"
+          }
+        },
+        "b2": {
+          "type": "feature",
+          "settings": {
+            "title": "Every category",
+            "text": "Academic, sports, cultural and discipline awards."
+          }
+        },
+        "b3": {
+          "type": "feature",
+          "settings": {
+            "title": "Crest & motto branding",
+            "text": "Custom centres and engraving."
+          }
+        },
+        "b4": {
+          "type": "feature",
+          "settings": {
+            "title": "Bulk & affordable",
+            "text": "Volume pricing from ₹25 a medal."
+          }
+        },
+        "b5": {
+          "type": "feature",
+          "settings": {
+            "title": "On-time, GST-invoiced",
+            "text": "Planned delivery with clean paperwork."
+          }
+        },
+        "b6": {
+          "type": "stat",
+          "settings": {
+            "number": "20+",
+            "label": "Years"
+          }
+        },
+        "b7": {
+          "type": "stat",
+          "settings": {
+            "number": "150+",
+            "label": "Brands served"
+          }
+        },
+        "b8": {
+          "type": "stat",
+          "settings": {
+            "number": "50–5,000+",
+            "label": "Pieces per order"
+          }
+        },
+        "b9": {
+          "type": "faq",
+          "settings": {
+            "question": "Do you supply both medals and trophies?",
+            "answer": "<p>Yes — bulk medals plus champion and category trophies, branded with your crest.</p>"
+          }
+        },
+        "b10": {
+          "type": "faq",
+          "settings": {
+            "question": "Can awards carry student names?",
+            "answer": "<p>Yes — individually engraved from your list.</p>"
+          }
+        },
+        "b11": {
+          "type": "faq",
+          "settings": {
+            "question": "Do you bundle annual day and sports day?",
+            "answer": "<p>Yes — see our <a href=\"/pages/annual-day-school-awards-package\">annual-day</a> and <a href=\"/pages/school-sports-day-awards-bundle\">sports-day</a> bundles.</p>"
+          }
+        },
+        "b12": {
+          "type": "faq",
+          "settings": {
+            "question": "Do you provide GST invoices?",
+            "answer": "<p>Yes — with documentation for institution accounts.</p>"
+          }
+        },
+        "b13": {
+          "type": "related_collection",
+          "settings": {
+            "heading": "Popular in this range",
+            "collection": "medals"
+          }
+        },
+        "b14": {
+          "type": "cta_band",
+          "settings": {
+            "heading": "Need awards for schools & colleges?",
+            "text": "Tell us your requirement and date — we'll share relevant past work and a quote, usually within the hour.",
+            "button_label": "Get a quote"
+          }
+        }
+      },
+      "block_order": [
+        "b0",
+        "b1",
+        "b2",
+        "b3",
+        "b4",
+        "b5",
+        "b6",
+        "b7",
+        "b8",
+        "b9",
+        "b10",
+        "b11",
+        "b12",
+        "b13",
+        "b14"
+      ]
+    }
+  },
+  "order": [
+    "feed"
+  ]
+}

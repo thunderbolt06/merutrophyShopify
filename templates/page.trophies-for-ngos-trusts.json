@@ -1,0 +1,141 @@
+{
+  "sections": {
+    "feed": {
+      "type": "feed-landing",
+      "settings": {
+        "eyebrow": "Audience · NGO",
+        "heading": "<h1><em>Awards & Mementos for NGOs & Trusts</em></h1>",
+        "subheading": "Affordable recognition awards, volunteer medals and donor/guest mementos for NGOs, trusts and community organisations — heartfelt, bulk-friendly and GST-invoiced. By Meru Trophy.",
+        "primary_cta_label": "Get a quote on WhatsApp",
+        "secondary_cta_label": "Browse the catalogue",
+        "secondary_cta_url": "/collections/all",
+        "breadcrumb_label": "Trophies for NGOs & Trusts",
+        "faq_heading": "Frequently asked questions",
+        "schema_type": "Service",
+        "schema_name": "Trophies for NGOs & Trusts",
+        "color_scheme": "scheme-1",
+        "features_heading": "Why we're a fit"
+      },
+      "blocks": {
+        "b0": {
+          "type": "quick_answer",
+          "settings": {
+            "label": "Quick answer",
+            "text": "<p>Meru Trophy supplies <strong>NGOs and trusts</strong> with affordable volunteer awards, donor and guest mementos and event trophies — heartfelt, bulk-friendly and GST-invoiced. WhatsApp +91 78922 07252.</p>"
+          }
+        },
+        "b1": {
+          "type": "rich_text",
+          "settings": {
+            "heading": "Awards built for NGOs & trusts",
+            "text": "<p>NGOs and trusts recognise volunteers, donors, guests and event participants — usually on a careful budget. We supply <strong>affordable engraved keepsakes, medals and mementos</strong> branded with your cause, in any quantity, with GST invoicing. See our <a href=\"/pages/volunteer-recognition-awards\">volunteer awards</a> and <a href=\"/pages/appreciation-memento-ideas\">appreciation mementos</a>.</p>"
+          }
+        },
+        "b2": {
+          "type": "feature",
+          "settings": {
+            "title": "Budget-friendly",
+            "text": "Sincere recognition that respects a budget."
+          }
+        },
+        "b3": {
+          "type": "feature",
+          "settings": {
+            "title": "Volunteers, donors & guests",
+            "text": "Medals, keepsakes and felicitation mementos."
+          }
+        },
+        "b4": {
+          "type": "feature",
+          "settings": {
+            "title": "Cause branding",
+            "text": "Your organisation's name and logo engraved."
+          }
+        },
+        "b5": {
+          "type": "feature",
+          "settings": {
+            "title": "Bulk-friendly + GST",
+            "text": "Any quantity with clean paperwork."
+          }
+        },
+        "b6": {
+          "type": "stat",
+          "settings": {
+            "number": "20+",
+            "label": "Years"
+          }
+        },
+        "b7": {
+          "type": "stat",
+          "settings": {
+            "number": "150+",
+            "label": "Brands served"
+          }
+        },
+        "b8": {
+          "type": "stat",
+          "settings": {
+            "number": "50–5,000+",
+            "label": "Pieces per order"
+          }
+        },
+        "b9": {
+          "type": "faq",
+          "settings": {
+            "question": "Do you have affordable options for NGOs?",
+            "answer": "<p>Yes — medals from ₹25 and engraved tokens from ₹150, in bulk.</p>"
+          }
+        },
+        "b10": {
+          "type": "faq",
+          "settings": {
+            "question": "Can you make donor and guest mementos?",
+            "answer": "<p>Yes — felicitation mementos for donors, chief guests and supporters.</p>"
+          }
+        },
+        "b11": {
+          "type": "faq",
+          "settings": {
+            "question": "Can you brand with our cause?",
+            "answer": "<p>Yes — your name and logo engraved free.</p>"
+          }
+        },
+        "b12": {
+          "type": "faq",
+          "settings": {
+            "question": "Do you provide GST invoices?",
+            "answer": "<p>Yes — on all orders.</p>"
+          }
+        },
+        "b13": {
+          "type": "cta_band",
+          "settings": {
+            "heading": "Need awards for NGOs & trusts?",
+            "text": "Tell us your requirement and date — we'll share relevant past work and a quote, usually within the hour.",
+            "button_label": "Get a quote"
+          }
+        }
+      },
+      "block_order": [
+        "b0",
+        "b1",
+        "b2",
+        "b3",
+        "b4",
+        "b5",
+        "b6",
+        "b7",
+        "b8",
+        "b9",
+        "b10",
+        "b11",
+        "b12",
+        "b13"
+      ]
+    }
+  },
+  "order": [
+    "feed"
+  ]
+}

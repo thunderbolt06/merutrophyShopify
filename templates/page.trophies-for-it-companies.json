@@ -1,0 +1,149 @@
+{
+  "sections": {
+    "feed": {
+      "type": "feed-landing",
+      "settings": {
+        "eyebrow": "Audience · IT",
+        "heading": "<h1><em>Trophies & Awards for IT Companies</em></h1>",
+        "subheading": "Employee recognition, hackathon and annual-award trophies for IT and tech companies — modern crystal and acrylic, logo-engraved, bulk-capable and GST-invoiced. Delivered across India by Meru Trophy.",
+        "primary_cta_label": "Get a quote on WhatsApp",
+        "secondary_cta_label": "Browse the catalogue",
+        "secondary_cta_url": "/collections/all",
+        "breadcrumb_label": "Trophies for IT Companies",
+        "faq_heading": "Frequently asked questions",
+        "schema_type": "Service",
+        "schema_name": "Trophies for IT Companies",
+        "color_scheme": "scheme-1",
+        "features_heading": "Why we're a fit"
+      },
+      "blocks": {
+        "b0": {
+          "type": "quick_answer",
+          "settings": {
+            "label": "Quick answer",
+            "text": "<p>Meru Trophy supplies <strong>recognition, hackathon and annual awards to IT and tech companies</strong> — modern crystal and acrylic pieces, logo-engraved, bulk-capable, GST-invoiced. Trusted by 150+ brands. WhatsApp +91 78922 07252.</p>"
+          }
+        },
+        "b1": {
+          "type": "rich_text",
+          "settings": {
+            "heading": "Awards built for IT companies",
+            "text": "<p>Tech companies recognise people year-round — sprint MVPs, hackathon winners, long service, top performers and annual awards. We supply <strong>modern, on-brand crystal and acrylic awards</strong> with your logo, in co-ordinated sets, with GST invoicing and reliable delivery to IT parks nationwide. Pair with our <a href=\"/pages/startup-hackathon-prize-kit\">hackathon kit</a> and <a href=\"/pages/corporate-annual-awards-night-package\">awards-night package</a>.</p>"
+          }
+        },
+        "b2": {
+          "type": "feature",
+          "settings": {
+            "title": "Modern, on-brand designs",
+            "text": "Sleek crystal and acrylic suited to tech."
+          }
+        },
+        "b3": {
+          "type": "feature",
+          "settings": {
+            "title": "Year-round recognition",
+            "text": "Spot awards, hackathons, long service, annual awards."
+          }
+        },
+        "b4": {
+          "type": "feature",
+          "settings": {
+            "title": "Bulk + GST",
+            "text": "Co-ordinated sets with clean procurement paperwork."
+          }
+        },
+        "b5": {
+          "type": "feature",
+          "settings": {
+            "title": "Delivery to IT parks",
+            "text": "Reliable nationwide dispatch."
+          }
+        },
+        "b6": {
+          "type": "stat",
+          "settings": {
+            "number": "20+",
+            "label": "Years"
+          }
+        },
+        "b7": {
+          "type": "stat",
+          "settings": {
+            "number": "150+",
+            "label": "Brands served"
+          }
+        },
+        "b8": {
+          "type": "stat",
+          "settings": {
+            "number": "50–5,000+",
+            "label": "Pieces per order"
+          }
+        },
+        "b9": {
+          "type": "faq",
+          "settings": {
+            "question": "Do you do hackathon and recognition awards?",
+            "answer": "<p>Yes — see our <a href=\"/pages/startup-hackathon-prize-kit\">hackathon kit</a> and <a href=\"/pages/employee-recognition-awards-program\">recognition program</a>.</p>"
+          }
+        },
+        "b10": {
+          "type": "faq",
+          "settings": {
+            "question": "Can you brand with our company logo?",
+            "answer": "<p>Yes — logo engraving/printing on every award.</p>"
+          }
+        },
+        "b11": {
+          "type": "faq",
+          "settings": {
+            "question": "Do you provide GST invoices?",
+            "answer": "<p>Yes — GST and PO handling for procurement.</p>"
+          }
+        },
+        "b12": {
+          "type": "faq",
+          "settings": {
+            "question": "Do you deliver to our offices nationwide?",
+            "answer": "<p>Yes — pan-India, plus international for overseas teams.</p>"
+          }
+        },
+        "b13": {
+          "type": "related_collection",
+          "settings": {
+            "heading": "Popular in this range",
+            "collection": "corporate-and-college-premium-trophies"
+          }
+        },
+        "b14": {
+          "type": "cta_band",
+          "settings": {
+            "heading": "Need awards for IT companies?",
+            "text": "Tell us your requirement and date — we'll share relevant past work and a quote, usually within the hour.",
+            "button_label": "Get a quote"
+          }
+        }
+      },
+      "block_order": [
+        "b0",
+        "b1",
+        "b2",
+        "b3",
+        "b4",
+        "b5",
+        "b6",
+        "b7",
+        "b8",
+        "b9",
+        "b10",
+        "b11",
+        "b12",
+        "b13",
+        "b14"
+      ]
+    }
+  },
+  "order": [
+    "feed"
+  ]
+}

@@ -1,0 +1,150 @@
+{
+  "sections": {
+    "feed": {
+      "type": "feed-landing",
+      "settings": {
+        "eyebrow": "Service · Design",
+        "heading": "<h1>The <em>Custom Trophy Design</em> Process</h1>",
+        "subheading": "From a rough idea to a finished, engraved trophy — how Meru Trophy designs custom trophies, mementos and awards, with a digital proof before anything is made. Pan-India.",
+        "primary_cta_label": "Get a quote on WhatsApp",
+        "secondary_cta_label": "Browse the catalogue",
+        "secondary_cta_url": "/collections/all",
+        "breadcrumb_label": "custom trophy design",
+        "faq_heading": "Frequently asked questions",
+        "schema_type": "Service",
+        "schema_name": "custom trophy design",
+        "color_scheme": "scheme-1",
+        "features_heading": "Why teams choose Meru Trophy",
+        "steps_heading": "The process, step by step"
+      },
+      "blocks": {
+        "b0": {
+          "type": "quick_answer",
+          "settings": {
+            "label": "Quick answer",
+            "text": "<p>Meru Trophy designs <strong>custom trophies and awards</strong> from your brief: share the occasion, material and budget, and we send design options and a <strong>digital proof for approval before production</strong>. No design charge. WhatsApp +91 78922 07252.</p>"
+          }
+        },
+        "b1": {
+          "type": "rich_text",
+          "settings": {
+            "heading": "How it works",
+            "text": "<p>Good awards start with good design. Tell us the occasion, quantity, material and any references; our team proposes shapes, finishes and engraving layouts, then sends a digital mockup so you see exactly how names, logos and citations will look before we make anything. Only after you approve do we go to production in our Bangalore workshop.</p>"
+          }
+        },
+        "b2": {
+          "type": "feature",
+          "settings": {
+            "title": "No design charge",
+            "text": "Design and engraving layout included with your order."
+          }
+        },
+        "b3": {
+          "type": "feature",
+          "settings": {
+            "title": "Digital proof first",
+            "text": "See a mockup before production — no surprises."
+          }
+        },
+        "b4": {
+          "type": "feature",
+          "settings": {
+            "title": "Any material",
+            "text": "Crystal, metal, acrylic, glass or wood."
+          }
+        },
+        "b5": {
+          "type": "feature",
+          "settings": {
+            "title": "References welcome",
+            "text": "Send sketches or examples and we'll match them."
+          }
+        },
+        "b6": {
+          "type": "step",
+          "settings": {
+            "title": "Tell us what you need",
+            "text": "WhatsApp, call or fill the form with occasion, quantity, material and date."
+          }
+        },
+        "b7": {
+          "type": "step",
+          "settings": {
+            "title": "Get options & a quote",
+            "text": "We share designs, matching past work and a clear quote — usually same day."
+          }
+        },
+        "b8": {
+          "type": "step",
+          "settings": {
+            "title": "Approve proof & advance",
+            "text": "Sign off a digital mockup; 50% advance via UPI/transfer/card with GST invoice."
+          }
+        },
+        "b9": {
+          "type": "step",
+          "settings": {
+            "title": "Made & dispatched",
+            "text": "Crafted in our Bangalore workshop, QC'd and tracked to your venue."
+          }
+        },
+        "b10": {
+          "type": "faq",
+          "settings": {
+            "question": "Do you charge for design?",
+            "answer": "<p>No — design and engraving layout are included with your order. You approve a proof before we make anything.</p>"
+          }
+        },
+        "b11": {
+          "type": "faq",
+          "settings": {
+            "question": "Can I send my own design or sketch?",
+            "answer": "<p>Yes — share sketches, references or a logo and we'll turn them into a finished award.</p>"
+          }
+        },
+        "b12": {
+          "type": "faq",
+          "settings": {
+            "question": "How many revisions do I get?",
+            "answer": "<p>We refine the proof until you're happy with names, logos and layout before production.</p>"
+          }
+        },
+        "b13": {
+          "type": "faq",
+          "settings": {
+            "question": "How long does design take?",
+            "answer": "<p>Usually same-day to 24 hours for the first proof after you share your brief.</p>"
+          }
+        },
+        "b14": {
+          "type": "cta_band",
+          "settings": {
+            "heading": "Ready to start?",
+            "text": "Message us your requirement and event date — we'll guide you through and quote, usually within the hour.",
+            "button_label": "Message us on WhatsApp"
+          }
+        }
+      },
+      "block_order": [
+        "b0",
+        "b1",
+        "b2",
+        "b3",
+        "b4",
+        "b5",
+        "b6",
+        "b7",
+        "b8",
+        "b9",
+        "b10",
+        "b11",
+        "b12",
+        "b13",
+        "b14"
+      ]
+    }
+  },
+  "order": [
+    "feed"
+  ]
+}

@@ -1,0 +1,168 @@
+{
+  "sections": {
+    "feed": {
+      "type": "feed-landing",
+      "settings": {
+        "eyebrow": "Product · Medals",
+        "heading": "<h1><em>Gold, Silver & Bronze Medals</em> in Bulk</h1>",
+        "subheading": "Classic 1st/2nd/3rd-place gold, silver and bronze medals in bulk for any competition — with custom centres, ribbons and event branding, from ₹25 a piece. Pan-India delivery.",
+        "primary_cta_label": "Get a quote on WhatsApp",
+        "secondary_cta_label": "Browse the catalogue",
+        "secondary_cta_url": "/collections/medals",
+        "breadcrumb_label": "Gold, Silver & Bronze Medals",
+        "faq_heading": "Frequently asked questions",
+        "schema_type": "Product",
+        "schema_name": "Gold, Silver & Bronze Medals",
+        "color_scheme": "scheme-1",
+        "features_heading": "Why order from Meru Trophy",
+        "price_heading": "Medal price guide",
+        "price_col1": "Item",
+        "price_col2": "Details",
+        "price_col3": "Price (from)",
+        "price_caption": "Indicative starting prices in India. Final price depends on size, material and engraving. Bulk discounts apply. GST invoice available.",
+        "schema_price_low": "25",
+        "schema_price_high": "120"
+      },
+      "blocks": {
+        "b0": {
+          "type": "quick_answer",
+          "settings": {
+            "label": "Quick answer",
+            "text": "<p>Meru Trophy supplies <strong>gold, silver and bronze medals</strong> in bulk from <strong>₹25 a piece</strong> — classic 1st/2nd/3rd-place sets with custom centres and ribbons for any competition. Delivered pan-India. WhatsApp +91 78922 07252.</p>"
+          }
+        },
+        "b1": {
+          "type": "rich_text",
+          "settings": {
+            "heading": "The classic podium set",
+            "text": "<p>Gold, silver and bronze is the universal language of placement. We supply the full podium set in metal and alloy finishes, with plain or custom centres carrying your event name, sport or logo, on custom-colour ribbons. Order balanced 1-2-3 sets for any number of events — sports days, tournaments, academic and cultural competitions.</p>"
+          }
+        },
+        "b2": {
+          "type": "feature",
+          "settings": {
+            "title": "True 1-2-3 podium set",
+            "text": "Balanced gold/silver/bronze in any quantity."
+          }
+        },
+        "b3": {
+          "type": "feature",
+          "settings": {
+            "title": "From ₹25 a medal",
+            "text": "Economical recognition at scale."
+          }
+        },
+        "b4": {
+          "type": "feature",
+          "settings": {
+            "title": "Custom centres & ribbons",
+            "text": "Event name, sport or logo and matching ribbons."
+          }
+        },
+        "b5": {
+          "type": "feature",
+          "settings": {
+            "title": "Any competition",
+            "text": "Sports, academic and cultural events."
+          }
+        },
+        "b6": {
+          "type": "price_row",
+          "settings": {
+            "item": "Standard podium medal",
+            "spec": "Plain gold/silver/bronze",
+            "price": "₹25"
+          }
+        },
+        "b7": {
+          "type": "price_row",
+          "settings": {
+            "item": "Custom-centre medal",
+            "spec": "Branded event medal",
+            "price": "₹45"
+          }
+        },
+        "b8": {
+          "type": "price_row",
+          "settings": {
+            "item": "Premium die-struck",
+            "spec": "Heavier, detailed medal",
+            "price": "₹120"
+          }
+        },
+        "b9": {
+          "type": "price_row",
+          "settings": {
+            "item": "Bulk set (500+)",
+            "spec": "Multi-event volume",
+            "price": "Volume price"
+          }
+        },
+        "b10": {
+          "type": "faq",
+          "settings": {
+            "question": "Can I order an even split of gold/silver/bronze?",
+            "answer": "<p>Yes — tell us the number of events and we'll supply a balanced 1-2-3 set with spares.</p>"
+          }
+        },
+        "b11": {
+          "type": "faq",
+          "settings": {
+            "question": "Can the medals carry our event branding?",
+            "answer": "<p>Yes — custom centres with your event name, sport or logo, plus colour-matched ribbons.</p>"
+          }
+        },
+        "b12": {
+          "type": "faq",
+          "settings": {
+            "question": "How low does the price go in bulk?",
+            "answer": "<p>From ₹25 each for standard medals, dropping further with quantity.</p>"
+          }
+        },
+        "b13": {
+          "type": "faq",
+          "settings": {
+            "question": "Do you provide GST invoices?",
+            "answer": "<p>Yes — GST invoices with PO handling.</p>"
+          }
+        },
+        "b14": {
+          "type": "related_collection",
+          "settings": {
+            "heading": "Popular gold, silver & bronze medals",
+            "collection": "medals"
+          }
+        },
+        "b15": {
+          "type": "cta_band",
+          "settings": {
+            "heading": "Need gold, silver & bronze medals for an event?",
+            "text": "Tell us the occasion, quantity and date — we'll send designs and a quote, usually within the hour.",
+            "button_label": "Get my quote"
+          }
+        }
+      },
+      "block_order": [
+        "b0",
+        "b1",
+        "b2",
+        "b3",
+        "b4",
+        "b5",
+        "b6",
+        "b7",
+        "b8",
+        "b9",
+        "b10",
+        "b11",
+        "b12",
+        "b13",
+        "b14",
+        "b15"
+      ]
+    }
+  },
+  "order": [
+    "feed"
+  ]
+}

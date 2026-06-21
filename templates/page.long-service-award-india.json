@@ -1,0 +1,160 @@
+{
+  "sections": {
+    "feed": {
+      "type": "feed-landing",
+      "settings": {
+        "eyebrow": "Occasion · Long Service",
+        "heading": "<h1><em>Long Service Awards</em> — 5, 10, 15 & 20 Years</h1>",
+        "subheading": "Recognise employee loyalty with milestone long-service awards — crystal and wood pieces engraved with years of service, name and your logo. Co-ordinated sets, GST-invoiced. By Meru Trophy.",
+        "primary_cta_label": "Get a quote on WhatsApp",
+        "secondary_cta_label": "Browse the catalogue",
+        "secondary_cta_url": "/collections/all",
+        "breadcrumb_label": "Long Service Awards (5/10/15 Years)",
+        "faq_heading": "Frequently asked questions",
+        "schema_type": "Product",
+        "schema_name": "Long Service Awards (5/10/15 Years)",
+        "color_scheme": "scheme-1",
+        "features_heading": "Popular choices",
+        "price_heading": "Long-service award price guide",
+        "price_col1": "Item",
+        "price_col2": "Details",
+        "price_col3": "Price (from)",
+        "price_caption": "Indicative starting prices in India. Final price depends on size, material and engraving. Bulk discounts apply. GST invoice available.",
+        "schema_price_low": "500",
+        "schema_price_high": "2500"
+      },
+      "blocks": {
+        "b0": {
+          "type": "quick_answer",
+          "settings": {
+            "label": "Quick answer",
+            "text": "<p><strong>Long service awards</strong> mark 5, 10, 15 and 20-year milestones with engraved crystal or wooden pieces showing the years, name and your logo — from around ₹500. Meru Trophy supplies co-ordinated, GST-invoiced sets. WhatsApp +91 78922 07252.</p>"
+          }
+        },
+        "b1": {
+          "type": "rich_text",
+          "settings": {
+            "heading": "The right award for the moment",
+            "text": "<p>Long-service awards reward loyalty and signal that your company values it. Each milestone (5/10/15/20 years) gets a tasteful crystal or wooden award engraved with the <strong>years, recipient name and your logo</strong>, often tiered so longer service feels more significant. We co-ordinate the whole programme with one GST invoice. Pair with our <a href=\"/pages/employee-recognition-awards-program\">recognition program</a>.</p>"
+          }
+        },
+        "b2": {
+          "type": "feature",
+          "settings": {
+            "title": "Milestone tiers",
+            "text": "Distinct awards for 5/10/15/20 years."
+          }
+        },
+        "b3": {
+          "type": "feature",
+          "settings": {
+            "title": "Years & name engraved",
+            "text": "\"10 Years of Service\" plus recipient name."
+          }
+        },
+        "b4": {
+          "type": "feature",
+          "settings": {
+            "title": "On-brand",
+            "text": "Your logo on every piece."
+          }
+        },
+        "b5": {
+          "type": "feature",
+          "settings": {
+            "title": "Co-ordinated programme",
+            "text": "Consistent design, one GST invoice."
+          }
+        },
+        "b6": {
+          "type": "price_row",
+          "settings": {
+            "item": "5-year award",
+            "spec": "Entry milestone",
+            "price": "₹500"
+          }
+        },
+        "b7": {
+          "type": "price_row",
+          "settings": {
+            "item": "10/15-year award",
+            "spec": "Mid milestones",
+            "price": "₹1,200"
+          }
+        },
+        "b8": {
+          "type": "price_row",
+          "settings": {
+            "item": "20-year+ award",
+            "spec": "Senior milestone",
+            "price": "₹2,500"
+          }
+        },
+        "b9": {
+          "type": "price_row",
+          "settings": {
+            "item": "Full programme",
+            "spec": "Tiered annual set",
+            "price": "Custom quote"
+          }
+        },
+        "b10": {
+          "type": "faq",
+          "settings": {
+            "question": "How should long-service awards be tiered?",
+            "answer": "<p>Distinct designs for 5/10/15/20 years, often increasing in size/premium feel with tenure; all engraved with years and name.</p>"
+          }
+        },
+        "b11": {
+          "type": "faq",
+          "settings": {
+            "question": "Can every award carry our logo?",
+            "answer": "<p>Yes — your logo on every piece, in a consistent design.</p>"
+          }
+        },
+        "b12": {
+          "type": "faq",
+          "settings": {
+            "question": "Do you provide GST invoices?",
+            "answer": "<p>Yes — GST invoices and PO handling for HR.</p>"
+          }
+        },
+        "b13": {
+          "type": "faq",
+          "settings": {
+            "question": "Can you run it annually?",
+            "answer": "<p>Yes — we keep your design on file to replenish each year. See our <a href=\"/pages/employee-recognition-awards-program\">recognition program</a>.</p>"
+          }
+        },
+        "b14": {
+          "type": "cta_band",
+          "settings": {
+            "heading": "Planning long service awards?",
+            "text": "Tell us the occasion, recipient and date — we'll share designs and a quote, usually within the hour.",
+            "button_label": "Get a quote"
+          }
+        }
+      },
+      "block_order": [
+        "b0",
+        "b1",
+        "b2",
+        "b3",
+        "b4",
+        "b5",
+        "b6",
+        "b7",
+        "b8",
+        "b9",
+        "b10",
+        "b11",
+        "b12",
+        "b13",
+        "b14"
+      ]
+    }
+  },
+  "order": [
+    "feed"
+  ]
+}

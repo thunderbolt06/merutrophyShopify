@@ -1,0 +1,136 @@
+{
+  "sections": {
+    "feed": {
+      "type": "feed-landing",
+      "settings": {
+        "eyebrow": "Pricing · Medals",
+        "heading": "<h1><em>Medal Price</em> in India (Per Piece & Bulk)</h1>",
+        "subheading": "What do medals cost per piece in India? A clear bulk price guide for sports, school and event medals — gold/silver/bronze, custom centres and finisher medals. Made by Meru Trophy.",
+        "primary_cta_label": "Get a quote on WhatsApp",
+        "secondary_cta_label": "Browse the catalogue",
+        "secondary_cta_url": "/collections/all",
+        "breadcrumb_label": "medal price",
+        "faq_heading": "Frequently asked questions",
+        "schema_type": "Product",
+        "schema_name": "medal price",
+        "color_scheme": "scheme-1",
+        "price_heading": "Medal price guide",
+        "price_col1": "Medal type",
+        "price_col2": "Details",
+        "price_col3": "Price (from)",
+        "price_caption": "Indicative starting prices in India. Final price depends on size, material and engraving. Bulk discounts apply. GST invoice available.",
+        "schema_price_low": "25",
+        "schema_price_high": "150"
+      },
+      "blocks": {
+        "b0": {
+          "type": "quick_answer",
+          "settings": {
+            "label": "Quick answer",
+            "text": "<p>In India, <strong>medals start at around ₹25 per piece</strong> in bulk for standard sports medals, ₹45 for custom-centre medals, and ₹90+ for large finisher medals — falling further at higher quantities. Meru Trophy quotes exact per-piece rates on WhatsApp (+91 78922 07252).</p>"
+          }
+        },
+        "b1": {
+          "type": "rich_text",
+          "settings": {
+            "heading": "What you'll pay and why",
+            "text": "<p>Medal pricing is driven by <strong>size, finish, custom centre and quantity</strong>. Standard gold/silver/bronze medals are the most economical; adding a custom centre with your event or logo costs a little more; large die-struck finisher medals cost the most. All prices fall with volume — the more you order, the lower the per-piece rate.</p>"
+          }
+        },
+        "b2": {
+          "type": "price_row",
+          "settings": {
+            "item": "Standard sports medal",
+            "spec": "Plain gold/silver/bronze",
+            "price": "₹25"
+          }
+        },
+        "b3": {
+          "type": "price_row",
+          "settings": {
+            "item": "Custom-centre medal",
+            "spec": "Your event/logo on the face",
+            "price": "₹45"
+          }
+        },
+        "b4": {
+          "type": "price_row",
+          "settings": {
+            "item": "Die-struck medal",
+            "spec": "Heavier, detailed",
+            "price": "₹120"
+          }
+        },
+        "b5": {
+          "type": "price_row",
+          "settings": {
+            "item": "Marathon finisher medal",
+            "spec": "Large, premium piece",
+            "price": "₹90"
+          }
+        },
+        "b6": {
+          "type": "price_row",
+          "settings": {
+            "item": "Bulk (1,000+)",
+            "spec": "Large event volume",
+            "price": "Lower per-piece"
+          }
+        },
+        "b7": {
+          "type": "faq",
+          "settings": {
+            "question": "How much is one medal in India?",
+            "answer": "<p>Standard medals start around ₹25 each in bulk; custom and finisher medals cost more.</p>"
+          }
+        },
+        "b8": {
+          "type": "faq",
+          "settings": {
+            "question": "How low does the price go in bulk?",
+            "answer": "<p>Per-piece rates fall steadily with quantity — share your count for an exact rate.</p>"
+          }
+        },
+        "b9": {
+          "type": "faq",
+          "settings": {
+            "question": "Do medals include ribbons?",
+            "answer": "<p>Yes — custom-colour ribbons are included; lanyards on request.</p>"
+          }
+        },
+        "b10": {
+          "type": "faq",
+          "settings": {
+            "question": "Can I add our event logo?",
+            "answer": "<p>Yes — custom medal centres carry your event name, sport or logo.</p>"
+          }
+        },
+        "b11": {
+          "type": "cta_band",
+          "settings": {
+            "heading": "Want an exact price?",
+            "text": "Send your item, quantity and engraving — we'll send a precise quote, usually within the hour.",
+            "button_label": "Get an exact quote"
+          }
+        }
+      },
+      "block_order": [
+        "b0",
+        "b1",
+        "b2",
+        "b3",
+        "b4",
+        "b5",
+        "b6",
+        "b7",
+        "b8",
+        "b9",
+        "b10",
+        "b11"
+      ]
+    }
+  },
+  "order": [
+    "feed"
+  ]
+}

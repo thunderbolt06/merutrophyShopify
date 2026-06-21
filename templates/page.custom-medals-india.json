@@ -1,0 +1,168 @@
+{
+  "sections": {
+    "feed": {
+      "type": "feed-landing",
+      "settings": {
+        "eyebrow": "Product · Medals",
+        "heading": "<h1><em>Custom Medals</em> in Bulk — Sports, School & Events</h1>",
+        "subheading": "Custom gold, silver and bronze medals with ribbons and lanyards for sports days, marathons, school events and tournaments — from ₹25 a piece in bulk, engraved or printed with your event. Pan-India delivery.",
+        "primary_cta_label": "Get a quote on WhatsApp",
+        "secondary_cta_label": "Browse the catalogue",
+        "secondary_cta_url": "/collections/medals",
+        "breadcrumb_label": "Custom Medals India",
+        "faq_heading": "Frequently asked questions",
+        "schema_type": "Product",
+        "schema_name": "Custom Medals",
+        "color_scheme": "scheme-1",
+        "features_heading": "Why order from Meru Trophy",
+        "price_heading": "Medal price guide",
+        "price_col1": "Item",
+        "price_col2": "Details",
+        "price_col3": "Price (from)",
+        "price_caption": "Indicative starting prices in India. Final price depends on size, material and engraving. Bulk discounts apply. GST invoice available.",
+        "schema_price_low": "25",
+        "schema_price_high": "150"
+      },
+      "blocks": {
+        "b0": {
+          "type": "quick_answer",
+          "settings": {
+            "label": "Quick answer",
+            "text": "<p>Meru Trophy makes <strong>custom medals</strong> with ribbons and lanyards from <strong>₹25 per piece</strong> in bulk — gold, silver and bronze, with your event, logo or recipient engraved or printed. Ideal for sports days, marathons and tournaments. Made in Bangalore, delivered pan-India. WhatsApp +91 78922 07252.</p>"
+          }
+        },
+        "b1": {
+          "type": "rich_text",
+          "settings": {
+            "heading": "Medals for every finisher",
+            "text": "<p>Medals are the most economical way to recognise large groups. We supply <strong>metal and alloy medals</strong> in gold/silver/bronze finishes with custom centres, ribbons and lanyards. Add your event name, logo or sport, and order from a handful to several thousand. Marathon finisher medals, school sports-day sets and tournament medals are everyday work for us.</p>"
+          }
+        },
+        "b2": {
+          "type": "feature",
+          "settings": {
+            "title": "From ₹25 in bulk",
+            "text": "The most cost-effective recognition for big groups."
+          }
+        },
+        "b3": {
+          "type": "feature",
+          "settings": {
+            "title": "Ribbons & lanyards",
+            "text": "Custom-colour ribbons and printed lanyards included."
+          }
+        },
+        "b4": {
+          "type": "feature",
+          "settings": {
+            "title": "Custom centres & logos",
+            "text": "Your event, sport or logo on the medal face."
+          }
+        },
+        "b5": {
+          "type": "feature",
+          "settings": {
+            "title": "Any quantity",
+            "text": "From a few dozen to several thousand pieces."
+          }
+        },
+        "b6": {
+          "type": "price_row",
+          "settings": {
+            "item": "Standard sports medal",
+            "spec": "Sports day / tournament",
+            "price": "₹25"
+          }
+        },
+        "b7": {
+          "type": "price_row",
+          "settings": {
+            "item": "Custom-centre medal",
+            "spec": "Branded event medal",
+            "price": "₹45"
+          }
+        },
+        "b8": {
+          "type": "price_row",
+          "settings": {
+            "item": "Marathon finisher medal",
+            "spec": "Large, premium finisher piece",
+            "price": "₹90"
+          }
+        },
+        "b9": {
+          "type": "price_row",
+          "settings": {
+            "item": "Premium custom medal",
+            "spec": "Die-struck, multi-colour",
+            "price": "₹150"
+          }
+        },
+        "b10": {
+          "type": "faq",
+          "settings": {
+            "question": "How cheap are medals in bulk?",
+            "answer": "<p>Standard sports medals start at around ₹25 each and fall further at higher quantities. Custom-centre and marathon medals cost a little more.</p>"
+          }
+        },
+        "b11": {
+          "type": "faq",
+          "settings": {
+            "question": "Do medals come with ribbons?",
+            "answer": "<p>Yes — custom-colour ribbons are included, and we can add printed lanyards on request.</p>"
+          }
+        },
+        "b12": {
+          "type": "faq",
+          "settings": {
+            "question": "Can you put our event logo on the medal?",
+            "answer": "<p>Yes — custom medal centres carry your event name, sport or logo, printed or die-struck.</p>"
+          }
+        },
+        "b13": {
+          "type": "faq",
+          "settings": {
+            "question": "Do you provide GST invoices?",
+            "answer": "<p>Yes — GST invoices on all orders, with PO handling for schools and corporates.</p>"
+          }
+        },
+        "b14": {
+          "type": "related_collection",
+          "settings": {
+            "heading": "Popular custom medals",
+            "collection": "medals"
+          }
+        },
+        "b15": {
+          "type": "cta_band",
+          "settings": {
+            "heading": "Need custom medals for an event?",
+            "text": "Tell us the occasion, quantity and date — we'll send designs and a quote, usually within the hour.",
+            "button_label": "Get my quote"
+          }
+        }
+      },
+      "block_order": [
+        "b0",
+        "b1",
+        "b2",
+        "b3",
+        "b4",
+        "b5",
+        "b6",
+        "b7",
+        "b8",
+        "b9",
+        "b10",
+        "b11",
+        "b12",
+        "b13",
+        "b14",
+        "b15"
+      ]
+    }
+  },
+  "order": [
+    "feed"
+  ]
+}

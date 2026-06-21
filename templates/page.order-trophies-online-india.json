@@ -1,0 +1,150 @@
+{
+  "sections": {
+    "feed": {
+      "type": "feed-landing",
+      "settings": {
+        "eyebrow": "Service · Ordering",
+        "heading": "<h1>How to <em>Order Trophies Online</em> in India</h1>",
+        "subheading": "A simple step-by-step guide to ordering custom trophies, medals and mementos online in India — from sharing your brief to delivery, with proofs and GST invoicing along the way.",
+        "primary_cta_label": "Get a quote on WhatsApp",
+        "secondary_cta_label": "Order on WhatsApp",
+        "secondary_cta_url": "/pages/whatsapp-trophy-ordering",
+        "breadcrumb_label": "ordering trophies online",
+        "faq_heading": "Frequently asked questions",
+        "schema_type": "Service",
+        "schema_name": "ordering trophies online",
+        "color_scheme": "scheme-1",
+        "features_heading": "Why teams choose Meru Trophy",
+        "steps_heading": "The process, step by step"
+      },
+      "blocks": {
+        "b0": {
+          "type": "quick_answer",
+          "settings": {
+            "label": "Quick answer",
+            "text": "<p>To <strong>order trophies online in India</strong> with Meru Trophy: share your requirement on WhatsApp (+91 78922 07252) or our contact form, approve a design proof and quote, pay a 50% advance with GST invoice, and we craft and deliver pan-India. Simple and fully documented.</p>"
+          }
+        },
+        "b1": {
+          "type": "rich_text",
+          "settings": {
+            "heading": "How it works",
+            "text": "<p>Ordering custom awards online is straightforward with us. You don't navigate a complicated configurator — you tell us what you need, we design and quote, you approve a proof, and we make and deliver. Everything is documented: spec, mockup, GST invoice and tracking. Here's the full process.</p>"
+          }
+        },
+        "b2": {
+          "type": "feature",
+          "settings": {
+            "title": "Simple brief",
+            "text": "No complex configurator — just tell us what you need."
+          }
+        },
+        "b3": {
+          "type": "feature",
+          "settings": {
+            "title": "Proof before production",
+            "text": "Approve a digital mockup first."
+          }
+        },
+        "b4": {
+          "type": "feature",
+          "settings": {
+            "title": "GST invoice",
+            "text": "Documented, B2B-friendly ordering."
+          }
+        },
+        "b5": {
+          "type": "feature",
+          "settings": {
+            "title": "Delivered & tracked",
+            "text": "Pan-India dispatch with tracking."
+          }
+        },
+        "b6": {
+          "type": "step",
+          "settings": {
+            "title": "Tell us what you need",
+            "text": "WhatsApp, call or fill the form with occasion, quantity, material and date."
+          }
+        },
+        "b7": {
+          "type": "step",
+          "settings": {
+            "title": "Get options & a quote",
+            "text": "We share designs, matching past work and a clear quote — usually same day."
+          }
+        },
+        "b8": {
+          "type": "step",
+          "settings": {
+            "title": "Approve proof & advance",
+            "text": "Sign off a digital mockup; 50% advance via UPI/transfer/card with GST invoice."
+          }
+        },
+        "b9": {
+          "type": "step",
+          "settings": {
+            "title": "Made & dispatched",
+            "text": "Crafted in our Bangalore workshop, QC'd and tracked to your venue."
+          }
+        },
+        "b10": {
+          "type": "faq",
+          "settings": {
+            "question": "How do I place an order online?",
+            "answer": "<p>WhatsApp +91 78922 07252 or use our contact form with your requirement; we handle design, quote, proof and delivery.</p>"
+          }
+        },
+        "b11": {
+          "type": "faq",
+          "settings": {
+            "question": "Do I pay fully upfront?",
+            "answer": "<p>Typically a 50% advance to start production, balance before dispatch, with a GST invoice.</p>"
+          }
+        },
+        "b12": {
+          "type": "faq",
+          "settings": {
+            "question": "Will I see the design before it's made?",
+            "answer": "<p>Yes — a digital proof for approval before production.</p>"
+          }
+        },
+        "b13": {
+          "type": "faq",
+          "settings": {
+            "question": "Can I order from outside Bangalore?",
+            "answer": "<p>Yes — we deliver pan-India and ship internationally.</p>"
+          }
+        },
+        "b14": {
+          "type": "cta_band",
+          "settings": {
+            "heading": "Ready to start?",
+            "text": "Message us your requirement and event date — we'll guide you through and quote, usually within the hour.",
+            "button_label": "Message us on WhatsApp"
+          }
+        }
+      },
+      "block_order": [
+        "b0",
+        "b1",
+        "b2",
+        "b3",
+        "b4",
+        "b5",
+        "b6",
+        "b7",
+        "b8",
+        "b9",
+        "b10",
+        "b11",
+        "b12",
+        "b13",
+        "b14"
+      ]
+    }
+  },
+  "order": [
+    "feed"
+  ]
+}

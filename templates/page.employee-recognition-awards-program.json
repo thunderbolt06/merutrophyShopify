@@ -1,0 +1,193 @@
+{
+  "sections": {
+    "feed": {
+      "type": "feed-landing",
+      "settings": {
+        "eyebrow": "Combo · Corporate",
+        "heading": "<h1><em>Employee Recognition Awards</em> Program</h1>",
+        "subheading": "A year-round recognition kit — spot awards, monthly winners, quarterly and annual trophies in one co-ordinated, logo-engraved program. GST-invoiced, replenished on demand, delivered across India.",
+        "primary_cta_label": "Get a quote on WhatsApp",
+        "secondary_cta_label": "Browse the catalogue",
+        "secondary_cta_url": "/collections/all",
+        "breadcrumb_label": "Employee Recognition Awards Program",
+        "faq_heading": "Frequently asked questions",
+        "schema_type": "Product",
+        "schema_name": "Employee Recognition Awards Program",
+        "color_scheme": "scheme-1",
+        "features_heading": "What's inside the package",
+        "steps_heading": "How ordering works",
+        "price_heading": "Sample package pricing",
+        "price_col1": "Package",
+        "price_col2": "What's included",
+        "price_col3": "Price (from)",
+        "price_caption": "Indicative starting prices; per-piece rates fall sharply at higher quantities. GST invoice included.",
+        "schema_price_low": "299",
+        "schema_price_high": "3500"
+      },
+      "blocks": {
+        "b0": {
+          "type": "quick_answer",
+          "settings": {
+            "label": "Quick answer",
+            "text": "<p>Meru Trophy supplies <strong>complete employee-recognition award programs</strong> — spot, monthly, quarterly and annual awards as one co-ordinated, logo-engraved kit, from around <strong>₹299 a piece</strong>. GST-invoiced and replenished on demand. WhatsApp +91 78922 07252.</p>"
+          }
+        },
+        "b1": {
+          "type": "rich_text",
+          "settings": {
+            "heading": "One bundle for the whole event",
+            "text": "<p>Recognition works best when it's consistent all year. We build a co-ordinated program: affordable spot awards, monthly winner trophies, quarterly recognition and a flagship annual award — all sharing one design language and your logo. Reorder any tier on demand so the program never runs dry.</p>"
+          }
+        },
+        "b2": {
+          "type": "feature",
+          "settings": {
+            "title": "Every tier covered",
+            "text": "Spot, monthly, quarterly and annual awards."
+          }
+        },
+        "b3": {
+          "type": "feature",
+          "settings": {
+            "title": "One design language",
+            "text": "Consistent, on-brand look across the program."
+          }
+        },
+        "b4": {
+          "type": "feature",
+          "settings": {
+            "title": "Reorder on demand",
+            "text": "Replenish any tier as you recognise more people."
+          }
+        },
+        "b5": {
+          "type": "feature",
+          "settings": {
+            "title": "Logo & citations",
+            "text": "Brand logo and citations engraved on every piece."
+          }
+        },
+        "b6": {
+          "type": "price_row",
+          "settings": {
+            "item": "Spot award",
+            "spec": "Instant recognition",
+            "price": "₹299"
+          }
+        },
+        "b7": {
+          "type": "price_row",
+          "settings": {
+            "item": "Monthly winner",
+            "spec": "Employee of the Month",
+            "price": "₹600"
+          }
+        },
+        "b8": {
+          "type": "price_row",
+          "settings": {
+            "item": "Quarterly award",
+            "spec": "Top performer",
+            "price": "₹1,500"
+          }
+        },
+        "b9": {
+          "type": "price_row",
+          "settings": {
+            "item": "Annual flagship",
+            "spec": "Employee of the Year",
+            "price": "₹3,500"
+          }
+        },
+        "b10": {
+          "type": "step",
+          "settings": {
+            "title": "Share your award list",
+            "text": "WhatsApp us your categories, quantities and event date."
+          }
+        },
+        "b11": {
+          "type": "step",
+          "settings": {
+            "title": "Pick designs & budget",
+            "text": "We send matching options and a single combined quote."
+          }
+        },
+        "b12": {
+          "type": "step",
+          "settings": {
+            "title": "Approve engraving proof",
+            "text": "Confirm names, logos and titles on a digital mockup."
+          }
+        },
+        "b13": {
+          "type": "step",
+          "settings": {
+            "title": "Delivered together",
+            "text": "Co-ordinated, boxed and shipped pan-India in time for your event."
+          }
+        },
+        "b14": {
+          "type": "faq",
+          "settings": {
+            "question": "Can we reorder individual tiers later?",
+            "answer": "<p>Yes — we keep your design on file so you can replenish spot, monthly or any tier on demand.</p>"
+          }
+        },
+        "b15": {
+          "type": "faq",
+          "settings": {
+            "question": "Is everything on-brand?",
+            "answer": "<p>Yes — one design language and your logo across the whole program.</p>"
+          }
+        },
+        "b16": {
+          "type": "faq",
+          "settings": {
+            "question": "Do you handle the annual awards night too?",
+            "answer": "<p>Yes — pair this with our <a href=\"/pages/corporate-annual-awards-night-package\">awards-night package</a> for the big event.</p>"
+          }
+        },
+        "b17": {
+          "type": "faq",
+          "settings": {
+            "question": "Do you provide GST invoices?",
+            "answer": "<p>Yes — GST invoices and PO handling for HR procurement.</p>"
+          }
+        },
+        "b18": {
+          "type": "cta_band",
+          "settings": {
+            "heading": "Planning an employee recognition program?",
+            "text": "Send your award list and date — we'll design a matching combo and quote, usually within the hour.",
+            "button_label": "Get my combo quote"
+          }
+        }
+      },
+      "block_order": [
+        "b0",
+        "b1",
+        "b2",
+        "b3",
+        "b4",
+        "b5",
+        "b6",
+        "b7",
+        "b8",
+        "b9",
+        "b10",
+        "b11",
+        "b12",
+        "b13",
+        "b14",
+        "b15",
+        "b16",
+        "b17",
+        "b18"
+      ]
+    }
+  },
+  "order": [
+    "feed"
+  ]
+}

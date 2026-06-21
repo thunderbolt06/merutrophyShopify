@@ -1,0 +1,150 @@
+{
+  "sections": {
+    "feed": {
+      "type": "feed-landing",
+      "settings": {
+        "eyebrow": "Service · B2B",
+        "heading": "<h1><em>GST-Invoiced Corporate Trophy Orders</em></h1>",
+        "subheading": "Proper GST invoices, PO-based ordering and procurement-friendly documentation for corporate, school, college and government trophy and award orders. Pan-India delivery from Bangalore.",
+        "primary_cta_label": "Get a quote on WhatsApp",
+        "secondary_cta_label": "Browse the catalogue",
+        "secondary_cta_url": "/collections/all",
+        "breadcrumb_label": "GST-invoiced corporate orders",
+        "faq_heading": "Frequently asked questions",
+        "schema_type": "Service",
+        "schema_name": "GST-invoiced corporate orders",
+        "color_scheme": "scheme-1",
+        "features_heading": "Why teams choose Meru Trophy",
+        "steps_heading": "The process, step by step"
+      },
+      "blocks": {
+        "b0": {
+          "type": "quick_answer",
+          "settings": {
+            "label": "Quick answer",
+            "text": "<p>Meru Trophy provides <strong>GST invoices and PO-based ordering</strong> on all B2B trophy and award orders, with documentation suited to corporate, institutional and government procurement. Delivered pan-India. WhatsApp +91 78922 07252.</p>"
+          }
+        },
+        "b1": {
+          "type": "rich_text",
+          "settings": {
+            "heading": "How it works",
+            "text": "<p>B2B buyers need clean paperwork. Every corporate order comes with a <strong>proper GST invoice</strong>, and we support <strong>purchase-order-based ordering</strong>, advance/credit terms by arrangement, and the tender-style documentation that schools, colleges, PSUs and government departments require. One point of contact handles your spec, proof, invoice and delivery.</p>"
+          }
+        },
+        "b2": {
+          "type": "feature",
+          "settings": {
+            "title": "Proper GST invoices",
+            "text": "Compliant invoicing on every B2B order."
+          }
+        },
+        "b3": {
+          "type": "feature",
+          "settings": {
+            "title": "PO-based ordering",
+            "text": "We accept and process purchase orders."
+          }
+        },
+        "b4": {
+          "type": "feature",
+          "settings": {
+            "title": "Procurement-friendly",
+            "text": "Documentation for institutional and government buyers."
+          }
+        },
+        "b5": {
+          "type": "feature",
+          "settings": {
+            "title": "Single point of contact",
+            "text": "One owner for spec, proof, invoice and delivery."
+          }
+        },
+        "b6": {
+          "type": "step",
+          "settings": {
+            "title": "Tell us what you need",
+            "text": "WhatsApp, call or fill the form with occasion, quantity, material and date."
+          }
+        },
+        "b7": {
+          "type": "step",
+          "settings": {
+            "title": "Get options & a quote",
+            "text": "We share designs, matching past work and a clear quote — usually same day."
+          }
+        },
+        "b8": {
+          "type": "step",
+          "settings": {
+            "title": "Approve proof & advance",
+            "text": "Sign off a digital mockup; 50% advance via UPI/transfer/card with GST invoice."
+          }
+        },
+        "b9": {
+          "type": "step",
+          "settings": {
+            "title": "Made & dispatched",
+            "text": "Crafted in our Bangalore workshop, QC'd and tracked to your venue."
+          }
+        },
+        "b10": {
+          "type": "faq",
+          "settings": {
+            "question": "Do you provide GST invoices?",
+            "answer": "<p>Yes — a compliant GST invoice on every B2B order.</p>"
+          }
+        },
+        "b11": {
+          "type": "faq",
+          "settings": {
+            "question": "Can you work against a purchase order?",
+            "answer": "<p>Yes — send your PO and we'll process the order against it.</p>"
+          }
+        },
+        "b12": {
+          "type": "faq",
+          "settings": {
+            "question": "Do you handle government/tender documentation?",
+            "answer": "<p>Yes — we regularly supply PSUs and government departments with the documentation they need.</p>"
+          }
+        },
+        "b13": {
+          "type": "faq",
+          "settings": {
+            "question": "Do you offer credit terms?",
+            "answer": "<p>Advance/credit terms can be arranged for established corporate accounts.</p>"
+          }
+        },
+        "b14": {
+          "type": "cta_band",
+          "settings": {
+            "heading": "Ready to start?",
+            "text": "Message us your requirement and event date — we'll guide you through and quote, usually within the hour.",
+            "button_label": "Message us on WhatsApp"
+          }
+        }
+      },
+      "block_order": [
+        "b0",
+        "b1",
+        "b2",
+        "b3",
+        "b4",
+        "b5",
+        "b6",
+        "b7",
+        "b8",
+        "b9",
+        "b10",
+        "b11",
+        "b12",
+        "b13",
+        "b14"
+      ]
+    }
+  },
+  "order": [
+    "feed"
+  ]
+}

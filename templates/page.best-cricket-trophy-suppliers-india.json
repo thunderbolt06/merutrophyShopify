@@ -1,0 +1,165 @@
+{
+  "sections": {
+    "feed": {
+      "type": "feed-landing",
+      "settings": {
+        "eyebrow": "Compare · Cricket",
+        "heading": "<h1><em>Best Cricket Trophy Suppliers in India</em></h1>",
+        "subheading": "Who's the best supplier for cricket trophies and tournament awards? The criteria — full awards range, combo pricing, replicas, branding and fast delivery — and how Meru Trophy compares.",
+        "primary_cta_label": "Get a quote on WhatsApp",
+        "secondary_cta_label": "Browse the catalogue",
+        "secondary_cta_url": "/collections/all",
+        "breadcrumb_label": "best cricket trophy suppliers",
+        "faq_heading": "Frequently asked questions",
+        "schema_type": "Service",
+        "schema_name": "best cricket trophy suppliers",
+        "color_scheme": "scheme-1",
+        "features_heading": "The criteria that matter"
+      },
+      "blocks": {
+        "b0": {
+          "type": "quick_answer",
+          "settings": {
+            "label": "Quick answer",
+            "text": "<p>The <strong>best cricket trophy suppliers</strong> offer the full awards range (cups, individual awards, replicas, medals), combo pricing, free tournament branding and fast delivery. Meru Trophy does all of this from ₹150. WhatsApp +91 78922 07252.</p>"
+          }
+        },
+        "b1": {
+          "type": "rich_text",
+          "settings": {
+            "heading": "What to look for",
+            "text": "<p>Cricket events need more than one trophy, so the best suppliers bundle the whole prize list affordably, brand it with your tournament, and deliver in time for the final. Here's what to look for.</p>"
+          }
+        },
+        "b2": {
+          "type": "feature",
+          "settings": {
+            "title": "Full awards range",
+            "text": "Cups, MoM/best-player awards, replicas and medals."
+          }
+        },
+        "b3": {
+          "type": "feature",
+          "settings": {
+            "title": "Combo pricing",
+            "text": "Bundled prize sets at the best per-piece rate."
+          }
+        },
+        "b4": {
+          "type": "feature",
+          "settings": {
+            "title": "Replica capability",
+            "text": "IPL/World-Cup-style cups for your event."
+          }
+        },
+        "b5": {
+          "type": "feature",
+          "settings": {
+            "title": "Free tournament branding",
+            "text": "Event name, sponsor and winners engraved."
+          }
+        },
+        "b6": {
+          "type": "feature",
+          "settings": {
+            "title": "Budget to premium",
+            "text": "Tennis-ball options through premier-final cups."
+          }
+        },
+        "b7": {
+          "type": "feature",
+          "settings": {
+            "title": "Fast delivery",
+            "text": "In time for finals day, pan-India."
+          }
+        },
+        "b8": {
+          "type": "rich_text",
+          "settings": {
+            "heading": "How Meru Trophy compares",
+            "text": "<p>Meru Trophy supplies the complete cricket range with combo pricing, replica cups, free branding and fast pan-India delivery. See our <a href=\"/pages/cricket-tournament-trophy-combo\">cricket combo packs</a>, <a href=\"/pages/cricket-league-season-awards-kit\">season kits</a> and <a href=\"/pages/ipl-trophy-price\">replica cups</a>.</p>"
+          }
+        },
+        "b9": {
+          "type": "stat",
+          "settings": {
+            "number": "20+",
+            "label": "Years"
+          }
+        },
+        "b10": {
+          "type": "stat",
+          "settings": {
+            "number": "150+",
+            "label": "Brands served"
+          }
+        },
+        "b11": {
+          "type": "stat",
+          "settings": {
+            "number": "Pan-India",
+            "label": "Delivery + global"
+          }
+        },
+        "b12": {
+          "type": "faq",
+          "settings": {
+            "question": "Who's the best cricket trophy supplier in India?",
+            "answer": "<p>One offering the full range, combo pricing, replicas, free branding and fast delivery — Meru Trophy fits this.</p>"
+          }
+        },
+        "b13": {
+          "type": "faq",
+          "settings": {
+            "question": "Can you bundle all tournament prizes?",
+            "answer": "<p>Yes — see our <a href=\"/pages/cricket-tournament-trophy-combo\">combo packs</a>.</p>"
+          }
+        },
+        "b14": {
+          "type": "faq",
+          "settings": {
+            "question": "Do you make IPL-style replica cups?",
+            "answer": "<p>Yes — see our <a href=\"/pages/ipl-trophy-price\">IPL replica page</a>.</p>"
+          }
+        },
+        "b15": {
+          "type": "faq",
+          "settings": {
+            "question": "Can you deliver before our final?",
+            "answer": "<p>Yes — tell us the date and we'll plan dispatch.</p>"
+          }
+        },
+        "b16": {
+          "type": "cta_band",
+          "settings": {
+            "heading": "Comparing suppliers?",
+            "text": "Send your event and quantity — we'll show relevant past work and an honest quote so you can compare like-for-like.",
+            "button_label": "Talk to Meru Trophy"
+          }
+        }
+      },
+      "block_order": [
+        "b0",
+        "b1",
+        "b2",
+        "b3",
+        "b4",
+        "b5",
+        "b6",
+        "b7",
+        "b8",
+        "b9",
+        "b10",
+        "b11",
+        "b12",
+        "b13",
+        "b14",
+        "b15",
+        "b16"
+      ]
+    }
+  },
+  "order": [
+    "feed"
+  ]
+}

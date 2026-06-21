@@ -1,0 +1,193 @@
+{
+  "sections": {
+    "feed": {
+      "type": "feed-landing",
+      "settings": {
+        "eyebrow": "Combo · Corporate",
+        "heading": "<h1><em>Corporate Offsite & Team Awards Kit</em></h1>",
+        "subheading": "Fun and formal awards for offsites and team events — team trophies, individual recognitions and light-hearted titles in one branded kit. GST-invoiced, delivered across India.",
+        "primary_cta_label": "Get a quote on WhatsApp",
+        "secondary_cta_label": "Browse the catalogue",
+        "secondary_cta_url": "/collections/all",
+        "breadcrumb_label": "Corporate Offsite Awards Kit",
+        "faq_heading": "Frequently asked questions",
+        "schema_type": "Product",
+        "schema_name": "Corporate Offsite Awards Kit",
+        "color_scheme": "scheme-1",
+        "features_heading": "What's inside the package",
+        "steps_heading": "How ordering works",
+        "price_heading": "Sample package pricing",
+        "price_col1": "Package",
+        "price_col2": "What's included",
+        "price_col3": "Price (from)",
+        "price_caption": "Indicative starting prices; per-piece rates fall sharply at higher quantities. GST invoice included.",
+        "schema_price_low": "299",
+        "schema_price_high": "13000"
+      },
+      "blocks": {
+        "b0": {
+          "type": "quick_answer",
+          "settings": {
+            "label": "Quick answer",
+            "text": "<p>Meru Trophy bundles a <strong>corporate offsite awards kit</strong> — team trophies, individual recognitions and fun titles in one branded set, from around <strong>₹299 a piece</strong>. GST-invoiced, delivered pan-India. WhatsApp +91 78922 07252.</p>"
+          }
+        },
+        "b1": {
+          "type": "rich_text",
+          "settings": {
+            "heading": "One bundle for the whole event",
+            "text": "<p>Offsites mix serious recognition with fun. Our kit blends team-winner trophies and individual achievement awards with light-hearted titles (Best Team Player, Rising Star, MVP), all carrying your logo and event name — one co-ordinated, GST-invoiced order ready for the offsite.</p>"
+          }
+        },
+        "b2": {
+          "type": "feature",
+          "settings": {
+            "title": "Team & individual awards",
+            "text": "Trophies for winning teams and standout individuals."
+          }
+        },
+        "b3": {
+          "type": "feature",
+          "settings": {
+            "title": "Fun + formal",
+            "text": "Serious recognition alongside light-hearted titles."
+          }
+        },
+        "b4": {
+          "type": "feature",
+          "settings": {
+            "title": "Branded",
+            "text": "Logo and offsite/event name on every award."
+          }
+        },
+        "b5": {
+          "type": "feature",
+          "settings": {
+            "title": "Ready to travel",
+            "text": "Boxed and labelled for an easy offsite handover."
+          }
+        },
+        "b6": {
+          "type": "price_row",
+          "settings": {
+            "item": "Small offsite kit",
+            "spec": "8 awards, single design",
+            "price": "₹3,200"
+          }
+        },
+        "b7": {
+          "type": "price_row",
+          "settings": {
+            "item": "Standard kit",
+            "spec": "16 mixed team/individual awards",
+            "price": "₹6,400"
+          }
+        },
+        "b8": {
+          "type": "price_row",
+          "settings": {
+            "item": "Large offsite",
+            "spec": "30+ awards + premium pieces",
+            "price": "₹13,000"
+          }
+        },
+        "b9": {
+          "type": "price_row",
+          "settings": {
+            "item": "Multi-team event",
+            "spec": "Custom branded volume",
+            "price": "Custom quote"
+          }
+        },
+        "b10": {
+          "type": "step",
+          "settings": {
+            "title": "Share your award list",
+            "text": "WhatsApp us your categories, quantities and event date."
+          }
+        },
+        "b11": {
+          "type": "step",
+          "settings": {
+            "title": "Pick designs & budget",
+            "text": "We send matching options and a single combined quote."
+          }
+        },
+        "b12": {
+          "type": "step",
+          "settings": {
+            "title": "Approve engraving proof",
+            "text": "Confirm names, logos and titles on a digital mockup."
+          }
+        },
+        "b13": {
+          "type": "step",
+          "settings": {
+            "title": "Delivered together",
+            "text": "Co-ordinated, boxed and shipped pan-India in time for your event."
+          }
+        },
+        "b14": {
+          "type": "faq",
+          "settings": {
+            "question": "Can you do fun award titles?",
+            "answer": "<p>Yes — we engrave light-hearted titles alongside formal recognition; send us your list.</p>"
+          }
+        },
+        "b15": {
+          "type": "faq",
+          "settings": {
+            "question": "Is everything branded?",
+            "answer": "<p>Yes — your logo and event name on every award.</p>"
+          }
+        },
+        "b16": {
+          "type": "faq",
+          "settings": {
+            "question": "Do you provide a GST invoice?",
+            "answer": "<p>Yes — one GST invoice for the kit.</p>"
+          }
+        },
+        "b17": {
+          "type": "faq",
+          "settings": {
+            "question": "Do you deliver outside Bangalore?",
+            "answer": "<p>Yes — pan-India, boxed and labelled for the offsite.</p>"
+          }
+        },
+        "b18": {
+          "type": "cta_band",
+          "settings": {
+            "heading": "Planning a corporate offsite?",
+            "text": "Send your award list and date — we'll design a matching combo and quote, usually within the hour.",
+            "button_label": "Get my combo quote"
+          }
+        }
+      },
+      "block_order": [
+        "b0",
+        "b1",
+        "b2",
+        "b3",
+        "b4",
+        "b5",
+        "b6",
+        "b7",
+        "b8",
+        "b9",
+        "b10",
+        "b11",
+        "b12",
+        "b13",
+        "b14",
+        "b15",
+        "b16",
+        "b17",
+        "b18"
+      ]
+    }
+  },
+  "order": [
+    "feed"
+  ]
+}

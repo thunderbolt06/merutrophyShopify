@@ -1,0 +1,168 @@
+{
+  "sections": {
+    "feed": {
+      "type": "feed-landing",
+      "settings": {
+        "eyebrow": "Product · Glass",
+        "heading": "<h1><em>Glass Trophies</em> & Awards in India</h1>",
+        "subheading": "Elegant glass trophies and awards with deep engraving and printed accents — a clean, affordable alternative to crystal for corporate recognition and events. Made in Bangalore, delivered pan-India.",
+        "primary_cta_label": "Get a quote on WhatsApp",
+        "secondary_cta_label": "Browse the catalogue",
+        "secondary_cta_url": "/collections/all",
+        "breadcrumb_label": "Glass Trophies India",
+        "faq_heading": "Frequently asked questions",
+        "schema_type": "Product",
+        "schema_name": "Glass Trophies",
+        "color_scheme": "scheme-1",
+        "features_heading": "Why order from Meru Trophy",
+        "price_heading": "Glass trophy price guide",
+        "price_col1": "Item",
+        "price_col2": "Details",
+        "price_col3": "Price (from)",
+        "price_caption": "Indicative starting prices in India. Final price depends on size, material and engraving. Bulk discounts apply. GST invoice available.",
+        "schema_price_low": "400",
+        "schema_price_high": "3000"
+      },
+      "blocks": {
+        "b0": {
+          "type": "quick_answer",
+          "settings": {
+            "label": "Quick answer",
+            "text": "<p>Meru Trophy makes <strong>glass trophies and awards</strong> with engraving and colour printing from around <strong>₹400</strong> — an elegant, more affordable alternative to optical crystal. Made in Bangalore, delivered pan-India. WhatsApp +91 78922 07252.</p>"
+          }
+        },
+        "b1": {
+          "type": "rich_text",
+          "settings": {
+            "heading": "Clean elegance, sensible price",
+            "text": "<p>Glass awards offer a clear, refined look for corporate recognition without the price of premium optical crystal. We engrave names, logos and citations, add coloured printing or metal stands, and finish each piece with polished edges. Ideal for mid-tier corporate awards, conference tokens and appreciation pieces ordered in volume.</p>"
+          }
+        },
+        "b2": {
+          "type": "feature",
+          "settings": {
+            "title": "Refined, clear look",
+            "text": "Polished glass with crisp engraving."
+          }
+        },
+        "b3": {
+          "type": "feature",
+          "settings": {
+            "title": "More affordable than crystal",
+            "text": "Premium feel at a friendlier price point."
+          }
+        },
+        "b4": {
+          "type": "feature",
+          "settings": {
+            "title": "Printing & metal accents",
+            "text": "Colour printing and metal stands for variety."
+          }
+        },
+        "b5": {
+          "type": "feature",
+          "settings": {
+            "title": "Free engraving",
+            "text": "Names, logos and citations included."
+          }
+        },
+        "b6": {
+          "type": "price_row",
+          "settings": {
+            "item": "Compact glass award",
+            "spec": "Appreciation / token",
+            "price": "₹400"
+          }
+        },
+        "b7": {
+          "type": "price_row",
+          "settings": {
+            "item": "Standard glass trophy",
+            "spec": "Corporate recognition",
+            "price": "₹700"
+          }
+        },
+        "b8": {
+          "type": "price_row",
+          "settings": {
+            "item": "Premium printed glass",
+            "spec": "Logo/colour feature piece",
+            "price": "₹1,500"
+          }
+        },
+        "b9": {
+          "type": "price_row",
+          "settings": {
+            "item": "Large glass statement",
+            "spec": "Flagship award",
+            "price": "₹3,000"
+          }
+        },
+        "b10": {
+          "type": "faq",
+          "settings": {
+            "question": "Glass vs crystal — what's the difference?",
+            "answer": "<p>Optical crystal (K9) is clearer, heavier and more premium; glass is lighter and more affordable while still looking elegant. We can quote both.</p>"
+          }
+        },
+        "b11": {
+          "type": "faq",
+          "settings": {
+            "question": "Can you engrave logos into the glass?",
+            "answer": "<p>Yes — deep engraving and colour printing for logos, names and citations.</p>"
+          }
+        },
+        "b12": {
+          "type": "faq",
+          "settings": {
+            "question": "Is there a minimum order?",
+            "answer": "<p>No minimum; per-piece pricing improves from 25 units.</p>"
+          }
+        },
+        "b13": {
+          "type": "faq",
+          "settings": {
+            "question": "Do you deliver outside Bangalore?",
+            "answer": "<p>Yes — pan-India from Bangalore.</p>"
+          }
+        },
+        "b14": {
+          "type": "related_collection",
+          "settings": {
+            "heading": "Popular glass trophies",
+            "collection": "crystal-trophies"
+          }
+        },
+        "b15": {
+          "type": "cta_band",
+          "settings": {
+            "heading": "Need glass trophies for an event?",
+            "text": "Tell us the occasion, quantity and date — we'll send designs and a quote, usually within the hour.",
+            "button_label": "Get my quote"
+          }
+        }
+      },
+      "block_order": [
+        "b0",
+        "b1",
+        "b2",
+        "b3",
+        "b4",
+        "b5",
+        "b6",
+        "b7",
+        "b8",
+        "b9",
+        "b10",
+        "b11",
+        "b12",
+        "b13",
+        "b14",
+        "b15"
+      ]
+    }
+  },
+  "order": [
+    "feed"
+  ]
+}

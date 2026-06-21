@@ -1,0 +1,150 @@
+{
+  "sections": {
+    "feed": {
+      "type": "feed-landing",
+      "settings": {
+        "eyebrow": "Service · Urgent",
+        "heading": "<h1><em>Last-Minute Trophy Orders</em> — Fast Help for Tight Deadlines</h1>",
+        "subheading": "Event in a few days? We prioritise ready stock, quick engraving and expedited dispatch to get trophies and medals to you on time. Tell us the date — we'll tell you what's possible.",
+        "primary_cta_label": "Get a quote on WhatsApp",
+        "secondary_cta_label": "See fast delivery",
+        "secondary_cta_url": "/pages/fast-trophy-delivery-india",
+        "breadcrumb_label": "last-minute trophy orders",
+        "faq_heading": "Frequently asked questions",
+        "schema_type": "Service",
+        "schema_name": "last-minute trophy orders",
+        "color_scheme": "scheme-1",
+        "features_heading": "Why teams choose Meru Trophy",
+        "steps_heading": "The process, step by step"
+      },
+      "blocks": {
+        "b0": {
+          "type": "quick_answer",
+          "settings": {
+            "label": "Quick answer",
+            "text": "<p>For <strong>last-minute trophy and medal orders</strong>, Meru Trophy prioritises ready stock, simple engraving and expedited dispatch — often delivering to major cities within a couple of days. Tell us your date on WhatsApp (+91 78922 07252) and we'll confirm what's achievable.</p>"
+          }
+        },
+        "b1": {
+          "type": "rich_text",
+          "settings": {
+            "heading": "How it works",
+            "text": "<p>When an event sneaks up, we focus on what can be done fast: <strong>ready medals and standard cups, simple engraving, and same-day pickup or priority courier</strong>. We'll look at your date and city and give you an honest answer immediately — and a plan to make it. Highly customised crystal needs more lead time, but there's almost always a great option that fits your deadline.</p>"
+          }
+        },
+        "b2": {
+          "type": "feature",
+          "settings": {
+            "title": "Ready-stock priority",
+            "text": "Medals and standard cups that ship immediately."
+          }
+        },
+        "b3": {
+          "type": "feature",
+          "settings": {
+            "title": "Quick engraving",
+            "text": "Fast-tracked simple personalisation."
+          }
+        },
+        "b4": {
+          "type": "feature",
+          "settings": {
+            "title": "Same-day pickup",
+            "text": "Collect in Bangalore today for ready items."
+          }
+        },
+        "b5": {
+          "type": "feature",
+          "settings": {
+            "title": "Honest answers fast",
+            "text": "We tell you what your date allows, right away."
+          }
+        },
+        "b6": {
+          "type": "step",
+          "settings": {
+            "title": "Message your deadline",
+            "text": "WhatsApp the date, city, items and quantity now."
+          }
+        },
+        "b7": {
+          "type": "step",
+          "settings": {
+            "title": "Get a fast plan",
+            "text": "We confirm ready options and a realistic ETA."
+          }
+        },
+        "b8": {
+          "type": "step",
+          "settings": {
+            "title": "Approve & pay quickly",
+            "text": "Quick proof and advance to lock it in."
+          }
+        },
+        "b9": {
+          "type": "step",
+          "settings": {
+            "title": "Expedited dispatch",
+            "text": "Same-day pickup or priority courier."
+          }
+        },
+        "b10": {
+          "type": "faq",
+          "settings": {
+            "question": "How fast can you deliver?",
+            "answer": "<p>Ready and simply-engraved items often reach major cities in about 2 days; same-day pickup in Bangalore.</p>"
+          }
+        },
+        "b11": {
+          "type": "faq",
+          "settings": {
+            "question": "What's quickest for a tight deadline?",
+            "answer": "<p>Medals and standard cups with simple engraving turn around fastest.</p>"
+          }
+        },
+        "b12": {
+          "type": "faq",
+          "settings": {
+            "question": "Can you do custom crystal last-minute?",
+            "answer": "<p>Heavily customised crystal needs more time; we'll suggest the best fast alternative.</p>"
+          }
+        },
+        "b13": {
+          "type": "faq",
+          "settings": {
+            "question": "How do I start?",
+            "answer": "<p>WhatsApp +91 78922 07252 with your date and requirement — we'll respond immediately.</p>"
+          }
+        },
+        "b14": {
+          "type": "cta_band",
+          "settings": {
+            "heading": "Ready to start?",
+            "text": "Message us your requirement and event date — we'll guide you through and quote, usually within the hour.",
+            "button_label": "Message us on WhatsApp"
+          }
+        }
+      },
+      "block_order": [
+        "b0",
+        "b1",
+        "b2",
+        "b3",
+        "b4",
+        "b5",
+        "b6",
+        "b7",
+        "b8",
+        "b9",
+        "b10",
+        "b11",
+        "b12",
+        "b13",
+        "b14"
+      ]
+    }
+  },
+  "order": [
+    "feed"
+  ]
+}
