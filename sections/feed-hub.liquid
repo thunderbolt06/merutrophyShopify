@@ -10,13 +10,13 @@
 -%}
 
 {%- style -%}
-  .feed-hub-{{ section.id }} { --fh-gold: #d4a017; --fh-gold-2: #f5b400; }
+  .feed-hub-{{ section.id }} { --fh-gold: #d4a017; --fh-gold-2: #f5b400; --fh-wa: #25D366; }
   .feed-hub-{{ section.id }} .page-width { max-width: 116rem; }
   .feed-hub-pad { padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px; padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px; }
   @media screen and (min-width: 750px) { .feed-hub-pad { padding-top: {{ section.settings.padding_top }}px; padding-bottom: {{ section.settings.padding_bottom }}px; } }
 
   .feed-hub-hero { text-align: center; max-width: 72rem; margin: 0 auto 2.8rem; }
-  .feed-hub-hero__eyebrow { display:inline-block; font-size:1.2rem; letter-spacing:.3rem; text-transform:uppercase; color:rgba(var(--color-foreground),.6); font-weight:600; margin-bottom:1.2rem; }
+  .feed-hub-hero__eyebrow { display:inline-block; font-size:1.2rem; letter-spacing:.28rem; text-transform:uppercase; color:var(--fh-gold); font-weight:700; margin-bottom:1.2rem; }
   .feed-hub-hero h1 { margin:0 0 1.4rem; line-height:1.12; }
   .feed-hub-hero h1 em { font-style:normal; background:linear-gradient(135deg,var(--fh-gold),var(--fh-gold-2)); -webkit-background-clip:text; background-clip:text; color:transparent; }
   .feed-hub-hero p { font-size:1.7rem; line-height:1.6; color:rgba(var(--color-foreground),.82); margin:0; }
@@ -62,6 +62,8 @@
   .feed-hub-cta { margin:4rem 0 0; padding:4rem 3.2rem; text-align:center; border-radius:1.6rem; background:linear-gradient(135deg,rgba(212,160,23,.14),rgba(245,180,0,.06)); border:1px solid rgba(212,160,23,.3); }
   .feed-hub-cta h2 { font-size:2.8rem; margin:0 0 1rem; }
   .feed-hub-cta p { font-size:1.65rem; color:rgba(var(--color-foreground),.8); margin:0 auto 2.2rem; max-width:60rem; }
+  .feed-hub-cta__btn { display:inline-flex; align-items:center; gap:.8rem; background:var(--fh-wa); color:#fff; font-size:1.55rem; font-weight:600; text-decoration:none; padding:1.3rem 2.8rem; border-radius:.8rem; box-shadow:0 6px 18px rgba(37,211,102,.28); }
+  .feed-hub-cta__btn:hover { transform:translateY(-2px); }
 {%- endstyle -%}
 
 <div class="color-{{ section.settings.color_scheme }} gradient feed-hub-{{ section.id }}">
@@ -109,7 +111,10 @@
       <div class="feed-hub-cta">
         <h2>{{ section.settings.cta_heading | default: 'Can’t find your exact need?' }}</h2>
         <p>{{ section.settings.cta_text | default: 'Tell us the event, quantity and date on WhatsApp — we’ll send designs and a quote, usually within the hour.' }}</p>
-        <a class="button button--primary" href="https://wa.me/{{ wa_number }}" target="_blank" rel="noopener">Message us on WhatsApp</a>
+        <a class="feed-hub-cta__btn" href="https://wa.me/{{ wa_number }}" target="_blank" rel="noopener">
+          <svg viewBox="0 0 32 32" width="18" height="18" fill="currentColor" aria-hidden="true"><path d="M16 3C9.373 3 4 8.373 4 15c0 2.385.668 4.61 1.832 6.502L4 29l7.701-1.814A11.94 11.94 0 0016 27c6.627 0 12-5.373 12-12S22.627 3 16 3zm0 22a9.95 9.95 0 01-5.078-1.393l-.364-.217-4.573 1.077 1.099-4.461-.237-.376A9.953 9.953 0 016 15c0-5.514 4.486-10 10-10s10 4.486 10 10-4.486 10-10 10z"/></svg>
+          Message us on WhatsApp
+        </a>
       </div>
     {%- endif -%}
   </div>

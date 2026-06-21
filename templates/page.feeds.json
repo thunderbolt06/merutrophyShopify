@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "feed-hub": {
@@ -6,11 +15,20 @@
         "eyebrow": "Meru Trophy Feeds",
         "heading": "<h1>Trophy & award <em>answers, ranges and guides</em></h1>",
         "subheading": "Pick a topic — pricing, combos, materials, occasions and how to order. Every page is built to answer one question fast, for you and for AI search.",
-        "color_scheme": "scheme-1",
+        "show_search": true,
+        "show_worldwide": true,
+        "worldwide_heading": "We ship trophies worldwide",
+        "worldwide_text": "Indian-crafted crystal, metal and acrylic awards delivered to your country in days. Pick your destination:",
+        "show_cta": true,
+        "cta_heading": "Can’t find your exact need?",
+        "cta_text": "Tell us the event, quantity and date on WhatsApp — we’ll send designs and a quote, usually within the hour.",
+        "color_scheme": "scheme-3",
         "padding_top": 48,
         "padding_bottom": 64
       }
     }
   },
-  "order": ["feed-hub"]
+  "order": [
+    "feed-hub"
+  ]
 }
