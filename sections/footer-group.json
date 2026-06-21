@@ -17,35 +17,51 @@
         "link_list_HPLjtq": {
           "type": "link_list",
           "settings": {
-            "heading": "",
+            "heading": "Explore",
             "menu": "footer"
+          }
+        },
+        "link_list_shop": {
+          "type": "link_list",
+          "settings": {
+            "heading": "Shop Trophies",
+            "menu": "footer-shop"
           }
         },
         "text_cities": {
           "type": "text",
           "settings": {
             "heading": "Cities We Serve",
-            "subtext": "<p><a href=\"/pages/trophies-in-bangalore\"><strong>Trophy Shop in Bangalore</strong></a></p><p><a href=\"/pages/trophies-in-hyderabad\"><strong>Trophy Shop in Hyderabad</strong></a></p><p><a href=\"/pages/trophies-in-delhi\"><strong>Trophy Shop in Delhi</strong></a></p><p><a href=\"/pages/trophies-in-mumbai\"><strong>Trophy Shop in Mumbai</strong></a></p><p>Pan India delivery with same-day pickup in Bangalore.</p>"
+            "subtext": "<p><a href=\"/pages/trophies-in-bangalore\"><strong>Bangalore</strong></a> · <a href=\"/pages/trophies-in-hyderabad\"><strong>Hyderabad</strong></a> · <a href=\"/pages/trophies-in-chennai\"><strong>Chennai</strong></a></p><p><a href=\"/pages/trophies-in-kochi\"><strong>Kochi</strong></a> · <a href=\"/pages/trophies-in-coimbatore\"><strong>Coimbatore</strong></a> · <a href=\"/pages/trophies-in-delhi\"><strong>Delhi</strong></a></p><p><a href=\"/pages/trophies-in-mumbai\"><strong>Mumbai</strong></a> · <a href=\"/pages/trophies-in-pune\"><strong>Pune</strong></a> · <a href=\"/pages/trophies-in-nagpur\"><strong>Nagpur</strong></a></p><p><a href=\"/pages/trophies-in-indore\"><strong>Indore</strong></a> · <a href=\"/pages/trophies-in-bhopal\"><strong>Bhopal</strong></a> · <a href=\"/pages/trophies-in-kolkata\"><strong>Kolkata</strong></a></p><p><a href=\"/pages/trophies-in-patna\"><strong>Patna</strong></a> · <a href=\"/pages/trophies-in-bhubaneswar\"><strong>Bhubaneswar</strong></a> · <a href=\"/pages/trophies-in-visakhapatnam\"><strong>Visakhapatnam</strong></a></p><p><a href=\"/pages/trophies-in-ahmedabad\"><strong>Ahmedabad</strong></a> · <a href=\"/pages/trophies-in-surat\"><strong>Surat</strong></a> · <a href=\"/pages/trophies-in-vadodara\"><strong>Vadodara</strong></a></p><p><a href=\"/pages/trophies-in-jaipur\"><strong>Jaipur</strong></a> · <a href=\"/pages/trophies-in-lucknow\"><strong>Lucknow</strong></a> · <a href=\"/pages/trophies-in-chandigarh\"><strong>Chandigarh</strong></a></p><p>Pan-India delivery with same-day pickup in Bangalore.</p>"
+          }
+        },
+        "text_worldwide": {
+          "type": "text",
+          "settings": {
+            "heading": "We Ship Worldwide",
+            "subtext": "<p><a href=\"/pages/trophies-to-usa\"><strong>🇺🇸 USA</strong></a> · <a href=\"/pages/trophies-to-uk\"><strong>🇬🇧 UK</strong></a></p><p><a href=\"/pages/trophies-to-australia\"><strong>🇦🇺 Australia</strong></a> · <a href=\"/pages/trophies-to-dubai\"><strong>🇦🇪 Dubai & UAE</strong></a></p><p><a href=\"/pages/trophies-to-singapore\"><strong>🇸🇬 Singapore</strong></a> · <a href=\"/pages/trophies-to-sri-lanka\"><strong>🇱🇰 Sri Lanka</strong></a></p><p><a href=\"/pages/trophies-to-canada\"><strong>🇨🇦 Canada</strong></a> · <a href=\"/pages/trophies-to-thailand\"><strong>🇹🇭 Thailand</strong></a></p><p>Worldwide shipping via DHL &amp; FedEx Express.</p>"
           }
         },
         "text_reviews": {
           "type": "text",
           "settings": {
             "heading": "Customer Reviews",
-            "subtext": "<p><a href=\"/pages/reviews\"><strong>Read 442+ Google Reviews</strong></a></p><p>Rated <strong>4.9 ★</strong> by our customers across India.</p><p><a href=\"/pages/case-studies\"><strong>Browse Case Studies</strong></a> · <a href=\"/pages/brands\"><strong>Our Brands</strong></a></p><p><a href=\"https://share.google/Fhoc3O7ymZtYxuCZF\" target=\"_blank\" rel=\"noopener\"><strong>Write a Review on Google</strong></a></p>"
+            "subtext": "<p><a href=\"/pages/reviews\"><strong>Read 442+ Google Reviews</strong></a></p><p>Rated <strong>4.9 ★</strong> by our customers across India.</p><p><a href=\"/pages/case-studies\"><strong>Browse Case Studies</strong></a> · <a href=\"/pages/brands\"><strong>Our Brands</strong></a> · <a href=\"/pages/gallery\"><strong>Gallery</strong></a></p><p><a href=\"https://share.google/Fhoc3O7ymZtYxuCZF\" target=\"_blank\" rel=\"noopener\"><strong>Write a Review on Google</strong></a></p>"
           }
         },
         "text_JWppNG": {
           "type": "text",
           "settings": {
             "heading": "Contact Us",
-            "subtext": "<p>Phone number: <strong>+91 7892207252</strong></p><p>Alternate Phone:<strong> +91 7892207252</strong></p><p>Email: <a href=\"mailto:merutrophy@gmail.com\" target=\"_blank\"><span style=\"text-decoration:underline\"><strong>merutrophy@gmail.com</strong></span></a></p><p>Address: #273/2, SC Road, 2nd Cross, 1st Floor,<br/>Near Annamma Temple, Gandhinagar, Bangalore - 560 009.<br/><br/>Maps: https://maps.app.goo.gl/i8tmRdXttcSA27UE6 </p>"
+            "subtext": "<p>Phone number: <strong>+91 7892207252</strong></p><p>Alternate Phone:<strong> +91 9480150888</strong></p><p>Email: <a href=\"mailto:merutrophy@gmail.com\" target=\"_blank\"><span style=\"text-decoration:underline\"><strong>merutrophy@gmail.com</strong></span></a></p><p>Address: #273/2, SC Road, 2nd Cross, 1st Floor,<br/>Near Annamma Temple, Gandhinagar, Bangalore - 560 009.<br/><br/>Maps: https://maps.app.goo.gl/i8tmRdXttcSA27UE6 </p>"
           }
         }
       },
       "block_order": [
         "link_list_HPLjtq",
+        "link_list_shop",
         "text_cities",
+        "text_worldwide",
         "text_reviews",
         "text_JWppNG"
       ],
