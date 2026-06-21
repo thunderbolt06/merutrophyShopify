@@ -1,29 +1,69 @@
 {%- comment -%}
-  Feed Hub — the /pages/feeds index. Lists every live feed landing page grouped by
-  category, loaded client-side from assets/feeds-data.json (same pattern as brands-page).
+  Feed Hub — the /pages/feeds index / collection page. Lists every feed landing page
+  grouped by category, loaded client-side from assets/feeds-data.json (same pattern as
+  brands-page). Adds a stats bar, live search, category filter chips, per-category
+  counts, a worldwide-shipping strip and a closing CTA.
 {%- endcomment -%}
 
+{%- liquid
+  assign wa_number = '917892207252'
+-%}
+
 {%- style -%}
-  .feed-hub-{{ section.id }} .page-width { max-width: 108rem; }
+  .feed-hub-{{ section.id }} { --fh-gold: #d4a017; --fh-gold-2: #f5b400; --fh-wa: #25D366; }
+  .feed-hub-{{ section.id }} .page-width { max-width: 116rem; }
   .feed-hub-pad { padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px; padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px; }
   @media screen and (min-width: 750px) { .feed-hub-pad { padding-top: {{ section.settings.padding_top }}px; padding-bottom: {{ section.settings.padding_bottom }}px; } }
-  .feed-hub-hero { text-align: center; max-width: 70rem; margin: 0 auto 4rem; }
-  .feed-hub-hero__eyebrow { display:inline-block; font-size:1.2rem; letter-spacing:.28rem; text-transform:uppercase; color:#d4a017; font-weight:600; margin-bottom:1.2rem; }
+
+  .feed-hub-hero { text-align: center; max-width: 72rem; margin: 0 auto 2.8rem; }
+  .feed-hub-hero__eyebrow { display:inline-block; font-size:1.2rem; letter-spacing:.28rem; text-transform:uppercase; color:var(--fh-gold); font-weight:700; margin-bottom:1.2rem; }
   .feed-hub-hero h1 { margin:0 0 1.4rem; line-height:1.12; }
-  .feed-hub-hero h1 em { font-style:normal; background:linear-gradient(135deg,#d4a017,#f5b400); -webkit-background-clip:text; background-clip:text; color:transparent; }
+  .feed-hub-hero h1 em { font-style:normal; background:linear-gradient(135deg,var(--fh-gold),var(--fh-gold-2)); -webkit-background-clip:text; background-clip:text; color:transparent; }
   .feed-hub-hero p { font-size:1.7rem; line-height:1.6; color:rgba(var(--color-foreground),.82); margin:0; }
-  .feed-cat { margin-bottom:4rem; }
-  .feed-cat__head { border-bottom:2px solid rgba(212,160,23,.4); padding-bottom:1rem; margin-bottom:2rem; }
+
+  .feed-hub-stats { display:flex; flex-wrap:wrap; justify-content:center; gap:1rem; margin:0 auto 2.8rem; }
+  .feed-hub-stat { display:flex; align-items:baseline; gap:.7rem; padding:1rem 1.8rem; border-radius:1rem; background:rgba(var(--color-foreground),.04); }
+  .feed-hub-stat strong { font-size:2.2rem; font-weight:800; background:linear-gradient(135deg,var(--fh-gold),var(--fh-gold-2)); -webkit-background-clip:text; background-clip:text; color:transparent; }
+  .feed-hub-stat span { font-size:1.35rem; color:rgba(var(--color-foreground),.72); }
+
+  .feed-hub-toolbar { display:flex; flex-direction:column; gap:1.4rem; margin:0 auto 3.2rem; max-width:96rem; }
+  .feed-hub-search { position:relative; }
+  .feed-hub-search input { width:100%; box-sizing:border-box; font-size:1.6rem; padding:1.4rem 1.6rem 1.4rem 4.4rem; border-radius:1rem; border:1px solid rgba(var(--color-foreground),.18); background:rgb(var(--color-background)); color:rgb(var(--color-foreground)); }
+  .feed-hub-search input:focus { outline:none; border-color:var(--fh-gold); }
+  .feed-hub-search__ic { position:absolute; left:1.5rem; top:50%; transform:translateY(-50%); color:rgba(var(--color-foreground),.45); }
+  .feed-hub-chips { display:flex; flex-wrap:wrap; gap:.8rem; justify-content:center; }
+  .feed-hub-chip { font-size:1.35rem; font-weight:600; padding:.8rem 1.6rem; border-radius:5rem; border:1px solid rgba(var(--color-foreground),.18); background:transparent; color:rgba(var(--color-foreground),.8); cursor:pointer; transition:all .15s; white-space:nowrap; }
+  .feed-hub-chip:hover { border-color:var(--fh-gold); }
+  .feed-hub-chip.is-active { background:linear-gradient(135deg,var(--fh-gold),var(--fh-gold-2)); color:#fff; border-color:transparent; }
+  .feed-hub-chip__n { opacity:.7; font-weight:500; margin-left:.3rem; }
+
+  .feed-cat { margin-bottom:4.4rem; scroll-margin-top:2rem; }
+  .feed-cat__head { border-bottom:2px solid rgba(212,160,23,.4); padding-bottom:1rem; margin-bottom:2rem; display:flex; align-items:flex-end; justify-content:space-between; gap:1.4rem; flex-wrap:wrap; }
   .feed-cat__name { font-size:2.4rem; margin:0; }
   .feed-cat__desc { font-size:1.45rem; color:rgba(var(--color-foreground),.65); margin:.6rem 0 0; }
+  .feed-cat__count { font-size:1.3rem; color:rgba(var(--color-foreground),.55); white-space:nowrap; }
   .feed-cat__grid { display:grid; grid-template-columns:1fr; gap:1.4rem; }
   @media screen and (min-width:750px){ .feed-cat__grid { grid-template-columns:1fr 1fr; } }
   @media screen and (min-width:990px){ .feed-cat__grid { grid-template-columns:1fr 1fr 1fr; } }
-  .feed-card { display:block; text-decoration:none; color:inherit; background:rgba(var(--color-foreground),.035); border:1px solid rgba(var(--color-foreground),.08); border-radius:1rem; padding:1.8rem 2rem; transition:transform .15s, box-shadow .15s; }
+  .feed-card { display:flex; flex-direction:column; text-decoration:none; color:inherit; background:rgba(var(--color-foreground),.025); border:1px solid rgba(var(--color-foreground),.08); border-radius:1rem; padding:1.8rem 2rem; transition:transform .15s, box-shadow .15s, border-color .15s; }
   .feed-card:hover { transform:translateY(-2px); box-shadow:0 8px 24px rgba(0,0,0,.08); border-color:rgba(212,160,23,.4); }
   .feed-card__title { font-size:1.7rem; font-weight:600; margin:0 0 .5rem; }
-  .feed-card__blurb { font-size:1.4rem; line-height:1.5; color:rgba(var(--color-foreground),.72); margin:0; }
-  .feed-card__arrow { color:#d4a017; font-weight:700; margin-top:1rem; display:inline-block; font-size:1.4rem; }
+  .feed-card__blurb { font-size:1.4rem; line-height:1.5; color:rgba(var(--color-foreground),.72); margin:0; flex:1; }
+  .feed-card__arrow { color:var(--fh-gold); font-weight:700; margin-top:1.2rem; display:inline-block; font-size:1.4rem; }
+  .feed-hub-empty { text-align:center; font-size:1.6rem; color:rgba(var(--color-foreground),.6); padding:4rem 0; }
+
+  .feed-hub-world { margin:1.2rem 0 0; padding:3.2rem 2.8rem; border-radius:1.6rem; background:rgba(var(--color-foreground),.03); text-align:center; }
+  .feed-hub-world h2 { font-size:2.4rem; margin:0 0 .6rem; }
+  .feed-hub-world p { font-size:1.5rem; color:rgba(var(--color-foreground),.7); margin:0 auto 2rem; max-width:62rem; }
+  .feed-hub-world__row { display:flex; flex-wrap:wrap; gap:1rem; justify-content:center; }
+  .feed-hub-world__link { font-size:1.45rem; font-weight:600; text-decoration:none; color:rgb(var(--color-foreground)); padding:.9rem 1.8rem; border-radius:5rem; border:1px solid rgba(var(--color-foreground),.16); transition:all .15s; }
+  .feed-hub-world__link:hover { border-color:var(--fh-gold); color:var(--fh-gold); }
+
+  .feed-hub-cta { margin:4rem 0 0; padding:4rem 3.2rem; text-align:center; border-radius:1.6rem; background:linear-gradient(135deg,rgba(212,160,23,.14),rgba(245,180,0,.06)); border:1px solid rgba(212,160,23,.3); }
+  .feed-hub-cta h2 { font-size:2.8rem; margin:0 0 1rem; }
+  .feed-hub-cta p { font-size:1.65rem; color:rgba(var(--color-foreground),.8); margin:0 auto 2.2rem; max-width:60rem; }
+  .feed-hub-cta__btn { display:inline-flex; align-items:center; gap:.8rem; background:var(--fh-wa); color:#fff; font-size:1.55rem; font-weight:600; text-decoration:none; padding:1.3rem 2.8rem; border-radius:.8rem; box-shadow:0 6px 18px rgba(37,211,102,.28); }
+  .feed-hub-cta__btn:hover { transform:translateY(-2px); }
 {%- endstyle -%}
 
 <div class="color-{{ section.settings.color_scheme }} gradient feed-hub-{{ section.id }}">
@@ -31,9 +71,50 @@
     <header class="feed-hub-hero">
       <span class="feed-hub-hero__eyebrow">{{ section.settings.eyebrow | default: 'Meru Trophy Feeds' }}</span>
       {{ section.settings.heading | default: '<h1>Trophy & award <em>answers, ranges and guides</em></h1>' }}
-      <p>{{ section.settings.subheading | default: 'Pick a topic — pricing, combos, materials, occasions and how to order. Every page is built to answer one question fast.' }}</p>
+      <p>{{ section.settings.subheading | default: 'Pick a topic — pricing, combos, materials, occasions and how to order. Every page is built to answer one question fast, for you and for AI search.' }}</p>
     </header>
+
+    <div class="feed-hub-stats" id="feed-hub-stats"></div>
+
+    {%- if section.settings.show_search -%}
+      <div class="feed-hub-toolbar">
+        <div class="feed-hub-search">
+          <span class="feed-hub-search__ic" aria-hidden="true">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+          </span>
+          <input type="search" id="feed-hub-search-input" placeholder="Search guides — e.g. cricket, crystal, price, medals…" aria-label="Search guides">
+        </div>
+        <div class="feed-hub-chips" id="feed-hub-chips"></div>
+      </div>
+    {%- endif -%}
+
     <div id="feed-hub-root" data-feed-src="{{ 'feeds-data.json' | asset_url }}"></div>
+
+    {%- if section.settings.show_worldwide -%}
+      <div class="feed-hub-world">
+        <h2>{{ section.settings.worldwide_heading | default: 'We ship trophies worldwide' }}</h2>
+        <p>{{ section.settings.worldwide_text | default: 'Indian-crafted crystal, metal and acrylic awards delivered to your country in days. Pick your destination:' }}</p>
+        <div class="feed-hub-world__row">
+          <a class="feed-hub-world__link" href="/pages/trophies-to-usa">🇺🇸 United States</a>
+          <a class="feed-hub-world__link" href="/pages/trophies-to-uk">🇬🇧 United Kingdom</a>
+          <a class="feed-hub-world__link" href="/pages/trophies-to-australia">🇦🇺 Australia</a>
+          <a class="feed-hub-world__link" href="/pages/trophies-to-dubai">🇦🇪 Dubai & UAE</a>
+          <a class="feed-hub-world__link" href="/pages/trophies-to-singapore">🇸🇬 Singapore</a>
+          <a class="feed-hub-world__link" href="/pages/trophies-to-sri-lanka">🇱🇰 Sri Lanka</a>
+        </div>
+      </div>
+    {%- endif -%}
+
+    {%- if section.settings.show_cta -%}
+      <div class="feed-hub-cta">
+        <h2>{{ section.settings.cta_heading | default: 'Can’t find your exact need?' }}</h2>
+        <p>{{ section.settings.cta_text | default: 'Tell us the event, quantity and date on WhatsApp — we’ll send designs and a quote, usually within the hour.' }}</p>
+        <a class="feed-hub-cta__btn" href="https://wa.me/{{ wa_number }}" target="_blank" rel="noopener">
+          <svg viewBox="0 0 32 32" width="18" height="18" fill="currentColor" aria-hidden="true"><path d="M16 3C9.373 3 4 8.373 4 15c0 2.385.668 4.61 1.832 6.502L4 29l7.701-1.814A11.94 11.94 0 0016 27c6.627 0 12-5.373 12-12S22.627 3 16 3zm0 22a9.95 9.95 0 01-5.078-1.393l-.364-.217-4.573 1.077 1.099-4.461-.237-.376A9.953 9.953 0 016 15c0-5.514 4.486-10 10-10s10 4.486 10 10-4.486 10-10 10z"/></svg>
+          Message us on WhatsApp
+        </a>
+      </div>
+    {%- endif -%}
   </div>
 </div>
 
@@ -41,28 +122,82 @@
 (function () {
   var root = document.getElementById('feed-hub-root');
   if (!root) return;
+  var statsEl = document.getElementById('feed-hub-stats');
+  var chipsEl = document.getElementById('feed-hub-chips');
+  var searchEl = document.getElementById('feed-hub-search-input');
+  var data = null, activeCat = 'all', term = '';
+
   function esc(s){ return String(s == null ? '' : s).replace(/[&<>"']/g, function(c){ return ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'})[c]; }); }
+  function slug(s){ return String(s).toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,''); }
+
+  function render() {
+    var cats = (data && data.categories) || [];
+    var t = term.trim().toLowerCase();
+    var shownTotal = 0, html = '';
+
+    cats.forEach(function(cat){
+      if (activeCat !== 'all' && slug(cat.name) !== activeCat) return;
+      var pages = (cat.pages || []).filter(function(p){
+        if (!t) return true;
+        return (p.title + ' ' + (p.blurb || '')).toLowerCase().indexOf(t) !== -1;
+      });
+      if (!pages.length) return;
+      shownTotal += pages.length;
+      html += '<section class="feed-cat" id="cat-' + slug(cat.name) + '">';
+      html += '<div class="feed-cat__head"><div><h2 class="feed-cat__name">' + esc(cat.name) + '</h2>';
+      if (cat.description) html += '<p class="feed-cat__desc">' + esc(cat.description) + '</p>';
+      html += '</div><span class="feed-cat__count">' + pages.length + ' guide' + (pages.length === 1 ? '' : 's') + '</span></div>';
+      html += '<div class="feed-cat__grid">';
+      pages.forEach(function(p){
+        html += '<a class="feed-card" href="/pages/' + esc(p.handle) + '">' +
+          '<p class="feed-card__title">' + esc(p.title) + '</p>' +
+          '<p class="feed-card__blurb">' + esc(p.blurb || '') + '</p>' +
+          '<span class="feed-card__arrow">Read &rsaquo;</span></a>';
+      });
+      html += '</div></section>';
+    });
+
+    root.innerHTML = html || '<p class="feed-hub-empty">No guides match “' + esc(term) + '”. Try a different word, or message us on WhatsApp.</p>';
+  }
+
+  function buildChips() {
+    if (!chipsEl) return;
+    var cats = (data && data.categories) || [];
+    var total = cats.reduce(function(n, c){ return n + ((c.pages || []).length); }, 0);
+    var html = '<button class="feed-hub-chip is-active" data-cat="all">All<span class="feed-hub-chip__n">' + total + '</span></button>';
+    cats.forEach(function(cat){
+      html += '<button class="feed-hub-chip" data-cat="' + slug(cat.name) + '">' + esc(cat.name) +
+        '<span class="feed-hub-chip__n">' + ((cat.pages || []).length) + '</span></button>';
+    });
+    chipsEl.innerHTML = html;
+    chipsEl.querySelectorAll('.feed-hub-chip').forEach(function(btn){
+      btn.addEventListener('click', function(){
+        activeCat = btn.getAttribute('data-cat');
+        chipsEl.querySelectorAll('.feed-hub-chip').forEach(function(b){ b.classList.remove('is-active'); });
+        btn.classList.add('is-active');
+        render();
+      });
+    });
+  }
+
+  function buildStats() {
+    if (!statsEl) return;
+    var cats = (data && data.categories) || [];
+    var total = cats.reduce(function(n, c){ return n + ((c.pages || []).length); }, 0);
+    statsEl.innerHTML =
+      '<div class="feed-hub-stat"><strong>' + total + '</strong><span>buyer guides</span></div>' +
+      '<div class="feed-hub-stat"><strong>' + cats.length + '</strong><span>topics</span></div>' +
+      '<div class="feed-hub-stat"><strong>Free</strong><span>quotes on WhatsApp</span></div>';
+  }
+
+  if (searchEl) {
+    searchEl.addEventListener('input', function(){ term = searchEl.value; render(); });
+  }
+
   fetch(root.getAttribute('data-feed-src'))
     .then(function(r){ return r.json(); })
-    .then(function(data){
-      var html = '';
-      (data.categories || []).forEach(function(cat){
-        if (!cat.pages || !cat.pages.length) return;
-        html += '<section class="feed-cat">';
-        html += '<div class="feed-cat__head"><h2 class="feed-cat__name">' + esc(cat.name) + '</h2>';
-        if (cat.description) html += '<p class="feed-cat__desc">' + esc(cat.description) + '</p>';
-        html += '</div><div class="feed-cat__grid">';
-        cat.pages.forEach(function(p){
-          html += '<a class="feed-card" href="/pages/' + esc(p.handle) + '">' +
-            '<p class="feed-card__title">' + esc(p.title) + '</p>' +
-            '<p class="feed-card__blurb">' + esc(p.blurb || '') + '</p>' +
-            '<span class="feed-card__arrow">Read &rsaquo;</span></a>';
-        });
-        html += '</div></section>';
-      });
-      root.innerHTML = html;
-    })
-    .catch(function(){ root.innerHTML = '<p style="text-align:center">Browse our trophy and award pages from the menu.</p>'; });
+    .then(function(d){ data = d; buildStats(); buildChips(); render(); })
+    .catch(function(){ root.innerHTML = '<p class="feed-hub-empty">Browse our trophy and award pages from the menu.</p>'; });
 })();
 </script>
 
@@ -75,6 +210,17 @@
     { "type": "text", "id": "eyebrow", "label": "Eyebrow", "default": "Meru Trophy Feeds" },
     { "type": "richtext", "id": "heading", "label": "Heading (H1)", "default": "<h1>Trophy & award <em>answers, ranges and guides</em></h1>" },
     { "type": "textarea", "id": "subheading", "label": "Subheading", "default": "Pick a topic — pricing, combos, materials, occasions and how to order. Every page is built to answer one question fast." },
+    { "type": "header", "content": "Search & filter" },
+    { "type": "checkbox", "id": "show_search", "label": "Show search + category filters", "default": true },
+    { "type": "header", "content": "Worldwide shipping strip" },
+    { "type": "checkbox", "id": "show_worldwide", "label": "Show worldwide strip", "default": true },
+    { "type": "text", "id": "worldwide_heading", "label": "Heading", "default": "We ship trophies worldwide" },
+    { "type": "textarea", "id": "worldwide_text", "label": "Text", "default": "Indian-crafted crystal, metal and acrylic awards delivered to your country in days. Pick your destination:" },
+    { "type": "header", "content": "Closing CTA" },
+    { "type": "checkbox", "id": "show_cta", "label": "Show CTA band", "default": true },
+    { "type": "text", "id": "cta_heading", "label": "CTA heading", "default": "Can’t find your exact need?" },
+    { "type": "textarea", "id": "cta_text", "label": "CTA text", "default": "Tell us the event, quantity and date on WhatsApp — we’ll send designs and a quote, usually within the hour." },
+    { "type": "header", "content": "Layout" },
     { "type": "color_scheme", "id": "color_scheme", "label": "Color scheme", "default": "scheme-1" },
     { "type": "range", "id": "padding_top", "min": 0, "max": 100, "step": 4, "unit": "px", "label": "Top padding", "default": 48 },
     { "type": "range", "id": "padding_bottom", "min": 0, "max": 100, "step": 4, "unit": "px", "label": "Bottom padding", "default": 64 }
