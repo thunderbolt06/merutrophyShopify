@@ -1,8 +1,72 @@
 {
   "version": 1,
-  "updated": "2026-06-21",
+  "updated": "2026-06-23",
   "_instructions": "To add a new case study: (1) add an object to `studies`, (2) drop photos into the theme `assets/` folder with a `cs-` prefix and register each filename in snippets/case-study-assets.liquid, (3) reference them in the `photos` array as `asset:filename.jpg`, (4) create a Shopify page with the same `slug` as its handle and assign template `page.case-study`. The first entry in `photos` becomes the hero AND the card cover; the rest render as a gallery with a click-to-zoom lightbox. The `hero_image` and `gallery` fields are still supported for back-compat.",
   "studies": [
+    {
+      "slug": "guruvandana-school-trophy-2026",
+      "title": "Guruvandana 2026 — Karnataka School",
+      "subtitle": "A gold Guru-Shishya figurative trophy honouring teachers at a Karnataka school's Guruvandana ceremony",
+      "client": "Karnataka School (ಗುರುವಂದನ 2026)",
+      "client_short": "Karnataka School",
+      "industry": "Education",
+      "event": "Guruvandana (ಗುರುವಂದನ) — Teacher Appreciation 2026",
+      "event_year": 2026,
+      "location": "Karnataka",
+      "category": "Education",
+      "tags": [
+        "Figurative Trophy",
+        "Guru-Shishya",
+        "Gold Finish",
+        "Kannada Inscription",
+        "Teacher Appreciation",
+        "Karnataka",
+        "School"
+      ],
+      "tagline": "When a school wants to honour its teachers, the trophy should bow before them — just as the student does.",
+      "photos": [
+        {
+          "src": "asset:cs-guruvandana-school-trophy-1.jpg",
+          "alt": "Gold Guru-Shishya figurative trophy for Guruvandana 2026 — a kneeling student in pranam pose before a standing teacher, cast in gold finish, mounted on a red wooden base with a four-line Kannada dedication plaque.",
+          "caption": "The finished Guruvandana trophy — Guru-Shishya in gold, delivered for a Karnataka school's teacher appreciation ceremony"
+        }
+      ],
+      "brand_logo": "",
+      "stats": [
+        {
+          "label": "Trophy type",
+          "value": "Figurative"
+        },
+        {
+          "label": "Finish",
+          "value": "Gold"
+        },
+        {
+          "label": "Inscription",
+          "value": "Kannada"
+        },
+        {
+          "label": "Base",
+          "value": "Red wood"
+        }
+      ],
+      "about_client": "A Karnataka school that commissioned a custom Guruvandana trophy for their annual teacher appreciation ceremony. The school's Guruvandana event brings students together to honour their teachers with a formal felicitation programme — a tradition deeply rooted in the Guru-Shishya (teacher-student) relationship that has defined Indian education for centuries.",
+      "about_event": "Guruvandana (ಗುರುವಂದನ) — literally 'reverence to the Guru' — is an annual ceremony where students and alumni formally honour their teachers. Distinct from Teachers' Day, school Guruvandana events are often organised by alumni associations or parent bodies and carry deeper ceremonial weight, including a formal Guru-Shishya felicitation, speeches and gift-giving. The trophy commemorates the school's 2026 edition.",
+      "design_brief": "The brief called for a trophy that embodied the Guru-Shishya relationship visually — not just a nameplate, but a sculpture that tells the story. The figurative piece shows a student in full pranam (kneeling, head bowed) before the standing teacher. Cast in warm gold finish, it transforms a centuries-old gesture of reverence into a permanent keepsake. The four-line Kannada dedication on the plaque — school name, occasion and event name — grounds the universal image in this specific community's story.",
+      "production_notes": [
+        "Cast polyresin Guru-Shishya figurative group — student in pranam pose, teacher standing",
+        "Full gold metallic finish across the entire sculpture including the dedicated inscription plaque",
+        "Four-line Kannada text embossed directly on the gold plaque: school name, details and ಗುರುವಂದನ (Guruvandana)",
+        "Red lacquered wooden base providing warm contrast to the gold finish"
+      ],
+      "outcome": "Delivered for the 2026 Guruvandana ceremony. The trophy's figurative design made it immediately legible to every attendee — no one needed to read the plaque to understand the sentiment. The Kannada inscription personalised it to this school and this year.",
+      "related_collections": [
+        "figurative-trophies",
+        "corporate-and-college-premium-trophies"
+      ],
+      "related_products": [],
+      "external_links": []
+    },
     {
       "slug": "suman-tv-karnataka-sumana-sadhaka",
       "title": "Karnataka Sumana Sadhaka 2026",
@@ -2478,6 +2542,78 @@
         {
           "label": "CSIR-NAL — Seminar Announcement",
           "url": "https://www.nal.res.in/en/news/national-seminar-unmanned-aerial-vehicles-design-deployment-csir-nal-june-11-12-2026-venue-sr"
+        }
+      ]
+    },
+    {
+      "slug": "sae-india-aerocon-2026",
+      "title": "SAE India AeroCON 2026 — Guest of Honour Award",
+      "subtitle": "Crystal shield award with silver laurel wing for India's premier aerospace conference at MIT MAHE Bengaluru",
+      "client": "SAE India",
+      "client_short": "SAE India",
+      "industry": "Aerospace · Aviation · Engineering",
+      "event": "AeroCON 2026 — Digital Engineering Transformation: Shaping the Next Generation of Aviation and Space",
+      "event_year": 2026,
+      "location": "Bengaluru",
+      "category": "Events",
+      "tags": [
+        "Crystal Shield",
+        "Aerospace",
+        "Aviation",
+        "Professional Society",
+        "Silver Finish",
+        "Conference Award",
+        "Guest of Honour"
+      ],
+      "tagline": "Wings of honour for India's next generation of aerospace leaders.",
+      "photos": [
+        {
+          "src": "asset:cs-saeindia-aerocon-2026-1.jpg",
+          "alt": "SAE India AeroCON 2026 Guest of Honour award — pentagonal crystal shield with silver laurel wing ornament on black wooden base, inscribed with AeroCON 2026 branding, June 4-5 2026, MIT MAHE Bengaluru, presented to Mr. Savyasachi Srinivas VP Collins",
+          "caption": "AeroCON 2026 Guest of Honour crystal shield — silver laurel wing on black base, presented at Manipal Institute of Technology, MAHE, Bengaluru"
+        }
+      ],
+      "brand_logo": "",
+      "stats": [
+        {
+          "label": "Client",
+          "value": "SAE India"
+        },
+        {
+          "label": "Event",
+          "value": "AeroCON 2026"
+        },
+        {
+          "label": "Dates",
+          "value": "June 4–5, 2026"
+        },
+        {
+          "label": "Venue",
+          "value": "MIT MAHE, Bengaluru"
+        }
+      ],
+      "about_client": "SAE India is the Indian affiliate of SAE International (Society of Automotive Engineers), a global professional body for mobility engineering professionals in the automotive, aerospace, and commercial vehicle industries. SAE India organises technical events, conferences, and awards programmes to advance engineering excellence across India.",
+      "about_event": "AeroCON 2026 was SAE India's flagship aerospace conference, themed 'Digital Engineering Transformation: Shaping the Next Generation of Aviation and Space.' Held on June 4th and 5th, 2026, at the Manipal Institute of Technology (MIT MAHE), Bengaluru, the conference brought together aviation and aerospace engineers, industry leaders, and researchers. Distinguished guests and contributors were honoured with custom crystal shield awards.",
+      "design_brief": "A prestige crystal shield award in an aerodynamic pentagon form, featuring a polished acrylic face bearing the AeroCON 2026 logo, event theme, date, and venue. The crystal panel is flanked by a sculptural silver laurel wing ornament — evoking flight and achievement — mounted on a sleek black wooden base.",
+      "production_notes": [
+        "Pentagonal acrylic crystal shield with polished bevelled edges",
+        "Silver laurel wing ornament attached to left face — sculptural 3D metalwork",
+        "Full-colour AeroCON 2026 logo and SAE India / SAE International branding",
+        "Event theme line: Digital Engineering Transformation",
+        "Date and venue engraved: June 4th & 5th, 2026 | MIT MAHE, Bengaluru",
+        "Recipient name and designation printed on crystal face",
+        "Mounted on gloss black wooden base"
+      ],
+      "outcome": "A distinguished Guest of Honour crystal shield award delivered for SAE India's AeroCON 2026 conference, recognising contributions to aerospace science, technology, and innovation at India's leading aviation engineering event.",
+      "related_collections": [
+        "mementos-plaques",
+        "corporate-trophies"
+      ],
+      "related_products": [],
+      "external_links": [
+        {
+          "label": "SAE India — AeroCON",
+          "url": "https://www.saeindia.org/events/aerocon"
         }
       ]
     }

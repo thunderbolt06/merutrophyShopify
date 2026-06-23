@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "updated": "2026-06-20",
+  "updated": "2026-06-23",
   "note": "Edit this file to add/remove brands. Each category has a name, slug, and a list of brand names. To highlight a brand, mark featured:true. Optional fields: logo (URL or shopify://shop_images/...), website (external link).",
   "stats": {
-    "total_unique": 164,
+    "total_unique": 165,
     "rating": "4.9",
     "google_reviews": 442
   },
@@ -411,6 +411,9 @@
         },
         {
           "name": "HKBK College of Engineering"
+        },
+        {
+          "name": "Karnataka School (Guruvandana 2026)"
         }
       ]
     },
@@ -698,6 +701,14 @@
           "name": "SIATI & CSIR-NAL UAV Seminar",
           "featured": true,
           "website": "https://www.nal.res.in"
+        },
+        {
+          "name": "SAE India",
+          "featured": true,
+          "website": "https://www.saeindia.org",
+          "slug": "sae-india",
+          "case_study": "sae-india-aerocon-2026",
+          "description": "SAE India — India's affiliate of SAE International — organised AeroCON 2026, a flagship aerospace conference at MIT MAHE Bengaluru."
         }
       ]
     },
