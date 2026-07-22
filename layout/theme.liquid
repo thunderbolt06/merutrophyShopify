@@ -498,6 +498,23 @@
         defaults: '2026-01-30'
     })
 </script>
+<!-- Event snippet for WhatsApp Lead conversion page
+In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button. -->
+<script>
+function gtag_report_conversion(url) {
+  var callback = function () {
+    if (typeof(url) != 'undefined') {
+      window.location = url;
+    }
+  };
+  gtag('event', 'conversion', {
+      'send_to': 'AW-11473371706/HkDZCIuKttQcELqE994q',
+      'event_callback': callback
+  });
+  return false;
+}
+</script>
+
   </head>
 
   <body class="gradient{% if settings.animations_hover_elements != 'none' %} animate--hover-{{ settings.animations_hover_elements }}{% endif %}">
