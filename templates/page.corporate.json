@@ -1,0 +1,712 @@
+{
+  "sections": {
+    "hero": {
+      "type": "rich-text",
+      "blocks": {
+        "cap": {
+          "type": "caption",
+          "settings": {
+            "caption": "CORPORATE GIFTING BY MERU TROPHY",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "medium"
+          }
+        },
+        "head": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>MERU GIFTING</strong>",
+            "heading_size": "h0"
+          }
+        },
+        "txt": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Premium corporate gifts for teams, clients and events — bottles &amp; flasks, diaries, tech gadgets, bags and more. <strong>MOQ 50 pcs · Logo branding &amp; customisation available · GST extra</strong></p>"
+          }
+        },
+        "btn": {
+          "type": "button",
+          "settings": {
+            "button_label": "Call 7892207252",
+            "button_link": "tel:+917892207252",
+            "button_style_secondary": false,
+            "button_label_2": "WhatsApp Now",
+            "button_link_2": "https://wa.me/+917892207252?text=Hi%2C%20I%27m%20interested%20in%20corporate%20gifting",
+            "button_style_secondary_2": true
+          }
+        }
+      },
+      "block_order": [
+        "cap",
+        "head",
+        "txt",
+        "btn"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-3",
+        "full_width": true,
+        "padding_top": 64,
+        "padding_bottom": 40
+      }
+    },
+    "categories": {
+      "type": "collection-list",
+      "blocks": {
+        "cg_coll_1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "bamboo-cork-drinkware"
+          }
+        },
+        "cg_coll_2": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "vacuum-flasks-bottles"
+          }
+        },
+        "cg_coll_3": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "vacuum-mugs-tumblers"
+          }
+        },
+        "cg_coll_4": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "single-wall-bottles-mugs"
+          }
+        },
+        "cg_coll_5": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "aluminium-bottles"
+          }
+        },
+        "cg_coll_6": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "suction-mugs"
+          }
+        },
+        "cg_coll_7": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "kids-bottles"
+          }
+        },
+        "cg_coll_8": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "ceramic-mugs-glass-bottles"
+          }
+        },
+        "cg_coll_9": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "wheat-straw-eco-mugs"
+          }
+        },
+        "cg_coll_10": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "diaries-notebooks"
+          }
+        },
+        "cg_coll_11": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "gadgets-tech"
+          }
+        },
+        "cg_coll_12": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "power-bank-diaries-tech-pouches"
+          }
+        },
+        "cg_coll_13": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "yoga-mats-umbrellas-more"
+          }
+        },
+        "cg_coll_14": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "bags-backpacks"
+          }
+        }
+      },
+      "block_order": [
+        "cg_coll_1",
+        "cg_coll_2",
+        "cg_coll_3",
+        "cg_coll_4",
+        "cg_coll_5",
+        "cg_coll_6",
+        "cg_coll_7",
+        "cg_coll_8",
+        "cg_coll_9",
+        "cg_coll_10",
+        "cg_coll_11",
+        "cg_coll_12",
+        "cg_coll_13",
+        "cg_coll_14"
+      ],
+      "settings": {
+        "title": "Explore our <em>gifting range</em>",
+        "heading_size": "h2",
+        "image_ratio": "square",
+        "columns_desktop": 4,
+        "color_scheme": "scheme-3",
+        "show_view_all": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "why": {
+      "type": "multicolumn",
+      "blocks": {
+        "c1": {
+          "type": "column",
+          "settings": {
+            "title": "MOQ just 50 pcs",
+            "text": "<p>Bulk pricing that works for startups and enterprises alike. Order exactly what your team needs.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "c2": {
+          "type": "column",
+          "settings": {
+            "title": "Your logo on everything",
+            "text": "<p>Printing, laser engraving and embossing available on nearly every product at additional cost.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "c3": {
+          "type": "column",
+          "settings": {
+            "title": "GST invoice & transparent pricing",
+            "text": "<p>Catalogue prices are per piece; GST 5%–18% as applicable. Proper GST invoicing for your accounts team.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "c4": {
+          "type": "column",
+          "settings": {
+            "title": "Bangalore store, pan-India delivery",
+            "text": "<p>Visit us in Gandhinagar for same-day pickup or get bulk orders delivered anywhere in India.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "c1",
+        "c2",
+        "c3",
+        "c4"
+      ],
+      "settings": {
+        "title": "Why <em>Meru Gifting</em>",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 4,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "scheme-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 48,
+        "padding_bottom": 48
+      }
+    },
+    "feat_flasks": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "{{ section.settings.collection.title }}",
+        "heading_size": "h2",
+        "description": "",
+        "show_description": false,
+        "description_style": "subtitle",
+        "collection": "vacuum-flasks-bottles",
+        "products_to_show": 6,
+        "columns_desktop": 6,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "link",
+        "enable_desktop_slider": true,
+        "color_scheme": "scheme-3",
+        "image_ratio": "portrait",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "quick_add": "none",
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 8,
+        "padding_bottom": 8
+      }
+    },
+    "feat_diaries": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "{{ section.settings.collection.title }}",
+        "heading_size": "h2",
+        "description": "",
+        "show_description": false,
+        "description_style": "subtitle",
+        "collection": "diaries-notebooks",
+        "products_to_show": 6,
+        "columns_desktop": 6,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "link",
+        "enable_desktop_slider": true,
+        "color_scheme": "scheme-3",
+        "image_ratio": "portrait",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "quick_add": "none",
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 8,
+        "padding_bottom": 8
+      }
+    },
+    "feat_gadgets": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "{{ section.settings.collection.title }}",
+        "heading_size": "h2",
+        "description": "",
+        "show_description": false,
+        "description_style": "subtitle",
+        "collection": "gadgets-tech",
+        "products_to_show": 6,
+        "columns_desktop": 6,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "link",
+        "enable_desktop_slider": true,
+        "color_scheme": "scheme-3",
+        "image_ratio": "portrait",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "quick_add": "none",
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 8,
+        "padding_bottom": 8
+      }
+    },
+    "howto": {
+      "type": "howto-order-compact",
+      "settings": {
+        "eyebrow": "How to Order",
+        "title": "Corporate gifts, the <em>easy way</em>",
+        "subtitle": "Four simple steps from your first WhatsApp to branded gifts at your office. Bulk orders ship pan-India.",
+        "detail_label": "See the full 9-step process",
+        "detail_link": "/pages/howtoorder",
+        "color_scheme": "scheme-3",
+        "padding_top": 48,
+        "padding_bottom": 48
+      }
+    },
+    "clients": {
+      "type": "clients-marquee",
+      "blocks": {
+        "logo_tanishq": {
+          "type": "logo",
+          "settings": {
+            "asset_file": "logo-tanishq.png",
+            "alt": "Tanishq"
+          }
+        },
+        "logo_hdfc_bank": {
+          "type": "logo",
+          "settings": {
+            "asset_file": "logo-hdfc-bank.png",
+            "alt": "HDFC Bank"
+          }
+        },
+        "logo_amazon": {
+          "type": "logo",
+          "settings": {
+            "asset_file": "logo-amazon.png",
+            "alt": "Amazon"
+          }
+        },
+        "logo_itc": {
+          "type": "logo",
+          "settings": {
+            "asset_file": "logo-itc.png",
+            "alt": "ITC"
+          }
+        },
+        "logo_titan": {
+          "type": "logo",
+          "settings": {
+            "asset_file": "logo-titan.png",
+            "alt": "Titan"
+          }
+        },
+        "logo_kalyan_jewellers": {
+          "type": "logo",
+          "settings": {
+            "asset_file": "logo-kalyan-jewellers.png",
+            "alt": "Kalyan Jewellers"
+          }
+        },
+        "logo_maruti_suzuki": {
+          "type": "logo",
+          "settings": {
+            "asset_file": "logo-maruti-suzuki.png",
+            "alt": "Maruti Suzuki"
+          }
+        },
+        "logo_schneider": {
+          "type": "logo",
+          "settings": {
+            "asset_file": "logo-schneider.png",
+            "alt": "Schneider Electric"
+          }
+        },
+        "logo_cadbury": {
+          "type": "logo",
+          "settings": {
+            "asset_file": "logo-cadbury.png",
+            "alt": "Cadbury"
+          }
+        },
+        "logo_indian_express": {
+          "type": "logo",
+          "settings": {
+            "asset_file": "logo-indian-express.png",
+            "alt": "The Indian Express"
+          }
+        },
+        "logo_hcl": {
+          "type": "logo",
+          "settings": {
+            "asset_file": "logo-hcl.png",
+            "alt": "HCLTech"
+          }
+        },
+        "logo_infosys": {
+          "type": "logo",
+          "settings": {
+            "asset_file": "logo-infosys.png",
+            "alt": "Infosys"
+          }
+        },
+        "logo_jio": {
+          "type": "logo",
+          "settings": {
+            "asset_file": "logo-jio.png",
+            "alt": "Jio"
+          }
+        },
+        "logo_sbi": {
+          "type": "logo",
+          "settings": {
+            "asset_file": "logo-sbi.png",
+            "alt": "State Bank of India"
+          }
+        },
+        "logo_patanjali": {
+          "type": "logo",
+          "settings": {
+            "asset_file": "logo-patanjali.png",
+            "alt": "Patanjali"
+          }
+        },
+        "logo_decathlon": {
+          "type": "logo",
+          "settings": {
+            "asset_file": "logo-decathlon.png",
+            "alt": "Decathlon"
+          }
+        },
+        "logo_ksca": {
+          "type": "logo",
+          "settings": {
+            "asset_file": "logo-ksca.png",
+            "alt": "Karnataka State Cricket Association"
+          }
+        },
+        "logo_hal": {
+          "type": "logo",
+          "settings": {
+            "asset_file": "logo-hal.png",
+            "alt": "Hindustan Aeronautics Limited"
+          }
+        },
+        "logo_indian_railways": {
+          "type": "logo",
+          "settings": {
+            "asset_file": "logo-indian-railways.png",
+            "alt": "Indian Railways"
+          }
+        },
+        "logo_foxconn": {
+          "type": "logo",
+          "settings": {
+            "asset_file": "logo-foxconn.png",
+            "alt": "Foxconn"
+          }
+        },
+        "logo_mondelez": {
+          "type": "logo",
+          "settings": {
+            "asset_file": "logo-mondelez.png",
+            "alt": "Mondelez International"
+          }
+        },
+        "logo_coursera": {
+          "type": "logo",
+          "settings": {
+            "asset_file": "logo-coursera.png",
+            "alt": "Coursera"
+          }
+        },
+        "logo_razorpay": {
+          "type": "logo",
+          "settings": {
+            "asset_file": "logo-razorpay.png",
+            "alt": "Razorpay"
+          }
+        },
+        "logo_godrej": {
+          "type": "logo",
+          "settings": {
+            "asset_file": "logo-godrej.png",
+            "alt": "Godrej"
+          }
+        },
+        "logo_tata_steel": {
+          "type": "logo",
+          "settings": {
+            "asset_file": "logo-tata-steel.png",
+            "alt": "Tata Steel"
+          }
+        },
+        "logo_bajaj_allianz": {
+          "type": "logo",
+          "settings": {
+            "asset_file": "logo-bajaj-allianz.png",
+            "alt": "Bajaj Allianz"
+          }
+        },
+        "logo_axis_bank": {
+          "type": "logo",
+          "settings": {
+            "asset_file": "logo-axis-bank.png",
+            "alt": "Axis Bank"
+          }
+        },
+        "logo_canara_bank": {
+          "type": "logo",
+          "settings": {
+            "asset_file": "logo-canara-bank.png",
+            "alt": "Canara Bank"
+          }
+        },
+        "logo_caterpillar": {
+          "type": "logo",
+          "settings": {
+            "asset_file": "logo-caterpillar.png",
+            "alt": "Caterpillar"
+          }
+        }
+      },
+      "block_order": [
+        "logo_tanishq",
+        "logo_hdfc_bank",
+        "logo_amazon",
+        "logo_itc",
+        "logo_titan",
+        "logo_kalyan_jewellers",
+        "logo_maruti_suzuki",
+        "logo_schneider",
+        "logo_cadbury",
+        "logo_indian_express",
+        "logo_hcl",
+        "logo_infosys",
+        "logo_jio",
+        "logo_sbi",
+        "logo_patanjali",
+        "logo_decathlon",
+        "logo_ksca",
+        "logo_hal",
+        "logo_indian_railways",
+        "logo_foxconn",
+        "logo_mondelez",
+        "logo_coursera",
+        "logo_razorpay",
+        "logo_godrej",
+        "logo_tata_steel",
+        "logo_bajaj_allianz",
+        "logo_axis_bank",
+        "logo_canara_bank",
+        "logo_caterpillar"
+      ],
+      "settings": {
+        "eyebrow": "Our Clients",
+        "title": "Trusted by <em>150+ brands</em> across India",
+        "subtitle": "From Fortune 500 corporates to neighbourhood sports academies.",
+        "speed": 50,
+        "show_text_row": true,
+        "text_brands": "Tanishq · HDFC Bank · Amazon · ITC · Titan · Caratlane · Kalyan Jewellers · Maruti Suzuki · Mercedes Benz · Schneider Electric · Cadbury · Lifestyle · Indian Express · HCL · Infosys · Jio · SBI · Patanjali · Decathlon · KSCA · HAL · Indian Railways · RVCE · Foxconn · Mondelez · Coursera · Razorpay · CRED · Postman",
+        "show_stats": true,
+        "cta_label": "View All Brands",
+        "cta_link": "/pages/brands",
+        "cta2_label": "Read Reviews (4.9★)",
+        "cta2_link": "/pages/reviews",
+        "color_scheme": "scheme-3",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "faq": {
+      "type": "collapsible-content",
+      "blocks": {
+        "faq_1": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What is the minimum order quantity?",
+            "icon": "question_mark",
+            "row_content": "<p>The minimum order quantity for corporate gifting items is <strong>50 pieces</strong> per product. For mixed gift kits, talk to us on <a href=\"tel:+917892207252\">+91 78922 07252</a>.</p>",
+            "page": ""
+          }
+        },
+        "faq_2": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Can you brand the gifts with our company logo?",
+            "icon": "question_mark",
+            "row_content": "<p>Yes — logo printing, laser engraving, embossing and full customisation are available on almost every item at an additional cost. Share your logo on WhatsApp and we'll send a mock-up.</p>",
+            "page": ""
+          }
+        },
+        "faq_3": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Are the listed prices final?",
+            "icon": "question_mark",
+            "row_content": "<p>Prices shown are per piece. <strong>GST (5% or 18% depending on the item) and branding charges are additional.</strong> Bulk discounts are available on larger quantities.</p>",
+            "page": ""
+          }
+        },
+        "faq_4": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How fast can you deliver?",
+            "icon": "question_mark",
+            "row_content": "<p>Most bulk orders are ready in 7–10 working days after artwork approval. Same-day pickup is available at our Gandhinagar, Bangalore store for in-stock items.</p>",
+            "page": ""
+          }
+        },
+        "faq_5": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Do you make custom joining kits?",
+            "icon": "question_mark",
+            "row_content": "<p>Yes — we assemble joining kits combining bottles, diaries, pens, tech and bags with your branding. Tell us your budget per kit and we'll propose options.</p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "faq_1",
+        "faq_2",
+        "faq_3",
+        "faq_4",
+        "faq_5"
+      ],
+      "settings": {
+        "caption": "FAQ",
+        "heading": "Corporate gifting, answered",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "layout": "row",
+        "color_scheme": "scheme-1",
+        "container_color_scheme": "scheme-2",
+        "open_first_collapsible_row": true,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 48,
+        "padding_bottom": 48
+      }
+    },
+    "cta": {
+      "type": "rich-text",
+      "blocks": {
+        "h": {
+          "type": "heading",
+          "settings": {
+            "heading": "Ready to build your <em>gift kit?</em>",
+            "heading_size": "h1"
+          }
+        },
+        "t": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Call or WhatsApp us with your quantity and budget — we'll send a quote the same day.<br/>#273/2, SC Road, 2nd Cross, 1st Floor, Near Annamma Temple, Gandhinagar, Bangalore - 560 009 · merutrophy@gmail.com</p>"
+          }
+        },
+        "b": {
+          "type": "button",
+          "settings": {
+            "button_label": "Call 7892207252",
+            "button_link": "tel:+917892207252",
+            "button_style_secondary": false,
+            "button_label_2": "WhatsApp Now",
+            "button_link_2": "https://wa.me/+917892207252?text=Hi%2C%20I%27m%20interested%20in%20corporate%20gifting",
+            "button_style_secondary_2": true
+          }
+        }
+      },
+      "block_order": [
+        "h",
+        "t",
+        "b"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-3",
+        "full_width": true,
+        "padding_top": 56,
+        "padding_bottom": 64
+      }
+    }
+  },
+  "order": [
+    "hero",
+    "categories",
+    "why",
+    "feat_flasks",
+    "feat_diaries",
+    "feat_gadgets",
+    "howto",
+    "clients",
+    "faq",
+    "cta"
+  ]
+}
