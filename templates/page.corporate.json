@@ -34,13 +34,25 @@
             "button_link_2": "https://wa.me/+917892207252?text=Hi%2C%20I%27m%20interested%20in%20corporate%20gifting",
             "button_style_secondary_2": true
           }
+        },
+        "btn_catalogue": {
+          "type": "button",
+          "settings": {
+            "button_label": "Download Catalogue (PDF)",
+            "button_link": "https://cdn.shopify.com/s/files/1/0893/7960/2706/files/Meru-Trophy-Corporate-Gifting-Catalogue.pdf?v=1785615897",
+            "button_style_secondary": true,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
         }
       },
       "block_order": [
         "cap",
         "head",
         "txt",
-        "btn"
+        "btn",
+        "btn_catalogue"
       ],
       "settings": {
         "desktop_content_position": "center",
