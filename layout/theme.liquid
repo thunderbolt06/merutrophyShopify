@@ -661,6 +661,9 @@ function gtag_report_conversion(url) {
                 title += ' (' + item.variant_title + ')';
               }
               lines.push((idx + 1) + '. ' + title);
+              if (item.url) {
+                lines.push('   Link: ' + window.location.origin + item.url);
+              }
               lines.push('   Qty: ' + item.quantity + ' × ' + formatMoney(item.price) + ' = ' + formatMoney(item.final_line_price));
               if (item.properties) {
                 Object.keys(item.properties).forEach(function (k) {
