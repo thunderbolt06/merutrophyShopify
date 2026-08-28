@@ -83,9 +83,9 @@
           "settings": {
             "image": "shopify://shop_images/8029-1-hero-black.jpg",
             "title": "Customised Gifts",
-            "text": "<p>Fully personalised gifting built around your brand and budget — engraving, UV photo printing and bespoke gift kits, designed and mocked up before you pay.</p>",
-            "link_label": "Ask about custom gifts",
-            "link": "https://wa.me/+917892207252?text=Hi%2C%20I%27m%20interested%20in%20a%20customised%20gift"
+            "text": "<p>Acrylic trophies, medals and any product that can be engraved, printed or branded to order — 230+ personalisable SKUs. Logo branding, name engraving and custom messaging available on request.</p>",
+            "link_label": "Explore Customised Gifts",
+            "link": "/collections/customised-gifts"
           }
         }
       },
