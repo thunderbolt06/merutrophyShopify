@@ -1,23 +1,98 @@
 <style type="text/css">
-  .template-404 .title + * {
-    margin-top: 1rem;
-  }
-
-  @media screen and (min-width: 750px) {
-    .template-404 .title + * {
-      margin-top: 2rem;
-    }
-  }
+  .t404 { max-width: 1120px; margin: 0 auto; padding: 2.5rem 1.5rem 4rem; }
+  .t404 .t404-head { text-align: center; }
+  .t404 .t404-head h1 { margin: .4rem 0 .8rem; }
+  .t404 .t404-lead { max-width: 620px; margin: 0 auto; opacity: .8; }
+  .t404 .t404-search { max-width: 580px; margin: 1.6rem auto 0; display: flex; gap: .5rem; }
+  .t404 .t404-search input[type="search"] { flex: 1; padding: .85rem 1rem; border: 1px solid rgba(0,0,0,.22); border-radius: 8px; font-size: 1rem; }
+  .t404 .t404-search button { padding: .85rem 1.5rem; border: 0; border-radius: 8px; background: #111; color: #fff; cursor: pointer; font-size: 1rem; }
+  .t404 .t404-title { font-size: 1.3rem; margin: 3rem 0 1.2rem; text-align: center; }
+  .t404 .t404-chips { display: flex; flex-wrap: wrap; gap: .6rem; justify-content: center; }
+  .t404 .t404-chip { display: inline-block; padding: .55rem 1.15rem; border: 1px solid rgba(0,0,0,.18); border-radius: 999px; text-decoration: none; color: inherit; font-size: .95rem; transition: all .15s ease; }
+  .t404 .t404-chip:hover { background: #111; color: #fff; border-color: #111; }
+  .t404 .t404-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1.3rem; }
+  @media (min-width: 750px) { .t404 .t404-grid { grid-template-columns: repeat(4, 1fr); } }
+  .t404 .t404-card { text-decoration: none; color: inherit; display: block; }
+  .t404 .t404-card .t404-imgwrap { width: 100%; aspect-ratio: 1 / 1; border-radius: 10px; overflow: hidden; background: #f4f2ee; }
+  .t404 .t404-card img { width: 100%; height: 100%; object-fit: cover; display: block; transition: transform .25s ease; }
+  .t404 .t404-card:hover img { transform: scale(1.04); }
+  .t404 .t404-name { font-size: .92rem; margin: .55rem 0 .25rem; line-height: 1.3; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+  .t404 .t404-price { font-weight: 600; font-size: .95rem; }
+  .t404 .t404-cta { text-align: center; margin-top: 2rem; }
+  .t404 .t404-contact { margin-top: 3.5rem; padding: 2rem 1.5rem; border-radius: 14px; background: #faf6ec; text-align: center; }
+  .t404 .t404-contact h2 { margin: 0 0 .5rem; font-size: 1.25rem; }
+  .t404 .t404-contact p { margin: .2rem auto 1.2rem; max-width: 560px; opacity: .85; }
+  .t404 .t404-btns { display: flex; gap: .6rem; justify-content: center; flex-wrap: wrap; }
+  .t404 .t404-btn { text-decoration: none; padding: .75rem 1.4rem; border-radius: 9px; font-size: .95rem; font-weight: 500; }
+  .t404 .t404-btn-wa { background: #25D366; color: #fff; }
+  .t404 .t404-btn-call { background: #111; color: #fff; }
+  .t404 .t404-btn-mail { border: 1px solid #111; color: #111; }
 </style>
 
-<div class="template-404 page-width page-margin center">
-  <p>
-    {{ 'templates.404.subtext' | t }}
-  </p>
-  <h1 class="title">
-    {{ 'templates.404.title' | t }}
-  </h1>
-  <a href="{{ routes.all_products_collection_url }}" class="button">
-    {{ 'general.continue_shopping' | t }}
-  </a>
+<div class="t404 template-404">
+  <div class="t404-head">
+    <p>{{ 'templates.404.subtext' | t }}</p>
+    <h1 class="title">{{ 'templates.404.title' | t }}</h1>
+    <p class="t404-lead">The page you were looking for may have moved, been renamed, or sold out. Try a quick search or browse our most popular categories below.</p>
+    <form action="{{ routes.search_url }}" method="get" role="search" class="t404-search">
+      <input type="search" name="q" value="{{ search.terms | escape }}" placeholder="Search trophies, medals, mementos..." aria-label="Search">
+      <input type="hidden" name="options[prefix]" value="last">
+      <button type="submit">Search</button>
+    </form>
+  </div>
+
+  {% assign popular = "medals,fibre-trophies,metal-sports-trophies,crystal-trophies,wooden-mementos,corporate-and-college-premium-trophies,customised-medals,new-arrivals" | split: "," %}
+  <h2 class="t404-title">Browse popular categories</h2>
+  <div class="t404-chips">
+    {% for h in popular %}
+      {% assign c = collections[h] %}
+      {% if c.handle %}
+        <a class="t404-chip" href="{{ c.url }}">{{ c.title }}</a>
+      {% endif %}
+    {% endfor %}
+  </div>
+
+  {% assign feat = collections['new-arrivals'] %}
+  {% if feat.products.size == 0 %}{% assign feat = collections['medals'] %}{% endif %}
+  {% if feat.products.size > 0 %}
+    <h2 class="t404-title">{{ feat.title | default: 'Featured products' }}</h2>
+    <div class="t404-grid">
+      {% for product in feat.products limit: 8 %}
+        <a class="t404-card" href="{{ product.url }}">
+          <div class="t404-imgwrap">
+            {% if product.featured_image %}
+              <img src="{{ product.featured_image | image_url: width: 500 }}" alt="{{ product.featured_image.alt | escape }}" loading="lazy" width="500" height="500">
+            {% else %}
+              {{ 'product-apparel-1' | placeholder_svg_tag: 'placeholder-svg' }}
+            {% endif %}
+          </div>
+          <div class="t404-name">{{ product.title }}</div>
+          <div class="t404-price">
+            {% if product.price_varies %}From {% endif %}{{ product.price | money }}
+          </div>
+        </a>
+      {% endfor %}
+    </div>
+  {% endif %}
+
+  <div class="t404-cta">
+    <a href="{{ routes.all_products_collection_url }}" class="button">{{ 'general.continue_shopping' | t }}</a>
+  </div>
+
+  <div class="t404-contact">
+    <h2>Need bulk or custom orders?</h2>
+    <p>We supply trophies, medals and mementos for schools, colleges, corporates and events across India. Talk to us for bulk pricing and full customization.</p>
+    <div class="t404-btns">
+      <a class="t404-btn t404-btn-wa" href="https://wa.me/917483900892" target="_blank" rel="noopener">WhatsApp us</a>
+      <a class="t404-btn t404-btn-call" href="tel:+917483900892">Call +91 74839 00892</a>
+      <a class="t404-btn t404-btn-mail" href="mailto:merutrophy@gmail.com">Email us</a>
+    </div>
+  </div>
 </div>
+
+{% schema %}
+{
+  "name": "404 page",
+  "settings": []
+}
+{% endschema %}
