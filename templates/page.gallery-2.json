@@ -19,7 +19,6 @@
     },
     "case_studies_index_dBGVwh": {
       "type": "case-studies-index",
-      "disabled": true,
       "name": "Case studies index",
       "settings": {
         "eyebrow": "Case Studies",
