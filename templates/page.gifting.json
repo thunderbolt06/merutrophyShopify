@@ -57,7 +57,7 @@
         "c1": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/MGH-7011-hero-bamboo.jpg",
+            "image": "shopify://shop_images/IMG_9692.jpg",
             "title": "Corporate Gifts",
             "text": "<p>Bottles, flasks, diaries, tech and bags for teams and clients — 300+ SKUs across 14 categories. MOQ just 50 pcs, logo branding and full customisation available.</p>",
             "link_label": "Explore Corporate Gifts",
@@ -119,8 +119,8 @@
         "c1": {
           "type": "column",
           "settings": {
-            "title": "Est. 2012, 4,000+ artisan families",
-            "text": "<p>Over a decade of preserving Indian craftsmanship — a design-led craft enterprise turning heritage skills into dignified, sustained livelihoods across 25+ states.</p>",
+            "title": "Est. 2012, 8,000+ artisan families",
+            "text": "<p>Thirteen years preserving Indian craftsmanship — a design-led craft enterprise creating dignified, sustained livelihoods for artisan families across 25+ states, with 50%+ women artisans at the centre of production.</p>",
             "link_label": "",
             "link": ""
           }
@@ -128,8 +128,8 @@
         "c2": {
           "type": "column",
           "settings": {
-            "title": "Award-winning studio",
-            "text": "<p>Sustainable Impact Craft Company (2024), Most Iconic Handloom &amp; Handicraft Works and Social Entrepreneur Award in Art, Craft &amp; Handicrafts (2023).</p>",
+            "title": "Award-winning, GeM-registered",
+            "text": "<p>Sustainable Impact Craft Company (2024), Most Iconic Handloom &amp; Handicraft Works and Social Entrepreneur Award in Art, Craft &amp; Handicrafts (2023) — and a GeM-registered vendor trusted for government and institutional orders.</p>",
             "link_label": "",
             "link": ""
           }
@@ -137,8 +137,8 @@
         "c3": {
           "type": "column",
           "settings": {
-            "title": "One-stop gifting",
-            "text": "<p>In-house design, content, quality checks and box-making — 2,500+ bespoke products designed, 2 million+ handcrafted pieces delivered, dedicated relationship managers.</p>",
+            "title": "One-stop gifting, in-house",
+            "text": "<p>In-house design, content, quality checks and box-making across a 15,000 sq. ft. operations unit — 4,000+ product SKUs, 2 million+ handcrafted pieces delivered, dedicated relationship managers for every account.</p>",
             "link_label": "",
             "link": ""
           }
@@ -147,7 +147,7 @@
           "type": "column",
           "settings": {
             "title": "GST invoice & transparent pricing",
-            "text": "<p>Catalogue prices are per piece or per set; GST extra as applicable. Proper GST invoicing for your accounts team, trusted by 250+ institutional patrons.</p>",
+            "text": "<p>Catalogue prices are per piece or per set; GST extra as applicable. Proper GST invoicing for your accounts team, serving 25,000+ customers and 250+ institutional patrons pan-India.</p>",
             "link_label": "",
             "link": ""
           }
@@ -171,17 +171,67 @@
         "padding_bottom": 48
       }
     },
+    "howto": {
+      "type": "howto-order-compact",
+      "settings": {
+        "eyebrow": "How It Works",
+        "title": "From enquiry to delivery, <em>the easy way</em>",
+        "subtitle": "Tell us the occasion, quantity and budget on a call or WhatsApp — we'll recommend the right collection, share a quote same-day, and handle branding, quality checks and pan-India delivery end-to-end.",
+        "detail_label": "See the full 9-step process",
+        "detail_link": "/pages/howtoorder",
+        "color_scheme": "scheme-1",
+        "padding_top": 48,
+        "padding_bottom": 48
+      }
+    },
     "clients": {
       "type": "clients-marquee",
-      "blocks": {},
-      "block_order": [],
+      "blocks": {
+        "logo_tanishq": { "type": "logo", "settings": { "asset_file": "logo-tanishq.png", "alt": "Tanishq" } },
+        "logo_hdfc_bank": { "type": "logo", "settings": { "asset_file": "logo-hdfc-bank.png", "alt": "HDFC Bank" } },
+        "logo_amazon": { "type": "logo", "settings": { "asset_file": "logo-amazon.png", "alt": "Amazon" } },
+        "logo_itc": { "type": "logo", "settings": { "asset_file": "logo-itc.png", "alt": "ITC" } },
+        "logo_titan": { "type": "logo", "settings": { "asset_file": "logo-titan.png", "alt": "Titan" } },
+        "logo_kalyan_jewellers": { "type": "logo", "settings": { "asset_file": "logo-kalyan-jewellers.png", "alt": "Kalyan Jewellers" } },
+        "logo_maruti_suzuki": { "type": "logo", "settings": { "asset_file": "logo-maruti-suzuki.png", "alt": "Maruti Suzuki" } },
+        "logo_schneider": { "type": "logo", "settings": { "asset_file": "logo-schneider.png", "alt": "Schneider Electric" } },
+        "logo_cadbury": { "type": "logo", "settings": { "asset_file": "logo-cadbury.png", "alt": "Cadbury" } },
+        "logo_indian_express": { "type": "logo", "settings": { "asset_file": "logo-indian-express.png", "alt": "The Indian Express" } },
+        "logo_hcl": { "type": "logo", "settings": { "asset_file": "logo-hcl.png", "alt": "HCLTech" } },
+        "logo_infosys": { "type": "logo", "settings": { "asset_file": "logo-infosys.png", "alt": "Infosys" } },
+        "logo_jio": { "type": "logo", "settings": { "asset_file": "logo-jio.png", "alt": "Jio" } },
+        "logo_sbi": { "type": "logo", "settings": { "asset_file": "logo-sbi.png", "alt": "State Bank of India" } },
+        "logo_patanjali": { "type": "logo", "settings": { "asset_file": "logo-patanjali.png", "alt": "Patanjali" } },
+        "logo_decathlon": { "type": "logo", "settings": { "asset_file": "logo-decathlon.png", "alt": "Decathlon" } },
+        "logo_ksca": { "type": "logo", "settings": { "asset_file": "logo-ksca.png", "alt": "Karnataka State Cricket Association" } },
+        "logo_hal": { "type": "logo", "settings": { "asset_file": "logo-hal.png", "alt": "Hindustan Aeronautics Limited" } },
+        "logo_indian_railways": { "type": "logo", "settings": { "asset_file": "logo-indian-railways.png", "alt": "Indian Railways" } },
+        "logo_foxconn": { "type": "logo", "settings": { "asset_file": "logo-foxconn.png", "alt": "Foxconn" } },
+        "logo_mondelez": { "type": "logo", "settings": { "asset_file": "logo-mondelez.png", "alt": "Mondelez International" } },
+        "logo_coursera": { "type": "logo", "settings": { "asset_file": "logo-coursera.png", "alt": "Coursera" } },
+        "logo_razorpay": { "type": "logo", "settings": { "asset_file": "logo-razorpay.png", "alt": "Razorpay" } },
+        "logo_godrej": { "type": "logo", "settings": { "asset_file": "logo-godrej.png", "alt": "Godrej" } },
+        "logo_tata_steel": { "type": "logo", "settings": { "asset_file": "logo-tata-steel.png", "alt": "Tata Steel" } },
+        "logo_bajaj_allianz": { "type": "logo", "settings": { "asset_file": "logo-bajaj-allianz.png", "alt": "Bajaj Allianz" } },
+        "logo_axis_bank": { "type": "logo", "settings": { "asset_file": "logo-axis-bank.png", "alt": "Axis Bank" } },
+        "logo_canara_bank": { "type": "logo", "settings": { "asset_file": "logo-canara-bank.png", "alt": "Canara Bank" } },
+        "logo_caterpillar": { "type": "logo", "settings": { "asset_file": "logo-caterpillar.png", "alt": "Caterpillar" } }
+      },
+      "block_order": [
+        "logo_tanishq", "logo_hdfc_bank", "logo_amazon", "logo_itc", "logo_titan",
+        "logo_kalyan_jewellers", "logo_maruti_suzuki", "logo_schneider", "logo_cadbury",
+        "logo_indian_express", "logo_hcl", "logo_infosys", "logo_jio", "logo_sbi",
+        "logo_patanjali", "logo_decathlon", "logo_ksca", "logo_hal", "logo_indian_railways",
+        "logo_foxconn", "logo_mondelez", "logo_coursera", "logo_razorpay", "logo_godrej",
+        "logo_tata_steel", "logo_bajaj_allianz", "logo_axis_bank", "logo_canara_bank", "logo_caterpillar"
+      ],
       "settings": {
         "eyebrow": "Our Clients",
-        "title": "Trusted by <em>150+ brands</em> across India",
-        "subtitle": "From Fortune 500 corporates to institutions and individual collectors.",
+        "title": "Trusted by <em>250+ institutions</em> across India",
+        "subtitle": "From Fortune 500 corporates and government institutions to individual collectors — GeM-registered for public sector orders.",
         "speed": 50,
-        "show_text_row": false,
-        "text_brands": "",
+        "show_text_row": true,
+        "text_brands": "Tanishq · HDFC Bank · Amazon · ITC · Titan · Caratlane · Kalyan Jewellers · Maruti Suzuki · Mercedes Benz · Schneider Electric · Cadbury · Lifestyle · Indian Express · HCL · Infosys · Jio · SBI · Patanjali · Decathlon · KSCA · HAL · Indian Railways · RVCE · Foxconn · Mondelez · Coursera · Razorpay · CRED · Postman",
         "show_stats": true,
         "cta_label": "View All Brands",
         "cta_link": "/pages/brands",
@@ -231,5 +281,5 @@
       }
     }
   },
-  "order": ["hero", "categories", "why", "clients", "cta"]
+  "order": ["hero", "categories", "why", "howto", "clients", "cta"]
 }
