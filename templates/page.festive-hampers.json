@@ -1,0 +1,150 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "feed": {
+      "type": "feed-landing",
+      "settings": {
+        "eyebrow": "Product · Festive Gifting",
+        "heading": "<h1><em>Festive Hampers</em> — Dry Fruit, Sweet & Chocolate Gift Boxes</h1>",
+        "subheading": "Handpicked dry fruit jar boxes, sweet trays, chocolate boxes and gift baskets from Meru Gifting's Exclusive Gifting Boxes collection — for Diwali, weddings, festivals and corporate festive gifting. Customisation and branding available on request.",
+        "primary_cta_label": "Get a quote on WhatsApp",
+        "secondary_cta_label": "Browse Festive Hampers",
+        "secondary_cta_url": "/collections/festive-hampers",
+        "breadcrumb_label": "Festive Hampers",
+        "faq_heading": "Frequently asked questions",
+        "schema_type": "Product",
+        "schema_name": "Festive Hampers",
+        "color_scheme": "scheme-1",
+        "features_heading": "Why order your hampers from Meru Gifting",
+        "price_heading": "Festive hamper price guide",
+        "price_col1": "Item",
+        "price_col2": "Details",
+        "price_col3": "Price (from)",
+        "price_caption": "Indicative starting prices. Final price depends on jar count, box size and materials. Bulk discounts apply. GST invoice available.",
+        "schema_price_low": "1000",
+        "schema_price_high": "1000"
+      },
+      "blocks": {
+        "b0": {
+          "type": "quick_answer",
+          "settings": {
+            "label": "Quick answer",
+            "text": "<p>Meru Gifting's <strong>Festive Hampers</strong> range covers dry fruit jar boxes, sweet trays, chocolate boxes and gift baskets, starting from <strong>₹1,000</strong>. GST-invoiced, bulk-capable, delivered pan-India. WhatsApp +91 78922 07252. Corporate branding and custom messaging can be added to any hamper.</p>"
+          }
+        },
+        "b1": {
+          "type": "rich_text",
+          "settings": {
+            "heading": "A hamper for every celebration",
+            "text": "<p>From fold-out peacock dry fruit boxes to Royal Imperial jar sets, Rajputana-style boxes, hamper trays and jumbo gift baskets — our Festive Hampers collection brings together Meru Gifting's Exclusive Gifting Boxes catalogue in one place. Popular for Diwali, weddings, corporate festive gifting and personal celebrations. Add your company logo or a personalised message to any hamper.</p>"
+          }
+        },
+        "b2": {
+          "type": "feature",
+          "settings": {
+            "title": "Dry fruit, sweets & chocolate",
+            "text": "Jar boxes, sweet trays, chocolate boxes and gift baskets in one collection."
+          }
+        },
+        "b3": {
+          "type": "feature",
+          "settings": {
+            "title": "Customisation available",
+            "text": "Logo branding and personalised messaging on request, at additional cost."
+          }
+        },
+        "b4": {
+          "type": "feature",
+          "settings": {
+            "title": "GST & PO friendly",
+            "text": "Proper invoices and PO handling for procurement."
+          }
+        },
+        "b5": {
+          "type": "feature",
+          "settings": {
+            "title": "Bulk-capable",
+            "text": "From a single gift to hundreds for corporate festive gifting."
+          }
+        },
+        "b6": {
+          "type": "price_row",
+          "settings": {
+            "item": "Festive hamper (all styles)",
+            "spec": "Dry fruit jar boxes, trays, baskets & chocolate boxes",
+            "price": "₹1,000"
+          }
+        },
+        "b7": {
+          "type": "faq",
+          "settings": {
+            "question": "Can hampers carry our company logo?",
+            "answer": "<p>Yes — logo branding and personalised messaging can be added to any hamper for an additional customisation charge. Contact us on WhatsApp for a quote.</p>"
+          }
+        },
+        "b8": {
+          "type": "faq",
+          "settings": {
+            "question": "What's inside a Festive Hamper?",
+            "answer": "<p>Each hamper listing shows its exact contents — dry fruit jars, sweets, chocolates or a mix — along with box size and jar capacity.</p>"
+          }
+        },
+        "b9": {
+          "type": "faq",
+          "settings": {
+            "question": "Do you provide GST invoices?",
+            "answer": "<p>Yes — GST invoices on all B2B orders, with PO-based ordering and documentation.</p>"
+          }
+        },
+        "b10": {
+          "type": "faq",
+          "settings": {
+            "question": "Do you deliver outside Bangalore?",
+            "answer": "<p>Yes — pan-India, plus international shipping for overseas offices.</p>"
+          }
+        },
+        "b11": {
+          "type": "related_collection",
+          "settings": {
+            "heading": "Popular Festive Hampers",
+            "collection": "festive-hampers"
+          }
+        },
+        "b12": {
+          "type": "cta_band",
+          "settings": {
+            "heading": "Planning festive gifting this season?",
+            "text": "Tell us the occasion, quantity and date — we'll send hamper options and a quote, usually within the hour.",
+            "button_label": "Get my quote"
+          }
+        }
+      },
+      "block_order": [
+        "b0",
+        "b1",
+        "b2",
+        "b3",
+        "b4",
+        "b5",
+        "b6",
+        "b7",
+        "b8",
+        "b9",
+        "b10",
+        "b11",
+        "b12"
+      ]
+    }
+  },
+  "order": [
+    "feed"
+  ]
+}
