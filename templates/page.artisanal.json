@@ -1,0 +1,354 @@
+{
+  "sections": {
+    "hero": {
+      "type": "rich-text",
+      "blocks": {
+        "cap": {
+          "type": "caption",
+          "settings": {
+            "caption": "ARTISANAL MEMENTOS BY MERU GIFTING",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "medium"
+          }
+        },
+        "head": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>DHAROHAR — A LIVING LEGACY</strong>",
+            "heading_size": "h0"
+          }
+        },
+        "txt": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Handcrafted Indian heritage art and mementos, made with 4,000+ artisan families across 25+ states — painting, metal inlay, wood, papier mache, lacquerware and more. <strong>Customisation &amp; branding available · GST extra</strong></p>"
+          }
+        },
+        "btn": {
+          "type": "button",
+          "settings": {
+            "button_label": "Call 7892207252",
+            "button_link": "tel:+917892207252",
+            "button_style_secondary": false,
+            "button_label_2": "WhatsApp Now",
+            "button_link_2": "https://wa.me/+917892207252?text=Hi%2C%20I%27m%20interested%20in%20Artisanal%20Mementos",
+            "button_style_secondary_2": true
+          }
+        }
+      },
+      "block_order": ["cap", "head", "txt", "btn"],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-3",
+        "full_width": true,
+        "padding_top": 64,
+        "padding_bottom": 40
+      }
+    },
+    "categories": {
+      "type": "collection-list",
+      "blocks": {
+        "c1": { "type": "featured_collection", "settings": { "collection": "kalpavriksha-tree-of-life" } },
+        "c2": { "type": "featured_collection", "settings": { "collection": "deepotsav-festive-decor" } },
+        "c3": { "type": "featured_collection", "settings": { "collection": "kalaagaan-chitrashala-art" } },
+        "c4": { "type": "featured_collection", "settings": { "collection": "alankaar-decor-plates-platters" } },
+        "c5": { "type": "featured_collection", "settings": { "collection": "samman-recognition-gifts" } },
+        "c6": { "type": "featured_collection", "settings": { "collection": "dharohar-heritage-collectibles" } }
+      },
+      "block_order": ["c1", "c2", "c3", "c4", "c5", "c6"],
+      "settings": {
+        "title": "Explore the <em>Artisanal Mementos</em> collections",
+        "heading_size": "h2",
+        "image_ratio": "square",
+        "columns_desktop": 3,
+        "color_scheme": "scheme-3",
+        "show_view_all": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "why": {
+      "type": "multicolumn",
+      "blocks": {
+        "c1": {
+          "type": "column",
+          "settings": {
+            "title": "4,000+ artisan families",
+            "text": "<p>Every piece is handcrafted across 25+ states of India, sustaining traditional livelihoods and 150+ craft forms.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "c2": {
+          "type": "column",
+          "settings": {
+            "title": "Customisation available",
+            "text": "<p>Logo branding and personalisation possible on most pieces at additional cost — ideal for corporate gifting too.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "c3": {
+          "type": "column",
+          "settings": {
+            "title": "GST invoice & transparent pricing",
+            "text": "<p>Catalogue prices are per piece; GST 5%–18% as applicable. Proper GST invoicing for your accounts team.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "c4": {
+          "type": "column",
+          "settings": {
+            "title": "Bangalore store, pan-India delivery",
+            "text": "<p>Visit us in Gandhinagar or get pieces delivered anywhere in India, carefully packed.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": ["c1", "c2", "c3", "c4"],
+      "settings": {
+        "title": "Why <em>Artisanal Mementos</em>",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 4,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "scheme-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 48,
+        "padding_bottom": 48
+      }
+    },
+    "feat_kalaagaan": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "{{ section.settings.collection.title }}",
+        "heading_size": "h2",
+        "description": "",
+        "show_description": false,
+        "description_style": "subtitle",
+        "collection": "kalaagaan-chitrashala-art",
+        "products_to_show": 8,
+        "columns_desktop": 6,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "link",
+        "enable_desktop_slider": true,
+        "color_scheme": "scheme-3",
+        "image_ratio": "portrait",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "quick_add": "none",
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 8,
+        "padding_bottom": 8
+      }
+    },
+    "feat_deepotsav": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "{{ section.settings.collection.title }}",
+        "heading_size": "h2",
+        "description": "",
+        "show_description": false,
+        "description_style": "subtitle",
+        "collection": "deepotsav-festive-decor",
+        "products_to_show": 8,
+        "columns_desktop": 6,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "link",
+        "enable_desktop_slider": true,
+        "color_scheme": "scheme-3",
+        "image_ratio": "portrait",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "quick_add": "none",
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 8,
+        "padding_bottom": 8
+      }
+    },
+    "feat_samman": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "{{ section.settings.collection.title }}",
+        "heading_size": "h2",
+        "description": "",
+        "show_description": false,
+        "description_style": "subtitle",
+        "collection": "samman-recognition-gifts",
+        "products_to_show": 8,
+        "columns_desktop": 6,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "link",
+        "enable_desktop_slider": true,
+        "color_scheme": "scheme-3",
+        "image_ratio": "portrait",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "quick_add": "none",
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 8,
+        "padding_bottom": 8
+      }
+    },
+    "howto": {
+      "type": "howto-order-compact",
+      "settings": {
+        "eyebrow": "How to Order",
+        "title": "Handcrafted heritage, <em>delivered with care</em>",
+        "subtitle": "From your first WhatsApp message to a piece at your door — pan-India delivery, carefully packed.",
+        "detail_label": "See the full 9-step process",
+        "detail_link": "/pages/howtoorder",
+        "color_scheme": "scheme-3",
+        "padding_top": 48,
+        "padding_bottom": 48
+      }
+    },
+    "clients": {
+      "type": "clients-marquee",
+      "blocks": {},
+      "block_order": [],
+      "settings": {
+        "eyebrow": "Meru Gifting",
+        "title": "Trusted by <em>250+ institutional partners</em> across India",
+        "subtitle": "13 years preserving and elevating Indian craftsmanship — 2 million+ handcrafted products delivered.",
+        "speed": 50,
+        "show_text_row": false,
+        "text_brands": "",
+        "show_stats": true,
+        "cta_label": "View All Brands",
+        "cta_link": "/pages/brands",
+        "cta2_label": "Read Reviews (4.9★)",
+        "cta2_link": "/pages/reviews",
+        "color_scheme": "scheme-3",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "faq": {
+      "type": "collapsible-content",
+      "blocks": {
+        "faq_1": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Can I buy just one piece, or is there a minimum order?",
+            "icon": "question_mark",
+            "row_content": "<p>Artisanal Mementos are sold <strong>per piece</strong> — no minimum order quantity. For bulk corporate gifting quantities, talk to us on <a href=\"tel:+917892207252\">+91 78922 07252</a>.</p>",
+            "page": ""
+          }
+        },
+        "faq_2": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Can these be personalised or branded?",
+            "icon": "question_mark",
+            "row_content": "<p>Yes — logo engraving, name plates and gift-wrap personalisation are available on most pieces at an additional cost. Share your requirement on WhatsApp and we'll confirm feasibility.</p>",
+            "page": ""
+          }
+        },
+        "faq_3": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Are the listed prices final?",
+            "icon": "question_mark",
+            "row_content": "<p>Prices shown are per piece. <strong>GST (5% or 18% depending on the item) and any customisation charges are additional.</strong></p>",
+            "page": ""
+          }
+        },
+        "faq_4": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How is each piece made?",
+            "icon": "question_mark",
+            "row_content": "<p>Each piece is handcrafted by artisans across India using traditional techniques — from Bidri metal inlay to Meenakari enamelling, Dhokra casting, papier mache and more — as noted on every product page.</p>",
+            "page": ""
+          }
+        },
+        "faq_5": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How fast can you deliver?",
+            "icon": "question_mark",
+            "row_content": "<p>In-stock pieces typically ship within 3–5 working days. Same-day pickup is available at our Gandhinagar, Bangalore store.</p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": ["faq_1", "faq_2", "faq_3", "faq_4", "faq_5"],
+      "settings": {
+        "caption": "FAQ",
+        "heading": "Artisanal Mementos, answered",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "layout": "row",
+        "color_scheme": "scheme-1",
+        "container_color_scheme": "scheme-2",
+        "open_first_collapsible_row": true,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 48,
+        "padding_bottom": 48
+      }
+    },
+    "cta": {
+      "type": "rich-text",
+      "blocks": {
+        "h": {
+          "type": "heading",
+          "settings": {
+            "heading": "Bring home a piece of <em>living heritage</em>",
+            "heading_size": "h1"
+          }
+        },
+        "t": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Call or WhatsApp us to find the right piece — we'll help you choose based on occasion and budget.<br/>#273/2, SC Road, 2nd Cross, 1st Floor, Near Annamma Temple, Gandhinagar, Bangalore - 560 009 · merutrophy@gmail.com</p>"
+          }
+        },
+        "b": {
+          "type": "button",
+          "settings": {
+            "button_label": "Call 7892207252",
+            "button_link": "tel:+917892207252",
+            "button_style_secondary": false,
+            "button_label_2": "WhatsApp Now",
+            "button_link_2": "https://wa.me/+917892207252?text=Hi%2C%20I%27m%20interested%20in%20Artisanal%20Mementos",
+            "button_style_secondary_2": true
+          }
+        }
+      },
+      "block_order": ["h", "t", "b"],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-3",
+        "full_width": true,
+        "padding_top": 56,
+        "padding_bottom": 64
+      }
+    }
+  },
+  "order": ["hero", "categories", "why", "feat_kalaagaan", "feat_deepotsav", "feat_samman", "howto", "clients", "faq", "cta"]
+}

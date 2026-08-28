@@ -1,0 +1,226 @@
+{
+  "sections": {
+    "hero": {
+      "type": "rich-text",
+      "blocks": {
+        "cap": {
+          "type": "caption",
+          "settings": {
+            "caption": "MERU GIFTING",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "medium"
+          }
+        },
+        "head": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>One home for every kind of gift</strong>",
+            "heading_size": "h0"
+          }
+        },
+        "txt": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Corporate gifts, festive hampers, artisanal mementos and customised gifts — from a design-led craft and gifting studio working with 4,000+ artisan families across India.</p>"
+          }
+        },
+        "btn": {
+          "type": "button",
+          "settings": {
+            "button_label": "Call 7892207252",
+            "button_link": "tel:+917892207252",
+            "button_style_secondary": false,
+            "button_label_2": "WhatsApp Now",
+            "button_link_2": "https://wa.me/+917892207252?text=Hi%2C%20I%27m%20interested%20in%20Meru%20Gifting",
+            "button_style_secondary_2": true
+          }
+        }
+      },
+      "block_order": ["cap", "head", "txt", "btn"],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-3",
+        "full_width": true,
+        "padding_top": 64,
+        "padding_bottom": 40
+      }
+    },
+    "categories": {
+      "type": "multicolumn",
+      "blocks": {
+        "c1": {
+          "type": "column",
+          "settings": {
+            "title": "Corporate Gifts",
+            "text": "<p>Bottles, diaries, tech and bags for teams and clients. MOQ 50 pcs, logo branding available.</p>",
+            "link_label": "Explore Corporate Gifts",
+            "link": "/pages/corporate"
+          }
+        },
+        "c2": {
+          "type": "column",
+          "settings": {
+            "title": "Artisanal Mementos",
+            "text": "<p>Handcrafted Indian heritage art and mementos from 4,000+ artisan families. Sold per piece.</p>",
+            "link_label": "Explore Artisanal Mementos",
+            "link": "/pages/artisanal"
+          }
+        },
+        "c3": {
+          "type": "column",
+          "settings": {
+            "title": "Festive Hampers",
+            "text": "<p>Curated festive gift hampers for Diwali, New Year and beyond.</p>",
+            "link_label": "Coming soon",
+            "link": ""
+          }
+        },
+        "c4": {
+          "type": "column",
+          "settings": {
+            "title": "Customised Gifts",
+            "text": "<p>Fully personalised gifting built around your brand and budget.</p>",
+            "link_label": "Coming soon",
+            "link": ""
+          }
+        }
+      },
+      "block_order": ["c1", "c2", "c3", "c4"],
+      "settings": {
+        "title": "Four ways to <em>gift with Meru</em>",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 4,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "scheme-3",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 48,
+        "padding_bottom": 48
+      }
+    },
+    "why": {
+      "type": "multicolumn",
+      "blocks": {
+        "c1": {
+          "type": "column",
+          "settings": {
+            "title": "13 years, 4,000+ artisan families",
+            "text": "<p>A design-led craft enterprise turning Indian craft traditions into dignified, sustained livelihoods.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "c2": {
+          "type": "column",
+          "settings": {
+            "title": "One-stop gifting",
+            "text": "<p>In-house design, content, quality checks and box-making — 4,000+ product SKUs, dedicated relationship managers.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "c3": {
+          "type": "column",
+          "settings": {
+            "title": "GST invoice & transparent pricing",
+            "text": "<p>Catalogue prices are per piece or per set; GST extra as applicable. Proper GST invoicing for your accounts team.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "c4": {
+          "type": "column",
+          "settings": {
+            "title": "Bangalore store, pan-India delivery",
+            "text": "<p>Visit us in Gandhinagar, or get orders delivered anywhere in India.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": ["c1", "c2", "c3", "c4"],
+      "settings": {
+        "title": "Why <em>Meru Gifting</em>",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 4,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "scheme-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 48,
+        "padding_bottom": 48
+      }
+    },
+    "clients": {
+      "type": "clients-marquee",
+      "blocks": {},
+      "block_order": [],
+      "settings": {
+        "eyebrow": "Our Clients",
+        "title": "Trusted by <em>150+ brands</em> across India",
+        "subtitle": "From Fortune 500 corporates to institutions and individual collectors.",
+        "speed": 50,
+        "show_text_row": false,
+        "text_brands": "",
+        "show_stats": true,
+        "cta_label": "View All Brands",
+        "cta_link": "/pages/brands",
+        "cta2_label": "Read Reviews (4.9★)",
+        "cta2_link": "/pages/reviews",
+        "color_scheme": "scheme-3",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "cta": {
+      "type": "rich-text",
+      "blocks": {
+        "h": {
+          "type": "heading",
+          "settings": {
+            "heading": "Not sure which gift is right? <em>Just ask.</em>",
+            "heading_size": "h1"
+          }
+        },
+        "t": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Call or WhatsApp us with your occasion, quantity and budget — we'll point you to the right collection.<br/>#273/2, SC Road, 2nd Cross, 1st Floor, Near Annamma Temple, Gandhinagar, Bangalore - 560 009 · merutrophy@gmail.com</p>"
+          }
+        },
+        "b": {
+          "type": "button",
+          "settings": {
+            "button_label": "Call 7892207252",
+            "button_link": "tel:+917892207252",
+            "button_style_secondary": false,
+            "button_label_2": "WhatsApp Now",
+            "button_link_2": "https://wa.me/+917892207252?text=Hi%2C%20I%27m%20interested%20in%20Meru%20Gifting",
+            "button_style_secondary_2": true
+          }
+        }
+      },
+      "block_order": ["h", "t", "b"],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-3",
+        "full_width": true,
+        "padding_top": 56,
+        "padding_bottom": 64
+      }
+    }
+  },
+  "order": ["hero", "categories", "why", "clients", "cta"]
+}
