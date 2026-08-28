@@ -6,14 +6,14 @@
         "head": {
           "type": "heading",
           "settings": {
-            "heading": "MERU GIFTING<br/><strong>One home for every kind of gift</strong>",
+            "heading": "<strong>One home for every kind of gift</strong>",
             "heading_size": "h1"
           }
         },
         "txt": {
           "type": "text",
           "settings": {
-            "text": "<p>Corporate gifts, festive hampers, artisanal mementos and customised gifts — from a design-led craft and gifting studio working with 4,000+ artisan families across 25+ Indian states.</p>",
+            "text": "Corporate gifts, festive hampers, artisanal mementos and customised gifts — from a design-led craft and gifting studio working with 4,000+ artisan families across 25+ Indian states.",
             "text_style": "subtitle"
           }
         },
@@ -25,7 +25,13 @@
             "button_style_secondary_1": false,
             "button_label_2": "WhatsApp Now",
             "button_link_2": "https://wa.me/+917892207252?text=Hi%2C%20I%27m%20interested%20in%20Meru%20Gifting",
-            "button_style_secondary_2": true
+            "button_style_secondary_2": true,
+            "button_label_3": "",
+            "button_link_3": "",
+            "button_style_secondary_3": false,
+            "button_label_4": "",
+            "button_link_4": "",
+            "button_style_secondary_4": false
           }
         }
       },
