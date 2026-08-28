@@ -30,7 +30,12 @@
         "price_col3": "Price (from)",
         "price_caption": "Indicative starting prices. Final price depends on jar count, box size and materials. Bulk discounts apply. GST invoice available.",
         "schema_price_low": "1000",
-        "schema_price_high": "1000"
+        "schema_price_high": "1000",
+        "trust_stats": "2012|Studio established · 4,000+|Artisan families · 393|Hamper styles in stock · Pan-India|Fast delivery",
+        "clients_label": "Trusted by 150+ brands and institutions across India",
+        "show_why": false,
+        "contact_heading": "Talk to a gifting specialist",
+        "contact_text": "Share your occasion, quantity and date — we'll send hamper options and a quote, usually within the hour. Open Mon–Sat, 10am–8pm."
       },
       "blocks": {
         "b0": {
@@ -78,9 +83,33 @@
         "b6": {
           "type": "price_row",
           "settings": {
-            "item": "Festive hamper (all styles)",
-            "spec": "Dry fruit jar boxes, trays, baskets & chocolate boxes",
+            "item": "Dry fruit jar boxes",
+            "spec": "2 to 8-jar sets, Mandir, Ganesha, suitcase & round styles",
             "price": "₹1,000"
+          }
+        },
+        "b6b": {
+          "type": "price_row",
+          "settings": {
+            "item": "Chocolate boxes",
+            "spec": "Assorted chocolate gift boxes, festive designs",
+            "price": "₹1,000"
+          }
+        },
+        "b6c": {
+          "type": "price_row",
+          "settings": {
+            "item": "Hamper trays & baskets",
+            "spec": "Zari baskets, hamper trays, bhaji boxes",
+            "price": "₹1,000"
+          }
+        },
+        "b6d": {
+          "type": "price_row",
+          "settings": {
+            "item": "Custom-branded hamper",
+            "spec": "Any style with company logo or personalised message",
+            "price": "₹1,000 + branding"
           }
         },
         "b7": {
@@ -135,6 +164,9 @@
         "b4",
         "b5",
         "b6",
+        "b6b",
+        "b6c",
+        "b6d",
         "b7",
         "b8",
         "b9",

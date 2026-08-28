@@ -1,49 +1,48 @@
 {
   "sections": {
     "hero": {
-      "type": "rich-text",
+      "type": "image-banner",
       "blocks": {
-        "cap": {
-          "type": "caption",
-          "settings": {
-            "caption": "MERU GIFTING",
-            "text_style": "caption-with-letter-spacing",
-            "text_size": "medium"
-          }
-        },
         "head": {
           "type": "heading",
           "settings": {
-            "heading": "<strong>One home for every kind of gift</strong>",
-            "heading_size": "h0"
+            "heading": "MERU GIFTING<br/><strong>One home for every kind of gift</strong>",
+            "heading_size": "h1"
           }
         },
         "txt": {
           "type": "text",
           "settings": {
-            "text": "<p>Corporate gifts, festive hampers, artisanal mementos and customised gifts — from a design-led craft and gifting studio working with 4,000+ artisan families across India.</p>"
+            "text": "<p>Corporate gifts, festive hampers, artisanal mementos and customised gifts — from a design-led craft and gifting studio working with 4,000+ artisan families across 25+ Indian states.</p>",
+            "text_style": "subtitle"
           }
         },
-        "btn": {
-          "type": "button",
+        "button": {
+          "type": "buttons",
           "settings": {
-            "button_label": "Call 7892207252",
-            "button_link": "tel:+917892207252",
-            "button_style_secondary": false,
+            "button_label_1": "Call 7892207252",
+            "button_link_1": "tel:+917892207252",
+            "button_style_secondary_1": false,
             "button_label_2": "WhatsApp Now",
             "button_link_2": "https://wa.me/+917892207252?text=Hi%2C%20I%27m%20interested%20in%20Meru%20Gifting",
             "button_style_secondary_2": true
           }
         }
       },
-      "block_order": ["cap", "head", "txt", "btn"],
+      "block_order": ["head", "txt", "button"],
+      "custom_css": [],
       "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
+        "image": "shopify://shop_images/p2_x219_a464d6ed-95cc-4469-bff5-9ef4b0a24fa6.jpg",
+        "image_overlay_opacity": 50,
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
         "color_scheme": "scheme-3",
-        "full_width": true,
-        "padding_top": 64,
-        "padding_bottom": 40
+        "image_behavior": "ambient",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": false,
+        "show_text_below": false
       }
     },
     "categories": {
@@ -52,8 +51,9 @@
         "c1": {
           "type": "column",
           "settings": {
+            "image": "shopify://shop_images/MGH-7011-hero-bamboo.jpg",
             "title": "Corporate Gifts",
-            "text": "<p>Bottles, diaries, tech and bags for teams and clients. MOQ 50 pcs, logo branding available.</p>",
+            "text": "<p>Bottles, flasks, diaries, tech and bags for teams and clients — 300+ SKUs across 14 categories. MOQ just 50 pcs, logo branding and full customisation available.</p>",
             "link_label": "Explore Corporate Gifts",
             "link": "/pages/corporate"
           }
@@ -61,8 +61,9 @@
         "c2": {
           "type": "column",
           "settings": {
+            "image": "shopify://shop_images/MG-KLG-002.png",
             "title": "Artisanal Mementos",
-            "text": "<p>Handcrafted Indian heritage art and mementos from 4,000+ artisan families. Sold per piece.</p>",
+            "text": "<p>Bidri metal inlay, Kalaagaan metal craft, wooden and wall art — handcrafted by artisan families across 150+ traditional Indian craft forms. Sold per piece, ready to frame or gift.</p>",
             "link_label": "Explore Artisanal Mementos",
             "link": "/pages/artisanal"
           }
@@ -70,19 +71,21 @@
         "c3": {
           "type": "column",
           "settings": {
+            "image": "shopify://shop_images/p3_x338_11e6c018-d460-4f26-9ad0-bf86aeb911e2.jpg",
             "title": "Festive Hampers",
-            "text": "<p>Curated festive gift hampers for Diwali, New Year and beyond.</p>",
-            "link_label": "Coming soon",
-            "link": ""
+            "text": "<p>Dry fruit jar boxes, sweet trays, chocolate boxes and gift baskets for Diwali, weddings and corporate festive gifting. Branding and personalised messaging available.</p>",
+            "link_label": "Explore Festive Hampers",
+            "link": "/pages/festive-hampers"
           }
         },
         "c4": {
           "type": "column",
           "settings": {
+            "image": "shopify://shop_images/8029-1-hero-black.jpg",
             "title": "Customised Gifts",
-            "text": "<p>Fully personalised gifting built around your brand and budget.</p>",
-            "link_label": "Coming soon",
-            "link": ""
+            "text": "<p>Fully personalised gifting built around your brand and budget — engraving, UV photo printing and bespoke gift kits, designed and mocked up before you pay.</p>",
+            "link_label": "Ask about custom gifts",
+            "link": "https://wa.me/+917892207252?text=Hi%2C%20I%27m%20interested%20in%20a%20customised%20gift"
           }
         }
       },
@@ -91,7 +94,7 @@
         "title": "Four ways to <em>gift with Meru</em>",
         "heading_size": "h1",
         "image_width": "full",
-        "image_ratio": "adapt",
+        "image_ratio": "square",
         "columns_desktop": 4,
         "column_alignment": "left",
         "background_style": "primary",
@@ -110,8 +113,8 @@
         "c1": {
           "type": "column",
           "settings": {
-            "title": "13 years, 4,000+ artisan families",
-            "text": "<p>A design-led craft enterprise turning Indian craft traditions into dignified, sustained livelihoods.</p>",
+            "title": "Est. 2012, 4,000+ artisan families",
+            "text": "<p>Over a decade of preserving Indian craftsmanship — a design-led craft enterprise turning heritage skills into dignified, sustained livelihoods across 25+ states.</p>",
             "link_label": "",
             "link": ""
           }
@@ -119,8 +122,8 @@
         "c2": {
           "type": "column",
           "settings": {
-            "title": "One-stop gifting",
-            "text": "<p>In-house design, content, quality checks and box-making — 4,000+ product SKUs, dedicated relationship managers.</p>",
+            "title": "Award-winning studio",
+            "text": "<p>Sustainable Impact Craft Company (2024), Most Iconic Handloom &amp; Handicraft Works and Social Entrepreneur Award in Art, Craft &amp; Handicrafts (2023).</p>",
             "link_label": "",
             "link": ""
           }
@@ -128,8 +131,8 @@
         "c3": {
           "type": "column",
           "settings": {
-            "title": "GST invoice & transparent pricing",
-            "text": "<p>Catalogue prices are per piece or per set; GST extra as applicable. Proper GST invoicing for your accounts team.</p>",
+            "title": "One-stop gifting",
+            "text": "<p>In-house design, content, quality checks and box-making — 2,500+ bespoke products designed, 2 million+ handcrafted pieces delivered, dedicated relationship managers.</p>",
             "link_label": "",
             "link": ""
           }
@@ -137,8 +140,8 @@
         "c4": {
           "type": "column",
           "settings": {
-            "title": "Bangalore store, pan-India delivery",
-            "text": "<p>Visit us in Gandhinagar, or get orders delivered anywhere in India.</p>",
+            "title": "GST invoice & transparent pricing",
+            "text": "<p>Catalogue prices are per piece or per set; GST extra as applicable. Proper GST invoicing for your accounts team, trusted by 250+ institutional patrons.</p>",
             "link_label": "",
             "link": ""
           }
