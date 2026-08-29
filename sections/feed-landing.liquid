@@ -8,7 +8,7 @@
   gold hover shadow, gold used only as an accent (em-gradient headings, number badges,
   icons, thin rules). Mirrors sections/howto-order-compact.liquid + clients-marquee.
 
-  Blocks: quick_answer, rich_text, feature, stat, price_row, step, faq, cta_band, related_collection
+  Blocks: quick_answer, rich_text, custom_html, feature, stat, price_row, step, faq, cta_band, related_collection
 {%- endcomment -%}
 
 {%- liquid
@@ -271,6 +271,10 @@
           <div class="feed-body" {{ block.shopify_attributes }}>
             {%- if block.settings.heading != blank -%}<h2 class="feed-blocktitle">{{ block.settings.heading }}</h2>{%- endif -%}
             {{ block.settings.text }}
+          </div>
+        {%- when 'custom_html' -%}
+          <div class="feed-custom-html" {{ block.shopify_attributes }}>
+            {{ block.settings.html }}
           </div>
         {%- when 'cta_band' -%}
           <div class="feed-ctaband" {{ block.shopify_attributes }}>
@@ -575,6 +579,9 @@
     { "type": "rich_text", "name": "Rich text", "settings": [
       { "type": "text", "id": "heading", "label": "Heading (H2)" },
       { "type": "richtext", "id": "text", "label": "Body" }
+    ]},
+    { "type": "custom_html", "name": "Custom HTML", "settings": [
+      { "type": "textarea", "id": "html", "label": "Raw HTML", "info": "Rendered unescaped. For designed one-off content blocks." }
     ]},
     { "type": "feature", "name": "Feature", "settings": [
       { "type": "text", "id": "title", "label": "Title" },
