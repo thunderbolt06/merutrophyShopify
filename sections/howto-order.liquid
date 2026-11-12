@@ -1,3 +1,6 @@
+{%- capture mt_wa -%}{% render 'contact-number', format: 'wa' %}{%- endcapture -%}
+{%- capture mt_tel -%}{% render 'contact-number', format: 'tel' %}{%- endcapture -%}
+{%- capture mt_display -%}{% render 'contact-number', format: 'display' %}{%- endcapture -%}
 {%- style -%}
   .section-{{ section.id }}-padding {
     padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
@@ -151,8 +154,8 @@
       </div>
 
       <div class="hto__hero-cta">
-        <a href="https://wa.me/917892207252?text=Hi%20Meru%20Trophy%2C%20I%27d%20like%20to%20order..." target="_blank" rel="noopener" class="button button--primary">WhatsApp to Start</a>
-        <a href="tel:+917892207252" class="button button--secondary">Call +91 78922 07252</a>
+        <a href="https://wa.me/{{ mt_wa }}?text=Hi%20Meru%20Trophy%2C%20I%27d%20like%20to%20order..." target="_blank" rel="noopener" class="button button--primary">WhatsApp to Start</a>
+        <a href="tel:{{ mt_tel }}" class="button button--secondary">Call {{ mt_display }}</a>
         <a href="/pages/contact" class="button button--secondary">Get a Custom Quote</a>
       </div>
     </header>
@@ -245,8 +248,8 @@
       <h2 class="h2">Ready to place your order?</h2>
       <p>Most quotes go out within an hour. Bespoke design previews in 24 hours. Same-day pickup in Bangalore.</p>
       <div class="hto__bottom-cta__actions">
-        <a class="button button--primary" href="https://wa.me/917892207252?text=Hi%20Meru%20Trophy%2C%20I%27d%20like%20a%20quote." target="_blank" rel="noopener">WhatsApp Now</a>
-        <a class="button button--secondary" href="tel:+917892207252">Call +91 78922 07252</a>
+        <a class="button button--primary" href="https://wa.me/{{ mt_wa }}?text=Hi%20Meru%20Trophy%2C%20I%27d%20like%20a%20quote." target="_blank" rel="noopener">WhatsApp Now</a>
+        <a class="button button--secondary" href="tel:{{ mt_tel }}">Call {{ mt_display }}</a>
         <a class="button button--secondary" href="/pages/contact">Email / Quote Form</a>
       </div>
     </section>
