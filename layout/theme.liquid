@@ -717,8 +717,9 @@ function gtag_report_conversion(url) {
       })();
     </script>
 
+    {%- capture mt_wa -%}{% render 'contact-number', format: 'wa' %}{%- endcapture -%}
     <a
-      href="https://wa.me/+917892207252?text=Hi"
+      href="https://wa.me/{{ mt_wa }}?text=Hi"
       target="_blank"
       rel="noopener noreferrer"
       aria-label="Chat on WhatsApp"

@@ -60,8 +60,9 @@
           {%- render 'gift-card-recipient-form', product: product, form: form, section: section -%}
         {%- endif -%}
 
+        {%- capture mt_wa -%}{% render 'contact-number', format: 'wa', item: product %}{%- endcapture -%}
         <a
-          href="https://wa.me/+917892207252?text=Hi%2C%20I%20am%20interested%20in%20{{ product.title | url_encode }}%20-%20{{ product.url | prepend: shop.url | url_encode }}"
+          href="https://wa.me/{{ mt_wa }}?text=Hi%2C%20I%20am%20interested%20in%20{{ product.title | url_encode }}%20-%20{{ product.url | prepend: shop.url | url_encode }}"
           target="_blank"
           rel="noopener noreferrer"
           class="product-form__whatsapp-btn"

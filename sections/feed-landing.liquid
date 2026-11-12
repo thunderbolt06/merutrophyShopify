@@ -11,12 +11,15 @@
   Blocks: quick_answer, rich_text, custom_html, feature, stat, price_row, step, faq, cta_band, related_collection
 {%- endcomment -%}
 
+{%- capture wa_number -%}{% render 'contact-number', format: 'wa' %}{%- endcapture -%}
+{%- capture phone_display -%}{% render 'contact-number', format: 'display' %}{%- endcapture -%}
+{%- capture phone_tel -%}{% render 'contact-number', format: 'tel' %}{%- endcapture -%}
 {%- liquid
-  assign wa_number = '917892207252'
-  assign phone_display = '+91 78922 07252'
-  assign phone_tel = '+917892207252'
   assign phone2_display = '+91 94801 50888'
   assign phone2_tel = '+919480150888'
+  if phone_tel != '+917892207252'
+    assign phone2_display = blank
+  endif
   assign email = 'merutrophy@gmail.com'
 
   assign primary_url = section.settings.primary_cta_url
@@ -432,7 +435,7 @@
             <div class="feed-contact__lines">
               <div class="feed-contact__line">
                 <svg class="feed-contact__ic" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
-                <a href="tel:{{ phone_tel }}">{{ phone_display }}</a> &nbsp;·&nbsp; <a href="tel:{{ phone2_tel }}">{{ phone2_display }}</a>
+                <a href="tel:{{ phone_tel }}">{{ phone_display }}</a>{% if phone2_display != blank %} &nbsp;·&nbsp; <a href="tel:{{ phone2_tel }}">{{ phone2_display }}</a>{% endif %}
               </div>
               <div class="feed-contact__line">
                 <svg class="feed-contact__ic" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>

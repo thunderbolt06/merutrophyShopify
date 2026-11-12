@@ -4,6 +4,7 @@
   Usage:
   {% render 'header-mega-menu' %}
 {% endcomment %}
+{%- capture mt_digits -%}{% render 'contact-number' %}{%- endcapture -%}
 
 <nav class="header__inline-menu">
   <ul class="list-menu list-menu--inline" role="list">
@@ -21,7 +22,7 @@
                     class="header__active-menu-item"
                   {% endif %}
                 >
-                  {{- link.title | escape -}}
+                  {{- link.title | replace: '7892207252', mt_digits | escape -}}
                 </span>
                 {{- 'icon-caret.svg' | inline_asset_content -}}
               </summary>
@@ -38,13 +39,13 @@
                     <li>
                       <a
                         id="HeaderMenu-{{ link.handle }}-{{ childlink.handle }}"
-                        href="{{ childlink.url }}"
+                        href="{{ childlink.url | replace: '7892207252', mt_digits }}"
                         class="mega-menu__link mega-menu__link--level-2 link{% if childlink.current %} mega-menu__link--active{% endif %}"
                         {% if childlink.current %}
                           aria-current="page"
                         {% endif %}
                       >
-                        {{ childlink.title | escape }}
+                        {{ childlink.title | replace: '7892207252', mt_digits | escape }}
                       </a>
                       {%- if childlink.links != blank -%}
                         <ul class="list-unstyled" role="list">
@@ -52,13 +53,13 @@
                             <li>
                               <a
                                 id="HeaderMenu-{{ link.handle }}-{{ childlink.handle }}-{{ grandchildlink.handle }}"
-                                href="{{ grandchildlink.url }}"
+                                href="{{ grandchildlink.url | replace: '7892207252', mt_digits }}"
                                 class="mega-menu__link link{% if grandchildlink.current %} mega-menu__link--active{% endif %}"
                                 {% if grandchildlink.current %}
                                   aria-current="page"
                                 {% endif %}
                               >
-                                {{ grandchildlink.title | escape }}
+                                {{ grandchildlink.title | replace: '7892207252', mt_digits | escape }}
                               </a>
                             </li>
                           {%- endfor -%}
@@ -73,7 +74,7 @@
         {%- else -%}
           <a
             id="HeaderMenu-{{ link.handle }}"
-            href="{{ link.url }}"
+            href="{{ link.url | replace: '7892207252', mt_digits }}"
             class="header__menu-item list-menu__item link link--text focus-inset"
             {% if link.current %}
               aria-current="page"
@@ -84,7 +85,7 @@
                 class="header__active-menu-item"
               {% endif %}
             >
-              {{- link.title | escape -}}
+              {{- link.title | replace: '7892207252', mt_digits | escape -}}
             </span>
           </a>
         {%- endif -%}

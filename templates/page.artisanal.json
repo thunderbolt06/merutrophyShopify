@@ -27,11 +27,11 @@
         "btn": {
           "type": "button",
           "settings": {
-            "button_label": "Call 7892207252",
-            "button_link": "tel:+917892207252",
+            "button_label": "Call 7892255078",
+            "button_link": "tel:+917892255078",
             "button_style_secondary": false,
             "button_label_2": "WhatsApp Now",
-            "button_link_2": "https://wa.me/+917892207252?text=Hi%2C%20I%27m%20interested%20in%20Artisanal%20Mementos",
+            "button_link_2": "https://wa.me/+917892255078?text=Hi%2C%20I%27m%20interested%20in%20Artisanal%20Mementos",
             "button_style_secondary_2": true
           }
         }
@@ -254,7 +254,7 @@
           "settings": {
             "heading": "Can I buy just one piece, or is there a minimum order?",
             "icon": "question_mark",
-            "row_content": "<p>Artisanal Mementos are sold <strong>per piece</strong> — no minimum order quantity. For bulk corporate gifting quantities, talk to us on <a href=\"tel:+917892207252\">+91 78922 07252</a>.</p>",
+            "row_content": "<p>Artisanal Mementos are sold <strong>per piece</strong> — no minimum order quantity. For bulk corporate gifting quantities, talk to us on <a href=\"tel:+917892255078\">+91 78922 55078</a>.</p>",
             "page": ""
           }
         },
@@ -330,11 +330,11 @@
         "b": {
           "type": "button",
           "settings": {
-            "button_label": "Call 7892207252",
-            "button_link": "tel:+917892207252",
+            "button_label": "Call 7892255078",
+            "button_link": "tel:+917892255078",
             "button_style_secondary": false,
             "button_label_2": "WhatsApp Now",
-            "button_link_2": "https://wa.me/+917892207252?text=Hi%2C%20I%27m%20interested%20in%20Artisanal%20Mementos",
+            "button_link_2": "https://wa.me/+917892255078?text=Hi%2C%20I%27m%20interested%20in%20Artisanal%20Mementos",
             "button_style_secondary_2": true
           }
         }

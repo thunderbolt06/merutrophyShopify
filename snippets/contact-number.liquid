@@ -1,0 +1,55 @@
+{%- comment -%}
+  Contact number switch — prints the WhatsApp / call number for the current page.
+
+  Meru Gifting pages, collections and products use the gifting line; everything
+  else uses the main Meru Trophy line. Edit the numbers or lists below to change it.
+
+  Usage:
+    {%- capture wa -%}{% render 'contact-number', format: 'wa' %}{%- endcapture -%}
+
+  Params:
+    format: 'wa'      -> 917892255078        (for https://wa.me/...)
+            'tel'     -> +917892255078       (for tel:...)
+            'display' -> +91 78922 55078
+            'digits'  -> 7892255078          (default)
+    item:   optional product to check (defaults to the page's product)
+{%- endcomment -%}
+
+{%- liquid
+  assign mt_gift_pages = 'gifting,festive-hampers,artisanal' | split: ','
+  assign mt_gift_collections = 'corporate-gifting,artisanal-mementos' | split: ','
+
+  assign mt_item = item | default: product
+  assign mt_gift = false
+
+  if request.page_type == 'page' and mt_gift_pages contains page.handle
+    assign mt_gift = true
+  elsif request.page_type == 'collection' and mt_gift_collections contains collection.handle
+    assign mt_gift = true
+  endif
+
+  if mt_item != blank
+    if mt_item.vendor == 'Meru Gifting' or mt_item.tags contains 'meru-gifting'
+      assign mt_gift = true
+    endif
+  endif
+
+  if mt_gift
+    assign mt_digits = '7892255078'
+    assign mt_display = '+91 78922 55078'
+  else
+    assign mt_digits = '7892207252'
+    assign mt_display = '+91 78922 07252'
+  endif
+
+  case format
+    when 'wa'
+      echo '91' | append: mt_digits
+    when 'tel'
+      echo '+91' | append: mt_digits
+    when 'display'
+      echo mt_display
+    else
+      echo mt_digits
+  endcase
+-%}

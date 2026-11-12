@@ -20,11 +20,11 @@
         "button": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Call 7892207252",
-            "button_link_1": "tel:+917892207252",
+            "button_label_1": "Call 7892255078",
+            "button_link_1": "tel:+917892255078",
             "button_style_secondary_1": false,
             "button_label_2": "WhatsApp Now",
-            "button_link_2": "https://wa.me/+917892207252?text=Hi%2C%20I%27m%20interested%20in%20Meru%20Gifting",
+            "button_link_2": "https://wa.me/+917892255078?text=Hi%2C%20I%27m%20interested%20in%20Meru%20Gifting",
             "button_style_secondary_2": true,
             "button_label_3": "",
             "button_link_3": "",
@@ -261,11 +261,11 @@
         "b": {
           "type": "button",
           "settings": {
-            "button_label": "Call 7892207252",
-            "button_link": "tel:+917892207252",
+            "button_label": "Call 7892255078",
+            "button_link": "tel:+917892255078",
             "button_style_secondary": false,
             "button_label_2": "WhatsApp Now",
-            "button_link_2": "https://wa.me/+917892207252?text=Hi%2C%20I%27m%20interested%20in%20Meru%20Gifting",
+            "button_link_2": "https://wa.me/+917892255078?text=Hi%2C%20I%27m%20interested%20in%20Meru%20Gifting",
             "button_style_secondary_2": true
           }
         }

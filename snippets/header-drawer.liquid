@@ -4,6 +4,7 @@
   Usage:
   {% render 'header-drawer' %}
 {% endcomment %}
+{%- capture mt_digits -%}{% render 'contact-number' %}{%- endcapture -%}
 
 <header-drawer data-breakpoint="{% if section.settings.menu_type_desktop == 'drawer' %}desktop{% else %}tablet{% endif %}">
   <details id="Details-menu-drawer-container" class="menu-drawer-container">
@@ -29,7 +30,7 @@
                         id="HeaderDrawer-{{ link.handle }}"
                         class="menu-drawer__menu-item list-menu__item link link--text focus-inset{% if link.child_active %} menu-drawer__menu-item--active{% endif %}"
                       >
-                        {{ link.title | escape }}
+                        {{ link.title | replace: '7892207252', mt_digits | escape }}
                         <span class="svg-wrapper">
                           {{- 'icon-arrow.svg' | inline_asset_content -}}
                         </span>
@@ -47,7 +48,7 @@
                             <span class="svg-wrapper">
                               {{- 'icon-arrow.svg' | inline_asset_content -}}
                             </span>
-                            {{ link.title | escape }}
+                            {{ link.title | replace: '7892207252', mt_digits | escape }}
                           </button>
                           <ul class="menu-drawer__menu list-menu" role="list" tabindex="-1">
                             {%- for childlink in link.links -%}
@@ -55,13 +56,13 @@
                                 {%- if childlink.links == blank -%}
                                   <a
                                     id="HeaderDrawer-{{ link.handle }}-{{ childlink.handle }}"
-                                    href="{{ childlink.url }}"
+                                    href="{{ childlink.url | replace: '7892207252', mt_digits }}"
                                     class="menu-drawer__menu-item link link--text list-menu__item focus-inset{% if childlink.current %} menu-drawer__menu-item--active{% endif %}"
                                     {% if childlink.current %}
                                       aria-current="page"
                                     {% endif %}
                                   >
-                                    {{ childlink.title | escape }}
+                                    {{ childlink.title | replace: '7892207252', mt_digits | escape }}
                                   </a>
                                 {%- else -%}
                                   <details id="Details-menu-drawer-{{ link.handle }}-{{ childlink.handle }}">
@@ -69,7 +70,7 @@
                                       id="HeaderDrawer-{{ link.handle }}-{{ childlink.handle }}"
                                       class="menu-drawer__menu-item link link--text list-menu__item focus-inset"
                                     >
-                                      {{ childlink.title | escape }}
+                                      {{ childlink.title | replace: '7892207252', mt_digits | escape }}
                                       <span class="svg-wrapper">
                                         {{- 'icon-arrow.svg' | inline_asset_content -}}
                                       </span>
@@ -88,7 +89,7 @@
                                         <span class="svg-wrapper">
                                           {{- 'icon-arrow.svg' | inline_asset_content -}}
                                         </span>
-                                        {{ childlink.title | escape }}
+                                        {{ childlink.title | replace: '7892207252', mt_digits | escape }}
                                       </button>
                                       <ul
                                         class="menu-drawer__menu list-menu"
@@ -99,13 +100,13 @@
                                           <li>
                                             <a
                                               id="HeaderDrawer-{{ link.handle }}-{{ childlink.handle }}-{{ grandchildlink.handle }}"
-                                              href="{{ grandchildlink.url }}"
+                                              href="{{ grandchildlink.url | replace: '7892207252', mt_digits }}"
                                               class="menu-drawer__menu-item link link--text list-menu__item focus-inset{% if grandchildlink.current %} menu-drawer__menu-item--active{% endif %}"
                                               {% if grandchildlink.current %}
                                                 aria-current="page"
                                               {% endif %}
                                             >
-                                              {{ grandchildlink.title | escape }}
+                                              {{ grandchildlink.title | replace: '7892207252', mt_digits | escape }}
                                             </a>
                                           </li>
                                         {%- endfor -%}
@@ -122,13 +123,13 @@
                   {%- else -%}
                     <a
                       id="HeaderDrawer-{{ link.handle }}"
-                      href="{{ link.url }}"
+                      href="{{ link.url | replace: '7892207252', mt_digits }}"
                       class="menu-drawer__menu-item list-menu__item link link--text focus-inset{% if link.current %} menu-drawer__menu-item--active{% endif %}"
                       {% if link.current %}
                         aria-current="page"
                       {% endif %}
                     >
-                      {{ link.title | escape }}
+                      {{ link.title | replace: '7892207252', mt_digits | escape }}
                     </a>
                   {%- endif -%}
                 </li>
