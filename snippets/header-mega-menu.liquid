@@ -8,7 +8,7 @@
 
 <nav class="header__inline-menu">
   <ul class="list-menu list-menu--inline" role="list">
-    {%- for link in section.settings.menu.links -%}
+    {%- for link in section.settings.menu.links -%}{%- if link.url contains 'tel:' -%}{%- continue -%}{%- endif -%}
       <li>
         {%- if link.links != blank -%}
           <header-menu>
@@ -35,7 +35,7 @@
                   class="mega-menu__list page-width{% if link.levels == 1 %} mega-menu__list--condensed{% endif %}"
                   role="list"
                 >
-                  {%- for childlink in link.links -%}
+                  {%- for childlink in link.links -%}{%- if childlink.url contains 'tel:' -%}{%- continue -%}{%- endif -%}
                     <li>
                       <a
                         id="HeaderMenu-{{ link.handle }}-{{ childlink.handle }}"
@@ -49,7 +49,7 @@
                       </a>
                       {%- if childlink.links != blank -%}
                         <ul class="list-unstyled" role="list">
-                          {%- for grandchildlink in childlink.links -%}
+                          {%- for grandchildlink in childlink.links -%}{%- if grandchildlink.url contains 'tel:' -%}{%- continue -%}{%- endif -%}
                             <li>
                               <a
                                 id="HeaderMenu-{{ link.handle }}-{{ childlink.handle }}-{{ grandchildlink.handle }}"

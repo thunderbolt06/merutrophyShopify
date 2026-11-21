@@ -699,7 +699,20 @@ function gtag_report_conversion(url) {
                 value: (cart.total_price / 100)
               });
             }
-            window.open(url, '_blank', 'noopener,noreferrer');
+            if (window.mtWaForm) {
+              // Ask for name, contact, quantity and time in hand first, then put them at the top of the order message.
+              var header = lines.shift();
+              window.mtWaForm.open({
+                phone: '917892207252',
+                qty: cart.item_count,
+                source: 'cart',
+                buildMessage: function (d) {
+                  return [header, '', 'Name: ' + d.name, 'Contact number: ' + d.phone, 'Quantity: ' + d.qty, 'Time in hand: ' + d.time].concat(lines).join('\n');
+                }
+              });
+            } else {
+              window.open(url, '_blank', 'noopener,noreferrer');
+            }
           } catch (err) {
             console.error('WhatsApp order error:', err);
             alert('Could not fetch cart. Please try again.');
@@ -749,5 +762,6 @@ function gtag_report_conversion(url) {
       </svg>
       <span style="color:white;font-weight:600;font-size:14px;white-space:nowrap;letter-spacing:0.2px;">WhatsApp</span>
     </a>
+    {% render 'whatsapp-lead-form' %}
   </body>
 </html>

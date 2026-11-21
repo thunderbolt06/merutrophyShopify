@@ -22,7 +22,7 @@
         <div class="menu-drawer__navigation-container">
           <nav class="menu-drawer__navigation">
             <ul class="menu-drawer__menu has-submenu list-menu" role="list">
-              {%- for link in section.settings.menu.links -%}
+              {%- for link in section.settings.menu.links -%}{%- if link.url contains 'tel:' -%}{%- continue -%}{%- endif -%}
                 <li>
                   {%- if link.links != blank -%}
                     <details id="Details-menu-drawer-menu-item-{{ forloop.index }}">
@@ -51,7 +51,7 @@
                             {{ link.title | replace: '7892207252', mt_digits | escape }}
                           </button>
                           <ul class="menu-drawer__menu list-menu" role="list" tabindex="-1">
-                            {%- for childlink in link.links -%}
+                            {%- for childlink in link.links -%}{%- if childlink.url contains 'tel:' -%}{%- continue -%}{%- endif -%}
                               <li>
                                 {%- if childlink.links == blank -%}
                                   <a
@@ -96,7 +96,7 @@
                                         role="list"
                                         tabindex="-1"
                                       >
-                                        {%- for grandchildlink in childlink.links -%}
+                                        {%- for grandchildlink in childlink.links -%}{%- if grandchildlink.url contains 'tel:' -%}{%- continue -%}{%- endif -%}
                                           <li>
                                             <a
                                               id="HeaderDrawer-{{ link.handle }}-{{ childlink.handle }}-{{ grandchildlink.handle }}"
