@@ -23,22 +23,22 @@
     </div>
     <form class="mtwa__form" id="mtwa-form" novalidate>
       <label class="mtwa__field">
-        <span>Name</span>
-        <input type="text" name="name" autocomplete="name" required maxlength="80" placeholder="Your name">
+        <span>Name <em>(optional)</em></span>
+        <input type="text" name="name" autocomplete="name" maxlength="80" placeholder="Your name">
       </label>
       <label class="mtwa__field">
-        <span>Contact number</span>
+        <span>Contact number <b aria-hidden="true">*</b></span>
         <input type="tel" name="phone" autocomplete="tel" inputmode="tel" required maxlength="20" placeholder="10-digit mobile number">
       </label>
       <div class="mtwa__row">
         <label class="mtwa__field">
-          <span>Quantity</span>
-          <input type="number" name="qty" inputmode="numeric" min="1" max="100000" step="1" required placeholder="e.g. 25">
+          <span>Quantity <em>(optional)</em></span>
+          <input type="number" name="qty" inputmode="numeric" min="1" max="100000" step="1" placeholder="e.g. 25">
         </label>
         <label class="mtwa__field">
-          <span>Time in hand</span>
-          <select name="time" required>
-            <option value="" disabled selected>Select</option>
+          <span>Time in hand <em>(optional)</em></span>
+          <select name="time">
+            <option value="" selected>Select</option>
             <option>Within 2 days (urgent)</option>
             <option>3 to 7 days</option>
             <option>1 to 2 weeks</option>
@@ -47,6 +47,10 @@
           </select>
         </label>
       </div>
+      <label class="mtwa__field">
+        <span>Description <em>(optional)</em></span>
+        <textarea name="desc" rows="3" maxlength="1000" placeholder="What do you need? e.g. product, event, engraving text, budget"></textarea>
+      </label>
       <p class="mtwa__error" id="mtwa-error" role="alert" hidden></p>
       <button type="submit" class="mtwa__submit">Continue to WhatsApp</button>
     </form>
@@ -66,9 +70,12 @@
   .mtwa__form { display: flex; flex-direction: column; gap: 12px; }
   .mtwa__row { display: grid; grid-template-columns: 1fr 1.3fr; gap: 12px; }
   .mtwa__field { display: flex; flex-direction: column; gap: 5px; font-size: 13px; font-weight: 600; color: #333; letter-spacing: 0; }
+  .mtwa__field em { font-style: normal; font-weight: 400; color: #888; }
+  .mtwa__field b { color: #d93025; font-weight: 600; }
+  .mtwa__field textarea { width: 100%; box-sizing: border-box; min-height: 84px; padding: 10px 12px; font-size: 16px; line-height: 1.4; font-family: inherit; color: #1a1a1a; background: #fff; border: 1px solid #cfcfcf; border-radius: 10px; outline: none; resize: vertical; }
   .mtwa__field input, .mtwa__field select { width: 100%; box-sizing: border-box; height: 46px; padding: 0 12px; font-size: 16px; font-family: inherit; color: #1a1a1a; background: #fff; border: 1px solid #cfcfcf; border-radius: 10px; outline: none; -webkit-appearance: none; appearance: none; }
   .mtwa__field select { background-image: linear-gradient(45deg, transparent 50%, #666 50%), linear-gradient(135deg, #666 50%, transparent 50%); background-position: calc(100% - 18px) 20px, calc(100% - 13px) 20px; background-size: 5px 5px; background-repeat: no-repeat; padding-right: 30px; }
-  .mtwa__field input:focus, .mtwa__field select:focus { border-color: #25D366; box-shadow: 0 0 0 3px rgba(37,211,102,.2); }
+  .mtwa__field input:focus, .mtwa__field select:focus, .mtwa__field textarea:focus { border-color: #25D366; box-shadow: 0 0 0 3px rgba(37,211,102,.2); }
   .mtwa__field .is-invalid { border-color: #d93025; }
   .mtwa__error { margin: 0; font-size: 13px; color: #d93025; }
   .mtwa__submit { margin-top: 4px; height: 50px; border: 0; border-radius: 25px; background: #25D366; color: #fff; font-size: 16px; font-weight: 700; font-family: inherit; cursor: pointer; letter-spacing: .2px; }
@@ -84,7 +91,7 @@
     var errEl = document.getElementById('mtwa-error');
     if (!root || !form) return;
     var DEFAULT_PHONE = '917892207252';
-    var F = { name: form.querySelector('[name=name]'), phone: form.querySelector('[name=phone]'), qty: form.querySelector('[name=qty]'), time: form.querySelector('[name=time]') };
+    var F = { name: form.querySelector('[name=name]'), phone: form.querySelector('[name=phone]'), qty: form.querySelector('[name=qty]'), time: form.querySelector('[name=time]'), desc: form.querySelector('[name=desc]') };
     var current = null;
     var lastFocus = null;
 
@@ -123,7 +130,7 @@
       F.qty.value = current.qty ? String(current.qty) : '';
       root.hidden = false;
       document.body.classList.add('mtwa-open');
-      var first = [F.name, F.phone, F.qty, F.time].find(function (el) { return !el.value; }) || F.qty;
+      var first = !F.phone.value ? F.phone : (!F.name.value ? F.name : F.qty);
       setTimeout(function () { try { first.focus({ preventScroll: true }); } catch (e) { first.focus(); } }, 30);
     }
 
@@ -146,13 +153,19 @@
       var phone = F.phone.value.trim();
       var qty = F.qty.value.trim();
       var time = F.time.value;
-      if (!name) return fail('Please enter your name.', F.name);
+      var desc = F.desc.value.trim();
       if (phone.replace(/\D/g, '').length < 10) return fail('Please enter a valid contact number.', F.phone);
-      if (!qty || !(parseInt(qty, 10) > 0)) return fail('Please enter the quantity you need.', F.qty);
-      if (!time) return fail('Please choose how much time you have.', F.time);
-      store('mtwa_name', name); store('mtwa_phone', phone);
+      if (name) store('mtwa_name', name);
+      store('mtwa_phone', phone);
 
-      var details = { name: name, phone: phone, qty: qty, time: time };
+      // Only the contact number is required; blank optional fields are left out of the message.
+      var lines = [];
+      if (name) lines.push('Name: ' + name);
+      lines.push('Contact number: ' + phone);
+      if (qty) lines.push('Quantity: ' + qty);
+      if (time) lines.push('Time in hand: ' + time);
+      if (desc) lines.push('Description: ' + desc);
+      var details = { name: name, phone: phone, qty: qty, time: time, desc: desc, lines: lines };
       var c = current || {};
       var message;
       if (typeof c.buildMessage === 'function') {
@@ -160,16 +173,12 @@
       } else {
         message = [
           opener(c.text),
-          '',
-          'Name: ' + name,
-          'Contact number: ' + phone,
-          'Quantity: ' + qty,
-          'Time in hand: ' + time,
-        ].concat(opener(c.text).indexOf(window.location.pathname) > -1 && window.location.pathname !== '/' ? [] : ['', pageLine()]).join('\n');
+          ''
+        ].concat(lines).concat(opener(c.text).indexOf(window.location.pathname) > -1 && window.location.pathname !== '/' ? [] : ['', pageLine()]).join('\n');
       }
       var url = 'https://wa.me/' + (c.phone || DEFAULT_PHONE) + '?text=' + encodeURIComponent(message);
       if (window.gtag) {
-        window.gtag('event', 'whatsapp_form_submit', { event_category: 'whatsapp', event_label: c.source || window.location.pathname, quantity: parseInt(qty, 10) || 0, time_in_hand: time });
+        window.gtag('event', 'whatsapp_form_submit', { event_category: 'whatsapp', event_label: c.source || window.location.pathname, quantity: parseInt(qty, 10) || 0, time_in_hand: time || 'not given' });
       }
       close();
       var w = window.open(url, '_blank', 'noopener,noreferrer');

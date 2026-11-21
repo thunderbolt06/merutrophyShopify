@@ -707,7 +707,7 @@ function gtag_report_conversion(url) {
                 qty: cart.item_count,
                 source: 'cart',
                 buildMessage: function (d) {
-                  return [header, '', 'Name: ' + d.name, 'Contact number: ' + d.phone, 'Quantity: ' + d.qty, 'Time in hand: ' + d.time].concat(lines).join('\n');
+                  return [header, ''].concat(d.lines, lines).join('\n');
                 }
               });
             } else {
