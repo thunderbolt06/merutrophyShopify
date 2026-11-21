@@ -6,6 +6,10 @@
   then opens WhatsApp with those details as the first message. The number comes
   from the clicked link, so Meru Gifting pages keep the gifting line.
 
+  On submit the details are also saved as a Shopify customer (tag whatsapp-lead)
+  through the Supabase function wa-lead (code in ../wa-lead), sent with sendBeacon so WhatsApp
+  opens without waiting.
+
   Other scripts can open it too:
     window.mtWaForm.open({ phone: '917892207252', text: 'Opening line', qty: 3, buildMessage: fn })
 {%- endcomment -%}
@@ -22,6 +26,7 @@
       </div>
     </div>
     <form class="mtwa__form" id="mtwa-form" novalidate>
+      <input type="text" name="website" tabindex="-1" autocomplete="off" aria-hidden="true" style="position:absolute;left:-9999px;width:1px;height:1px;opacity:0">
       <label class="mtwa__field">
         <span>Name <em>(optional)</em></span>
         <input type="text" name="name" autocomplete="name" maxlength="80" placeholder="Your name">
@@ -91,6 +96,7 @@
     var errEl = document.getElementById('mtwa-error');
     if (!root || !form) return;
     var DEFAULT_PHONE = '917892207252';
+    var LEAD_URL = 'https://zfupgqfkkspxyybdxted.supabase.co/functions/v1/wa-lead';
     var F = { name: form.querySelector('[name=name]'), phone: form.querySelector('[name=phone]'), qty: form.querySelector('[name=qty]'), time: form.querySelector('[name=time]'), desc: form.querySelector('[name=desc]') };
     var current = null;
     var lastFocus = null;
@@ -114,6 +120,15 @@
       var t = (text || '').trim().replace(/\.{2,}$/, '').trim();
       if (!t || /^h(i|ello|ey)[\s!.,]*$/i.test(t)) return 'Hi Meru Trophy, I would like a quote.';
       return t;
+    }
+
+    // Fire-and-forget: never delay opening WhatsApp on this.
+    function saveLead(data) {
+      try {
+        var json = JSON.stringify(data);
+        if (navigator.sendBeacon && navigator.sendBeacon(LEAD_URL, new Blob([json], { type: 'text/plain' }))) return;
+        fetch(LEAD_URL, { method: 'POST', body: json, headers: { 'Content-Type': 'text/plain' }, keepalive: true, mode: 'cors' }).catch(function () {});
+      } catch (e) {}
     }
 
     function pageLine() {
@@ -176,13 +191,23 @@
           ''
         ].concat(lines).concat(opener(c.text).indexOf(window.location.pathname) > -1 && window.location.pathname !== '/' ? [] : ['', pageLine()]).join('\n');
       }
-      var url = 'https://wa.me/' + (c.phone || DEFAULT_PHONE) + '?text=' + encodeURIComponent(message);
+      var waPhone = c.phone || DEFAULT_PHONE;
+      var url = 'https://wa.me/' + waPhone + '?text=' + encodeURIComponent(message);
+      saveLead({
+        name: name, phone: phone, qty: qty, time: time, desc: desc,
+        page: window.location.origin + window.location.pathname,
+        source: c.source || 'link', wa: waPhone,
+        cart: c.source === 'cart' ? message : '',
+        website: (form.querySelector('[name=website]') || {}).value || ''
+      });
       if (window.gtag) {
         window.gtag('event', 'whatsapp_form_submit', { event_category: 'whatsapp', event_label: c.source || window.location.pathname, quantity: parseInt(qty, 10) || 0, time_in_hand: time || 'not given' });
       }
       close();
-      var w = window.open(url, '_blank', 'noopener,noreferrer');
-      if (!w) window.location.href = url;
+      // No 'noopener' feature here: with it window.open always returns null and the
+      // fallback would also navigate this tab away.
+      var w = window.open(url, '_blank');
+      if (w) { try { w.opener = null; } catch (err) {} } else { window.location.href = url; }
     });
 
     root.addEventListener('click', function (e) { if (e.target.closest('[data-mtwa-close]')) close(); });
